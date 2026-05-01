@@ -1,0 +1,187 @@
+[
+  {
+    "id": "4",
+    "spriteId": 10059,
+    "name": { "ko": "루카리오", "en": "Lucario", "ja": "ルカリオ" },
+    "role": "Balance",
+    "difficulty": "Intermediate",
+    "imageUrl": "https://placehold.co/80x80/4169E1/FFF?text=LUC"
+  },
+  {
+    "id": "7",
+    "spriteId": 3,
+    "name": { "ko": "이상해꽃", "en": "Venusaur", "ja": "フシギバナ" },
+    "role": "Attack",
+    "difficulty": "Novice",
+    "imageUrl": "https://placehold.co/80x80/78C850/FFF?text=VNS"
+  },
+  {
+    "id": "31",
+    "spriteId": 887,
+    "name": { "ko": "드래펄트", "en": "Dragapult", "ja": "ドラパルト" },
+    "role": "Attack",
+    "difficulty": "Expert",
+    "imageUrl": "https://placehold.co/80x80/6890F0/FFF?text=DRP"
+  },
+  {
+    "id": "53",
+    "spriteId": 609,
+    "name": { "ko": "샹델라", "en": "Chandelure", "ja": "シャンデラ" },
+    "role": "Attack",
+    "difficulty": "Expert",
+    "imageUrl": "https://placehold.co/80x80/7B68EE/FFF?text=CHN"
+  },
+  {
+    "id": "54",
+    "spriteId": 149,
+    "name": { "ko": "망나뇽", "en": "Dragonite", "ja": "カイリュー" },
+    "role": "Balance",
+    "difficulty": "Intermediate",
+    "imageUrl": "https://placehold.co/80x80/FF9800/FFF?text=DRG"
+  },
+  {
+    "id": "55",
+    "spriteId": 245,
+    "name": { "ko": "스이쿤", "en": "Suicune", "ja": "スイクン" },
+    "role": "Balance",
+    "difficulty": "Intermediate",
+    "imageUrl": "https://placehold.co/80x80/4FC3F7/000?text=SUI"
+  },
+  {
+    "id": "56",
+    "spriteId": 865,
+    "name": { "ko": "창파나이트", "en": "Sirfetch'd", "ja": "ネギガナイト" },
+    "role": "Balance",
+    "difficulty": "Intermediate",
+    "imageUrl": "https://placehold.co/80x80/78C850/FFF?text=SRF"
+  },
+  {
+    "id": "57",
+    "spriteId": 52,
+    "name": { "ko": "나옹", "en": "Meowth", "ja": "ニャース" },
+    "role": "Speed",
+    "difficulty": "Novice",
+    "imageUrl": "https://placehold.co/80x80/F8D030/000?text=MWT"
+  },
+  {
+    "id": "58",
+    "spriteId": 145,
+    "name": { "ko": "썬더", "en": "Zapdos", "ja": "サンダー" },
+    "role": "Attack",
+    "difficulty": "Expert",
+    "imageUrl": "https://placehold.co/80x80/F8D030/000?text=ZPD"
+  },
+  {
+    "id": "59",
+    "spriteId": 134,
+    "name": { "ko": "샤미드", "en": "Vaporeon", "ja": "シャワーズ" },
+    "role": "Defense",
+    "difficulty": "Novice",
+    "imageUrl": "https://placehold.co/80x80/6890F0/FFF?text=VPR"
+  },
+  {
+    "id": "60",
+    "spriteId": 146,
+    "name": { "ko": "파이어", "en": "Moltres", "ja": "ファイヤー" },
+    "role": "Balance",
+    "difficulty": "Intermediate",
+    "imageUrl": "https://placehold.co/80x80/F08030/FFF?text=MLT"
+  },
+  {
+    "id": "61",
+    "spriteId": 184,
+    "name": { "ko": "마릴리", "en": "Azumarill", "ja": "マリルリ" },
+    "role": "Balance",
+    "difficulty": "Intermediate",
+    "imageUrl": ""
+  },
+  {
+    "id": "62",
+    "spriteId": 807,
+    "name": { "ko": "제라오라", "en": "Zeraora", "ja": "ゼラオラ" },
+    "role": "Speed",
+    "difficulty": "Expert",
+    "imageUrl": ""
+  },
+  {
+    "id": "63",
+    "spriteId": 10104,
+    "name": { "ko": "알로라나인테일", "en": "Alolan Ninetales", "ja": "アローラキュウコン" },
+    "role": "Attack",
+    "difficulty": "Intermediate",
+    "imageUrl": ""
+  },
+
+  {
+    "id": "64",
+    "spriteId": 143,
+    "name": { "ko": "잠만보", "en": "Snorlax", "ja": "カビゴン" },
+    "role": "Defense",
+    "difficulty": "Novice",
+    "imageUrl": ""
+  },
+  {
+    "id": "65",
+    "spriteId": 196,
+    "name": { "ko": "에브이", "en": "Espeon", "ja": "エーフィ" },
+    "role": "Attack",
+    "difficulty": "Expert",
+    "imageUrl": ""
+  },
+  {
+    "id": "66",
+    "spriteId": 571,
+    "name": { "ko": "조로아크", "en": "Zoroark", "ja": "ゾロアーク" },
+    "role": "Speed",
+    "difficulty": "Expert",
+    "imageUrl": ""
+  },
+  {
+    "id": "67",
+    "spriteId": 36,
+    "name": { "ko": "픽시", "en": "Clefable", "ja": "ピクシー" },
+    "role": "Support",
+    "difficulty": "Novice",
+    "imageUrl": ""
+  },
+  {
+    "id": "68",
+    "spriteId": 9,
+    "name": { "ko": "거북왕", "en": "Blastoise", "ja": "カメックス" },
+    "role": "Defense",
+    "difficulty": "Intermediate",
+    "imageUrl": ""
+  },
+  {
+    "id": "69",
+    "spriteId": 10034,
+    "name": { "ko": "메가리자몽X", "en": "Mega Charizard X", "ja": "メガリザードンX" },
+    "role": "Balance",
+    "difficulty": "Expert",
+    "imageUrl": ""
+  },
+  {
+    "id": "70",
+    "spriteId": 937,
+    "name": { "ko": "파라블레이즈", "en": "Ceruledge", "ja": "ソウブレイズ" },
+    "role": "Balance",
+    "difficulty": "Expert",
+    "imageUrl": ""
+  },
+  {
+    "id": "71",
+    "spriteId": 658,
+    "name": { "ko": "개굴닌자", "en": "Greninja", "ja": "ゲッコウガ" },
+    "role": "Attack",
+    "difficulty": "Expert",
+    "imageUrl": ""
+  },
+  {
+    "id": "72",
+    "spriteId": 54,
+    "name": { "ko": "고라파덕", "en": "Psyduck", "ja": "コダック" },
+    "role": "Support",
+    "difficulty": "Novice",
+    "imageUrl": ""
+  }
+]

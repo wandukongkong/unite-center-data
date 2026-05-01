@@ -1,0 +1,484 @@
+{
+  "heldItems": [
+    {
+      "id": "attack_weight",
+      "nameKo": "맹공덤벨",
+      "nameEn": "Attack Weight",
+      "nameJa": "きょうこうダンベル",
+      "category": "growth",
+      "description": {
+        "ko": "골을 넣을 때마다 공격이 영구적으로 증가한다 (최대 6스택, 스택당 +6/9/12)",
+        "en": "Permanently increases Attack each time a goal is scored (max 6 stacks)"
+      },
+      "exclusivePokemon": null
+    },
+    {
+      "id": "sp_atk_specs",
+      "nameKo": "진격안경",
+      "nameEn": "Sp. Atk. Specs",
+      "nameJa": "しんげきメガネ",
+      "category": "growth",
+      "description": {
+        "ko": "골을 넣을 때마다 특수공격이 영구적으로 증가한다",
+        "en": "Permanently increases Sp. Atk each time a goal is scored"
+      },
+      "exclusivePokemon": null
+    },
+    {
+      "id": "aeos_cookie",
+      "nameKo": "에오스비스킷",
+      "nameEn": "Aeos Cookie",
+      "nameJa": "エオスビスケット",
+      "category": "growth",
+      "description": {
+        "ko": "골을 넣을 때마다 최대 HP가 영구적으로 증가한다",
+        "en": "Permanently increases max HP each time a goal is scored"
+      },
+      "exclusivePokemon": null
+    },
+    {
+      "id": "muscle_band",
+      "nameKo": "힘의머리띠",
+      "nameEn": "Muscle Band",
+      "nameJa": "ちからのハチマキ",
+      "category": "offensive",
+      "description": {
+        "ko": "기본공격 명중 시 상대 남은 HP의 일정 비율만큼 추가 데미지를 준다",
+        "en": "Basic attacks deal bonus damage based on the opponent's remaining HP"
+      },
+      "exclusivePokemon": null
+    },
+    {
+      "id": "scope_lens",
+      "nameKo": "초점렌즈",
+      "nameEn": "Scope Lens",
+      "nameJa": "ピントレンズ",
+      "category": "offensive",
+      "description": {
+        "ko": "급소 공격 데미지와 급소율이 증가한다",
+        "en": "Increases critical-hit rate and critical-hit damage"
+      },
+      "exclusivePokemon": null
+    },
+    {
+      "id": "shell_bell",
+      "nameKo": "조개껍질방울",
+      "nameEn": "Shell Bell",
+      "nameJa": "かいがらのすず",
+      "category": "offensive",
+      "description": {
+        "ko": "기술 명중 시 HP를 회복한다. 특수공격과 기술 쿨다운도 증가한다",
+        "en": "Restores HP when a move hits. Also increases Sp. Atk and reduces move cooldown"
+      },
+      "exclusivePokemon": null
+    },
+    {
+      "id": "wise_glasses",
+      "nameKo": "박식안경",
+      "nameEn": "Wise Glasses",
+      "nameJa": "ものしりメガネ",
+      "category": "offensive",
+      "description": {
+        "ko": "특수공격이 추가로 증가한다",
+        "en": "Further increases Sp. Atk by a percentage"
+      },
+      "exclusivePokemon": null
+    },
+    {
+      "id": "choice_specs",
+      "nameKo": "구애안경",
+      "nameEn": "Choice Specs",
+      "nameJa": "こだわりメガネ",
+      "category": "offensive",
+      "description": {
+        "ko": "기술 명중 시 추가 데미지를 준다",
+        "en": "Deals bonus damage when a move hits"
+      },
+      "exclusivePokemon": null
+    },
+    {
+      "id": "razor_claw",
+      "nameKo": "예리한손톱",
+      "nameEn": "Razor Claw",
+      "nameJa": "するどいツメ",
+      "category": "offensive",
+      "description": {
+        "ko": "기술 사용 후 다음 기본공격에 추가 데미지가 발생한다",
+        "en": "After using a move, the next basic attack deals bonus damage"
+      },
+      "exclusivePokemon": null
+    },
+    {
+      "id": "drain_crown",
+      "nameKo": "치유왕관",
+      "nameEn": "Drain Crown",
+      "nameJa": "ドレインクラウン",
+      "category": "offensive",
+      "description": {
+        "ko": "기본공격으로 준 데미지의 일부를 HP로 흡수한다",
+        "en": "Restores HP based on a portion of damage dealt by basic attacks"
+      },
+      "exclusivePokemon": null
+    },
+    {
+      "id": "rapid_fire_scarf",
+      "nameKo": "연타스카프",
+      "nameEn": "Rapid-Fire Scarf",
+      "nameJa": "れんだスカーフ",
+      "category": "offensive",
+      "description": {
+        "ko": "기본공격을 3회 연속으로 명중하면 기본공격 속도가 증가한다",
+        "en": "Increases basic attack speed after landing 3 consecutive basic attacks"
+      },
+      "exclusivePokemon": null
+    },
+    {
+      "id": "slick_spoon",
+      "nameKo": "틈새포착스푼",
+      "nameEn": "Slick Spoon",
+      "nameJa": "すきまスプーン",
+      "category": "offensive",
+      "description": {
+        "ko": "특수공격이 상대의 특수방어 일부를 무시한다",
+        "en": "Special moves ignore a portion of the opponent's Sp. Def"
+      },
+      "exclusivePokemon": null
+    },
+    {
+      "id": "curse_bangle",
+      "nameKo": "저주받은뱅글",
+      "nameEn": "Curse Bangle",
+      "nameJa": "のろいバングル",
+      "category": "offensive",
+      "description": {
+        "ko": "공격 시 상대의 HP 회복 효과를 약화시킨다",
+        "en": "Weakens the opponent's HP recovery effects when attacking"
+      },
+      "exclusivePokemon": null
+    },
+    {
+      "id": "curse_incense",
+      "nameKo": "저주받은향로",
+      "nameEn": "Curse Incense",
+      "nameJa": "のろいおこう",
+      "category": "offensive",
+      "description": {
+        "ko": "특수공격 시 상대의 HP 회복 효과를 약화시킨다",
+        "en": "Weakens the opponent's HP recovery effects when hitting with special moves"
+      },
+      "exclusivePokemon": null
+    },
+    {
+      "id": "charging_charm",
+      "nameKo": "충전참",
+      "nameEn": "Charging Charm",
+      "nameJa": "じゅうでんチャーム",
+      "category": "offensive",
+      "description": {
+        "ko": "에너지를 충전한 후 추가 데미지를 준다",
+        "en": "Deals bonus damage after charging energy"
+      },
+      "exclusivePokemon": null
+    },
+    {
+      "id": "accel_bracer",
+      "nameKo": "액셀리스트",
+      "nameEn": "Accel Bracer",
+      "nameJa": "アクセルリスト",
+      "category": "offensive",
+      "description": {
+        "ko": "적을 처치할 때마다 공격이 영구적으로 증가한다",
+        "en": "Permanently increases Attack each time an opponent is defeated"
+      },
+      "exclusivePokemon": null
+    },
+    {
+      "id": "drive_lens",
+      "nameKo": "드라이브렌즈",
+      "nameEn": "Drive Lens",
+      "nameJa": "ドライブレンズ",
+      "category": "offensive",
+      "description": {
+        "ko": "적을 처치할 때마다 특수공격이 영구적으로 증가한다",
+        "en": "Permanently increases Sp. Atk each time an opponent is defeated"
+      },
+      "exclusivePokemon": null
+    },
+    {
+      "id": "energy_amplifier",
+      "nameKo": "에너지증폭기",
+      "nameEn": "Energy Amplifier",
+      "nameJa": "エネルギーアンプ",
+      "category": "offensive",
+      "description": {
+        "ko": "유나이트 기술 사용 후 잠시 동안 데미지가 증가한다",
+        "en": "Increases damage dealt for a short time after using a Unite Move"
+      },
+      "exclusivePokemon": null
+    },
+    {
+      "id": "choice_scarf",
+      "nameKo": "구애스카프",
+      "nameEn": "Choice Scarf",
+      "nameJa": "こだわりスカーフ",
+      "category": "offensive",
+      "description": {
+        "ko": "기본공격을 3회 명중할 때마다 이동속도가 증가한다",
+        "en": "Increases movement speed every time 3 basic attacks land"
+      },
+      "exclusivePokemon": null
+    },
+    {
+      "id": "weakness_policy",
+      "nameKo": "약점보험",
+      "nameEn": "Weakness Policy",
+      "nameJa": "じゃくてんほけん",
+      "category": "offensive",
+      "description": {
+        "ko": "데미지를 받을 때마다 공격이 일시적으로 증가한다",
+        "en": "Temporarily increases Attack each time the holder takes damage"
+      },
+      "exclusivePokemon": null
+    },
+    {
+      "id": "focus_band",
+      "nameKo": "기합의머리띠",
+      "nameEn": "Focus Band",
+      "nameJa": "きあいのハチマキ",
+      "category": "defensive",
+      "description": {
+        "ko": "HP가 낮아지면 HP를 서서히 회복한다",
+        "en": "Gradually restores HP when the holder's HP falls low"
+      },
+      "exclusivePokemon": null
+    },
+    {
+      "id": "assault_vest",
+      "nameKo": "돌격조끼",
+      "nameEn": "Assault Vest",
+      "nameJa": "とつげきチョッキ",
+      "category": "defensive",
+      "description": {
+        "ko": "전투 중이 아닐 때 특수방어 실드를 부여한다",
+        "en": "Grants a Sp. Def shield when not in combat"
+      },
+      "exclusivePokemon": null
+    },
+    {
+      "id": "rocky_helmet",
+      "nameKo": "울퉁불퉁멧",
+      "nameEn": "Rocky Helmet",
+      "nameJa": "でこぼこヘルメット",
+      "category": "defensive",
+      "description": {
+        "ko": "데미지를 받으면 공격한 상대에게 반사 데미지를 준다",
+        "en": "Deals damage back to attackers when the holder takes damage"
+      },
+      "exclusivePokemon": null
+    },
+    {
+      "id": "leftovers",
+      "nameKo": "먹다남은음식",
+      "nameEn": "Leftovers",
+      "nameJa": "たべのこし",
+      "category": "defensive",
+      "description": {
+        "ko": "전투 중이 아닐 때 HP를 서서히 회복한다",
+        "en": "Gradually restores HP when not in combat"
+      },
+      "exclusivePokemon": null
+    },
+    {
+      "id": "tenacity_belt",
+      "nameKo": "악착벨트",
+      "nameEn": "Tenacity Belt",
+      "nameJa": "ねばりベルト",
+      "category": "defensive",
+      "description": {
+        "ko": "방해 효과를 받으면 방어가 일시적으로 증가한다",
+        "en": "Temporarily increases Defense when hit by a hindrance effect"
+      },
+      "exclusivePokemon": null
+    },
+    {
+      "id": "vanguard_bell",
+      "nameKo": "앞장벨",
+      "nameEn": "Vanguard Bell",
+      "nameJa": "せんとうベル",
+      "category": "defensive",
+      "description": {
+        "ko": "상대에게 방해 효과를 부여하면 HP를 회복한다",
+        "en": "Restores HP when inflicting a hindrance effect on an opponent"
+      },
+      "exclusivePokemon": null
+    },
+    {
+      "id": "big_root",
+      "nameKo": "큰뿌리",
+      "nameEn": "Big Root",
+      "nameJa": "おおきなねっこ",
+      "category": "defensive",
+      "description": {
+        "ko": "자신의 HP 회복 효과가 증가한다",
+        "en": "Increases the holder's own HP recovery effects"
+      },
+      "exclusivePokemon": null
+    },
+    {
+      "id": "buddy_barrier",
+      "nameKo": "도움배리어",
+      "nameEn": "Buddy Barrier",
+      "nameJa": "たすけあいバリア",
+      "category": "support",
+      "description": {
+        "ko": "유나이트 기술 사용 시 자신과 주변 아군에게 실드를 부여한다",
+        "en": "Grants a shield to the holder and nearby allies when using a Unite Move"
+      },
+      "exclusivePokemon": null
+    },
+    {
+      "id": "score_shield",
+      "nameKo": "골서포터",
+      "nameEn": "Score Shield",
+      "nameJa": "ゴールサポーター",
+      "category": "support",
+      "description": {
+        "ko": "골을 시도하는 동안 실드를 부여한다",
+        "en": "Grants a shield while attempting to score a goal"
+      },
+      "exclusivePokemon": null
+    },
+    {
+      "id": "exp_share",
+      "nameKo": "학습장치",
+      "nameEn": "Exp. Share",
+      "nameJa": "がくしゅうそうち",
+      "category": "support",
+      "description": {
+        "ko": "팀 내 경험치가 가장 낮을 때 경험치를 추가로 획득한다",
+        "en": "Grants bonus EXP when the holder has the least EXP on the team"
+      },
+      "exclusivePokemon": null
+    },
+    {
+      "id": "amulet_coin",
+      "nameKo": "부적금화",
+      "nameEn": "Amulet Coin",
+      "nameJa": "おまもりこばん",
+      "category": "support",
+      "description": {
+        "ko": "야생 포켓몬 처치 시 에너지를 추가로 획득한다",
+        "en": "Grants bonus Aeos energy when defeating wild Pokemon"
+      },
+      "exclusivePokemon": null
+    },
+    {
+      "id": "rescue_hood",
+      "nameKo": "구조후드",
+      "nameEn": "Rescue Hood",
+      "nameJa": "きゅうじょフード",
+      "category": "support",
+      "description": {
+        "ko": "아군에게 주는 회복 및 실드 효과가 증가한다",
+        "en": "Increases the effectiveness of healing and shields granted to allies"
+      },
+      "exclusivePokemon": null
+    },
+    {
+      "id": "resonant_guard",
+      "nameKo": "공명실드",
+      "nameEn": "Resonant Guard",
+      "nameJa": "きょうめいガード",
+      "category": "support",
+      "description": {
+        "ko": "상대에게 데미지를 주면 주변 아군에게 실드를 부여한다",
+        "en": "Grants a shield to nearby allies when dealing damage to an opponent"
+      },
+      "exclusivePokemon": null
+    },
+    {
+      "id": "rusted_sword",
+      "nameKo": "녹슨검",
+      "nameEn": "Rusted Sword",
+      "nameJa": "さびたけん",
+      "category": "exclusive",
+      "description": {
+        "ko": "자시안 전용 고정 아이템",
+        "en": "Exclusive held item for Zacian"
+      },
+      "exclusivePokemon": "자시안"
+    },
+    {
+      "id": "mewtwonite_x",
+      "nameKo": "뮤츠나이트X",
+      "nameEn": "Mewtwonite X",
+      "nameJa": "ミュウツナイトX",
+      "category": "exclusive",
+      "description": {
+        "ko": "뮤츠(X형) 전용 고정 아이템",
+        "en": "Exclusive held item for Mewtwo (X Forme)"
+      },
+      "exclusivePokemon": "뮤츠(X형)"
+    },
+    {
+      "id": "mewtwonite_y",
+      "nameKo": "뮤츠나이트Y",
+      "nameEn": "Mewtwonite Y",
+      "nameJa": "ミュウツナイトY",
+      "category": "exclusive",
+      "description": {
+        "ko": "뮤츠(Y형) 전용 고정 아이템",
+        "en": "Exclusive held item for Mewtwo (Y Forme)"
+      },
+      "exclusivePokemon": "뮤츠(Y형)"
+    },
+    {
+      "id": "lucarionite",
+      "nameKo": "루카리오나이트",
+      "nameEn": "Lucarionite",
+      "nameJa": "ルカリオナイト",
+      "category": "exclusive",
+      "description": {
+        "ko": "루카리오(메가) 전용 고정 아이템",
+        "en": "Exclusive held item for Mega Lucario"
+      },
+      "exclusivePokemon": "루카리오(메가)"
+    },
+    {
+      "id": "charizardite_x",
+      "nameKo": "리자몽나이트X",
+      "nameEn": "Charizardite X",
+      "nameJa": "リザードナイトX",
+      "category": "exclusive",
+      "description": {
+        "ko": "리자몽(메가X) 전용 고정 아이템",
+        "en": "Exclusive held item for Mega Charizard X"
+      },
+      "exclusivePokemon": "리자몽(메가X)"
+    },
+    {
+      "id": "charizardite_y",
+      "nameKo": "리자몽나이트Y",
+      "nameEn": "Charizardite Y",
+      "nameJa": "リザードナイトY",
+      "category": "exclusive",
+      "description": {
+        "ko": "리자몽(메가Y) 전용 고정 아이템",
+        "en": "Exclusive held item for Mega Charizard Y"
+      },
+      "exclusivePokemon": "리자몽(메가Y)"
+    },
+    {
+      "id": "gyaradosite",
+      "nameKo": "갸라도스나이트",
+      "nameEn": "Gyaradosite",
+      "nameJa": "ギャラドスナイト",
+      "category": "exclusive",
+      "description": {
+        "ko": "갸라도스(메가) 전용 고정 아이템",
+        "en": "Exclusive held item for Mega Gyarados"
+      },
+      "exclusivePokemon": "갸라도스(메가)"
+    }
+  ]
+}
