@@ -183,5 +183,13 @@
     "role": "Support",
     "difficulty": "Novice",
     "imageUrl": ""
+  },
+  {
+    "id": "73",
+    "spriteId": 144,
+    "name": { "ko": "프리져", "en": "Articuno", "ja": "フリーザー" },
+    "role": "Defense",
+    "difficulty": "Intermediate",
+    "imageUrl": "https://placehold.co/80x80/CCCCCC/FFF?text=ART"
   }
 ]

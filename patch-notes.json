@@ -1,5 +1,15 @@
 [
   {
+    "id": "pn-028",
+    "version": "2026.04.10",
+    "date": "2026-04-10",
+    "pokemonId": "73",
+    "type": "new",
+    "types": ["new"],
+    "summary": "신규 출시",
+    "changes": []
+  },
+  {
     "id": "pn-001",
     "version": "2026.03.19",
     "date": "2026-03-19",
