@@ -191,5 +191,13 @@
     "role": "Defense",
     "difficulty": "Intermediate",
     "imageUrl": "https://placehold.co/80x80/CCCCCC/FFF?text=ART"
+  },
+  {
+    "id": "74",
+    "spriteId": 157,
+    "name": { "ko": "블레이범", "en": "Typhlosion", "ja": "バクフーン" },
+    "role": "Attack",
+    "difficulty": "Intermediate",
+    "imageUrl": "https://placehold.co/80x80/CCCCCC/FFF?text=TYP"
   }
 ]
