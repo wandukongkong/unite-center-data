@@ -199,5 +199,203 @@
     "role": "Attack",
     "difficulty": "Intermediate",
     "imageUrl": "https://placehold.co/80x80/CCCCCC/FFF?text=TYP"
+  },
+  {
+    "id": "75",
+    "spriteId": 282,
+    "name": { "ko": "가디안", "en": "Gardevoir", "ja": "サーナイト" },
+    "role": "Attack",
+    "difficulty": "Intermediate",
+    "imageUrl": ""
+  },
+  {
+    "id": "76",
+    "spriteId": 815,
+    "name": { "ko": "에이스번", "en": "Cinderace", "ja": "エースバーン" },
+    "role": "Attack",
+    "difficulty": "Novice",
+    "imageUrl": ""
+  },
+  {
+    "id": "77",
+    "spriteId": 381,
+    "name": { "ko": "라티오스", "en": "Latios", "ja": "ラティオス" },
+    "role": "Attack",
+    "difficulty": "Intermediate",
+    "imageUrl": ""
+  },
+  {
+    "id": "78",
+    "spriteId": 445,
+    "name": { "ko": "한카리아스", "en": "Garchomp", "ja": "ガブリアス" },
+    "role": "Balance",
+    "difficulty": "Intermediate",
+    "imageUrl": ""
+  },
+  {
+    "id": "79",
+    "spriteId": 845,
+    "name": { "ko": "윽우지", "en": "Cramorant", "ja": "ウッウ" },
+    "role": "Attack",
+    "difficulty": "Expert",
+    "imageUrl": ""
+  },
+  {
+    "id": "80",
+    "spriteId": 130,
+    "name": { "ko": "갸라도스", "en": "Gyarados", "ja": "ギャラドス" },
+    "role": "Balance",
+    "difficulty": "Intermediate",
+    "imageUrl": ""
+  },
+  {
+    "id": "81",
+    "spriteId": 10035,
+    "name": { "ko": "메가리자몽Y", "en": "Mega Charizard Y", "ja": "メガリザードンY" },
+    "role": "Balance",
+    "difficulty": "Novice",
+    "imageUrl": ""
+  },
+  {
+    "id": "82",
+    "spriteId": 778,
+    "name": { "ko": "미미큐", "en": "Mimikyu", "ja": "ミミッキュ" },
+    "role": "Balance",
+    "difficulty": "Expert",
+    "imageUrl": ""
+  },
+  {
+    "id": "83",
+    "spriteId": 10044,
+    "name": { "ko": "뮤츠Y", "en": "Mega Mewtwo Y", "ja": "メガミュウツーY" },
+    "role": "Attack",
+    "difficulty": "Expert",
+    "imageUrl": ""
+  },
+  {
+    "id": "84",
+    "spriteId": 212,
+    "name": { "ko": "핫삼", "en": "Scizor", "ja": "ハッサム" },
+    "role": "Balance",
+    "difficulty": "Intermediate",
+    "imageUrl": ""
+  },
+  {
+    "id": "85",
+    "spriteId": 781,
+    "name": { "ko": "타타륜", "en": "Dhelmise", "ja": "ダダリン" },
+    "role": "Balance",
+    "difficulty": "Intermediate",
+    "imageUrl": ""
+  },
+  {
+    "id": "86",
+    "spriteId": 10041,
+    "name": { "ko": "메가갸라도스", "en": "Mega Gyarados", "ja": "メガギャラドス" },
+    "role": "Balance",
+    "difficulty": "Intermediate",
+    "imageUrl": ""
+  },
+  {
+    "id": "87",
+    "spriteId": 160,
+    "name": { "ko": "장크로다일", "en": "Feraligatr", "ja": "オーダイル" },
+    "role": "Balance",
+    "difficulty": "Intermediate",
+    "imageUrl": "https://placehold.co/80x80/CCCCCC/FFF?text=FER",
+    "skills": {
+      "basicAttack": {
+        "description": {
+          "ko": "손톱으로 할퀴어서 상대편 포켓몬을 공격한다.",
+          "ja": "ツメで引っかいて相手のポケモンを攻撃する。",
+          "en": "Scratches opposing Pokemon with claws to deal damage."
+        }
+      },
+      "passive": {
+        "name": { "ko": "급류", "ja": "げきりゅう", "en": "Torrent" },
+        "description": {
+          "ko": "HP가 절반 이하일 때 기술 대기 시간이 짧아진다.",
+          "ja": "HPが半分以下になると、わざの待機時間が短くなる。",
+          "en": "When HP drops to half or below, move cooldowns are reduced."
+        }
+      },
+      "moves": [
+        {
+          "id": "bite",
+          "name": { "ko": "물기", "ja": "かみつく", "en": "Bite" },
+          "category": "active",
+          "cooldown": 5,
+          "unlockedAtLevel": 1,
+          "upgradedAtLevel": null,
+          "description": {
+            "ko": "다음 일반 공격이 강화 공격이 되며 상대편 포켓몬을 물어서 데미지와 감속 효과를 준다.",
+            "ja": "次の通常攻撃が強化攻撃になり、相手のポケモンを噛んでダメージを与え、移動速度を下げる。",
+            "en": "Makes the next basic attack a boosted attack, biting the opposing Pokemon to deal damage and slow it."
+          },
+          "upgradeDescription": null
+        },
+        {
+          "id": "scratch",
+          "name": { "ko": "할퀴기", "ja": "ひっかく", "en": "Scratch" },
+          "category": "active",
+          "cooldown": 6,
+          "unlockedAtLevel": 3,
+          "upgradedAtLevel": null,
+          "description": {
+            "ko": "지정한 방향으로 빠르게 대시하고 손톱으로 공격하여 상대편 포켓몬에게 데미지를 주고 행동 불가로 만든다.",
+            "ja": "指定した方向に素早くダッシュし、ツメで攻撃して相手のポケモンにダメージを与え、行動不可にする。",
+            "en": "Dashes quickly in the designated direction and attacks with claws, dealing damage to opposing Pokemon and rendering them unable to act."
+          },
+          "upgradeDescription": null
+        },
+        {
+          "id": "crunch",
+          "name": { "ko": "깨물어부수기", "ja": "かみくだく", "en": "Crunch" },
+          "category": "active",
+          "cooldown": 4,
+          "unlockedAtLevel": 5,
+          "upgradedAtLevel": 11,
+          "description": {
+            "ko": "기술을 사용하면 추가 효과를 지닌 엄니를 준비한다. 다시 사용하면 3종류의 효과 중에서 1개를 선택해 다음 일반 공격으로 선택한 효과를 추가로 주고, 그 뒤 잠시 동안 공격 속도가 오른다. 탐식의 엄니: 일반 공격이 명중하면 HP가 회복된다. 파괴의 엄니: 일반 공격이 명중한 상대편 포켓몬의 방어를 떨어뜨린다. 집념의 엄니: 일반 공격이 명중한 상대편 포켓몬에게 감속 효과를 준다.",
+            "ja": "わざを使うと追加効果を持つキバを準備する。再度使用すると3種類の効果から1つを選んで次の通常攻撃に選んだ効果を追加で与え、その後しばらくの間攻撃速度が上がる。貪食のキバ：通常攻撃が命中するとHPが回復する。破壊のキバ：通常攻撃が命中した相手のポケモンのぼうぎょを下げる。執念のキバ：通常攻撃が命中した相手のポケモンに移動速度低下効果を与える。",
+            "en": "Activating this move readies a fang with an additional effect. Activating it again allows you to choose one of three effects to add to the next basic attack, then increases Attack Speed for a short time. Gluttony Fang: Restores HP when the basic attack hits. Destruction Fang: Lowers the Defense of the opposing Pokemon hit. Tenacity Fang: Slows the opposing Pokemon hit."
+          },
+          "upgradeDescription": {
+            "ko": "이 기술로 주는 데미지가 증가한다.",
+            "ja": "このわざで与えるダメージが増加する。",
+            "en": "Increases the damage dealt by this move."
+          }
+        },
+        {
+          "id": "waterfall",
+          "name": { "ko": "폭포오르기", "ja": "たきのぼり", "en": "Waterfall" },
+          "category": "active",
+          "cooldown": 6.5,
+          "unlockedAtLevel": 7,
+          "upgradedAtLevel": 13,
+          "description": {
+            "ko": "지정한 방향으로 돌진하여 명중한 상대편 포켓몬에게 데미지를 주고 실드 효과를 얻는다. 상대편 포켓몬에게 명중했을 때 돌진한 거리가 일정 거리 이하라면 상대편 포켓몬을 행동 불가로 만들고 일정 거리 이상이라면 상대편 포켓몬을 날려버린다.",
+            "ja": "指定した方向に突進して命中した相手のポケモンにダメージを与え、シールド効果を得る。相手のポケモンに命中したとき、突進した距離が一定以下なら行動不可にし、一定以上なら吹き飛ばす。",
+            "en": "Charges in the designated direction, dealing damage to opposing Pokemon hit and gaining a shield. When hitting an opposing Pokemon, if the charge distance was short, the opposing Pokemon becomes unable to act; if the distance was long, the opposing Pokemon is launched."
+          },
+          "upgradeDescription": {
+            "ko": "돌진한 거리와 상관없이 상대편 포켓몬을 날려버린다.",
+            "ja": "突進した距離に関係なく、相手のポケモンを吹き飛ばす。",
+            "en": "Launches opposing Pokemon regardless of the charge distance."
+          }
+        }
+      ],
+      "uniteMove": {
+        "id": "feraligatr_crash_bite",
+        "name": { "ko": "큰턱크래시바이트", "ja": "オーダイルクラッシュバイト", "en": "Feraligatr Crash Bite" },
+        "cooldown": 0,
+        "unlockedAtLevel": 9,
+        "description": {
+          "ko": "크게 위협하여 짧은 시간 동안 기술 대기 시간이 짧아진다. 다시 유나이트 기술을 사용하면 지정한 상대 팀의 포켓몬에게 달려들고 강하게 물어서 데미지를 준다. 이 데미지는 상대 팀의 포켓몬에게 부여된 \"깨물어부수기\"의 추가 효과의 수에 따라 증가한다.",
+          "ja": "大きく威嚇し、短い時間の間わざの待機時間が短くなる。再度ユナイトわざを使うと、指定した相手チームのポケモンに飛びかかり、強く噛みついてダメージを与える。このダメージは相手チームのポケモンに付与された「かみくだく」の追加効果の数に応じて増加する。",
+          "en": "Lets out a mighty roar, reducing move cooldowns for a short time. Using the Unite Move again causes the user to leap at the designated opposing Pokemon and bite down hard, dealing damage. This damage increases based on the number of Crunch additional effects on the opposing Pokemon."
+        }
+      }
+    }
   }
 ]

@@ -1,12 +1,30 @@
 [
   {
+    "id": "pn-030",
+    "version": "2026.05.08",
+    "date": "2026-05-08",
+    "pokemonId": "87",
+    "type": "new",
+    "types": ["new"],
+    "summary": {
+      "ko": "신규 출시",
+      "en": "New Release",
+      "ja": "新規リリース"
+    },
+    "changes": []
+  },
+  {
     "id": "pn-029",
     "version": "2026.04.24",
     "date": "2026-04-24",
     "pokemonId": "74",
     "type": "new",
     "types": ["new"],
-    "summary": "신규 출시",
+    "summary": {
+      "ko": "신규 출시",
+      "en": "New Release",
+      "ja": "新登場"
+    },
     "changes": []
   },
   {
@@ -16,7 +34,11 @@
     "pokemonId": "73",
     "type": "new",
     "types": ["new"],
-    "summary": "신규 출시",
+    "summary": {
+      "ko": "신규 출시",
+      "en": "New Release",
+      "ja": "新登場"
+    },
     "changes": []
   },
   {
@@ -26,11 +48,27 @@
     "pokemonId": "53",
     "type": "buff",
     "types": ["buff"],
-    "summary": "특성 관통 효과 상향, 화염방사 데미지 증가, 봉인 쿨타임 단축",
+    "summary": {
+      "ko": "특성 관통 효과 상향, 화염방사 데미지 증가, 봉인 쿨타임 단축",
+      "en": "Ability Flamethrower damage increased, Overheat cooldown reduced, Inferno penetration buff",
+      "ja": "特性の貫通効果強化、かえんほうしゃのダメージ増加、ふうじるのクールタイム短縮"
+    },
     "changes": [
-      "[특성 관통] 적중 시 특방 무시 효과 2.5%(최대 8중첩) → 5%(최대 6중첩)",
-      "[화염방사] 적중 시 데미지 8% 증가",
-      "[봉인] 쿨타임 9.5초 → 8.5초"
+      {
+        "ko": "[특성 관통] 적중 시 특방 무시 효과 2.5%(최대 8중첩) → 5%(최대 6중첩)",
+        "en": "[Ability: Infiltrator] Special Defense ignore effect on hit: 2.5% (max 8 stacks) → 5% (max 6 stacks)",
+        "ja": "[特性 すりぬけ] 命中時の特防無視効果 2.5%（最大8回重複）→ 5%（最大6回重複）"
+      },
+      {
+        "ko": "[화염방사] 적중 시 데미지 8% 증가",
+        "en": "[Flamethrower] Damage on hit increased by 8%",
+        "ja": "[かえんほうしゃ] 命中時のダメージ 8% 増加"
+      },
+      {
+        "ko": "[봉인] 쿨타임 9.5초 → 8.5초",
+        "en": "[Embargo] Cooldown: 9.5s → 8.5s",
+        "ja": "[ふうじる] クールタイム 9.5秒 → 8.5秒"
+      }
     ]
   },
   {
@@ -40,12 +78,32 @@
     "pokemonId": "31",
     "type": "buff",
     "types": ["buff"],
-    "summary": "강화 공격·용의 춤·섀도볼·유나이트 기술 전반 상향",
+    "summary": {
+      "ko": "강화 공격·용의 춤·섀도볼·유나이트 기술 전반 상향",
+      "en": "Boosted Attack, Dragon Dance, Shadow Ball, and Unite Move all buffed",
+      "ja": "強化攻撃・りゅうのまい・シャドーボール・ユナイトわざ全体強化"
+    },
     "changes": [
-      "[강화 공격] 데미지 8% 증가",
-      "[용의 춤] 일반 공격 데미지 11% 증가, 강화 공격 데미지 20% 증가",
-      "[섀도볼] 회복량 최대 HP의 15% → 20%",
-      "[유나이트 기술 드라군샷] 데미지 8% 증가"
+      {
+        "ko": "[강화 공격] 데미지 8% 증가",
+        "en": "[Boosted Attack] Damage increased by 8%",
+        "ja": "[強化攻撃] ダメージ 8% 増加"
+      },
+      {
+        "ko": "[용의 춤] 일반 공격 데미지 11% 증가, 강화 공격 데미지 20% 증가",
+        "en": "[Dragon Dance] Basic attack damage increased by 11%, Boosted attack damage increased by 20%",
+        "ja": "[りゅうのまい] 通常攻撃ダメージ 11% 増加、強化攻撃ダメージ 20% 増加"
+      },
+      {
+        "ko": "[섀도볼] 회복량 최대 HP의 15% → 20%",
+        "en": "[Shadow Ball] HP restoration: 15% of max HP → 20%",
+        "ja": "[シャドーボール] 回復量 最大HP の 15% → 20%"
+      },
+      {
+        "ko": "[유나이트 기술 드라군샷] 데미지 8% 증가",
+        "en": "[Unite Move: Dragonite Dive] Damage increased by 8%",
+        "ja": "[ユナイトわざ ドラグーンショット] ダメージ 8% 増加"
+      }
     ]
   },
   {
@@ -55,10 +113,22 @@
     "pokemonId": "54",
     "type": "buff",
     "types": ["buff"],
-    "summary": "용의 춤 공격 상승량 및 파괴광선 추가 데미지 상향",
+    "summary": {
+      "ko": "용의 춤 공격 상승량 및 파괴광선 추가 데미지 상향",
+      "en": "Dragon Dance Attack boost and Hyper Beam bonus damage buffed",
+      "ja": "りゅうのまいの攻撃上昇量・はかいこうせんの追加ダメージ強化"
+    },
     "changes": [
-      "[용의 춤] 자신의 공격 상승량 8% → 10%",
-      "[파괴광선] 추가 데미지 1회 5%→6%, 2회 10%→12%, 3회 15%→18%"
+      {
+        "ko": "[용의 춤] 자신의 공격 상승량 8% → 10%",
+        "en": "[Dragon Dance] Own Attack boost: 8% → 10%",
+        "ja": "[りゅうのまい] 自身の攻撃上昇量 8% → 10%"
+      },
+      {
+        "ko": "[파괴광선] 추가 데미지 1회 5%→6%, 2회 10%→12%, 3회 15%→18%",
+        "en": "[Hyper Beam] Bonus damage: 1st hit 5%→6%, 2nd hit 10%→12%, 3rd hit 15%→18%",
+        "ja": "[はかいこうせん] 追加ダメージ 1回目 5%→6%、2回目 10%→12%、3回目 15%→18%"
+      }
     ]
   },
   {
@@ -68,12 +138,32 @@
     "pokemonId": "7",
     "type": "buff",
     "types": ["buff"],
-    "summary": "독폭탄 특방 감소율 상향, 솔라빔 데미지·쿨타임 개선, 유나이트 기술 에너지 감소",
+    "summary": {
+      "ko": "독폭탄 특방 감소율 상향, 솔라빔 데미지·쿨타임 개선, 유나이트 기술 에너지 감소",
+      "en": "Sludge Bomb Sp. Def reduction buffed, Solar Beam damage and cooldown improved, Unite Move energy cost reduced",
+      "ja": "ヘドロばくだんの特防低下率強化、ソーラービームのダメージ・クールタイム改善、ユナイトわざの必要エネルギー減少"
+    },
     "changes": [
-      "[독폭탄] 특방 감소율 40% → 50%",
-      "[솔라빔] 데미지 8% 증가",
-      "[솔라빔+] 쿨타임 8초 → 7초",
-      "[유나이트 기술 그린레이지] 필요 에너지 100000 → 90000 (10% 감소)"
+      {
+        "ko": "[독폭탄] 특방 감소율 40% → 50%",
+        "en": "[Sludge Bomb] Sp. Def reduction: 40% → 50%",
+        "ja": "[ヘドロばくだん] 特防低下率 40% → 50%"
+      },
+      {
+        "ko": "[솔라빔] 데미지 8% 증가",
+        "en": "[Solar Beam] Damage increased by 8%",
+        "ja": "[ソーラービーム] ダメージ 8% 増加"
+      },
+      {
+        "ko": "[솔라빔+] 쿨타임 8초 → 7초",
+        "en": "[Solar Beam+] Cooldown: 8s → 7s",
+        "ja": "[ソーラービーム+] クールタイム 8秒 → 7秒"
+      },
+      {
+        "ko": "[유나이트 기술 그린레이지] 필요 에너지 100000 → 90000 (10% 감소)",
+        "en": "[Unite Move: Green Rage] Energy required: 100000 → 90000 (10% reduction)",
+        "ja": "[ユナイトわざ グリーンレイジ] 必要エネルギー 100000 → 90000（10% 減少）"
+      }
     ]
   },
   {
@@ -83,11 +173,27 @@
     "pokemonId": "55",
     "type": "buff",
     "types": ["buff"],
-    "summary": "HP·특방 스탯 상향, 파도타기·냉동빔 데미지 증가",
+    "summary": {
+      "ko": "HP·특방 스탯 상향, 파도타기·냉동빔 데미지 증가",
+      "en": "HP and Sp. Def stats increased, Surf and Ice Beam damage buffed",
+      "ja": "HP・特防スタット強化、なみのり・れいとうビームのダメージ増加"
+    },
     "changes": [
-      "[스탯] HP 3250~6900 → 3250~7200, 특방 60~230 → 70~290",
-      "[파도타기] 데미지 10% 증가",
-      "[냉동빔] 데미지 10% 증가"
+      {
+        "ko": "[스탯] HP 3250~6900 → 3250~7200, 특방 60~230 → 70~290",
+        "en": "[Stats] HP 3250~6900 → 3250~7200, Sp. Def 60~230 → 70~290",
+        "ja": "[スタット] HP 3250〜6900 → 3250〜7200、特防 60〜230 → 70〜290"
+      },
+      {
+        "ko": "[파도타기] 데미지 10% 증가",
+        "en": "[Surf] Damage increased by 10%",
+        "ja": "[なみのり] ダメージ 10% 増加"
+      },
+      {
+        "ko": "[냉동빔] 데미지 10% 증가",
+        "en": "[Ice Beam] Damage increased by 10%",
+        "ja": "[れいとうビーム] ダメージ 10% 増加"
+      }
     ]
   },
   {
@@ -97,11 +203,27 @@
     "pokemonId": "56",
     "type": "adjust",
     "types": ["nerf", "buff"],
-    "summary": "잎날 가르기·꿰뚫어보기 하향, 휘두르기 상향 혼합 조정",
+    "summary": {
+      "ko": "잎날 가르기·꿰뚫어보기 하향, 휘두르기 상향 혼합 조정",
+      "en": "Leaf Blade and Detect nerfed, Slash buffed — mixed adjustment",
+      "ja": "このはぎり・みきりを弱体化、きりさくを強化する混合調整"
+    },
     "changes": [
-      "[잎날 가르기] 데미지 10% 감소",
-      "[꿰뚫어보기] 쿨타임 7초 → 8.5초",
-      "[휘두르기] 데미지 12% 증가"
+      {
+        "ko": "[잎날 가르기] 데미지 10% 감소",
+        "en": "[Leaf Blade] Damage decreased by 10%",
+        "ja": "[このはぎり] ダメージ 10% 減少"
+      },
+      {
+        "ko": "[꿰뚫어보기] 쿨타임 7초 → 8.5초",
+        "en": "[Detect] Cooldown: 7s → 8.5s",
+        "ja": "[みきり] クールタイム 7秒 → 8.5秒"
+      },
+      {
+        "ko": "[휘두르기] 데미지 12% 증가",
+        "en": "[Slash] Damage increased by 12%",
+        "ja": "[きりさく] ダメージ 12% 増加"
+      }
     ]
   },
   {
@@ -111,9 +233,17 @@
     "pokemonId": "4",
     "type": "adjust",
     "types": ["adjust"],
-    "summary": "인파이트 쿨타임 단축 조건 변경",
+    "summary": {
+      "ko": "인파이트 쿨타임 단축 조건 변경",
+      "en": "Close Combat cooldown reduction condition changed",
+      "ja": "インファイトのクールタイム短縮条件を変更"
+    },
     "changes": [
-      "[인파이트] 메가진화 중 상대 팀 포켓몬에 적중한 경우에만 쿨타임 단축 적용되도록 조건 변경"
+      {
+        "ko": "[인파이트] 메가진화 중 상대 팀 포켓몬에 적중한 경우에만 쿨타임 단축 적용되도록 조건 변경",
+        "en": "[Close Combat] Cooldown reduction now only applies when hitting opposing team's Pokémon during Mega Evolution",
+        "ja": "[インファイト] メガシンカ中に相手チームのポケモンに命中した場合のみクールタイム短縮が適用されるよう条件変更"
+      }
     ]
   },
   {
@@ -123,11 +253,27 @@
     "pokemonId": "57",
     "type": "nerf",
     "types": ["nerf"],
-    "summary": "기습 실드·발톱으로 긁기·유나이트 기술 전반 하향",
+    "summary": {
+      "ko": "기습 실드·발톱으로 긁기·유나이트 기술 전반 하향",
+      "en": "Pounce shield, Scratch, and Unite Move all nerfed",
+      "ja": "きしゅうのシールド・ひっかく・ユナイトわざ全体弱体化"
+    },
     "changes": [
-      "[기습] 실드량 15% 감소",
-      "[발톱으로 긁기] 쿨타임 5초 → 5.5초, 데미지 10% 감소",
-      "[유나이트 기술] 데미지 10% 감소"
+      {
+        "ko": "[기습] 실드량 15% 감소",
+        "en": "[Pounce] Shield amount decreased by 15%",
+        "ja": "[きしゅう] シールド量 15% 減少"
+      },
+      {
+        "ko": "[발톱으로 긁기] 쿨타임 5초 → 5.5초, 데미지 10% 감소",
+        "en": "[Scratch] Cooldown: 5s → 5.5s, Damage decreased by 10%",
+        "ja": "[ひっかく] クールタイム 5秒 → 5.5秒、ダメージ 10% 減少"
+      },
+      {
+        "ko": "[유나이트 기술] 데미지 10% 감소",
+        "en": "[Unite Move] Damage decreased by 10%",
+        "ja": "[ユナイトわざ] ダメージ 10% 減少"
+      }
     ]
   },
   {
@@ -137,10 +283,22 @@
     "pokemonId": "58",
     "type": "nerf",
     "types": ["nerf"],
-    "summary": "전자포·방전 데미지 하향",
+    "summary": {
+      "ko": "전자포·방전 데미지 하향",
+      "en": "Zap Cannon and Discharge damage nerfed",
+      "ja": "でんじほう・ほうでんのダメージ弱体化"
+    },
     "changes": [
-      "[전자포] 데미지 12% 감소",
-      "[방전] 데미지 15% 감소"
+      {
+        "ko": "[전자포] 데미지 12% 감소",
+        "en": "[Zap Cannon] Damage decreased by 12%",
+        "ja": "[でんじほう] ダメージ 12% 減少"
+      },
+      {
+        "ko": "[방전] 데미지 15% 감소",
+        "en": "[Discharge] Damage decreased by 15%",
+        "ja": "[ほうでん] ダメージ 15% 減少"
+      }
     ]
   },
   {
@@ -150,10 +308,22 @@
     "pokemonId": "59",
     "type": "nerf",
     "types": ["nerf"],
-    "summary": "하이드로펌프·유나이트 기술 데미지 하향",
+    "summary": {
+      "ko": "하이드로펌프·유나이트 기술 데미지 하향",
+      "en": "Hydro Pump and Unite Move damage nerfed",
+      "ja": "ハイドロポンプ・ユナイトわざのダメージ弱体化"
+    },
     "changes": [
-      "[하이드로펌프] 데미지 12% 감소",
-      "[유나이트 기술 아쿠아마린 스플래시] 데미지 10% 감소"
+      {
+        "ko": "[하이드로펌프] 데미지 12% 감소",
+        "en": "[Hydro Pump] Damage decreased by 12%",
+        "ja": "[ハイドロポンプ] ダメージ 12% 減少"
+      },
+      {
+        "ko": "[유나이트 기술 아쿠아마린 스플래시] 데미지 10% 감소",
+        "en": "[Unite Move: Aquamarine Splash] Damage decreased by 10%",
+        "ja": "[ユナイトわざ アクアマリンスプラッシュ] ダメージ 10% 減少"
+      }
     ]
   },
   {
@@ -163,15 +333,57 @@
     "pokemonId": "60",
     "type": "nerf",
     "types": ["nerf"],
-    "summary": "특성·전 기술·유나이트 기술 전면 대규모 하향",
+    "summary": {
+      "ko": "특성·전 기술·유나이트 기술 전면 대규모 하향",
+      "en": "Ability, all moves, and Unite Move all massively nerfed",
+      "ja": "特性・全わざ・ユナイトわざ全面的に大規模弱体化"
+    },
     "changes": [
-      "[특성 불꽃몸] 화상 데미지 50% 감소",
-      "[불태우기] 데미지 30% 감소",
-      "[열풍] 데미지 30% 감소 / HP 회복량 특공 기반 → 최대 HP의 5%로 변경",
-      "[열풍+] 적중 시 쿨타임 단축 최대 쿨타임의 20% → 10%",
-      "[갓버드] 데미지 30% 감소",
-      "[유나이트 기술 플레어버드 인페르노] 데미지 50% 감소"
+      {
+        "ko": "[특성 불꽃몸] 화상 데미지 50% 감소",
+        "en": "[Ability: Flame Body] Burn damage decreased by 50%",
+        "ja": "[特性 ほのおのからだ] 火傷ダメージ 50% 減少"
+      },
+      {
+        "ko": "[불태우기] 데미지 30% 감소",
+        "en": "[Incinerate] Damage decreased by 30%",
+        "ja": "[かえんぐるま] ダメージ 30% 減少"
+      },
+      {
+        "ko": "[열풍] 데미지 30% 감소 / HP 회복량 특공 기반 → 최대 HP의 5%로 변경",
+        "en": "[Heat Wave] Damage decreased by 30% / HP restoration changed from Sp. Atk-based to 5% of max HP",
+        "ja": "[ねっぷう] ダメージ 30% 減少 / HP回復量 特攻基準 → 最大HPの5%に変更"
+      },
+      {
+        "ko": "[열풍+] 적중 시 쿨타임 단축 최대 쿨타임의 20% → 10%",
+        "en": "[Heat Wave+] Cooldown reduction on hit: 20% of max cooldown → 10%",
+        "ja": "[ねっぷう+] 命中時のクールタイム短縮 最大クールタイムの20% → 10%"
+      },
+      {
+        "ko": "[갓버드] 데미지 30% 감소",
+        "en": "[Sky Attack] Damage decreased by 30%",
+        "ja": "[ゴッドバード] ダメージ 30% 減少"
+      },
+      {
+        "ko": "[유나이트 기술 플레어버드 인페르노] 데미지 50% 감소",
+        "en": "[Unite Move: Flare Bird Inferno] Damage decreased by 50%",
+        "ja": "[ユナイトわざ フレアバードインフェルノ] ダメージ 50% 減少"
+      }
     ]
+  },
+  {
+    "id": "pn-030",
+    "version": "2026.03.13",
+    "date": "2026-03-13",
+    "pokemonId": "60",
+    "type": "new",
+    "types": ["new"],
+    "summary": {
+      "ko": "신규 출시",
+      "en": "New Release",
+      "ja": "新登場"
+    },
+    "changes": []
   },
   {
     "id": "pn-016",
@@ -180,11 +392,27 @@
     "pokemonId": "61",
     "type": "buff",
     "types": ["buff"],
-    "summary": "소용돌이 회복량·애교부리기 데미지·유나이트 기술 공격 상승량 및 지속시간 상향",
+    "summary": {
+      "ko": "소용돌이 회복량·애교부리기 데미지·유나이트 기술 공격 상승량 및 지속시간 상향",
+      "en": "Whirlpool heal, Charm damage, and Unite Move Attack boost and duration all buffed",
+      "ja": "うずしおの回復量・メロメロのダメージ・ユナイトわざの攻撃上昇量と持続時間強化"
+    },
     "changes": [
-      "[소용돌이] 회복량 12% 증가",
-      "[애교부리기] 데미지 8% 증가",
-      "[유나이트 기술 거품북 대시] 공격 상승량 20% 증가 / 공격 상승 효과 지속시간 5초 → 8초"
+      {
+        "ko": "[소용돌이] 회복량 12% 증가",
+        "en": "[Whirlpool] HP restoration increased by 12%",
+        "ja": "[うずしお] 回復量 12% 増加"
+      },
+      {
+        "ko": "[애교부리기] 데미지 8% 증가",
+        "en": "[Charm] Damage increased by 8%",
+        "ja": "[メロメロ] ダメージ 8% 増加"
+      },
+      {
+        "ko": "[유나이트 기술 거품북 대시] 공격 상승량 20% 증가 / 공격 상승 효과 지속시간 5초 → 8초",
+        "en": "[Unite Move: Marill Rush] Attack boost increased by 20% / Attack boost duration: 5s → 8s",
+        "ja": "[ユナイトわざ マリルリダッシュ] 攻撃上昇量 20% 増加 / 攻撃上昇効果の持続時間 5秒 → 8秒"
+      }
     ]
   },
   {
@@ -194,11 +422,27 @@
     "pokemonId": "62",
     "type": "buff",
     "types": ["buff"],
-    "summary": "볼트체인지 쿨타임·데미지, 와일드볼트 데미지, 유나이트 기술 필요 에너지 상향",
+    "summary": {
+      "ko": "볼트체인지 쿨타임·데미지, 와일드볼트 데미지, 유나이트 기술 필요 에너지 상향",
+      "en": "Volt Switch cooldown and damage, Wild Charge damage, and Unite Move energy cost all buffed",
+      "ja": "ボルトチェンジのクールタイム・ダメージ、ワイルドボルトのダメージ、ユナイトわざの必要エネルギー強化"
+    },
     "changes": [
-      "[볼트체인지] 쿨타임 8초 → 7초 / 데미지 12% 증가",
-      "[와일드볼트] 데미지 8% 증가",
-      "[유나이트 기술 질풍신뢰격] 필요 에너지 100000 → 90000 (10% 감소)"
+      {
+        "ko": "[볼트체인지] 쿨타임 8초 → 7초 / 데미지 12% 증가",
+        "en": "[Volt Switch] Cooldown: 8s → 7s / Damage increased by 12%",
+        "ja": "[ボルトチェンジ] クールタイム 8秒 → 7秒 / ダメージ 12% 増加"
+      },
+      {
+        "ko": "[와일드볼트] 데미지 8% 증가",
+        "en": "[Wild Charge] Damage increased by 8%",
+        "ja": "[ワイルドボルト] ダメージ 8% 増加"
+      },
+      {
+        "ko": "[유나이트 기술 질풍신뢰격] 필요 에너지 100000 → 90000 (10% 감소)",
+        "en": "[Unite Move: Plasma Gale] Energy required: 100000 → 90000 (10% reduction)",
+        "ja": "[ユナイトわざ しっぷうじんらいげき] 必要エネルギー 100000 → 90000（10% 減少）"
+      }
     ]
   },
   {
@@ -208,13 +452,37 @@
     "pokemonId": "63",
     "type": "buff",
     "types": ["buff"],
-    "summary": "눈사태·눈보라·매지컬샤인·오로라베일 쿨타임 단축, 데미지 증가, 유나이트 기술 데미지 상향",
+    "summary": {
+      "ko": "눈사태·눈보라·매지컬샤인·오로라베일 쿨타임 단축, 데미지 증가, 유나이트 기술 데미지 상향",
+      "en": "Avalanche, Blizzard, Dazzling Gleam, Aurora Veil cooldowns reduced and damage buffed, Unite Move damage increased",
+      "ja": "なだれ・ふぶき・マジカルシャイン・オーロラベールのクールタイム短縮・ダメージ増加、ユナイトわざのダメージ強化"
+    },
     "changes": [
-      "[눈사태] 쿨타임 7.5초 → 7초 / 데미지 10% 증가",
-      "[눈보라] 쿨타임 7.5초 → 7초",
-      "[매지컬샤인] 쿨타임 7.5초 → 7초 / 데미지 10% 증가",
-      "[오로라베일] 쿨타임 13초 → 12초",
-      "[유나이트 기술 서클네이지] 데미지 8% 증가"
+      {
+        "ko": "[눈사태] 쿨타임 7.5초 → 7초 / 데미지 10% 증가",
+        "en": "[Avalanche] Cooldown: 7.5s → 7s / Damage increased by 10%",
+        "ja": "[なだれ] クールタイム 7.5秒 → 7秒 / ダメージ 10% 増加"
+      },
+      {
+        "ko": "[눈보라] 쿨타임 7.5초 → 7초",
+        "en": "[Blizzard] Cooldown: 7.5s → 7s",
+        "ja": "[ふぶき] クールタイム 7.5秒 → 7秒"
+      },
+      {
+        "ko": "[매지컬샤인] 쿨타임 7.5초 → 7초 / 데미지 10% 증가",
+        "en": "[Dazzling Gleam] Cooldown: 7.5s → 7s / Damage increased by 10%",
+        "ja": "[マジカルシャイン] クールタイム 7.5秒 → 7秒 / ダメージ 10% 増加"
+      },
+      {
+        "ko": "[오로라베일] 쿨타임 13초 → 12초",
+        "en": "[Aurora Veil] Cooldown: 13s → 12s",
+        "ja": "[オーロラベール] クールタイム 13秒 → 12秒"
+      },
+      {
+        "ko": "[유나이트 기술 서클네이지] 데미지 8% 증가",
+        "en": "[Unite Move: Snow Globe] Damage increased by 8%",
+        "ja": "[ユナイトわざ サークルネージュ] ダメージ 8% 増加"
+      }
     ]
   },
   {
@@ -224,11 +492,27 @@
     "pokemonId": "64",
     "type": "buff",
     "types": ["buff"],
-    "summary": "길막기·하품 쿨타임 단축, 유나이트 기술 띄우기 시간 증가",
+    "summary": {
+      "ko": "길막기·하품 쿨타임 단축, 유나이트 기술 띄우기 시간 증가",
+      "en": "Block and Yawn cooldowns reduced, Unite Move launch duration increased",
+      "ja": "どうろふさぎ・あくびのクールタイム短縮、ユナイトわざの浮かせ時間増加"
+    },
     "changes": [
-      "[길막기] 쿨타임 8초 → 7.5초",
-      "[하품] 쿨타임 10.5초 → 10초",
-      "[유나이트 기술 폭수임팩트] 1·2회 띄우기 시간 0.6초 → 1초"
+      {
+        "ko": "[길막기] 쿨타임 8초 → 7.5초",
+        "en": "[Block] Cooldown: 8s → 7.5s",
+        "ja": "[どうろふさぎ] クールタイム 8秒 → 7.5秒"
+      },
+      {
+        "ko": "[하품] 쿨타임 10.5초 → 10초",
+        "en": "[Yawn] Cooldown: 10.5s → 10s",
+        "ja": "[あくび] クールタイム 10.5秒 → 10秒"
+      },
+      {
+        "ko": "[유나이트 기술 폭수임팩트] 1·2회 띄우기 시간 0.6초 → 1초",
+        "en": "[Unite Move: Power Nap] 1st and 2nd launch duration: 0.6s → 1s",
+        "ja": "[ユナイトわざ ばくすいインパクト] 1・2回目の浮かせ時間 0.6秒 → 1秒"
+      }
     ]
   },
   {
@@ -238,11 +522,27 @@
     "pokemonId": "65",
     "type": "buff",
     "types": ["buff"],
-    "summary": "사이키광선 쿨타임·데미지, 미래예지 추가 데미지, 유나이트 기술 데미지 상향",
+    "summary": {
+      "ko": "사이키광선 쿨타임·데미지, 미래예지 추가 데미지, 유나이트 기술 데미지 상향",
+      "en": "Psybeam cooldown and damage, Future Sight bonus damage, and Unite Move damage buffed",
+      "ja": "サイケこうせんのクールタイム・ダメージ、みらいよちの追加ダメージ、ユナイトわざのダメージ強化"
+    },
     "changes": [
-      "[사이키광선] 쿨타임 7.5초 → 7초 / 데미지 10% 증가",
-      "[미래예지] 추격 시 추가 데미지 8% 증가",
-      "[유나이트 기술 사이코솔라] 데미지 5% 증가"
+      {
+        "ko": "[사이키광선] 쿨타임 7.5초 → 7초 / 데미지 10% 증가",
+        "en": "[Psybeam] Cooldown: 7.5s → 7s / Damage increased by 10%",
+        "ja": "[サイケこうせん] クールタイム 7.5秒 → 7秒 / ダメージ 10% 増加"
+      },
+      {
+        "ko": "[미래예지] 추격 시 추가 데미지 8% 증가",
+        "en": "[Future Sight] Bonus damage when chasing increased by 8%",
+        "ja": "[みらいよち] 追撃時の追加ダメージ 8% 増加"
+      },
+      {
+        "ko": "[유나이트 기술 사이코솔라] 데미지 5% 증가",
+        "en": "[Unite Move: Psychic Solar] Damage increased by 5%",
+        "ja": "[ユナイトわざ サイコソーラー] ダメージ 5% 増加"
+      }
     ]
   },
   {
@@ -252,11 +552,27 @@
     "pokemonId": "66",
     "type": "buff",
     "types": ["buff"],
-    "summary": "섀도클로·불의일격 데미지·회복량, 유나이트 기술 필요 에너지 상향",
+    "summary": {
+      "ko": "섀도클로·불의일격 데미지·회복량, 유나이트 기술 필요 에너지 상향",
+      "en": "Shadow Claw and Flare Blitz damage and healing buffed, Unite Move energy cost reduced",
+      "ja": "シャドークロー・フレアドライブのダメージ・回復量強化、ユナイトわざの必要エネルギー減少"
+    },
     "changes": [
-      "[섀도클로] 데미지 10% 증가",
-      "[불의일격] 도약 후 공격 데미지 20% 증가 / 회복량 20% 증가",
-      "[유나이트 기술 나이트폴버스트] 필요 에너지 90000 → 80000 (10% 감소)"
+      {
+        "ko": "[섀도클로] 데미지 10% 증가",
+        "en": "[Shadow Claw] Damage increased by 10%",
+        "ja": "[シャドークロー] ダメージ 10% 増加"
+      },
+      {
+        "ko": "[불의일격] 도약 후 공격 데미지 20% 증가 / 회복량 20% 증가",
+        "en": "[Flare Blitz] Damage after leap increased by 20% / Healing increased by 20%",
+        "ja": "[フレアドライブ] 跳躍後の攻撃ダメージ 20% 増加 / 回復量 20% 増加"
+      },
+      {
+        "ko": "[유나이트 기술 나이트폴버스트] 필요 에너지 90000 → 80000 (10% 감소)",
+        "en": "[Unite Move: Nightfall Burst] Energy required: 90000 → 80000 (10% reduction)",
+        "ja": "[ユナイトわざ ナイトフォールバースト] 必要エネルギー 90000 → 80000（10% 減少）"
+      }
     ]
   },
   {
@@ -266,11 +582,27 @@
     "pokemonId": "67",
     "type": "buff",
     "types": ["buff"],
-    "summary": "치유의파동 회복량·달의빛 쿨타임 단축, 유나이트 기술 HP 회복량 상향",
+    "summary": {
+      "ko": "치유의파동 회복량·달의빛 쿨타임 단축, 유나이트 기술 HP 회복량 상향",
+      "en": "Heal Pulse healing and Moonlight cooldown buffed, Unite Move HP restoration increased",
+      "ja": "いやしのはどうの回復量・つきのひかりのクールタイム短縮、ユナイトわざのHP回復量強化"
+    },
     "changes": [
-      "[치유의파동] 회복량 15% 증가",
-      "[달의빛] 쿨타임 8.5초 → 8초",
-      "[유나이트 기술 소원의손가락] HP 회복량 감소한 HP의 25% → 30%"
+      {
+        "ko": "[치유의파동] 회복량 15% 증가",
+        "en": "[Heal Pulse] HP restoration increased by 15%",
+        "ja": "[いやしのはどう] 回復量 15% 増加"
+      },
+      {
+        "ko": "[달의빛] 쿨타임 8.5초 → 8초",
+        "en": "[Moonlight] Cooldown: 8.5s → 8s",
+        "ja": "[つきのひかり] クールタイム 8.5秒 → 8秒"
+      },
+      {
+        "ko": "[유나이트 기술 소원의손가락] HP 회복량 감소한 HP의 25% → 30%",
+        "en": "[Unite Move: Starlight Recital] HP restoration: 25% of lost HP → 30%",
+        "ja": "[ユナイトわざ ねがいのゆびきり] HP回復量 減少したHPの25% → 30%"
+      }
     ]
   },
   {
@@ -280,10 +612,22 @@
     "pokemonId": "68",
     "type": "nerf",
     "types": ["nerf"],
-    "summary": "하이드로펌프 쿨타임 증가·데미지 감소, 파도타기 쿨타임 증가",
+    "summary": {
+      "ko": "하이드로펌프 쿨타임 증가·데미지 감소, 파도타기 쿨타임 증가",
+      "en": "Hydro Pump cooldown increased and damage reduced, Surf cooldown increased",
+      "ja": "ハイドロポンプのクールタイム増加・ダメージ減少、なみのりのクールタイム増加"
+    },
     "changes": [
-      "[하이드로펌프] 쿨타임 5.5초 → 6초 / 데미지 8% 감소",
-      "[파도타기] 쿨타임 7초 → 7.5초"
+      {
+        "ko": "[하이드로펌프] 쿨타임 5.5초 → 6초 / 데미지 8% 감소",
+        "en": "[Hydro Pump] Cooldown: 5.5s → 6s / Damage decreased by 8%",
+        "ja": "[ハイドロポンプ] クールタイム 5.5秒 → 6秒 / ダメージ 8% 減少"
+      },
+      {
+        "ko": "[파도타기] 쿨타임 7초 → 7.5초",
+        "en": "[Surf] Cooldown: 7s → 7.5s",
+        "ja": "[なみのり] クールタイム 7秒 → 7.5秒"
+      }
     ]
   },
   {
@@ -293,10 +637,22 @@
     "pokemonId": "69",
     "type": "nerf",
     "types": ["nerf"],
-    "summary": "특성 태양열·단단한발톱 화상 상대 공격 시 회복량 하향",
+    "summary": {
+      "ko": "특성 태양열·단단한발톱 화상 상대 공격 시 회복량 하향",
+      "en": "Ability Solar Power and Tough Claws HP restoration on burned targets nerfed",
+      "ja": "特性 サンパワー・かたいつめの火傷状態の相手攻撃時回復量弱体化"
+    },
     "changes": [
-      "[특성 태양열] 화상 상태 상대에게 일반 공격 적중 시 회복량 감소한 HP의 3% → 2%",
-      "[특성 단단한발톱] 화상 상태 상대에게 일반 공격 적중 시 회복량 감소한 HP의 6% → 4%"
+      {
+        "ko": "[특성 태양열] 화상 상태 상대에게 일반 공격 적중 시 회복량 감소한 HP의 3% → 2%",
+        "en": "[Ability: Solar Power] HP restoration when hitting burned target with basic attack: 3% of lost HP → 2%",
+        "ja": "[特性 サンパワー] 火傷状態の相手に通常攻撃命中時の回復量 減少したHPの3% → 2%"
+      },
+      {
+        "ko": "[특성 단단한발톱] 화상 상태 상대에게 일반 공격 적중 시 회복량 감소한 HP의 6% → 4%",
+        "en": "[Ability: Tough Claws] HP restoration when hitting burned target with basic attack: 6% of lost HP → 4%",
+        "ja": "[特性 かたいつめ] 火傷状態の相手に通常攻撃命中時の回復量 減少したHPの6% → 4%"
+      }
     ]
   },
   {
@@ -306,10 +662,22 @@
     "pokemonId": "70",
     "type": "nerf",
     "types": ["nerf"],
-    "summary": "한맺힌칼 데미지 감소, 고스트다이브+ 쿨타임 증가",
+    "summary": {
+      "ko": "한맺힌칼 데미지 감소, 고스트다이브+ 쿨타임 증가",
+      "en": "Bitter Blade damage decreased, Phantom Force+ cooldown increased",
+      "ja": "うらみつるぎのダメージ減少、ゴーストダイブ+のクールタイム増加"
+    },
     "changes": [
-      "[한맺힌칼] 데미지 5% 감소",
-      "[고스트다이브+] 쿨타임 7초 → 8초"
+      {
+        "ko": "[한맺힌칼] 데미지 5% 감소",
+        "en": "[Bitter Blade] Damage decreased by 5%",
+        "ja": "[うらみつるぎ] ダメージ 5% 減少"
+      },
+      {
+        "ko": "[고스트다이브+] 쿨타임 7초 → 8초",
+        "en": "[Phantom Force+] Cooldown: 7s → 8s",
+        "ja": "[ゴーストダイブ+] クールタイム 7秒 → 8秒"
+      }
     ]
   },
   {
@@ -319,11 +687,27 @@
     "pokemonId": "71",
     "type": "nerf",
     "types": ["nerf", "adjust"],
-    "summary": "파도타기·그림자분신 데미지 감소, 일반 공격 잔여 HP 비례 추가 데미지 상한 조정",
+    "summary": {
+      "ko": "파도타기·그림자분신 데미지 감소, 일반 공격 잔여 HP 비례 추가 데미지 상한 조정",
+      "en": "Surf and Double Team damage reduced, basic attack bonus damage cap based on remaining HP adjusted",
+      "ja": "なみのり・かげぶんしんのダメージ減少、通常攻撃の残りHP比例追加ダメージに上限適用調整"
+    },
     "changes": [
-      "[파도타기] 데미지 10% 감소 / 회복량 8% 감소",
-      "[그림자분신] 분신 데미지 본체의 20.5% → 15%",
-      "[일반 공격] 상대 잔여 HP 비례 추가 데미지에 상한 적용 (버그 수정)"
+      {
+        "ko": "[파도타기] 데미지 10% 감소 / 회복량 8% 감소",
+        "en": "[Surf] Damage decreased by 10% / Healing decreased by 8%",
+        "ja": "[なみのり] ダメージ 10% 減少 / 回復量 8% 減少"
+      },
+      {
+        "ko": "[그림자분신] 분신 데미지 본체의 20.5% → 15%",
+        "en": "[Double Team] Clone damage: 20.5% of original → 15%",
+        "ja": "[かげぶんしん] 分身ダメージ 本体の20.5% → 15%"
+      },
+      {
+        "ko": "[일반 공격] 상대 잔여 HP 비례 추가 데미지에 상한 적용 (버그 수정)",
+        "en": "[Basic Attack] Cap applied to bonus damage scaling with target's remaining HP (bug fix)",
+        "ja": "[通常攻撃] 相手残りHP比例追加ダメージに上限適用（バグ修正）"
+      }
     ]
   },
   {
@@ -333,9 +717,462 @@
     "pokemonId": "72",
     "type": "adjust",
     "types": ["adjust"],
-    "summary": "사이코키네시스 쿨타임 증가 및 판정 지속시간 단축",
+    "summary": {
+      "ko": "사이코키네시스 쿨타임 증가 및 판정 지속시간 단축",
+      "en": "Psychic cooldown increased and hitbox duration reduced",
+      "ja": "サイコキネシスのクールタイム増加・判定持続時間短縮"
+    },
     "changes": [
-      "[사이코키네시스] 쿨타임 6.5초 → 7초 / 기술 적중 판정 지속시간 0.45초 → 0.33초"
+      {
+        "ko": "[사이코키네시스] 쿨타임 6.5초 → 7초 / 기술 적중 판정 지속시간 0.45초 → 0.33초",
+        "en": "[Psychic] Cooldown: 6.5s → 7s / Move hitbox active duration: 0.45s → 0.33s",
+        "ja": "[サイコキネシス] クールタイム 6.5秒 → 7秒 / わざ命中判定持続時間 0.45秒 → 0.33秒"
+      }
+    ]
+  },
+  {
+    "id": "pn-031",
+    "version": "2026.03.05",
+    "date": "2026-03-05",
+    "pokemonId": "75",
+    "type": "buff",
+    "types": ["buff"],
+    "summary": {
+      "ko": "염동력·사이코키네시스·문포스 데미지 및 CC 강화",
+      "en": "Telekinesis, Psychic, and Moonblast damage and crowd control buffed",
+      "ja": "テレキネシス・サイコキネシス・ムーンフォースのダメージおよびCC強化"
+    },
+    "changes": [
+      {
+        "ko": "[염동력] 데미지 15% 증가",
+        "en": "[Telekinesis] Damage increased by 15%",
+        "ja": "[テレキネシス] ダメージ 15% 増加"
+      },
+      {
+        "ko": "[사이코키네시스] 이동 속도 감소 50% → 60%",
+        "en": "[Psychic] Movement speed reduction: 50% → 60%",
+        "ja": "[サイコキネシス] 移動速度低下 50% → 60%"
+      },
+      {
+        "ko": "[문포스] 행동 불능 시간 1.2초 → 1.6초",
+        "en": "[Moonblast] Disable duration: 1.2s → 1.6s",
+        "ja": "[ムーンフォース] 行動不能時間 1.2秒 → 1.6秒"
+      }
+    ]
+  },
+  {
+    "id": "pn-032",
+    "version": "2026.03.05",
+    "date": "2026-03-05",
+    "pokemonId": "71",
+    "type": "buff",
+    "types": ["buff"],
+    "summary": {
+      "ko": "기본 스탯·강화 공격·거품·연막 전반 상향",
+      "en": "Base stats, Boosted Attack, Bubble, and Smokescreen all buffed",
+      "ja": "基本スタット・強化攻撃・あわ・えんまく全体強化"
+    },
+    "changes": [
+      {
+        "ko": "[스탯] HP 3000~5420 → 3200~6000, 특방 30~149 → 64~240",
+        "en": "[Stats] HP 3000~5420 → 3200~6000, Sp. Def 30~149 → 64~240",
+        "ja": "[スタット] HP 3000〜5420 → 3200〜6000、特防 30〜149 → 64〜240"
+      },
+      {
+        "ko": "[강화 공격] 데미지 8% 증가",
+        "en": "[Boosted Attack] Damage increased by 8%",
+        "ja": "[強化攻撃] ダメージ 8% 増加"
+      },
+      {
+        "ko": "[거품] 데미지 10% 증가",
+        "en": "[Bubble] Damage increased by 10%",
+        "ja": "[あわ] ダメージ 10% 増加"
+      },
+      {
+        "ko": "[연막] 쿨타임 13초 → 12초, 이동 속도 상승 10% → 30%",
+        "en": "[Smokescreen] Cooldown: 13s → 12s, Movement speed boost: 10% → 30%",
+        "ja": "[えんまく] クールタイム 13秒 → 12秒、移動速度上昇 10% → 30%"
+      }
+    ]
+  },
+  {
+    "id": "pn-033",
+    "version": "2026.03.05",
+    "date": "2026-03-05",
+    "pokemonId": "76",
+    "type": "buff",
+    "types": ["buff"],
+    "summary": {
+      "ko": "특성 맹불·강화 공격·불꽃세례·로우킥 전반 상향",
+      "en": "Ability Blaze, Boosted Attack, Ember, and Low Kick all buffed",
+      "ja": "特性 もうか・強化攻撃・ひのこ・ローキック全体強化"
+    },
+    "changes": [
+      {
+        "ko": "[특성 맹불] 데미지 17% 증가",
+        "en": "[Ability: Blaze] Damage increased by 17%",
+        "ja": "[特性 もうか] ダメージ 17% 増加"
+      },
+      {
+        "ko": "[강화 공격] 데미지 8% 증가",
+        "en": "[Boosted Attack] Damage increased by 8%",
+        "ja": "[強化攻撃] ダメージ 8% 増加"
+      },
+      {
+        "ko": "[불꽃세례] 데미지 15% 증가",
+        "en": "[Ember] Damage increased by 15%",
+        "ja": "[ひのこ] ダメージ 15% 増加"
+      },
+      {
+        "ko": "[로우킥] 쿨타임 7.5초 → 7초",
+        "en": "[Low Kick] Cooldown: 7.5s → 7s",
+        "ja": "[ローキック] クールタイム 7.5秒 → 7秒"
+      }
+    ]
+  },
+  {
+    "id": "pn-034",
+    "version": "2026.03.05",
+    "date": "2026-03-05",
+    "pokemonId": "77",
+    "type": "buff",
+    "types": ["buff"],
+    "summary": {
+      "ko": "유성군 2발째 이후 운석 데미지 대폭 증가, 유나이트 기술 필요 에너지 감소",
+      "en": "Draco Meteor 2nd meteor onward damage significantly buffed, Unite Move energy cost reduced",
+      "ja": "りゅうせいぐん 2発目以降の隕石ダメージ大幅増加、ユナイトわざの必要エネルギー減少"
+    },
+    "changes": [
+      {
+        "ko": "[유성군] 2발째 이후 운석 데미지 30% → 50%",
+        "en": "[Draco Meteor] 2nd meteor onward damage: 30% → 50%",
+        "ja": "[りゅうせいぐん] 2発目以降の隕石ダメージ 30% → 50%"
+      },
+      {
+        "ko": "[유나이트 기술 인피니트 스트라이크] 필요 에너지 100000 → 90000",
+        "en": "[Unite Move: Infinite Strike] Energy required: 100000 → 90000",
+        "ja": "[ユナイトわざ インフィニットストライク] 必要エネルギー 100000 → 90000"
+      }
+    ]
+  },
+  {
+    "id": "pn-035",
+    "version": "2026.03.05",
+    "date": "2026-03-05",
+    "pokemonId": "78",
+    "type": "buff",
+    "types": ["buff"],
+    "summary": {
+      "ko": "특성 거친피부 쿨타임 단축, 드래곤다이브 데미지 경감률 상향, 유나이트 기술 데미지 증가",
+      "en": "Ability Rough Skin cooldown reduced, Dragon Rush damage reduction buffed, Unite Move damage increased",
+      "ja": "特性 ざらざらのクールタイム短縮、ドラゴンダイブのダメージ軽減率強化、ユナイトわざのダメージ増加"
+    },
+    "changes": [
+      {
+        "ko": "[특성 거친피부] 쿨타임 2초 → 0.6초, 반사 데미지 30% → 12.5%",
+        "en": "[Ability: Rough Skin] Cooldown: 2s → 0.6s, Reflected damage: 30% → 12.5%",
+        "ja": "[特性 ざらざら] クールタイム 2秒 → 0.6秒、反射ダメージ 30% → 12.5%"
+      },
+      {
+        "ko": "[드래곤다이브] 데미지 경감률 30% → 45%",
+        "en": "[Dragon Rush] Damage reduction: 30% → 45%",
+        "ja": "[ドラゴンダイブ] ダメージ軽減率 30% → 45%"
+      },
+      {
+        "ko": "[유나이트 기술 폭발격돌 러시] 데미지 8% 증가",
+        "en": "[Unite Move: Garchomp Rush] Damage increased by 8%",
+        "ja": "[ユナイトわざ ばくれつげきとつラッシュ] ダメージ 8% 増加"
+      }
+    ]
+  },
+  {
+    "id": "pn-036",
+    "version": "2026.03.05",
+    "date": "2026-03-05",
+    "pokemonId": "56",
+    "type": "buff",
+    "types": ["buff"],
+    "summary": {
+      "ko": "쿨타임 단축 효과 추가, 연속베기 중단 시 잔여 쿨타임 단축",
+      "en": "Cooldown reduction added at level-up, Fury Cutter remaining cooldown reduced on cancel",
+      "ja": "クールタイム短縮効果追加、れんぞくぎりキャンセル時の残りクールタイム短縮"
+    },
+    "changes": [
+      {
+        "ko": "[쿨타임 단축] 0 → 5%(Lv.5), 0 → 10%(Lv.9) 추가",
+        "en": "[Cooldown Reduction] Added: 0 → 5% (Lv.5), 0 → 10% (Lv.9)",
+        "ja": "[クールタイム短縮] 0 → 5%（Lv.5）、0 → 10%（Lv.9）追加"
+      },
+      {
+        "ko": "[연속베기] 중단 시 잔여 쿨타임 50% 단축",
+        "en": "[Fury Cutter] Remaining cooldown reduced by 50% on cancel",
+        "ja": "[れんぞくぎり] キャンセル時に残りクールタイム 50% 短縮"
+      }
+    ]
+  },
+  {
+    "id": "pn-037",
+    "version": "2026.03.05",
+    "date": "2026-03-05",
+    "pokemonId": "79",
+    "type": "buff",
+    "types": ["buff"],
+    "summary": {
+      "ko": "특성·폭풍·에어슬래시·유나이트 기술 전반 상향",
+      "en": "Ability, Hurricane, Air Slash, and Unite Move all buffed",
+      "ja": "特性・ぼうふう・エアスラッシュ・ユナイトわざ全体強化"
+    },
+    "changes": [
+      {
+        "ko": "[특성 우노미사일] 사시카마스 사용 중에도 이동 가능",
+        "en": "[Ability: Gulp Missile] Can now move while using Arrokuda",
+        "ja": "[特性 うのみミサイル] サシカマス使用中も移動可能"
+      },
+      {
+        "ko": "[폭풍] 사용 후 3초간 공격 속도 40% 상승",
+        "en": "[Hurricane] Attack speed increased by 40% for 3 seconds after use",
+        "ja": "[ぼうふう] 使用後3秒間、攻撃速度 40% 上昇"
+      },
+      {
+        "ko": "[에어슬래시] 데미지 10% 증가, 쿨타임 단축 5% → 8%",
+        "en": "[Air Slash] Damage increased by 10%, Cooldown reduction: 5% → 8%",
+        "ja": "[エアスラッシュ] ダメージ 10% 増加、クールタイム短縮 5% → 8%"
+      },
+      {
+        "ko": "[에어슬래시+] 회복량 10% 증가",
+        "en": "[Air Slash+] Healing increased by 10%",
+        "ja": "[エアスラッシュ+] 回復量 10% 増加"
+      },
+      {
+        "ko": "[유나이트 기술 도도의 미사일] 데미지 12% 증가",
+        "en": "[Unite Move: Gatling Gulp] Damage increased by 12%",
+        "ja": "[ユナイトわざ ドードーのミサイル] ダメージ 12% 増加"
+      }
+    ]
+  },
+  {
+    "id": "pn-038",
+    "version": "2026.03.05",
+    "date": "2026-03-05",
+    "pokemonId": "80",
+    "type": "nerf",
+    "types": ["nerf"],
+    "summary": {
+      "ko": "용의숨결·폭포오르기 하향",
+      "en": "Dragon Breath and Waterfall nerfed",
+      "ja": "りゅうのいぶき・たきのぼり弱体化"
+    },
+    "changes": [
+      {
+        "ko": "[용의숨결] 일반 공격 데미지 10% 감소, 공격 속도 40/55/70% → 30/40/50%",
+        "en": "[Dragon Breath] Basic attack damage decreased by 10%, Attack speed: 40/55/70% → 30/40/50%",
+        "ja": "[りゅうのいぶき] 通常攻撃ダメージ 10% 減少、攻撃速度 40/55/70% → 30/40/50%"
+      },
+      {
+        "ko": "[폭포오르기] 쿨타임 6초 → 7초, 데미지 15% 감소",
+        "en": "[Waterfall] Cooldown: 6s → 7s, Damage decreased by 15%",
+        "ja": "[たきのぼり] クールタイム 6秒 → 7秒、ダメージ 15% 減少"
+      }
+    ]
+  },
+  {
+    "id": "pn-046",
+    "version": "2026.03.05",
+    "date": "2026-03-05",
+    "pokemonId": "86",
+    "type": "nerf",
+    "types": ["nerf"],
+    "summary": {
+      "ko": "용의숨결·폭포오르기·유나이트 기술 전반 하향",
+      "en": "Dragon Breath, Waterfall, and Unite Move all nerfed",
+      "ja": "りゅうのいぶき・たきのぼり・ユナイトわざ全体弱体化"
+    },
+    "changes": [
+      {
+        "ko": "[용의숨결] 메가 진화 시 자동 공격 데미지 15% 감소",
+        "en": "[Dragon Breath] Basic attack damage during Mega Evolution decreased by 15%",
+        "ja": "[りゅうのいぶき] メガシンカ時の自動攻撃ダメージ 15% 減少"
+      },
+      {
+        "ko": "[폭포오르기] 쿨타임 6초 → 7초, 데미지 15% 감소",
+        "en": "[Waterfall] Cooldown: 6s → 7s, Damage decreased by 15%",
+        "ja": "[たきのぼり] クールタイム 6秒 → 7秒、ダメージ 15% 減少"
+      },
+      {
+        "ko": "[유나이트 기술 비룡상운] 메가 진화 지속 시간 20초 → 15초",
+        "en": "[Unite Move: Raging Dragon] Mega Evolution duration: 20s → 15s",
+        "ja": "[ユナイトわざ ひりゅうしょううん] メガシンカ持続時間 20秒 → 15秒"
+      }
+    ]
+  },
+  {
+    "id": "pn-039",
+    "version": "2026.03.05",
+    "date": "2026-03-05",
+    "pokemonId": "81",
+    "type": "nerf",
+    "types": ["nerf"],
+    "summary": {
+      "ko": "메가 진화 시 화염방사 이동 속도 감소, 유나이트 기술 필요 에너지 증가 및 지속 시간·이동 속도 하향",
+      "en": "Flamethrower movement speed during Mega Evolution reduced, Unite Move energy cost increased and duration and movement speed nerfed",
+      "ja": "メガシンカ中かえんほうしゃの移動速度低下、ユナイトわざの必要エネルギー増加・持続時間・移動速度弱体化"
+    },
+    "changes": [
+      {
+        "ko": "[화염방사] 메가 진화 중 이동 속도 15% → 10%",
+        "en": "[Flamethrower] Movement speed during Mega Evolution: 15% → 10%",
+        "ja": "[かえんほうしゃ] メガシンカ中の移動速度 15% → 10%"
+      },
+      {
+        "ko": "[유나이트 기술 어스크래셔] 필요 에너지 100000 → 110000, 지속 시간 20초 → 15초, 이동 속도 30% → 10%",
+        "en": "[Unite Move: Earth Crasher] Energy required: 100000 → 110000, Duration: 20s → 15s, Movement speed: 30% → 10%",
+        "ja": "[ユナイトわざ アースクラッシャー] 必要エネルギー 100000 → 110000、持続時間 20秒 → 15秒、移動速度 30% → 10%"
+      }
+    ]
+  },
+  {
+    "id": "pn-040",
+    "version": "2026.03.05",
+    "date": "2026-03-05",
+    "pokemonId": "68",
+    "type": "nerf",
+    "types": ["nerf"],
+    "summary": {
+      "ko": "파도타기 데미지·실드량 감소, 유나이트 기술 필요 에너지 증가",
+      "en": "Surf damage and shield reduced, Unite Move energy cost increased",
+      "ja": "なみのりのダメージ・シールド量減少、ユナイトわざの必要エネルギー増加"
+    },
+    "changes": [
+      {
+        "ko": "[파도타기] 데미지 15% 감소, 실드량 15% 감소",
+        "en": "[Surf] Damage decreased by 15%, Shield decreased by 15%",
+        "ja": "[なみのり] ダメージ 15% 減少、シールド量 15% 減少"
+      },
+      {
+        "ko": "[유나이트 기술 하이드로 타이푼] 필요 에너지 80000 → 90000",
+        "en": "[Unite Move: Hydro Typhoon] Energy required: 80000 → 90000",
+        "ja": "[ユナイトわざ ハイドロタイフーン] 必要エネルギー 80000 → 90000"
+      }
+    ]
+  },
+  {
+    "id": "pn-041",
+    "version": "2026.03.05",
+    "date": "2026-03-05",
+    "pokemonId": "82",
+    "type": "nerf",
+    "types": ["nerf"],
+    "summary": {
+      "ko": "HP 스탯·그림자치기·유나이트 기술 하향",
+      "en": "HP stat, Shadow Sneak, and Unite Move nerfed",
+      "ja": "HPスタット・かげうち・ユナイトわざ弱体化"
+    },
+    "changes": [
+      {
+        "ko": "[스탯] HP 3300~7800 → 3300~7200",
+        "en": "[Stats] HP 3300~7800 → 3300~7200",
+        "ja": "[スタット] HP 3300〜7800 → 3300〜7200"
+      },
+      {
+        "ko": "[그림자치기] 쿨타임 9초 → 9.5초, 추가 데미지 6% → 4%",
+        "en": "[Shadow Sneak] Cooldown: 9s → 9.5s, Bonus damage: 6% → 4%",
+        "ja": "[かげうち] クールタイム 9秒 → 9.5秒、追加ダメージ 6% → 4%"
+      },
+      {
+        "ko": "[유나이트 기술 같이 놀자] 데미지 8% 감소",
+        "en": "[Unite Move: Let's Snuggle Forever] Damage decreased by 8%",
+        "ja": "[ユナイトわざ いっしょにあそぼ] ダメージ 8% 減少"
+      }
+    ]
+  },
+  {
+    "id": "pn-042",
+    "version": "2026.03.05",
+    "date": "2026-03-05",
+    "pokemonId": "83",
+    "type": "nerf",
+    "types": ["nerf"],
+    "summary": {
+      "ko": "사이코브레이크 데미지·텔레포트 쿨타임 증가 및 이동 속도 하향",
+      "en": "Psystrike damage reduced, Teleport cooldown increased and movement speed nerfed",
+      "ja": "サイコブレイクのダメージ減少、テレポートのクールタイム増加・移動速度弱体化"
+    },
+    "changes": [
+      {
+        "ko": "[사이코브레이크] 데미지 10% 감소",
+        "en": "[Psystrike] Damage decreased by 10%",
+        "ja": "[サイコブレイク] ダメージ 10% 減少"
+      },
+      {
+        "ko": "[텔레포트] 쿨타임 10초 → 12초, 이동 속도 30% → 15%",
+        "en": "[Teleport] Cooldown: 10s → 12s, Movement speed: 30% → 15%",
+        "ja": "[テレポート] クールタイム 10秒 → 12秒、移動速度 30% → 15%"
+      }
+    ]
+  },
+  {
+    "id": "pn-043",
+    "version": "2026.03.05",
+    "date": "2026-03-05",
+    "pokemonId": "84",
+    "type": "nerf",
+    "types": ["nerf"],
+    "summary": {
+      "ko": "더블윙 회복량·추가 데미지 감소, 유나이트 기술 데미지 감소",
+      "en": "Double Hit healing and bonus damage reduced, Unite Move damage decreased",
+      "ja": "にどげりの回復量・追加ダメージ減少、ユナイトわざのダメージ減少"
+    },
+    "changes": [
+      {
+        "ko": "[더블윙(스트라이크)] 회복량 15% 감소, 2단계 추가 데미지 20% → 15%",
+        "en": "[Double Hit (Scizor)] Healing decreased by 15%, 2nd stage bonus damage: 20% → 15%",
+        "ja": "[にどげり（ハッサム）] 回復量 15% 減少、2段階目追加ダメージ 20% → 15%"
+      },
+      {
+        "ko": "[유나이트 기술 그린스타 다이브(스트라이크)] 데미지 10% 감소",
+        "en": "[Unite Move: X-Scissor Rush (Scizor)] Damage decreased by 10%",
+        "ja": "[ユナイトわざ グリーンスターダイブ（ハッサム）] ダメージ 10% 減少"
+      }
+    ]
+  },
+  {
+    "id": "pn-044",
+    "version": "2026.03.05",
+    "date": "2026-03-05",
+    "pokemonId": "85",
+    "type": "adjust",
+    "types": ["adjust"],
+    "summary": {
+      "ko": "앵커샷 방해 내성 상대에게 행동 불능·끌어당기기 무효화 조정",
+      "en": "Anchor Shot disable and pull effects no longer apply to targets with crowd control immunity",
+      "ja": "アンカーショットの行動不能・引き寄せ効果が妨害耐性状態の相手に無効となるよう調整"
+    },
+    "changes": [
+      {
+        "ko": "[앵커샷] 방해 내성 상태의 상대에게 행동 불능 및 끌어당기기 효과 미적용으로 변경",
+        "en": "[Anchor Shot] Disable and pull effects no longer apply to targets with crowd control immunity",
+        "ja": "[アンカーショット] 妨害耐性状態の相手への行動不能および引き寄せ効果が適用されないよう変更"
+      }
+    ]
+  },
+  {
+    "id": "pn-045",
+    "version": "2026.03.05",
+    "date": "2026-03-05",
+    "pokemonId": "58",
+    "type": "adjust",
+    "types": ["adjust"],
+    "summary": {
+      "ko": "유나이트 기술 낙뢰 횟수·간격 조정, 1회 데미지 대폭 증가",
+      "en": "Unite Move lightning strike count and interval adjusted, single strike damage significantly increased",
+      "ja": "ユナイトわざの落雷回数・間隔調整、1回あたりのダメージ大幅増加"
+    },
+    "changes": [
+      {
+        "ko": "[유나이트 기술 오버볼텍스 시지] 낙뢰 10회 → 7회, 간격 0.5초 → 1초, 1회 데미지 120% 증가",
+        "en": "[Unite Move: Thunderstorm Siege] Lightning strikes: 10 → 7, Interval: 0.5s → 1s, Damage per strike increased by 120%",
+        "ja": "[ユナイトわざ オーバーボルテックスシージ] 落雷 10回 → 7回、間隔 0.5秒 → 1秒、1回ダメージ 120% 増加"
+      }
     ]
   }
 ]
