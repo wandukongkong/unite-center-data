@@ -1,0 +1,897 @@
+[
+  {
+    "pokemonId": "4",
+    "evolutionChain": [
+      {
+        "stage": 1,
+        "dexNumber": 448,
+        "nameJa": "ルカリオ",
+        "nameEn": "Lucario",
+        "nameKo": "루카리오",
+        "evolutionLevel": null
+      },
+      {
+        "stage": 2,
+        "dexNumber": 10059,
+        "nameJa": "メガルカリオ",
+        "nameEn": "Mega Lucario",
+        "nameKo": "메가루카리오",
+        "evolutionLevel": 9
+      }
+    ]
+  },
+  {
+    "pokemonId": "7",
+    "evolutionChain": [
+      {
+        "stage": 1,
+        "dexNumber": 1,
+        "nameJa": "フシギダネ",
+        "nameEn": "Bulbasaur",
+        "nameKo": "이상해씨",
+        "evolutionLevel": null
+      },
+      {
+        "stage": 2,
+        "dexNumber": 2,
+        "nameJa": "フシギソウ",
+        "nameEn": "Ivysaur",
+        "nameKo": "이상해풀",
+        "evolutionLevel": 5
+      },
+      {
+        "stage": 3,
+        "dexNumber": 3,
+        "nameJa": "フシギバナ",
+        "nameEn": "Venusaur",
+        "nameKo": "이상해꽃",
+        "evolutionLevel": 7
+      }
+    ]
+  },
+  {
+    "pokemonId": "31",
+    "evolutionChain": [
+      {
+        "stage": 1,
+        "dexNumber": 885,
+        "nameJa": "ドラメシヤ",
+        "nameEn": "Dreepy",
+        "nameKo": "드라꼰",
+        "evolutionLevel": null
+      },
+      {
+        "stage": 2,
+        "dexNumber": 886,
+        "nameJa": "ドロンチ",
+        "nameEn": "Drakloak",
+        "nameKo": "드래런치",
+        "evolutionLevel": 5
+      },
+      {
+        "stage": 3,
+        "dexNumber": 887,
+        "nameJa": "ドラパルト",
+        "nameEn": "Dragapult",
+        "nameKo": "드래펄트",
+        "evolutionLevel": 9
+      }
+    ]
+  },
+  {
+    "pokemonId": "53",
+    "evolutionChain": [
+      {
+        "stage": 1,
+        "dexNumber": 607,
+        "nameJa": "ヒトモシ",
+        "nameEn": "Litwick",
+        "nameKo": "불켜미",
+        "evolutionLevel": null
+      },
+      {
+        "stage": 2,
+        "dexNumber": 608,
+        "nameJa": "ランプラー",
+        "nameEn": "Lampent",
+        "nameKo": "램프라",
+        "evolutionLevel": 5
+      },
+      {
+        "stage": 3,
+        "dexNumber": 609,
+        "nameJa": "シャンデラ",
+        "nameEn": "Chandelure",
+        "nameKo": "샹델라",
+        "evolutionLevel": 7
+      }
+    ]
+  },
+  {
+    "pokemonId": "54",
+    "evolutionChain": [
+      {
+        "stage": 1,
+        "dexNumber": 147,
+        "nameJa": "ミニリュウ",
+        "nameEn": "Dratini",
+        "nameKo": "미뇽",
+        "evolutionLevel": null
+      },
+      {
+        "stage": 2,
+        "dexNumber": 148,
+        "nameJa": "ハクリュー",
+        "nameEn": "Dragonair",
+        "nameKo": "신뇽",
+        "evolutionLevel": 5
+      },
+      {
+        "stage": 3,
+        "dexNumber": 149,
+        "nameJa": "カイリュー",
+        "nameEn": "Dragonite",
+        "nameKo": "망나뇽",
+        "evolutionLevel": 8
+      }
+    ]
+  },
+  {
+    "pokemonId": "55",
+    "evolutionChain": [
+      {
+        "stage": 1,
+        "dexNumber": 245,
+        "nameJa": "スイクン",
+        "nameEn": "Suicune",
+        "nameKo": "스이쿤",
+        "evolutionLevel": null
+      }
+    ]
+  },
+  {
+    "pokemonId": "56",
+    "evolutionChain": [
+      {
+        "stage": 1,
+        "dexNumber": 10166,
+        "nameJa": "ガラルのカモネギ",
+        "nameEn": "Farfetch'd (Galarian Form)",
+        "nameKo": "가라르 파오리야",
+        "evolutionLevel": null
+      },
+      {
+        "stage": 2,
+        "dexNumber": 865,
+        "nameJa": "ネギガナイト",
+        "nameEn": "Sirfetch'd",
+        "nameKo": "창파나이트",
+        "evolutionLevel": 5
+      }
+    ]
+  },
+  {
+    "pokemonId": "57",
+    "evolutionChain": [
+      {
+        "stage": 1,
+        "dexNumber": 52,
+        "nameJa": "ニャース",
+        "nameEn": "Meowth",
+        "nameKo": "나옹",
+        "evolutionLevel": null
+      }
+    ]
+  },
+  {
+    "pokemonId": "58",
+    "evolutionChain": [
+      {
+        "stage": 1,
+        "dexNumber": 145,
+        "nameJa": "サンダー",
+        "nameEn": "Zapdos",
+        "nameKo": "썬더",
+        "evolutionLevel": null
+      }
+    ]
+  },
+  {
+    "pokemonId": "59",
+    "evolutionChain": [
+      {
+        "stage": 1,
+        "dexNumber": 133,
+        "nameJa": "イーブイ",
+        "nameEn": "Eevee",
+        "nameKo": "이브이",
+        "evolutionLevel": null
+      },
+      {
+        "stage": 2,
+        "dexNumber": 134,
+        "nameJa": "シャワーズ",
+        "nameEn": "Vaporeon",
+        "nameKo": "샤미드",
+        "evolutionLevel": 4
+      }
+    ]
+  },
+  {
+    "pokemonId": "60",
+    "evolutionChain": [
+      {
+        "stage": 1,
+        "dexNumber": 146,
+        "nameJa": "ファイヤー",
+        "nameEn": "Moltres",
+        "nameKo": "파이어",
+        "evolutionLevel": null
+      }
+    ]
+  },
+  {
+    "pokemonId": "61",
+    "evolutionChain": [
+      {
+        "stage": 1,
+        "dexNumber": 183,
+        "nameJa": "マリル",
+        "nameEn": "Marill",
+        "nameKo": "마릴",
+        "evolutionLevel": null
+      },
+      {
+        "stage": 2,
+        "dexNumber": 184,
+        "nameJa": "マリルリ",
+        "nameEn": "Azumarill",
+        "nameKo": "마릴리",
+        "evolutionLevel": 4
+      }
+    ]
+  },
+  {
+    "pokemonId": "62",
+    "evolutionChain": [
+      {
+        "stage": 1,
+        "dexNumber": 807,
+        "nameJa": "ゼラオラ",
+        "nameEn": "Zeraora",
+        "nameKo": "제라오라",
+        "evolutionLevel": null
+      }
+    ]
+  },
+  {
+    "pokemonId": "63",
+    "evolutionChain": [
+      {
+        "stage": 1,
+        "dexNumber": 10100,
+        "nameJa": "ロコン(アローラのすがた)",
+        "nameEn": "Vulpix (Alolan Form)",
+        "nameKo": "식스테일(알로라의 모습)",
+        "evolutionLevel": null
+      },
+      {
+        "stage": 2,
+        "dexNumber": 10104,
+        "nameJa": "キュウコン(アローラのすがた)",
+        "nameEn": "Ninetales (Alolan Form)",
+        "nameKo": "나인테일(알로라의 모습)",
+        "evolutionLevel": 4
+      }
+    ]
+  },
+  {
+    "pokemonId": "64",
+    "evolutionChain": [
+      {
+        "stage": 1,
+        "dexNumber": 143,
+        "nameJa": "カビゴン",
+        "nameEn": "Snorlax",
+        "nameKo": "잠만보",
+        "evolutionLevel": null
+      }
+    ]
+  },
+  {
+    "pokemonId": "65",
+    "evolutionChain": [
+      {
+        "stage": 1,
+        "dexNumber": 133,
+        "nameJa": "イーブイ",
+        "nameEn": "Eevee",
+        "nameKo": "이브이",
+        "evolutionLevel": null
+      },
+      {
+        "stage": 2,
+        "dexNumber": 196,
+        "nameJa": "エーフィ",
+        "nameEn": "Espeon",
+        "nameKo": "에스피온",
+        "evolutionLevel": 4
+      }
+    ]
+  },
+  {
+    "pokemonId": "66",
+    "evolutionChain": [
+      {
+        "stage": 1,
+        "dexNumber": 570,
+        "nameJa": "ゾロア",
+        "nameEn": "Zorua",
+        "nameKo": "조로아",
+        "evolutionLevel": null
+      },
+      {
+        "stage": 2,
+        "dexNumber": 571,
+        "nameJa": "ゾロアーク",
+        "nameEn": "Zoroark",
+        "nameKo": "조로아크",
+        "evolutionLevel": 5
+      }
+    ]
+  },
+  {
+    "pokemonId": "67",
+    "evolutionChain": [
+      {
+        "stage": 1,
+        "dexNumber": 35,
+        "nameJa": "ピッピ",
+        "nameEn": "Clefairy",
+        "nameKo": "삐삐",
+        "evolutionLevel": null
+      },
+      {
+        "stage": 2,
+        "dexNumber": 36,
+        "nameJa": "ピクシー",
+        "nameEn": "Clefable",
+        "nameKo": "픽시",
+        "evolutionLevel": 4
+      }
+    ]
+  },
+  {
+    "pokemonId": "68",
+    "evolutionChain": [
+      {
+        "stage": 1,
+        "dexNumber": 7,
+        "nameJa": "ゼニガメ",
+        "nameEn": "Squirtle",
+        "nameKo": "꼬부기",
+        "evolutionLevel": null
+      },
+      {
+        "stage": 2,
+        "dexNumber": 8,
+        "nameJa": "カメール",
+        "nameEn": "Wartortle",
+        "nameKo": "어니부기",
+        "evolutionLevel": 5
+      },
+      {
+        "stage": 3,
+        "dexNumber": 9,
+        "nameJa": "カメックス",
+        "nameEn": "Blastoise",
+        "nameKo": "거북왕",
+        "evolutionLevel": 7
+      }
+    ]
+  },
+  {
+    "pokemonId": "69",
+    "evolutionChain": [
+      {
+        "stage": 1,
+        "dexNumber": 4,
+        "nameJa": "ヒトカゲ",
+        "nameEn": "Charmander",
+        "nameKo": "파이리",
+        "evolutionLevel": null
+      },
+      {
+        "stage": 2,
+        "dexNumber": 5,
+        "nameJa": "リザード",
+        "nameEn": "Charmeleon",
+        "nameKo": "리자드",
+        "evolutionLevel": 5
+      },
+      {
+        "stage": 3,
+        "dexNumber": 6,
+        "nameJa": "リザードン",
+        "nameEn": "Charizard",
+        "nameKo": "리자몽",
+        "evolutionLevel": 7
+      },
+      {
+        "stage": 4,
+        "dexNumber": 10034,
+        "nameJa": "メガリザードンX",
+        "nameEn": "Mega Charizard X",
+        "nameKo": "메가리자몽X",
+        "evolutionLevel": 9
+      }
+    ]
+  },
+  {
+    "pokemonId": "70",
+    "evolutionChain": [
+      {
+        "stage": 1,
+        "dexNumber": 935,
+        "nameJa": "カルボウ",
+        "nameEn": "Charcadet",
+        "nameKo": "카르본",
+        "evolutionLevel": null
+      },
+      {
+        "stage": 2,
+        "dexNumber": 937,
+        "nameJa": "セグレイブ",
+        "nameEn": "Ceruledge",
+        "nameKo": "파라블레이즈",
+        "evolutionLevel": 5
+      }
+    ]
+  },
+  {
+    "pokemonId": "71",
+    "evolutionChain": [
+      {
+        "stage": 1,
+        "dexNumber": 656,
+        "nameJa": "ケロマツ",
+        "nameEn": "Froakie",
+        "nameKo": "개구마르",
+        "evolutionLevel": null
+      },
+      {
+        "stage": 2,
+        "dexNumber": 657,
+        "nameJa": "ゲコガシラ",
+        "nameEn": "Frogadier",
+        "nameKo": "개굴반장",
+        "evolutionLevel": 5
+      },
+      {
+        "stage": 3,
+        "dexNumber": 658,
+        "nameJa": "ゲッコウガ",
+        "nameEn": "Greninja",
+        "nameKo": "개굴닌자",
+        "evolutionLevel": 7
+      }
+    ]
+  },
+  {
+    "pokemonId": "72",
+    "evolutionChain": [
+      {
+        "stage": 1,
+        "dexNumber": 54,
+        "nameJa": "コダック",
+        "nameEn": "Psyduck",
+        "nameKo": "고라파덕",
+        "evolutionLevel": null
+      }
+    ]
+  },
+  {
+    "pokemonId": "73",
+    "evolutionChain": [
+      {
+        "stage": 1,
+        "dexNumber": 144,
+        "nameJa": "フリーザー",
+        "nameEn": "Articuno",
+        "nameKo": "프리져",
+        "evolutionLevel": null
+      }
+    ]
+  },
+  {
+    "pokemonId": "74",
+    "evolutionChain": [
+      {
+        "stage": 1,
+        "dexNumber": 155,
+        "nameJa": "ヒノアラシ",
+        "nameEn": "Cyndaquil",
+        "nameKo": "브케인",
+        "evolutionLevel": null
+      },
+      {
+        "stage": 2,
+        "dexNumber": 156,
+        "nameJa": "マグマラシ",
+        "nameEn": "Quilava",
+        "nameKo": "마그케인",
+        "evolutionLevel": 5
+      },
+      {
+        "stage": 3,
+        "dexNumber": 157,
+        "nameJa": "バクフーン",
+        "nameEn": "Typhlosion",
+        "nameKo": "블레이범",
+        "evolutionLevel": 7
+      }
+    ]
+  },
+  {
+    "pokemonId": "75",
+    "evolutionChain": [
+      {
+        "stage": 1,
+        "dexNumber": 280,
+        "nameJa": "ラルトス",
+        "nameEn": "Ralts",
+        "nameKo": "랄토스",
+        "evolutionLevel": null
+      },
+      {
+        "stage": 2,
+        "dexNumber": 281,
+        "nameJa": "キルリア",
+        "nameEn": "Kirlia",
+        "nameKo": "킬리아",
+        "evolutionLevel": 5
+      },
+      {
+        "stage": 3,
+        "dexNumber": 282,
+        "nameJa": "サーナイト",
+        "nameEn": "Gardevoir",
+        "nameKo": "가디안",
+        "evolutionLevel": 7
+      }
+    ]
+  },
+  {
+    "pokemonId": "76",
+    "evolutionChain": [
+      {
+        "stage": 1,
+        "dexNumber": 813,
+        "nameJa": "ヒバニー",
+        "nameEn": "Scorbunny",
+        "nameKo": "염버니",
+        "evolutionLevel": null
+      },
+      {
+        "stage": 2,
+        "dexNumber": 814,
+        "nameJa": "ラビフット",
+        "nameEn": "Raboot",
+        "nameKo": "래비풋",
+        "evolutionLevel": 5
+      },
+      {
+        "stage": 3,
+        "dexNumber": 815,
+        "nameJa": "エースバーン",
+        "nameEn": "Cinderace",
+        "nameKo": "에이스번",
+        "evolutionLevel": 7
+      }
+    ]
+  },
+  {
+    "pokemonId": "77",
+    "evolutionChain": [
+      {
+        "stage": 1,
+        "dexNumber": 381,
+        "nameJa": "ラティオス",
+        "nameEn": "Latios",
+        "nameKo": "라티오스",
+        "evolutionLevel": null
+      }
+    ]
+  },
+  {
+    "pokemonId": "78",
+    "evolutionChain": [
+      {
+        "stage": 1,
+        "dexNumber": 443,
+        "nameJa": "フカマル",
+        "nameEn": "Gible",
+        "nameKo": "딥상어동",
+        "evolutionLevel": null
+      },
+      {
+        "stage": 2,
+        "dexNumber": 444,
+        "nameJa": "ガバイト",
+        "nameEn": "Gabite",
+        "nameKo": "한바이트",
+        "evolutionLevel": 5
+      },
+      {
+        "stage": 3,
+        "dexNumber": 445,
+        "nameJa": "ガブリアス",
+        "nameEn": "Garchomp",
+        "nameKo": "한카리아스",
+        "evolutionLevel": 9
+      }
+    ]
+  },
+  {
+    "pokemonId": "79",
+    "evolutionChain": [
+      {
+        "stage": 1,
+        "dexNumber": 845,
+        "nameJa": "ウッウ",
+        "nameEn": "Cramorant",
+        "nameKo": "윽우지",
+        "evolutionLevel": null
+      }
+    ]
+  },
+  {
+    "pokemonId": "80",
+    "evolutionChain": [
+      {
+        "stage": 1,
+        "dexNumber": 129,
+        "nameJa": "コイキング",
+        "nameEn": "Magikarp",
+        "nameKo": "잉어킹",
+        "evolutionLevel": null
+      },
+      {
+        "stage": 2,
+        "dexNumber": 130,
+        "nameJa": "ギャラドス",
+        "nameEn": "Gyarados",
+        "nameKo": "갸라도스",
+        "evolutionLevel": 7
+      }
+    ]
+  },
+  {
+    "pokemonId": "81",
+    "evolutionChain": [
+      {
+        "stage": 1,
+        "dexNumber": 4,
+        "nameJa": "ヒトカゲ",
+        "nameEn": "Charmander",
+        "nameKo": "파이리",
+        "evolutionLevel": null
+      },
+      {
+        "stage": 2,
+        "dexNumber": 5,
+        "nameJa": "リザード",
+        "nameEn": "Charmeleon",
+        "nameKo": "리자드",
+        "evolutionLevel": 5
+      },
+      {
+        "stage": 3,
+        "dexNumber": 6,
+        "nameJa": "リザードン",
+        "nameEn": "Charizard",
+        "nameKo": "리자몽",
+        "evolutionLevel": 7
+      },
+      {
+        "stage": 4,
+        "dexNumber": 10035,
+        "nameJa": "メガリザードンY",
+        "nameEn": "Mega Charizard Y",
+        "nameKo": "메가리자몽Y",
+        "evolutionLevel": 9
+      }
+    ]
+  },
+  {
+    "pokemonId": "82",
+    "evolutionChain": [
+      {
+        "stage": 1,
+        "dexNumber": 778,
+        "nameJa": "ミミッキュ",
+        "nameEn": "Mimikyu",
+        "nameKo": "따라큐",
+        "evolutionLevel": null
+      }
+    ]
+  },
+  {
+    "pokemonId": "83",
+    "evolutionChain": [
+      {
+        "stage": 1,
+        "dexNumber": 150,
+        "nameJa": "ミュウツー",
+        "nameEn": "Mewtwo",
+        "nameKo": "뮤츠",
+        "evolutionLevel": null
+      },
+      {
+        "stage": 2,
+        "dexNumber": 10044,
+        "nameJa": "メガミュウツーY",
+        "nameEn": "Mega Mewtwo Y",
+        "nameKo": "메가뮤츠Y",
+        "evolutionLevel": 5
+      }
+    ]
+  },
+  {
+    "pokemonId": "84",
+    "evolutionChain": [
+      {
+        "stage": 1,
+        "dexNumber": 123,
+        "nameJa": "ストライク",
+        "nameEn": "Scyther",
+        "nameKo": "스라크",
+        "evolutionLevel": null
+      },
+      {
+        "stage": 2,
+        "dexNumber": 212,
+        "nameJa": "ハッサム",
+        "nameEn": "Scizor",
+        "nameKo": "핫삼",
+        "evolutionLevel": 5
+      }
+    ]
+  },
+  {
+    "pokemonId": "85",
+    "evolutionChain": [
+      {
+        "stage": 1,
+        "dexNumber": 781,
+        "nameJa": "ダダリン",
+        "nameEn": "Dhelmise",
+        "nameKo": "타타륜",
+        "evolutionLevel": null
+      }
+    ]
+  },
+  {
+    "pokemonId": "86",
+    "evolutionChain": [
+      {
+        "stage": 1,
+        "dexNumber": 129,
+        "nameJa": "コイキング",
+        "nameEn": "Magikarp",
+        "nameKo": "잉어킹",
+        "evolutionLevel": null
+      },
+      {
+        "stage": 2,
+        "dexNumber": 130,
+        "nameJa": "ギャラドス",
+        "nameEn": "Gyarados",
+        "nameKo": "갸라도스",
+        "evolutionLevel": 7
+      },
+      {
+        "stage": 3,
+        "dexNumber": 10041,
+        "nameJa": "メガギャラドス",
+        "nameEn": "Mega Gyarados",
+        "nameKo": "메가갸라도스",
+        "evolutionLevel": 9
+      }
+    ]
+  },
+  {
+    "pokemonId": "87",
+    "evolutionChain": [
+      {
+        "stage": 1,
+        "dexNumber": 158,
+        "nameJa": "ワニノコ",
+        "nameEn": "Totodile",
+        "nameKo": "리아코",
+        "evolutionLevel": null
+      },
+      {
+        "stage": 2,
+        "dexNumber": 159,
+        "nameJa": "アリゲイツ",
+        "nameEn": "Croconaw",
+        "nameKo": "엘리게이",
+        "evolutionLevel": 5
+      },
+      {
+        "stage": 3,
+        "dexNumber": 160,
+        "nameJa": "オーダイル",
+        "nameEn": "Feraligatr",
+        "nameKo": "장크로다일",
+        "evolutionLevel": 7
+      }
+    ]
+  },
+  {
+    "pokemonId": "88",
+    "evolutionChain": [
+      {
+        "stage": 1,
+        "dexNumber": 123,
+        "nameJa": "ストライク",
+        "nameEn": "Scyther",
+        "nameKo": "스라크",
+        "evolutionLevel": null
+      }
+    ]
+  },
+  {
+    "pokemonId": "89",
+    "evolutionChain": [
+      {
+        "stage": 1,
+        "dexNumber": 384,
+        "nameJa": "レックウザ",
+        "nameEn": "Rayquaza",
+        "nameKo": "레쿠자",
+        "evolutionLevel": null
+      }
+    ]
+  },
+  {
+    "pokemonId": "90",
+    "evolutionChain": [
+      {
+        "stage": 1,
+        "dexNumber": 383,
+        "nameJa": "グラードン",
+        "nameEn": "Groudon",
+        "nameKo": "그란돈",
+        "evolutionLevel": null
+      }
+    ]
+  },
+  {
+    "pokemonId": "91",
+    "evolutionChain": [
+      {
+        "stage": 1,
+        "dexNumber": 382,
+        "nameJa": "カイオーガ",
+        "nameEn": "Kyogre",
+        "nameKo": "가이오가",
+        "evolutionLevel": null
+      }
+    ]
+  },
+  {
+    "pokemonId": "126",
+    "evolutionChain": [
+      {
+        "stage": 1,
+        "dexNumber": 720,
+        "nameEn": "Hoopa",
+        "nameKo": "후파",
+        "nameJa": "フーパ",
+        "evolutionLevel": null
+      }
+    ]
+  }
+]
