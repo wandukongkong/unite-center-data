@@ -3133,6 +3133,113 @@
           "en": "Waves a finger to restore HP of allied Pokemon in the area based on the amount of HP lost. Then randomly obtains a move, which can be used when the move button is pressed again within a certain time. Depending on the move obtained, it may activate immediately upon acquisition."
         }
       },
+      "unboundFormMoves": [
+        {
+          "slot": 1,
+          "id": "splash",
+          "name": {
+            "ko": "튀어오르기",
+            "ja": "はねる",
+            "en": "Splash"
+          },
+          "cooldown": 0,
+          "description": {
+            "ko": "아무런 효과가 없다. 유나이트 게이지의 90%를 돌려받는다.",
+            "ja": "何も起こらない。ユナイトわざゲージの90%が返ってくる。",
+            "en": "Nothing happens. 90% of the Unite move gauge is refunded."
+          }
+        },
+        {
+          "slot": 2,
+          "id": "explosion",
+          "name": {
+            "ko": "대폭발",
+            "ja": "だいばくはつ",
+            "en": "Explosion"
+          },
+          "cooldown": 0,
+          "description": {
+            "ko": "주변에 있는 상대편 포켓몬에게 큰 데미지를 준다. 자신의 최대 HP의 40%만큼 자해 데미지를 입는다.",
+            "ja": "周りにいる相手のポケモンに大きなダメージを与える。自分の最大HPの40%分の自傷ダメージを受ける。",
+            "en": "Deals massive damage to nearby opposing Pokémon. The user takes self-inflicted damage equal to 40% of their max HP."
+          }
+        },
+        {
+          "slot": 3,
+          "id": "close_combat",
+          "name": {
+            "ko": "인파이트",
+            "ja": "インファイト",
+            "en": "Close Combat"
+          },
+          "cooldown": 0,
+          "description": {
+            "ko": "가장 가까운 상대편 포켓몬에게 7번 연속으로 공격한다. 공격할 때마다 자신의 HP를 회복한다.",
+            "ja": "一番近くにいる相手のポケモンに7回連続で攻撃する。攻撃するたびに自分のHPが回復する。",
+            "en": "Attacks the nearest opposing Pokémon 7 times in a row. Restores the user's HP with each hit."
+          }
+        },
+        {
+          "slot": 4,
+          "id": "block",
+          "name": {
+            "ko": "블록",
+            "ja": "とおせんぼう",
+            "en": "Block"
+          },
+          "cooldown": 0,
+          "description": {
+            "ko": "사용자 앞에 벽을 만든다. 자신의 최대 HP의 20%에 해당하는 실드를 얻는다.",
+            "ja": "使用者の前に壁を作る。自分の最大HPの20%に相当するシールドを得る。",
+            "en": "Creates a wall in front of the user. The user gains a shield equal to 20% of their max HP."
+          }
+        },
+        {
+          "slot": 5,
+          "id": "hyper_beam",
+          "name": {
+            "ko": "파괴광선",
+            "ja": "はかいこうせん",
+            "en": "Hyper Beam"
+          },
+          "cooldown": 0,
+          "description": {
+            "ko": "지정한 방향으로 강력한 광선을 발사해 데미지를 준다. 상대편 포켓몬의 최대 HP의 15%만큼 추가 데미지를 준다.",
+            "ja": "指定した方向に強力な光線を発射してダメージを与える。相手のポケモンの最大HPの15%分の追加ダメージを与える。",
+            "en": "Fires a powerful beam in the designated direction, dealing damage. Deals additional damage equal to 15% of the target's max HP."
+          }
+        },
+        {
+          "slot": 6,
+          "id": "fly",
+          "name": {
+            "ko": "공중날기",
+            "ja": "そらをとぶ",
+            "en": "Fly"
+          },
+          "cooldown": 0,
+          "description": {
+            "ko": "하늘로 날아오른 뒤 착지하면서 주변의 상대편 포켓몬에게 데미지를 주고 날려버린다.",
+            "ja": "空に舞い上がり、着地しながら周りの相手のポケモンにダメージを与えてふき飛ばす。",
+            "en": "Soars into the sky and deals damage to nearby opposing Pokémon upon landing, launching them."
+          }
+        },
+        {
+          "slot": 7,
+          "id": "hydro_pump",
+          "name": {
+            "ko": "하이드로펌프",
+            "ja": "ハイドロポンプ",
+            "en": "Hydro Pump"
+          },
+          "cooldown": 0,
+          "description": {
+            "ko": "지정한 방향으로 물을 발사해 맞은 상대편 포켓몬에게 데미지를 주고 뒤로 밀어낸다.",
+            "ja": "指定した方向に水を発射し、当たった相手のポケモンにダメージを与えて後ろに押し返す。",
+            "en": "Fires a jet of water in the designated direction, dealing damage to opposing Pokémon hit and pushing them back."
+          }
+        }
+      ],
       "passiveCondition": {
         "type": "not-applicable",
         "reason": "HP 회복량 기반 실드 — 서포트형",

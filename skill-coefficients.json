@@ -377,7 +377,18 @@
           }
         ]
       },
-      "unite": null
+      "unite": {
+        "name": "Dreep and Destroy",
+        "code": "U",
+        "label": "Damage - per Dreepy",
+        "isDamage": true,
+        "ratio": "101",
+        "dmgType": "Atk",
+        "slider": "4",
+        "base": "178",
+        "hitCount": 2,
+        "chargeCount": 2
+      }
     }
   },
   {
@@ -2525,7 +2536,72 @@
           }
         ]
       },
-      "unite": null
+      "unite": null,
+      "wonderWishMoves": [
+        {
+          "id": "splash",
+          "probability": 0.02,
+          "ratio": "0",
+          "dmgType": null,
+          "slider": "0",
+          "base": "0",
+          "hitCount": 1
+        },
+        {
+          "id": "explosion",
+          "probability": 0.05,
+          "ratio": "486",
+          "dmgType": "SpAtk",
+          "slider": "34",
+          "base": "1640",
+          "hitCount": 1
+        },
+        {
+          "id": "close_combat",
+          "probability": 0.15,
+          "ratio": "52.07",
+          "dmgType": "SpAtk",
+          "slider": "4",
+          "base": "176",
+          "hitCount": 7
+        },
+        {
+          "id": "block",
+          "probability": 0.18,
+          "ratio": "0",
+          "dmgType": null,
+          "slider": "0",
+          "base": "0",
+          "hitCount": 1
+        },
+        {
+          "id": "hyper_beam",
+          "probability": 0.20,
+          "ratio": "243",
+          "dmgType": "SpAtk",
+          "slider": "17",
+          "base": "820",
+          "hitCount": 1
+        },
+        {
+          "id": "fly",
+          "probability": 0.20,
+          "ratio": "315.9",
+          "dmgType": "SpAtk",
+          "slider": "22",
+          "base": "1066",
+          "hitCount": 1
+        },
+        {
+          "id": "hydro_pump",
+          "probability": 0.20,
+          "ratio": "121.5",
+          "dmgType": "SpAtk",
+          "slider": "9",
+          "base": "410",
+          "hitCount": 3
+        }
+      ]
     }
   },
   {
