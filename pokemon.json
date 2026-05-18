@@ -2620,14 +2620,27 @@
       },
       "passive": {
         "name": {
+          "ko": "위험예지",
+          "en": "Anticipation",
+          "ja": "きけんよち"
+        },
+        "description": {
+          "ko": "방해를 받을 것 같을 때 그것을 피하고 잠시 동안 방해받지 않게 된다. 한번 이 특성이 발동되면 다음에 발동될 때까지 일정 시간이 필요하다.",
+          "en": "When the Pokemon would be affected by a hindrance, the hindrance is negated, and the Pokemon becomes immune to hindrances for a short time. This Ability goes on cooldown after it's triggered.",
+          "ja": "妨害を受けそうになったとき、それを回避し、少しのあいだ妨害されなくなる。いちどこのとくせいが発動すると、次に発動するまで一定の待ち時間が必要。"
+        }
+      },
+      "passive2": {
+        "evolutionLevel": 4,
+        "name": {
           "ko": "매직미러",
-          "ja": "マジックミラー",
-          "en": "Magic Bounce"
+          "en": "Magic Bounce",
+          "ja": "マジックミラー"
         },
         "description": {
           "ko": "방해를 받을 것 같을 때 그것을 피하고 잠시 동안 방해받지 않게 된다. 동시에 방해를 시도한 상대편 포켓몬에게 데미지를 주고 잠시 동안 이동 속도를 떨어뜨린다. 한번 이 특성이 발동되면 다음에 발동될 때까지 일정 시간이 필요하다.",
-          "ja": "妨害を受けそうなとき、それを回避してしばらくの間妨害を受けなくなる。同時に妨害を試みた相手のポケモンにダメージを与え、しばらくの間移動速度を下げる。一度この特性が発動されると、次に発動されるまで一定時間が必要。",
-          "en": "When about to be hindered, avoids the effect and becomes immune to hindrances for a short time. Simultaneously deals damage to the opposing Pokemon that attempted the hindrance and reduces their movement speed for a short time. After this Ability activates, it requires a certain amount of time before it can activate again."
+          "en": "When the Pokemon would be affected by a hindrance, the hindrance is negated, and the Pokemon becomes immune to hindrances for a short time. At the same time, this Ability deals damage to the opposing Pokemon that attempted to inflict the hindrance and decreases its movement speed for a short time. This Ability goes on cooldown after it's triggered.",
+          "ja": "妨害を受けそうになったとき、それを回避し、少しのあいだ妨害されなくなる。同時に、妨害を仕掛けてきた相手のポケモンにダメージを与え、少しのあいだ移動速度を下げる。いちどこのとくせいが発動すると、次に発動するまで一定の待ち時間が必要。"
         }
       },
       "moves": [
@@ -2841,6 +2854,7 @@
           "cooldown": 8,
           "unlockedAtLevel": 3,
           "upgradedAtLevel": null,
+          "slot": 1,
           "description": {
             "ko": "지정한 방향으로 대시하고 상대편 포켓몬에게 데미지를 준다. 상대편 포켓몬에게 명중한 경우에는 잠시 동안 다시 이 기술을 사용할 수 있다.",
             "ja": "指定した方向にダッシュし、相手のポケモンにダメージを与える。相手のポケモンに命中した場合は、しばらくの間再びこのわざを使用できる。",
@@ -2858,11 +2872,31 @@
           "category": "active",
           "cooldown": 8,
           "unlockedAtLevel": 5,
-          "upgradedAtLevel": 11,
+          "upgradedAtLevel": null,
+          "slot": 2,
           "description": {
             "ko": "기술을 사용하면 잠시 동안 이동 대신에 대시 공격을 한다. 대시 공격을 한 뒤에 다음 일반 공격이 특수한 강화 공격이 된다. 기술의 효과 시간 중에 다른 기술이나 특수한 강화 공격이 상대편 포켓몬에게 명중하면 기술 지속 시간이 연장된다. 기술이나 특수한 강화 공격이 합계 6번 명중하면, 날아올라 착지하며 일정 범위를 베어내고 데미지를 준다. 상대편 포켓몬에게 명중한 경우에는 HP를 회복한다.",
             "ja": "わざを使用するとしばらくの間、移動の代わりにダッシュ攻撃をする。ダッシュ攻撃を行った後、次の通常攻撃が特殊な強化攻撃になる。わざの効果時間中に他のわざや特殊な強化攻撃が相手のポケモンに命中すると、わざの継続時間が延長される。わざや特殊な強化攻撃が合計6回命中すると、飛び上がり着地しながら一定範囲を切り裂きダメージを与える。相手のポケモンに命中した場合はHPを回復する。",
             "en": "Using this move temporarily replaces movement with dash attacks. After a dash attack, the next basic attack becomes a special boosted attack. If other moves or the special boosted attack hit opposing Pokemon during this move's duration, the duration is extended. When moves or the special boosted attack hit a total of 6 times, the user leaps into the air, lands, slashes a certain area, and deals damage. HP is restored when opposing Pokemon are hit."
+          },
+          "upgradeDescription": null
+        },
+        {
+          "id": "night_slash",
+          "name": {
+            "ko": "야밤베기",
+            "ja": "ナイトスラッシュ",
+            "en": "Night Slash"
+          },
+          "category": "active",
+          "cooldown": 7,
+          "unlockedAtLevel": 5,
+          "upgradedAtLevel": 11,
+          "slot": 1,
+          "description": {
+            "ko": "지정한 방향으로 대시하여 상대편 포켓몬에게 데미지를 준다. 급소에 맞기 쉬운 상태로 만들어 잠시 동안 받는 데미지가 증가한다.",
+            "ja": "指定した方向にダッシュして相手のポケモンにダメージを与える。急所に当たりやすい状態にしてしばらくの間受けるダメージを増加させる。",
+            "en": "Dashes in the designated direction and deals damage to opposing Pokemon, making them more vulnerable to critical hits and increasing damage taken for a short time."
           },
           "upgradeDescription": {
             "ko": "기술 대기 시간이 짧아진다.",
@@ -2881,6 +2915,7 @@
           "cooldown": 6,
           "unlockedAtLevel": 5,
           "upgradedAtLevel": 11,
+          "slot": 1,
           "description": {
             "ko": "지정한 방향으로 대시하여 데미지를 주고 모든 기술의 대기 시간이 짧아진다. 상대편 포켓몬에게 명중하면 잠시 동안 대시를 시작한 장소에 마크하고 다시 기술을 사용할 수 있다. 마크를 끊기지 않고 속여때리기나 다른 기술을 상대편 포켓몬에게 4번 명중시키면 다음 속여때리기가 변화하여 지정한 상대편 포켓몬에게 덤벼들어 데미지를 준다.",
             "ja": "指定した方向にダッシュしてダメージを与え、すべてのわざの待機時間が短くなる。相手のポケモンに命中すると、しばらくの間ダッシュを開始した場所にマークしてから再びわざを使用できる。マークを途切れさせずにだましうちや他のわざを相手のポケモンに4回命中させると、次のだましうちが変化して指定した相手のポケモンに飛びかかりダメージを与える。",
@@ -2903,6 +2938,7 @@
           "cooldown": 5,
           "unlockedAtLevel": 7,
           "upgradedAtLevel": 13,
+          "slot": 2,
           "description": {
             "ko": "지정한 방향으로 대시하여 상대편 포켓몬에게 데미지를 주고 잠시 동안 행동할 수 없게 만든다. 대시가 끝나는 지점 근처에서 상대편 포켓몬에게 명중한 경우에는 행동 불가로 만드는 대신에 날려버린다.",
             "ja": "指定した方向にダッシュして相手のポケモンにダメージを与え、しばらくの間行動できなくさせる。ダッシュが終わる地点付近で相手のポケモンに命中した場合は、行動不可にする代わりに打ち上げる。",
@@ -2925,6 +2961,7 @@
           "cooldown": 5,
           "unlockedAtLevel": 7,
           "upgradedAtLevel": 13,
+          "slot": 2,
           "description": {
             "ko": "지정한 방향으로 대시하여 상대편 포켓몬에게 데미지를 주고 자신의 HP를 회복한다.",
             "ja": "指定した方向にダッシュして相手のポケモンにダメージを与え、自分のHPを回復する。",
@@ -6072,28 +6109,6 @@
           "upgradeDescription": null
         },
         {
-          "id": "double_wing",
-          "name": {
-            "ko": "더블윙",
-            "ja": "ダブルウィング",
-            "en": "Dual Wingbeat"
-          },
-          "category": "active",
-          "cooldown": 6,
-          "unlockedAtLevel": 5,
-          "upgradedAtLevel": 11,
-          "description": {
-            "ko": "전방을 십자 범위로 2번 베어 데미지를 준다. 십자 범위의 중심에서 상대편 포켓몬에게 데미지를 줬을 때 HP를 회복한다. 기술이 상대편 포켓몬에게 명중한 뒤 일정 시간 동안 다시 한번 사용할 수 있다. 다시 기술을 사용하면 지정한 방향으로 대시하고 데미지를 준다. 대시의 데미지는 상대의 HP가 적을수록 증가한다.",
-            "ja": "前方を十字の範囲で2回なぎ払いダメージを与える。十字の範囲の中心で相手のポケモンにダメージを与えたときHPを回復する。わざが相手のポケモンに命中した後、一定時間内にもう一度使用できる。再びわざを使用すると、指定した方向にダッシュしてダメージを与える。ダッシュのダメージは相手のHPが少ないほど増加する。",
-            "en": "Slashes the cross-shaped area ahead twice, dealing damage. Restores HP when dealing damage to opposing Pokemon at the center of the cross area. After the move hits, can be used again within a set time. Using it again dashes in the designated direction and deals damage. The dash damage increases based on how low the opposing Pokemon's HP is."
-          },
-          "upgradeDescription": {
-            "ko": "주는 데미지가 증가한다.",
-            "ja": "与えるダメージが増加する。",
-            "en": "Increases the damage dealt."
-          }
-        },
-        {
           "id": "bullet_punch",
           "name": {
             "ko": "불릿펀치",
@@ -6387,14 +6402,27 @@
       },
       "passive": {
         "name": {
+          "ko": "물흐르기",
+          "ja": "すいすい",
+          "en": "Swift Swim"
+        },
+        "description": {
+          "ko": "날씨가 비일 때 이동 속도가 증가한다.",
+          "ja": "天気が雨のとき、すばやさが上がる。",
+          "en": "Raises the Pokemon's Speed when the weather is rainy."
+        }
+      },
+      "passive2": {
+        "name": {
           "ko": "위협",
           "ja": "いかく",
           "en": "Intimidate"
         },
+        "evolutionLevel": 7,
         "description": {
-          "ko": "데미지를 준 상대편 포켓몬의 공격이 떨어진다. 갸라도스로 진화하면 최대 HP, 공격, 공격 속도가 증가한다. 메가진화 후에는 상대편 포켓몬의 방어를 일부 무시하고 데미지를 준다.",
-          "ja": "ダメージを与えた相手のポケモンのこうげきが下がる。ギャラドスに進化すると最大HP・こうげき・こうげきスピードが増加する。メガシンカ後は相手のポケモンのぼうぎょを一部無視してダメージを与える。",
-          "en": "Decreases the Attack of opposing Pokemon that take damage. Upon evolving into Gyarados, max HP, Attack, and Attack Speed increase. After Mega Evolving, partially ignores the Defense of opposing Pokemon when dealing damage."
+          "ko": "데미지를 준 상대편 포켓몬의 공격이 떨어진다. 갸라도스로 진화하면 최대 HP, 공격, 공격 속도가 증가한다.",
+          "ja": "ダメージを与えた相手のポケモンのこうげきが下がる。ギャラドスに進化すると最大HP・こうげき・こうげきスピードが増加する。",
+          "en": "Decreases the Attack of opposing Pokemon that take damage. Upon evolving into Gyarados, max HP, Attack, and Attack Speed increase."
         }
       },
       "moves": [
@@ -6460,8 +6488,6 @@
         },
         {
           "id": "waterfall",
-          "chargeCount": 3,
-          "chargeRechargeMs": 7000,
           "name": {
             "ko": "폭포오르기",
             "ja": "たきのぼり",
@@ -6498,12 +6524,14 @@
           "en": "While holding the Unite Move button, dives deep underwater, becoming invulnerable to attacks but unable to attack. Releasing the button causes the user to burst out and attack. After submerging for a set time, a whirlpool appears at the landing spot, continuously slowing opposing Pokemon. After submerging even longer, a tornado appears at the landing spot and throws opposing Pokemon hit. After using this Unite Move, the user Mega Evolves."
         }
       },
-      "passive2": {
+      "passive3": {
         "name": {
           "ko": "틀깨기",
           "ja": "かたやぶり",
           "en": "Mold Breaker"
         },
+        "trigger": "unite",
+        "evolutionLevel": null,
         "description": {
           "ko": "【메가진화 후】상대편 포켓몬의 특성에 영향을 받지 않고 기술을 사용할 수 있다.",
           "ja": "【メガシンカ後】相手のポケモンの特性にじゃまされずにわざを出すことができる。",
@@ -8549,11 +8577,11 @@
           }
         },
         {
-          "id": "dragon_yell",
+          "id": "dragon_cheer",
           "name": {
             "ko": "드래곤옐",
             "ja": "ドラゴンエール",
-            "en": "Dragon Yell"
+            "en": "Dragon Cheer"
           },
           "category": "active",
           "cooldown": 8,
@@ -8572,11 +8600,11 @@
         }
       ],
       "uniteMove": {
-        "id": "misty_strike",
+        "id": "mist_blast",
         "name": {
           "ko": "미스티스트라이크",
           "ja": "ミスティストライク",
-          "en": "Misty Strike"
+          "en": "Mist Blast"
         },
         "cooldown": 112,
         "unlockedAtLevel": 8,
@@ -11367,6 +11395,28 @@
           "upgradeDescription": null
         },
         {
+          "id": "rock_tomb",
+          "name": {
+            "ko": "바위무덤",
+            "ja": "いわおとし",
+            "en": "Rock Tomb"
+          },
+          "category": "active",
+          "cooldown": 7,
+          "unlockedAtLevel": 4,
+          "upgradedAtLevel": 11,
+          "description": {
+            "ko": "주변에 바위를 소환해 상대편 포켓몬에게 데미지를 주고 이동 속도를 떨어뜨린다. 소환된 바위는 장애물 역할을 하며 일정 시간 후 사라진다.",
+            "ja": "周囲に岩を召喚して相手のポケモンにダメージを与え、移動速度を下げる。召喚された岩は障害物として機能し、一定時間後に消える。",
+            "en": "Summons rocks around the user, dealing damage to nearby opposing Pokémon and reducing their movement speed. The summoned rocks act as obstacles and disappear after a short time."
+          },
+          "upgradeDescription": {
+            "ko": "업그레이드 후에는 이동 속도 감소 효과가 길어진다.",
+            "ja": "強化後は移動速度低下効果が長くなる。",
+            "en": "Upgrade: Increases the duration of the movement speed reduction."
+          }
+        },
+        {
           "id": "stealth_rock",
           "name": {
             "ko": "스텔스록",
@@ -11375,8 +11425,8 @@
           },
           "category": "active",
           "cooldown": 5,
-          "unlockedAtLevel": 4,
-          "upgradedAtLevel": 11,
+          "unlockedAtLevel": 6,
+          "upgradedAtLevel": 13,
           "description": {
             "ko": "수많은 작은 돌을 쏜다. 작은 돌이 상대에게 맞거나 최대 거리까지 날아갔을 때 작은 돌이 떠 있는 공간이 만들어진다. 그 범위 안에 있는 상대는 지속 데미지를 받으며 데미지는 점차 증가한다.",
             "ja": "多くの小さな石を放つ。小さな石が相手に当たるか最大距離まで飛んだとき、小さな石が浮いている空間が作られる。その範囲内にいる相手は継続ダメージを受け、ダメージは徐々に増加する。",
@@ -11489,11 +11539,11 @@
       },
       "moves": [
         {
-          "id": "razor_leaf",
+          "id": "leafage",
           "name": {
-            "ko": "나뭇잎",
-            "ja": "はっぱカッター",
-            "en": "Razor Leaf"
+            "ko": "나뭇잎날리기",
+            "ja": "はっぱ",
+            "en": "Leafage"
           },
           "category": "active",
           "cooldown": 8,
@@ -11614,7 +11664,7 @@
         }
       ],
       "uniteMove": {
-        "id": "arrow_quill_barrage",
+        "id": "nock_nock",
         "name": {
           "ko": "화살깃연속속사",
           "ja": "やじり連続速射",
@@ -12504,7 +12554,8 @@
             "ja": "数発の奇妙なほのおを放って攻撃する。わざが命中した時に相手のポケモンにダメージを与え、やけど状態にする。",
             "en": "Fires multiple eerie flames at opposing Pokemon. When this move hits, it deals damage and inflicts a burn."
           },
-          "unlockedAtLevel": 1
+          "unlockedAtLevel": 3,
+          "slot": 1
         },
         {
           "id": "lick",
@@ -12522,7 +12573,8 @@
             "ja": "舌を出して攻撃し、相手のポケモンを自分の方向に引き寄せる。このわざを使用すると次の通常攻撃が強化攻撃になる。",
             "en": "Extends its tongue to attack and pulls the opposing Pokemon toward the user. Using this move makes the next basic attack a boosted attack."
           },
-          "unlockedAtLevel": 3
+          "unlockedAtLevel": 1,
+          "slot": 2
         },
         {
           "id": "dream_eater",
@@ -12535,6 +12587,7 @@
           "category": "dash",
           "cooldown": 7,
           "upgradedAtLevel": 11,
+          "slot": 2,
           "description": {
             "ko": "기술이 명중했을 때 상대편 포켓몬을 잠듦 상태로 만든다. 상대편 포켓몬이 자신의 주변에서 잠듦 상태가 되어 있을 때 다시 기술을 사용하면 그 포켓몬의 등 뒤에서 나타나 공격한다. 이때 자신의 HP를 회복하며 도깨비불, 섀도볼, 오물폭탄의 대기 시간이 짧아진다. 기술을 사용하면 다음 일반 공격이 강화 공격이 된다. 상대 팀의 포켓몬을 KO 시키면 이 기술의 대기 시간이 0초가 된다. 업그레이드 후에는 기술이 주는 데미지와 회복하는 HP가 증가한다.",
             "ja": "わざが命中した時に相手のポケモンをねむり状態にする。相手のポケモンが自分の周囲でねむり状態になっている時に再度わざを使うと、そのポケモンの背後に現れて攻撃する。この時、自分のHPを回復し、おにび・シャドーボール・ヘドロばくだんの待機時間が短くなる。わざを使うと次の通常攻撃が強化攻撃になる。相手チームのポケモンをKOすると、このわざの待機時間が0秒になる。強化後はわざが与えるダメージと回復するHPが増加する。",
@@ -12553,6 +12606,7 @@
           "category": "dash",
           "cooldown": 7.5,
           "upgradedAtLevel": 11,
+          "slot": 2,
           "description": {
             "ko": "지정한 장소까지 몸을 숨겨서 이동하고 모습을 드러냈을 때 범위 안에 있는 상대편 포켓몬에게 데미지를 준다. 상대편 포켓몬이 상태 이상일 때 공격에 성공하면 주는 데미지가 증가하고 기술 대기 시간이 짧아진다. 기술을 사용하면 다음 일반 공격이 강화 공격이 된다. 업그레이드 후에는 기술이 주는 데미지가 증가한다.",
             "ja": "指定した場所まで身を隠して移動し、姿を現した時に範囲内の相手のポケモンにダメージを与える。相手のポケモンが状態異常の時に攻撃に成功すると与えるダメージが増加し、わざの待機時間が短くなる。わざを使うと次の通常攻撃が強化攻撃になる。強化後はわざが与えるダメージが増加する。",
@@ -12571,6 +12625,7 @@
           "category": "ranged",
           "cooldown": 4.5,
           "upgradedAtLevel": 13,
+          "slot": 1,
           "description": {
             "ko": "까만 그림자의 덩어리를 내던져서 공격한다. 기술이 명중했을 때 상대편 포켓몬의 이동 속도와 특수방어를 잠시 동안 떨어뜨린다. 업그레이드 후에는 기술이 주는 데미지가 증가한다.",
             "ja": "黒い影の塊を投げつけて攻撃する。わざが命中した時に相手のポケモンの移動速度と特防をしばらくの間下げる。強化後はわざが与えるダメージが増加する。",
@@ -12589,6 +12644,7 @@
           "category": "ranged",
           "cooldown": 7.5,
           "upgradedAtLevel": 13,
+          "slot": 1,
           "description": {
             "ko": "지정한 장소로 더러운 오물을 던져 공격한다. 기술이 명중했을 때 상대편 포켓몬을 독 상태로 만든다. 업그레이드 후에는 독 상태의 시간이 길어진다.",
             "ja": "指定した場所に汚い汚物を投げつけて攻撃する。わざが命中した時に相手のポケモンをどく状態にする。強化後はどく状態の時間が長くなる。",
@@ -12653,33 +12709,33 @@
       },
       "moves": [
         {
-          "id": "bullet_seed",
+          "id": "tackle",
           "name": {
             "ko": "몸통박치기",
             "ja": "たいあたり",
-            "en": "Bullet Seed"
+            "en": "Tackle"
           },
           "category": "active",
           "cooldown": 5.5,
-          "unlockedAtLevel": 1,
+          "unlockedAtLevel": 3,
           "upgradedAtLevel": null,
           "description": {
-            "ko": "지정한 장소로 뛰어들어 공격한다. 범위 안에 있는 상대편 포켓몬에게 데미지를 주고 이동속도를 잠시 동안 떨어뜨린다. \"탐내다\" 발동 중에 이 기술을 사용하면 뛰어드는 장소를 지정할 수 없으며 진행 방향의 범위 안에 있는 상대편 포켓몬에게 데미지를 준다. 이때 꼬리에 나무열매를 모아두었다면 모두 소모한다. 소모한 나무열매가 많을수록 기술 대기 시간은 짧아진다.",
-            "ja": "指定した場所へ飛び込んで攻撃する。範囲内にいる相手のポケモンにダメージを与え、しばらくの間、移動速度を下げる。「ほしがる」発動中にこの技を使うと、飛び込む場所を指定できず、進行方向の範囲内にいる相手のポケモンにダメージを与える。このとき、しっぽにきのみをためていたらすべて消費する。消費したきのみが多いほど技のCTは短くなる。",
-            "en": "Leaps to a designated location, dealing damage to nearby opposing Pokémon and slowing them briefly. When used during Covet, leaps forward instead and deals damage to opposing Pokémon in the path. Any Berries stored in the tail are consumed, and the more Berries consumed, the shorter the cooldown."
+            "ko": "지정한 장소로 뛰어들어 공격한다. 범위 안에 있는 상대편 포켓몬에게 데미지를 주고 이동속도를 잠시 동안 떨어뜨린다.",
+            "ja": "指定した場所へ飛び込んで攻撃する。範囲内にいる相手のポケモンにダメージを与え、しばらくの間、移動速度を下げる。",
+            "en": "Leaps to a designated location and attacks, dealing damage to nearby opposing Pokémon and slowing their movement speed briefly."
           },
           "upgradeDescription": null
         },
         {
-          "id": "covet",
+          "id": "defense_curl",
           "name": {
-            "ko": "웅크리기",
-            "ja": "ほしがる",
-            "en": "Covet"
+            "ko": "몸구르기",
+            "ja": "まるくなる",
+            "en": "Defense Curl"
           },
           "category": "active",
           "cooldown": 8,
-          "unlockedAtLevel": 3,
+          "unlockedAtLevel": 1,
           "upgradedAtLevel": null,
           "description": {
             "ko": "잠시 동안 실드 효과를 얻는다. 이때 눈앞에 나무열매가 떨어진다.",
@@ -12689,25 +12745,26 @@
           "upgradeDescription": null
         },
         {
-          "id": "stuff_cheeks",
+          "id": "bullet_seed",
           "name": {
-            "ko": "볼가득넣기",
-            "ja": "ほおにためる",
-            "en": "Stuff Cheeks"
+            "ko": "씨기관총",
+            "ja": "タネマシンガン",
+            "en": "Bullet Seed"
           },
           "category": "active",
-          "cooldown": 8,
+          "cooldown": 4.5,
           "unlockedAtLevel": 5,
           "upgradedAtLevel": 11,
+          "slot": 1,
           "description": {
-            "ko": "나무열매를 몇 개인가 떨어뜨리고 먹어서 HP를 회복한다. 최대 HP를 넘어서 회복한 만큼은 실드 효과로 바뀐다. 기술을 사용하는 동안 나무열매가 시선에 들어오면 잠시 동안 이동 속도가 오른다.",
-            "ja": "きのみをいくつか落として食べ、HPを回復する。最大HPを超えて回復した分はシールド効果に変わる。技を使っている間にきのみが視界に入ると、しばらくの間、移動速度が上がる。",
-            "en": "Drops several Berries and eats them to restore HP. Any HP restored beyond the maximum becomes a shield. While using this move, if a Berry enters the line of sight, movement speed increases briefly."
+            "ko": "나무열매를 사용해 지정한 방향으로 공격한다. 범위 안에 있는 상대편 포켓몬에게 데미지를 주고 이동 속도를 잠시 동안 떨어뜨린다. 모아둔 나무열매가 많을수록 주는 데미지가 증가한다.",
+            "ja": "きのみを使って指定した方向に攻撃する。範囲内にいる相手のポケモンにダメージを与え、しばらくの間、移動速度を下げる。ためたきのみが多いほど与えるダメージが増加する。",
+            "en": "Fires Berries in the designated direction, dealing damage to opposing Pokémon in range and slowing them briefly. The more Berries stored, the greater the damage dealt."
           },
           "upgradeDescription": {
-            "ko": "업그레이드 후에는 꼬리에서 떨어지는 나무열매의 개수가 증가한다.",
-            "ja": "強化後はしっぽから落ちるきのみの個数が増加する。",
-            "en": "Upgrade: Increases the number of Berries that drop from the tail."
+            "ko": "업그레이드 후에는 기술이 주는 데미지가 증가한다.",
+            "ja": "強化後は技が与えるダメージが増加する。",
+            "en": "Upgrade: Increases the damage dealt by this move."
           }
         },
         {
@@ -12721,6 +12778,7 @@
           "cooldown": 10,
           "unlockedAtLevel": 5,
           "upgradedAtLevel": 11,
+          "slot": 1,
           "description": {
             "ko": "최선을 다해 달려 부딪힌 상대편 포켓몬에게 데미지를 주고 날려버린다. 달리는 동안 몸에서 나무열매가 떨어진다. 그 나무열매를 먹으면 이동 속도가 잠시 동안 오르고 먹으면 먹을수록 이동 속도가 오른다. 또한 달리면서 \"몸통박치기\", \"트림\"이나 \"씨기관총\"을 사용할 수 있다. 기술을 사용하면 \"몸통박치기\", \"트림\"의 대기 시간이 0초가 된다.",
             "ja": "全力で走って、ぶつかった相手のポケモンにダメージを与えてふき飛ばす。走っている間、体からきのみが落ちる。そのきのみを食べると、しばらくの間、移動速度が上がり、食べれば食べるほど移動速度が上がる。また、走りながら「たいあたり」「ガス放出」や「タネマシンガン」を使うことができる。技を使うと「たいあたり」「ガス放出」のCTが0秒になる。",
@@ -12728,30 +12786,54 @@
           },
           "upgradeDescription": {
             "ko": "업그레이드 후에는 기술이 주는 데미지가 증가하고 나무열매를 떨어뜨리는 빈도가 많아진다.",
-            "ja": "強化後は技が与えるダメージが増加し、きのみを落とす頻度が多くなる。",
+            "ja": "強화後は技が与えるダメージが増加し、きのみを落とす頻度が多くなる。",
             "en": "Upgrade: Increases the damage dealt by this move and increases the frequency of Berry drops."
           }
         },
         {
-          "id": "seed_bomb",
+          "id": "stuff_cheeks",
           "name": {
-            "ko": "씨기관총",
-            "ja": "タネマシンガン",
-            "en": "Seed Bomb"
+            "ko": "볼가득넣기",
+            "ja": "ほおにためる",
+            "en": "Stuff Cheeks"
           },
           "category": "active",
-          "cooldown": 4.5,
+          "cooldown": 8,
           "unlockedAtLevel": 7,
           "upgradedAtLevel": 13,
+          "slot": 2,
           "description": {
-            "ko": "나무열매를 사용해 지정한 방향으로 공격한다. 범위 안에 있는 상대편 포켓몬에게 데미지를 주고 이동 속도를 잠시 동안 떨어뜨린다. 모아둔 나무열매가 많을수록 주는 데미지가 증가한다.",
-            "ja": "きのみを使って指定した方向に攻撃する。範囲内にいる相手のポケモンにダメージを与え、しばらくの間、移動速度を下げる。ためたきのみが多いほど与えるダメージが増加する。",
-            "en": "Fires Berries in the designated direction, dealing damage to opposing Pokémon in range and slowing them briefly. The more Berries stored, the greater the damage dealt."
+            "ko": "나무열매를 몇 개인가 떨어뜨리고 먹어서 HP를 회복한다. 최대 HP를 넘어서 회복한 만큼은 실드 효과로 바뀐다. 기술을 사용하는 동안 나무열매가 시선에 들어오면 잠시 동안 이동 속도가 오른다.",
+            "ja": "きのみをいくつか落として食べ、HPを回復する。最大HPを超えて回復した分はシールド効果に変わる。技を使っている間にきのみが視界に入ると、しばらくの間、移動速度が上がる。",
+            "en": "Drops several Berries and eats them to restore HP. Any HP restored beyond the maximum becomes a shield. While using this move, if a Berry enters the line of sight, movement speed increases briefly."
           },
           "upgradeDescription": {
-            "ko": "업그레이드 후에는 기술이 주는 데미지가 증가한다.",
-            "ja": "強化後は技が与えるダメージが増加する。",
-            "en": "Upgrade: Increases the damage dealt by this move."
+            "ko": "업그레이드 후에는 꼬리에서 떨어지는 나무열매의 개수가 증가한다.",
+            "ja": "強化後はしっぽから落ちるきのみの個数が増加する。",
+            "en": "Upgrade: Increases the number of Berries that drop from the tail."
+          }
+        },
+        {
+          "id": "covet",
+          "name": {
+            "ko": "웅크리기",
+            "ja": "ほしがる",
+            "en": "Covet"
+          },
+          "category": "active",
+          "cooldown": 8,
+          "unlockedAtLevel": 7,
+          "upgradedAtLevel": 13,
+          "slot": 2,
+          "description": {
+            "ko": "잠시 동안 실드 효과를 얻는다. 이때 눈앞에 나무열매가 떨어진다.",
+            "ja": "しばらくの間、シールド効果を得る。このとき、目の前にきのみが落ちる。",
+            "en": "Grants a shield for a short time. An Oran Berry also drops in front of the user."
+          },
+          "upgradeDescription": {
+            "ko": "기술 대기 시간이 짧아진다.",
+            "ja": "わざの待機時間が短くなる。",
+            "en": "Reduces the move's cooldown."
           }
         },
         {
@@ -12759,22 +12841,18 @@
           "name": {
             "ko": "트림",
             "ja": "ガス放出",
-            "en": "Belch"
+            "en": "Belch Gas"
           },
           "category": "active",
           "cooldown": 5,
-          "unlockedAtLevel": 7,
-          "upgradedAtLevel": 13,
+          "unlockedAtLevel": 5,
+          "upgradedAtLevel": null,
           "description": {
             "ko": "범위 안에 있는 상대편 포켓몬에게 데미지를 주고 이동 속도를 잠시 동안 떨어뜨린다. 이때 꼬리에 나무열매를 모아두었다면 모두 소모한다. 소모한 나무열매가 많을수록 기술 대기 시간은 짧아진다.",
             "ja": "範囲内にいる相手のポケモンにダメージを与え、しばらくの間、移動速度を下げる。このとき、しっぽにきのみをためていたらすべて消費する。消費したきのみが多いほど技のCTは短くなる。",
             "en": "Deals damage to opposing Pokémon in range and slows them briefly. Consumes all Berries stored in the tail. The more Berries consumed, the shorter the cooldown."
           },
-          "upgradeDescription": {
-            "ko": "업그레이드 후에는 기술이 주는 데미지가 증가한다.",
-            "ja": "強化後は技が与えるダメージが増加する。",
-            "en": "Upgrade: Increases the damage dealt by this move."
-          }
+          "upgradeDescription": null
         }
       ],
       "uniteMove": {
@@ -13486,6 +13564,8 @@
         },
         {
           "id": "aerial_ace_leafeon",
+          "chargeCount": 2,
+          "chargeRechargeMs": 5000,
           "name": {
             "ko": "제비반환",
             "ja": "つばめがえし",
@@ -13802,6 +13882,7 @@
         },
         {
           "id": "dynamic_punch",
+          "slot": 2,
           "name": {
             "ko": "폭발펀치",
             "ja": "ばくれつパンチ",
@@ -13824,6 +13905,7 @@
         },
         {
           "id": "submission",
+          "slot": 2,
           "name": {
             "ko": "지옥의바퀴",
             "ja": "じごくぐるま",
@@ -13846,6 +13928,7 @@
         },
         {
           "id": "close_combat",
+          "slot": 1,
           "name": {
             "ko": "인파이트",
             "ja": "インファイト",
@@ -13868,6 +13951,7 @@
         },
         {
           "id": "cross_chop",
+          "slot": 1,
           "name": {
             "ko": "크로스촙",
             "ja": "クロスチョップ",
@@ -14133,8 +14217,8 @@
           },
           "category": "active",
           "cooldown": 5,
-          "unlockedAtLevel": 1,
-          "upgradedAtLevel": null,
+          "unlockedAtLevel": 4,
+          "upgradedAtLevel": 4,
           "description": {
             "ko": "전기로 된 공을 던져서 범위 안에 있는 상대편 포켓몬에게 데미지를 주고 잠시 동안 마비 상태로 만든다. 주는 데미지는 상대편 포켓몬의 남은 HP가 적을수록 증가한다.",
             "ja": "電気でできたボールを投げて範囲内にいる相手のポケモンにダメージを与えてしばらくの間まひ状態にする。与えるダメージは相手のポケモンの残りHPが少ないほど増加する。",
@@ -14151,8 +14235,8 @@
           },
           "category": "active",
           "cooldown": 9,
-          "unlockedAtLevel": 1,
-          "upgradedAtLevel": null,
+          "unlockedAtLevel": 4,
+          "upgradedAtLevel": 4,
           "description": {
             "ko": "강력한 빛의 다발을 발사하여 공격하고 범위 안에 있는 상대편 포켓몬에게 데미지를 준다. 기술이 상대편 포켓몬에게 명중하면 강화 카운터를 추가로 1개 얻는다.",
             "ja": "強力な光の束を発射して攻撃し、範囲内にいる相手のポケモンにダメージを与える。技が相手のポケモンに命中すると強化カウンターを追加で1個得る。",
@@ -14169,8 +14253,8 @@
           },
           "category": "active",
           "cooldown": 12,
-          "unlockedAtLevel": 1,
-          "upgradedAtLevel": null,
+          "unlockedAtLevel": 4,
+          "upgradedAtLevel": 4,
           "description": {
             "ko": "파도에 올라타 돌격하여 맞은 포켓몬을 밀쳐내고 행동할 수 없게 만든다. 기술이 상대편 포켓몬에게 명중하면 강화 카운터를 추가로 1개 얻는다. 기술을 사용하는 동안 자신은 실드 효과를 얻고 방해받지 않게 된다. 기술 종료 시에 지정한 방향으로 점프할 수 있으며 잠시 동안 방해받지 않게 된다.",
             "ja": "波に乗って突撃して、当たったポケモンをはじき出して行動できなくする。技が相手のポケモンに命中すると強化カウンターを追加で1個得る。技を使っている間、自分はシールド効果を得てじゃまされなくなる。技終了時に指定した方向にジャンプでき、しばらくの間じゃまされなくなる。",
@@ -14187,8 +14271,8 @@
           },
           "category": "active",
           "cooldown": 7,
-          "unlockedAtLevel": 3,
-          "upgradedAtLevel": null,
+          "unlockedAtLevel": 6,
+          "upgradedAtLevel": 6,
           "description": {
             "ko": "같은 편 포켓몬의 가까이로 이동하여 그 포켓몬에게 실드 효과를 주고 공격 속도를 올린다. 코칭의 대상으로 지정되어 있지 않은 같은 편 포켓몬에게 기술을 사용하면 기술의 대기 시간이 0초가 된다. 이 기술을 사용할 때마다 일렉트릭볼, 솔라빔, 파도타기의 대기 시간이 짧아진다.",
             "ja": "味方のポケモンの近くへ移動して、そのポケモンにシールド効果を与えてこうげき速度を上げる。コーチングの対象に指定されていない味方のポケモンにわざを使うとわざのCTが0秒になる。このわざを使うたびに「エレキボール」「ソーラービーム」「なみのり」のCTが短くなる。",
@@ -14205,8 +14289,8 @@
           },
           "category": "active",
           "cooldown": 9,
-          "unlockedAtLevel": 3,
-          "upgradedAtLevel": null,
+          "unlockedAtLevel": 6,
+          "upgradedAtLevel": 6,
           "description": {
             "ko": "지정한 장소에 반투명한 벽을 만든다. 벽을 통과할 수는 없으며 벽에 부딪힌 상대편 포켓몬을 밀쳐낸다. 자신이 발동한 일렉트릭볼, 솔라빔, 파도타기가 벽을 통과하면 데미지나 범위가 강화된다. 다시 기술을 사용하면 벽을 자신의 가까이로 끌어오고 함께 움직이게 된다. 이때 벽은 통과한 상대편 포켓몬의 공격이 주는 데미지를 감소시킨다.",
             "ja": "指定した場所に半透明の壁を作る。壁を通過することはできず、壁にぶつかった相手のポケモンをはじき出す。自分が発動した「エレキボール」「ソーラービーム」「なみのり」が壁を通過するとダメージや範囲が強化される。もう一度わざを使うと壁を自分の近くに引き寄せて一緒に動くようになる。このとき壁は通過した相手のポケモンの攻撃が与えるダメージを減少させる。",
@@ -14223,8 +14307,8 @@
           },
           "category": "active",
           "cooldown": 10,
-          "unlockedAtLevel": 3,
-          "upgradedAtLevel": null,
+          "unlockedAtLevel": 6,
+          "upgradedAtLevel": 6,
           "description": {
             "ko": "지정한 방향으로 재빠르게 이동하고 잠시 동안 이동 속도가 오른다. 기술은 최대 2번까지 충전할 수 있다.",
             "ja": "指定した方向に素早く移動してしばらくの間移動速度が上がる。わざは最大2回まで充電できる。",
@@ -15032,6 +15116,7 @@
           "cooldown": 7.5,
           "unlockedAtLevel": 1,
           "upgradedAtLevel": null,
+          "slot": 1,
           "description": {
             "ko": "상대를 향해 대시해서 공격하여 명중한 상대편 포켓몬에게 데미지를 주고 잠시 동안 이동 속도를 떨어뜨린다. 명중한 상대편 포켓몬에게서 에오스 에너지를 조금 훔친다. 명중한 상대편 포켓몬이 에오스 에너지를 가지고 있지 않은 경우에는 잠시 동안 행동할 수 없게 만든다.",
             "ja": "相手に向かってダッシュして攻撃し、命中した相手のポケモンにダメージを与えてしばらくのあいだ移動速度を下げる。命中した相手のポケモンからエオスエナジーを少し盗む。命中した相手のポケモンがエオスエナジーを持っていない場合は、しばらくのあいだ行動できなくする。",
@@ -15050,6 +15135,7 @@
           "cooldown": 9,
           "unlockedAtLevel": 3,
           "upgradedAtLevel": null,
+          "slot": 2,
           "description": {
             "ko": "전방의 부채꼴 범위 안에 있는 상대편 포켓몬에게 데미지를 주고 잠시 동안 이동 속도를 떨어뜨린다. 등 뒤에서 공격을 성공하면 주는 데미지가 증가하여 이동 속도를 떨어뜨리는 효과가 강해진다.",
             "ja": "前方の扇形の範囲内にいる相手のポケモンにダメージを与えてしばらくのあいだ移動速度を下げる。背後からの攻撃に成功すると与えるダメージが増加して移動速度を下げる効果が強くなる。",
@@ -15068,6 +15154,7 @@
           "cooldown": 8.5,
           "unlockedAtLevel": 4,
           "upgradedAtLevel": 10,
+          "slot": 1,
           "description": {
             "ko": "지정한 방향으로 주변을 공격하여 이동한 뒤, 공격하며 원래 지점까지 돌아온다. 공격이 명중한 상대편 포켓몬에게 데미지를 주고 잠시 동안 행동할 수 없게 만든다. 잠시 동안 기술을 다시 사용할 수 있다. 다시 기술을 사용하면 전방을 손톱으로 공격하여 명중한 상대편 포켓몬에게 데미지를 주고 밀쳐낸다. 기술을 사용하는 동안 자신이 받는 데미지가 감소한다.",
             "ja": "指定した方向へ周囲を攻撃しながら移動した後、攻撃しながら元の地点まで戻る。攻撃が命中した相手のポケモンにダメージを与えてしばらくのあいだ行動できなくする。しばらくのあいだ技を再使用できる。再使用すると前方をツメで攻撃して、命中した相手のポケモンにダメージを与えてはじき出す。技を使っている間、自分が受けるダメージが減少する。",
@@ -15090,6 +15177,7 @@
           "cooldown": 12,
           "unlockedAtLevel": 4,
           "upgradedAtLevel": 10,
+          "slot": 1,
           "description": {
             "ko": "기술의 효과로 잠시 동안 은신 상태가 되며 이동 속도가 오른다. 은신 상태에서 사용하는 1번째 강화 공격은 추가 데미지를 준다. 효과의 지속 시간 중에 은신 상태가 해제되더라도 이동 불가 상태가 되는 방해를 받지 않는다면 다시 은신 상태가 된다.",
             "ja": "技の効果でしばらくのあいだステルス状態になり移動速度が上がる。ステルス状態で使う1回目の強化攻撃は追加ダメージを与える。効果の持続時間中にステルス状態が解除されても、移動不可状態になるじゃまを受けなければ再びステルス状態になる。",
@@ -15102,16 +15190,17 @@
           }
         },
         {
-          "id": "confuse_ray",
+          "id": "feint_attack",
           "name": {
             "ko": "속여때리기",
             "ja": "あやしいひかり",
-            "en": "Confuse Ray"
+            "en": "Feint Attack"
           },
           "category": "active",
           "cooldown": 7,
           "unlockedAtLevel": 6,
           "upgradedAtLevel": 12,
+          "slot": 2,
           "description": {
             "ko": "지정한 장소로 더미 에오스 에너지를 던져서 설치한다. 설치한 더미 에오스 에너지가 남아 있는 동안 그 주변의 시야를 확인할 수 있다. 더미 에오스 에너지는 최대 5개까지 설치할 수 있다. 상대편 포켓몬이 더미 에오스 에너지를 모으면 폭발하여 지속 데미지를 주고 잠시 동안 이동 속도를 떨어뜨린다. 기술은 최대 3번까지 충전할 수 있다.",
             "ja": "指定した場所にダミーのエオスエナジーを投げて設置する。設置したダミーのエオスエナジーが残っている間、その周囲の視界を確認できる。ダミーのエオスエナジーは最大5個まで設置できる。相手のポケモンがダミーのエオスエナジーを集めると爆発して継続ダメージを与え、しばらくのあいだ移動速度を下げる。技は最大3回まで充電できる。",
@@ -15124,16 +15213,17 @@
           }
         },
         {
-          "id": "nasty_plot",
+          "id": "confuse_ray",
           "name": {
             "ko": "이상한빛",
             "ja": "わるだくみ",
-            "en": "Nasty Plot"
+            "en": "Confuse Ray"
           },
           "category": "active",
           "cooldown": 10,
           "unlockedAtLevel": 6,
           "upgradedAtLevel": 12,
+          "slot": 2,
           "description": {
             "ko": "지정한 방향으로 빛을 날려서 명중한 상대 팀의 포켓몬에게 데미지를 주고 혼란 상태로 만든다. 야생 포켓몬에게는 데미지만 준다. 혼란 상태 중에는 일반 공격으로 주변 포켓몬을 계속 공격한다.",
             "ja": "指定した方向に光を飛ばして命中した相手チームのポケモンにダメージを与えてこんらん状態にする。野生のポケモンにはダメージのみを与える。こんらん状態中は通常攻撃で周囲のポケモンを攻撃し続ける。",
@@ -16305,6 +16395,7 @@
           "cooldown": 5,
           "unlockedAtLevel": 1,
           "upgradedAtLevel": null,
+          "slot": 1,
           "description": {
             "ko": "전방을 향해서 연속 공격을 한다. 기술이 명중했을 때 상대편 포켓몬에게 데미지를 주고 잠시 동안 이동 속도도 떨어뜨린다.",
             "ja": "前方に向けて連続攻撃をする。わざが命中したとき相手ポケモンにダメージを与えてしばらくの間移動速度も落とす。",
@@ -16323,6 +16414,7 @@
           "cooldown": 8,
           "unlockedAtLevel": 1,
           "upgradedAtLevel": null,
+          "slot": 2,
           "description": {
             "ko": "빠르게 굴러서 실드 효과를 얻는다. 구르고 있는 도중에 맞은 상대편 포켓몬을 날려버린다. 장애물에 부딪히면 진행 방향이 바뀌고 막치기, 연속뺨치기, 매지컬샤인의 대기 시간이 0초가 된다.",
             "ja": "素早く転がってシールド効果を得る。転がっている途中に当たった相手ポケモンを打ち上げる。障害物にぶつかると進行方向が変わりはたく・れんぞくビンタ・マジカルシャインのCTが0秒になる。",
@@ -16339,8 +16431,9 @@
           },
           "category": "active",
           "cooldown": 10,
-          "unlockedAtLevel": 4,
-          "upgradedAtLevel": 12,
+          "unlockedAtLevel": 6,
+          "upgradedAtLevel": 10,
+          "slot": 2,
           "description": {
             "ko": "빠르게 굴러서 실드 효과를 얻는다. 구르고 있는 도중에 맞은 상대편 포켓몬에게 데미지를 주고 날려버린다. 장애물에 부딪히면 진행 방향이 바뀌고 막치기, 연속뺨치기, 매지컬샤인의 대기 시간이 0초가 된다.",
             "ja": "素早く転がってシールド効果を得る。転がっている途中に当たった相手ポケモンにダメージを与えて打ち上げる。障害物にぶつかると進行方向が変わりはたく・れんぞくビンタ・マジカルシャインのCTが0秒になる。",
@@ -16361,8 +16454,9 @@
           },
           "category": "active",
           "cooldown": 8,
-          "unlockedAtLevel": 4,
-          "upgradedAtLevel": 12,
+          "unlockedAtLevel": 6,
+          "upgradedAtLevel": 10,
+          "slot": 2,
           "description": {
             "ko": "노랫소리를 이용해 주변에 있는 상대편 포켓몬의 이동 속도를 잠시 동안 떨어뜨린다. 그 상태로 일정 시간 안에 기술의 범위에서 벗어나지 않은 상대편 포켓몬은 잠시 동안 잠듦 상태가 되며 방어와 특수방어도 떨어진다. 기술을 사용할 때 이동 속도가 잠시 동안 오른다.",
             "ja": "歌声を使って周囲にいる相手ポケモンの移動速度をしばらくの間落とす。その状態で一定時間内にわざの範囲から出なかった相手ポケモンはしばらくの間ねむり状態になり防御と特防も落ちる。わざを使うとき移動速度がしばらくの間上がる。",
@@ -16383,8 +16477,9 @@
           },
           "category": "active",
           "cooldown": 5,
-          "unlockedAtLevel": 6,
-          "upgradedAtLevel": 10,
+          "unlockedAtLevel": 4,
+          "upgradedAtLevel": 12,
+          "slot": 1,
           "description": {
             "ko": "전방을 향해서 연속 공격을 한다. 기술이 명중했을 때 상대편 포켓몬에게 데미지를 주고 잠시 동안 이동 속도도 떨어뜨린다.",
             "ja": "前方に向けて連続攻撃をする。わざが命中したとき相手ポケモンにダメージを与えてしばらくの間移動速度も落とす。",
@@ -16405,8 +16500,9 @@
           },
           "category": "active",
           "cooldown": 4,
-          "unlockedAtLevel": 6,
-          "upgradedAtLevel": 10,
+          "unlockedAtLevel": 4,
+          "upgradedAtLevel": 12,
+          "slot": 1,
           "description": {
             "ko": "지정한 방향으로 강력한 빛을 내어 범위 안에 있는 상대편 포켓몬에게 2번 데미지를 준다.",
             "ja": "指定した方向に強力な光を放ち範囲内にいる相手ポケモンに2回ダメージを与える。",
