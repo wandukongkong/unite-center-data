@@ -924,6 +924,35 @@
     ]
   },
   {
+    "pokemonId": "97",
+    "evolutionChain": [
+      {
+        "stage": 1,
+        "dexNumber": 255,
+        "nameJa": "アチャモ",
+        "nameEn": "Torchic",
+        "nameKo": "아차모",
+        "evolutionLevel": null
+      },
+      {
+        "stage": 2,
+        "dexNumber": 256,
+        "nameJa": "ワカシャモ",
+        "nameEn": "Combusken",
+        "nameKo": "영치코",
+        "evolutionLevel": 5
+      },
+      {
+        "stage": 3,
+        "dexNumber": 257,
+        "nameJa": "バシャーモ",
+        "nameEn": "Blaziken",
+        "nameKo": "번치코",
+        "evolutionLevel": 7
+      }
+    ]
+  },
+  {
     "pokemonId": "98",
     "evolutionChain": [
       {
