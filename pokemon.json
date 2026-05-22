@@ -922,11 +922,11 @@
           "upgradeDescription": null
         },
         {
-          "id": "blizzard",
+          "id": "avalanche",
           "name": {
             "ko": "눈사태",
             "ja": "ふぶき",
-            "en": "Blizzard"
+            "en": "Avalanche"
           },
           "category": "active",
           "cooldown": 6,
@@ -1231,7 +1231,7 @@
       "passiveCondition": {
         "type": "threshold",
         "requiredHits": 5,
-        "critBonusPct": 100,
+        "critBonusPct": 25,
         "isNew": false
       }
     },
@@ -1790,11 +1790,11 @@
           "upgradeDescription": null
         },
         {
-          "id": "flamethrower",
+          "id": "incinerate",
           "name": {
             "ko": "불태우기",
             "ja": "かえんほうしゃ",
-            "en": "Flamethrower"
+            "en": "Incinerate"
           },
           "category": "active",
           "cooldown": 8,
@@ -4388,7 +4388,8 @@
             "ko": "실드 효과가 더욱 강해진다.",
             "ja": "シールド効果がさらに強くなる。",
             "en": "The shield effect becomes stronger."
-          }
+          },
+          "slot": 2
         },
         {
           "id": "eruption",
@@ -4410,7 +4411,8 @@
             "ko": "이 기술로 주는 데미지가 증가한다.",
             "ja": "このわざで与えるダメージが増加する。",
             "en": "Increases the damage dealt by this move."
-          }
+          },
+          "slot": 1
         }
       ],
       "uniteMove": {
@@ -4736,11 +4738,11 @@
           }
         },
         {
-          "id": "nitro_charge",
+          "id": "flame_charge",
           "name": {
             "ko": "니트로차지",
             "ja": "ニトロチャージ",
-            "en": "Nitro Charge"
+            "en": "Flame Charge"
           },
           "category": "active",
           "cooldown": 5,
@@ -5525,6 +5527,19 @@
         "type": "not-applicable",
         "reason": "진화 스탯 상승 + KO 조건부 쿨타임 감소",
         "isNew": false
+      },
+      "passive2": {
+        "evolutionLevel": 7,
+        "name": {
+          "ko": "자기과신",
+          "ja": "じしんかじょう",
+          "en": "Moxie"
+        },
+        "description": {
+          "ko": "진화 시 최대 HP, 공격, 공격 속도가 대폭 증가한다. 상대 KO 또는 어시스트 시 모든 기술 대기 시간이 30% 짧아진다.",
+          "ja": "進化時に最大HP・攻撃・攻撃速度が大幅に増加する。相手をKOまたはアシストで、すべての技のまちじかんが30%短くなる。",
+          "en": "Upon evolution, max HP, Attack, and attack speed significantly increase. KOing or assisting in KOing an opposing Pokémon reduces all move cooldowns by 30%."
+        }
       }
     },
     "attackType": "physical",
@@ -7279,11 +7294,11 @@
         }
       ],
       "uniteMove": {
-        "id": "deep_nightmare_invitation",
+        "id": "worst_nightmare",
         "name": {
           "ko": "깊은악몽으로의유인",
           "ja": "しんえんなるあくむへのいざない",
-          "en": "Deep Nightmare's Invitation"
+          "en": "Worst Nightmare"
         },
         "cooldown": 100,
         "unlockedAtLevel": 9,
@@ -7943,26 +7958,27 @@
           "upgradeDescription": null
         },
         {
-          "id": "blaze_kick",
+          "id": "fire_punch",
           "name": {
-            "ko": "블레이즈킥",
-            "ja": "ブレイズキック",
-            "en": "Blaze Kick"
+            "ko": "불꽃펀치",
+            "ja": "ほのおのパンチ",
+            "en": "Fire Punch"
           },
           "category": "active",
-          "cooldown": 9,
-          "unlockedAtLevel": 5,
-          "upgradedAtLevel": 11,
+          "cooldown": 6,
+          "unlockedAtLevel": 7,
+          "upgradedAtLevel": 13,
           "description": {
-            "ko": "지정한 위치로 날아들며 킥을 날려 상대편 포켓몬에게 데미지를 주고 밀쳐낸다. 밀쳐진 상대는 이동 속도가 감소하며, 벽에 부딪히면 행동 불가로 만든다. [킥 스타일 기술]",
-            "ja": "指定した位置に飛び込みながらキックを放ち、相手ポケモンにダメージを与えて吹き飛ばす。吹き飛ばされた相手は移動速度が下がり、壁に衝突すると行動不能になる。【キックスタイルわざ】",
-            "en": "Leaps into the designated location with a kick, dealing damage and pushing back opposing Pokémon. Pushed Pokémon are slowed; if they hit a wall, they are stunned. [Kick Style move]"
+            "ko": "지정한 방향으로 불꽃을 두른 펀치를 날려 데미지를 준다. 방향을 도중에 변경할 수 있으며, 명중 시 잠시 동안 다시 사용할 수 있다. [펀치 스타일 기술. 폭염선풍권 사용 후 오버히트가 변경됨]",
+            "ja": "指定した方向に炎を纏ったパンチを放ってダメージを与える。方向を途中で変更でき、命中時に一時的に再使用できる。【パンチスタイルわざ。ブレイズロールダウン使用後にオーバーヒートが変更される】",
+            "en": "Delivers a flaming punch in the designated direction for damage. Direction can be changed mid-dash. On hit, can be used once more briefly. [Punch Style move — replaces Overheat after Pyro Ball]"
           },
           "upgradeDescription": {
-            "ko": "이동 속도 감소 효과가 강해지고 행동 불가 시간이 길어진다.",
-            "ja": "移動速度低下効果が強くなり、行動不能時間が長くなる。",
-            "en": "Strengthens the slow effect and extends the stun duration."
-          }
+            "ko": "상대편 포켓몬에게 주는 데미지가 증가한다.",
+            "ja": "相手ポケモンに与えるダメージが増加する。",
+            "en": "Increases the damage dealt to opposing Pokémon."
+          },
+          "slot": 1
         },
         {
           "id": "overheat",
@@ -7984,7 +8000,8 @@
             "ko": "상대편 포켓몬에게 주는 데미지가 증가한다.",
             "ja": "相手ポケモンに与えるダメージが増加する。",
             "en": "Increases the damage dealt to opposing Pokémon."
-          }
+          },
+          "slot": 1
         },
         {
           "id": "focus_blast",
@@ -8006,29 +8023,31 @@
             "ko": "이동 속도를 떨어뜨리는 효과가 강해진다.",
             "ja": "移動速度低下効果が強くなる。",
             "en": "Strengthens the slow effect."
-          }
+          },
+          "slot": 2
         },
         {
-          "id": "fire_punch",
+          "id": "blaze_kick",
           "name": {
-            "ko": "불꽃펀치",
-            "ja": "ほのおのパンチ",
-            "en": "Fire Punch"
+            "ko": "블레이즈킥",
+            "ja": "ブレイズキック",
+            "en": "Blaze Kick"
           },
           "category": "active",
-          "cooldown": 6,
-          "unlockedAtLevel": 7,
-          "upgradedAtLevel": 13,
+          "cooldown": 9,
+          "unlockedAtLevel": 5,
+          "upgradedAtLevel": 11,
           "description": {
-            "ko": "지정한 방향으로 불꽃을 두른 펀치를 날려 데미지를 준다. 방향을 도중에 변경할 수 있으며, 명중 시 잠시 동안 다시 사용할 수 있다. [펀치 스타일 기술. 폭염선풍권 사용 후 오버히트가 변경됨]",
-            "ja": "指定した方向に炎を纏ったパンチを放ってダメージを与える。方向を途中で変更でき、命中時に一時的に再使用できる。【パンチスタイルわざ。ブレイズロールダウン使用後にオーバーヒートが変更される】",
-            "en": "Delivers a flaming punch in the designated direction for damage. Direction can be changed mid-dash. On hit, can be used once more briefly. [Punch Style move — replaces Overheat after Pyro Ball]"
+            "ko": "지정한 위치로 날아들며 킥을 날려 상대편 포켓몬에게 데미지를 주고 밀쳐낸다. 밀쳐진 상대는 이동 속도가 감소하며, 벽에 부딪히면 행동 불가로 만든다. [킥 스타일 기술]",
+            "ja": "指定した位置に飛び込みながらキックを放ち、相手ポケモンにダメージを与えて吹き飛ばす。吹き飛ばされた相手は移動速度が下がり、壁に衝突すると行動不能になる。【キックスタイルわざ】",
+            "en": "Leaps into the designated location with a kick, dealing damage and pushing back opposing Pokémon. Pushed Pokémon are slowed; if they hit a wall, they are stunned. [Kick Style move]"
           },
           "upgradeDescription": {
-            "ko": "상대편 포켓몬에게 주는 데미지가 증가한다.",
-            "ja": "相手ポケモンに与えるダメージが増加する。",
-            "en": "Increases the damage dealt to opposing Pokémon."
-          }
+            "ko": "이동 속도 감소 효과가 강해지고 행동 불가 시간이 길어진다.",
+            "ja": "移動速度低下効果が強くなり、行動不能時間が長くなる。",
+            "en": "Strengthens the slow effect and extends the stun duration."
+          },
+          "slot": 2
         }
       ],
       "uniteMove": {
@@ -8475,11 +8494,11 @@
       },
       "moves": [
         {
-          "id": "psychic",
+          "id": "confusion",
           "name": {
             "ko": "염동력",
             "ja": "サイコキネシス",
-            "en": "Psychic"
+            "en": "Confusion"
           },
           "category": "active",
           "cooldown": 8,
@@ -11809,11 +11828,11 @@
           "unlockedAtLevel": 7
         },
         {
-          "id": "nitro_charge",
+          "id": "flame_charge",
           "name": {
             "ko": "니트로차지",
             "ja": "ニトロチャージ",
-            "en": "Nitro Charge"
+            "en": "Flame Charge"
           },
           "type": "active",
           "category": "dash",
@@ -11828,7 +11847,7 @@
         }
       ],
       "uniteMove": {
-        "id": "magical_festival",
+        "id": "fanciful_fireworks",
         "name": {
           "ko": "매지컬페스티벌",
           "ja": "マジカルフェスティバル",
@@ -12539,7 +12558,7 @@
       },
       "moves": [
         {
-          "id": "will_o_wisp_gengar",
+          "id": "will_o_wisp",
           "name": {
             "ko": "도깨비불",
             "ja": "おにび",
