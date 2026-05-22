@@ -2147,8 +2147,6 @@
         },
         {
           "id": "spark",
-          "chargeCount": 3,
-          "chargeRechargeMs": 10000,
           "name": {
             "ko": "스파크",
             "ja": "スパーク",
