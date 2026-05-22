@@ -6744,7 +6744,8 @@
             "ja": "前方扇形を2回切り付け、当たった相手ポケモンにダメージを与える。2回目の切り付けのダメージのほうが高い。",
             "en": "Slashes twice with its scythes in a cone in front of itself, dealing damage to opposing Pokemon it hits. The second slash deals more damage than the first."
           },
-          "upgradeDescription": null
+          "upgradeDescription": null,
+          "slot": 0
         },
         {
           "id": "quick_attack",
@@ -6762,7 +6763,8 @@
             "ja": "前方へダッシュし、接触した相手ポケモンにダメージを与える。",
             "en": "Dashes forward, dealing damage to opposing Pokemon it makes contact with along the way."
           },
-          "upgradeDescription": null
+          "upgradeDescription": null,
+          "slot": 1
         },
         {
           "id": "dual_wingbeat",
@@ -6784,7 +6786,8 @@
             "ko": "이 기술의 데미지가 증가한다.",
             "ja": "このわざのダメージが増加する。",
             "en": "Increases the damage dealt by this move."
-          }
+          },
+          "slot": 0
         },
         {
           "id": "double_hit",
@@ -6806,7 +6809,8 @@
             "ko": "이 기술의 대기 시간이 짧아진다.",
             "ja": "このわざの待機時間が短くなる。",
             "en": "Reduces this move's cooldown."
-          }
+          },
+          "slot": 1
         },
         {
           "id": "swords_dance",
@@ -6828,7 +6832,8 @@
             "ko": "대시하고 있는 동안 상대편 포켓몬에게 받는 데미지가 감소한다.",
             "ja": "ダッシュしている間、相手のポケモンから受けるダメージが減少する。",
             "en": "Reduces damage received from opposing Pokemon while dashing."
-          }
+          },
+          "slot": 1
         }
       ],
       "uniteMove": {
