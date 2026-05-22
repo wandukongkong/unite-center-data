@@ -11119,7 +11119,8 @@
             "ko": "날려버린 상대의 이동 속도도 잠시 동안 떨어뜨린다.",
             "ja": "吹き飛ばした相手の移動速度もしばらくの間下げる。",
             "en": "Also briefly reduces the movement speed of launched opponents."
-          }
+          },
+          "chargeCount": 2
         },
         {
           "id": "helping_hand_blissey",
