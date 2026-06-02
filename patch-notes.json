@@ -1,5 +1,100 @@
 [
   {
+    "id": "pn-119",
+    "version": "2026.05.28",
+    "date": "2026-05-28",
+    "pokemonId": "110",
+    "type": "buff",
+    "types": [
+      "buff"
+    ],
+    "summary": {
+      "ko": "그림자분신 분신 색적 범위 증가",
+      "en": "Double Team clone detection range increased",
+      "ja": "かげぶんしんの分身の索敵範囲が拡大"
+    },
+    "changes": [
+      {
+        "ko": "[그림자분신] 분신의 색적 범위 5m → 8m",
+        "en": "[Double Team] Clone detection range 5m → 8m",
+        "ja": "[かげぶんしん] 分身の索敵範囲 5m → 8m"
+      }
+    ]
+  },
+  {
+    "id": "pn-120",
+    "version": "2026.05.28",
+    "date": "2026-05-28",
+    "pokemonId": "145",
+    "type": "nerf",
+    "types": [
+      "nerf"
+    ],
+    "summary": {
+      "ko": "꽃보라·유나이트 「만개 스위트 아로마」 하향",
+      "en": "Petal Blizzard and Unite Move \"Full Bloom Sweet Aroma\" nerfed",
+      "ja": "はなふぶき・ユナイトわざ「満開スイートアロマ」が弱体化"
+    },
+    "changes": [
+      {
+        "ko": "[꽃보라] 데미지 −10%",
+        "en": "[Petal Blizzard] Damage −10%",
+        "ja": "[はなふぶき] ダメージ −10%"
+      },
+      {
+        "ko": "[꽃보라] HP 회복량 −15%",
+        "en": "[Petal Blizzard] HP recovery −15%",
+        "ja": "[はなふぶき] HP回復量 −15%"
+      },
+      {
+        "ko": "[유나이트 「만개 스위트 아로마」] 필요 에너지량 30000 → 90000",
+        "en": "[Unite Move \"Full Bloom Sweet Aroma\"] Energy required 30000 → 90000",
+        "ja": "[ユナイトわざ「満開スイートアロマ」] 必要エネルギー量 30000 → 90000"
+      },
+      {
+        "ko": "[유나이트 「만개 스위트 아로마」] 시간당 에너지 충전량 900/s → 2700/s",
+        "en": "[Unite Move \"Full Bloom Sweet Aroma\"] Energy charge per second 900/s → 2700/s",
+        "ja": "[ユナイトわざ「満開スイートアロマ」] 毎秒エネルギー充填量 900/s → 2700/s"
+      },
+      {
+        "ko": "[유나이트 「만개 스위트 아로마」] 상대 적중 시 에너지 획득량 1500 → 4500",
+        "en": "[Unite Move \"Full Bloom Sweet Aroma\"] Energy gained per enemy hit 1500 → 4500",
+        "ja": "[ユナイトわざ「満開スイートアロマ」] 相手命中時のエネルギー獲得量 1500 → 4500"
+      },
+      {
+        "ko": "[유나이트 「만개 스위트 아로마」] 발동 시 실드량 최대 HP의 20% → 10%",
+        "en": "[Unite Move \"Full Bloom Sweet Aroma\"] Shield on activation 20% → 10% of max HP",
+        "ja": "[ユナイトわざ「満開スイートアロマ」] 発動時のシールド量 最大HPの20% → 10%"
+      },
+      {
+        "ko": "[유나이트 「만개 스위트 아로마」] 발동 시 이동속도 상승 +30% → +10%",
+        "en": "[Unite Move \"Full Bloom Sweet Aroma\"] Movement speed boost on activation +30% → +10%",
+        "ja": "[ユナイトわざ「満開スイートアロマ」] 発動時の移動速度上昇 +30% → +10%"
+      },
+      {
+        "ko": "[유나이트 「만개 스위트 아로마」] 데미지 −20%",
+        "en": "[Unite Move \"Full Bloom Sweet Aroma\"] Damage −20%",
+        "ja": "[ユナイトわざ「満開スイートアロマ」] ダメージ −20%"
+      }
+    ]
+  },
+  {
+    "id": "pn-118",
+    "version": "2026.05.22",
+    "date": "2026-05-22",
+    "pokemonId": "145",
+    "type": "new",
+    "types": [
+      "new"
+    ],
+    "summary": {
+      "ko": "신규 출시",
+      "en": "New Release",
+      "ja": "新規リリース"
+    },
+    "changes": []
+  },
+  {
     "id": "pn-081",
     "version": "2026.05.13",
     "date": "2026-05-13",
