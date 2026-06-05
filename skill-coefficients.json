@@ -7368,5 +7368,33 @@
       "base": "810",
       "slider": "0"
     }
+  },
+  "145": {
+    "_name": "메가니움 (Meganium)",
+    "B": {
+      "ratio": "45",
+      "base": "180",
+      "slider": "0"
+    },
+    "R": {
+      "ratio": "140",
+      "base": "560",
+      "slider": "0"
+    },
+    "R1": {
+      "ratio": "192",
+      "base": "576",
+      "slider": "0"
+    },
+    "ZR1": {
+      "ratio": "124",
+      "base": "620",
+      "slider": "0"
+    },
+    "U": {
+      "ratio": "20",
+      "base": "106",
+      "slider": "0"
+    }
   }
 }
