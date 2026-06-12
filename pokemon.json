@@ -6678,7 +6678,7 @@
                     "ja": "オーダイルクラッシュバイト",
                     "en": "Feraligatr Crash Bite"
                 },
-                "cooldown": 0,
+                "cooldown": 89,
                 "unlockedAtLevel": 9,
                 "description": {
                     "ko": "크게 위협하여 짧은 시간 동안 기술 대기 시간이 짧아진다. 다시 유나이트 기술을 사용하면 지정한 상대 팀의 포켓몬에게 달려들고 강하게 물어서 데미지를 준다. 이 데미지는 상대 팀의 포켓몬에게 부여된 \"깨물어부수기\"의 추가 효과의 수에 따라 증가한다.",
@@ -10621,7 +10621,7 @@
             },
             "passiveCondition": {
                 "type": "always-on",
-                "critBonusPct": 0.15,
+                "critBonusPct": 15,
                 "isNew": true
             }
         },
@@ -16334,7 +16334,7 @@
                     "name": {
                         "ko": "바크아웃",
                         "ja": "バークアウト",
-                        "en": "Bark Out"
+                        "en": "Snarl"
                     },
                     "category": "active",
                     "cooldown": 10,
@@ -16793,11 +16793,11 @@
                     }
                 },
                 {
-                    "id": "bark_out",
+                    "id": "snarl",
                     "name": {
                         "ko": "바크아웃",
                         "ja": "ほえ散らす",
-                        "en": "Bark Out"
+                        "en": "Snarl"
                     },
                     "category": "active",
                     "cooldown": 7,
@@ -16822,7 +16822,7 @@
                     "ja": "ラウジングシンフォニー",
                     "en": "Rousing Symphony"
                 },
-                "cooldown": 0,
+                "cooldown": 100,
                 "unlockedAtLevel": 9,
                 "description": {
                     "ko": "용맹한 노랫소리로 자신의 주변에 있는 같은 편을 북돋아, 같은 팀 포켓몬이 상대 팀에게 주는 데미지가 짧은 시간 동안 증가한다. 그 뒤 지정한 방향으로 커다란 불꽃 새를 날려 상대편 포켓몬에게 데미지를 준다.",
@@ -16831,8 +16831,10 @@
                 }
             },
             "passiveCondition": {
-                "type": "not-applicable",
-                "reason": "맹화 — 일정 시간마다 다음 기술이 특수방어 일부 무시. 주기·무시율 수치 미확인(unite-db 미등록). 등록 후 cooldown-cycle 재검토",
+                "type": "cooldown-cycle",
+                "intervalMs": 20000,
+                "activeDurationMs": 0,
+                "spDefIgnorePct": 35,
                 "isNew": true
             }
         }

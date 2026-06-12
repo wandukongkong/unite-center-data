@@ -7396,5 +7396,38 @@
       "base": "106",
       "slider": "0"
     }
+  },
+  "146": {
+    "_name": "라우드본 (Skeledirge)",
+    "B": {
+      "ratio": "30",
+      "base": "160",
+      "slider": "0"
+    },
+    "R": {
+      "ratio": "170",
+      "base": "425",
+      "slider": "0"
+    },
+    "R2": {
+      "ratio": "238",
+      "base": "596",
+      "slider": "0"
+    },
+    "ZR": {
+      "ratio": "112",
+      "base": "280",
+      "slider": "0"
+    },
+    "ZR2": {
+      "ratio": "130",
+      "base": "325",
+      "slider": "0"
+    },
+    "U": {
+      "ratio": "360",
+      "base": "900",
+      "slider": "0"
+    }
   }
 }

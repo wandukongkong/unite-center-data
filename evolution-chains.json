@@ -1080,5 +1080,63 @@
         "evolutionLevel": 5
       }
     ]
+  },
+  {
+    "pokemonId": "145",
+    "evolutionChain": [
+      {
+        "stage": 1,
+        "dexNumber": 152,
+        "nameJa": "チコリータ",
+        "nameEn": "Chikorita",
+        "nameKo": "치코리타",
+        "evolutionLevel": null
+      },
+      {
+        "stage": 2,
+        "dexNumber": 153,
+        "nameJa": "ベイリーフ",
+        "nameEn": "Bayleef",
+        "nameKo": "베이리프",
+        "evolutionLevel": 5
+      },
+      {
+        "stage": 3,
+        "dexNumber": 154,
+        "nameJa": "メガニウム",
+        "nameEn": "Meganium",
+        "nameKo": "메가니움",
+        "evolutionLevel": 7
+      }
+    ]
+  },
+  {
+    "pokemonId": "146",
+    "evolutionChain": [
+      {
+        "stage": 1,
+        "dexNumber": 909,
+        "nameJa": "ホゲータ",
+        "nameEn": "Fuecoco",
+        "nameKo": "뜨아거",
+        "evolutionLevel": null
+      },
+      {
+        "stage": 2,
+        "dexNumber": 910,
+        "nameJa": "アチゲータ",
+        "nameEn": "Crocalor",
+        "nameKo": "악뜨거",
+        "evolutionLevel": 5
+      },
+      {
+        "stage": 3,
+        "dexNumber": 911,
+        "nameJa": "ラウドボーン",
+        "nameEn": "Skeledirge",
+        "nameKo": "라우드본",
+        "evolutionLevel": 7
+      }
+    ]
   }
 ]
