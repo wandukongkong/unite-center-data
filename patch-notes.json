@@ -1,5 +1,495 @@
 [
     {
+        "id": "pn-122",
+        "version": "2026.06.16",
+        "date": "2026-06-16",
+        "pokemonId": "139",
+        "type": "buff",
+        "types": [
+            "buff"
+        ],
+        "summary": {
+            "ko": "님피아 전체 상향 — 페어리스킨·매지컬샤인·하이퍼보이스·명상 강화",
+            "en": "Sylveon overall buff — Pixilate, Mystical Fire, Hyper Voice, and Calm Mind strengthened",
+            "ja": "ニンフィア全体強化 — フェアリースキン・マジカルフレイム・ハイパーボイス・めいそうが強化"
+        },
+        "changes": [
+            {
+                "ko": "[페어리스킨(특성)] 특수공격·특수방어 상승량 2.5%(최대 6중첩) → 5%(최대 4중첩)",
+                "en": "[Pixilate (Passive)] Sp. Atk / Sp. Def increase 2.5% (max 6 stacks) → 5% (max 4 stacks)",
+                "ja": "[フェアリースキン(特性)] 特攻・特防の上昇量 2.5%(最大6回重複) → 5%(最大4回重複)"
+            },
+            {
+                "ko": "[매지컬샤인] 데미지 +8%",
+                "en": "[Mystical Fire] Damage +8%",
+                "ja": "[マジカルフレイム] ダメージ +8%"
+            },
+            {
+                "ko": "[하이퍼보이스] 원거리 데미지 +15%",
+                "en": "[Hyper Voice] Long-range damage +15%",
+                "ja": "[ハイパーボイス] 遠距離ダメージ +15%"
+            },
+            {
+                "ko": "[명상] 쿨타임 9s → 8s",
+                "en": "[Calm Mind] Cooldown 9s → 8s",
+                "ja": "[めいそう] 待ち時間 9s → 8s"
+            }
+        ]
+    },
+    {
+        "id": "pn-123",
+        "version": "2026.06.16",
+        "date": "2026-06-16",
+        "pokemonId": "113",
+        "type": "buff",
+        "types": [
+            "buff"
+        ],
+        "summary": {
+            "ko": "카디나르마 상향 — 아머캐논·불꽃소용돌이·니트로차지·사이코익스플로전 강화",
+            "en": "Armarouge buff — Armor Cannon, Fire Spin, Flame Charge, and Psycho Explosion strengthened",
+            "ja": "グレンアルマ強化 — アーマーキャノン・ほのおのうず・ニトロチャージ・サイコエクスプロージョンが強化"
+        },
+        "changes": [
+            {
+                "ko": "[아머캐논] 데미지 +8%",
+                "en": "[Armor Cannon] Damage +8%",
+                "ja": "[アーマーキャノン] ダメージ +8%"
+            },
+            {
+                "ko": "[불꽃소용돌이] 쿨타임 8s → 7s, 실드량 +10%",
+                "en": "[Fire Spin] Cooldown 8s → 7s, Shield amount +10%",
+                "ja": "[ほのおのうず] 待ち時間 8s → 7s、シールド量 +10%"
+            },
+            {
+                "ko": "[니트로차지] 데미지 +30%, 실드량 +10%",
+                "en": "[Flame Charge] Damage +30%, Shield amount +10%",
+                "ja": "[ニトロチャージ] ダメージ +30%、シールド量 +10%"
+            },
+            {
+                "ko": "[사이코익스플로전] 데미지 +8%",
+                "en": "[Psycho Explosion] Damage +8%",
+                "ja": "[サイコエクスプロージョン] ダメージ +8%"
+            }
+        ]
+    },
+    {
+        "id": "pn-124",
+        "version": "2026.06.16",
+        "date": "2026-06-16",
+        "pokemonId": "98",
+        "type": "buff",
+        "types": [
+            "buff"
+        ],
+        "summary": {
+            "ko": "두드리짱 상향 — 깨트리기·대왕망치·유나이트 강화",
+            "en": "Tinkaton buff — Mold Breaker, Gigaton Hammer, and Unite Move strengthened",
+            "ja": "デカヌチャン強化 — かたやぶり・デカハンマー・ユナイトわざが強化"
+        },
+        "changes": [
+            {
+                "ko": "[깨트리기(특성)] 공격 상승 누적 횟수 최대 60회 → 최대 100회",
+                "en": "[Mold Breaker (Passive)] Max attack stacks 60 → 100",
+                "ja": "[かたやぶり(特性)] 攻撃上昇の累積回数 最大60回 → 最大100回"
+            },
+            {
+                "ko": "[대왕망치] 0.5초 충전 시 데미지 +25%, 1초 충전 시 데미지 +8%",
+                "en": "[Gigaton Hammer] Damage at 0.5s charge +25%, at 1s charge +8%",
+                "ja": "[デカハンマー] 0.5秒時のダメージ +25%、1秒時のダメージ +8%"
+            },
+            {
+                "ko": "[유나이트 「초러블리♡뿅--!」] 행동 불능 시간 0.75s → 1.2s",
+                "en": "[Unite Move \"Ultra Lovely Boom!\"] Stun duration 0.75s → 1.2s",
+                "ja": "[ユナイトわざ「超らぶりー♡ボカーーン！」] 行動不能時間 0.75s → 1.2s"
+            }
+        ]
+    },
+    {
+        "id": "pn-125",
+        "version": "2026.06.16",
+        "date": "2026-06-16",
+        "pokemonId": "122",
+        "type": "buff",
+        "types": [
+            "buff"
+        ],
+        "summary": {
+            "ko": "대여르 상향 — 메가폰·배수의 진·유나이트 강화",
+            "en": "Falinks buff — Megahorn, No Retreat, and Unite Move strengthened",
+            "ja": "タイレーツ強化 — メガホーン・はいすいのじん・ユナイトわざが強化"
+        },
+        "changes": [
+            {
+                "ko": "[메가폰] 실드 지속시간 2.5s → 3.5s, 추가 데미지 최대 HP의 3% → 5%",
+                "en": "[Megahorn] Shield duration 2.5s → 3.5s, Bonus damage 3% → 5% of max HP",
+                "ja": "[メガホーン] シールド持続 2.5s → 3.5s、追加ダメージ 最大HPの3% → 5%"
+            },
+            {
+                "ko": "[배수의 진] 쿨타임 5s → 4s, 데미지 경감률 20% → 30%",
+                "en": "[No Retreat] Cooldown 5s → 4s, Damage reduction 20% → 30%",
+                "ja": "[はいすいのじん] 待ち時間 5s → 4s、ダメージ軽減率 20% → 30%"
+            },
+            {
+                "ko": "[유나이트 「모래먼지 선풍의 진」] 필요 에너지량 100000 → 90000",
+                "en": "[Unite Move \"Sandstorm Squad\"] Energy required 100000 → 90000",
+                "ja": "[ユナイトわざ「さじんせんぷうのじん」] 必要エネルギー量 100000 → 90000"
+            }
+        ]
+    },
+    {
+        "id": "pn-126",
+        "version": "2026.06.16",
+        "date": "2026-06-16",
+        "pokemonId": "121",
+        "type": "buff",
+        "types": [
+            "buff"
+        ],
+        "summary": {
+            "ko": "엠페르트 상향 — 메탈클로·바다회오리·하이드로캐논 강화",
+            "en": "Empoleon buff — Metal Claw, Whirlpool, and Hydro Cannon strengthened",
+            "ja": "エンペルト強化 — メタルクロー・うずしお・ハイドロカノンが強化"
+        },
+        "changes": [
+            {
+                "ko": "[메탈클로] 데미지 +10%",
+                "en": "[Metal Claw] Damage +10%",
+                "ja": "[メタルクロー] ダメージ +10%"
+            },
+            {
+                "ko": "[바다회오리] 데미지 +12%, 회복량 40% → 50%",
+                "en": "[Whirlpool] Damage +12%, HP recovery 40% → 50%",
+                "ja": "[うずしお] ダメージ +12%、回復量 40% → 50%"
+            },
+            {
+                "ko": "[하이드로캐논] 회복량 +10%",
+                "en": "[Hydro Cannon] HP recovery +10%",
+                "ja": "[ハイドロカノン] 回復量 +10%"
+            }
+        ]
+    },
+    {
+        "id": "pn-127",
+        "version": "2026.06.16",
+        "date": "2026-06-16",
+        "pokemonId": "111",
+        "type": "buff",
+        "types": [
+            "buff"
+        ],
+        "summary": {
+            "ko": "앱솔 상향 — 사이코커터·뒤치기·유나이트 강화",
+            "en": "Absol buff — Psycho Cut, Pursuit, and Unite Move strengthened",
+            "ja": "アブソル強化 — サイコカッター・おいうち・ユナイトわざが強化"
+        },
+        "changes": [
+            {
+                "ko": "[사이코커터] 추가 데미지 +20%",
+                "en": "[Psycho Cut] Bonus damage +20%",
+                "ja": "[サイコカッター] 追加ダメージ +20%"
+            },
+            {
+                "ko": "[뒤치기] 데미지 +8%",
+                "en": "[Pursuit] Damage +8%",
+                "ja": "[おいうち] ダメージ +8%"
+            },
+            {
+                "ko": "[유나이트 「다크 슬래셔」] 필요 에너지량 90000 → 80000",
+                "en": "[Unite Move \"Midnight Slash\"] Energy required 90000 → 80000",
+                "ja": "[ユナイトわざ「ダークスラッシャー」] 必要エネルギー量 90000 → 80000"
+            }
+        ]
+    },
+    {
+        "id": "pn-128",
+        "version": "2026.06.16",
+        "date": "2026-06-16",
+        "pokemonId": "120",
+        "type": "buff",
+        "types": [
+            "buff"
+        ],
+        "summary": {
+            "ko": "백솜모카 상향 — 꽃가루경단·코튼가드·그래스믹서·유나이트 강화",
+            "en": "Eldegoss buff — Pollen Puff, Cotton Guard, Grass Mixer, and Unite Move strengthened",
+            "ja": "ワタシラガ強化 — かふんだんご・コットンガード・グラスミキサー・ユナイトわざが強化"
+        },
+        "changes": [
+            {
+                "ko": "[꽃가루경단] 회복량 +10%",
+                "en": "[Pollen Puff] HP recovery +10%",
+                "ja": "[かふんだんご] 回復量 +10%"
+            },
+            {
+                "ko": "[꽃가루경단+] 데미지 경감률 15% → 20%",
+                "en": "[Pollen Puff+] Damage reduction 15% → 20%",
+                "ja": "[かふんだんご+] ダメージ軽減率 15% → 20%"
+            },
+            {
+                "ko": "[코튼가드] 쿨타임 10.5s → 9.5s",
+                "en": "[Cotton Guard] Cooldown 10.5s → 9.5s",
+                "ja": "[コットンガード] 待ち時間 10.5s → 9.5s"
+            },
+            {
+                "ko": "[그래스믹서] 이동속도 상승 55% → 60%, 효과시간 1.5s → 2s",
+                "en": "[Grass Mixer] Movement speed boost 55% → 60%, Duration 1.5s → 2s",
+                "ja": "[グラスミキサー] 移動速度 55% → 60%、効果時間 1.5s → 2s"
+            },
+            {
+                "ko": "[유나이트 「솜털의 춤」] 회복량 +10%",
+                "en": "[Unite Move \"Cotton Cloud Crash\"] HP recovery +10%",
+                "ja": "[ユナイトわざ「わたげのまい」] 回復量 +10%"
+            }
+        ]
+    },
+    {
+        "id": "pn-129",
+        "version": "2026.06.16",
+        "date": "2026-06-16",
+        "pokemonId": "127",
+        "type": "buff",
+        "types": [
+            "buff"
+        ],
+        "summary": {
+            "ko": "라프라스 상향 — 조개껍질갑옷·강화공격·거품광선·냉동빔 강화",
+            "en": "Lapras buff — Shell Armor, Boosted Attack, Bubble Beam, and Ice Beam strengthened",
+            "ja": "ラプラス強化 — シェルアーマー・強化攻撃・バブルこうせん・れいとうビームが強化"
+        },
+        "changes": [
+            {
+                "ko": "[조개껍질갑옷(특성)] 데미지 경감률 20% → 25%",
+                "en": "[Shell Armor (Passive)] Damage reduction 20% → 25%",
+                "ja": "[シェルアーマー(特性)] ダメージ軽減率 20% → 25%"
+            },
+            {
+                "ko": "[강화공격] 회복량 최대 HP의 3.5% → 4%",
+                "en": "[Boosted Attack] HP recovery 3.5% → 4% of max HP",
+                "ja": "[強化攻撃] 回復量 最大HPの3.5% → 4%"
+            },
+            {
+                "ko": "[거품광선] 쿨타임 9s → 8s",
+                "en": "[Bubble Beam] Cooldown 9s → 8s",
+                "ja": "[バブルこうせん] 待ち時間 9s → 8s"
+            },
+            {
+                "ko": "[냉동빔] 이동속도 상승 20% → 40%",
+                "en": "[Ice Beam] Movement speed boost 20% → 40%",
+                "ja": "[れいとうビーム] 移動速度上昇 20% → 40%"
+            }
+        ]
+    },
+    {
+        "id": "pn-130",
+        "version": "2026.06.16",
+        "date": "2026-06-16",
+        "pokemonId": "146",
+        "type": "buff",
+        "types": [
+            "buff"
+        ],
+        "summary": {
+            "ko": "라우드본 상향 — 맹화·울부짖기 강화",
+            "en": "Skeledirge buff — Blaze and Snarl strengthened",
+            "ja": "ラウドボーン強化 — もうか・バークアウトが強化"
+        },
+        "changes": [
+            {
+                "ko": "[맹화(특성)] 재발동 쿨타임 20s → 15s",
+                "en": "[Blaze (Passive)] Reactivation cooldown 20s → 15s",
+                "ja": "[もうか(特性)] 再発動の待ち時間 20s → 15s"
+            },
+            {
+                "ko": "[울부짖기] 공포 지속시간 0.5s → 0.7s",
+                "en": "[Snarl] Fear duration 0.5s → 0.7s",
+                "ja": "[バークアウト] きょうふ時間 0.5s → 0.7s"
+            }
+        ]
+    },
+    {
+        "id": "pn-131",
+        "version": "2026.06.16",
+        "date": "2026-06-16",
+        "pokemonId": "71",
+        "type": "nerf",
+        "types": [
+            "nerf"
+        ],
+        "summary": {
+            "ko": "개굴닌자 하향 — 물수리검·그림자분신·파도타기·유나이트 약화",
+            "en": "Greninja nerf — Water Shuriken, Double Team, Surf, and Unite Move weakened",
+            "ja": "ゲッコウガ弱体化 — みずしゅりけん・かげぶんしん・なみのり・ユナイトわざが弱体化"
+        },
+        "changes": [
+            {
+                "ko": "[물수리검] 데미지 −10%",
+                "en": "[Water Shuriken] Damage −10%",
+                "ja": "[みずしゅりけん] ダメージ −10%"
+            },
+            {
+                "ko": "[그림자분신] 쿨타임 8s → 9s",
+                "en": "[Double Team] Cooldown 8s → 9s",
+                "ja": "[かげぶんしん] 待ち時間 8s → 9s"
+            },
+            {
+                "ko": "[파도타기] 회복량 −10%",
+                "en": "[Surf] HP recovery −10%",
+                "ja": "[なみのり] 回復量 −10%"
+            },
+            {
+                "ko": "[유나이트 「극대 물수리검」] 필요 에너지량 90000 → 100000",
+                "en": "[Unite Move \"Waterburst Shuriken\"] Energy required 90000 → 100000",
+                "ja": "[ユナイトわざ「極大水手裏剣」] 必要エネルギー量 90000 → 100000"
+            }
+        ]
+    },
+    {
+        "id": "pn-132",
+        "version": "2026.06.16",
+        "date": "2026-06-16",
+        "pokemonId": "117",
+        "type": "nerf",
+        "types": [
+            "nerf"
+        ],
+        "summary": {
+            "ko": "모크나이퍼 하향 — 그림자급습·그림자꿰매기 약화",
+            "en": "Decidueye nerf — Shadow Sneak and Spirit Shackle weakened",
+            "ja": "ジュナイパー弱体化 — かげうち・かげぬいが弱体化"
+        },
+        "changes": [
+            {
+                "ko": "[그림자급습] 방어 저하 60% → 40%",
+                "en": "[Shadow Sneak] Defense reduction 60% → 40%",
+                "ja": "[かげうち] 防御低下 60% → 40%"
+            },
+            {
+                "ko": "[그림자급습+] 방어 저하 80% → 60%",
+                "en": "[Shadow Sneak+] Defense reduction 80% → 60%",
+                "ja": "[かげうち+] 防御低下 80% → 60%"
+            },
+            {
+                "ko": "[그림자꿰매기] 쿨타임 8.5s → 9s",
+                "en": "[Spirit Shackle] Cooldown 8.5s → 9s",
+                "ja": "[かげぬい] 待ち時間 8.5s → 9s"
+            }
+        ]
+    },
+    {
+        "id": "pn-133",
+        "version": "2026.06.16",
+        "date": "2026-06-16",
+        "pokemonId": "60",
+        "type": "nerf",
+        "types": [
+            "nerf"
+        ],
+        "summary": {
+            "ko": "파이어 하향 — 불꽃몸·열풍 약화",
+            "en": "Moltres nerf — Flame Body and Heat Wave weakened",
+            "ja": "ファイヤー弱体化 — ほのおのからだ・ねっぷうが弱体化"
+        },
+        "changes": [
+            {
+                "ko": "[불꽃몸(특성)] 화상 데미지 −20%",
+                "en": "[Flame Body (Passive)] Burn damage −20%",
+                "ja": "[ほのおのからだ(特性)] やけどダメージ −20%"
+            },
+            {
+                "ko": "[열풍] 데미지 −10%, 회복량 5%×4회 → 4%×4회",
+                "en": "[Heat Wave] Damage −10%, HP recovery 5%×4 → 4%×4",
+                "ja": "[ねっぷう] ダメージ −10%、回復量 5%×4回 → 4%×4回"
+            }
+        ]
+    },
+    {
+        "id": "pn-134",
+        "version": "2026.06.16",
+        "date": "2026-06-16",
+        "pokemonId": "130",
+        "type": "nerf",
+        "types": [
+            "nerf"
+        ],
+        "summary": {
+            "ko": "괴력몬 하향 — 지옥수레 약화",
+            "en": "Machamp nerf — Submission weakened",
+            "ja": "カイリキー弱体化 — じごくぐるまが弱体化"
+        },
+        "changes": [
+            {
+                "ko": "[지옥수레] 쿨타임 8s → 9.5s",
+                "en": "[Submission] Cooldown 8s → 9.5s",
+                "ja": "[じごくぐるま] 待ち時間 8s → 9.5s"
+            }
+        ]
+    },
+    {
+        "id": "pn-135",
+        "version": "2026.06.16",
+        "date": "2026-06-16",
+        "pokemonId": "145",
+        "type": "nerf",
+        "types": [
+            "nerf"
+        ],
+        "summary": {
+            "ko": "메가니움 하향 — 광합성·꽃보라·풀묶기·유나이트 약화",
+            "en": "Meganium nerf — Synthesis, Petal Blizzard, Grass Knot, and Unite Move weakened",
+            "ja": "メガニウム弱体化 — こうごうせい・はなふぶき・くさむすび・ユナイトわざが弱体化"
+        },
+        "changes": [
+            {
+                "ko": "[광합성] 중첩 시 회복량 −50%",
+                "en": "[Synthesis] HP recovery when overlapping −50%",
+                "ja": "[こうごうせい] 重複時の回復量 −50%"
+            },
+            {
+                "ko": "[꽃보라] 쿨타임 6s → 7s",
+                "en": "[Petal Blizzard] Cooldown 6s → 7s",
+                "ja": "[はなふぶき] 待ち時間 6s → 7s"
+            },
+            {
+                "ko": "[풀묶기] 데미지 −20%",
+                "en": "[Grass Knot] Damage −20%",
+                "ja": "[くさむすび] ダメージ −20%"
+            },
+            {
+                "ko": "[유나이트 「만개 스위트 아로마」] 데미지 저하 효과 15% → 10%",
+                "en": "[Unite Move \"Full Bloom Sweet Aroma\"] Damage reduction effect 15% → 10%",
+                "ja": "[ユナイトわざ「満開スイートアロマ」] ダメージ低下 15% → 10%"
+            }
+        ]
+    },
+    {
+        "id": "pn-136",
+        "version": "2026.06.16",
+        "date": "2026-06-16",
+        "pokemonId": "73",
+        "type": "nerf",
+        "types": [
+            "nerf"
+        ],
+        "summary": {
+            "ko": "프리져 하향 — 통상공격·눈보라 약화",
+            "en": "Articuno nerf — Basic Attack and Blizzard weakened",
+            "ja": "フリーザー弱体化 — 通常攻撃・ふぶきが弱体化"
+        },
+        "changes": [
+            {
+                "ko": "[통상공격] 데미지 −20%",
+                "en": "[Basic Attack] Damage −20%",
+                "ja": "[通常攻撃] ダメージ −20%"
+            },
+            {
+                "ko": "[눈보라] 쿨타임 8s → 9s",
+                "en": "[Blizzard] Cooldown 8s → 9s",
+                "ja": "[ふぶき] 待ち時間 8s → 9s"
+            }
+        ]
+    },
+    {
         "id": "pn-121",
         "version": "2026.06.04",
         "date": "2026-06-04",
