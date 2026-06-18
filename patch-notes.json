@@ -9,7 +9,7 @@
             "buff"
         ],
         "summary": {
-            "ko": "님피아 전체 상향 — 페어리스킨·매지컬샤인·하이퍼보이스·명상 강화",
+            "ko": "님피아 전체 상향 — 페어리스킨·매지컬플레임·하이퍼보이스·명상 강화",
             "en": "Sylveon overall buff — Pixilate, Mystical Fire, Hyper Voice, and Calm Mind strengthened",
             "ja": "ニンフィア全体強化 — フェアリースキン・マジカルフレイム・ハイパーボイス・めいそうが強化"
         },
@@ -20,7 +20,7 @@
                 "ja": "[フェアリースキン(特性)] 特攻・特防の上昇量 2.5%(最大6回重複) → 5%(最大4回重複)"
             },
             {
-                "ko": "[매지컬샤인] 데미지 +8%",
+                "ko": "[매지컬플레임] 데미지 +8%",
                 "en": "[Mystical Fire] Damage +8%",
                 "ja": "[マジカルフレイム] ダメージ +8%"
             },
@@ -46,8 +46,8 @@
             "buff"
         ],
         "summary": {
-            "ko": "카디나르마 상향 — 아머캐논·불꽃소용돌이·니트로차지·사이코익스플로전 강화",
-            "en": "Armarouge buff — Armor Cannon, Fire Spin, Flame Charge, and Psycho Explosion strengthened",
+            "ko": "카디나르마 상향 — 아머캐논·회오리불꽃·니트로차지·사이코익스플로전 강화",
+            "en": "Armarouge buff — Armor Cannon, Fire Spin, Nitro Charge, and Psykaboom strengthened",
             "ja": "グレンアルマ強化 — アーマーキャノン・ほのおのうず・ニトロチャージ・サイコエクスプロージョンが強化"
         },
         "changes": [
@@ -57,18 +57,18 @@
                 "ja": "[アーマーキャノン] ダメージ +8%"
             },
             {
-                "ko": "[불꽃소용돌이] 쿨타임 8s → 7s, 실드량 +10%",
+                "ko": "[회오리불꽃] 쿨타임 8s → 7s, 실드량 +10%",
                 "en": "[Fire Spin] Cooldown 8s → 7s, Shield amount +10%",
                 "ja": "[ほのおのうず] 待ち時間 8s → 7s、シールド量 +10%"
             },
             {
                 "ko": "[니트로차지] 데미지 +30%, 실드량 +10%",
-                "en": "[Flame Charge] Damage +30%, Shield amount +10%",
+                "en": "[Nitro Charge] Damage +30%, Shield amount +10%",
                 "ja": "[ニトロチャージ] ダメージ +30%、シールド量 +10%"
             },
             {
                 "ko": "[사이코익스플로전] 데미지 +8%",
-                "en": "[Psycho Explosion] Damage +8%",
+                "en": "[Psykaboom] Damage +8%",
                 "ja": "[サイコエクスプロージョン] ダメージ +8%"
             }
         ]
@@ -83,24 +83,24 @@
             "buff"
         ],
         "summary": {
-            "ko": "두드리짱 상향 — 깨트리기·대왕망치·유나이트 강화",
-            "en": "Tinkaton buff — Mold Breaker, Gigaton Hammer, and Unite Move strengthened",
+            "ko": "두드리짱 상향 — 틀깨기·거대해머·유나이트 강화",
+            "en": "Tinkaton buff — Mold Breaker, Giant Hammer, and Unite Move strengthened",
             "ja": "デカヌチャン強化 — かたやぶり・デカハンマー・ユナイトわざが強化"
         },
         "changes": [
             {
-                "ko": "[깨트리기(특성)] 공격 상승 누적 횟수 최대 60회 → 최대 100회",
+                "ko": "[틀깨기(특성)] 공격 상승 누적 횟수 최대 60회 → 최대 100회",
                 "en": "[Mold Breaker (Passive)] Max attack stacks 60 → 100",
                 "ja": "[かたやぶり(特性)] 攻撃上昇の累積回数 最大60回 → 最大100回"
             },
             {
-                "ko": "[대왕망치] 0.5초 충전 시 데미지 +25%, 1초 충전 시 데미지 +8%",
-                "en": "[Gigaton Hammer] Damage at 0.5s charge +25%, at 1s charge +8%",
+                "ko": "[거대해머] 0.5초 충전 시 데미지 +25%, 1초 충전 시 데미지 +8%",
+                "en": "[Giant Hammer] Damage at 0.5s charge +25%, at 1s charge +8%",
                 "ja": "[デカハンマー] 0.5秒時のダメージ +25%、1秒時のダメージ +8%"
             },
             {
-                "ko": "[유나이트 「초러블리♡뿅--!」] 행동 불능 시간 0.75s → 1.2s",
-                "en": "[Unite Move \"Ultra Lovely Boom!\"] Stun duration 0.75s → 1.2s",
+                "ko": "[유나이트 「완전러블리♡콰앙!」] 행동 불능 시간 0.75s → 1.2s",
+                "en": "[Unite Move \"Lovely Kiss Smash\"] Stun duration 0.75s → 1.2s",
                 "ja": "[ユナイトわざ「超らぶりー♡ボカーーン！」] 行動不能時間 0.75s → 1.2s"
             }
         ]
@@ -115,24 +115,24 @@
             "buff"
         ],
         "summary": {
-            "ko": "대여르 상향 — 메가폰·배수의 진·유나이트 강화",
+            "ko": "대여르 상향 — 메가혼·배수의진·유나이트 강화",
             "en": "Falinks buff — Megahorn, No Retreat, and Unite Move strengthened",
             "ja": "タイレーツ強化 — メガホーン・はいすいのじん・ユナイトわざが強化"
         },
         "changes": [
             {
-                "ko": "[메가폰] 실드 지속시간 2.5s → 3.5s, 추가 데미지 최대 HP의 3% → 5%",
+                "ko": "[메가혼] 실드 지속시간 2.5s → 3.5s, 추가 데미지 최대 HP의 3% → 5%",
                 "en": "[Megahorn] Shield duration 2.5s → 3.5s, Bonus damage 3% → 5% of max HP",
                 "ja": "[メガホーン] シールド持続 2.5s → 3.5s、追加ダメージ 最大HPの3% → 5%"
             },
             {
-                "ko": "[배수의 진] 쿨타임 5s → 4s, 데미지 경감률 20% → 30%",
+                "ko": "[배수의진] 쿨타임 5s → 4s, 데미지 경감률 20% → 30%",
                 "en": "[No Retreat] Cooldown 5s → 4s, Damage reduction 20% → 30%",
                 "ja": "[はいすいのじん] 待ち時間 5s → 4s、ダメージ軽減率 20% → 30%"
             },
             {
-                "ko": "[유나이트 「모래먼지 선풍의 진」] 필요 에너지량 100000 → 90000",
-                "en": "[Unite Move \"Sandstorm Squad\"] Energy required 100000 → 90000",
+                "ko": "[유나이트 「사진선풍의진」] 필요 에너지량 100000 → 90000",
+                "en": "[Unite Move \"Dust Devil Formation\"] Energy required 100000 → 90000",
                 "ja": "[ユナイトわざ「さじんせんぷうのじん」] 必要エネルギー量 100000 → 90000"
             }
         ]
@@ -179,7 +179,7 @@
             "buff"
         ],
         "summary": {
-            "ko": "앱솔 상향 — 사이코커터·뒤치기·유나이트 강화",
+            "ko": "앱솔 상향 — 사이코커터·따라가때리기·유나이트 강화",
             "en": "Absol buff — Psycho Cut, Pursuit, and Unite Move strengthened",
             "ja": "アブソル強化 — サイコカッター・おいうち・ユナイトわざが強化"
         },
@@ -190,7 +190,7 @@
                 "ja": "[サイコカッター] 追加ダメージ +20%"
             },
             {
-                "ko": "[뒤치기] 데미지 +8%",
+                "ko": "[따라가때리기] 데미지 +8%",
                 "en": "[Pursuit] Damage +8%",
                 "ja": "[おいうち] ダメージ +8%"
             },
@@ -212,7 +212,7 @@
         ],
         "summary": {
             "ko": "백솜모카 상향 — 꽃가루경단·코튼가드·그래스믹서·유나이트 강화",
-            "en": "Eldegoss buff — Pollen Puff, Cotton Guard, Grass Mixer, and Unite Move strengthened",
+            "en": "Eldegoss buff — Pollen Puff, Cotton Guard, Grassy Glide, and Unite Move strengthened",
             "ja": "ワタシラガ強化 — かふんだんご・コットンガード・グラスミキサー・ユナイトわざが強化"
         },
         "changes": [
@@ -233,7 +233,7 @@
             },
             {
                 "ko": "[그래스믹서] 이동속도 상승 55% → 60%, 효과시간 1.5s → 2s",
-                "en": "[Grass Mixer] Movement speed boost 55% → 60%, Duration 1.5s → 2s",
+                "en": "[Grassy Glide] Movement speed boost 55% → 60%, Duration 1.5s → 2s",
                 "ja": "[グラスミキサー] 移動速度 55% → 60%、効果時間 1.5s → 2s"
             },
             {
@@ -253,13 +253,13 @@
             "buff"
         ],
         "summary": {
-            "ko": "라프라스 상향 — 조개껍질갑옷·강화공격·거품광선·냉동빔 강화",
+            "ko": "라프라스 상향 — 조가비갑옷·강화공격·거품광선·냉동빔 강화",
             "en": "Lapras buff — Shell Armor, Boosted Attack, Bubble Beam, and Ice Beam strengthened",
             "ja": "ラプラス強化 — シェルアーマー・強化攻撃・バブルこうせん・れいとうビームが強化"
         },
         "changes": [
             {
-                "ko": "[조개껍질갑옷(특성)] 데미지 경감률 20% → 25%",
+                "ko": "[조가비갑옷(특성)] 데미지 경감률 20% → 25%",
                 "en": "[Shell Armor (Passive)] Damage reduction 20% → 25%",
                 "ja": "[シェルアーマー(特性)] ダメージ軽減率 20% → 25%"
             },
@@ -354,18 +354,18 @@
             "nerf"
         ],
         "summary": {
-            "ko": "모크나이퍼 하향 — 그림자급습·그림자꿰매기 약화",
+            "ko": "모크나이퍼 하향 — 야습·그림자꿰매기 약화",
             "en": "Decidueye nerf — Shadow Sneak and Spirit Shackle weakened",
             "ja": "ジュナイパー弱体化 — かげうち・かげぬいが弱体化"
         },
         "changes": [
             {
-                "ko": "[그림자급습] 방어 저하 60% → 40%",
+                "ko": "[야습] 방어 저하 60% → 40%",
                 "en": "[Shadow Sneak] Defense reduction 60% → 40%",
                 "ja": "[かげうち] 防御低下 60% → 40%"
             },
             {
-                "ko": "[그림자급습+] 방어 저하 80% → 60%",
+                "ko": "[야습+] 방어 저하 80% → 60%",
                 "en": "[Shadow Sneak+] Defense reduction 80% → 60%",
                 "ja": "[かげうち+] 防御低下 80% → 60%"
             },
@@ -413,13 +413,13 @@
             "nerf"
         ],
         "summary": {
-            "ko": "괴력몬 하향 — 지옥수레 약화",
+            "ko": "괴력몬 하향 — 지옥의바퀴 약화",
             "en": "Machamp nerf — Submission weakened",
             "ja": "カイリキー弱体化 — じごくぐるまが弱体化"
         },
         "changes": [
             {
-                "ko": "[지옥수레] 쿨타임 8s → 9.5s",
+                "ko": "[지옥의바퀴] 쿨타임 8s → 9.5s",
                 "en": "[Submission] Cooldown 8s → 9.5s",
                 "ja": "[じごくぐるま] 待ち時間 8s → 9.5s"
             }
@@ -457,7 +457,7 @@
             },
             {
                 "ko": "[유나이트 「만개 스위트 아로마」] 데미지 저하 효과 15% → 10%",
-                "en": "[Unite Move \"Full Bloom Sweet Aroma\"] Damage reduction effect 15% → 10%",
+                "en": "[Unite Move \"Full Bloom Aroma\"] Damage reduction effect 15% → 10%",
                 "ja": "[ユナイトわざ「満開スイートアロマ」] ダメージ低下 15% → 10%"
             }
         ]
