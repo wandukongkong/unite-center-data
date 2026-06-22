@@ -1,0 +1,68 @@
+[
+  {
+    "id": "cs_palkia",
+    "name": {
+      "ko": "펄기아",
+      "en": "Palkia",
+      "ja": "パルキア"
+    },
+    "role": "Balance",
+    "difficulty": "Novice",
+    "spriteId": 484
+  },
+  {
+    "id": "cs_quaquaval",
+    "name": {
+      "ko": "웨이니발",
+      "en": "Quaquaval",
+      "ja": "ウェーニバル"
+    },
+    "role": "Balance",
+    "difficulty": "Novice",
+    "spriteId": 914
+  },
+  {
+    "id": "cs_yveltal",
+    "name": {
+      "ko": "이벨타르",
+      "en": "Yveltal",
+      "ja": "イベルタル"
+    },
+    "role": "Balance",
+    "difficulty": "Novice",
+    "spriteId": 717
+  },
+  {
+    "id": "cs_solgaleo",
+    "name": {
+      "ko": "솔가레오",
+      "en": "Solgaleo",
+      "ja": "ソルガレオ"
+    },
+    "role": "Balance",
+    "difficulty": "Novice",
+    "spriteId": 791
+  },
+  {
+    "id": "cs_reshiram",
+    "name": {
+      "ko": "레시라무",
+      "en": "Reshiram",
+      "ja": "レシラム"
+    },
+    "role": "Balance",
+    "difficulty": "Novice",
+    "spriteId": 643
+  },
+  {
+    "id": "cs_toxtricity",
+    "name": {
+      "ko": "스트린더",
+      "en": "Toxtricity",
+      "ja": "ストリンダー"
+    },
+    "role": "Balance",
+    "difficulty": "Novice",
+    "spriteId": 849
+  }
+]
