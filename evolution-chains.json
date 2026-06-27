@@ -1138,5 +1138,34 @@
         "evolutionLevel": 7
       }
     ]
+  },
+  {
+    "pokemonId": "147",
+    "evolutionChain": [
+      {
+        "stage": 1,
+        "dexNumber": 912,
+        "nameJa": "クワッス",
+        "nameEn": "Quaxly",
+        "nameKo": "꾸왁스",
+        "evolutionLevel": null
+      },
+      {
+        "stage": 2,
+        "dexNumber": 913,
+        "nameJa": "ウェルカモ",
+        "nameEn": "Quaxwell",
+        "nameKo": "아꾸왁스",
+        "evolutionLevel": 5
+      },
+      {
+        "stage": 3,
+        "dexNumber": 914,
+        "nameJa": "ウェーニバル",
+        "nameEn": "Quaquaval",
+        "nameKo": "웨이니발",
+        "evolutionLevel": 7
+      }
+    ]
   }
 ]

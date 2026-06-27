@@ -7429,5 +7429,53 @@
       "base": "900",
       "slider": "0"
     }
+  },
+  "147": {
+    "_name": "웨이니발 (Quaquaval)",
+    "B": {
+      "ratio": "100",
+      "base": "0",
+      "slider": "0"
+    },
+    "X": {
+      "ratio": "130",
+      "base": "0",
+      "slider": "0"
+    },
+    "R": {
+      "ratio": "145",
+      "base": "435",
+      "slider": "0"
+    },
+    "R1": {
+      "ratio": "100",
+      "base": "300",
+      "slider": "0"
+    },
+    "R2": {
+      "ratio": "115",
+      "base": "345",
+      "slider": "0"
+    },
+    "ZR": {
+      "ratio": "105",
+      "base": "315",
+      "slider": "0"
+    },
+    "ZR1": {
+      "ratio": "190",
+      "base": "570",
+      "slider": "0"
+    },
+    "ZR2": {
+      "ratio": "190",
+      "base": "570",
+      "slider": "0"
+    },
+    "U": {
+      "ratio": "172.5",
+      "base": "515",
+      "slider": "0"
+    }
   }
 }
