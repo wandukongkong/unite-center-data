@@ -11,28 +11,6 @@
     "spriteId": 484
   },
   {
-    "id": "cs_quaquaval",
-    "name": {
-      "ko": "웨이니발",
-      "en": "Quaquaval",
-      "ja": "ウェーニバル"
-    },
-    "role": "Balance",
-    "difficulty": "Novice",
-    "spriteId": 914
-  },
-  {
-    "id": "cs_yveltal",
-    "name": {
-      "ko": "이벨타르",
-      "en": "Yveltal",
-      "ja": "イベルタル"
-    },
-    "role": "Balance",
-    "difficulty": "Novice",
-    "spriteId": 717
-  },
-  {
     "id": "cs_solgaleo",
     "name": {
       "ko": "솔가레오",
