@@ -1,5 +1,21 @@
 [
   {
+    "id": "pn-139",
+    "version": "2026.07.03",
+    "date": "2026-07-03",
+    "pokemonId": "148",
+    "type": "new",
+    "types": [
+      "new"
+    ],
+    "summary": {
+      "ko": "신규 출시",
+      "en": "New Release",
+      "ja": "新規リリース"
+    },
+    "changes": []
+  },
+  {
     "id": "pn-138",
     "version": "2026.06.24",
     "date": "2026-06-24",

@@ -16978,5 +16978,141 @@
         "isNew": true
       }
     }
+  },
+  {
+    "id": "148",
+    "name": {
+      "ko": "이벨타르",
+      "en": "Yveltal",
+      "ja": "イベルタル"
+    },
+    "role": "Attack",
+    "difficulty": "Novice",
+    "attackType": "special",
+    "imageUrl": "https://placehold.co/80x80/CCCCCC/FFF?text=YVE",
+    "spriteId": 717,
+    "skills": {
+      "basicAttack": {
+        "description": {
+          "ko": "3번째 일반 공격은 강화 공격이 되며, 명중 시 주변에 있는 상대 포켓몬에게 데미지를 주고 파괴 카운터를 부여한다.",
+          "ja": "3回目の通常攻撃が強化攻撃になり、命中すると周囲にいる相手のポケモンにダメージを与え、破壊カウンターを付与する。",
+          "en": "Every third basic attack becomes a boosted attack that, on hit, deals damage to nearby opposing Pokemon and applies a destruction counter to them."
+        }
+      },
+      "passive": {
+        "name": {
+          "ko": "다크오라",
+          "ja": "ダークオーラ",
+          "en": "Dark Aura"
+        },
+        "description": {
+          "ko": "강화 공격, 기술, 유나이트 기술로 상대 포켓몬에게 데미지를 주면 파괴 카운터를 부여한다. 상대 포켓몬은 부여된 파괴 카운터의 수에 따라 받는 데미지가 증가하며, 파괴 카운터가 최대로 쌓인 상대 포켓몬은 이벨타르의 기술로 데미지를 받아 남은 HP가 일정 비율 이하가 되면 즉시 KO된다. 상대 포켓몬을 즉시 KO하면 이벨타르는 HP를 회복하고, 최대 HP를 초과한 회복량은 일정 비율만큼 실드 효과로 전환된다.",
+          "ja": "強化攻撃・わざ・ユナイトわざで相手のポケモンにダメージを与えると、破壊カウンターを付与する。相手のポケモンは付与された破壊カウンターの数に応じて受けるダメージが増加し、破壊カウンターが最大まで付与された相手のポケモンは、イベルタルのわざでダメージを受けて残りHPが一定の割合以下になると、即座にKOされる。相手のポケモンを即座にKOすると、イベルタルはHPを回復し、最大HPを超えた回復量は一定の割合でシールド効果に変換される。",
+          "en": "When Yveltal deals damage to an opposing Pokemon with a boosted attack, a move, or its Unite Move, it applies a destruction counter to them. Opposing Pokemon take increased damage based on the number of destruction counters applied to them, and an opposing Pokemon with the maximum number of destruction counters is instantly KO'd if its remaining HP drops below a certain percentage after taking damage from one of Yveltal's moves. Instantly KO'ing an opposing Pokemon restores Yveltal's HP, and any healing beyond its max HP is converted into a shield at a set rate."
+        }
+      },
+      "moves": [
+        {
+          "id": "gust",
+          "name": {
+            "ko": "바람일으키기",
+            "ja": "かぜおこし",
+            "en": "Gust"
+          },
+          "category": "active",
+          "cooldown": 6,
+          "unlockedAtLevel": 1,
+          "upgradedAtLevel": null,
+          "description": {
+            "ko": "지정한 방향으로 날개를 휘둘러 격렬한 바람을 일으켜 상대 포켓몬에게 데미지를 준다. 일정 거리를 날아가면 회오리바람이 남아 범위 안에 있는 상대 포켓몬에게 지속 데미지를 준다.",
+            "ja": "指定した方向に翼で激しい風を起こし、相手のポケモンにダメージを与える。一定の距離を飛ぶと、つむじ風が残り、範囲内にいる相手のポケモンに継続ダメージを与える。",
+            "en": "Whips up a fierce wind with its wings in the designated direction, dealing damage to opposing Pokemon. After traveling a certain distance, a whirlwind is left behind that deals continuous damage to opposing Pokemon within its area."
+          },
+          "upgradeDescription": null
+        },
+        {
+          "id": "lash_out",
+          "name": {
+            "ko": "분풀이",
+            "ja": "うっぷんばらし",
+            "en": "Lash Out"
+          },
+          "category": "active",
+          "cooldown": 6,
+          "unlockedAtLevel": 1,
+          "upgradedAtLevel": null,
+          "description": {
+            "ko": "지정한 범위를 공격해 범위 안에 있는 상대 포켓몬에게 연속으로 데미지를 준다. 마지막 일격은 데미지를 주며 상대를 행동 불가 상태로 만든다.",
+            "ja": "指定した範囲を攻撃し、範囲内にいる相手のポケモンに連続でダメージを与える。最後の一撃はダメージを与え、相手を行動不能にする。",
+            "en": "Attacks a designated area, dealing continuous damage to opposing Pokemon within range. The final blow deals damage and leaves them unable to act."
+          },
+          "upgradeDescription": null
+        },
+        {
+          "id": "oblivion_wing",
+          "name": {
+            "ko": "데스윙",
+            "ja": "デスウイング",
+            "en": "Oblivion Wing"
+          },
+          "category": "active",
+          "cooldown": 6,
+          "unlockedAtLevel": 5,
+          "upgradedAtLevel": 11,
+          "description": {
+            "ko": "지정한 방향으로 파괴의 충동을 쏘아 입힌 데미지에 따라 자신의 HP를 회복한다. 최대 HP를 초과한 회복량은 일정 비율만큼 실드 효과로 전환된다.",
+            "ja": "指定した方向に破壊の衝動を放ち、与えたダメージに応じて自身のHPを回復する。最大HPを超えた回復量は一定の割合でシールド効果に変換される。",
+            "en": "Fires a burst of destructive impulse in the designated direction, restoring the user's HP based on the damage dealt. Any healing beyond its max HP is converted into a shield at a set rate."
+          },
+          "upgradeDescription": {
+            "ko": "업그레이드 후에는 이 기술로 주는 데미지가 증가한다.",
+            "ja": "アップグレード後は、このわざで与えるダメージが増加する。",
+            "en": "After the upgrade, the damage dealt by this move is increased."
+          }
+        },
+        {
+          "id": "dark_pulse",
+          "name": {
+            "ko": "악의파동",
+            "ja": "あくのはどう",
+            "en": "Dark Pulse"
+          },
+          "category": "active",
+          "cooldown": 7,
+          "unlockedAtLevel": 7,
+          "upgradedAtLevel": 13,
+          "description": {
+            "ko": "지정한 방향으로 악의로 가득한 오라의 구체를 쏘아 명중한 상대 포켓몬에게 데미지를 주고 행동 불가 상태로 만든다. 기술이 상대 포켓몬에게 명중하거나 일정 거리를 날아가면 오라의 구체가 터지며, 범위 안에 있는 상대 포켓몬에게 지속 데미지와 감속 효과를 준다.",
+            "ja": "指定した方向に悪意に満ちたオーラの球を放ち、命中した相手のポケモンにダメージを与え、行動不能にする。わざが相手のポケモンに命中するか、一定の距離を飛ぶと、オーラの球が弾け、範囲内にいる相手のポケモンに継続ダメージと減速効果を与える。",
+            "en": "Fires an orb of malevolent aura in the designated direction, dealing damage to and leaving unable to act any opposing Pokemon it hits. When the move hits an opposing Pokemon or travels a certain distance, the aura orb bursts, dealing continuous damage and a slowing effect to opposing Pokemon within its area."
+          },
+          "upgradeDescription": {
+            "ko": "업그레이드 후에는 이 기술의 대기 시간이 짧아진다.",
+            "ja": "アップグレード後は、このわざの待ち時間が短くなる。",
+            "en": "After the upgrade, this move's cooldown is reduced."
+          }
+        }
+      ],
+      "uniteMove": {
+        "id": "lumiere_of_demise",
+        "name": {
+          "ko": "종언의 데스 뤼미에르",
+          "ja": "終焉のデス・ルミエール",
+          "en": "Lumiere of Demise"
+        },
+        "cooldown": 100,
+        "unlockedAtLevel": 9,
+        "description": {
+          "ko": "지정한 장소에 강렬한 광선을 계속 쏘아, 충격파로 범위 안에 있는 상대 포켓몬에게 지속적으로 데미지를 준다. 광선을 계속 쏠수록 충격파의 범위가 넓어지고, 마지막에는 커다란 폭발을 일으켜 상대 포켓몬에게 큰 데미지를 준다. 광선을 쏘는 동안은 방해 내성을 얻는다.",
+          "ja": "指定した場所に強烈な光線を撃ち続け、衝撃波で範囲内にいる相手のポケモンにダメージを与え続ける。光線を撃ち続けるほど衝撃波の範囲が広がり、最後に大きな爆発を起こして相手のポケモンに大ダメージを与える。光線を撃っている間は妨害耐性を得る。",
+          "en": "Continuously fires an intense beam at the designated location, dealing sustained damage to opposing Pokemon within its area via shockwaves. The longer the beam is fired, the wider the shockwave's area becomes, and it ends with a massive explosion that deals heavy damage to opposing Pokemon. Yveltal gains hindrance resistance while firing the beam."
+        }
+      },
+      "passiveCondition": {
+        "type": "not-applicable",
+        "reason": "다크오라는 적에게 파괴 카운터(디버프)를 부여하고 HP 임계 이하 즉시 KO(처치 조건부)하는 메카닉 — 자가 DPS 버프가 아님",
+        "isNew": true
+      }
+    }
   }
 ]
