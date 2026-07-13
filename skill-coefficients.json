@@ -7477,5 +7477,49 @@
       "base": "515",
       "slider": "0"
     }
+  },
+  "148": {
+    "_name": "이벨타르 (Yveltal)",
+    "B": {
+      "ratio": "30",
+      "base": "160",
+      "slider": "0"
+    },
+    "R": {
+      "ratio": "80",
+      "base": "240",
+      "slider": "0",
+      "addons": [
+        {
+          "ratio": "24",
+          "base": "72",
+          "slider": "0"
+        }
+      ]
+    },
+    "ZR": {
+      "ratio": "32",
+      "base": "96",
+      "slider": "0",
+      "addons": [
+        {
+          "ratio": "64",
+          "base": "192",
+          "slider": "0"
+        }
+      ]
+    },
+    "U": {
+      "ratio": "40",
+      "base": "120",
+      "slider": "0",
+      "addons": [
+        {
+          "ratio": "240",
+          "base": "720",
+          "slider": "0"
+        }
+      ]
+    }
   }
 }
