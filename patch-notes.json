@@ -1,5 +1,353 @@
 [
   {
+    "id": "pn-140",
+    "version": "2026.07.16",
+    "date": "2026-07-16",
+    "pokemonId": "105",
+    "type": "buff",
+    "types": [
+      "buff"
+    ],
+    "summary": {
+      "ko": "와이드가드 강화",
+      "en": "Wide Guard buffed",
+      "ja": "ワイドガード強化"
+    },
+    "changes": [
+      {
+        "ko": "[와이드가드] 실드량 10% 증가, 대기시간 8.5초 → 8초",
+        "en": "[Wide Guard] Shield amount increased by 10%, cooldown 8.5s → 8s",
+        "ja": "[ワイドガード] シールド量10%増加、待ち時間8.5秒 → 8秒"
+      }
+    ]
+  },
+  {
+    "id": "pn-141",
+    "version": "2026.07.16",
+    "date": "2026-07-16",
+    "pokemonId": "80",
+    "type": "buff",
+    "types": [
+      "buff"
+    ],
+    "summary": {
+      "ko": "뛰어오르기·아쿠아테일 강화",
+      "en": "Bounce and Aqua Tail buffed",
+      "ja": "とびはねる・アクアテール強化"
+    },
+    "changes": [
+      {
+        "ko": "[뛰어오르기] 실드량 10% 증가, 데미지 15% 증가, 상대를 날려버리는 시간 0.5초 → 0.7초",
+        "en": "[Bounce] Shield amount increased by 10%, damage increased by 15%, enemy knockback duration 0.5s → 0.7s",
+        "ja": "[とびはねる] シールド量10%増加、ダメージ15%増加、相手をふきとばす時間0.5秒 → 0.7秒"
+      },
+      {
+        "ko": "[아쿠아테일] 데미지 10% 증가",
+        "en": "[Aqua Tail] Damage increased by 10%",
+        "ja": "[アクアテール] ダメージ10%増加"
+      }
+    ]
+  },
+  {
+    "id": "pn-142",
+    "version": "2026.07.16",
+    "date": "2026-07-16",
+    "pokemonId": "67",
+    "type": "buff",
+    "types": [
+      "buff"
+    ],
+    "summary": {
+      "ko": "중력 발동 속도 개선",
+      "en": "Gravity activation improved",
+      "ja": "じゅうりょく発動改善"
+    },
+    "changes": [
+      {
+        "ko": "[중력] 기술 발동 전 경직 시간 단축",
+        "en": "[Gravity] Reduced pre-move startup delay",
+        "ja": "[じゅうりょく] わざ発動前の硬直時間を短縮"
+      }
+    ]
+  },
+  {
+    "id": "pn-143",
+    "version": "2026.07.16",
+    "date": "2026-07-16",
+    "pokemonId": "143",
+    "type": "buff",
+    "types": [
+      "buff"
+    ],
+    "summary": {
+      "ko": "생존기·유나이트 전반 강화",
+      "en": "Survivability and Unite Move buffed",
+      "ja": "生存技・ユナイトわざ強化"
+    },
+    "changes": [
+      {
+        "ko": "[희망사항] 받는 데미지 경감률 15% → 20%",
+        "en": "[Wish] Damage taken reduction 15% → 20%",
+        "ja": "[ねがいごと] 受けるダメージの軽減率15% → 20%"
+      },
+      {
+        "ko": "[희망사항+] 받는 데미지 경감률 25% → 30%",
+        "en": "[Wish+] Damage taken reduction 25% → 30%",
+        "ja": "[ねがいごと+] 受けるダメージの軽減率25% → 30%"
+      },
+      {
+        "ko": "[바크아웃] 실드량 최대HP의 15% → 20%, 실드 지속시간 2초 → 3초",
+        "en": "[Snarl] Shield amount 15% → 20% of max HP, shield duration 2s → 3s",
+        "ja": "[バークアウト] シールド量最大HPの15% → 20%、シールドの持続時間2秒 → 3秒"
+      },
+      {
+        "ko": "[문라이트세레나데(유나이트)] 필요 에너지량 100000 → 90000",
+        "en": "[Moonlight Prance (Unite)] Required energy 100000 → 90000",
+        "ja": "[ムーンライトセレナーデ(ユナイト)] 必要なエネルギー量100000 → 90000"
+      }
+    ]
+  },
+  {
+    "id": "pn-144",
+    "version": "2026.07.16",
+    "date": "2026-07-16",
+    "pokemonId": "146",
+    "type": "buff",
+    "types": [
+      "buff"
+    ],
+    "summary": {
+      "ko": "하이퍼보이스·바크아웃 강화",
+      "en": "Hyper Voice and Snarl buffed",
+      "ja": "ハイパーボイス・バークアウト強化"
+    },
+    "changes": [
+      {
+        "ko": "[하이퍼보이스] 기술 범위 9m → 10m",
+        "en": "[Hyper Voice] Move range 9m → 10m",
+        "ja": "[ハイパーボイス] わざ範囲9m → 10m"
+      },
+      {
+        "ko": "[바크아웃] 기술 발동 전후 경직 시간 단축",
+        "en": "[Snarl] Reduced startup and recovery delay",
+        "ja": "[バークアウト] わざ発動前後の硬直時間を短縮"
+      }
+    ]
+  },
+  {
+    "id": "pn-145",
+    "version": "2026.07.16",
+    "date": "2026-07-16",
+    "pokemonId": "147",
+    "type": "buff",
+    "types": [
+      "buff"
+    ],
+    "summary": {
+      "ko": "자기과신·로킥 강화",
+      "en": "Moxie and Low Sweep buffed",
+      "ja": "じしんかじょう・ローキック強化"
+    },
+    "changes": [
+      {
+        "ko": "[자기과신] '스핀에지'의 데미지 10% 증가",
+        "en": "[Moxie] 'Spin Edge' damage increased by 10%",
+        "ja": "[じしんかじょう] 「スピンエッジ」のダメージ10%増加"
+      },
+      {
+        "ko": "[로킥] 기술 발동을 앞당기고 동작이 빨라지도록 조정",
+        "en": "[Low Sweep] Sped up move activation and animation",
+        "ja": "[ローキック] わざの発生を短縮し動作が早くなるよう調整"
+      }
+    ]
+  },
+  {
+    "id": "pn-146",
+    "version": "2026.07.16",
+    "date": "2026-07-16",
+    "pokemonId": "139",
+    "type": "nerf",
+    "types": [
+      "nerf"
+    ],
+    "summary": {
+      "ko": "하이퍼보이스 원거리 데미지 하향",
+      "en": "Hyper Voice long-range damage nerfed",
+      "ja": "ハイパーボイス遠距離ダメージ弱体化"
+    },
+    "changes": [
+      {
+        "ko": "[하이퍼보이스] 더 먼 곳에서 명중시켰을 때의 데미지 8% 감소",
+        "en": "[Hyper Voice] Damage when hitting from farther away decreased by 8%",
+        "ja": "[ハイパーボイス] より遠いところから命中させた時のダメージ8%減少"
+      }
+    ]
+  },
+  {
+    "id": "pn-147",
+    "version": "2026.07.16",
+    "date": "2026-07-16",
+    "pokemonId": "74",
+    "type": "nerf",
+    "types": [
+      "nerf"
+    ],
+    "summary": {
+      "ko": "화염바퀴 하향",
+      "en": "Flame Wheel nerfed",
+      "ja": "かえんぐるま弱体化"
+    },
+    "changes": [
+      {
+        "ko": "[화염바퀴] 대기시간 7.5초 → 8.5초, 실드량 10% 감소",
+        "en": "[Flame Wheel] Cooldown 7.5s → 8.5s, shield amount decreased by 10%",
+        "ja": "[かえんぐるま] 待ち時間7.5秒 → 8.5秒、シールド量10%減少"
+      }
+    ]
+  },
+  {
+    "id": "pn-148",
+    "version": "2026.07.16",
+    "date": "2026-07-16",
+    "pokemonId": "87",
+    "type": "nerf",
+    "types": [
+      "nerf"
+    ],
+    "summary": {
+      "ko": "유나이트·깨물어부수기 하향",
+      "en": "Unite Move and Crunch nerfed",
+      "ja": "ユナイトわざ・かみくだく弱体化"
+    },
+    "changes": [
+      {
+        "ko": "[큰턱크래시바이트(유나이트)] 필요 에너지량 80000 → 90000, '깨물어부수기'의 추가 효과가 하나도 부여되지 않았을 때의 데미지 20% 감소",
+        "en": "[Feraligatr Crash Bite (Unite)] Required energy 80000 → 90000, damage when 'Crunch' has no additional effects applied decreased by 20%",
+        "ja": "[大顎クラッシュバイト(ユナイト)] 必要なエネルギー量80000 → 90000、「かみくだく」の追加効果が一つも付与されていない時のダメージ20%減少"
+      }
+    ]
+  },
+  {
+    "id": "pn-149",
+    "version": "2026.07.16",
+    "date": "2026-07-16",
+    "pokemonId": "56",
+    "type": "adjust",
+    "types": [
+      "adjust"
+    ],
+    "summary": {
+      "ko": "판별 이동 거리 조정",
+      "en": "Detect movement distance adjusted",
+      "ja": "みきり移動距離調整"
+    },
+    "changes": [
+      {
+        "ko": "[판별] 공격을 막지 못했을 때의 이동 거리를, 공격을 막았을 때의 이동 거리와 같아지도록 조정",
+        "en": "[Detect] Adjusted so the movement distance when not blocking an attack matches the distance when blocking one",
+        "ja": "[みきり] 攻撃を防がなかった時の移動距離を、攻撃を防いだ時の移動距離と同じになるよう調整"
+      }
+    ]
+  },
+  {
+    "id": "pn-150",
+    "version": "2026.07.16",
+    "date": "2026-07-16",
+    "pokemonId": "55",
+    "type": "nerf",
+    "types": [
+      "nerf"
+    ],
+    "summary": {
+      "ko": "전반적 쿨타임·유나이트 하향",
+      "en": "Cooldowns and Unite Move nerfed",
+      "ja": "クールタイム・ユナイトわざ弱体化"
+    },
+    "changes": [
+      {
+        "ko": "[바다회오리] 대기시간 7.5초 → 8초",
+        "en": "[Whirlpool] Cooldown 7.5s → 8s",
+        "ja": "[うずしお] 待ち時間7.5秒 → 8秒"
+      },
+      {
+        "ko": "[냉동빔] 기술 사용 횟수 회복 시간 7.5초 → 8초",
+        "en": "[Ice Beam] Charge recovery time 7.5s → 8s",
+        "ja": "[れいとうビーム] わざ使用回数の回復時間7.5秒 → 8秒"
+      },
+      {
+        "ko": "[무진빙극(유나이트)] 필요 에너지량 90000 → 100000",
+        "en": "[Endless Ice Spikes (Unite)] Required energy 90000 → 100000",
+        "ja": "[無尽氷棘(ユナイト)] 必要なエネルギー量90000 → 100000"
+      }
+    ]
+  },
+  {
+    "id": "pn-151",
+    "version": "2026.07.16",
+    "date": "2026-07-16",
+    "heldItemId": "rescue_hood",
+    "type": "buff",
+    "types": [
+      "buff"
+    ],
+    "summary": {
+      "ko": "구조후드 강화",
+      "en": "Rescue Hood buffed",
+      "ja": "きゅうじょフード強化"
+    },
+    "changes": [
+      {
+        "ko": "[구조후드] 자신 이외의 아군에게 주는 회복 효과와 실드 효과 상승량 11%/14%/17% → 17%/20%/23%",
+        "en": "[Rescue Hood] Healing and shield effects granted to allies other than yourself increased 11%/14%/17% → 17%/20%/23%",
+        "ja": "[きゅうじょフード] 自分以外の味方に与える回復効果とシールド効果の上昇量11%/14%/17% → 17%/20%/23%"
+      }
+    ]
+  },
+  {
+    "id": "pn-152",
+    "version": "2026.07.16",
+    "date": "2026-07-16",
+    "heldItemId": "choice_scarf",
+    "type": "buff",
+    "types": [
+      "buff"
+    ],
+    "summary": {
+      "ko": "구애스카프 강화",
+      "en": "Choice Scarf buffed",
+      "ja": "こだわりスカーフ強化"
+    },
+    "changes": [
+      {
+        "ko": "[구애스카프] 효과가 다시 발동할 수 있게 되기까지의 대기시간 8초 → 6초",
+        "en": "[Choice Scarf] Cooldown until the effect can trigger again 8s → 6s",
+        "ja": "[こだわりスカーフ] 効果が再度発動できるまでの待ち時間8秒 → 6秒"
+      }
+    ]
+  },
+  {
+    "id": "pn-153",
+    "version": "2026.07.16",
+    "date": "2026-07-16",
+    "heldItemId": "rocky_helmet",
+    "type": "buff",
+    "types": [
+      "buff"
+    ],
+    "summary": {
+      "ko": "울퉁불퉁멧 강화",
+      "en": "Rocky Helmet buffed",
+      "ja": "でこぼこヘルメット強化"
+    },
+    "changes": [
+      {
+        "ko": "[울퉁불퉁멧] 주위에 있는 상대에게 주는 데미지 자신의 최대HP의 1.2%/1.5%/1.8% → 1.9%/2.2%/2.5%",
+        "en": "[Rocky Helmet] Damage dealt to nearby enemies 1.2%/1.5%/1.8% → 1.9%/2.2%/2.5% of your max HP",
+        "ja": "[でこぼこヘルメット] 周りにいる相手に与えるダメージ自分の最大HPの1.2%/1.5%/1.8% → 1.9%/2.2%/2.5%"
+      }
+    ]
+  },
+  {
     "id": "pn-139",
     "version": "2026.07.03",
     "date": "2026-07-03",
