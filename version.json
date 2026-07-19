@@ -1,9 +1,9 @@
 {
-  "pokemon": "1.0.60",
-  "comingSoon": "1.0.1",
-  "patchNotes": "1.0.21",
+  "pokemon": "1.0.61",
+  "comingSoon": "1.0.2",
+  "patchNotes": "1.0.22",
   "heldItems": "1.0.0",
-  "stats": "1.0.10",
+  "stats": "1.0.11",
   "evolutionChains": "1.0.8",
-  "skillCoefficients": "1.0.7"
+  "skillCoefficients": "1.0.8"
 }

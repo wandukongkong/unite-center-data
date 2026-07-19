@@ -17114,5 +17114,141 @@
         "isNew": true
       }
     }
+  },
+  {
+    "id": "149",
+    "name": {
+      "ko": "펄기아",
+      "en": "Palkia",
+      "ja": "パルキア"
+    },
+    "role": "Balance",
+    "difficulty": "Intermediate",
+    "attackType": "special",
+    "imageUrl": "https://placehold.co/80x80/CCCCCC/FFF?text=PAL",
+    "spriteId": 484,
+    "skills": {
+      "basicAttack": {
+        "description": {
+          "ko": "일정 시간마다 다음 일반 공격이 강화 공격이 된다. 강화 공격은 명중한 상대에게 데미지를 주고 잠시 행동 불가로 만든다.",
+          "ja": "一定時間ごとに次の通常攻撃が強化攻撃になる。強化攻撃は命中した相手にダメージを与え、短時間行動不能にする。",
+          "en": "After a set interval, the next basic attack becomes a boosted attack that deals damage and briefly renders the target unable to act."
+        }
+      },
+      "passive": {
+        "name": {
+          "ko": "프레셔",
+          "ja": "プレッシャー",
+          "en": "Pressure"
+        },
+        "description": {
+          "ko": "기술이 상대에게 명중할 때마다 프레셔를 발산한다(최대 3, 5초 지속). 다음 일반 공격 시 모두 소모해 추가 데미지를 주고 스택당 HP를 회복한다.",
+          "ja": "わざが相手に命中するたびにプレッシャーを放つ(最大3、5秒持続)。次の通常攻撃でこれをすべて消費し、追加ダメージを与え、スタックごとにHPを回復する。",
+          "en": "Each time a move hits an opponent, gain a stack of Pressure (up to 3, lasting 5s). The next basic attack consumes all stacks to deal extra damage and restore HP per stack."
+        }
+      },
+      "moves": [
+        {
+          "id": "aqua_ring",
+          "name": {
+            "ko": "아쿠아링",
+            "ja": "アクアリング",
+            "en": "Aqua Ring"
+          },
+          "category": "active",
+          "cooldown": 5,
+          "unlockedAtLevel": 1,
+          "upgradedAtLevel": null,
+          "description": {
+            "ko": "자신 주변에 물의 링을 만들어 범위 내 상대에게 데미지를 주고, 이후 짧은 시간 동안 HP를 회복한다.",
+            "ja": "自身の周囲に水のリングを作り、範囲内の相手にダメージを与え、その後短時間HPを回復する。",
+            "en": "Creates a ring of water around the user, dealing damage to nearby opponents and then restoring the user's HP over a short duration."
+          },
+          "upgradeDescription": null
+        },
+        {
+          "id": "slash",
+          "name": {
+            "ko": "베어가르기",
+            "ja": "きりさく",
+            "en": "Slash"
+          },
+          "category": "active",
+          "cooldown": 6.5,
+          "unlockedAtLevel": 1,
+          "upgradedAtLevel": null,
+          "description": {
+            "ko": "지정한 방향으로 돌진하며 발톱으로 베어 데미지를 준다. 돌진할 때와 벨 때 각각 데미지가 발생한다.",
+            "ja": "指定した方向に突進し、爪で切り裂いてダメージを与える。突進時と切り裂く時にそれぞれダメージが発生する。",
+            "en": "Dashes in the designated direction and slashes with its claws, dealing damage both while dashing and when slashing."
+          },
+          "upgradeDescription": null
+        },
+        {
+          "id": "aura_sphere",
+          "name": {
+            "ko": "파동탄",
+            "ja": "はどうだん",
+            "en": "Aura Sphere"
+          },
+          "category": "active",
+          "cooldown": 6,
+          "unlockedAtLevel": 5,
+          "upgradedAtLevel": 11,
+          "description": {
+            "ko": "지정한 방향으로 파동을 쏴 데미지를 주고 마크를 부여한다. 마크된 상대를 공격하면 마크를 소모해 추가 데미지를 주고, 한 번만 HP를 회복한다.",
+            "ja": "指定した方向に波動を放ってダメージを与え、マークを付与する。マークされた相手を攻撃するとマークを消費して追加ダメージを与え、一度だけHPを回復する。",
+            "en": "Fires a pulse of aura in the designated direction, dealing damage and marking the target. Attacking a marked opponent consumes the mark to deal extra damage and restore HP once."
+          },
+          "upgradeDescription": {
+            "ko": "업그레이드 후 명중한 상대의 이동 속도를 감소시킨다.",
+            "ja": "グレードアップ後、命中した相手の移動速度を減少させる。",
+            "en": "After the upgrade, hitting an opponent also reduces their movement speed."
+          }
+        },
+        {
+          "id": "dragon_claw",
+          "name": {
+            "ko": "드래곤클로",
+            "ja": "ドラゴンクロー",
+            "en": "Dragon Claw"
+          },
+          "category": "active",
+          "cooldown": 7,
+          "unlockedAtLevel": 7,
+          "upgradedAtLevel": 13,
+          "description": {
+            "ko": "공간을 뒤틀어 지정한 장소로 이동하고, 출현 시 주변을 베어 데미지를 준다. 짧은 시간 내 재사용해 전방을 벨 수 있으며, 상대의 남은 HP가 적을수록 데미지가 증가한다.",
+            "ja": "空間をねじ曲げて指定した場所へ移動し、出現時に周囲を切り裂いてダメージを与える。短時間内に再使用して前方を切り裂くことができ、相手の残りHPが少ないほどダメージが増加する。",
+            "en": "Bends space to teleport to the designated location, slashing the surroundings on arrival for damage. Can be reused shortly after to slash forward, dealing more damage the lower the target's remaining HP."
+          },
+          "upgradeDescription": {
+            "ko": "업그레이드 후 1단계에 명중시킨 상대 수만큼 자신의 방어와 특수 방어가 상승한다(최대 3).",
+            "ja": "グレードアップ後、1段階目で命中させた相手の数だけ自身の防御と特防が上昇する(最大3)。",
+            "en": "After the upgrade, the user's Defense and Sp. Def increase based on the number of opponents hit by the first slash (up to 3)."
+          }
+        }
+      ],
+      "uniteMove": {
+        "id": "multi_dimensional_rend",
+        "name": {
+          "ko": "경계단절",
+          "ja": "あわいのやえだち",
+          "en": "Multi Dimensional Rend"
+        },
+        "cooldown": 100,
+        "unlockedAtLevel": 9,
+        "description": {
+          "ko": "공간의 틈새로 몸을 숨겨 최대 3초간 무적이 된다. 재사용하면 지정한 범위를 여러 번 베어 데미지를 주며 출현한다. 발동 직전 데미지를 준 횟수만큼 참격 횟수가 최대 7번까지 증가하며, 최대 횟수에 도달하면 다른 기술의 대기 시간이 0이 된다.",
+          "ja": "空間のはざまへと姿を消し、最大3秒間無敵になる。再使用すると指定範囲を複数回切り裂いてダメージを与えながら出現する。発動直前にダメージを与えた回数だけ斬撃回数が最大7回まで増加し、最大回数に達すると他のわざの待ち時間が0になる。",
+          "en": "Hides in a spatial rift, becoming invincible for up to 3 seconds. Reusing it unleashes multiple slashes over the designated area, dealing damage as Palkia reappears. The number of slashes increases up to 7 based on how many times damage was dealt just before activation, and reaching the maximum resets all other move cooldowns to zero."
+        }
+      },
+      "passiveCondition": {
+        "type": "not-applicable",
+        "reason": "프레셔: 기술 명중 시 스택(최대3, 5초)→다음 일반공격에 소모해 추가데미지+회복. 스택-소모형이라 미분류",
+        "isNew": true
+      }
+    }
   }
 ]

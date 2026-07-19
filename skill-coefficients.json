@@ -7521,5 +7521,64 @@
         }
       ]
     }
+  },
+  "149": {
+    "_name": "펄기아 (Palkia)",
+    "B": {
+      "ratio": "60",
+      "base": "100",
+      "slider": "0"
+    },
+    "X": {
+      "ratio": "84",
+      "base": "140",
+      "slider": "0"
+    },
+    "R": {
+      "ratio": "100",
+      "base": "300",
+      "slider": "0"
+    },
+    "R2": {
+      "ratio": "96",
+      "base": "288",
+      "slider": "0",
+      "addons": [
+        {
+          "ratio": "64",
+          "base": "192",
+          "slider": "0"
+        }
+      ]
+    },
+    "ZR": {
+      "ratio": "72",
+      "base": "216",
+      "slider": "0"
+    },
+    "ZR2": {
+      "ratio": "70",
+      "base": "210",
+      "slider": "0",
+      "addons": [
+        {
+          "ratio": "168",
+          "base": "504",
+          "slider": "0"
+        }
+      ]
+    },
+    "U": {
+      "ratio": "21.6",
+      "base": "65",
+      "slider": "0",
+      "addons": [
+        {
+          "ratio": "86.4",
+          "base": "260",
+          "slider": "0"
+        }
+      ]
+    }
   }
 }
