@@ -1,5 +1,27 @@
 [
   {
+    "id": "pn-155",
+    "version": "2026.07.20",
+    "date": "2026-07-20",
+    "pokemonId": "149",
+    "type": "buff",
+    "types": [
+      "buff"
+    ],
+    "summary": {
+      "ko": "경계단절 강화",
+      "en": "Multi Dimensional Rend buffed",
+      "ja": "あわいのやえだち強化"
+    },
+    "changes": [
+      {
+        "ko": "[경계단절] 데미지 25% 증가, 사용 후 경직 시간 단축",
+        "en": "[Multi Dimensional Rend] Damage increased by 25%, reduced post-use recovery",
+        "ja": "[あわいのやえだち] ダメージ25%増加、使用後の硬直時間を短縮"
+      }
+    ]
+  },
+  {
     "id": "pn-154",
     "version": "2026.07.17",
     "date": "2026-07-17",

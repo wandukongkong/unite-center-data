@@ -7569,13 +7569,13 @@
       ]
     },
     "U": {
-      "ratio": "21.6",
-      "base": "65",
+      "ratio": "27",
+      "base": "81",
       "slider": "0",
       "addons": [
         {
-          "ratio": "86.4",
-          "base": "260",
+          "ratio": "108",
+          "base": "325",
           "slider": "0"
         }
       ]
