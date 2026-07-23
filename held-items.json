@@ -10,7 +10,16 @@
         "ko": "골을 넣을 때마다 공격이 영구적으로 증가한다 (최대 6스택, 스택당 +6/9/12)",
         "en": "Permanently increases Attack each time a goal is scored (max 6 stacks)"
       },
-      "exclusivePokemon": null
+      "exclusivePokemon": null,
+      "stats": [
+        {
+          "label": {
+            "ko": "공격",
+            "en": "Attack"
+          },
+          "value": "+21"
+        }
+      ]
     },
     {
       "id": "sp_atk_specs",
@@ -22,7 +31,16 @@
         "ko": "골을 넣을 때마다 특수공격이 영구적으로 증가한다",
         "en": "Permanently increases Sp. Atk each time a goal is scored"
       },
-      "exclusivePokemon": null
+      "exclusivePokemon": null,
+      "stats": [
+        {
+          "label": {
+            "ko": "특수공격",
+            "en": "Sp. Attack"
+          },
+          "value": "+28"
+        }
+      ]
     },
     {
       "id": "aeos_cookie",
@@ -34,7 +52,16 @@
         "ko": "골을 넣을 때마다 최대 HP가 영구적으로 증가한다",
         "en": "Permanently increases max HP each time a goal is scored"
       },
-      "exclusivePokemon": null
+      "exclusivePokemon": null,
+      "stats": [
+        {
+          "label": {
+            "ko": "체력",
+            "en": "HP"
+          },
+          "value": "+280"
+        }
+      ]
     },
     {
       "id": "muscle_band",
@@ -46,7 +73,23 @@
         "ko": "기본공격 명중 시 상대 남은 HP의 일정 비율만큼 추가 데미지를 준다",
         "en": "Basic attacks deal bonus damage based on the opponent's remaining HP"
       },
-      "exclusivePokemon": null
+      "exclusivePokemon": null,
+      "stats": [
+        {
+          "label": {
+            "ko": "공격",
+            "en": "Attack"
+          },
+          "value": "+17.5"
+        },
+        {
+          "label": {
+            "ko": "공격속도",
+            "en": "Attack Speed"
+          },
+          "value": "+8.75%"
+        }
+      ]
     },
     {
       "id": "scope_lens",
@@ -58,7 +101,23 @@
         "ko": "급소 공격 데미지와 급소율이 증가한다",
         "en": "Increases critical-hit rate and critical-hit damage"
       },
-      "exclusivePokemon": null
+      "exclusivePokemon": null,
+      "stats": [
+        {
+          "label": {
+            "ko": "치명타율",
+            "en": "Critical-Hit Rate"
+          },
+          "value": "+7%"
+        },
+        {
+          "label": {
+            "ko": "치명타 피해",
+            "en": "Critical-Hit Damage"
+          },
+          "value": "+14%"
+        }
+      ]
     },
     {
       "id": "shell_bell",
@@ -70,7 +129,23 @@
         "ko": "기술 명중 시 HP를 회복한다. 특수공격과 기술 쿨다운도 증가한다",
         "en": "Restores HP when a move hits. Also increases Sp. Atk and reduces move cooldown"
       },
-      "exclusivePokemon": null
+      "exclusivePokemon": null,
+      "stats": [
+        {
+          "label": {
+            "ko": "특수공격",
+            "en": "Sp. Attack"
+          },
+          "value": "+28"
+        },
+        {
+          "label": {
+            "ko": "쿨다운 감소",
+            "en": "CD Reduction"
+          },
+          "value": "+5.25%"
+        }
+      ]
     },
     {
       "id": "wise_glasses",
@@ -82,7 +157,16 @@
         "ko": "특수공격이 추가로 증가한다",
         "en": "Further increases Sp. Atk by a percentage"
       },
-      "exclusivePokemon": null
+      "exclusivePokemon": null,
+      "stats": [
+        {
+          "label": {
+            "ko": "특수공격",
+            "en": "Sp. Attack"
+          },
+          "value": "+44"
+        }
+      ]
     },
     {
       "id": "choice_specs",
@@ -94,7 +178,16 @@
         "ko": "기술 명중 시 추가 데미지를 준다",
         "en": "Deals bonus damage when a move hits"
       },
-      "exclusivePokemon": null
+      "exclusivePokemon": null,
+      "stats": [
+        {
+          "label": {
+            "ko": "특수공격",
+            "en": "Sp. Attack"
+          },
+          "value": "+44"
+        }
+      ]
     },
     {
       "id": "razor_claw",
@@ -106,7 +199,23 @@
         "ko": "기술 사용 후 다음 기본공격에 추가 데미지가 발생한다",
         "en": "After using a move, the next basic attack deals bonus damage"
       },
-      "exclusivePokemon": null
+      "exclusivePokemon": null,
+      "stats": [
+        {
+          "label": {
+            "ko": "공격",
+            "en": "Attack"
+          },
+          "value": "+17.5"
+        },
+        {
+          "label": {
+            "ko": "치명타율",
+            "en": "Critical-Hit Rate"
+          },
+          "value": "+2.35%"
+        }
+      ]
     },
     {
       "id": "drain_crown",
@@ -118,7 +227,23 @@
         "ko": "기본공격으로 준 데미지의 일부를 HP로 흡수한다",
         "en": "Restores HP based on a portion of damage dealt by basic attacks"
       },
-      "exclusivePokemon": null
+      "exclusivePokemon": null,
+      "stats": [
+        {
+          "label": {
+            "ko": "체력",
+            "en": "HP"
+          },
+          "value": "+140"
+        },
+        {
+          "label": {
+            "ko": "공격",
+            "en": "Attack"
+          },
+          "value": "+21"
+        }
+      ]
     },
     {
       "id": "rapid_fire_scarf",
@@ -130,7 +255,23 @@
         "ko": "기본공격을 3회 연속으로 명중하면 기본공격 속도가 증가한다",
         "en": "Increases basic attack speed after landing 3 consecutive basic attacks"
       },
-      "exclusivePokemon": null
+      "exclusivePokemon": null,
+      "stats": [
+        {
+          "label": {
+            "ko": "공격",
+            "en": "Attack"
+          },
+          "value": "+14"
+        },
+        {
+          "label": {
+            "ko": "공격속도",
+            "en": "Attack Speed"
+          },
+          "value": "+10.5%"
+        }
+      ]
     },
     {
       "id": "slick_spoon",
@@ -142,7 +283,23 @@
         "ko": "특수공격이 상대의 특수방어 일부를 무시한다",
         "en": "Special moves ignore a portion of the opponent's Sp. Def"
       },
-      "exclusivePokemon": null
+      "exclusivePokemon": null,
+      "stats": [
+        {
+          "label": {
+            "ko": "체력",
+            "en": "HP"
+          },
+          "value": "+245"
+        },
+        {
+          "label": {
+            "ko": "특수공격",
+            "en": "Sp. Attack"
+          },
+          "value": "+35"
+        }
+      ]
     },
     {
       "id": "curse_bangle",
@@ -154,7 +311,16 @@
         "ko": "공격 시 상대의 HP 회복 효과를 약화시킨다",
         "en": "Weakens the opponent's HP recovery effects when attacking"
       },
-      "exclusivePokemon": null
+      "exclusivePokemon": null,
+      "stats": [
+        {
+          "label": {
+            "ko": "공격",
+            "en": "Attack"
+          },
+          "value": "+28"
+        }
+      ]
     },
     {
       "id": "curse_incense",
@@ -166,7 +332,16 @@
         "ko": "특수공격 시 상대의 HP 회복 효과를 약화시킨다",
         "en": "Weakens the opponent's HP recovery effects when hitting with special moves"
       },
-      "exclusivePokemon": null
+      "exclusivePokemon": null,
+      "stats": [
+        {
+          "label": {
+            "ko": "특수공격",
+            "en": "Sp. Attack"
+          },
+          "value": "+45.5"
+        }
+      ]
     },
     {
       "id": "charging_charm",
@@ -178,7 +353,23 @@
         "ko": "에너지를 충전한 후 추가 데미지를 준다",
         "en": "Deals bonus damage after charging energy"
       },
-      "exclusivePokemon": null
+      "exclusivePokemon": null,
+      "stats": [
+        {
+          "label": {
+            "ko": "공격",
+            "en": "Attack"
+          },
+          "value": "+17.5"
+        },
+        {
+          "label": {
+            "ko": "이동속도",
+            "en": "Speed"
+          },
+          "value": "+140"
+        }
+      ]
     },
     {
       "id": "accel_bracer",
@@ -190,7 +381,23 @@
         "ko": "적을 처치할 때마다 공격이 영구적으로 증가한다",
         "en": "Permanently increases Attack each time an opponent is defeated"
       },
-      "exclusivePokemon": null
+      "exclusivePokemon": null,
+      "stats": [
+        {
+          "label": {
+            "ko": "공격",
+            "en": "Attack"
+          },
+          "value": "+17.5"
+        },
+        {
+          "label": {
+            "ko": "쿨다운 감소",
+            "en": "CD Reduction"
+          },
+          "value": "+3.5%"
+        }
+      ]
     },
     {
       "id": "drive_lens",
@@ -202,7 +409,23 @@
         "ko": "적을 처치할 때마다 특수공격이 영구적으로 증가한다",
         "en": "Permanently increases Sp. Atk each time an opponent is defeated"
       },
-      "exclusivePokemon": null
+      "exclusivePokemon": null,
+      "stats": [
+        {
+          "label": {
+            "ko": "특수공격",
+            "en": "Sp. Attack"
+          },
+          "value": "+28"
+        },
+        {
+          "label": {
+            "ko": "쿨다운 감소",
+            "en": "CD Reduction"
+          },
+          "value": "+3.5%"
+        }
+      ]
     },
     {
       "id": "energy_amplifier",
@@ -214,7 +437,23 @@
         "ko": "유나이트 기술 사용 후 잠시 동안 데미지가 증가한다",
         "en": "Increases damage dealt for a short time after using a Unite Move"
       },
-      "exclusivePokemon": null
+      "exclusivePokemon": null,
+      "stats": [
+        {
+          "label": {
+            "ko": "에너지 충전 효율",
+            "en": "Energy Rate"
+          },
+          "value": "+7%"
+        },
+        {
+          "label": {
+            "ko": "쿨다운 감소",
+            "en": "CD Reduction"
+          },
+          "value": "+5.25%"
+        }
+      ]
     },
     {
       "id": "choice_scarf",
@@ -226,7 +465,23 @@
         "ko": "기본공격을 3회 명중할 때마다 이동속도가 증가한다",
         "en": "Increases movement speed every time 3 basic attacks land"
       },
-      "exclusivePokemon": null
+      "exclusivePokemon": null,
+      "stats": [
+        {
+          "label": {
+            "ko": "공격속도",
+            "en": "Attack Speed"
+          },
+          "value": "+8.75%"
+        },
+        {
+          "label": {
+            "ko": "이동속도",
+            "en": "Speed"
+          },
+          "value": "+175"
+        }
+      ]
     },
     {
       "id": "weakness_policy",
@@ -238,7 +493,23 @@
         "ko": "데미지를 받을 때마다 공격이 일시적으로 증가한다",
         "en": "Temporarily increases Attack each time the holder takes damage"
       },
-      "exclusivePokemon": null
+      "exclusivePokemon": null,
+      "stats": [
+        {
+          "label": {
+            "ko": "체력",
+            "en": "HP"
+          },
+          "value": "+235"
+        },
+        {
+          "label": {
+            "ko": "공격",
+            "en": "Attack"
+          },
+          "value": "+17.5"
+        }
+      ]
     },
     {
       "id": "focus_band",
@@ -250,7 +521,23 @@
         "ko": "HP가 낮아지면 HP를 서서히 회복한다",
         "en": "Gradually restores HP when the holder's HP falls low"
       },
-      "exclusivePokemon": null
+      "exclusivePokemon": null,
+      "stats": [
+        {
+          "label": {
+            "ko": "방어",
+            "en": "Defense"
+          },
+          "value": "+35"
+        },
+        {
+          "label": {
+            "ko": "특수방어",
+            "en": "Sp. Defense"
+          },
+          "value": "+35"
+        }
+      ]
     },
     {
       "id": "assault_vest",
@@ -262,7 +549,23 @@
         "ko": "전투 중이 아닐 때 특수방어 실드를 부여한다",
         "en": "Grants a Sp. Def shield when not in combat"
       },
-      "exclusivePokemon": null
+      "exclusivePokemon": null,
+      "stats": [
+        {
+          "label": {
+            "ko": "체력",
+            "en": "HP"
+          },
+          "value": "+315"
+        },
+        {
+          "label": {
+            "ko": "특수방어",
+            "en": "Sp. Defense"
+          },
+          "value": "+59.5"
+        }
+      ]
     },
     {
       "id": "rocky_helmet",
@@ -274,7 +577,23 @@
         "ko": "데미지를 받으면 공격한 상대에게 반사 데미지를 준다",
         "en": "Deals damage back to attackers when the holder takes damage"
       },
-      "exclusivePokemon": null
+      "exclusivePokemon": null,
+      "stats": [
+        {
+          "label": {
+            "ko": "체력",
+            "en": "HP"
+          },
+          "value": "+315"
+        },
+        {
+          "label": {
+            "ko": "방어",
+            "en": "Defense"
+          },
+          "value": "+59.5"
+        }
+      ]
     },
     {
       "id": "leftovers",
@@ -286,7 +605,23 @@
         "ko": "전투 중이 아닐 때 HP를 서서히 회복한다",
         "en": "Gradually restores HP when not in combat"
       },
-      "exclusivePokemon": null
+      "exclusivePokemon": null,
+      "stats": [
+        {
+          "label": {
+            "ko": "체력",
+            "en": "HP"
+          },
+          "value": "+420"
+        },
+        {
+          "label": {
+            "ko": "체력 회복(초당)",
+            "en": "HP recovery"
+          },
+          "value": "+10.5"
+        }
+      ]
     },
     {
       "id": "tenacity_belt",
@@ -298,7 +633,23 @@
         "ko": "방해 효과를 받으면 방어가 일시적으로 증가한다",
         "en": "Temporarily increases Defense when hit by a hindrance effect"
       },
-      "exclusivePokemon": null
+      "exclusivePokemon": null,
+      "stats": [
+        {
+          "label": {
+            "ko": "방어",
+            "en": "Defense"
+          },
+          "value": "+35"
+        },
+        {
+          "label": {
+            "ko": "특수방어",
+            "en": "Sp. Defense"
+          },
+          "value": "+35"
+        }
+      ]
     },
     {
       "id": "vanguard_bell",
@@ -310,7 +661,16 @@
         "ko": "상대에게 방해 효과를 부여하면 HP를 회복한다",
         "en": "Restores HP when inflicting a hindrance effect on an opponent"
       },
-      "exclusivePokemon": null
+      "exclusivePokemon": null,
+      "stats": [
+        {
+          "label": {
+            "ko": "체력",
+            "en": "HP"
+          },
+          "value": "+525"
+        }
+      ]
     },
     {
       "id": "big_root",
@@ -322,7 +682,16 @@
         "ko": "자신의 HP 회복 효과가 증가한다",
         "en": "Increases the holder's own HP recovery effects"
       },
-      "exclusivePokemon": null
+      "exclusivePokemon": null,
+      "stats": [
+        {
+          "label": {
+            "ko": "체력",
+            "en": "HP"
+          },
+          "value": "+525"
+        }
+      ]
     },
     {
       "id": "buddy_barrier",
@@ -334,7 +703,16 @@
         "ko": "유나이트 기술 사용 시 자신과 주변 아군에게 실드를 부여한다",
         "en": "Grants a shield to the holder and nearby allies when using a Unite Move"
       },
-      "exclusivePokemon": null
+      "exclusivePokemon": null,
+      "stats": [
+        {
+          "label": {
+            "ko": "체력",
+            "en": "HP"
+          },
+          "value": "+525"
+        }
+      ]
     },
     {
       "id": "score_shield",
@@ -346,7 +724,16 @@
         "ko": "골을 시도하는 동안 실드를 부여한다",
         "en": "Grants a shield while attempting to score a goal"
       },
-      "exclusivePokemon": null
+      "exclusivePokemon": null,
+      "stats": [
+        {
+          "label": {
+            "ko": "체력",
+            "en": "HP"
+          },
+          "value": "+525"
+        }
+      ]
     },
     {
       "id": "exp_share",
@@ -358,7 +745,23 @@
         "ko": "팀 내 경험치가 가장 낮을 때 경험치를 추가로 획득한다",
         "en": "Grants bonus EXP when the holder has the least EXP on the team"
       },
-      "exclusivePokemon": null
+      "exclusivePokemon": null,
+      "stats": [
+        {
+          "label": {
+            "ko": "체력",
+            "en": "HP"
+          },
+          "value": "+420"
+        },
+        {
+          "label": {
+            "ko": "이동속도",
+            "en": "Speed"
+          },
+          "value": "+175"
+        }
+      ]
     },
     {
       "id": "amulet_coin",
@@ -370,7 +773,23 @@
         "ko": "야생 포켓몬 처치 시 에너지를 추가로 획득한다",
         "en": "Grants bonus Aeos energy when defeating wild Pokemon"
       },
-      "exclusivePokemon": null
+      "exclusivePokemon": null,
+      "stats": [
+        {
+          "label": {
+            "ko": "체력",
+            "en": "HP"
+          },
+          "value": "+280"
+        },
+        {
+          "label": {
+            "ko": "이동속도",
+            "en": "Speed"
+          },
+          "value": "+175"
+        }
+      ]
     },
     {
       "id": "rescue_hood",
@@ -382,7 +801,23 @@
         "ko": "아군에게 주는 회복 및 실드 효과가 증가한다",
         "en": "Increases the effectiveness of healing and shields granted to allies"
       },
-      "exclusivePokemon": null
+      "exclusivePokemon": null,
+      "stats": [
+        {
+          "label": {
+            "ko": "방어",
+            "en": "Defense"
+          },
+          "value": "+35"
+        },
+        {
+          "label": {
+            "ko": "특수방어",
+            "en": "Sp. Defense"
+          },
+          "value": "+35"
+        }
+      ]
     },
     {
       "id": "resonant_guard",
@@ -394,7 +829,23 @@
         "ko": "상대에게 데미지를 주면 주변 아군에게 실드를 부여한다",
         "en": "Grants a shield to nearby allies when dealing damage to an opponent"
       },
-      "exclusivePokemon": null
+      "exclusivePokemon": null,
+      "stats": [
+        {
+          "label": {
+            "ko": "체력",
+            "en": "HP"
+          },
+          "value": "+525"
+        },
+        {
+          "label": {
+            "ko": "체력 회복(초당)",
+            "en": "HP recovery"
+          },
+          "value": "+21"
+        }
+      ]
     },
     {
       "id": "rusted_sword",
@@ -406,7 +857,8 @@
         "ko": "자시안 전용 고정 아이템",
         "en": "Exclusive held item for Zacian"
       },
-      "exclusivePokemon": "자시안"
+      "exclusivePokemon": "자시안",
+      "stats": []
     },
     {
       "id": "mewtwonite_x",
@@ -418,7 +870,8 @@
         "ko": "뮤츠(X형) 전용 고정 아이템",
         "en": "Exclusive held item for Mewtwo (X Forme)"
       },
-      "exclusivePokemon": "뮤츠(X형)"
+      "exclusivePokemon": "뮤츠(X형)",
+      "stats": []
     },
     {
       "id": "mewtwonite_y",
@@ -430,7 +883,8 @@
         "ko": "뮤츠(Y형) 전용 고정 아이템",
         "en": "Exclusive held item for Mewtwo (Y Forme)"
       },
-      "exclusivePokemon": "뮤츠(Y형)"
+      "exclusivePokemon": "뮤츠(Y형)",
+      "stats": []
     },
     {
       "id": "lucarionite",
@@ -442,7 +896,8 @@
         "ko": "루카리오(메가) 전용 고정 아이템",
         "en": "Exclusive held item for Mega Lucario"
       },
-      "exclusivePokemon": "루카리오(메가)"
+      "exclusivePokemon": "루카리오(메가)",
+      "stats": []
     },
     {
       "id": "charizardite_x",
@@ -454,7 +909,8 @@
         "ko": "리자몽(메가X) 전용 고정 아이템",
         "en": "Exclusive held item for Mega Charizard X"
       },
-      "exclusivePokemon": "리자몽(메가X)"
+      "exclusivePokemon": "리자몽(메가X)",
+      "stats": []
     },
     {
       "id": "charizardite_y",
@@ -466,7 +922,8 @@
         "ko": "리자몽(메가Y) 전용 고정 아이템",
         "en": "Exclusive held item for Mega Charizard Y"
       },
-      "exclusivePokemon": "리자몽(메가Y)"
+      "exclusivePokemon": "리자몽(메가Y)",
+      "stats": []
     },
     {
       "id": "gyaradosite",
@@ -478,7 +935,8 @@
         "ko": "갸라도스(메가) 전용 고정 아이템",
         "en": "Exclusive held item for Mega Gyarados"
       },
-      "exclusivePokemon": "갸라도스(메가)"
+      "exclusivePokemon": "갸라도스(메가)",
+      "stats": []
     }
   ]
 }
