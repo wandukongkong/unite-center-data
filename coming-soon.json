@@ -31,5 +31,16 @@
     "role": "Balance",
     "difficulty": "Novice",
     "spriteId": 849
+  },
+  {
+    "id": "cs_morpeko",
+    "name": {
+      "ko": "모르페코",
+      "en": "Morpeko",
+      "ja": "モルペコ"
+    },
+    "role": "Balance",
+    "difficulty": "Novice",
+    "spriteId": 877
   }
 ]
