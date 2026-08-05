@@ -1,5 +1,295 @@
 [
   {
+    "id": "pn-156",
+    "version": "2026.08.06",
+    "date": "2026-08-06",
+    "pokemonId": "102",
+    "type": "buff",
+    "types": [
+      "buff"
+    ],
+    "summary": {
+      "ko": "미래예지·HP회복·사이코브레이크·순간이동 강화",
+      "en": "Future Sight, Recover, Psystrike, and Teleport buffed",
+      "ja": "みらいよち・じこさいせい・サイコブレイク・テレポート強化"
+    },
+    "changes": [
+      {
+        "ko": "[미래예지] 대기시간 10초 → 9초",
+        "en": "[Future Sight] Cooldown 10s → 9s",
+        "ja": "[みらいよち] 待ち時間 10秒 → 9秒"
+      },
+      {
+        "ko": "[HP회복] 대기시간 10초 → 9초, 이동 속도 상승량 20% → 30%",
+        "en": "[Recover] Cooldown 10s → 9s, movement speed boost 20% → 30%",
+        "ja": "[じこさいせい] 待ち時間 10秒 → 9秒、移動速度上昇量 20% → 30%"
+      },
+      {
+        "ko": "[사이코브레이크] 데미지 10% 증가",
+        "en": "[Psystrike] Damage increased by 10%",
+        "ja": "[サイコブレイク] ダメージ10%増加"
+      },
+      {
+        "ko": "[순간이동] 대기시간 10초 → 9초",
+        "en": "[Teleport] Cooldown 10s → 9s",
+        "ja": "[テレポート] 待ち時間 10秒 → 9秒"
+      }
+    ]
+  },
+  {
+    "id": "pn-157",
+    "version": "2026.08.06",
+    "date": "2026-08-06",
+    "pokemonId": "66",
+    "type": "buff",
+    "types": [
+      "buff"
+    ],
+    "summary": {
+      "ko": "스탯 상향 및 섀도클로·깜짝베기·풀베기 강화",
+      "en": "Stats increased; Shadow Claw, Slash, and Cut buffed",
+      "ja": "ステータス上昇、シャドークロー・つじぎり・いあいぎり強化"
+    },
+    "changes": [
+      {
+        "ko": "[스탯] HP 3030~6200 → 3030~6400, 방어 55~260 → 55~300, 특방 45~180 → 45~210",
+        "en": "[Stats] HP 3030~6200 → 3030~6400, Defense 55~260 → 55~300, Sp. Def 45~180 → 45~210",
+        "ja": "[ステータス] HP 3030〜6200 → 3030〜6400、防御 55〜260 → 55〜300、特防 45〜180 → 45〜210"
+      },
+      {
+        "ko": "[섀도클로] 상대 포켓몬을 날려버리는 시간 0.4초 → 0.5초",
+        "en": "[Shadow Claw] Knockback duration on opposing Pokemon 0.4s → 0.5s",
+        "ja": "[シャドークロー] 相手のポケモンをふきとばす時間 0.4秒 → 0.5秒"
+      },
+      {
+        "ko": "[깜짝베기] 대기시간 8초 → 7초",
+        "en": "[Slash] Cooldown 8s → 7s",
+        "ja": "[つじぎり] 待ち時間 8秒 → 7秒"
+      },
+      {
+        "ko": "[풀베기] 데미지 15% 증가",
+        "en": "[Cut] Damage increased by 15%",
+        "ja": "[いあいぎり] ダメージ15%増加"
+      }
+    ]
+  },
+  {
+    "id": "pn-158",
+    "version": "2026.08.06",
+    "date": "2026-08-06",
+    "pokemonId": "136",
+    "type": "buff",
+    "types": [
+      "buff"
+    ],
+    "summary": {
+      "ko": "어시스트파워·사이코키네시스 강화",
+      "en": "Stored Power and Psychic buffed",
+      "ja": "アシストパワー・サイコキネシス強化"
+    },
+    "changes": [
+      {
+        "ko": "[어시스트파워] 공격 속도 상승량 35% → 45%",
+        "en": "[Stored Power] Attack speed boost 35% → 45%",
+        "ja": "[アシストパワー] 攻撃速度上昇量 35% → 45%"
+      },
+      {
+        "ko": "[어시스트파워+] 상대 특수방어 감소량 5% → 8%",
+        "en": "[Stored Power+] Opponent's Sp. Def reduction 5% → 8%",
+        "ja": "[アシストパワー+] 相手の特防の減少量 5% → 8%"
+      },
+      {
+        "ko": "[사이코키네시스] 데미지 10% 증가, 대기시간 9초 → 8초",
+        "en": "[Psychic] Damage increased by 10%, cooldown 9s → 8s",
+        "ja": "[サイコキネシス] ダメージ10%増加、待ち時間 9秒 → 8秒"
+      }
+    ]
+  },
+  {
+    "id": "pn-159",
+    "version": "2026.08.06",
+    "date": "2026-08-06",
+    "pokemonId": "145",
+    "type": "buff",
+    "types": [
+      "buff"
+    ],
+    "summary": {
+      "ko": "광합성·풀묶기 대기시간 단축",
+      "en": "Synthesis and Grass Knot cooldowns reduced",
+      "ja": "こうごうせい・くさむすび待ち時間短縮"
+    },
+    "changes": [
+      {
+        "ko": "[광합성] 대기시간 6초 → 5초",
+        "en": "[Synthesis] Cooldown 6s → 5s",
+        "ja": "[こうごうせい] 待ち時間 6秒 → 5秒"
+      },
+      {
+        "ko": "[풀묶기] 대기시간 7초 → 6초",
+        "en": "[Grass Knot] Cooldown 7s → 6s",
+        "ja": "[くさむすび] 待ち時間 7秒 → 6秒"
+      }
+    ]
+  },
+  {
+    "id": "pn-160",
+    "version": "2026.08.06",
+    "date": "2026-08-06",
+    "pokemonId": "149",
+    "type": "buff",
+    "types": [
+      "buff"
+    ],
+    "summary": {
+      "ko": "일반 공격·드래곤클로 강화",
+      "en": "Basic attack and Dragon Claw buffed",
+      "ja": "通常攻撃・ドラゴンクロー強化"
+    },
+    "changes": [
+      {
+        "ko": "[일반 공격] 명중 판정 거리 2.5m → 3m",
+        "en": "[Basic Attack] Hit detection range 2.5m → 3m",
+        "ja": "[通常攻撃] 命中判定距離 2.5m → 3m"
+      },
+      {
+        "ko": "[드래곤클로] 1단째: 기술 발동과 전후 경직 시간을 단축하여 동작이 빨라지도록 조정",
+        "en": "[Dragon Claw] 1st hit: Move startup and pre/post recovery shortened so the animation is faster",
+        "ja": "[ドラゴンクロー] 1段目: わざの発生と前後の硬直を短縮し動作が早くなるよう調整"
+      },
+      {
+        "ko": "[드래곤클로] 2단째: 기술 사용 후 경직 시간 단축",
+        "en": "[Dragon Claw] 2nd hit: Reduced post-use recovery time",
+        "ja": "[ドラゴンクロー] 2段目: わざ使用後の硬直時間を短縮"
+      }
+    ]
+  },
+  {
+    "id": "pn-161",
+    "version": "2026.08.06",
+    "date": "2026-08-06",
+    "pokemonId": "96",
+    "type": "adjust",
+    "types": [
+      "adjust"
+    ],
+    "summary": {
+      "ko": "불요의검 하향, 성스러운칼 상향",
+      "en": "Intrepid Sword nerfed, Sacred Sword buffed",
+      "ja": "とくせい弱体化、せいなるつるぎ強化"
+    },
+    "changes": [
+      {
+        "ko": "[특성 「불요의검」] 강화된 일반 공격의 추가 데미지(상대 최대 HP 비율) 2%/3%/3%/4% → 1%/2%/2%/3%",
+        "en": "[Ability \"Intrepid Sword\"] Bonus damage of boosted basic attacks (ratio of target's max HP) 2%/3%/3%/4% → 1%/2%/2%/3%",
+        "ja": "[特性「ふとうのけん」] 強化された通常攻撃の追加ダメージ（相手の最大HP比率） 2%/3%/3%/4% → 1%/2%/2%/3%"
+      },
+      {
+        "ko": "[성스러운칼] 데미지 8% 증가",
+        "en": "[Sacred Sword] Damage increased by 8%",
+        "ja": "[せいなるつるぎ] ダメージ8%増加"
+      }
+    ]
+  },
+  {
+    "id": "pn-162",
+    "version": "2026.08.06",
+    "date": "2026-08-06",
+    "pokemonId": "87",
+    "type": "nerf",
+    "types": [
+      "nerf"
+    ],
+    "summary": {
+      "ko": "깨물어부수기 하향",
+      "en": "Crunch nerfed",
+      "ja": "かみくだく弱体化"
+    },
+    "changes": [
+      {
+        "ko": "[깨물어부수기] 데미지 8% 감소",
+        "en": "[Crunch] Damage decreased by 8%",
+        "ja": "[かみくだく] ダメージ8%減少"
+      }
+    ]
+  },
+  {
+    "id": "pn-163",
+    "version": "2026.08.06",
+    "date": "2026-08-06",
+    "pokemonId": "4",
+    "type": "nerf",
+    "types": [
+      "nerf"
+    ],
+    "summary": {
+      "ko": "적응력·풀포스블라스트 하향",
+      "en": "Adaptability and Aura Cannon nerfed",
+      "ja": "てきおうりょく・フルフォースブラスト弱体化"
+    },
+    "changes": [
+      {
+        "ko": "[특성 「적응력」] 기술 명중 시 공격력 상승량 5% → 4% (최대 10중첩 기준 50% → 40%)",
+        "en": "[Ability \"Adaptability\"] Attack boost per move hit 5% → 4% (50% → 40% at the 10-stack max)",
+        "ja": "[特性「てきおうりょく」] わざ命中時の攻撃力上昇量 5% → 4%（最大10重複で50% → 40%）"
+      },
+      {
+        "ko": "[유나이트 기술 풀포스블라스트] 사용 후 메가진화 지속 시간 25초 → 20초",
+        "en": "[Unite Move: Aura Cannon] Mega Evolution duration after use 25s → 20s",
+        "ja": "[ユナイトわざ：フルフォースブラスト] 使用後のメガシンカ持続時間 25秒 → 20秒"
+      }
+    ]
+  },
+  {
+    "id": "pn-164",
+    "version": "2026.08.06",
+    "date": "2026-08-06",
+    "pokemonId": "148",
+    "type": "nerf",
+    "types": [
+      "nerf"
+    ],
+    "summary": {
+      "ko": "스탯 하향",
+      "en": "Stats decreased",
+      "ja": "ステータス弱体化"
+    },
+    "changes": [
+      {
+        "ko": "[스탯] HP 3360~7400 → 3320~7000, 방어 76~326 → 72~300, 특방 76~330 → 72~300",
+        "en": "[Stats] HP 3360~7400 → 3320~7000, Defense 76~326 → 72~300, Sp. Def 76~330 → 72~300",
+        "ja": "[ステータス] HP 3360〜7400 → 3320〜7000、防御 76〜326 → 72〜300、特防 76〜330 → 72〜300"
+      }
+    ]
+  },
+  {
+    "id": "pn-165",
+    "version": "2026.08.06",
+    "date": "2026-08-06",
+    "pokemonId": "112",
+    "type": "nerf",
+    "types": [
+      "nerf"
+    ],
+    "summary": {
+      "ko": "HP회복·달콤한향기 하향",
+      "en": "Whipped Dream and Sweet Scent nerfed",
+      "ja": "じこさいせい・あまいかおり弱体化"
+    },
+    "changes": [
+      {
+        "ko": "[HP회복] 회복량 10% 감소",
+        "en": "[Whipped Dream] Healing decreased by 10%",
+        "ja": "[じこさいせい] 回復量10%減少"
+      },
+      {
+        "ko": "[달콤한향기] 데미지 15% 감소",
+        "en": "[Sweet Scent] Damage decreased by 15%",
+        "ja": "[あまいかおり] ダメージ15%減少"
+      }
+    ]
+  },
+  {
     "id": "pn-155",
     "version": "2026.07.20",
     "date": "2026-07-20",
