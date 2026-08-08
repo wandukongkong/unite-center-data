@@ -4432,7 +4432,7 @@
         "type": "voltage",
         "maxVoltage": 14,
         "perBasicHit": 1,
-        "perEnhancedHit": 1,
+        "perEnhancedHit": 2,
         "activeDurationMs": 8000,
         "cooldownMs": 10000,
         "dmgBonusPct": 0.15,
@@ -16009,8 +16009,11 @@
         }
       },
       "passiveCondition": {
-        "type": "not-applicable",
-        "reason": "선제 공격 방지 + 약자 대상 추가 데미지 — 방어형 유틸리티",
+        "type": "charge-n",
+        "triggerCount": 3,
+        "activeDurationMs": 2000,
+        "cooldownMs": 0,
+        "reason": "유나이트 기술 이외의 기술·강화 공격을 3번 사용하면 4번째에 추가 효과 발생 — 카운터형",
         "isNew": true
       }
     },
