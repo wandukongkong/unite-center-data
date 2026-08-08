@@ -3724,6 +3724,11 @@
           "shieldPct": 20,
           "durationMs": 6000,
           "raw": "20% Max HP Shield"
+        },
+        "activation": {
+          "type": "transform",
+          "durationMs": 20000,
+          "note": "메가리자몽X 20초"
         }
       },
       "passive2": {
@@ -5882,6 +5887,11 @@
           "shieldPct": 10,
           "durationMs": 6000,
           "raw": "10% Movement Speed, 10% Max HP Shield"
+        },
+        "activation": {
+          "type": "transform",
+          "durationMs": 15000,
+          "note": "메가리자몽Y 비행 15초, 기본공격 변경(별도 계수 데이터 필요)"
         }
       },
       "passive2": {
@@ -9141,6 +9151,11 @@
           "shieldPct": 20,
           "durationMs": 6000,
           "raw": "50% Movement Speed, 20% Max HP Shield"
+        },
+        "activation": {
+          "type": "transform",
+          "durationMs": 10000,
+          "note": "비행 10초, 기본공격 변경(별도 계수 데이터 필요)"
         }
       },
       "passiveCondition": {
@@ -13728,6 +13743,11 @@
           "shieldPct": 20,
           "durationMs": 6000,
           "raw": "30% Movement Speed, 30% CDR, 20% Max HP Shield"
+        },
+        "activation": {
+          "type": "transform",
+          "durationMs": 15000,
+          "note": "언바운드 15초, 무브셋 변경(엔진 특수처리)"
         }
       },
       "passiveCondition": {
@@ -15433,6 +15453,13 @@
           "shieldPct": 20,
           "durationMs": 6000,
           "raw": "50% Movement Speed, 35% Attack Speed, 20% Max HP Shield"
+        },
+        "activation": {
+          "type": "hit-charge",
+          "gaugePerBasicHit": 4,
+          "gaugePerSkillHit": 8,
+          "gaugeMax": 100,
+          "note": "unite-db true_desc: 평타 적중 게이지+4%·기술 적중+8%(야생 1%/2%)로 충전. 공속 비례. 발동 후 8s Fighter Mode+전스킬 쿨리셋은 미모델"
         }
       },
       "passiveCondition": {
@@ -16774,6 +16801,11 @@
           "shieldPct": 20,
           "durationMs": 6000,
           "raw": "30% Movement Speed, 30% CDR, 20% Max HP Shield"
+        },
+        "activation": {
+          "type": "transform",
+          "durationMs": 10000,
+          "note": "광란 10초, 기본공격 변경(별도 계수 데이터 필요)"
         }
       },
       "passiveCondition": {
@@ -18012,7 +18044,7 @@
           "ja": "烈火超雷",
           "en": "Flames That Bring Lightning"
         },
-        "cooldown": 0,
+        "cooldown": 8,
         "unlockedAtLevel": 9,
         "description": {
           "ko": "지정한 방향으로 거대한 불꽃을 내리쳐 상대편 포켓몬에게 데미지를 준다. 2회 발동한 뒤, 다음 1번은 더 강력한 불꽃으로 공격하여 범위 안에 있는 상대편 포켓몬에게 데미지를 주고 행동 불가로 만들며, 그 뒤 장외에서 제크로무가 지원하러 와서 상대편 포켓몬을 공격한다. 기술은 최대 3번까지 충전할 수 있다.",
@@ -18025,6 +18057,12 @@
           "shieldPct": 20,
           "durationMs": 6000,
           "raw": "30% Movement Speed, 30% CDR, 20% Max HP Shield. The cooldown of Energy Amplifier is increased to 30s, and the cooldown of Buddy Barrier is increased to 60s."
+        },
+        "chargeCount": 3,
+        "activation": {
+          "type": "use-stack",
+          "everyN": 3,
+          "note": "3번째 사용마다 제크로무 번개 강화(empowerOnly 애드온)"
         }
       },
       "passiveCondition": {
