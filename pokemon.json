@@ -16013,6 +16013,7 @@
         "triggerCount": 3,
         "activeDurationMs": 2000,
         "cooldownMs": 0,
+        "countTarget": "skill_or_boosted",
         "reason": "유나이트 기술 이외의 기술·강화 공격을 3번 사용하면 4번째에 추가 효과 발생 — 카운터형",
         "isNew": true
       }
