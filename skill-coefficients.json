@@ -4498,26 +4498,9 @@
       "slider": ""
     },
     "X": {
-      "ratio": "130",
+      "ratio": "150",
       "base": "0",
-      "slider": "0",
-      "addons": [
-        {
-          "ratio": "150",
-          "base": "0",
-          "slider": "0"
-        },
-        {
-          "ratio": "70",
-          "base": "200",
-          "slider": "0"
-        },
-        {
-          "ratio": "60",
-          "base": "0",
-          "slider": "0"
-        }
-      ]
+      "slider": "0"
     },
     "R": {
       "ratio": "99",
