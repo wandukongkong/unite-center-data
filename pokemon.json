@@ -5891,7 +5891,14 @@
         "activation": {
           "type": "transform",
           "durationMs": 15000,
-          "note": "메가리자몽Y 비행 15초, 기본공격 변경(별도 계수 데이터 필요)"
+          "note": "메가리자몽Y 비행 15초, 기본공격 변경(별도 계수 데이터 필요)",
+          "basicBurn": {
+            "ratio": "20",
+            "base": "0",
+            "slider": "0",
+            "hitCount": 2,
+            "dmgType": "Atk"
+          }
         }
       },
       "passive2": {
@@ -9155,7 +9162,14 @@
         "activation": {
           "type": "transform",
           "durationMs": 10000,
-          "note": "비행 10초, 기본공격 변경(별도 계수 데이터 필요)"
+          "note": "비행 10초, 기본공격 변경(별도 계수 데이터 필요)",
+          "basicBurn": {
+            "ratio": "20",
+            "base": "0",
+            "slider": "0",
+            "hitCount": 2,
+            "dmgType": "Atk"
+          }
         }
       },
       "passiveCondition": {
@@ -16805,7 +16819,13 @@
         "activation": {
           "type": "transform",
           "durationMs": 10000,
-          "note": "광란 10초, 기본공격 변경(별도 계수 데이터 필요)"
+          "note": "광란 10초, 기본공격 변경(별도 계수 데이터 필요)",
+          "transformedBasic": {
+            "ratio": "130",
+            "base": "240",
+            "slider": "6",
+            "dmgType": "Atk"
+          }
         }
       },
       "passiveCondition": {
