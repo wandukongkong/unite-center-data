@@ -6290,7 +6290,10 @@
         }
       },
       "passiveCondition": {
-        "type": "always-on"
+        "type": "always-on",
+        "dmgBonusPct": 15,
+        "reason": "프레셔: 평타로 메가게이지 누적→SpAtk 최대 +15%(지속시). 공속 +30%·10s 일시메가(SpAtk+10%/공속+35%)는 미모델(보수적 과소)",
+        "isNew": true
       }
     },
     "attackType": "special",
@@ -9361,7 +9364,10 @@
         }
       },
       "passiveCondition": {
-        "type": "always-on"
+        "type": "always-on",
+        "dmgBonusPct": 20,
+        "reason": "프레셔: 평타로 메가게이지 누적→공격 최대 +20%(지속시 최대치). 게이지만충 10s 일시메가(추가공격+18%)는 미모델(보수적 과소)",
+        "isNew": true
       }
     },
     "releasedAt": "2023-07-21"
