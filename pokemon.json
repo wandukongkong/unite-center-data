@@ -17250,5 +17250,141 @@
         "isNew": true
       }
     }
+  },
+  {
+    "id": "150",
+    "name": {
+      "ko": "레시라무",
+      "en": "Reshiram",
+      "ja": "レシラム"
+    },
+    "role": "Attack",
+    "difficulty": "Intermediate",
+    "attackType": "special",
+    "imageUrl": "https://placehold.co/80x80/CCCCCC/FFF?text=RES",
+    "spriteId": 643,
+    "skills": {
+      "basicAttack": {
+        "description": {
+          "ko": "기술, 유나이트 기술 또는 2번째 일반 공격을 사용하면 다음 일반 공격이 강화 공격이 되어 화염을 토해내 상대편 포켓몬을 공격한다. 화염은 상대편 포켓몬에게 맞으면 폭발하여 주변의 상대편 포켓몬에게도 데미지를 준다. 강화 공격이 명중하면 유나이트 기술의 게이지가 조금 모인다.",
+          "ja": "わざ、ユナイトわざ、または2回目の通常攻撃を使うと、次の通常攻撃が強化攻撃になり、ほのおを吐き出して相手を攻撃する。ほのおは相手に命中すると爆発し、周囲の相手にもダメージを与える。強化攻撃が命中すると、ユナイトわざのゲージが少し溜まる。",
+          "en": "After using a move, its Unite Move, or a second basic attack, Reshiram's next basic attack becomes a boosted attack that spews flames at an enemy. The flames explode on hit, dealing damage to nearby opposing Pokémon as well. Landing a boosted attack charges the Unite Move gauge slightly."
+        }
+      },
+      "passive": {
+        "name": {
+          "ko": "터보블레이즈",
+          "ja": "ターボブレイズ",
+          "en": "Turboblaze"
+        },
+        "description": {
+          "ko": "작열하는 푸른 불덩이를 발사해 상대편 포켓몬에게 데미지를 주고 남은 실드의 50%를 파괴한다. (쿨타임 20초)",
+          "ja": "灼熱の青いほのおの弾を放ち、相手にダメージを与えるとともに、相手の残りシールドの50%を破壊する。（クールタイム20秒）",
+          "en": "Reshiram launches a blazing blue fireball at a target, dealing damage and removing 50% of remaining shields. (20s cooldown)"
+        }
+      },
+      "moves": [
+        {
+          "id": "dragon_breath",
+          "name": {
+            "ko": "용의숨결",
+            "ja": "りゅうのいぶき",
+            "en": "Dragon Breath"
+          },
+          "category": "active",
+          "cooldown": 6,
+          "unlockedAtLevel": 1,
+          "upgradedAtLevel": null,
+          "description": {
+            "ko": "지정한 방향으로 굉장한 숨결을 내뿜어 상대편 포켓몬에게 데미지를 주고 마비 상태로 만든다.",
+            "ja": "指定した方向にすさまじいいぶきを吐き出し、相手にダメージを与えてまひ状態にする。",
+            "en": "Breathes a powerful gust in the designated direction, dealing damage to opposing Pokémon and leaving them paralyzed."
+          },
+          "upgradeDescription": null
+        },
+        {
+          "id": "tailwind",
+          "name": {
+            "ko": "순풍",
+            "ja": "おいかぜ",
+            "en": "Tailwind"
+          },
+          "category": "active",
+          "cooldown": 4,
+          "unlockedAtLevel": 1,
+          "upgradedAtLevel": null,
+          "description": {
+            "ko": "거세게 부는 바람을 타고 지정한 방향으로 이동한다.",
+            "ja": "激しく吹く風に乗って、指定した方向に移動する。",
+            "en": "Rides a strong gust of wind to dash in the designated direction."
+          },
+          "upgradeDescription": null
+        },
+        {
+          "id": "dragon_dance",
+          "name": {
+            "ko": "용의춤",
+            "ja": "りゅうのまい",
+            "en": "Dragon Dance"
+          },
+          "category": "active",
+          "cooldown": 7.5,
+          "unlockedAtLevel": 5,
+          "upgradedAtLevel": 11,
+          "description": {
+            "ko": "지정한 방향으로 이동하고 실드 효과를 얻는다. 잠시 동안 특수공격이 오른다.",
+            "ja": "指定した方向に移動し、シールド効果を得る。しばらくのあいだ、とくこうが上がる。",
+            "en": "Moves in the designated direction and gains a shield. For a short time, this Pokémon's Sp. Atk is increased."
+          },
+          "upgradeDescription": {
+            "ko": "업그레이드 후에는 특수공격이 추가로 오른다.",
+            "ja": "アップグレード後は、とくこうがさらに上がる。",
+            "en": "After the upgrade, the Sp. Atk increase is even greater."
+          }
+        },
+        {
+          "id": "blue_flare",
+          "name": {
+            "ko": "푸른불꽃",
+            "ja": "あおいほのお",
+            "en": "Blue Flare"
+          },
+          "category": "active",
+          "cooldown": 8,
+          "unlockedAtLevel": 7,
+          "upgradedAtLevel": 13,
+          "description": {
+            "ko": "지정한 방향으로 푸른 불꽃을 내뿜어 상대를 둘러싸서 공격한다. 범위 안에 있는 상대편 포켓몬에게 데미지를 주고 잠시 동안 이동 속도와 공격 속도를 떨어뜨린다. 또한 푸른 불꽃에 둘러싸인 상대편 포켓몬은 잠시 동안 지속 데미지를 받는다.",
+            "ja": "指定した方向に青いほのおを吐き出し、相手を取り囲んで攻撃する。範囲内の相手にダメージを与え、しばらくのあいだ移動速度と攻撃速度を下げる。また、青いほのおに取り囲まれた相手は、しばらくのあいだ継続ダメージを受ける。",
+            "en": "Spews blue flames in the designated direction, surrounding opposing Pokémon. Deals damage to opposing Pokémon in the area of effect and decreases their movement speed and basic attack speed for a short time. Opposing Pokémon surrounded by the blue flames also take damage over time for a short while."
+          },
+          "upgradeDescription": {
+            "ko": "업그레이드 후에는 이동 속도와 공격 속도를 떨어뜨리는 효과가 강해진다.",
+            "ja": "アップグレード後は、移動速度と攻撃速度を下げる効果が強くなる。",
+            "en": "After the upgrade, the movement speed and basic attack speed reduction becomes stronger."
+          }
+        }
+      ],
+      "uniteMove": {
+        "id": "flames_that_brings_lightning",
+        "name": {
+          "ko": "열화초뢰",
+          "ja": "烈火超雷",
+          "en": "Flames That Brings Lightning"
+        },
+        "cooldown": 0,
+        "unlockedAtLevel": 9,
+        "description": {
+          "ko": "지정한 방향으로 거대한 불꽃을 내리쳐 상대편 포켓몬에게 데미지를 준다. 2회 발동한 뒤, 다음 1번은 더 강력한 불꽃으로 공격하여 범위 안에 있는 상대편 포켓몬에게 데미지를 주고 행동 불가로 만들며, 그 뒤 장외에서 제크로무가 지원하러 와서 상대편 포켓몬을 공격한다. 기술은 최대 3번까지 충전할 수 있다.",
+          "ja": "指定した方向に巨大なほのおを叩きつけ、相手にダメージを与える。2回発動したあと、次の1回はより強力なほのおで攻撃し、範囲内の相手にダメージを与えて行動不能にする。そのあと、場外からゼクロムが応援に駆けつけ、相手を攻撃する。このわざは最大3回までチャージできる。",
+          "en": "Strikes down a massive flame in the designated direction, dealing damage to opposing Pokémon. After being used twice, the next use attacks with an even more powerful flame that damages opposing Pokémon in the area of effect and renders them unable to act, after which Zekrom arrives from off the field to support Reshiram and attack opposing Pokémon. This move can be charged up to 3 times."
+        }
+      },
+      "passiveCondition": {
+        "type": "not-applicable",
+        "reason": "터보블레이즈: 20초 쿨다운 푸른 파이어볼(남은 실드 50% 파괴) — 주기형 딜 패시브, DPS 반영 방식 수동 확인 필요",
+        "isNew": true
+      }
+    }
   }
 ]

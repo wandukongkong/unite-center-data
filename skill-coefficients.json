@@ -7580,5 +7580,57 @@
         }
       ]
     }
+  },
+  "150": {
+    "_name": "레시라무 (Reshiram)",
+    "B": {
+      "ratio": "54",
+      "base": "220",
+      "slider": "0"
+    },
+    "X": {
+      "ratio": "81",
+      "base": "330",
+      "slider": "0"
+    },
+    "P": {
+      "ratio": "54",
+      "base": "220",
+      "slider": "0"
+    },
+    "R": {
+      "ratio": "40",
+      "base": "500",
+      "slider": "0"
+    },
+    "R2": {
+      "ratio": "110",
+      "base": "700",
+      "slider": "0",
+      "addons": [
+        {
+          "ratio": "11",
+          "base": "70",
+          "slider": "0"
+        }
+      ]
+    },
+    "ZR2": {
+      "ratio": "80",
+      "base": "300",
+      "slider": "0"
+    },
+    "U": {
+      "ratio": "100",
+      "base": "500",
+      "slider": "0",
+      "addons": [
+        {
+          "ratio": "60",
+          "base": "300",
+          "slider": "0"
+        }
+      ]
+    }
   }
 }
