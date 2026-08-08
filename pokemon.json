@@ -15097,8 +15097,9 @@
         "intervalMs": 30000,
         "activeDurationMs": 10000,
         "dmgBonusPct": 30,
-        "reason": "하드론엔진: 일렉트릭필드 위 무브딜 +30%(무브 한정·약 33% 업타임 근사, 기본공격엔 미적용분 과대 주의)",
-        "isNew": true
+        "reason": "하드론엔진: 일렉트릭필드 위 무브(스킬·유나이트)딜 +30%. 기본공격 제외(moveOnly). 약 33% 업타임 근사",
+        "isNew": true,
+        "moveOnly": true
       }
     },
     "spriteId": 1008
