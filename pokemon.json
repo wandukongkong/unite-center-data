@@ -16630,10 +16630,9 @@
         }
       },
       "passiveCondition": {
-        "type": "stack-permanent",
-        "dmgBonusPctPerStack": 8,
-        "maxStacks": 6,
-        "reason": "트리플악셀 히트당 +8% 딜(자동공격+트리플악셀), 최대 6스택(+48%). 빌드 종속(트리플악셀 채택 시). 여왕의위엄 재사용 메커닉은 passiveCondition 미표현",
+        "type": "skill-enhance-stack",
+        "triggerCount": 3,
+        "reason": "여왕의위엄: 강화공격/기술 3스택→기술 1회 강화 계수로 재사용. 강화분은 empowerOnly 애드온으로 분리, 발동 시에만 가산",
         "isNew": true
       }
     },
