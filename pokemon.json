@@ -144,7 +144,8 @@
           "ko": "【메가진화 후】기술을 상대편 포켓몬에게 명중시키면 공격이 오른다. 이 효과는 10번까지 중첩할 수 있다.",
           "ja": "【メガシンカ後】わざを相手のポケモンに命中させると、こうげきが上がる。この効果は10回まで重ねることができる。",
           "en": "[After Mega Evolution] When a move hits an opposing Pokémon, Attack increases. This effect can stack up to 10 times."
-        }
+        },
+        "trigger": "mega"
       },
       "passiveCondition": {
         "type": "not-applicable",
@@ -3741,7 +3742,8 @@
           "ko": "【메가진화 후】기술을 명중시키면 강화 카운터를 얻는다(최대 3개). 카운터 1개를 소모해 다음 일반 공격을 강화 공격으로 전환하며 반드시 급소에 맞는다. 화상 상태인 적에게 일반 공격을 명중시키면 HP를 회복한다.",
           "ja": "【メガシンカ後】わざを相手に当てると強化カウンターを得る（最大3個）。カウンターを1つ消費して次のノーマルアタックが強化アタックになり、急所に当たる。やけど状態の相手にノーマルアタックを当てるとHPが回復する。",
           "en": "[After Mega Evolution] Landing a move grants an Empowerment Counter (up to 3). Consuming one counter makes the next basic attack an enhanced attack that always lands a critical hit. Basic attacks on burned opponents restore HP."
-        }
+        },
+        "trigger": "mega"
       },
       "passiveCondition": {
         "type": "not-applicable",
@@ -5911,7 +5913,8 @@
           "ko": "【메가진화 후】주변의 햇살이 강해진다. 햇살이 강한 범위 안에 있으면 주는 데미지가 증가한다.",
           "ja": "【メガシンカ後】周囲の日差しが強くなる。日差しが強い範囲内にいると与えるダメージが増加する。",
           "en": "[After Mega Evolution] Intensifies sunlight in the surrounding area. Dealing damage increases while within the area of intense sunlight."
-        }
+        },
+        "trigger": "mega"
       },
       "passiveCondition": {
         "type": "not-applicable",
@@ -6292,8 +6295,8 @@
       "passiveCondition": {
         "type": "always-on",
         "dmgBonusPct": 15,
-        "reason": "프레셔: 평타로 메가게이지 누적→SpAtk 최대 +15%(지속시). 공속 +30%·10s 일시메가(SpAtk+10%/공속+35%)는 미모델(보수적 과소)",
-        "isNew": true
+        "reason": "프레셔: 평타로 메가게이지 누적→SpAtk 최대 +15%(지속 그래디언트). 게이지 12회 만충 시 10s 일시메가는 simConfig.megaGauge로 모델(특공+10%·공속+35%).",
+        "isNew": false
       }
     },
     "attackType": "special",
@@ -6810,7 +6813,7 @@
           "ja": "かたやぶり",
           "en": "Mold Breaker"
         },
-        "trigger": "unite",
+        "trigger": "mega",
         "evolutionLevel": null,
         "description": {
           "ko": "【메가진화 후】상대편 포켓몬의 특성에 영향을 받지 않고 기술을 사용할 수 있다.",
@@ -9366,8 +9369,8 @@
       "passiveCondition": {
         "type": "always-on",
         "dmgBonusPct": 20,
-        "reason": "프레셔: 평타로 메가게이지 누적→공격 최대 +20%(지속시 최대치). 게이지만충 10s 일시메가(추가공격+18%)는 미모델(보수적 과소)",
-        "isNew": true
+        "reason": "프레셔: 평타로 메가게이지 누적→공격 최대 +20%(지속 그래디언트). 게이지 8회 만충 시 10s 일시메가는 simConfig.megaGauge로 모델(공격+18%, 공속 고정).",
+        "isNew": false
       }
     },
     "releasedAt": "2023-07-21"
