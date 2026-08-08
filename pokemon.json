@@ -125,6 +125,13 @@
           "ko": "범위 안에 있는 상대편 포켓몬에게 데미지를 준다. 유나이트 기술을 사용한 뒤 메가진화한다. 메가진화 중에는 이동 속도가 오르고 기술 대기 시간이 짧아지며 실드 효과를 얻는다.",
           "ja": "範囲内にいる相手のポケモンにダメージを与える。ユナイトわざを使用した後、メガシンカする。メガシンカ中は移動速度が上がり、わざのCTが短くなり、シールド効果を得る。",
           "en": "Deals damage to opposing Pokémon in the area. After using this Unite Move, Mega Evolves. While Mega Evolved, movement speed increases, move cooldowns are reduced, and a shield is gained."
+        },
+        "buffs": {
+          "movementSpeedPct": 30,
+          "cdrPct": 30,
+          "shieldPct": 20,
+          "durationMs": 6000,
+          "raw": "30% Movement Speed, 30% CDR, 20% Max HP Shield"
         }
       },
       "passive2": {
@@ -317,6 +324,13 @@
           "ko": "지정한 장소로 거대한 씨앗을 던진다. 씨앗은 분열하여 범위 안에 있는 상대편 포켓몬의 이동 속도를 잠시 동안 떨어뜨리고 데미지를 준다.",
           "ja": "指定した場所に巨大なタネを投げる。タネは分裂して範囲内にいる相手のポケモンの移動速度をしばらく下げてダメージを与える。",
           "en": "Hurls a giant seed at a designated location. The seed splits apart, temporarily reducing the movement speed of and dealing damage to opposing Pokémon in the area of effect."
+        },
+        "buffs": {
+          "movementSpeedPct": 30,
+          "cdrPct": 30,
+          "shieldPct": 20,
+          "durationMs": 6000,
+          "raw": "30% Movement Speed, 30% CDR, 20% Max HP Shield"
         }
       },
       "passiveCondition": {
@@ -499,7 +513,13 @@
           "ja": "ドラメシヤを2匹飛ばして範囲内にいる相手のポケモン2匹にダメージを与える。与えるダメージは相手のポケモンの残りHPが少ないほど増加する。範囲内に相手のポケモンが1匹しかいない場合はそのポケモンにドラメシヤを2匹飛ばしてダメージを与える。技は最大2回まで充電できる。",
           "en": "Launches 2 Dreepy at up to 2 opposing Pokémon in the area of effect, dealing damage that increases the lower the target's remaining HP. If only one opposing Pokémon is in the area, both Dreepy are launched at that Pokémon. Can be charged up to 2 times."
         },
-        "chargeCount": 2
+        "chargeCount": 2,
+        "buffs": {
+          "shieldPct": 10,
+          "movementSpeedPct": 10,
+          "durationMs": 3000,
+          "raw": "10% Max HP Shield, 10% Movement Speed for 3s. The cooldown of Energy Amplifier is increased to 30s, and the cooldown of Buddy Barrier is increased to 60s."
+        }
       },
       "passiveCondition": {
         "type": "not-applicable",
@@ -680,6 +700,12 @@
           "ko": "주변을 어둠으로 가두고 잠시 동안 상대편 포켓몬의 시야를 빼앗는다. 유나이트 기술 사용 후에 다시 유나이트 기술을 사용하면 지정한 방향으로 불꽃 광선을 계속해서 발사하여 상대편 포켓몬에게 데미지를 준다. 불꽃 광선의 방향은 발사하는 동안에도 조정할 수 있다. 불꽃 광선의 마지막 일격은 더욱 큰 데미지를 준다.",
           "ja": "周囲を闇で閉じ込めてしばらくの間、相手のポケモンの視界を奪う。ユナイト技使用後に再びユナイト技を使うと指定した方向に炎の光線を発射し続けて相手のポケモンにダメージを与える。炎の光線の方向は発射中も調整できる。炎の光線の最後の一撃はさらに大きなダメージを与える。",
           "en": "Traps the surrounding area in darkness, briefly reducing the vision of opposing Pokémon. Using the Unite Move again fires a continuous flame beam in the designated direction, dealing damage to opposing Pokémon. The direction of the beam can be adjusted during firing. The final blast of the beam deals greatly increased damage."
+        },
+        "buffs": {
+          "movementSpeedPct": 30,
+          "shieldPct": 40,
+          "durationMs": 6000,
+          "raw": "30% Movement Speed, 40% Max HP Shield"
         }
       },
       "passiveCondition": {
@@ -860,6 +886,13 @@
           "ko": "착지할 장소를 지정하면 하늘 높이 날아올라 여러 개의 운석과 함께 그 장소로 돌격한다. 범위 안에 있는 상대편 포켓몬에게 데미지를 주고 날려버린다. 착지할 장소까지 거리가 멀수록 소비하는 유나이트 기술 게이지가 많아진다. 기술을 사용하는 동안은 방해받지 않게 된다.",
           "ja": "着地する場所を指定すると空高く飛び上がり、複数の隕石とともにその場所に突撃する。範囲内にいる相手のポケモンにダメージを与えてふき飛ばす。着地する場所までの距離が遠いほど消費するユナイト技ゲージが多くなる。技を使っている間はじゃまされなくなる。",
           "en": "Designates a landing spot, launches into the sky, and charges down with several meteors. Deals damage to opposing Pokémon in the area of effect and launches them. The farther the landing spot, the more Unite Move gauge is consumed. The user becomes immune to hindrances while using this move."
+        },
+        "buffs": {
+          "movementSpeedPct": 30,
+          "attackSpeedPct": 35,
+          "shieldPct": 20,
+          "durationMs": 6000,
+          "raw": "30% Movement Speed, 35% Attack Speed, 20% Max HP Shield"
         }
       },
       "passiveCondition": {
@@ -1045,6 +1078,13 @@
           "ko": "이 기술은 자신이 행동 불가일 때도 사용할 수 있으며 사용할 때 자신이 받고 있는 상태 이상을 회복한다. 지정한 방향에 무수히 많은 얼음 가시를 만들어 상대편 포켓몬에게 데미지를 주고 얼음 상태로 만든다. 시간이 지나면 얼음 가시가 부서지며 상대편 포켓몬에게 데미지를 준다.",
           "ja": "この技は自分が行動不能のときでも使用でき、使うときに自分が受けている状態異常を回復する。指定した方向に無数の氷のとげを作って相手のポケモンにダメージを与えてこおり状態にする。時間が経つと氷のとげが砕けて相手のポケモンにダメージを与える。",
           "en": "Can be used even when unable to act, and clears the user's status conditions upon use. Creates countless ice spikes in the designated direction, dealing damage to opposing Pokémon and freezing them. After some time, the ice spikes shatter, dealing additional damage to opposing Pokémon."
+        },
+        "buffs": {
+          "movementSpeedPct": 30,
+          "cdrPct": 30,
+          "shieldPct": 20,
+          "durationMs": 6000,
+          "raw": "30% Movement Speed, 30% CDR, 20% Max HP Shield"
         }
       },
       "passiveCondition": {
@@ -1226,6 +1266,13 @@
           "ko": "파로 자세를 잡고 힘을 모은다. 기합을 최대로 모아 지정한 방향으로 돌격한다. 명중한 상대편 포켓몬에게 데미지를 주면서 밀쳐낸다. 그 뒤 폭발하며 주변에 있는 상대편 포켓몬에게도 데미지를 준다.",
           "ja": "ねぎで構えを取り、力を溜める。きあいを最大まで溜め、指定した方向に突撃する。命中した相手のポケモンにダメージを与えながら押し飛ばす。その後爆発し、周囲にいる相手のポケモンにもダメージを与える。",
           "en": "Readies a stance with the leek and charges up power. When fully charged, dashes in the designated direction. Deals damage to any opposing Pokémon hit, pushing them back. Then explodes to deal damage to all nearby opposing Pokémon."
+        },
+        "buffs": {
+          "movementSpeedPct": 30,
+          "cdrPct": 30,
+          "shieldPct": 20,
+          "durationMs": 6000,
+          "raw": "30% Movement Speed, 30% CDR, 20% Max HP Shield"
         }
       },
       "passiveCondition": {
@@ -1410,6 +1457,12 @@
           "ko": "지정한 상대 팀의 포켓몬을 향해 수많은 돈을 던져 데미지를 준다. 도중에 상대편 포켓몬이 있으면 그 포켓몬에게 명중한다. 공격하는 동안 일정 시간마다 공격이 명중한 상대편 포켓몬의 가까이에 돈이 떨어진다.",
           "ja": "指定した相手チームのポケモンに向かって大量のコインを投げてダメージを与える。途中に相手のポケモンがいると、そのポケモンに命中する。攻撃中、一定時間ごとに攻撃が命中した相手のポケモンの近くにコインが落ちる。",
           "en": "Throws a barrage of coins at the designated opposing Pokémon, dealing damage. If opposing Pokémon are in the way, the coins hit them instead. At set intervals during the attack, coins drop near opposing Pokémon that are hit."
+        },
+        "buffs": {
+          "movementSpeedPct": 80,
+          "shieldPct": 20,
+          "durationMs": 6000,
+          "raw": "80% Movement Speed, 20% Max HP Shield"
         }
       },
       "passiveCondition": {
@@ -1547,6 +1600,13 @@
           "ko": "지정한 범위에 번개를 계속 떨어뜨린다. 번개가 떨어진 장소에는 전류 공간이 만들어진다. 번개가 상대편 포켓몬에게 명중하면 데미지를 주고 마비 상태로 만든다. 번개가 같은 상대편 포켓몬에게 3번 명중하면 그 포켓몬을 행동 불가로 만든다. 또한 번개가 상대 팀의 골 에리어에 5번 명중하면 골을 손상시켜 즉시 1번 같은 편이 골을 넣을 수 있게 만든다.",
           "ja": "指定した範囲に雷を連続して落とす。雷が落ちた場所には電流空間が作られる。雷が相手のポケモンに命中するとダメージを与えてまひ状態にする。雷が同じ相手のポケモンに3回命中するとそのポケモンを行動不能にする。また雷が相手チームのゴールエリアに5回命中するとゴールをダメージ状態にして即座に1回味方がゴールを入れられるようにする。",
           "en": "Continuously drops lightning bolts in the designated area. Where lightning strikes, an electric field is created. Lightning that hits opposing Pokémon deals damage and paralyzes them. If the same opposing Pokémon is struck three times, they are left unable to act. Additionally, if lightning strikes the opposing team's goal zone five times, the goal is damaged, allowing allies to immediately score once."
+        },
+        "buffs": {
+          "movementSpeedPct": 30,
+          "cdrPct": 30,
+          "shieldPct": 20,
+          "durationMs": 6000,
+          "raw": "30% Movement Speed, 30% CDR, 20% Max HP Shield"
         }
       },
       "passiveCondition": {
@@ -1728,6 +1788,12 @@
           "ko": "높이 뛰어오른 뒤 착지와 동시에 물에 잠수하여 물줄기를 발생시키고 상대편 포켓몬을 끌어온다. 그 뒤 물속에서 뛰어올라 착지한 순간 주변의 상대편 포켓몬에게 데미지를 주고 날려버린다.",
           "ja": "高くジャンプした後、着地と同時に水に潜って水流を発生させ、相手のポケモンを引き寄せる。その後水中から飛び上がり、着地した瞬間に周囲の相手のポケモンにダメージを与えて吹き飛ばす。",
           "en": "Leaps high into the air, then dives into water upon landing, generating a current that pulls in opposing Pokémon. Then launches back out of the water and, upon landing, deals damage and launches all nearby opposing Pokémon."
+        },
+        "buffs": {
+          "movementSpeedPct": 30,
+          "shieldPct": 40,
+          "durationMs": 6000,
+          "raw": "30% Movement Speed, 40% Max HP Shield"
         }
       },
       "passiveCondition": {
@@ -1865,6 +1931,13 @@
           "ko": "하늘 높이 날아 지정한 범위에 커다란 불구슬을 쏘며 상대편 포켓몬에게 데미지를 주고 화염 카운터를 최대로 부여한다. 이 기술을 사용한 뒤 골을 넣을 수 있는 상대편 골 에리어 주변의 시야를 확인할 수 있게 된다.",
           "ja": "高く空を舞い、指定した範囲に大きな火の玉を放ち、相手のポケモンにダメージを与え、炎カウンターを最大まで付与する。このわざを使用した後、ゴールを入れることができる相手チームのゴールエリア周辺の視界を確認できるようになる。",
           "en": "Soars high into the sky and fires a massive fireball at the designated area, dealing damage to opposing Pokemon and granting them maximum Flame Counters. After using this move, the user gains vision around the opposing team's goal areas where goals can be scored."
+        },
+        "buffs": {
+          "movementSpeedPct": 30,
+          "cdrPct": 30,
+          "shieldPct": 20,
+          "durationMs": 6000,
+          "raw": "30% Movement Speed, 30% CDR, 20% Max HP Shield"
         }
       },
       "passiveCondition": {
@@ -2045,6 +2118,13 @@
           "ko": "배를 둥둥 두드려 실드 효과를 얻는다. 총 3번 두드려 두드릴 때마다 HP를 잃지만 공격이 오른다. 두드리는 동안에도 이동할 수 있다. 그 뒤 상대편 포켓몬을 조준한다. 조준한 상대편 포켓몬이 있는 방향으로 돌진하여 돌진 중에 맞은 상대편 포켓몬 모두에게 데미지를 주고 날려버린다.",
           "ja": "お腹をドンドン叩いてシールド効果を得る。合計3回叩き、叩くたびにHPを失うが攻撃が上がる。叩いている最中でも移動できる。その後相手のポケモンを照準する。照準した相手のポケモンがいる方向に突撃し、突撃中に当たった相手のポケモン全てにダメージを与えて吹き飛ばす。",
           "en": "Pounds its belly three times, gaining a shield each time but losing HP. Attack increases with each pound. The user can move while pounding. Afterward, locks onto a target and charges toward it, dealing damage and launching all opposing Pokémon hit during the charge."
+        },
+        "buffs": {
+          "movementSpeedPct": 30,
+          "cdrPct": 30,
+          "shieldPct": 20,
+          "durationMs": 6000,
+          "raw": "30% Movement Speed, 30% CDR, 20% Max HP Shield"
         }
       },
       "passiveCondition": {
@@ -2225,6 +2305,14 @@
           "ko": "번개를 쏘아 공격하여 범위 안에 있는 상대편 포켓몬에게 데미지를 주고 날려버린다. 동시에 플라스마 존을 만들고 그 안에 있는 상대편 포켓몬을 마비 상태로 만든다. 제라오라 자신이 플라스마 존 안에 있는 동안에는 일반 공격의 거리가 길어지고 주는 데미지도 증가한다.",
           "ja": "雷を放って攻撃し、範囲内にいる相手のポケモンにダメージを与えて吹き飛ばす。同時にプラズマゾーンを作り、その中にいる相手のポケモンをまひ状態にする。ゼラオラ自身がプラズマゾーン内にいるあいだはノーマルアタックの射程が伸び、与えるダメージも増加する。",
           "en": "Fires a bolt of lightning, dealing damage and launching opposing Pokémon in range. Simultaneously creates a plasma zone that paralyzes opposing Pokémon within it. While Zeraora is inside the plasma zone, its basic attack range is extended and its damage dealt increases."
+        },
+        "buffs": {
+          "movementSpeedPct": 30,
+          "attackSpeedPct": 20,
+          "cdrPct": 15,
+          "shieldPct": 20,
+          "durationMs": 6000,
+          "raw": "30% Movement Speed, 20% Attack Speed, 15% CDR, 20% Max HP Shield"
         }
       },
       "passiveCondition": {
@@ -2405,6 +2493,13 @@
           "ko": "차가운 눈과 얼음으로 주변 넓은 범위의 상대편 포켓몬을 공격한다. 기술이 명중했을 때 범위 안에 있는 상대편 포켓몬에게 데미지를 준다. 상대편 포켓몬이 얼음 상태가 되어 있다면 주는 데미지가 증가한다.",
           "ja": "冷たい雪と氷で周囲の広い範囲にいる相手のポケモンを攻撃する。わざが命中したとき、範囲内の相手のポケモンにダメージを与える。相手のポケモンがこおり状態になっていれば与えるダメージが増加する。",
           "en": "Attacks nearby opposing Pokemon in a wide area with cold snow and ice. Deals damage to opposing Pokemon in the area on hit. If opposing Pokemon are frozen, the damage dealt is increased."
+        },
+        "buffs": {
+          "movementSpeedPct": 30,
+          "cdrPct": 30,
+          "shieldPct": 20,
+          "durationMs": 6000,
+          "raw": "30% Movement Speed, 30% CDR, 20% Max HP Shield"
         }
       },
       "passiveCondition": {
@@ -2586,6 +2681,12 @@
           "ko": "잠들어 코를 곤다. 범위 안에 있는 상대편 포켓몬에게 반복해서 데미지를 주고 날려버린다. 동시에 자신의 HP를 지속해서 회복한다. 또한 잠들어 있는 동안은 방해받지 않게 된다.",
           "ja": "眠って鼻をいびきをかく。範囲内の相手のポケモンに繰り返しダメージを与え、打ち上げる。同時に自分のHPを継続して回復する。また、眠っている間は妨害を受けなくなる。",
           "en": "Falls asleep and snores loudly. Repeatedly deals damage to and launches opposing Pokemon in the area. Simultaneously restores the user's HP continuously. While asleep, the user cannot be hindered."
+        },
+        "buffs": {
+          "movementSpeedPct": 30,
+          "shieldPct": 40,
+          "durationMs": 6000,
+          "raw": "30% Movement Speed, 40% Max HP Shield"
         }
       },
       "passiveCondition": {
@@ -2780,6 +2881,13 @@
           "ko": "범위 안에 있는 상대편 포켓몬을 사이코 파워로 날려버려 공중에 띄우고 시간차로 폭발을 일으킨다. 이에 따라 범위 안에 있는 상대편 포켓몬에게 데미지를 주고 밀쳐낸다.",
           "ja": "範囲内にいる相手のポケモンをサイコパワーで打ち上げ、時間差で爆発を起こす。これにより範囲内の相手のポケモンにダメージを与えふきとばす。",
           "en": "Launches opposing Pokemon in the area into the air with psychic power and causes a delayed explosion. This deals damage to opposing Pokemon in the area and knocks them back."
+        },
+        "buffs": {
+          "movementSpeedPct": 30,
+          "cdrPct": 30,
+          "shieldPct": 20,
+          "durationMs": 6000,
+          "raw": "30% Movement Speed, 30% CDR, 20% Max HP Shield"
         }
       },
       "passiveCondition": {
@@ -2985,6 +3093,12 @@
           "ko": "암흑의 충격파를 3번 발생시켜 데미지를 준다. 충격파는 1번마다 범위가 커진다. 충격파를 발생시키는 동안에는 방해받지 않는다.",
           "ja": "暗黒の衝撃波を3回発生させてダメージを与える。衝撃波は1回ごとに範囲が大きくなる。衝撃波を発生させている間は妨害を受けない。",
           "en": "Generates dark shockwaves 3 times, dealing damage. Each shockwave expands in area. The user cannot be hindered while generating the shockwaves."
+        },
+        "buffs": {
+          "movementSpeedPct": 80,
+          "shieldPct": 20,
+          "durationMs": 6000,
+          "raw": "80% Movement Speed, 20% Max HP Shield"
         }
       },
       "passiveCondition": {
@@ -3166,6 +3280,13 @@
           "ko": "손가락을 흔들어 범위 안에 있는 같은 편 포켓몬을 줄어든 HP에 따라 회복한다. 그 뒤 랜덤하게 기술을 획득하고 일정 시간 동안 다시 기술을 사용하면 랜덤으로 획득한 기술을 사용할 수 있다. 기술의 종류에 따라 획득하고 바로 기술이 발동되는 경우가 있다.",
           "ja": "指を振って範囲内の味方のポケモンを減ったHPに応じて回復する。その後ランダムでわざを獲得し、一定時間後に再びわざを使用するとランダムで獲得したわざを使用できる。わざの種類によっては獲得してすぐにわざが発動する場合がある。",
           "en": "Waves a finger to restore HP of allied Pokemon in the area based on the amount of HP lost. Then randomly obtains a move, which can be used when the move button is pressed again within a certain time. Depending on the move obtained, it may activate immediately upon acquisition."
+        },
+        "buffs": {
+          "movementSpeedPct": 30,
+          "cdrPct": 30,
+          "shieldPct": 20,
+          "durationMs": 6000,
+          "raw": "30% Movement Speed, 30% CDR, 20% Max HP Shield"
         }
       },
       "unboundFormMoves": [
@@ -3454,6 +3575,12 @@
           "ko": "회전하면서 물을 뿜어내어 공격하고 넓은 범위에 걸쳐 상대편 포켓몬을 날려버린다. 이때 자신은 실드 효과를 얻는다.",
           "ja": "回転しながら水を吹き出して攻撃し、広い範囲にわたって相手のポケモンを打ち上げる。このとき自分はシールド効果を得る。",
           "en": "Spins while blasting water to attack and launches opposing Pokemon across a wide area. The user gains a shield when using this move."
+        },
+        "buffs": {
+          "movementSpeedPct": 30,
+          "shieldPct": 40,
+          "durationMs": 6000,
+          "raw": "30% Movement Speed, 40% Max HP Shield"
         }
       },
       "passiveCondition": {
@@ -3592,6 +3719,11 @@
           "ko": "상대 포켓몬을 붙잡아 공중에서 지면으로 내던진다. 사용 후 메가진화한 모습이 되어 20초 동안 이동 속도가 크게 오르고 실드 효과를 얻는다.",
           "ja": "相手ポケモンをつかんで空中から地面に叩きつける。使用後はメガシンカした姿になり、20秒間移動速度が大幅に上がり、シールド効果を得る。",
           "en": "Grabs an opposing Pokémon and slams it from the air to the ground. After use, Mega Evolves for 20 seconds, greatly increasing movement speed and gaining a shield."
+        },
+        "buffs": {
+          "shieldPct": 20,
+          "durationMs": 6000,
+          "raw": "20% Max HP Shield"
         }
       },
       "passive2": {
@@ -3787,6 +3919,13 @@
           "ko": "양손의 검으로 자세를 잡고 지정한 방향을 눈 깜짝할 사이에 베어낸다. 명중한 상대를 행동 불가로 만든 뒤 참격을 3번 날린다. 시전 시 0.5초 동안 받는 데미지가 70% 감소한다. 사용 후 이동 속도 30% 증가, 대기 시간 30% 감소, 최대 HP의 20% 실드를 얻는다.",
           "ja": "両手の剣で構えて指定した方向を瞬く間に斬りつける。命中した相手を行動不能にした後、斬撃を3回放つ。使用時0.5秒間受けるダメージが70%減少する。使用後は移動速度30%増加、CT30%減少、最大HPの20%のシールドを得る。",
           "en": "Takes a stance with both blades and slashes the designated direction in an instant. Immobilizes opponents hit, then unleashes 3 slashing attacks. Reduces damage taken by 70% for 0.5 seconds during use. After use, gains 30% movement speed, 30% reduced cooldowns, and a shield equal to 20% of max HP."
+        },
+        "buffs": {
+          "movementSpeedPct": 30,
+          "cdrPct": 30,
+          "shieldPct": 20,
+          "durationMs": 6000,
+          "raw": "30% Movement Speed, 30% CDR, 20% Max HP Shield"
         }
       },
       "passiveCondition": {
@@ -3969,6 +4108,13 @@
           "ko": "지정한 장소로 거대한 물수리검을 던져 공격한다. 명중 시 범위 안 상대에게 데미지를 주고 이동 속도를 잠시 떨어뜨린다. 이후 폭발하여 다시 한번 범위 안 상대에게 데미지를 주고 날려버린다. 기술 종료 시 지정한 방향으로 점프할 수 있다.",
           "ja": "指定した場所に巨大なみずしゅりけんを投げて攻撃する。命中時に範囲内の相手にダメージを与え移動速度をしばらく下げる。その後爆発して再び範囲内の相手にダメージを与え吹き飛ばす。わざ終了時に指定した方向へジャンプできる。",
           "en": "Throws an enormous water shuriken at a designated location. When it hits, deals damage to opponents in the area and temporarily slows them. Then it explodes, dealing damage again and launching opponents. At the end of the move, can jump in a designated direction."
+        },
+        "buffs": {
+          "movementSpeedPct": 30,
+          "attackSpeedPct": 35,
+          "shieldPct": 20,
+          "durationMs": 6000,
+          "raw": "30% Movement Speed, 35% Attack Speed, 20% Max HP Shield"
         }
       },
       "passiveCondition": {
@@ -4150,6 +4296,13 @@
           "ko": "자신의 주변에 이상한 염력파를 3번 발생시켜 데미지를 주고 상대가 주는 데미지를 3초 동안 30% 감소시킨다. 사용 후 두통 게이지가 50% 증가한다. 사용 중 이동할 수 있으며 기술 종료 후 이상한 힘 발동이 대부분 즉시 이루어진다.",
           "ja": "自分の周囲にふしぎなサイキック波を3回発生させてダメージを与え、相手の与えるダメージを3秒間30%減少させる。使用後は頭痛ゲージが50%増加する。使用中は移動でき、わざ終了後にほぼ即座にふしぎなちからが発動することが多い。",
           "en": "Generates 3 psychic waves around itself, dealing damage and reducing damage dealt by opponents by 30% for 3 seconds. After use, the Headache Gauge increases by 50%. Can move during use, and Wonder Power often activates immediately after the move ends."
+        },
+        "buffs": {
+          "movementSpeedPct": 30,
+          "cdrPct": 30,
+          "shieldPct": 20,
+          "durationMs": 6000,
+          "raw": "30% Movement Speed, 30% CDR, 20% Max HP Shield"
         }
       },
       "passiveCondition": {
@@ -4287,6 +4440,12 @@
           "ko": "자신을 중심으로 강하고 거세게 부는 눈보라를 발생시켜 상대에게 데미지를 준다. 눈보라가 진행될수록 데미지가 증가한다. 아군 골 에리어에 명중 시 에리어가 얼어붙어 상대가 골을 넣을 수 없게 된다. 얼음은 상대 포켓몬이 일정 데미지를 주면 부서진다. 사용 후 이동 속도 30% 증가, 최대 HP의 40% 실드를 얻는다.",
           "ja": "自分を中心に強く激しい吹雪を発生させて相手にダメージを与える。吹雪が続くほどダメージが増加する。味方のゴールエリアに命中するとエリアが凍り付き相手がゴールを決められなくなる。氷は相手ポケモンが一定ダメージを与えると砕ける。使用後は移動速度30%増加、最大HPの40%のシールドを得る。",
           "en": "Generates an intense blizzard centered on itself, dealing damage to opponents. Damage increases with each successive hit. If it hits an allied goal area, that area freezes and prevents opponents from scoring. The ice breaks after taking a certain amount of damage from opponents. After use, gains 30% movement speed and a shield equal to 40% of max HP."
+        },
+        "buffs": {
+          "movementSpeedPct": 30,
+          "shieldPct": 40,
+          "durationMs": 6000,
+          "raw": "30% Movement Speed, 40% Max HP Shield"
         }
       },
       "passiveCondition": {
@@ -4426,6 +4585,13 @@
           "ko": "활활 타오르는 털을 문질러 폭풍을 일으켜 주변 상대에게 데미지를 주고 밀쳐낸다. 이후 주변을 작열하는 불꽃으로 태워 지속 데미지를 주고, 피어오르는 아지랑이로 모습을 숨겨 불꽃 범위 밖의 상대에게 조준당하지 않는다. 시전 시 방해 무효 상태가 된다. 사용 후 분노 볼티지가 최대가 되어 격앙 상태가 발동한다.",
           "ja": "炎々と燃え盛る毛を擦り合わせて嵐を起こし周囲の相手にダメージを与えて吹き飛ばす。その後周囲を灼熱の炎で焼き継続ダメージを与え、立ち上るかげろうで姿を隠し炎の範囲外のポケモンに狙われなくなる。使用時に行動妨害無効状態になる。使用後は分怒ボルテージが最大になり激怒状態が発動する。",
           "en": "Rubs its blazing fur together to create a tempest, dealing damage to nearby opponents and launching them. Then scorches the area with intense flames for continuous damage, and hides within the rising heat haze to become untargetable by opponents outside the flame range. Becomes CC-immune during use. Rage Voltage is maximized after use, triggering the Enraged state."
+        },
+        "buffs": {
+          "movementSpeedPct": 30,
+          "cdrPct": 30,
+          "shieldPct": 20,
+          "durationMs": 6000,
+          "raw": "30% Movement Speed, 30% CDR, 20% Max HP Shield"
         }
       },
       "passiveCondition": {
@@ -4612,6 +4778,13 @@
           "ko": "지정한 장소의 공간을 뒤틀어 상대를 끌어들이고 지속 데미지를 준다. 뒤틀린 공간이 사라지는 순간 데미지를 주고 밀쳐낸다. 갇힌 상대는 기술과 배틀 아이템을 사용할 수 없다.",
           "ja": "指定した場所の空間をゆがめて相手ポケモンを引き込み、継続ダメージを与える。ゆがんだ空間が消える瞬間にダメージを与え、はじき飛ばす。閉じ込められた相手は技とバトルアイテムを使用できない。",
           "en": "Warps the space at the designated location, pulling in opposing Pokémon and dealing continuous damage. When the warped space vanishes, deals damage and throws opposing Pokémon. Opposing Pokémon caught inside cannot use moves or Battle Items."
+        },
+        "buffs": {
+          "movementSpeedPct": 30,
+          "cdrPct": 30,
+          "shieldPct": 20,
+          "durationMs": 6000,
+          "raw": "30% Movement Speed, 30% CDR, 20% Max HP Shield"
         }
       },
       "passiveCondition": {
@@ -4793,6 +4966,13 @@
           "ko": "불꽃으로 거대한 공을 만들어 지정한 장소로 슛해 공격한다. 충격파가 범위 내 상대에게 데미지를 준다. 명중 시 이동 속도가 잠시 오른다. 상대의 잃은 HP에 비례한 추가 데미지를 준다.",
           "ja": "炎で巨大なボールを作り、指定した場所へシュートして攻撃する。衝撃波が範囲内の相手ポケモンにダメージを与える。命中時、少しの間、移動速度が上がる。相手の失ったHPに応じて追加ダメージを与える。",
           "en": "Creates a massive ball of fire and shoots it to the designated location, releasing a shockwave that deals damage to nearby opposing Pokémon. Temporarily increases Cinderace's movement speed when it hits. Deals bonus damage based on the opposing Pokémon's lost HP."
+        },
+        "buffs": {
+          "movementSpeedPct": 30,
+          "attackSpeedPct": 35,
+          "shieldPct": 20,
+          "durationMs": 6000,
+          "raw": "30% Movement Speed, 35% Attack Speed, 20% Max HP Shield"
         }
       },
       "passiveCondition": {
@@ -4974,6 +5154,13 @@
           "ko": "지정한 상대를 조준하고 힘을 충전한 뒤 파동을 발사해 데미지를 준다. 사용 후 모든 기술 대기 시간이 0초가 되고 잠시 동안 기술 대기 시간이 크게 짧아진다. 같은 팀 라티아스가 동시에 같은 대상을 조준 중이라면 파동이 겹쳐 폭발하고 주변에도 데미지를 준다.",
           "ja": "指定した相手チームのポケモンを狙い、力を充電した後に波動を放ってダメージを与える。使用後すべての技のまちじかんが0秒になり、少しの間、技のまちじかんが大幅に短くなる。同じチームのラティアスが同時に同じ対象を狙っている場合、波動が重なって爆発し、周囲にもダメージを与える。",
           "en": "Locks onto the designated opposing Pokémon, charges up, then fires a pulse dealing damage. After use, all move cooldowns reset to 0 and are greatly reduced for a short time. If allied Latias is simultaneously targeting the same Pokémon, the pulses overlap and explode, dealing damage to nearby Pokémon."
+        },
+        "buffs": {
+          "movementSpeedPct": 30,
+          "cdrPct": 30,
+          "shieldPct": 20,
+          "durationMs": 6000,
+          "raw": "30% Movement Speed, 30% CDR, 20% Max HP Shield"
         }
       },
       "passiveCondition": {
@@ -5155,6 +5342,12 @@
           "ko": "앞으로 돌진하며 강력한 연속 공격을 사용한다. 마지막 공격은 상대를 공중에 띄우며, 이후 잠시 자신이 행동할 수 없게 된다. 시전 중 방해 무효이며 받는 데미지가 감소한다.",
           "ja": "前に突進しながら強力な連続攻撃を使う。最後の攻撃は相手を宙に浮かせるが、その後少しの間自分が行動できなくなる。使用中はひるまず、受けるダメージが減少する。",
           "en": "Charges forward while unleashing a powerful chain of attacks. The final hit launches opposing Pokémon into the air, but Garchomp then becomes unable to act for a short time. Garchomp is not hindered and takes reduced damage during this move."
+        },
+        "buffs": {
+          "movementSpeedPct": 30,
+          "shieldPct": 30,
+          "durationMs": 6000,
+          "raw": "30% Movement Speed, 30% Max HP Shield"
         }
       },
       "passiveCondition": {
@@ -5336,6 +5529,12 @@
           "ko": "찌로꼬치 등을 계속해서 붙잡아 가장 가까운 상대에게 토해 내어 연속으로 공격한다. 사용 중에는 이동하거나 다른 기술을 사용할 수 없다. HP 50% 이상이면 찌로꼬치, 50% 미만이면 피카츄를 발사한다.",
           "ja": "チョボマキなどをつかみ続け、最も近い相手ポケモンに吐き出して連続攻撃する。使用中は移動や他の技の使用ができない。HP50%以上なら「チョボマキ」、50%未満なら「ピカチュウ」を発射する。",
           "en": "Continuously catches and spits prey at the nearest opposing Pokémon in a rapid barrage. Cramorant cannot move or use other moves while active. Fires Arrokuda when HP is above 50% and Pikachu when HP is below 50%."
+        },
+        "buffs": {
+          "shieldPct": 30,
+          "movementSpeedPct": 30,
+          "durationMs": 6000,
+          "raw": "30% Max HP Shield granted at the start of the Move, 30% Movement Speed granted at the end of the turret"
         }
       },
       "passiveCondition": {
@@ -5519,6 +5718,13 @@
           "ko": "유나이트 기술 버튼을 누르는 동안 잠수해 상대 공격을 피한다. 버튼에서 손을 떼면 뛰어올라 공격한다. 짧게 잠수하면 단순 공격, 일정 시간 잠수하면 착지 지점에 바다회오리가 생겨 지속 감속을 준다. 더 오래 잠수하면 착지 시 상대를 날려버리는 회오리를 만든다.",
           "ja": "ユナイト技ボタンを押している間、潜水して相手の攻撃を避ける。ボタンから手を離すと飛び上がって攻撃する。短時間潜水すると単純攻撃、一定時間潜水すると着地点にうずしおが発生し継続的に移動速度を下げる。さらに長く潜水すると着地時に相手ポケモンを吹き飛ばす渦を作る。",
           "en": "While holding the Unite Move button, Gyarados dives underwater and becomes untargetable. Upon release, leaps up to attack. A short dive results in a simple attack. Diving for at least a set time creates a whirlpool at the landing point that continuously slows opposing Pokémon. Diving even longer creates a tornado upon landing that launches opposing Pokémon."
+        },
+        "buffs": {
+          "movementSpeedPct": 30,
+          "cdrPct": 30,
+          "shieldPct": 20,
+          "durationMs": 6000,
+          "raw": "30% Movement Speed, 30% CDR, 20% Max HP Shield"
         }
       },
       "passiveCondition": {
@@ -5670,6 +5876,12 @@
           "ko": "상대 팀의 포켓몬을 붙잡아 공중에서 지면으로 내던진다. 그 뒤 메가진화하고 일정 시간 동안 장애물을 무시하고 이동할 수 있다. 메가진화한 동안은 기술과 일반 공격이 강화된다. 메가진화한 동안의 일반 공격은 상대편 포켓몬을 화상 상태로 만들고 상대에게 명중하면 HP를 회복한다.",
           "ja": "相手チームのポケモンを掴み、空中から地面に投げ落とす。その後メガシンカし、一定時間障害物を無視して移動できる。メガシンカ中はわざと通常攻撃が強化される。メガシンカ中の通常攻撃は相手のポケモンを「やけど」状態にし、相手に命中するとHPを回復する。",
           "en": "Grabs an opposing Pokemon and slams it into the ground from the air. The user then Mega Evolves and can move through obstacles for a set amount of time. While Mega Evolved, moves and basic attacks are powered up. Basic attacks while Mega Evolved burn opposing Pokemon and restore HP when they hit."
+        },
+        "buffs": {
+          "movementSpeedPct": 10,
+          "shieldPct": 10,
+          "durationMs": 6000,
+          "raw": "10% Movement Speed, 10% Max HP Shield"
         }
       },
       "passive2": {
@@ -5863,6 +6075,13 @@
           "ko": "상대편 포켓몬에게 달려들어 누더기 안에 가두고 지속 데미지를 주며 자신은 실드 효과를 얻는다. 갇힌 상대편 포켓몬은 자신 이외의 포켓몬의 기술의 영향을 받지 않는다. 실드 효과가 없어지거나 일정 시간이 지나면 공격을 멈추고 지정한 방향으로 점프한다.",
           "ja": "相手のポケモンに飛びかかり、ぬいぐるみの中に閉じ込めて継続ダメージを与え、自分はシールド効果を得る。閉じ込められた相手のポケモンは自分以外のポケモンの技の影響を受けない。シールド効果がなくなるか一定時間が経過すると攻撃をやめ、指定した方向にジャンプする。",
           "en": "Lunges at an opposing Pokemon, trapping it inside Mimikyu's costume and dealing continuous damage while granting Mimikyu a shield. The trapped Pokemon is unaffected by moves from Pokemon other than Mimikyu. When the shield is destroyed or time runs out, the attack ends and Mimikyu jumps in the specified direction."
+        },
+        "buffs": {
+          "movementSpeedPct": 30,
+          "cdrPct": 30,
+          "shieldPct": 20,
+          "durationMs": 6000,
+          "raw": "30% Movement Speed, 30% CDR, 20% Max HP Shield"
         }
       },
       "passiveCondition": {
@@ -6044,6 +6263,13 @@
           "ko": "주변에 강력한 사이코 에너지를 방출하여 범위 안의 상대편 포켓몬에게 지속적으로 데미지를 주고 이동 속도를 떨어뜨린다. 유나이트 기술을 사용하는 동안 받는 데미지가 감소한다.",
           "ja": "周囲に強力なサイコエネルギーを放出し、範囲内の相手のポケモンに継続的にダメージを与え移動速度を下げる。ユナイトわざを使用している間、受けるダメージが減少する。",
           "en": "Releases powerful psychic energy in the surrounding area, continuously dealing damage to opposing Pokemon in range and decreasing their movement speed. While using this Unite Move, damage received is reduced."
+        },
+        "buffs": {
+          "movementSpeedPct": 30,
+          "cdrPct": 30,
+          "shieldPct": 20,
+          "durationMs": 6000,
+          "raw": "30% Movement Speed, 30% CDR, 20% Max HP Shield"
         }
       },
       "passiveCondition": {
@@ -6201,6 +6427,13 @@
           "ko": "지정한 상대 팀의 포켓몬에게 대시하여 펀치를 날리고 이동 속도를 떨어뜨린다. 마지막 펀치가 끝나는 것과 동시에 그림자분신을 5개 만들어 주변으로 대시시키고 데미지를 준다. 잠시 동안 기술을 다시 사용할 수 있으며, 다시 사용하면 지정한 방향으로 대시하고 데미지를 준다. 대시가 상대 팀의 포켓몬에게 명중하면 상대 팀의 포켓몬을 잡은 채로 대시를 계속하며, 그림자분신에 맞으면 행동할 수 없게 만든다.",
           "ja": "指定した相手チームのポケモンにダッシュしてパンチを繰り出し移動速度を下げる。最後のパンチが終わると同時に影分身を5体作り周囲にダッシュさせてダメージを与える。しばらくの間わざを再び使用でき、再び使用すると指定した方向にダッシュしてダメージを与える。ダッシュが相手チームのポケモンに命中すると相手チームのポケモンを掴んだままダッシュを続け、影分身に当たると行動できない状態にする。",
           "en": "Dashes at a designated opposing Pokemon and delivers a series of punches, decreasing its movement speed. At the end of the last punch, creates 5 shadow clones that dash outward and deal damage. The move can be used again briefly, dashing in the designated direction and dealing damage. If the dash hits an opposing Pokemon, it grabs the Pokemon and continues the dash; if the Pokemon is hit by a shadow clone, it becomes unable to act."
+        },
+        "buffs": {
+          "movementSpeedPct": 30,
+          "cdrPct": 30,
+          "shieldPct": 20,
+          "durationMs": 6000,
+          "raw": "30% Movement Speed, 30% CDR, 20% Max HP Shield"
         }
       },
       "passiveCondition": {
@@ -6383,6 +6616,13 @@
           "ko": "지정한 상대 팀의 포켓몬에게 닻을 날려 긴 사슬을 휘감아서 데미지를 주고 행동 불가로 만든다. 그 뒤 사슬에 휘감긴 상대 팀의 포켓몬이 있는 곳으로 돌격하여 데미지를 주고 행동 불가로 만든다. 닻이나 돌격이 명중한 상대 팀의 포켓몬에게 데미지를 주고 밀쳐낸다. 유나이트 기술 사용 중에 준 데미지의 일부를 흡수해서 HP를 회복한다.",
           "ja": "指定した相手チームのポケモンにアンカーを飛ばして長い鎖で絡め取り、ダメージを与えて行動不能にする。その後鎖に絡め取られた相手チームのポケモンがいる場所に突撃してダメージを与え行動不能にする。アンカーや突撃が命中した相手チームのポケモンにダメージを与えて吹き飛ばす。ユナイトわざの使用中に与えたダメージの一部を吸収してHPを回復する。",
           "en": "Launches an anchor at a designated opposing Pokemon, wrapping it in a long chain to deal damage and render it unable to act. Then charges toward the ensnared Pokemon, dealing damage and rendering it unable to act again. Deals damage and throws opposing Pokemon hit by the anchor or charge. During this Unite Move, recovers HP by absorbing a portion of the damage dealt."
+        },
+        "buffs": {
+          "movementSpeedPct": 30,
+          "cdrPct": 30,
+          "shieldPct": 20,
+          "durationMs": 6000,
+          "raw": "30% Movement Speed, 30% CDR, 20% Max HP Shield"
         }
       },
       "passiveCondition": {
@@ -6535,6 +6775,13 @@
           "ko": "유나이트 기술 버튼을 계속 누르고 있는 동안 물속 깊이 잠수하여 상대편 포켓몬에게 공격받지 않지만 자신도 공격할 수 없는 상태가 된다. 유나이트 기술 버튼에서 손을 떼면 기세 좋게 뛰어올라 공격한다. 일정 시간 잠수하면 뛰어오른 장소에 바다회오리를 만들고 지속해서 감속 효과를 준다. 더욱 긴 시간 잠수하면 뛰어오른 장소에 회오리를 만들고 명중한 상대편 포켓몬을 날려버린다. 유나이트 기술을 사용한 뒤 메가진화한다.",
           "ja": "ユナイトわざボタンを押し続けている間、深く潜水して相手のポケモンに攻撃されないが自分も攻撃できない状態になる。ユナイトわざボタンから手を離すと勢いよく飛び出して攻撃する。一定時間潜水すると飛び出した場所にうずしおを発生させて継続的に減速効果を与える。さらに長い時間潜水すると飛び出した場所に竜巻を発生させ命中した相手のポケモンを吹き飛ばす。ユナイトわざ使用後にメガシンカする。",
           "en": "While holding the Unite Move button, dives deep underwater, becoming invulnerable to attacks but unable to attack. Releasing the button causes the user to burst out and attack. After submerging for a set time, a whirlpool appears at the landing spot, continuously slowing opposing Pokemon. After submerging even longer, a tornado appears at the landing spot and throws opposing Pokemon hit. After using this Unite Move, the user Mega Evolves."
+        },
+        "buffs": {
+          "movementSpeedPct": 30,
+          "cdrPct": 30,
+          "shieldPct": 20,
+          "durationMs": 6000,
+          "raw": "30% Movement Speed, 30% CDR, 20% Max HP Shield"
         }
       },
       "passive3": {
@@ -6684,6 +6931,13 @@
           "ko": "크게 위협하여 짧은 시간 동안 기술 대기 시간이 짧아진다. 다시 유나이트 기술을 사용하면 지정한 상대 팀의 포켓몬에게 달려들고 강하게 물어서 데미지를 준다. 이 데미지는 상대 팀의 포켓몬에게 부여된 \"깨물어부수기\"의 추가 효과의 수에 따라 증가한다.",
           "ja": "大きく威嚇し、短い時間の間わざの待機時間が短くなる。再度ユナイトわざを使うと、指定した相手チームのポケモンに飛びかかり、強く噛みついてダメージを与える。このダメージは相手チームのポケモンに付与された「かみくだく」の追加効果の数に応じて増加する。",
           "en": "Lets out a mighty roar, reducing move cooldowns for a short time. Using the Unite Move again causes the user to leap at the designated opposing Pokemon and bite down hard, dealing damage. This damage increases based on the number of Crunch additional effects on the opposing Pokemon."
+        },
+        "buffs": {
+          "movementSpeedPct": 50,
+          "attackSpeedPct": 35,
+          "shieldPct": 20,
+          "durationMs": 6000,
+          "raw": "50% Movement Speed, 35% Attack Speed, 20% Max HP Shield"
         }
       },
       "passiveCondition": {
@@ -6849,6 +7103,12 @@
           "ko": "상대 팀의 지정한 포켓몬에게 대시하여 공격한 뒤, 환영 복사본 5체를 각각 일정 거리 대시시킨다. 복사본은 접촉한 상대에게 데미지를 주고 마크를 붙인다. 잠시 후 복사본이 돌아오면서 다시 데미지를 준다. 복사본이 돌아오기 전 재사용하면 지정한 방향으로 대시하여 데미지를 주고, 복사본이 자신의 위치로 돌진한다. 마크된 상대가 쓰러지면 모든 기술의 대기 시간이 줄어든다.",
           "ja": "相手チームの指定したポケモンにダッシュで攻撃した後、幻影コピー5体をそれぞれ一定距離ダッシュさせる。コピーは接触した相手にダメージを与えてマークを付与する。しばらく後にコピーが戻る際、再びダメージを与える。コピーが戻る前に再使用すると指定方向へダッシュしてダメージを与え、コピーが自身の位置へダッシュする。マークした相手が倒れると全わざの待ち時間が短縮される。",
           "en": "Dashes at a designated opposing Pokemon and attacks, then creates 5 illusory copies that each dash a set distance. The copies deal damage and mark opposing Pokemon they contact. After a short time, the copies return and deal damage again. Can be used again before the copies return to dash in the designated direction and deal damage, while the copies dash to the user's location. When a marked opposing Pokemon is knocked out, all move cooldowns are reduced."
+        },
+        "buffs": {
+          "movementSpeedPct": 80,
+          "shieldPct": 20,
+          "durationMs": 6000,
+          "raw": "80% Movement Speed, 20% Max HP Shield"
         }
       },
       "passiveCondition": {
@@ -7119,6 +7379,12 @@
           "ko": "저주받은 숲을 만들어 범위 안 상대편 포켓몬에게 데미지를 주고 날려버리며 이동 속도를 떨어뜨린다. 명중한 상대에게 같은 팀의 일반 공격 데미지가 증가하는 효과를 부여한다. 명중한 상대 수에 따라 실드를 획득하며, 실드 지속 동안 HP 회복 효과가 강화된다.",
           "ja": "のろわれた森を作り、範囲内の相手ポケモンにダメージを与えて吹き飛ばし、移動速度を下げる。命中した相手に対して味方の通常攻撃ダメージが増加する効果を付与する。命中した相手の数に応じてシールドを獲得し、シールドが続く間はHP回復効果が強化される。",
           "en": "Creates a cursed forest, dealing damage to opposing Pokémon in the area, launching them, and reducing their movement speed. Grants a bonus to all allies' basic attack damage against hit opponents. Gains a shield based on the number of Pokémon hit, and HP restoration is enhanced while the shield persists."
+        },
+        "buffs": {
+          "movementSpeedPct": 30,
+          "shieldPct": 20,
+          "durationMs": 6000,
+          "raw": "30% Movement Speed, 20% Max HP Shield"
         }
       },
       "passiveCondition": {
@@ -7309,6 +7575,12 @@
           "ko": "지정한 상대편 포켓몬을 악몽으로 초대하고 자신도 그 악몽에 모습을 나타낸다. 꿈속의 포켓몬은 지속 데미지를 받으며, 꿈속에서 상대에게 데미지를 주면 꿈 밖의 상대에게도 데미지를 준다. 사용 시 모든 기술 대기 시간이 초기화된다.",
           "ja": "指定した相手ポケモンを悪夢に招待し、自分も悪夢に現れる。夢の中のポケモンは継続ダメージを受け、夢の中で相手にダメージを与えると夢の外の相手にもダメージを与える。使用時にすべてのわざのクールタイムがリセットされる。",
           "en": "Invites the targeted opposing Pokémon into a nightmare and appears within it. The Pokémon inside takes damage over time, and damaging the opponent in the nightmare also deals damage outside. All move cooldowns reset upon use."
+        },
+        "buffs": {
+          "movementSpeedPct": 80,
+          "shieldPct": 20,
+          "durationMs": 6000,
+          "raw": "80% Movement Speed, 20% Max HP Shield"
         }
       },
       "passiveCondition": {
@@ -7499,6 +7771,13 @@
           "ko": "지정한 방향으로 돌진하고 명중한 상대편 포켓몬을 밀쳐낸다. 돌진 종료 시 가장 처음 명중한 상대편 포켓몬 주변에 이상한 공간을 만든다. 재사용하면 고속으로 달려 나가 데미지를 준다. 이상한 공간을 통과하면 추가로 재사용 가능하다.",
           "ja": "指定した方向に突進し、命中した相手ポケモンを押し出す。突進終了時に最初に命中した相手ポケモンの周囲に不思議な空間を作る。再使用すると高速で走り出してダメージを与える。不思議な空間を通過すると追加で再使用できる。",
           "en": "Charges in the designated direction, pushing back any opposing Pokémon hit. Upon stopping, creates a strange space around the first opposing Pokémon struck. Reactivating dashes forward at high speed, dealing damage. Passing through the strange space allows additional reactivations."
+        },
+        "buffs": {
+          "movementSpeedPct": 30,
+          "cdrPct": 30,
+          "shieldPct": 20,
+          "durationMs": 6000,
+          "raw": "30% Movement Speed, 30% CDR, 20% Max HP Shield"
         }
       },
       "passiveCondition": {
@@ -7687,6 +7966,13 @@
           "ko": "주변에 커다란 풀숲을 만든다. 풀숲 안의 아군 포켓몬 HP를 지속 회복하며, 자신이 만든 풀숲에서는 특별한 꽃을 얻을 수 있다. 특별한 꽃을 소모하면 플라워힐과 천사의키스가 강화된다.",
           "ja": "周囲に大きな草むらを作る。草むら内の味方ポケモンのHPを継続的に回復し、自分が作った草むらでは特別な花を得ることができる。特別な花を消費するとフラワーヒールとエンジェルキスが強化される。",
           "en": "Creates a large bush nearby. Continuously restores HP for allies inside, and special flowers can be gathered from the bush. Consuming special flowers enhances Flower Healing and Angel's Kiss."
+        },
+        "buffs": {
+          "movementSpeedPct": 30,
+          "cdrPct": 30,
+          "shieldPct": 20,
+          "durationMs": 6000,
+          "raw": "30% Movement Speed, 30% CDR, 20% Max HP Shield"
         }
       },
       "passiveCondition": {
@@ -7875,6 +8161,13 @@
           "ko": "거대한 검을 겨누고 에오스 에너지를 충전한 뒤 전방을 벤다. 충전 중에는 방해받지 않는다. 충전량이 많을수록 데미지와 범위가 증가한다. 유나이트 기술로 강화된 상태인 상대에게는 추가 데미지를 준다.",
           "ja": "巨大な剣を向けてエオスエネルギーを充電した後、前方を切り裂く。充電中は妨害を受けない。充電量が多いほどダメージと範囲が増加する。ユナイトわざで強化された状態の相手には追加ダメージを与える。",
           "en": "Aims a massive sword and charges Aeos Energy before slashing forward. Unstoppable while charging. More energy charged means higher damage and wider range. Deals bonus damage to opponents buffed by a Unite Move."
+        },
+        "buffs": {
+          "movementSpeedPct": 30,
+          "cdrPct": 30,
+          "shieldPct": 20,
+          "durationMs": 6000,
+          "raw": "30% Movement Speed, 30% CDR, 20% Max HP Shield"
         }
       },
       "passiveCondition": {
@@ -8066,6 +8359,11 @@
           "ko": "불꽃을 두른 주먹을 휘둘러 주변 상대에게 데미지를 주고 이동 속도가 오른다. 사용 후 펀치 스타일로 변경된다 (블레이즈킥→기합구슬, 오버히트→불꽃펀치). 반대로 폭염선풍각 사용 시 킥 스타일로 돌아간다.",
           "ja": "炎を纏った拳を振り回して周囲の相手にダメージを与え、移動速度が上がる。使用後はパンチスタイルに変更される（ブレイズキック→きあいだま、オーバーヒート→ほのおのパンチ）。逆にブレイズロールアップ使用時はキックスタイルに戻る。",
           "en": "Swings a flaming fist to deal damage to nearby opponents and increases movement speed. Switches to Punch Style after use (Blaze Kick → Focus Blast, Overheat → Fire Punch). Using Blaze Kick (Unite) reverts to Kick Style."
+        },
+        "buffs": {
+          "shieldPct": 9,
+          "durationMs": 6000,
+          "raw": "9% Max HP Shield. The cooldown of Energy Amplifier is increased to 30s, and the cooldown of Buddy Barrier is increased to 60s."
         }
       },
       "passiveCondition": {
@@ -8254,6 +8552,13 @@
           "ko": "지정한 상대와 그 주변 포켓몬에게 키스를 날려 잠시 행동 불가로 만든다. 이후 지정한 장소에 해머를 내리쳐 데미지를 준다.",
           "ja": "指定した相手とその周囲のポケモンにキスを送り、一時的に行動不能にする。その後指定した場所にハンマーを振り下ろしてダメージを与える。",
           "en": "Blows a kiss at the targeted opponent and nearby Pokémon, briefly leaving them unable to act, then slams a hammer at the designated location for heavy damage."
+        },
+        "buffs": {
+          "movementSpeedPct": 30,
+          "cdrPct": 30,
+          "shieldPct": 20,
+          "durationMs": 6000,
+          "raw": "30% Movement Speed, 30% CDR, 20% Max HP Shield"
         }
       },
       "passiveCondition": {
@@ -8442,6 +8747,13 @@
           "ko": "높이 뛰어오른 뒤 전방에 얼음 공간을 만들고 범위 안 상대에게 데미지를 준다. 얼음 공간 안에서 자신의 이동 속도가 오르고 일정 시간마다 결정을 얻는다. 반대로 상대의 이동 속도는 감소한다.",
           "ja": "高く跳び上がった後、前方に氷空間を作り、範囲内の相手にダメージを与える。氷空間内では自身の移動速度が上がり、一定時間ごとに結晶を獲得する。逆に相手の移動速度は下がる。",
           "en": "Leaps high, then creates an ice field in front and deals damage to opposing Pokémon in range. Inside the field, movement speed increases and crystals are gained over time. Opposing Pokémon inside are slowed."
+        },
+        "buffs": {
+          "movementSpeedPct": 30,
+          "attackSpeedPct": 35,
+          "shieldPct": 20,
+          "durationMs": 6000,
+          "raw": "30% Movement Speed, 35% Attack Speed, 20% Max HP Shield"
         }
       },
       "passiveCondition": {
@@ -8630,6 +8942,12 @@
           "ko": "지정한 상대 팀의 포켓몬을 조준하고 힘을 충전한 뒤 파동을 날려 데미지를 준다. 사용 시 모든 기술 쿨타임이 0이 되고 잠시 동안 쿨타임이 감소한다. 라티오스가 같은 상대를 조준 중이라면 파동이 합쳐져 폭발하며 주변에도 데미지를 준다.",
           "ja": "指定した相手チームのポケモンを照準して力を充電した後、波動を飛ばしてダメージを与える。使用時にすべてのわざクールタイムが0になり、一時的にクールタイムが短縮される。ラティオスが同じ相手を照準中なら波動が合わさって爆発し、周囲にもダメージを与える。",
           "en": "Locks onto the targeted opposing Pokémon, charges, then fires a beam for damage. Resets all move cooldowns on use and briefly reduces cooldowns. If Latios is targeting the same opponent, the beams combine for an explosion that also damages nearby Pokémon."
+        },
+        "buffs": {
+          "movementSpeedPct": 30,
+          "shieldPct": 20,
+          "durationMs": 6000,
+          "raw": "30% Movement Speed, 20% Max HP Shield"
         }
       },
       "passiveCondition": {
@@ -8817,6 +9135,12 @@
           "ko": "상대 팀의 포켓몬을 붙잡아 공중에서 지면으로 내던진다. 그 뒤 일정 시간 동안 장애물을 무시하고 이동할 수 있다. 유나이트 기술을 사용하는 동안은 일반 공격으로 주는 데미지가 증가하고 상대편 포켓몬을 화상 상태로 만든다. 또한 상대편 포켓몬에게 데미지를 주면 자신의 HP를 회복한다.",
           "ja": "相手チームのポケモンをつかみ、空中から地面に投げ落とす。その後一定時間障害物を無視して移動できる。ユナイトわざを使っている間は通常攻撃で与えるダメージが増加し、相手のポケモンを「やけど」状態にする。また相手のポケモンにダメージを与えると自分のHPが回復する。",
           "en": "Grabs an opposing Pokémon and slams it from the air to the ground. After use, can move through obstacles for a set amount of time. While the Unite Move is in effect, basic attacks deal increased damage and burn opposing Pokémon. Also restores HP when dealing damage to opposing Pokémon."
+        },
+        "buffs": {
+          "movementSpeedPct": 50,
+          "shieldPct": 20,
+          "durationMs": 6000,
+          "raw": "50% Movement Speed, 20% Max HP Shield"
         }
       },
       "passiveCondition": {
@@ -8998,6 +9322,13 @@
           "ko": "모든 상대편 포켓몬을 향해 강력한 사이코 파워가 담긴 일격을 떨어뜨린다. 낙하 지점 주변에 있는 상대편 포켓몬에게 데미지를 주고 행동할 수 없게 만들며 잠시 동안 방어를 떨어뜨린다.",
           "ja": "すべての相手のポケモンへ強力なサイコパワーが込められた一撃を落とす。落下地点の周囲にいる相手のポケモンにダメージを与えて行動できなくさせ、しばらくの間防御を下げる。",
           "en": "Drops a powerful strike filled with psychic energy onto all opposing Pokémon. Deals damage to opposing Pokémon near the point of impact, leaves them unable to act, and decreases their Defense for a short time."
+        },
+        "buffs": {
+          "movementSpeedPct": 30,
+          "cdrPct": 30,
+          "shieldPct": 20,
+          "durationMs": 6000,
+          "raw": "30% Movement Speed, 30% CDR, 20% Max HP Shield"
         }
       },
       "passiveCondition": {
@@ -9155,6 +9486,13 @@
           "ko": "주변에 있는 상대 팀의 포켓몬을 무시무시한 낙뢰로 공격한다.\n데미지(4회): 특수공격의 45.1% + 9×(레벨-1) + 450\n유나이트 기술 효과 (6초): 이동속도 30% 증가, 쿨타임 30% 감소, 실드 최대HP의 20%",
           "ja": "周囲にいる相手チームのポケモンを、凄まじい落雷で攻撃する。\nダメージ(4回): とくこうの45.1% + 9×(レベル-1) + 450\nユナイトわざ効果 (6秒): 移動速度30%増加、クールタイム30%減少、シールド最大HPの20%",
           "en": "Strikes all nearby opposing Pokémon with fearsome lightning bolts.\nDamage (4 hits): 45.1% of Sp. Atk + 9×(Level-1) + 450\nUnite Move Effect (6s): Movement Speed +30%, Cooldown -30%, Shield equal to 20% of max HP"
+        },
+        "buffs": {
+          "movementSpeedPct": 30,
+          "cdrPct": 30,
+          "shieldPct": 30,
+          "durationMs": 6000,
+          "raw": "30% Movement Speed, 30% CDR, 30% Max HP Shield"
         }
       },
       "passiveCondition": {
@@ -9320,6 +9658,12 @@
           "ko": "자신의 주변에 비를 내리게 하고 HP를 서서히 회복한다. 효과의 지속 시간 중에는 모든 일반 공격이 강화 공격이 된다.\nHP 회복(13회): 최대HP의 4% 6초 / 이동속도 50% 증가 / 실드: 최대HP의 40%",
           "ja": "自分の周囲に雨を降らせ、HPを徐々に回復する。効果の持続時間中は全ての通常攻撃が強化攻撃になる。\nHP回復(13回): 最大HPの4% 6秒 / 移動速度50%上昇 / シールド: 最大HPの40%",
           "en": "Goodra makes rain fall around itself, gradually restoring its HP. While Right as Rain is active, all of Goodra's basic attacks become boosted attacks.\nHP recovery (×13): 4% of max HP over 6s / Movement speed +50% / Shield: 40% of max HP"
+        },
+        "buffs": {
+          "shieldPct": 40,
+          "movementSpeedPct": 50,
+          "durationMs": 6000,
+          "raw": "40% Max HP Shield, 50% Movement Speed"
         }
       },
       "passiveCondition": {
@@ -9486,6 +9830,13 @@
           "ko": "지정한 방향으로 강한 위력으로 베어 내고 참격이 명중한 상대에게 데미지를 준다. 상대의 남은 HP가 적을수록 데미지가 증가한다. 이 기술로 KO 당한 상대가 있다면 강화 카운터를 모은다.\n데미지: 공격의 282% + 13×(레벨-1) + 640 + 적의 잃은HP의 12%\n이동속도 30% 증가 / 쿨타임 30% 감소 / 실드: 최대HP의 20%",
           "ja": "指定した方向に強い威力で斬りつけ、斬撃が命中した相手にダメージを与える。相手の残りHPが少ないほどダメージが増加する。この技でKOした相手がいれば強化カウンターをためる。\nダメージ: 攻撃の282% + 13×(レベル-1) + 640 + 敵の失ったHPの12%\n移動速度30%増加 / クールタイム30%減少 / シールド: 最大HPの20%",
           "en": "Slashes with great force in the designated direction, dealing damage to any opposing Pokémon hit by the slash. The lower the target's remaining HP, the more damage this move deals. If any opposing Pokémon are KO'd by this move, Boost Counters are accumulated.\nDamage: 282% of Attack + 13×(level-1) + 640 + 12% of target's lost HP\nMovement Speed +30% / Cooldown reduced by 30% / Shield: 20% of max HP"
+        },
+        "buffs": {
+          "movementSpeedPct": 30,
+          "cdrPct": 30,
+          "shieldPct": 20,
+          "durationMs": 6000,
+          "raw": "30% Movement Speed, 30% CDR, 20% Max HP Shield"
         }
       },
       "passiveCondition": {
@@ -9679,6 +10030,13 @@
           "ko": "한 바퀴 돌며 광선을 쏘아 상대에게 데미지를 주며 실드 효과를 얻고 잠시 공격이 오른다. 명중시킨 상대가 많을수록 실드와 공격 증가가 강해진다. 광선을 쏜 뒤 주변 상대에게 다시 데미지를 주고 밀쳐낸다. 광선이 지나간 곳은 불타며 닿은 상대에게 데미지와 감속 효과를 준다. 광선 데미지: 공격의 163% + 6×(레벨-1) + 350 / 폭발 데미지: 공격의 163% + 6×(레벨-1) + 350 / 장판 데미지: 공격의 35% + 63 (0.5초마다) / 실드: 공격의 68% + 3×(레벨-1) + 135 최대 5중첩 / 이동속도 30% 증가 / 공격속도 35% 증가 / 실드: 최대HP의 20%",
           "ja": "一回転しながら光線を放ち、相手にダメージを与えてシールド効果を得て、しばらくの間攻撃が上がる。命中させた相手が多いほど、シールドと攻撃上昇が強くなる。光線を放った後、周囲の相手に再度ダメージを与え弾き飛ばす。光線が通過した場所は燃え上がり、触れた相手にダメージと移動速度低下効果を与える。光線ダメージ：攻撃の163% + 6×(レベル-1) + 350 / 爆発ダメージ：攻撃の163% + 6×(レベル-1) + 350 / 設置ダメージ：攻撃の35% + 63（0.5秒ごと）/ シールド：攻撃の68% + 3×(レベル-1) + 135 最大5スタック / 移動速度30%増加 / 攻撃速度35%増加 / シールド：最大HPの20%",
           "en": "Spins around while firing a beam, dealing damage to opposing Pokemon, gaining a shield, and temporarily boosting Attack. The more opposing Pokemon hit, the stronger the shield and Attack boost. After firing the beam, deals damage again to nearby opposing Pokemon and shoves them away. The path of the beam ignites, dealing damage and slowing opposing Pokemon that touch it. Beam damage: 163% of Attack + 6×(level-1) + 350 / Explosion damage: 163% of Attack + 6×(level-1) + 350 / Zone damage: 35% of Attack + 63 (every 0.5s) / Shield: 68% of Attack + 3×(level-1) + 135, up to 5 stacks / Movement speed +30% / Attack Speed +35% / Shield: 20% of max HP."
+        },
+        "buffs": {
+          "movementSpeedPct": 30,
+          "attackSpeedPct": 35,
+          "shieldPct": 20,
+          "durationMs": 6000,
+          "raw": "30% Movement Speed, 35% Attack Speed, 20% Max HP Shield"
         }
       },
       "passiveCondition": {
@@ -9860,6 +10218,13 @@
           "ko": "주변 상대의 위치를 빠르게 분석하여 수에 따라 실드 효과를 얻는다. 2마리 이하 분석 시: HP가 가장 적은 상대에게 달려들어 3회 공격하며, 쓰러뜨리면 유나이트 게이지가 30% 회복된다. 3마리 이상 분석 시: HP가 가장 적은 상대에게 달려들어 주변에 광역 데미지를 주고 자신을 둘러싸는 벽을 만든다. 데미지(2마리 이하, 1~2타): 공격의 134% + 2×(레벨-1) + 400 / 데미지(3타): 잃은HP의 20% / 행동불가 0.8초 / 벽 데미지(3마리 이상): 공격의 228% + 7×(레벨-1) + 460 / 실드: 공격의 60% + 150 (최대 5중첩) / 이동속도 30% 증가 / 쿨타임 30% 감소 / 실드: 최대HP의 30%",
           "ja": "周囲の相手の位置を素早く分析し、その数に応じてシールド効果を得る。2体以下を分析した場合：HPが最も少ない相手に突撃して3回攻撃し、撃倒するとユナイトゲージが30%回復する。3体以上を分析した場合：HPが最も少ない相手に突撃して周囲に広範囲ダメージを与え、自分を取り囲む壁を作る。ダメージ（2体以下、1〜2打）：攻撃の134% + 2×(レベル-1) + 400 / ダメージ（3打目）：失ったHPの20% / 行動不能 0.8秒 / 壁ダメージ（3体以上）：攻撃の228% + 7×(レベル-1) + 460 / シールド：攻撃の60% + 150（最大5スタック）/ 移動速度30%増加 / CT30%短縮 / シールド：最大HPの30%",
           "en": "Quickly analyzes the positions of nearby opponents and gains a shield based on their number. With 2 or fewer opponents: Charges at the opponent with the lowest HP and attacks 3 times; defeating them restores the Unite gauge by 30%. With 3 or more opponents: Charges at the opponent with the lowest HP, deals area damage, and creates a wall surrounding the user. Damage (2 or fewer, hits 1–2): 134% of Attack + 2×(level-1) + 400 / Damage (hit 3): 20% of HP lost / Hindrance: 0.8 sec / Wall damage (3 or more): 228% of Attack + 7×(level-1) + 460 / Shield: 60% of Attack + 150 (up to 5 stacks) / Movement speed +30% / Cooldown -30% / Shield: 30% of max HP"
+        },
+        "buffs": {
+          "movementSpeedPct": 30,
+          "cdrPct": 30,
+          "shieldPct": 30,
+          "durationMs": 6000,
+          "raw": "30% Movement Speed, 30% CDR, 30% Max HP Shield"
         }
       },
       "passiveCondition": {
@@ -10251,6 +10616,13 @@
           "ko": "잠시 동안 주변에 있는 은신 상태나 풀숲의 포켓몬을 볼 수 있다. 급소율이 2배가 되며 일정 시간마다 급소 카운터를 얻는다. 투시 지속: 10.5초 / 급소 카운터: 1개 1초마다 / 이동속도 30% 증가 / 공격속도 35% 증가 / 실드: 최대HP의 20%",
           "ja": "しばらくの間、周囲にいるステルス状態や草むらのポケモンを見ることができる。急所率が2倍になり、一定時間ごとに急所カウンターを得る。透視持続：10.5秒 / 急所カウンター：1個1秒ごと / 移動速度30%上昇 / 攻撃速度35%上昇 / シールド：最大HPの20%",
           "en": "For a short time, can see opposing Pokemon that are hidden in stealth or tall grass nearby. Critical-hit rate is doubled and gains a critical-hit counter at set intervals. Reveal duration: 10.5 seconds / Critical-hit counter: 1 every second / Movement speed +30% / Attack speed +35% / Shield: 20% of max HP"
+        },
+        "buffs": {
+          "shieldPct": 20,
+          "movementSpeedPct": 30,
+          "attackSpeedPct": 35,
+          "durationMs": 6000,
+          "raw": "20% Max HP Shield, 30% Movement Speed, 35% Attack Speed"
         }
       },
       "passiveCondition": {
@@ -10432,6 +10804,12 @@
           "ko": "지정한 장소로 순식간에 이동한 뒤 주변에 꽃보라를 발생시켜 상대에게 지속적으로 데미지를 준다. 다시 사용하면 중단할 수 있다. 꽃보라가 명중할 때마다 1기술 쿨타임 1초 감소. 데미지(13회): 공격의 70% + 3×(레벨-1) + 187 (0.25초마다) / 이동속도 80% 증가 / 실드: 최대HP의 20%",
           "ja": "指定した場所に瞬時に移動した後、周囲に花吹雪を発生させて相手に継続的にダメージを与える。もう一度使うと中断できる。花吹雪が命中するたびにわざ1のCTが1秒短縮。ダメージ(13回): こうげきの70% + 3×(レベル-1) + 187 (0.25秒ごと) / 移動速度80%増加 / シールド: 最大HPの20%",
           "en": "Teleports instantly to the designated location, then unleashes a flurry of flower petals that continuously deal damage to nearby opposing Pokémon. Can be used again to cancel. Each hit reduces Move 1's cooldown by 1 second. Damage (13 hits): 70% of Attack + 3×(Lv-1) + 187 (every 0.25s) / Movement speed +80% / Shield: 20% of max HP"
+        },
+        "buffs": {
+          "movementSpeedPct": 80,
+          "shieldPct": 20,
+          "durationMs": 6000,
+          "raw": "80% Movement Speed, 20% Max HP Shield"
         }
       },
       "passiveCondition": {
@@ -10613,6 +10991,12 @@
           "ko": "전방을 반복해서 베어 공격한다. 마지막에 무시무시한 기세로 칼날을 쏘아 더욱 큰 데미지를 상대편 포켓몬에게 주고 밀쳐낸다.",
           "ja": "前方を繰り返し切りつけて攻撃する。最後に凄まじい勢いで刃を放ち、さらに大きなダメージを相手ポケモンに与えて吹き飛ばす。",
           "en": "Repeatedly slashes at the area in front of the user. At the end, unleashes a fierce blade that deals massive damage to opposing Pokémon and throws them."
+        },
+        "buffs": {
+          "movementSpeedPct": 80,
+          "shieldPct": 20,
+          "durationMs": 6000,
+          "raw": "80% Movement Speed, 20% Max HP Shield"
         }
       },
       "passiveCondition": {
@@ -10793,6 +11177,13 @@
           "ko": "커다란 케이크를 만들고 그 위에 올라타 실드 효과를 얻는다. 주변 같은 편 포켓몬에게 휘핑크림을 잔뜩 날린다. 휘핑크림을 주운 같은 편 포켓몬은 HP가 회복되며 잠시 동안 최대 HP가 증가한다. 실드 효과가 없어지면 기술이 종료된다.",
           "ja": "大きなケーキを作り、その上に乗ってシールド効果を得る。周囲の味方ポケモンにホイップクリームをたくさん飛ばす。ホイップクリームを拾った味方ポケモンはHPが回復し、しばらくの間最大HPが増加する。シールド効果がなくなるとわざが終了する。",
           "en": "Creates a large cake and mounts it, gaining a shield. Launches lots of whipped cream at nearby allies. Allies who pick up the whipped cream recover HP and temporarily gain increased max HP. The move ends when the shield disappears."
+        },
+        "buffs": {
+          "movementSpeedPct": 40,
+          "cdrPct": 30,
+          "shieldPct": 30,
+          "durationMs": 6000,
+          "raw": "40% Movement Speed, 30% CDR, 30% Max HP Shield (Applied when the move ends)"
         }
       },
       "passiveCondition": {
@@ -10973,6 +11364,13 @@
           "ko": "뛰어올라 사이코 파워를 모은 뒤 상대를 행동 불가로 만드는 에리어를 만든다. 파워를 모으는 동안 에리어 위치를 조정할 수 있다. 그 뒤 에리어 중심으로 날아가 불타는 탄환을 쏘아 상대에게 데미지를 주고 에리어 밖으로 날려버린다.",
           "ja": "跳び上がってサイコパワーを溜めた後、相手を行動不能にするエリアを作る。パワーを溜める間、エリアの位置を調整できる。その後エリアの中心に飛んで燃える弾丸を撃ち、相手にダメージを与えてエリアの外に吹き飛ばす。",
           "en": "Leaps into the air and charges psychic power, creating an area that immobilizes opponents. The area's position can be adjusted while charging. Then dashes to the center of the area and fires a blazing cannonball, dealing damage and launching opponents outside the area."
+        },
+        "buffs": {
+          "movementSpeedPct": 30,
+          "cdrPct": 30,
+          "shieldPct": 20,
+          "durationMs": 6000,
+          "raw": "30% Movement Speed, 30% CDR, 20% Max HP Shield"
         }
       },
       "passiveCondition": {
@@ -11154,6 +11552,13 @@
           "ko": "지정한 같은 편 포켓몬에게 대시하여 알을 건넨다. 대시하는 중에 주변이나 맞은 상대를 날려버린다. 알을 건넨 뒤 잠시 동안 실드 효과를 주고 공격과 특수공격이 오르며, 그 포켓몬이 받은 데미지의 일부를 해피너스가 대신 받는다.",
           "ja": "指定した味方ポケモンにダッシュして卵を渡す。ダッシュ中に周囲や当たった相手を吹き飛ばす。卵を渡した後しばらくの間シールド効果を与え、攻撃と特攻が上がり、そのポケモンが受けたダメージの一部をハピナスが代わりに受ける。",
           "en": "Dashes to a designated ally and delivers an egg. During the dash, launches nearby and struck opponents. After delivering the egg, briefly grants a shield, increases Attack and Sp. Atk, and Blissey shares a portion of the damage that ally takes."
+        },
+        "buffs": {
+          "movementSpeedPct": 30,
+          "cdrPct": 30,
+          "shieldPct": 20,
+          "durationMs": 6000,
+          "raw": "30% Movement Speed, 30% CDR, 20% Max HP Shield"
         }
       },
       "passiveCondition": {
@@ -11335,6 +11740,13 @@
           "ko": "범위 안을 고속으로 비행하며 맞은 상대에게 데미지를 준다. 그 다음 HP 비율이 가장 낮은 상대를 향해 상공에서 돌격하여 추가 데미지를 준다. 상대가 잃은 HP 비율이 클수록 추가 데미지가 증가한다.",
           "ja": "範囲内を高速で飛び回り、当たった相手にダメージを与える。次にHP割合が最も低い相手に向かって上空から突撃してさらにダメージを与える。相手が失ったHP割合が大きいほど追加ダメージが増加する。",
           "en": "Flies at high speed through an area, dealing damage to opponents hit. Then dives from above toward the opponent with the lowest HP percentage, dealing additional damage. The more HP the opponent has lost, the greater the additional damage."
+        },
+        "buffs": {
+          "movementSpeedPct": 30,
+          "cdrPct": 30,
+          "shieldPct": 20,
+          "durationMs": 6000,
+          "raw": "30% Movement Speed, 30% CDR, 20% Max HP Shield"
         }
       },
       "passiveCondition": {
@@ -11515,6 +11927,12 @@
           "ko": "잠시 동안 실드 효과를 얻는다. 주변에 있는 상대를 행동할 수 없게 만들고 지속 데미지를 준다. 기술 사용 중 자신이 데미지를 받으면 주변 상대에게 추가 데미지를 준다.",
           "ja": "しばらくの間シールド効果を得る。周囲にいる相手を行動不能にし継続ダメージを与える。わざ使用中に自分がダメージを受けると周囲の相手に追加ダメージを与える。",
           "en": "Gains a shield for a short time. Immobilizes nearby opponents and deals damage over time. While the move is active, when the user takes damage, it deals additional damage to nearby opponents."
+        },
+        "buffs": {
+          "movementSpeedPct": 30,
+          "shieldPct": 40,
+          "durationMs": 6000,
+          "raw": "30% Movement Speed, 40% Max HP Shield"
         }
       },
       "passiveCondition": {
@@ -11695,6 +12113,12 @@
           "ko": "지정한 방향으로 화살깃을 연사하여 상대에게 데미지를 준다. 마지막에 한층 더 큰 화살깃을 쏘아 맞은 모든 상대에게 데미지를 준다. 상대의 남은 HP가 낮으면 주는 데미지가 증가한다. 기술 사용 중에는 방해받지 않지만 이동할 수 없다.",
           "ja": "指定した方向に矢じりを連射して相手にダメージを与える。最後により大きな矢じりを放ち、当たった全相手にダメージを与える。相手の残りHPが低いほど与えるダメージが増加する。わざ使用中は妨害を受けないが移動できない。",
           "en": "Rapidly fires quills in a designated direction, dealing damage to opponents. Ends with a larger quill that deals damage to all opponents hit. Damage increases when opponents have low remaining HP. Cannot move during use, but is immune to hindrances."
+        },
+        "buffs": {
+          "shieldPct": 30,
+          "movementSpeedPct": 30,
+          "durationMs": 6000,
+          "raw": "30% Max HP Shield granted at the start of the Move, 30% Movement Speed granted at the end of the turret"
         }
       },
       "passiveCondition": {
@@ -11859,6 +12283,13 @@
           "ko": "지정한 범위 안에 있는 상대편 포켓몬에게 8초 동안 지속 데미지를 준다. 명중한 상대편 포켓몬의 이동 속도를 잠시 동안 떨어뜨리고 HP 회복 효과를 약하게 만든다. 유나이트 기술 사용 후 6초 동안 이동 속도 증가, 대기 시간 감소, 실드 효과를 얻는다.",
           "ja": "指定した範囲内にいる相手のポケモンに8秒間継続ダメージを与える。命中した相手のポケモンの移動速度をしばらくの間下げ、HP回復効果を弱める。ユナイトわざ使用後6秒間、移動速度増加・待機時間減少・シールド効果を得る。",
           "en": "Deals continuous damage to opposing Pokemon in a designated area for 8 seconds. Opposing Pokemon hit have their movement speed reduced and HP recovery weakened. After using this Unite Move, gain increased movement speed, reduced cooldowns, and a shield for 6 seconds."
+        },
+        "buffs": {
+          "movementSpeedPct": 30,
+          "cdrPct": 30,
+          "shieldPct": 20,
+          "durationMs": 6000,
+          "raw": "30% Movement Speed, 30% CDR, 20% Max HP Shield"
         }
       },
       "passiveCondition": {
@@ -12023,6 +12454,12 @@
           "ko": "지정한 위치까지 대시로 달려간다. 달리는 동안 방해 무효 상태가 된다. 대시 도중에 부딪힌 상대편 포켓몬에게 데미지를 주고 밀쳐낸다. 지정한 위치에 도착한 뒤에는 잠시 동안 공격이 오르고 실드 효과를 얻는다. 또한 대시 게이지를 잠시 동안 빠르게 얻는다.",
           "ja": "指定した位置までダッシュで駆けていく。走っている間は妨害無効状態になる。ダッシュ中にぶつかった相手のポケモンにダメージを与えて吹き飛ばす。指定した位置に到着後はしばらくの間攻撃が上がり、シールド効果を得る。また、ダッシュゲージをしばらくの間速く得る。",
           "en": "Dashes to a designated location while becoming immune to hindrances. Deals damage and throws back opposing Pokemon hit along the way. Upon arrival, briefly increases Attack and grants a shield. Also charges the Dash Gauge quickly for a short time."
+        },
+        "buffs": {
+          "movementSpeedPct": 80,
+          "shieldPct": 20,
+          "durationMs": 6000,
+          "raw": "80% Movement Speed, 20% Max HP Shield"
         }
       },
       "passiveCondition": {
@@ -12187,6 +12624,12 @@
           "ko": "공중에 떠올라 보호 상태가 된다. 다시 사용하면 공중에서 몸통박치기로 공격하여 범위 안에 있는 상대편 포켓몬을 밀쳐내고 같은 편 포켓몬의 HP를 회복한다. 유나이트 기술 사용 후 6초 동안 이동 속도 증가와 실드 효과를 얻는다.",
           "ja": "空中に浮き上がり、保護状態になる。再使用すると空中から体当たりで攻撃し、範囲内の相手のポケモンを吹き飛ばし、味方のポケモンのHPを回復する。ユナイトわざ使用後6秒間、移動速度増加とシールド効果を得る。",
           "en": "Floats into the air and becomes protected. Using it again launches a body slam from above, knocking back opposing Pokemon in range and restoring allied Pokemon's HP. After using this Unite Move, gain increased movement speed and a shield for 6 seconds."
+        },
+        "buffs": {
+          "movementSpeedPct": 30,
+          "shieldPct": 30,
+          "durationMs": 6000,
+          "raw": "30% Movement Speed, 30% Max HP Shield"
         }
       },
       "passiveCondition": {
@@ -12351,6 +12794,13 @@
           "ko": "지정한 방향으로 고속으로 미끄러지며 끝나는 지점에서 주변에 바다회오리를 발생시켜 상대편 포켓몬에게 데미지를 주고 날려버린다. 바다회오리는 자신을 중심으로 잠시 동안 남아 있으며 상대편 포켓몬에게 감속 효과를 준다. 바다회오리가 남아 있는 동안 증가하는 급류 게이지가 많아진다. 시전부터 돌진 종료까지 방해 무효 상태.",
           "ja": "指定した方向に高速でスライドし、終点で周囲に渦を発生させて相手のポケモンにダメージを与えて吹き飛ばす。渦はしばらくの間自分を中心に残り、相手のポケモンに減速効果を与える。渦が残っている間、激流ゲージの増加量が多くなる。シールド開始から突進終了まで妨害無効状態。",
           "en": "Slides at high speed in the designated direction, then creates a whirlpool at the end point, dealing damage and launching opposing Pokemon. The whirlpool remains briefly, slowing opposing Pokemon. While the whirlpool is active, the Torrent Gauge charges faster. Immune to hindrances from start until end of the dash."
+        },
+        "buffs": {
+          "movementSpeedPct": 30,
+          "cdrPct": 30,
+          "shieldPct": 20,
+          "durationMs": 6000,
+          "raw": "30% Movement Speed, 30% CDR, 20% Max HP Shield"
         }
       },
       "passiveCondition": {
@@ -12515,6 +12965,12 @@
           "ko": "5마리의 멤버가 리더 주변을 고속으로 달리며 상대편 포켓몬에게 데미지와 감속 효과를 준다. 이 기술을 사용하는 동안 멤버가 받는 데미지가 감소한다. 유나이트 기술 사용 후 6초 동안 이동 속도 증가와 실드 효과를 얻는다.",
           "ja": "5匹のメンバーがリーダーの周囲を高速で走り、相手のポケモンにダメージと減速効果を与える。このわざを使用している間、メンバーが受けるダメージが減少する。ユナイトわざ使用後6秒間、移動速度増加とシールド効果を得る。",
           "en": "5 members dash rapidly around the leader, dealing damage and slowing opposing Pokemon. Members take reduced damage while this move is active. After using this Unite Move, gain increased movement speed and a shield for 6 seconds."
+        },
+        "buffs": {
+          "movementSpeedPct": 30,
+          "shieldPct": 30,
+          "durationMs": 6000,
+          "raw": "30% Movement Speed, 30% Max HP Shield"
         }
       },
       "passiveCondition": {
@@ -12685,6 +13141,12 @@
           "ko": "지정한 장소로 날아들어 이동 속도가 오르는 은신 상태가 된다. 유나이트 기술을 다시 사용하면 범위 안에 있는 상대편 포켓몬에게 데미지를 주고 이동 속도도 잠시 동안 떨어뜨린다. 유나이트 기술 사용 후 6초 동안 이동 속도 증가와 실드 효과를 얻는다.",
           "ja": "指定した場所に飛び込み、移動速度が上がる隠れ状態になる。ユナイトわざを再使用すると範囲内の相手のポケモンにダメージを与え、移動速度もしばらくの間下げる。ユナイトわざ使用後6秒間、移動速度増加とシールド効果を得る。",
           "en": "Dashes to a designated location and enters a stealth state with increased movement speed. Using the Unite Move again deals damage to nearby opposing Pokemon and briefly reduces their movement speed. After using this Unite Move, gain increased movement speed and a shield for 6 seconds."
+        },
+        "buffs": {
+          "movementSpeedPct": 80,
+          "shieldPct": 20,
+          "durationMs": 6000,
+          "raw": "80% Movement Speed, 20% Max HP Shield"
         }
       },
       "passiveCondition": {
@@ -12887,6 +13349,12 @@
           "ko": "나무열매를 먹고 HP를 회복한다. 그 뒤 지정한 방향으로 달려들어 범위 안에 있는 상대편 포켓몬에게 데미지를 주고 날려버리며 특별한 나무열매를 먹는다. 특별한 나무열매를 먹으면 모든 기술 대기 시간이 0초가 되며 잠시 동안 꼬리에 모아둔 나무열매의 개수가 줄어들지 않는다.",
           "ja": "きのみを食べてHPを回復する。その後、指定した方向に突進して範囲内にいる相手のポケモンにダメージを与えてふき飛ばし、特別なきのみを食べる。特別なきのみを食べると、すべての技のCTが0秒になり、しばらくの間、しっぽにためたきのみの数が減らなくなる。",
           "en": "Eats a Berry to restore HP, then dashes in the designated direction, dealing damage to opposing Pokémon in the area and launching them, then eats a special Berry. Eating the special Berry resets all move cooldowns to 0 and temporarily prevents the Berries stored in the tail from decreasing."
+        },
+        "buffs": {
+          "movementSpeedPct": 30,
+          "shieldPct": 40,
+          "durationMs": 6000,
+          "raw": "30% Movement Speed, 40% Max HP Shield"
         }
       },
       "passiveCondition": {
@@ -13067,6 +13535,12 @@
           "ko": "주변에 있는 같은 편 포켓몬이 KO 당하면 잠시 동안 깃털 마크가 남는다. 크게 날개를 펼친 뒤 가지고 있는 모든 에오스 에너지를 소모하고 KO 당한 같은 편 포켓몬은 기절 상태를 회복하며 깃털 마크의 위치에서 배틀에 복귀한다. 소모한 에오스 에너지가 많을수록 배틀에 복귀하는 같은 편 포켓몬의 수가 많아진다.",
           "ja": "周りにいる味方のポケモンがきぜつすると、しばらくの間、羽根のマークが残る。大きく翼を広げた後、持っているすべてのエオスエネルギーを消費し、きぜつした味方のポケモンはきぜつ状態から回復して、羽根マークの位置からバトルに復帰する。消費したエオスエネルギーが多いほど、バトルに復帰する味方のポケモンの数が多くなる。",
           "en": "When nearby allied Pokémon are knocked out, a feather mark lingers briefly at that location. Spreads its wings wide and expends all held Aeos Energy. Knocked-out allied Pokémon are revived and return to battle at the location of their feather marks. The more Aeos Energy expended, the more allied Pokémon that return to battle."
+        },
+        "buffs": {
+          "movementSpeedPct": 80,
+          "shieldPct": 20,
+          "durationMs": 6000,
+          "raw": "80% Movement Speed, 20% Max HP Shield"
         }
       },
       "passiveCondition": {
@@ -13247,6 +13721,13 @@
           "ko": "잠시 동안 굴레를 벗어난 후파가 된다. 최대 HP가 증가하고 지정했던 장소에 링을 전개한다. 같은 편 포켓몬은 1마리당 1번까지 그 링이 있는 지점으로 워프할 수 있다. 굴레를 벗어난 후파가 되어 있는 동안 후파의 기술은 \"이차원러시\"와 \"환상빔\"으로 변한다.",
           "ja": "しばらくの間、いましめをとかれたフーパになる。最大HPが増加し、指定した場所にリングを展開する。味方のポケモンは1匹につき1回まで、そのリングがある地点へワープできる。いましめをとかれたフーパになっている間、フーパの技は「いじげんラッシュ」と「幻想ビーム」に変わる。",
           "en": "Briefly transforms into Hoopa Unbound. Maximum HP increases and a ring is deployed at the designated location. Each allied Pokémon can warp to the ring's location once. While in Hoopa Unbound form, Hoopa's moves change to Hyperspace Rush and Phantom Ray."
+        },
+        "buffs": {
+          "movementSpeedPct": 30,
+          "cdrPct": 30,
+          "shieldPct": 20,
+          "durationMs": 6000,
+          "raw": "30% Movement Speed, 30% CDR, 20% Max HP Shield"
         }
       },
       "passiveCondition": {
@@ -13459,6 +13940,12 @@
           "ko": "파도에 올라타 재빠르게 계속 전진한다. 이때 자신의 이동 속도가 오르지만 장애물에 부딪히면 떨어진다. 상대편 포켓몬에게 부딪힌 경우에는 그 장소에서 정지하며 부딪힌 상대편 포켓몬에게 데미지를 주고 날려버린다. 파도에 올라탄 동안에는 가까이에 있는 같은 편 포켓몬을 1마리 선택해서 자신의 등에 태우고 함께 이동할 수 있다. 기술을 다시 사용하면 정지한 뒤에 전방으로 파도를 발생시켜 파도에 명중한 상대편 포켓몬에게 데미지를 주고 날려버린다.",
           "ja": "波に乗って素早く前進し続ける。このとき自分の移動速度が上がるが、障害物にぶつかると落ちる。相手のポケモンにぶつかった場合、その場で停止してぶつかった相手のポケモンにダメージを与えてふき飛ばす。波に乗っている間、近くにいる味方のポケモンを1匹選んで自分の背中に乗せ、一緒に移動することができる。技を再使用すると停止した後、前方に波を発生させ、波に命中した相手のポケモンにダメージを与えてふき飛ばす。",
           "en": "Rides a wave and charges forward continuously, gaining increased movement speed. Colliding with an obstacle stops the charge. If a collision with an opposing Pokémon occurs, Lapras halts, dealing damage to and launching the Pokémon hit. While riding the wave, one nearby allied Pokémon can be chosen to ride on Lapras's back and move together. Reactivating the move stops Lapras and sends a wave forward, dealing damage to and launching opposing Pokémon hit."
+        },
+        "buffs": {
+          "shieldPct": 20,
+          "movementSpeedPct": 40,
+          "durationMs": 6000,
+          "raw": "20% Max HP Shield on activation, 40% Max HP shield and 30% Movement speed after stopping."
         }
       },
       "passiveCondition": {
@@ -13641,6 +14128,12 @@
           "ko": "지정한 상대편 포켓몬에게 달려들어 데미지를 주고 이동 속도를 떨어뜨린다. 그 뒤 날아올라 기세 좋게 착지하여 범위 안에 있는 상대편 포켓몬에게 데미지를 준다. 범위의 중심에 가까울수록 주는 데미지가 증가한다.",
           "ja": "指定した相手のポケモンに向かって突進してダメージを与えて移動速度を下げる。その後、飛び上がって勢いよく着地し、範囲内にいる相手のポケモンにダメージを与える。範囲の中心に近いほど与えるダメージが増加する。",
           "en": "Charges at the designated opposing Pokémon, dealing damage and reducing its movement speed. Then leaps into the air and crashes down, dealing damage to opposing Pokémon in the area. The closer to the center of the area, the greater the damage dealt."
+        },
+        "buffs": {
+          "movementSpeedPct": 80,
+          "shieldPct": 20,
+          "durationMs": 6000,
+          "raw": "80% Movement Speed, 20% Max HP Shield"
         }
       },
       "passiveCondition": {
@@ -13821,6 +14314,13 @@
           "ko": "범위 안에 있는 상대편 포켓몬에게 데미지를 준다. 데미지를 준 상대편 포켓몬은 \"신속\"의 대상으로 지정된다. 유나이트 기술을 사용한 뒤 \"그로우펀치\"를 사용하면 주는 데미지가 증가한다.",
           "ja": "範囲内にいる相手のポケモンにダメージを与える。ダメージを与えた相手のポケモンは「しんそく」の対象に指定される。ユナイトわざを使用した後「グロウパンチ」を使うと与えるダメージが増加する。",
           "en": "Deals damage to opposing Pokémon in the area. Opposing Pokémon hit are marked as targets for Extreme Speed. Using Power-Up Punch after this Unite Move increases the damage it deals."
+        },
+        "buffs": {
+          "movementSpeedPct": 30,
+          "cdrPct": 30,
+          "shieldPct": 20,
+          "durationMs": 6000,
+          "raw": "30% Movement Speed, 30% CDR, 20% Max HP Shield"
         }
       },
       "passiveCondition": {
@@ -14005,6 +14505,13 @@
           "ko": "잠시 동안 자신의 이동 속도, 공격, 방어, 특수방어가 오른다. 다시 기술을 사용하면 연속으로 공격하며 범위 안에 있는 상대편 포켓몬에게 데미지를 주고 밀쳐낸다. 마지막 일격은 더욱 큰 데미지를 준다.",
           "ja": "しばらくの間、自分の移動速度、こうげき、ぼうぎょ、とくぼうが上がる。もう一度わざを使うと連続で攻撃し、範囲内にいる相手のポケモンにダメージを与えてはじき出す。最後の一撃はさらに大きなダメージを与える。",
           "en": "Increases the user's movement speed, Attack, Defense, and Sp. Defense for a short time. Using the move again launches a rapid flurry of attacks, dealing damage to opposing Pokémon in the area and shoving them. The final blow deals even greater damage."
+        },
+        "buffs": {
+          "movementSpeedPct": 30,
+          "attackSpeedPct": 35,
+          "shieldPct": 20,
+          "durationMs": 6000,
+          "raw": "30% Movement Speed, 35% Attack Speed, 20% Max HP Shield"
         }
       },
       "passiveCondition": {
@@ -14185,6 +14692,12 @@
           "ko": "방해받지 않는 상태가 되며 지정한 장소로 점프한다. 계속해서 점프하며 땅을 밟으며 범위 안에 있는 상대편 포켓몬에게 데미지를 주고 이동 속도를 잠시 동안 떨어뜨린다. 마지막으로 땅을 밟을 때 범위 안에 있는 상대편 포켓몬을 날려버린다.",
           "ja": "じゃまされない状態になって指定した場所にジャンプする。続けてジャンプしながら地面を踏みつけ、範囲内にいる相手のポケモンにダメージを与えて移動速度をしばらくの間下げる。最後に地面を踏みつけるとき、範囲内にいる相手のポケモンをふき飛ばす。",
           "en": "Becomes immune to hindrances and leaps to the designated location. Continues jumping and stomping the ground, dealing damage to opposing Pokémon in the area and decreasing their movement speed for a short time. When stomping the ground for the last time, throws opposing Pokémon in the area into the air."
+        },
+        "buffs": {
+          "movementSpeedPct": 30,
+          "shieldPct": 40,
+          "durationMs": 6000,
+          "raw": "30% Movement Speed, 40% Max HP Shield"
         }
       },
       "passiveCondition": {
@@ -14349,6 +14862,13 @@
           "ko": "공중에 떠올라 자신의 주변에 필드를 발생시키고 보호 상태가 된다. 자신과 필드 안에 있는 같은 편 포켓몬은 은신 상태가 된다. 일정 시간이 지나면 범위 안에 있는 상대편 포켓몬에게 데미지를 준다.",
           "ja": "空中に浮かび上がり自分の周囲にフィールドを発生させて、無敵状態になる。自分とフィールド内にいる味方のポケモンはステルス状態になる。一定時間が経つと範囲内にいる相手のポケモンにダメージを与える。",
           "en": "Rises into the air, generating a field around the user and entering an invincible state. The user and allied Pokémon inside the field enter a stealthed state. After a set amount of time, deals damage to opposing Pokémon in the area."
+        },
+        "buffs": {
+          "movementSpeedPct": 30,
+          "cdrPct": 30,
+          "shieldPct": 20,
+          "durationMs": 6000,
+          "raw": "30% Movement Speed, 30% CDR, 20% Max HP Shield"
         }
       },
       "passiveCondition": {
@@ -14529,6 +15049,13 @@
           "ko": "유성을 5개 연속으로 떨어뜨려 상대편 포켓몬에게 데미지를 준다. 유성이 상대편 포켓몬에게 명중하면 다음에 떨어지는 유성이 주는 데미지가 증가한다. 마지막에 떨어지는 유성은 주는 데미지가 높으며 범위가 커지고 상대를 날려버린다.",
           "ja": "流星を5個連続で落として相手のポケモンにダメージを与える。流星が相手のポケモンに命中すると次に落ちる流星が与えるダメージが増加する。最後に落ちる流星は与えるダメージが高く範囲が大きくなり、相手をふき飛ばす。",
           "en": "Drops 5 meteors in succession, dealing damage to opposing Pokémon. When a meteor hits an opposing Pokémon, the damage of the next falling meteor increases. The last falling meteor deals high damage, has a larger area, and blows away opposing Pokémon."
+        },
+        "buffs": {
+          "movementSpeedPct": 30,
+          "cdrPct": 30,
+          "shieldPct": 20,
+          "durationMs": 6000,
+          "raw": "30% Movement Speed, 30% CDR, 20% Max HP Shield"
         }
       },
       "passiveCondition": {
@@ -14712,6 +15239,12 @@
           "ko": "지정한 장소로 점프하여 팬터마임을 선보인다. 범위 안에 있는 상대편 포켓몬에게 계속해서 데미지를 주고 잠시 동안 행동할 수 없게 만든다.",
           "ja": "指定した場所にジャンプしてパントマイムを披露する。範囲内にいる相手のポケモンに継続してダメージを与えてしばらくの間行動できなくする。",
           "en": "Jumps to the designated location to perform a pantomime. Continuously deals damage to opposing Pokémon in the area and makes them unable to act for a short time."
+        },
+        "buffs": {
+          "movementSpeedPct": 30,
+          "shieldPct": 30,
+          "durationMs": 6000,
+          "raw": "30% Movement Speed, 30% Max HP Shield"
         }
       },
       "passiveCondition": {
@@ -14893,6 +15426,13 @@
           "ko": "지정한 상대 팀의 포켓몬에게 돌진하고 털에 모은 전기를 모두 방출하여 상대편 포켓몬과 그 주변에 데미지를 준다. 유나이트 기술을 사용한 뒤 몸 전체의 전기를 잃고 일정 시간 격투 모드가 된다. 격투 모드에서는 일반 공격이나 기술 효과가 변하며 유나이트 기술의 게이지가 모이지 않는다. 이 유나이트 기술의 게이지는 일반 공격이나 기술을 상대 팀의 포켓몬에게 명중시켰을 때에만 모인다.",
           "ja": "指定した相手チームのポケモンに突進し、毛に蓄えた電気をすべて放出して相手のポケモンとその周辺にダメージを与える。ユナイトわざを使った後、体全体の電気を失い一定時間かくとうモードになる。かくとうモードでは通常攻撃やわざ効果が変わり、ユナイトわざのゲージが溜まらない。このユナイトわざのゲージは通常攻撃やわざを相手チームのポケモンに命中させたときにのみ溜まる。",
           "en": "Charges at the designated opposing Pokémon and releases all stored electricity from its fur, dealing damage to that Pokémon and those nearby. After using this Unite Move, the electricity from the body is lost and Fighting Mode activates for a set time. In Fighting Mode, the effects of basic attacks and moves change, and the Unite Move gauge cannot be charged. This Unite Move gauge only charges when basic attacks or moves hit opposing team's Pokémon."
+        },
+        "buffs": {
+          "movementSpeedPct": 50,
+          "attackSpeedPct": 35,
+          "shieldPct": 20,
+          "durationMs": 6000,
+          "raw": "50% Movement Speed, 35% Attack Speed, 20% Max HP Shield"
         }
       },
       "passiveCondition": {
@@ -15087,6 +15627,13 @@
           "ko": "지정한 범위에 전기로 별 모양 공간을 만들고 상대편 포켓몬에게 데미지와 감속 효과를 준다. 공간은 잠시 그 장소에 남으며 지속 데미지와 감속 효과를 준다. 공간 안에 있는 상대편 포켓몬에게 일반 공격을 명중시키면 다음 일반 공격이 강화 공격이 된다.",
           "ja": "指定した範囲に電気で星型の空間を作って、相手のポケモンにダメージと減速効果を与える。空間はしばらくその場所に残り、継続ダメージと減速効果を与える。空間内にいる相手のポケモンに通常攻撃を命中させると、次の通常攻撃が強化攻撃になる。",
           "en": "Creates a star-shaped electric zone in the designated area, dealing damage to and slowing opposing Pokémon. The zone remains briefly, continuing to deal damage and slow. Basic attacks hitting opposing Pokémon inside the zone make the next basic attack a boosted attack."
+        },
+        "buffs": {
+          "movementSpeedPct": 30,
+          "attackSpeedPct": 35,
+          "shieldPct": 20,
+          "durationMs": 6000,
+          "raw": "30% Movement Speed, 35% Attack Speed, 20% Max HP Shield"
         }
       },
       "passiveCondition": {
@@ -15273,6 +15820,13 @@
           "ko": "양 눈에서 빛을 발산하여 전방의 범위 안에 있는 상대편 포켓몬에게 데미지를 준다. 자신을 향하고 있는 상대 팀의 포켓몬은 움츠러들어 자기도 모르게 스타트 지점으로 돌아가려고 한다. 스타트 지점으로 돌아가려 할 때 데미지를 받으면 그 자리에 멈춰 서며 잠시 동안 행동할 수 없게 된다. 자신을 향하지 않고 있는 상대편 포켓몬은 잠시 동안 이동 속도가 떨어진다.",
           "ja": "両目から光を放って前方の範囲内にいる相手のポケモンにダメージを与える。自分を向いている相手チームのポケモンはひるんでスタート地点に戻ろうとする。スタート地点に戻ろうとしているときにダメージを受けるとその場に止まり、しばらくのあいだ行動できなくなる。自分を向いていない相手のポケモンはしばらくのあいだ移動速度が下がる。",
           "en": "Emits light from both eyes, dealing damage to opposing Pokémon in the area ahead. Opposing Pokémon facing the user are sent back toward their goal zone. If they take damage while returning, they stop and are briefly immobilized. Opposing Pokémon not facing the user have their movement speed reduced briefly."
+        },
+        "buffs": {
+          "movementSpeedPct": 30,
+          "cdrPct": 30,
+          "shieldPct": 20,
+          "durationMs": 6000,
+          "raw": "30% Movement Speed, 30% CDR, 20% Max HP Shield"
         }
       },
       "passiveCondition": {
@@ -15453,6 +16007,12 @@
           "ko": "상대 팀의 포켓몬을 바라보며 계속 공격하고 데미지와 바인드 효과를 준다. 자신은 실드 효과를 얻고 기술을 사용하는 동안 방해받지 않게 된다.",
           "ja": "相手チームのポケモンを見ながら攻撃し続け、ダメージとバインド効果を与える。自分はシールド効果を得て、技を使っている間じゃまされなくなる。",
           "en": "Continuously attacks an opposing Pokémon while facing them, dealing damage and binding them. Gains a shield and becomes immune to hindrances while using this move."
+        },
+        "buffs": {
+          "movementSpeedPct": 30,
+          "shieldPct": 40,
+          "durationMs": 6000,
+          "raw": "30% Movement Speed, 40% Max HP Shield"
         }
       },
       "passiveCondition": {
@@ -15645,6 +16205,13 @@
           "ko": "날아올라 한순간 보호 상태가 된다. 착지한 순간 범위 안에 있는 상대편 포켓몬에게 데미지를 주고 자신의 HP를 회복한다. 그 뒤 잠시 동안 준 데미지를 일정 비율로 자신의 HP로 바꾼다.",
           "ja": "飛び上がって一瞬保護状態になる。着地した瞬間、範囲内にいる相手のポケモンにダメージを与えて自分のHPを回復する。その後しばらくのあいだ与えたダメージを一定の割合で自分のHPに変換する。",
           "en": "Leaps into the air and becomes briefly protected. Upon landing, deals damage to opposing Pokémon in the area and restores the user's HP. Afterward, converts a portion of damage dealt into HP briefly."
+        },
+        "buffs": {
+          "movementSpeedPct": 30,
+          "cdrPct": 30,
+          "shieldPct": 20,
+          "durationMs": 6000,
+          "raw": "30% Movement Speed, 30% CDR, 20% Max HP Shield"
         }
       },
       "passiveCondition": {
@@ -15825,6 +16392,12 @@
           "ko": "공중제비를 돈 뒤 전방으로 돌격한다. 진행 방향에 있는 상대편 포켓몬에게 데미지를 주고 밀쳐낸다.",
           "ja": "宙返りをした後、前方に突撃する。進行方向にいる相手のポケモンにダメージを与えてはじき出す。",
           "en": "Performs a flip, then charges forward. Deals damage to and shoves opposing Pokémon in its path."
+        },
+        "buffs": {
+          "movementSpeedPct": 80,
+          "shieldPct": 20,
+          "durationMs": 6000,
+          "raw": "80% Movement Speed, 20% Max HP Shield"
         }
       },
       "passiveCondition": {
@@ -16005,6 +16578,13 @@
           "ko": "상대 팀의 포켓몬에게 덤벼들어 높이 차올리고 공중에서 연속으로 킥을 날려서 데미지를 준다. 킥을 끝내고 착지했을 때 자신의 HP를 회복한다. 공중에 있는 동안 공격을 받는 상대편 포켓몬과 달코퀸은 다른 기술의 영향을 받지 않는다.",
           "ja": "相手チームのポケモンに飛びかかって高く蹴り上げ、空中で連続でキックを繰り出してダメージを与える。キックを終えて着地したとき自分のHPを回復する。空中にいる間、攻撃を受けている相手のポケモンとツタージャは他の技の影響を受けない。",
           "en": "Pounces on an opposing Pokémon, launching them high and delivering a flurry of kicks in the air to deal damage. Restores the user's HP upon landing after the kicks end. While airborne, the opposing Pokémon being attacked and Tsareena are unaffected by other moves."
+        },
+        "buffs": {
+          "movementSpeedPct": 30,
+          "cdrPct": 30,
+          "shieldPct": 20,
+          "durationMs": 6000,
+          "raw": "30% Movement Speed, 30% CDR, 20% Max HP Shield"
         }
       },
       "passiveCondition": {
@@ -16187,6 +16767,13 @@
           "ko": "분노를 폭발시켜 난동을 부린다. 잠시 동안 이동 속도가 오르고 방해를 받더라도 원래보다 짧은 시간 안에 정상으로 돌아온다. 난동을 부리는 동안에는 일반 공격의 움직임이 변하며 주는 데미지가 증가한다. 이 일반 공격을 맞은 상대편 포켓몬의 남은 HP가 일정 비율보다 낮은 경우 그 포켓몬은 즉시 KO 당한다.",
           "ja": "怒りを爆発させて暴れまわる。しばらくの間移動速度が上がり、妨害を受けても元よりも短い時間で正常に戻る。暴れている間はノーマルアタックの動きが変わり与えるダメージが増加する。このノーマルアタックを受けた相手ポケモンの残りHPが一定割合より低い場合、そのポケモンは即座にKOされる。",
           "en": "Explodes with rage and goes on a rampage. Briefly increases movement speed and reduces the duration of CC effects. While rampaging, the user's basic attack pattern changes and deals increased damage. Opposing Pokémon hit by these basic attacks are instantly KO'd if their remaining HP falls below a certain threshold."
+        },
+        "buffs": {
+          "movementSpeedPct": 30,
+          "cdrPct": 30,
+          "shieldPct": 20,
+          "durationMs": 6000,
+          "raw": "30% Movement Speed, 30% CDR, 20% Max HP Shield"
         }
       },
       "passiveCondition": {
@@ -16368,6 +16955,12 @@
           "ko": "전투에서 벗어나 있는 동안 자신의 HP를 지속해서 회복한다. 기술을 사용하면 날아올라 주변에 있는 상대편 포켓몬의 실드 효과의 일부를 흡수하고 자신의 실드로 만든 뒤 착지하는 순간에 범위 안에 있는 상대편 포켓몬에게 데미지를 주고 행동할 수 없게 만든다. 그 뒤 잠시 동안 범위 안에 있는 상대편 포켓몬이 실드 효과를 얻을 때 효과의 일부를 흡수해서 자신의 실드로 만든다.",
           "ja": "戦闘から離れている間、自分のHPを継続して回復する。わざを使うと飛び上がり、周囲にいる相手ポケモンのシールド効果の一部を吸収して自分のシールドにしたあと着地する瞬間に範囲内にいる相手ポケモンにダメージを与え行動できなくする。その後しばらくの間、範囲内にいる相手ポケモンがシールド効果を得るとその一部を吸収して自分のシールドにする。",
           "en": "Continuously recovers HP while out of combat. When used, leaps into the air, absorbing a portion of nearby opposing Pokémon's shields to convert into the user's own shield, then deals damage and immobilizes opponents in range upon landing. Afterward, briefly absorbs a portion of any shields applied to nearby opposing Pokémon and converts them into the user's shield."
+        },
+        "buffs": {
+          "movementSpeedPct": 30,
+          "shieldPct": 10,
+          "durationMs": 6000,
+          "raw": "30% Movement Speed, 10% Max HP Shield"
         }
       },
       "passiveCondition": {
@@ -16554,6 +17147,13 @@
           "ko": "리사이틀을 시작한다. 자신과 주변에 있는 같은 편 포켓몬에 실드 효과를 부여하고 상태 이상을 회복하며 잠시 동안 방해받지 않게 된다.",
           "ja": "リサイタルを開始する。自分と周囲にいる味方ポケモンにシールド効果を付与して状態異常を回復し、しばらくの間妨害を受けなくなる。",
           "en": "Begins a recital, granting a shield to the user and nearby ally Pokémon while curing status conditions and making them CC-immune for a short time."
+        },
+        "buffs": {
+          "movementSpeedPct": 30,
+          "cdrPct": 30,
+          "shieldPct": 20,
+          "durationMs": 6000,
+          "raw": "30% Movement Speed, 30% CDR, 20% Max HP Shield"
         }
       },
       "passiveCondition": {
@@ -16695,6 +17295,12 @@
           "ko": "목에 달린 꽃잎에서 달콤한 향기를 흩뿌려 상대편 포켓몬에게 데미지를 준다. 또한 주변에 있는 상대편 포켓몬의 싸울 의욕을 약하게 만들어 주는 데미지를 감소시킨다. 달콤한 향기를 흩뿌리는 동안 다음에 사용하는 기술이 강화되어 만개 기술이 된다. 기술을 상대편 포켓몬에게 명중시키면 유나이트 기술 게이지가 모인다.",
           "ja": "首についた花びらから甘い香りを散らして相手のポケモンにダメージを与える。また、周囲にいる相手のポケモンの戦意を弱めて与えるダメージを減少させる。甘い香りを散らしている間、次に使用する技が強化されてまんかい技になる。技を相手のポケモンに命中させると、ユナイト技ゲージがたまる。",
           "en": "Releases a sweet scent from the petals on the user neck, dealing damage to opposing Pokémon. Also weakens the fighting spirit of nearby opposing Pokémon, reducing their damage output. While the scent is being released, the next move used is powered up and becomes a fully bloomed move. Hitting opposing Pokémon with moves charges the Unite Move gauge."
+        },
+        "buffs": {
+          "movementSpeedPct": 10,
+          "shieldPct": 10,
+          "durationMs": 5000,
+          "raw": "10% Movement Speed, 10% Max HP Shield"
         }
       },
       "passiveCondition": {
@@ -16831,6 +17437,13 @@
           "ko": "용맹한 노랫소리로 자신의 주변에 있는 같은 편을 북돋아, 같은 팀 포켓몬이 상대 팀에게 주는 데미지가 짧은 시간 동안 증가한다. 그 뒤 지정한 방향으로 커다란 불꽃 새를 날려 상대편 포켓몬에게 데미지를 준다.",
           "ja": "勇ましい歌声で 自分の周囲にいる 味方をふるい立たせ、味方ポケモンが 相手チームにあたえるダメージが 短いあいだ 増加する。その後、指定した方向に 大きな炎の鳥を飛ばし、相手ポケモンに ダメージをあたえる。",
           "en": "Sings a rousing song that emboldens nearby allies, increasing the damage they deal to the enemy team for a short time. Then sends a large bird of flame flying in the designated direction, dealing damage to opposing Pokémon."
+        },
+        "buffs": {
+          "movementSpeedPct": 30,
+          "cdrPct": 30,
+          "shieldPct": 20,
+          "durationMs": 6000,
+          "raw": "30% Movement Speed, 30% CDR, 20% Max HP Shield"
         }
       },
       "passiveCondition": {
@@ -16970,6 +17583,13 @@
           "ko": "제자리에서 화려한 스텝을 밟으며 주변 상대를 끌어당겨 데미지를 주고 행동 불가 상태로 만든다. 발동 시 실드를 얻으며, 명중한 상대 수에 따라 실드가 강화되고 텐션이 상승한다. 데미지(3회): 공격의 150%+448. 행동 불가: 1초. 실드: 공격의 120%+360. 추가 실드(최대 3중첩): 공격의 39.99%+119. 능력 상승(6초): 이동 속도 +30%, 기술 대기시간 -30%, 실드 최대 HP의 20%. 스텝 중에는 방해 효과를 무효화하며, 세 번째 데미지 시 야생 포켓몬을 제외한 상대를 끌어당긴다.",
           "ja": "その場で華麗なステップを踏みながら周囲の相手を引き寄せてダメージを与え、行動不能にする。発動時にシールドを獲得し、命中した相手の数に応じてシールドが強化されテンションが上昇する。ダメージ(3回)：攻撃の150%+448。行動不能：1秒。シールド：攻撃の120%+360。追加シールド(最大3スタック)：攻撃の39.99%+119。能力上昇(6秒)：移動速度+30%、技の待ち時間-30%、シールド最大HPの20%。ステップ中は妨害を無効化し、3回目のダメージ時に野生を除く相手を引き寄せる。",
           "en": "Steps in place with a flourish, pulling in nearby opponents to deal damage and render them unable to act. Grants a shield on activation; the shield is strengthened and vibes increase based on the number of opponents hit. Damage (3 hits): 150% of Attack +448. Unable to act: 1s. Shield: 120% of Attack +360. Additional shield (up to 3 stacks): 39.99% of Attack +119. Stat boost (6s): movement speed +30%, cooldown reduction -30%, shield of 20% of max HP. The user is immune to hindrances while stepping, and the 3rd hit pulls in opponents (excluding wild Pokemon)."
+        },
+        "buffs": {
+          "movementSpeedPct": 30,
+          "cdrPct": 30,
+          "shieldPct": 20,
+          "durationMs": 6000,
+          "raw": "30% Movement Speed, 30% CDR, 20% Max HP Shield"
         }
       },
       "passiveCondition": {
@@ -17110,6 +17730,13 @@
           "ko": "지정한 장소에 강렬한 광선을 계속 쏘아, 충격파로 범위 안에 있는 상대 포켓몬에게 지속적으로 데미지를 준다. 광선을 계속 쏠수록 충격파의 범위가 넓어지고, 마지막에는 커다란 폭발을 일으켜 상대 포켓몬에게 큰 데미지를 준다. 광선을 쏘는 동안은 방해 내성을 얻는다.",
           "ja": "指定した場所に強烈な光線を撃ち続け、衝撃波で範囲内にいる相手のポケモンにダメージを与え続ける。光線を撃ち続けるほど衝撃波の範囲が広がり、最後に大きな爆発を起こして相手のポケモンに大ダメージを与える。光線を撃っている間は妨害耐性を得る。",
           "en": "Continuously fires an intense beam at the designated location, dealing sustained damage to opposing Pokemon within its area via shockwaves. The longer the beam is fired, the wider the shockwave's area becomes, and it ends with a massive explosion that deals heavy damage to opposing Pokemon. Yveltal gains hindrance resistance while firing the beam."
+        },
+        "buffs": {
+          "movementSpeedPct": 30,
+          "cdrPct": 30,
+          "shieldPct": 20,
+          "durationMs": 6000,
+          "raw": "30% Movement Speed, 30% CDR, 20% Max HP Shield"
         }
       },
       "passiveCondition": {
@@ -17248,6 +17875,13 @@
           "ko": "공간의 틈새로 몸을 숨겨 최대 3초간 무적이 된다. 재사용하면 지정한 범위를 여러 번 베어 데미지를 주며 출현한다. 발동 직전 데미지를 준 횟수만큼 참격 횟수가 최대 7번까지 증가하며, 최대 횟수에 도달하면 다른 기술의 대기 시간이 0이 된다.",
           "ja": "空間のはざまへと姿を消し、最大3秒間無敵になる。再使用すると指定範囲を複数回切り裂いてダメージを与えながら出現する。発動直前にダメージを与えた回数だけ斬撃回数が最大7回まで増加し、最大回数に達すると他のわざの待ち時間が0になる。",
           "en": "Hides in a spatial rift, becoming invincible for up to 3 seconds. Reusing it unleashes multiple slashes over the designated area, dealing damage as Palkia reappears. The number of slashes increases up to 7 based on how many times damage was dealt just before activation, and reaching the maximum resets all other move cooldowns to zero."
+        },
+        "buffs": {
+          "movementSpeedPct": 15,
+          "cdrPct": 15,
+          "shieldPct": 10,
+          "durationMs": 6000,
+          "raw": "15% Movement Speed, 15% CDR, 10% Max HP Shield"
         }
       },
       "passiveCondition": {
@@ -17384,6 +18018,13 @@
           "ko": "지정한 방향으로 거대한 불꽃을 내리쳐 상대편 포켓몬에게 데미지를 준다. 2회 발동한 뒤, 다음 1번은 더 강력한 불꽃으로 공격하여 범위 안에 있는 상대편 포켓몬에게 데미지를 주고 행동 불가로 만들며, 그 뒤 장외에서 제크로무가 지원하러 와서 상대편 포켓몬을 공격한다. 기술은 최대 3번까지 충전할 수 있다.",
           "ja": "指定した方向に巨大なほのおを叩きつけ、相手にダメージを与える。2回発動したあと、次の1回はより強力なほのおで攻撃し、範囲内の相手にダメージを与えて行動不能にする。そのあと、場外からゼクロムが応援に駆けつけ、相手を攻撃する。このわざは最大3回までチャージできる。",
           "en": "Strikes down a massive flame in the designated direction, dealing damage to opposing Pokémon. After being used twice, the next use attacks with an even more powerful flame that damages opposing Pokémon in the area of effect and renders them unable to act, after which Zekrom arrives from off the field to support Reshiram and attack opposing Pokémon. This move can be charged up to 3 times."
+        },
+        "buffs": {
+          "movementSpeedPct": 30,
+          "cdrPct": 30,
+          "shieldPct": 20,
+          "durationMs": 6000,
+          "raw": "30% Movement Speed, 30% CDR, 20% Max HP Shield. The cooldown of Energy Amplifier is increased to 30s, and the cooldown of Buddy Barrier is increased to 60s."
         }
       },
       "passiveCondition": {
