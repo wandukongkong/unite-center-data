@@ -3978,16 +3978,9 @@
   "102": {
     "_name": "메가뮤츠X (Mega Mewtwo X)",
     "B": {
-      "ratio": "115",
+      "ratio": "120",
       "base": "0",
-      "slider": "0",
-      "addons": [
-        {
-          "ratio": "120",
-          "base": "0",
-          "slider": "0"
-        }
-      ]
+      "slider": "0"
     },
     "X": {
       "ratio": "150",
