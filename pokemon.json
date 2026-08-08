@@ -14897,8 +14897,10 @@
         }
       },
       "passiveCondition": {
-        "type": "not-applicable",
-        "reason": "철주먹: 펀치 기술 데미지 증가 — 기술 유형 특화 버프",
+        "type": "move-cast",
+        "activeDurationMs": 3000,
+        "cooldownMs": 0,
+        "reason": "철주먹: 기술 명중 후 다음 일반 공격 강화(+회복) — 기술사용 트리거 자가 딜 버프",
         "isNew": true
       }
     },
@@ -17366,7 +17368,7 @@
         }
       ],
       "uniteMove": {
-        "id": "flames_that_brings_lightning",
+        "id": "flames_that_bring_lightning",
         "name": {
           "ko": "열화초뢰",
           "ja": "烈火超雷",
