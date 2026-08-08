@@ -1049,7 +1049,7 @@
       },
       "passiveCondition": {
         "type": "not-applicable",
-        "reason": "복합: 방패 누적 + 특수 지형 생성",
+        "reason": "프레셔: 저체력+빙결 대상 처형 트루뎀 + 강화 기본공격 게이지 — 자가 딜% 아님",
         "isNew": false
       }
     },
@@ -5867,7 +5867,7 @@
       },
       "passiveCondition": {
         "type": "not-applicable",
-        "reason": "피격 1회 흡수 후 형태 전환 — 방어형",
+        "reason": "탈: 피격 시 탈 파괴 → 리벤지마크 대상 딜 +10%(무피격 시뮬 미발동)",
         "isNew": false
       }
     },
@@ -7879,7 +7879,7 @@
       },
       "passiveCondition": {
         "type": "not-applicable",
-        "reason": "무쌍의검 — HP 비례 추가 데미지, DPS 시뮬 미모델링"
+        "reason": "무쌍의검: 골 버튼 홀드 시 부스트공격 전환 메커니즘, 딜% 아님"
       }
     },
     "isFlying": false,
@@ -8257,13 +8257,9 @@
         }
       },
       "passiveCondition": {
-        "type": "stack-permanent",
-        "maxStacks": 60,
-        "milestones": [
-          20,
-          40,
-          60
-        ]
+        "type": "not-applicable",
+        "reason": "무쇠주먹: 상대 방벽 대상 조건부 추가뎀(방벽 피해의 30%). DPS는 방벽 미가정",
+        "isNew": true
       }
     },
     "isFlying": false,
@@ -10981,7 +10977,7 @@
       },
       "passiveCondition": {
         "type": "not-applicable",
-        "reason": "특수공격 데미지를 받을 때 발동 — HP 조건부 방어형",
+        "reason": "타오르는불꽃: 특수공격 피격 트리거 후 다음 평타 추가뎀 — DPS 공격 시나리오 미발동",
         "isNew": true
       }
     },
@@ -13649,7 +13645,7 @@
       },
       "passiveCondition": {
         "type": "not-applicable",
-        "reason": "햇살이 강할 때 이동 속도 증가 — 날씨 조건부 유틸리티",
+        "reason": "클로로필: 풀숲 밖 게이지 충전 시 이동속도 +15% — 딜 무관 유틸",
         "isNew": true
       }
     },
@@ -14536,8 +14532,11 @@
         }
       },
       "passiveCondition": {
-        "type": "not-applicable",
-        "reason": "기술 명중 시 일렉트릭필드 전개 + EOS에너지 소모 확장",
+        "type": "cooldown-cycle",
+        "intervalMs": 30000,
+        "activeDurationMs": 10000,
+        "dmgBonusPct": 30,
+        "reason": "하드론엔진: 일렉트릭필드 위 무브딜 +30%(무브 한정·약 33% 업타임 근사, 기본공격엔 미적용분 과대 주의)",
         "isNew": true
       }
     },
@@ -16009,12 +16008,10 @@
         }
       },
       "passiveCondition": {
-        "type": "charge-n",
-        "triggerCount": 3,
-        "activeDurationMs": 2000,
-        "cooldownMs": 0,
-        "countTarget": "skill_or_boosted",
-        "reason": "유나이트 기술 이외의 기술·강화 공격을 3번 사용하면 4번째에 추가 효과 발생 — 카운터형",
+        "type": "stack-permanent",
+        "dmgBonusPctPerStack": 8,
+        "maxStacks": 6,
+        "reason": "트리플악셀 히트당 +8% 딜(자동공격+트리플악셀), 최대 6스택(+48%). 빌드 종속(트리플악셀 채택 시). 여왕의위엄 재사용 메커닉은 passiveCondition 미표현",
         "isNew": true
       }
     },
@@ -16838,10 +16835,11 @@
       },
       "passiveCondition": {
         "type": "cooldown-cycle",
-        "intervalMs": 20000,
+        "intervalMs": 15000,
         "activeDurationMs": 0,
         "spDefIgnorePct": 35,
-        "isNew": true
+        "isNew": true,
+        "reason": "맹화: 주기마다 다음 스킬 1회 상대 특방 35% 무시 (true_desc 15s CD)"
       }
     }
   },
@@ -17115,8 +17113,10 @@
         }
       },
       "passiveCondition": {
-        "type": "not-applicable",
-        "reason": "다크오라는 적에게 파괴 카운터(디버프)를 부여하고 HP 임계 이하 즉시 KO(처치 조건부)하는 메카닉 — 자가 DPS 버프가 아님",
+        "type": "stack-permanent",
+        "dmgBonusPctPerStack": 3,
+        "maxStacks": 5,
+        "reason": "다크오라: 표식 대상 스택당 +3% 딜, 최대 5스택(+15%), 3초 지속 재적용",
         "isNew": true
       }
     }
