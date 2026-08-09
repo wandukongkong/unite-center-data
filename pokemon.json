@@ -1585,7 +1585,8 @@
             "ko": "업그레이드 후에는 전류 공간을 통과했을 때 전기 덩어리가 더 커지며 상대편 포켓몬을 행동 불가로 만드는 시간이 길어진다.",
             "ja": "アップグレード後は、電流空間を通過したとき電気の塊がさらに大きくなり、相手のポケモンを行動不能にする時間が長くなる。",
             "en": "Upgrades so the ball grows even larger when passing through an electric field, and the duration of the unable-to-act status is extended."
-          }
+          },
+          "chargeCount": 2
         }
       ],
       "uniteMove": {
@@ -5520,7 +5521,8 @@
             "ko": "기술이 주는 데미지가 증가한다.",
             "ja": "技が与えるダメージが増加する。",
             "en": "Increases the damage this move deals."
-          }
+          },
+          "chargeCount": 3
         }
       ],
       "uniteMove": {
@@ -10030,7 +10032,8 @@
             "ko": "업그레이드 후에는 명중 시 상대에게 추가 데미지를 1번 준다. 추가 데미지 공격의 50% 5초",
             "ja": "強化後は、命中時に相手に追加ダメージを1回与える。追加ダメージ：攻撃の50% 5秒",
             "en": "After upgrading, deals one instance of bonus damage to opposing Pokemon on hit. Bonus damage: 50% of Attack for 5s."
-          }
+          },
+          "chargeCount": 2
         },
         {
           "id": "stealth_rock",
@@ -10052,7 +10055,8 @@
             "ko": "업그레이드 후에는 충전 최대 횟수가 늘어난다. 충전 1회 증가",
             "ja": "強化後は、チャージの最大回数が増加する。チャージ1回増加",
             "en": "After upgrading, the maximum number of charges increases by 1."
-          }
+          },
+          "chargeCount": 2
         }
       ],
       "uniteMove": {
@@ -10616,7 +10620,8 @@
             "ko": "충전 횟수 회복 시간이 짧아진다.",
             "ja": "充填回数の回復時間が短くなる。",
             "en": "Reduces the time needed to recover charges."
-          }
+          },
+          "chargeCount": 3
         },
         {
           "id": "liquidation",
@@ -12091,7 +12096,8 @@
             "ko": "남은 HP가 낮은 상대에게 주는 데미지가 증가한다.",
             "ja": "残りHPが低い相手に与えるダメージが増加する。",
             "en": "Increases damage dealt to opponents with low remaining HP."
-          }
+          },
+          "chargeCount": 3
         },
         {
           "id": "leaf_blade",
@@ -12422,7 +12428,8 @@
             "ja": "前方扇形範囲をくちばしで攻撃する。当たった相手のポケモンに攻撃ダウン+やけど、攻撃速度ダウン、移動速度ダウンのいずれかをランダムで付与する。ダッシュゲージが満タンの時は3色の弾丸を飛ばし、色に応じた効果を付与する。このわざ使用後の次の通常攻撃が追加ダメージを与えHPを回復する。最大2回チャージ可能。強化後はHP回復量が増加し、ダッシュゲージ満タン時の待機時間がさらに短くなる。",
             "en": "Attacks a fan-shaped area in front with its beak. Randomly applies one of the following to opposing Pokemon hit: Attack reduction + burn, attack speed reduction, or movement speed reduction. When the Dash Gauge is full, fires 3 colored bullets that each apply their respective effect. The next basic attack after using this move deals bonus damage and restores HP. Can be charged up to 2 times. Upgrade: increases HP restoration and further reduces cooldown when Dash Gauge is full."
           },
-          "unlockedAtLevel": 5
+          "unlockedAtLevel": 5,
+          "chargeCount": 2
         },
         {
           "id": "drill_peck",
@@ -12987,7 +12994,8 @@
             "ja": "指定した方向に突撃し、相手のポケモンにダメージを与える。派兵の陣に変更し、命中した相手のポケモンにメンバーを2匹向かわせる。メンバーはしばらくの間相手のポケモンを攻撃し続けるが、一定以上のダメージを受けるかリーダーと距離が離れると戻っていく。最大2回チャージ可能。強化後はこのわざが命中した時に自分のHPを回復する。",
             "en": "Charges in the designated direction, dealing damage to opposing Pokemon and switching to Formation Scatter. Two members are dispatched to face the hit opposing Pokemon and attack repeatedly, but return if they take too much damage or stray too far from the leader. Can be charged up to 2 times. Upgrade: restores HP when this move hits."
           },
-          "unlockedAtLevel": 6
+          "unlockedAtLevel": 6,
+          "chargeCount": 2
         }
       ],
       "uniteMove": {
@@ -15010,7 +15018,8 @@
             "ko": "업그레이드 후에는 기술을 충전할 수 있는 횟수가 회복되는 시간이 짧아진다.",
             "ja": "強化後はわざを充電できる回数が回復する時間が短くなる。",
             "en": "Upgrade: The time it takes to recover charges decreases."
-          }
+          },
+          "chargeCount": 2
         },
         {
           "id": "lightning_rod",
