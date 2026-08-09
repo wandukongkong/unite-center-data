@@ -5372,33 +5372,33 @@
       "slider": ""
     },
     "X": {
-      "ratio": "130",
-      "base": "0",
-      "slider": "0",
+      "ratio": "189",
+      "base": "110",
+      "slider": "6",
       "addons": [
         {
-          "ratio": "189",
-          "base": "110",
-          "slider": "6"
+          "ratio": "130",
+          "base": "0",
+          "slider": "0"
         }
       ]
     },
     "R": {
-      "ratio": "111.6",
-      "base": "216",
-      "slider": "11",
+      "ratio": "186",
+      "base": "360",
+      "slider": "19",
       "addons": [
         {
-          "ratio": "186",
-          "base": "360",
-          "slider": "19"
+          "ratio": "111.6",
+          "base": "216",
+          "slider": "11"
         }
       ]
     },
     "R1": {
-      "ratio": "100",
-      "base": "140",
-      "slider": "6",
+      "ratio": "90",
+      "base": "110",
+      "slider": "3",
       "addons": [
         {
           "ratio": "4.9",
@@ -5406,9 +5406,9 @@
           "slider": "0"
         },
         {
-          "ratio": "90",
-          "base": "110",
-          "slider": "3"
+          "ratio": "100",
+          "base": "140",
+          "slider": "6"
         },
         {
           "ratio": "63.6",
