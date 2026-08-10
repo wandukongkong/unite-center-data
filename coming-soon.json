@@ -11,17 +11,6 @@
     "spriteId": 791
   },
   {
-    "id": "cs_reshiram",
-    "name": {
-      "ko": "레시라무",
-      "en": "Reshiram",
-      "ja": "レシラム"
-    },
-    "role": "Balance",
-    "difficulty": "Novice",
-    "spriteId": 643
-  },
-  {
     "id": "cs_toxtricity",
     "name": {
       "ko": "스트린더",
