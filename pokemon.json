@@ -17996,6 +17996,7 @@
       "moves": [
         {
           "id": "dragon_breath",
+          "slot": 0,
           "name": {
             "ko": "용의숨결",
             "ja": "りゅうのいぶき",
@@ -18014,6 +18015,7 @@
         },
         {
           "id": "tailwind",
+          "slot": 1,
           "name": {
             "ko": "순풍",
             "ja": "おいかぜ",
@@ -18032,6 +18034,7 @@
         },
         {
           "id": "dragon_dance",
+          "slot": 1,
           "name": {
             "ko": "용의춤",
             "ja": "りゅうのまい",
@@ -18054,6 +18057,7 @@
         },
         {
           "id": "blue_flare",
+          "slot": 0,
           "name": {
             "ko": "푸른불꽃",
             "ja": "あおいほのお",
@@ -18104,8 +18108,8 @@
         }
       },
       "passiveCondition": {
-        "type": "not-applicable",
-        "reason": "터보블레이즈: 20초 쿨다운 푸른 파이어볼(남은 실드 50% 파괴) — 주기형 딜 패시브, DPS 반영 방식 수동 확인 필요",
+        "type": "periodic-damage",
+        "intervalMs": 20000,
         "isNew": true
       }
     }
