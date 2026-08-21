@@ -1,16 +1,5 @@
 [
   {
-    "id": "cs_solgaleo",
-    "name": {
-      "ko": "솔가레오",
-      "en": "Solgaleo",
-      "ja": "ソルガレオ"
-    },
-    "role": "Balance",
-    "difficulty": "Novice",
-    "spriteId": 791
-  },
-  {
     "id": "cs_toxtricity",
     "name": {
       "ko": "스트린더",

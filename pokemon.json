@@ -18113,5 +18113,18 @@
         "isNew": true
       }
     }
+  },
+  {
+    "id": "151",
+    "name": {
+      "ko": "솔가레오",
+      "en": "Solgaleo",
+      "ja": "ソルガレオ"
+    },
+    "role": "unknown",
+    "difficulty": "unknown",
+    "attackType": "unknown",
+    "imageUrl": "https://placehold.co/80x80/CCCCCC/FFF?text=SOL",
+    "spriteId": 791
   }
 ]
