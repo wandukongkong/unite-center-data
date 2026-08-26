@@ -7618,5 +7618,43 @@
         }
       ]
     }
+  },
+  "151": {
+    "_name": "솔가레오 (Solgaleo)",
+    "B": {
+      "ratio": "100",
+      "base": "0",
+      "slider": "0"
+    },
+    "X": {
+      "ratio": "100",
+      "base": "150",
+      "slider": "0"
+    },
+    "R": {
+      "ratio": "98",
+      "base": "294",
+      "slider": "0"
+    },
+    "R1": {
+      "ratio": "98",
+      "base": "294",
+      "slider": "0"
+    },
+    "ZR": {
+      "ratio": "110",
+      "base": "330",
+      "slider": "0"
+    },
+    "ZR1": {
+      "ratio": "110",
+      "base": "330",
+      "slider": "0"
+    },
+    "U": {
+      "ratio": "220",
+      "base": "660",
+      "slider": "0"
+    }
   }
 }

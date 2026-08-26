@@ -169,9 +169,9 @@
     "skills": {
       "basicAttack": {
         "description": {
-          "ko": "3번째 일반 공격은 강화 공격이 되며 주는 데미지가 증가한다. 또한 상대편 포켓몬을 덩굴 중심으로 강제적으로 이동시킨다.",
-          "ja": "3回目の通常攻撃は強化攻撃になりダメージが増加する。また、相手のポケモンをつるの中心に強制的に引き寄せる。",
-          "en": "Every third basic attack becomes a boosted attack, dealing increased damage and pulling opposing Pokémon toward the center of the vine."
+          "ko": "3번째 일반 공격은 강화 공격이 되어 덩굴채찍으로 2번 타격한다. 두 덩굴 사이로 상대편 포켓몬을 끌어당겨 0.4초 동안 기절시키고, 이후 1.5초 동안 이동 속도를 20% 떨어뜨린다.",
+          "ja": "3回目の通常攻撃は強化攻撃になり、つるのムチで2回攻撃する。2本のつるの間に相手のポケモンを引き寄せて0.4秒間気絶させ、その後1.5秒間、移動速度を20%下げる。",
+          "en": "Every third basic attack becomes a boosted attack: a vine whip that strikes twice, pulling opposing Pokémon in between both vines, stunning them for 0.4s, then slowing their movement speed by 20% for 1.5s."
         }
       },
       "passive": {
@@ -181,9 +181,9 @@
           "en": "Overgrow"
         },
         "description": {
-          "ko": "HP가 적을 때 주는 데미지가 증가한다. 현재 HP가 30% 이하일 때 데미지가 20% 증가한다.",
-          "ja": "HPが少なくなると与えるダメージが増加する。現在のHPが30%以下のとき、ダメージが20%増加する。",
-          "en": "When HP is low, increases damage dealt. When current HP is at 30% or below, damage dealt increases by 20%."
+          "ko": "현재 HP가 30% 이하가 되면 자신이 주는 모든 데미지가 20% 증가한다.",
+          "ja": "現在のHPが30%以下になると、自分が与えるすべてのダメージが20%増加する。",
+          "en": "When the user's HP is at 30% or less, all damage dealt is increased by 20%."
         }
       },
       "moves": [
@@ -199,9 +199,9 @@
           "unlockedAtLevel": 1,
           "upgradedAtLevel": null,
           "description": {
-            "ko": "지정한 장소로 큰 씨앗을 던져 범위 안에 있는 상대편 포켓몬에게 데미지를 준다.",
-            "ja": "指定した場所に大きなタネを投げ、範囲内にいる相手のポケモンにダメージを与える。",
-            "en": "Throws a large seed at a designated location, dealing damage to opposing Pokémon in the area of effect."
+            "ko": "지정한 장소로 큰 씨앗을 던져 범위 안에 있는 모든 상대편 포켓몬에게 데미지를 준다.",
+            "ja": "指定した場所に大きなタネを投げ、範囲内にいるすべての相手のポケモンにダメージを与える。",
+            "en": "Hurls a large seed to the designated location, dealing damage to all opposing Pokémon within the radius."
           },
           "upgradeDescription": null
         },
@@ -217,9 +217,9 @@
           "unlockedAtLevel": 3,
           "upgradedAtLevel": null,
           "description": {
-            "ko": "날카로운 잎사귀를 다수 날려 연속 공격하고 범위 안에 있는 상대편 포켓몬에게 데미지를 준다.",
-            "ja": "鋭い葉っぱを多数飛ばして連続攻撃し、範囲内にいる相手のポケモンにダメージを与える。",
-            "en": "Scatters sharp leaves in a flurry of quick strikes, dealing damage to opposing Pokémon in the area of effect."
+            "ko": "지정한 방향으로 날카로운 잎사귀를 폭풍처럼 발사해, 0.75초 동안 범위 안의 상대편 포켓몬에게 총 10번 데미지를 준다.",
+            "ja": "指定した方向に鋭い葉っぱを嵐のように発射し、0.75秒かけて範囲内の相手のポケモンに合計10回ダメージを与える。",
+            "en": "Launches a barrage of sharp-edged leaves in the designated direction, hitting opposing Pokémon 10 times over 0.75s."
           },
           "upgradeDescription": null
         },
@@ -235,9 +235,9 @@
           "unlockedAtLevel": 5,
           "upgradedAtLevel": 11,
           "description": {
-            "ko": "지정한 장소로 더러운 오물을 던져 공격한다. 기술의 범위 안에 있는 상대편 포켓몬은 데미지를 받고 독 상태가 되며 이동 속도와 특수방어가 잠시 동안 떨어진다.",
-            "ja": "指定した場所に汚いヘドロを投げて攻撃する。技の範囲内にいる相手のポケモンはダメージを受けて毒状態になり、移動速度と特防がしばらく下がる。",
-            "en": "Hurls filthy sludge at a designated location. Opposing Pokémon in the area of effect take damage, become poisoned, and have their movement speed and Sp. Def temporarily reduced."
+            "ko": "지정한 장소로 독성 오물을 던진다. 착탄 시 범위 안의 모든 상대편 포켓몬에게 데미지를 주고, 2초 동안 이동 속도를 50% 떨어뜨리며 독 상태로 만든다. 오물은 그 자리에 남아 5초 동안 0.5초마다 범위 안의 상대에게 데미지를 주며, 이동 속도를 50% 떨어뜨리고 특수방어를 50% 낮춘다(효과는 0.5초마다 갱신되어 2초간 지속).",
+            "ja": "指定した場所に毒性のヘドロを投げる。着弾時、範囲内のすべての相手のポケモンにダメージを与え、2秒間移動速度を50%下げて毒状態にする。ヘドロはその場に残り、5秒間0.5秒ごとに範囲内の相手にダメージを与え、移動速度を50%下げ、特防を50%下げる（効果は0.5秒ごとに更新され2秒間持続）。",
+            "en": "Hurls toxic sludge to the designated location. On landing, it damages all opposing Pokémon in the radius, slowing their movement speed by 50% for 2s and poisoning them. The sludge lingers, dealing damage every 0.5s for 5s to opposing Pokémon in the radius, slowing them by 50%, and reducing their Sp. Def by 50% for 2s (refreshed each tick)."
           },
           "upgradeDescription": {
             "ko": "업그레이드 후에는 기술의 범위가 넓어진다.",
@@ -257,9 +257,9 @@
           "unlockedAtLevel": 5,
           "upgradedAtLevel": 11,
           "description": {
-            "ko": "범위 안에 있는 상대편 포켓몬의 HP를 흡수한다. 기술이 명중했을 때 상대편 포켓몬에게 데미지를 주고 자신의 HP를 회복한다. 또한 잠시 동안 자신이 받는 데미지를 감소시킨다.",
-            "ja": "範囲内にいる相手のポケモンのHPを吸収する。技が命中したとき、相手のポケモンにダメージを与えて自分のHPを回復する。また、しばらくの間、自分が受けるダメージを減少させる。",
-            "en": "Drains HP from opposing Pokémon in the area of effect. When the move hits, deals damage to opposing Pokémon and restores the user's HP. Also temporarily reduces damage taken."
+            "ko": "지정한 방향으로 부채꼴 범위의 파동을 내뿜어 상대편 포켓몬에게 데미지를 주고, 명중 시 자신의 HP를 회복한다. 또한 2.5초 동안 자신이 받는 데미지를 40% 감소시킨다.",
+            "ja": "指定した方向に扇状の波動を放って相手のポケモンにダメージを与え、命中すると自分のHPを回復する。また、2.5秒間、自分が受けるダメージを40%減少させる。",
+            "en": "Emits a cone-shaped blast in the designated direction, damaging opposing Pokémon and restoring the user's HP on hit. The user also takes 40% reduced damage for 2.5s."
           },
           "upgradeDescription": {
             "ko": "업그레이드 후에는 기술에 따른 HP 회복량이 증가한다.",
@@ -279,9 +279,9 @@
           "unlockedAtLevel": 7,
           "upgradedAtLevel": 13,
           "description": {
-            "ko": "강력한 빛의 다발을 발사해서 공격하고 범위 안에 있는 상대편 포켓몬에게 데미지를 준다.",
-            "ja": "強力な光の束を発射して攻撃し、範囲内にいる相手のポケモンにダメージを与える。",
-            "en": "Fires a powerful beam of light, dealing damage to opposing Pokémon in the area of effect."
+            "ko": "0.7초 동안 힘을 모은 뒤 지정한 방향으로 빛의 다발을 발사해, 0.3초 동안 범위 안의 상대편 포켓몬에게 총 5번 데미지를 준다.",
+            "ja": "0.7秒かけて力を溜めたあと、指定した方向に光の束を発射し、0.3秒かけて範囲内の相手のポケモンに合計5回ダメージを与える。",
+            "en": "Charges for 0.7s, then fires a beam of light in the designated direction, hitting opposing Pokémon 5 times over 0.3s."
           },
           "upgradeDescription": {
             "ko": "업그레이드 후에는 기술 대기 시간이 짧아진다.",
@@ -301,9 +301,9 @@
           "unlockedAtLevel": 7,
           "upgradedAtLevel": 13,
           "description": {
-            "ko": "주변에 꽃잎을 흩뿌리며 이동 속도가 잠시 동안 오른다. 범위 안에 있는 상대편 포켓몬에게 계속해서 데미지를 준다. 상대편 포켓몬에게 명중하면 오물폭탄 또는 기가드레인의 대기 시간을 줄인다.",
-            "ja": "周囲に花びらを散らして移動速度がしばらく上がる。範囲内にいる相手のポケモンにダメージを与え続ける。相手のポケモンに命中するとヘドロばくだんかギガドレインのCTを短くする。",
-            "en": "Scatters petals around the user, temporarily increasing movement speed and continuously dealing damage to opposing Pokémon in the area of effect. Hitting opposing Pokémon reduces the cooldown of Sludge Bomb or Giga Drain."
+            "ko": "4.8초 동안 자신의 주위에 꽃잎을 흩뿌려 이동 속도를 80% 올리고, 범위 안의 상대편 포켓몬에게 0.3초마다 데미지를 준다(총 16회). 이동 속도 증가 효과는 0.5초마다 9%씩 감소해 최소 17%까지 낮아진다. 상대편 포켓몬에게 데미지를 줄 때마다 오물폭탄 또는 기가드레인의 남은 대기 시간을 현재 값의 30%만큼 줄인다.",
+            "ja": "4.8秒間、自分の周囲に花びらを散らして移動速度を80%上げ、範囲内の相手のポケモンに0.3秒ごとにダメージを与える（合計16回）。移動速度アップ効果は0.5秒ごとに9%ずつ減少し、最低17%まで下がる。相手のポケモンにダメージを与えるたびに、ヘドロばくだんかギガドレインの残りCTを現在値の30%短縮する。",
+            "en": "Scatters petals around the user for 4.8s, increasing movement speed by 80% and dealing damage every 0.3s to opposing Pokémon in the radius (16 ticks total). The move speed boost decays by 9% every 0.5s down to a minimum of 17%. Each damage tick that hits an opposing Pokémon reduces the remaining cooldown of Sludge Bomb or Giga Drain by 30% of its current value."
           },
           "upgradeDescription": {
             "ko": "업그레이드 후에는 기술의 범위가 넓어진다.",
@@ -322,9 +322,9 @@
         "cooldown": 100,
         "unlockedAtLevel": 9,
         "description": {
-          "ko": "지정한 장소로 거대한 씨앗을 던진다. 씨앗은 분열하여 범위 안에 있는 상대편 포켓몬의 이동 속도를 잠시 동안 떨어뜨리고 데미지를 준다.",
-          "ja": "指定した場所に巨大なタネを投げる。タネは分裂して範囲内にいる相手のポケモンの移動速度をしばらく下げてダメージを与える。",
-          "en": "Hurls a giant seed at a designated location. The seed splits apart, temporarily reducing the movement speed of and dealing damage to opposing Pokémon in the area of effect."
+          "ko": "행동을 방해받지 않는 상태가 되어 지정한 장소로 거대한 씨앗을 던진다. 씨앗은 범위 안의 모든 상대편 포켓몬에게 데미지를 주고 1초 동안 이동 속도를 35% 떨어뜨린다. 이후 씨앗은 4개의 작은 씨앗으로 분열하며, 각 씨앗이 자신의 범위 안에 있는 상대편 포켓몬에게 데미지를 준다.",
+          "ja": "妨害されない状態になり、指定した場所に巨大なタネを投げる。タネは範囲内のすべての相手のポケモンにダメージを与え、1秒間移動速度を35%下げる。その後、タネは4つの小さなタネに分裂し、それぞれが範囲内の相手のポケモンにダメージを与える。",
+          "en": "Becomes unstoppable and hurls a massive seed to the designated location, damaging all opposing Pokémon in the radius and slowing them by 35% for 1s. The seed then splits into 4 smaller seeds, each damaging all opposing Pokémon within its radius."
         },
         "buffs": {
           "movementSpeedPct": 30,
@@ -18122,9 +18122,132 @@
       "ja": "ソルガレオ"
     },
     "role": "Balance",
-    "difficulty": "unknown",
-    "attackType": "unknown",
+    "difficulty": "Intermediate",
+    "attackType": "physical",
     "imageUrl": "https://placehold.co/80x80/CCCCCC/FFF?text=SOL",
-    "spriteId": 791
+    "spriteId": 791,
+    "skills": {
+      "basicAttack": {
+        "description": {
+          "ko": "발톱으로 상대를 할퀴어 공격하며, 일반 공격이 명중할 때마다 자신의 급소율이 오른다(최대 5중첩, 중첩당 8%·3초). 기술을 사용하면 강화 카운터를 얻고, 강화 카운터가 2개 이상 모이면 일반 공격이 강화 공격으로 바뀌어 전방 범위 안의 상대에게 급소 데미지를 준다. 강화 공격은 발동할 때마다 강화 카운터를 2개 소모한다. (솔가레오로 진화하면 평타가 근거리로 바뀐다.)",
+          "ja": "つめで相手をひっかいて攻撃し、通常攻撃が命中するたびに自身の急所率が上がる（最大5回まで重複、1回につき8%・3秒）。わざを使うと強化カウンターを得て、強化カウンターが2つ以上あると通常攻撃が強化攻撃になり、前方範囲内の相手に急所ダメージを与える。強化攻撃は発動ごとに強化カウンターを2つ消費する。（ソルガレオに進化すると通常攻撃が近距離になる。）",
+          "en": "Slashes foes with its claws; each basic attack that lands raises Solgaleo's critical-hit rate (stacks up to 5 times, 8% and 3s per stack). Using a move grants an Enhanced Counter, and with 2 or more counters the basic attack becomes an enhanced attack that deals a critical hit to opposing Pokémon in a frontal area. Each enhanced attack consumes 2 counters. (Upon evolving into Solgaleo, its basic attack becomes melee.)"
+        }
+      },
+      "passive": {
+        "name": {
+          "ko": "메탈프로텍트",
+          "ja": "メタルプロテクト",
+          "en": "Full Metal Body"
+        },
+        "description": {
+          "ko": "상대편 포켓몬의 기술이나 특성의 효과를 받아도 능력치가 떨어지지 않는다. (진화 전 코스모그는 특성 '천진난만'으로 받는 물리·특수 데미지의 30%를 경감하고, 코스모움은 특성 '옹골참'으로 상시 받는 데미지를 30% 경감하며 기절 데미지를 받아도 HP 1로 버티고 1초간 보호 상태가 된다.)",
+          "ja": "相手ポケモンのわざや特性の効果を受けても、能力が下がらない。（進化前のコスモッグは特性「てんねん」で受ける物理・特殊ダメージの30%を軽減し、コスモウムは特性「がんじょう」で常時受けるダメージを30%軽減し、ひんし級のダメージを受けてもHP1で耐え、1秒間まもられた状態になる。）",
+          "en": "Solgaleo's stats can't be lowered by opposing Pokémon's moves or abilities. (Before evolving, Cosmog's Unaware reduces physical/special damage taken by 30%, and Cosmoem's Sturdy reduces all damage taken by 30% and, when it would be knocked out, leaves it at 1 HP with a 1s protected state.)"
+        }
+      },
+      "moves": [
+        {
+          "id": "teleport",
+          "name": {
+            "ko": "순간이동",
+            "ja": "テレポート",
+            "en": "Teleport"
+          },
+          "category": "active",
+          "cooldown": 5,
+          "unlockedAtLevel": 1,
+          "upgradedAtLevel": 7,
+          "description": {
+            "ko": "지정한 장소로 순간 이동하고, 다음 일반 공격이 강화 공격이 된다. (레벨 7에 솔가레오로 진화하면 아이언헤드로 대체된다.)",
+            "ja": "指定した場所にテレポートし、次の通常攻撃が強化攻撃になる。（レベル7でソルガレオに進化するとアイアンヘッドに置きかわる。）",
+            "en": "Teleports to a designated location; the next basic attack becomes an enhanced attack. (Replaced by Iron Head upon evolving into Solgaleo at Lv. 7.)"
+          },
+          "upgradeDescription": null
+        },
+        {
+          "id": "cosmic_power",
+          "name": {
+            "ko": "코스믹파워",
+            "ja": "コスミックパワー",
+            "en": "Cosmic Power"
+          },
+          "category": "active",
+          "cooldown": 6,
+          "unlockedAtLevel": 5,
+          "upgradedAtLevel": 7,
+          "description": {
+            "ko": "우주로부터 신비한 힘을 손에 넣어 잠시 동안 방어와 특수방어가 오르고(방어·특수방어의 30%·5초), 다음 일반 공격이 강화 공격이 된다. (레벨 5에 코스모움으로 진화하면 배우며, 레벨 7에 솔가레오로 진화하면 사이코쇼크로 대체된다.)",
+            "ja": "宇宙から神秘の力を手に入れ、しばらくの間ぼうぎょととくぼうが上がり（ぼうぎょ・とくぼうの30%・5秒）、次の通常攻撃が強化攻撃になる。（レベル5でコスモウムに進化すると覚え、レベル7でソルガレオに進化するとサイコショックに置きかわる。）",
+            "en": "Draws mysterious power from the cosmos, raising Defense and Sp. Def for a short time (30% of Defense/Sp. Def, 5s) and making the next basic attack an enhanced attack. (Learned upon evolving into Cosmoem at Lv. 5; replaced by Psyshock upon evolving into Solgaleo at Lv. 7.)"
+          },
+          "upgradeDescription": null
+        },
+        {
+          "id": "iron_head",
+          "name": {
+            "ko": "아이언헤드",
+            "ja": "アイアンヘッド",
+            "en": "Iron Head"
+          },
+          "category": "active",
+          "cooldown": 6.5,
+          "unlockedAtLevel": 7,
+          "upgradedAtLevel": 9,
+          "description": {
+            "ko": "지정한 방향으로 돌진해 단단한 머리로 상대에게 데미지를 주고 밀쳐낸다(1단계: 공격의 98%+294, 밀쳐내기 0.5초). 다시 사용하면 정면의 상대에게 덤벼들어 행동 불가로 만들고(4회·각 0.2초) 여러 번 데미지를 주며(4회·공격의 65%+195 / 행동 불가를 부여할 수 없을 때는 1회 공격의 260%+780), 가한 데미지의 40%만큼 HP를 회복한다. 2단계 개방 시간은 2초이며, 2단계 사용 중 방향키로 이동하면 중단된다.",
+            "ja": "指定した方向に突進し、かたい頭で相手にダメージを与えて突き飛ばす（1段階：こうげきの98%+294、突き飛ばし0.5秒）。もう一度使うと正面の相手に飛びかかって行動不能にし（4回・各0.2秒）、複数回ダメージを与え（4回・こうげきの65%+195／行動不能にできない場合は1回こうげきの260%+780）、与えたダメージの40%のHPを回復する。2段階の開放時間は2秒で、2段階中に方向キーで移動すると中断される。",
+            "en": "Charges in a set direction, dealing damage with its hard head and shoving foes (Phase 1: 98% of Attack +294, 0.5s shove). Used again, it pounces on the foe in front, rendering it unable to act (4 times, 0.2s each) and dealing repeated damage (4 hits, 65% of Attack +195 / or one hit of 260% +780 if the foe can't be immobilized), healing Solgaleo for 40% of the damage dealt. Phase 2 stays available for 2s; moving with the stick during Phase 2 cancels it."
+          },
+          "upgradeDescription": {
+            "ko": "업그레이드(아이언헤드+) 후에는 상대를 행동 불가로 만드는 시간이 길어지고, 2단계 타격이 5회로 늘어난다(행동 불가를 부여할 수 없을 때는 1회 공격의 325%+975).",
+            "ja": "アップグレード（アイアンヘッド＋）後は相手を行動不能にする時間が長くなり、2段階の攻撃が5回に増える（行動不能にできない場合は1回こうげきの325%+975）。",
+            "en": "After upgrading (Iron Head+), the immobilize duration is longer and Phase 2 hits 5 times (325% of Attack +975 for the single hit when the foe can't be immobilized)."
+          }
+        },
+        {
+          "id": "psyshock",
+          "name": {
+            "ko": "사이코쇼크",
+            "ja": "サイコショック",
+            "en": "Psyshock"
+          },
+          "category": "active",
+          "cooldown": 6,
+          "unlockedAtLevel": 7,
+          "upgradedAtLevel": 11,
+          "description": {
+            "ko": "힘을 모은 뒤 실체화한 염력파를 떨어뜨려 주변의 상대에게 데미지를 주고 날려버린다(충전 단계에 따라 1단계 공격의 110~143%+330~429, 날려버리기 0.3~0.55초). 힘을 모으는 동안에는 이동 속도가 오르고(0.5초마다 13%, 최대 78%) 받는 데미지가 30% 감소하며 처음 2초간 방해 내성을 얻는다. 염력파가 명중하면 2단계가 해금되어 전방을 손톱으로 할퀴어 데미지와 감속(이동 속도 40%·3초)을 주고 HP를 회복한다(공격의 70%+210). 2단계가 상대 팀의 포켓몬에게 명중하면 1회 더 사용할 수 있다.",
+            "ja": "力をためた後、実体化したサイコウェーブを落として周囲の相手にダメージを与えて吹き飛ばす（ためた段階に応じて1段階こうげきの110～143%+330～429、吹き飛ばし0.3～0.55秒）。ためている間は移動速度が上がり（0.5秒ごとに13%、最大78%）、受けるダメージが30%減少し、最初の2秒間は妨害耐性になる。サイコウェーブが命中すると2段階が解放され、前方をつめでひっかいてダメージと移動速度低下（移動速度の40%・3秒）を与え、HPを回復する（こうげきの70%+210）。2段階が相手チームのポケモンに命中すると、もう1回だけ使える。",
+            "en": "After charging, drops a materialized psychic wave that damages and launches nearby foes (Phase 1 scales with charge: 110–143% of Attack +330–429, launch 0.3–0.55s). While charging, move speed rises (13% every 0.5s, up to 78%), damage taken drops 30%, and Solgaleo gains hindrance resistance for the first 2s. When the wave hits, Phase 2 unlocks: it claws forward for damage and a slow (40% move speed, 3s) and heals itself (70% of Attack +210). If Phase 2 hits an enemy, it can be used once more."
+          },
+          "upgradeDescription": {
+            "ko": "업그레이드(사이코쇼크+) 후에는 2단계의 HP 회복량이 증가한다(공격의 84%+252).",
+            "ja": "アップグレード（サイコショック＋）後は2段階のHP回復量が増加する（こうげきの84%+252）。",
+            "en": "After upgrading (Psyshock+), the Phase 2 healing increases (84% of Attack +252)."
+          }
+        }
+      ],
+      "uniteMove": {
+        "id": "shining_meteor_crusher",
+        "name": {
+          "ko": "샤이닝메테오크러셔",
+          "ja": "シャイニングメテオクラッシャー",
+          "en": "Shining Meteor Crusher"
+        },
+        "cooldown": 112,
+        "unlockedAtLevel": 7,
+        "description": {
+          "ko": "강대한 파워를 해방하여 라이징페이즈로 변화하고, 지정한 상대 팀의 포켓몬을 향해 크게 뛰어오른 뒤 돌진하여 범위 안의 상대의 방어·실드를 무시하고 데미지를 준다(공격의 220%+660). 라이징페이즈(10초) 동안에는 주변의 은신 상태나 풀숲에 숨은 포켓몬을 찾을 수 있고, 기술·일반 공격·강화 공격이 상대의 방어·실드를 무시하며, 이동 속도 30% 증가·대기 시간 30% 감소·최대 HP의 20% 실드를 얻는다. 주변의 같은 팀 포켓몬이 KO 당하면 유나이트 기술 게이지가 10,000 찬다(최대치 100,000). 시전할 때 방해 무효 상태가 된다.",
+          "ja": "強大なパワーを解放してライジングフェイズに変化し、指定した相手チームのポケモンへ大きく飛び上がってから突進し、範囲内の相手のぼうぎょやシールドを無視してダメージを与える（こうげきの220%+660）。ライジングフェイズ（10秒）の間は周囲の隠れた相手や草むらに隠れたポケモンを見つけられ、わざ・通常攻撃・強化攻撃が相手のぼうぎょやシールドを無視し、移動速度30%上昇・待機時間30%短縮・最大HPの20%のシールドを得る。周囲の味方ポケモンがKOされるとユナイトわざゲージが10,000たまる（最大100,000）。発動時は妨害無効状態になる。",
+          "en": "Unleashes immense power to transform into Rising Phase, leaping high toward a designated enemy and charging in, dealing damage to foes in range while ignoring their Defense and shields (220% of Attack +660). During Rising Phase (10s) it reveals nearby hidden or bush-concealed Pokémon, its moves, basic attacks, and enhanced attacks ignore enemy Defense and shields, and it gains +30% move speed, -30% cooldown, and a shield worth 20% of max HP. When a nearby ally is KO'd, its Unite gauge fills by 10,000 (max 100,000). It is unstoppable while casting."
+        }
+      },
+      "passiveCondition": {
+        "type": "not-applicable",
+        "reason": "메탈프로텍트=능력 하락 무효(방어/유틸형, DPS 무관). 강화 공격은 기술 사용 시 강화 카운터(최대 2) 획득 기반 — 수동 확인 필요",
+        "isNew": true
+      }
+    }
   }
 ]
