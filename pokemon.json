@@ -18157,13 +18157,14 @@
           "category": "active",
           "cooldown": 5,
           "unlockedAtLevel": 1,
-          "upgradedAtLevel": 7,
+          "upgradedAtLevel": null,
           "description": {
             "ko": "지정한 장소로 순간 이동하고, 다음 일반 공격이 강화 공격이 된다. (레벨 7에 솔가레오로 진화하면 아이언헤드로 대체된다.)",
             "ja": "指定した場所にテレポートし、次の通常攻撃が強化攻撃になる。（レベル7でソルガレオに進化するとアイアンヘッドに置きかわる。）",
             "en": "Teleports to a designated location; the next basic attack becomes an enhanced attack. (Replaced by Iron Head upon evolving into Solgaleo at Lv. 7.)"
           },
-          "upgradeDescription": null
+          "upgradeDescription": null,
+          "slot": 0
         },
         {
           "id": "cosmic_power",
@@ -18175,13 +18176,14 @@
           "category": "active",
           "cooldown": 6,
           "unlockedAtLevel": 5,
-          "upgradedAtLevel": 7,
+          "upgradedAtLevel": null,
           "description": {
             "ko": "우주로부터 신비한 힘을 손에 넣어 잠시 동안 방어와 특수방어가 오르고(방어·특수방어의 30%·5초), 다음 일반 공격이 강화 공격이 된다. (레벨 5에 코스모움으로 진화하면 배우며, 레벨 7에 솔가레오로 진화하면 사이코쇼크로 대체된다.)",
             "ja": "宇宙から神秘の力を手に入れ、しばらくの間ぼうぎょととくぼうが上がり（ぼうぎょ・とくぼうの30%・5秒）、次の通常攻撃が強化攻撃になる。（レベル5でコスモウムに進化すると覚え、レベル7でソルガレオに進化するとサイコショックに置きかわる。）",
             "en": "Draws mysterious power from the cosmos, raising Defense and Sp. Def for a short time (30% of Defense/Sp. Def, 5s) and making the next basic attack an enhanced attack. (Learned upon evolving into Cosmoem at Lv. 5; replaced by Psyshock upon evolving into Solgaleo at Lv. 7.)"
           },
-          "upgradeDescription": null
+          "upgradeDescription": null,
+          "slot": 1
         },
         {
           "id": "iron_head",
@@ -18203,7 +18205,8 @@
             "ko": "업그레이드(아이언헤드+) 후에는 상대를 행동 불가로 만드는 시간이 길어지고, 2단계 타격이 5회로 늘어난다(행동 불가를 부여할 수 없을 때는 1회 공격의 325%+975).",
             "ja": "アップグレード（アイアンヘッド＋）後は相手を行動不能にする時間が長くなり、2段階の攻撃が5回に増える（行動不能にできない場合は1回こうげきの325%+975）。",
             "en": "After upgrading (Iron Head+), the immobilize duration is longer and Phase 2 hits 5 times (325% of Attack +975 for the single hit when the foe can't be immobilized)."
-          }
+          },
+          "slot": 0
         },
         {
           "id": "psyshock",
@@ -18225,7 +18228,8 @@
             "ko": "업그레이드(사이코쇼크+) 후에는 2단계의 HP 회복량이 증가한다(공격의 84%+252).",
             "ja": "アップグレード（サイコショック＋）後は2段階のHP回復量が増加する（こうげきの84%+252）。",
             "en": "After upgrading (Psyshock+), the Phase 2 healing increases (84% of Attack +252)."
-          }
+          },
+          "slot": 1
         }
       ],
       "uniteMove": {
