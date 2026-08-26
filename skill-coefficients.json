@@ -7631,25 +7631,54 @@
       "base": "150",
       "slider": "0"
     },
-    "R": {
+    "R2": {
       "ratio": "98",
       "base": "294",
-      "slider": "0"
+      "slider": "0",
+      "addons": [
+        {
+          "ratio": "65",
+          "base": "195",
+          "slider": "0"
+        },
+        {
+          "ratio": "260",
+          "base": "780",
+          "slider": "0"
+        }
+      ]
     },
-    "R1": {
-      "ratio": "98",
-      "base": "294",
-      "slider": "0"
-    },
-    "ZR": {
+    "ZR2": {
       "ratio": "110",
       "base": "330",
-      "slider": "0"
-    },
-    "ZR1": {
-      "ratio": "110",
-      "base": "330",
-      "slider": "0"
+      "slider": "0",
+      "addons": [
+        {
+          "ratio": "121",
+          "base": "363",
+          "slider": "0"
+        },
+        {
+          "ratio": "132",
+          "base": "396",
+          "slider": "0"
+        },
+        {
+          "ratio": "143",
+          "base": "429",
+          "slider": "0"
+        },
+        {
+          "ratio": "68",
+          "base": "204",
+          "slider": "0"
+        },
+        {
+          "ratio": "70",
+          "base": "210",
+          "slider": "0"
+        }
+      ]
     },
     "U": {
       "ratio": "220",
