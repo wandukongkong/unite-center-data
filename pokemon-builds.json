@@ -1,0 +1,3165 @@
+{
+  "4": [
+    {
+      "moves": [
+        "power_up_punch",
+        "close_combat"
+      ],
+      "variant": "",
+      "heldItems": [
+        "lucarionite",
+        "attack_weight",
+        "weakness_policy"
+      ],
+      "heldItemOptional": "razor_claw"
+    }
+  ],
+  "7": [
+    {
+      "moves": [
+        "sludge_bomb",
+        "solar_beam"
+      ],
+      "variant": "",
+      "heldItems": [
+        "energy_amplifier",
+        "slick_spoon",
+        "curse_incense"
+      ],
+      "heldItemOptional": "choice_specs"
+    },
+    {
+      "moves": [
+        "giga_drain",
+        "petal_dance"
+      ],
+      "variant": "",
+      "heldItems": [
+        "slick_spoon",
+        "drive_lens",
+        "shell_bell"
+      ],
+      "heldItemOptional": "focus_band"
+    },
+    {
+      "moves": [
+        "giga_drain",
+        "solar_beam"
+      ],
+      "variant": "",
+      "heldItems": [
+        "energy_amplifier",
+        "slick_spoon",
+        "drive_lens"
+      ],
+      "heldItemOptional": "choice_specs"
+    }
+  ],
+  "31": [
+    {
+      "moves": [
+        "phantom_force",
+        "shadow_ball"
+      ],
+      "variant": "",
+      "heldItems": [
+        "muscle_band",
+        "scope_lens",
+        "razor_claw"
+      ],
+      "heldItemOptional": "charging_charm"
+    },
+    {
+      "moves": [
+        "dragon_dance",
+        "dragon_breath"
+      ],
+      "variant": "",
+      "heldItems": [
+        "muscle_band",
+        "scope_lens",
+        "charging_charm"
+      ],
+      "heldItemOptional": "rapid_fire_scarf"
+    }
+  ],
+  "53": [
+    {
+      "moves": [
+        "flamethrower",
+        "poltergeist"
+      ],
+      "variant": "",
+      "heldItems": [
+        "slick_spoon",
+        "curse_incense",
+        "drive_lens"
+      ],
+      "heldItemOptional": "choice_specs"
+    },
+    {
+      "moves": [
+        "overheat",
+        "imprison"
+      ],
+      "variant": "",
+      "heldItems": [
+        "slick_spoon",
+        "curse_incense",
+        "drive_lens"
+      ],
+      "heldItemOptional": "choice_specs"
+    },
+    {
+      "moves": [
+        "flamethrower",
+        "imprison"
+      ],
+      "variant": "",
+      "heldItems": [
+        "slick_spoon",
+        "curse_incense",
+        "drive_lens"
+      ],
+      "heldItemOptional": "choice_specs"
+    },
+    {
+      "moves": [
+        "overheat",
+        "poltergeist"
+      ],
+      "variant": "",
+      "heldItems": [
+        "slick_spoon",
+        "curse_incense",
+        "drive_lens"
+      ],
+      "heldItemOptional": "choice_specs"
+    }
+  ],
+  "54": [
+    {
+      "moves": [
+        "dragon_dance",
+        "hyper_beam"
+      ],
+      "variant": "",
+      "heldItems": [
+        "muscle_band",
+        "scope_lens",
+        "razor_claw"
+      ],
+      "heldItemOptional": "focus_band"
+    },
+    {
+      "moves": [
+        "extreme_speed",
+        "outrage"
+      ],
+      "variant": "",
+      "heldItems": [
+        "rapid_fire_scarf",
+        "focus_band",
+        "choice_scarf"
+      ]
+    }
+  ],
+  "55": [
+    {
+      "moves": [
+        "whirlpool"
+      ],
+      "variant": "CDR emphasis",
+      "heldItems": [
+        "drive_lens",
+        "shell_bell",
+        "energy_amplifier"
+      ]
+    },
+    {
+      "moves": [
+        "whirlpool",
+        "ice_beam"
+      ],
+      "variant": "Utility Oriented",
+      "heldItems": [
+        "curse_incense",
+        "resonant_guard",
+        "buddy_barrier"
+      ]
+    },
+    {
+      "moves": [
+        "surf",
+        "icy_wind"
+      ],
+      "variant": "CDR",
+      "heldItems": [
+        "energy_amplifier",
+        "drive_lens",
+        "shell_bell"
+      ]
+    },
+    {
+      "moves": [
+        "surf",
+        "icy_wind"
+      ],
+      "variant": "Burst",
+      "heldItems": [
+        "energy_amplifier",
+        "choice_specs",
+        "curse_incense"
+      ]
+    }
+  ],
+  "56": [
+    {
+      "moves": [
+        "leaf_blade",
+        "detect"
+      ],
+      "variant": "",
+      "heldItems": [
+        "attack_weight",
+        "scope_lens",
+        "razor_claw"
+      ],
+      "heldItemOptional": "energy_amplifier"
+    },
+    {
+      "moves": [
+        "fury_cutter",
+        "detect"
+      ],
+      "variant": "",
+      "heldItems": [
+        "attack_weight",
+        "scope_lens",
+        "razor_claw"
+      ],
+      "heldItemOptional": "energy_amplifier"
+    }
+  ],
+  "57": [
+    {
+      "moves": [
+        "fury_swipes",
+        "feint_attack"
+      ],
+      "variant": "",
+      "heldItems": [
+        "attack_weight",
+        "razor_claw",
+        "accel_bracer"
+      ],
+      "heldItemOptional": "muscle_band"
+    },
+    {
+      "moves": [
+        "fury_swipes",
+        "assurance"
+      ],
+      "variant": "",
+      "heldItems": [
+        "attack_weight",
+        "muscle_band",
+        "razor_claw"
+      ]
+    },
+    {
+      "moves": [
+        "payday",
+        "feint_attack"
+      ],
+      "variant": "",
+      "heldItems": [
+        "attack_weight",
+        "accel_bracer",
+        "energy_amplifier"
+      ]
+    }
+  ],
+  "58": [
+    {
+      "moves": [
+        "thunderbolt",
+        "zap_cannon"
+      ],
+      "variant": "",
+      "heldItems": [
+        "energy_amplifier",
+        "drive_lens",
+        "wise_glasses"
+      ],
+      "heldItemOptional": "sp_atk_specs"
+    }
+  ],
+  "59": [
+    {
+      "moves": [
+        "muddy_water",
+        "flip_turn"
+      ],
+      "variant": "Supportive",
+      "heldItems": [
+        "resonant_guard",
+        "curse_incense",
+        "buddy_barrier"
+      ],
+      "heldItemOptional": "sp_atk_specs"
+    },
+    {
+      "moves": [
+        "muddy_water",
+        "flip_turn"
+      ],
+      "variant": "Damage",
+      "heldItems": [
+        "sp_atk_specs",
+        "curse_incense",
+        "drive_lens"
+      ],
+      "heldItemOptional": "wise_glasses"
+    },
+    {
+      "moves": [
+        "hydro_pump",
+        "flip_turn"
+      ],
+      "variant": "",
+      "heldItems": [
+        "resonant_guard",
+        "curse_incense",
+        "buddy_barrier"
+      ]
+    },
+    {
+      "moves": [
+        "hydro_pump",
+        "aqua_ring"
+      ],
+      "variant": "",
+      "heldItems": [
+        "sp_atk_specs",
+        "drive_lens",
+        "wise_glasses"
+      ]
+    }
+  ],
+  "60": [
+    {
+      "moves": [
+        "heat_wave",
+        "sky_attack"
+      ],
+      "variant": "",
+      "heldItems": [
+        "sp_atk_specs",
+        "curse_incense",
+        "focus_band"
+      ],
+      "heldItemOptional": "aeos_cookie"
+    }
+  ],
+  "61": [
+    {
+      "moves": [
+        "aqua_tail",
+        "water_pulse"
+      ],
+      "variant": "",
+      "heldItems": [
+        "attack_weight",
+        "scope_lens",
+        "accel_bracer"
+      ],
+      "heldItemOptional": "muscle_band"
+    },
+    {
+      "moves": [
+        "whirlpool",
+        "play_rough"
+      ],
+      "variant": "",
+      "heldItems": [
+        "attack_weight",
+        "accel_bracer",
+        "scope_lens"
+      ],
+      "heldItemOptional": "weakness_policy"
+    },
+    {
+      "moves": [
+        "whirlpool",
+        "water_pulse"
+      ],
+      "variant": "",
+      "heldItems": [
+        "attack_weight",
+        "weakness_policy",
+        "scope_lens"
+      ],
+      "heldItemOptional": "accel_bracer"
+    }
+  ],
+  "62": [
+    {
+      "moves": [
+        "spark",
+        "wild_charge"
+      ],
+      "variant": "",
+      "heldItems": [
+        "weakness_policy",
+        "razor_claw",
+        "accel_bracer"
+      ],
+      "heldItemOptional": "attack_weight"
+    },
+    {
+      "moves": [
+        "volt_switch",
+        "discharge"
+      ],
+      "variant": "",
+      "heldItems": [
+        "weakness_policy",
+        "razor_claw",
+        "accel_bracer"
+      ],
+      "heldItemOptional": "attack_weight"
+    },
+    {
+      "moves": [
+        "spark",
+        "discharge"
+      ],
+      "variant": "",
+      "heldItems": [
+        "weakness_policy",
+        "razor_claw",
+        "buddy_barrier"
+      ],
+      "heldItemOptional": "energy_amplifier"
+    }
+  ],
+  "63": [
+    {
+      "moves": [
+        "avalanche",
+        "blizzard"
+      ],
+      "variant": "",
+      "heldItems": [
+        "slick_spoon",
+        "wise_glasses",
+        "drive_lens"
+      ],
+      "heldItemOptional": "choice_specs"
+    },
+    {
+      "moves": [
+        "dazzling_gleam",
+        "aurora_veil"
+      ],
+      "variant": "",
+      "heldItems": [
+        "slick_spoon",
+        "muscle_band",
+        "drive_lens"
+      ],
+      "heldItemOptional": "wise_glasses"
+    }
+  ],
+  "64": [
+    {
+      "moves": [
+        "heavy_slam",
+        "block"
+      ],
+      "variant": "",
+      "heldItems": [
+        "exp_share",
+        "resonant_guard",
+        "buddy_barrier"
+      ],
+      "heldItemOptional": "focus_band"
+    },
+    {
+      "moves": [
+        "heavy_slam",
+        "yawn"
+      ],
+      "variant": "",
+      "heldItems": [
+        "exp_share",
+        "resonant_guard",
+        "focus_band"
+      ],
+      "heldItemOptional": "buddy_barrier"
+    },
+    {
+      "moves": [
+        "flail",
+        "block"
+      ],
+      "variant": "",
+      "heldItems": [
+        "aeos_cookie",
+        "big_root",
+        "resonant_guard"
+      ],
+      "heldItemOptional": "buddy_barrier"
+    },
+    {
+      "moves": [
+        "flail",
+        "yawn"
+      ],
+      "variant": "",
+      "heldItems": [
+        "aeos_cookie",
+        "rapid_fire_scarf",
+        "focus_band"
+      ],
+      "heldItemOptional": "big_root"
+    }
+  ],
+  "65": [
+    {
+      "moves": [
+        "psyshock",
+        "psybeam"
+      ],
+      "variant": "",
+      "heldItems": [
+        "slick_spoon",
+        "wise_glasses",
+        "drive_lens"
+      ],
+      "heldItemOptional": "choice_specs"
+    },
+    {
+      "moves": [
+        "stored_power",
+        "psybeam"
+      ],
+      "variant": "",
+      "heldItems": [
+        "slick_spoon",
+        "wise_glasses",
+        "drive_lens"
+      ],
+      "heldItemOptional": "choice_specs"
+    },
+    {
+      "moves": [
+        "psyshock",
+        "future_sight"
+      ],
+      "variant": "",
+      "heldItems": [
+        "slick_spoon",
+        "wise_glasses",
+        "drive_lens"
+      ],
+      "heldItemOptional": "choice_specs"
+    },
+    {
+      "moves": [
+        "stored_power",
+        "future_sight"
+      ],
+      "variant": "",
+      "heldItems": [
+        "slick_spoon",
+        "wise_glasses",
+        "drive_lens"
+      ],
+      "heldItemOptional": "choice_specs"
+    }
+  ],
+  "66": [
+    {
+      "moves": [
+        "feint_attack",
+        "shadow_claw"
+      ],
+      "variant": "",
+      "heldItems": [
+        "attack_weight",
+        "weakness_policy",
+        "accel_bracer"
+      ],
+      "heldItemOptional": "focus_band"
+    },
+    {
+      "moves": [
+        "night_slash",
+        "cut"
+      ],
+      "variant": "",
+      "heldItems": [
+        "attack_weight",
+        "weakness_policy",
+        "razor_claw"
+      ],
+      "heldItemOptional": "energy_amplifier"
+    }
+  ],
+  "67": [
+    {
+      "moves": [
+        "moonlight"
+      ],
+      "variant": "",
+      "heldItems": [
+        "exp_share",
+        "sp_atk_specs",
+        "buddy_barrier"
+      ],
+      "heldItemOptional": "energy_amplifier"
+    },
+    {
+      "moves": [
+        "draining_kiss",
+        "follow_me"
+      ],
+      "variant": "",
+      "heldItems": [
+        "drive_lens",
+        "shell_bell",
+        "energy_amplifier"
+      ]
+    }
+  ],
+  "68": [
+    {
+      "moves": [
+        "hydro_pump",
+        "surf"
+      ],
+      "variant": "",
+      "heldItems": [
+        "focus_band",
+        "energy_amplifier",
+        "resonant_guard"
+      ],
+      "heldItemOptional": "exp_share"
+    },
+    {
+      "moves": [
+        "hydro_pump",
+        "rapid_spin"
+      ],
+      "variant": "",
+      "heldItems": [
+        "muscle_band",
+        "slick_spoon",
+        "focus_band"
+      ]
+    }
+  ],
+  "69": [
+    {
+      "moves": [
+        "fire_punch",
+        "flare_blitz"
+      ],
+      "variant": "",
+      "heldItems": [
+        "charizardite_x",
+        "scope_lens",
+        "attack_weight"
+      ]
+    }
+  ],
+  "70": [
+    {
+      "moves": [
+        "psycho_cut",
+        "ghost_dive"
+      ],
+      "variant": "",
+      "heldItems": [
+        "muscle_band",
+        "razor_claw",
+        "curse_bangle"
+      ],
+      "heldItemOptional": "energy_amplifier"
+    },
+    {
+      "moves": [
+        "psycho_cut",
+        "nitro_charge"
+      ],
+      "variant": "",
+      "heldItems": [
+        "muscle_band",
+        "razor_claw",
+        "curse_bangle"
+      ],
+      "heldItemOptional": "energy_amplifier"
+    },
+    {
+      "moves": [
+        "bitter_blade",
+        "ghost_dive"
+      ],
+      "variant": "",
+      "heldItems": [
+        "attack_weight",
+        "accel_bracer",
+        "razor_claw"
+      ],
+      "heldItemOptional": "energy_amplifier"
+    },
+    {
+      "moves": [
+        "bitter_blade",
+        "nitro_charge"
+      ],
+      "variant": "",
+      "heldItems": [
+        "muscle_band",
+        "razor_claw",
+        "curse_bangle"
+      ]
+    }
+  ],
+  "71": [
+    {
+      "moves": [
+        "smokescreen",
+        "surf"
+      ],
+      "variant": "All-in",
+      "heldItems": [
+        "muscle_band",
+        "attack_weight",
+        "accel_bracer"
+      ],
+      "heldItemOptional": "energy_amplifier"
+    },
+    {
+      "moves": [
+        "double_team",
+        "water_shuriken"
+      ],
+      "variant": "",
+      "heldItems": [
+        "attack_weight",
+        "muscle_band",
+        "accel_bracer"
+      ]
+    }
+  ],
+  "72": [
+    {
+      "moves": [
+        "surf"
+      ],
+      "variant": "",
+      "heldItems": [
+        "resonant_guard",
+        "buddy_barrier",
+        "exp_share"
+      ],
+      "heldItemOptional": "vanguard_bell"
+    },
+    {
+      "moves": [
+        "bubble_beam"
+      ],
+      "variant": "",
+      "heldItems": [
+        "exp_share",
+        "curse_incense",
+        "shell_bell"
+      ],
+      "heldItemOptional": "resonant_guard"
+    },
+    {
+      "moves": [
+        "surf",
+        "disable"
+      ],
+      "variant": "",
+      "heldItems": [
+        "exp_share",
+        "resonant_guard",
+        "buddy_barrier"
+      ],
+      "heldItemOptional": "curse_incense"
+    },
+    {
+      "moves": [
+        "bubble_beam",
+        "psychic"
+      ],
+      "variant": "",
+      "heldItems": [
+        "exp_share",
+        "curse_incense",
+        "shell_bell"
+      ],
+      "heldItemOptional": "resonant_guard"
+    }
+  ],
+  "73": [
+    {
+      "moves": [
+        "blizzard",
+        "ice_beam"
+      ],
+      "variant": "",
+      "heldItems": [
+        "resonant_guard",
+        "vanguard_bell",
+        "curse_incense"
+      ],
+      "heldItemOptional": "focus_band"
+    }
+  ],
+  "74": [
+    {
+      "moves": [
+        "flame_wheel",
+        "eruption"
+      ],
+      "variant": "Damage",
+      "heldItems": [
+        "sp_atk_specs",
+        "wise_glasses",
+        "slick_spoon"
+      ],
+      "heldItemOptional": "curse_incense"
+    },
+    {
+      "moves": [
+        "flame_wheel",
+        "eruption"
+      ],
+      "variant": "CDR",
+      "heldItems": [
+        "energy_amplifier",
+        "drive_lens",
+        "shell_bell"
+      ],
+      "heldItemOptional": "curse_incense"
+    }
+  ],
+  "75": [
+    {
+      "moves": [
+        "psyshock",
+        "psychic_kinesis"
+      ],
+      "variant": "",
+      "heldItems": [
+        "drive_lens",
+        "wise_glasses",
+        "choice_specs"
+      ],
+      "heldItemOptional": "curse_incense"
+    },
+    {
+      "moves": [
+        "future_sight",
+        "moonblast"
+      ],
+      "variant": "",
+      "heldItems": [
+        "slick_spoon",
+        "drive_lens",
+        "wise_glasses"
+      ],
+      "heldItemOptional": "choice_specs"
+    },
+    {
+      "moves": [
+        "psyshock",
+        "moonblast"
+      ],
+      "variant": "",
+      "heldItems": [
+        "slick_spoon",
+        "drive_lens",
+        "wise_glasses"
+      ],
+      "heldItemOptional": "energy_amplifier"
+    },
+    {
+      "moves": [
+        "future_sight",
+        "psychic_kinesis"
+      ],
+      "variant": "",
+      "heldItems": [
+        "drive_lens",
+        "wise_glasses",
+        "choice_specs"
+      ],
+      "heldItemOptional": "curse_incense"
+    }
+  ],
+  "76": [
+    {
+      "moves": [
+        "blaze_kick",
+        "feint"
+      ],
+      "variant": "",
+      "heldItems": [
+        "scope_lens",
+        "muscle_band",
+        "rapid_fire_scarf"
+      ]
+    },
+    {
+      "moves": [
+        "feint"
+      ],
+      "variant": "",
+      "heldItems": [
+        "scope_lens",
+        "muscle_band",
+        "rapid_fire_scarf"
+      ],
+      "heldItemOptional": "attack_weight"
+    },
+    {
+      "moves": [
+        "blaze_kick",
+        "flame_charge"
+      ],
+      "variant": "",
+      "heldItems": [
+        "scope_lens",
+        "muscle_band",
+        "rapid_fire_scarf"
+      ]
+    },
+    {
+      "moves": [
+        "flame_charge"
+      ],
+      "variant": "",
+      "heldItems": [
+        "scope_lens",
+        "muscle_band",
+        "rapid_fire_scarf"
+      ],
+      "heldItemOptional": "attack_weight"
+    }
+  ],
+  "77": [
+    {
+      "moves": [
+        "dragon_pulse",
+        "telekinesis"
+      ],
+      "variant": "",
+      "heldItems": [
+        "slick_spoon",
+        "wise_glasses",
+        "drive_lens"
+      ]
+    },
+    {
+      "moves": [
+        "draco_meteor",
+        "telekinesis"
+      ],
+      "variant": "",
+      "heldItems": [
+        "slick_spoon",
+        "curse_incense",
+        "drive_lens"
+      ],
+      "heldItemOptional": "wise_glasses"
+    },
+    {
+      "moves": [
+        "draco_meteor",
+        "luster_purge"
+      ],
+      "variant": "",
+      "heldItems": [
+        "slick_spoon",
+        "curse_incense",
+        "drive_lens"
+      ],
+      "heldItemOptional": "wise_glasses"
+    }
+  ],
+  "78": [
+    {
+      "moves": [
+        "dragon_rush",
+        "dragon_claw"
+      ],
+      "variant": "",
+      "heldItems": [
+        "scope_lens",
+        "choice_scarf",
+        "rapid_fire_scarf"
+      ]
+    },
+    {
+      "moves": [
+        "dig",
+        "earthquake"
+      ],
+      "variant": "",
+      "heldItems": [
+        "scope_lens",
+        "rapid_fire_scarf",
+        "choice_scarf"
+      ],
+      "heldItemOptional": "muscle_band"
+    }
+  ],
+  "79": [
+    {
+      "moves": [
+        "air_slash",
+        "dive"
+      ],
+      "variant": "",
+      "heldItems": [
+        "energy_amplifier",
+        "drive_lens",
+        "shell_bell"
+      ],
+      "heldItemOptional": "slick_spoon"
+    },
+    {
+      "moves": [
+        "hurricane",
+        "dive"
+      ],
+      "variant": "",
+      "heldItems": [
+        "energy_amplifier",
+        "drive_lens",
+        "shell_bell"
+      ],
+      "heldItemOptional": "slick_spoon"
+    },
+    {
+      "moves": [
+        "hurricane",
+        "surf"
+      ],
+      "variant": "",
+      "heldItems": [
+        "energy_amplifier",
+        "drive_lens",
+        "shell_bell"
+      ],
+      "heldItemOptional": "slick_spoon"
+    }
+  ],
+  "80": [
+    {
+      "moves": [
+        "dragon_breath",
+        "bounce"
+      ],
+      "variant": "",
+      "heldItems": [
+        "attack_weight",
+        "accel_bracer",
+        "energy_amplifier"
+      ]
+    },
+    {
+      "moves": [
+        "dragon_breath",
+        "waterfall"
+      ],
+      "variant": "",
+      "heldItems": [
+        "attack_weight",
+        "accel_bracer",
+        "energy_amplifier"
+      ]
+    },
+    {
+      "moves": [
+        "aqua_tail",
+        "bounce"
+      ],
+      "variant": "",
+      "heldItems": [
+        "attack_weight",
+        "accel_bracer",
+        "energy_amplifier"
+      ]
+    }
+  ],
+  "81": [
+    {
+      "moves": [
+        "flamethrower",
+        "fire_blast"
+      ],
+      "variant": "",
+      "heldItems": [
+        "charizardite_y",
+        "attack_weight",
+        "curse_bangle"
+      ],
+      "heldItemOptional": "scope_lens"
+    }
+  ],
+  "82": [
+    {
+      "moves": [
+        "shadow_claw",
+        "shadow_sneak"
+      ],
+      "variant": "",
+      "heldItems": [
+        "razor_claw",
+        "muscle_band",
+        "attack_weight"
+      ],
+      "heldItemOptional": "curse_bangle"
+    },
+    {
+      "moves": [
+        "play_rough",
+        "shadow_sneak"
+      ],
+      "variant": "",
+      "heldItems": [
+        "attack_weight",
+        "accel_bracer",
+        "curse_bangle"
+      ],
+      "heldItemOptional": "razor_claw"
+    },
+    {
+      "moves": [
+        "shadow_claw",
+        "trick_room"
+      ],
+      "variant": "",
+      "heldItems": [
+        "razor_claw",
+        "muscle_band",
+        "accel_bracer"
+      ],
+      "heldItemOptional": "attack_weight"
+    }
+  ],
+  "84": [
+    {
+      "moves": [
+        "bullet_punch",
+        "swords_dance"
+      ],
+      "variant": "",
+      "heldItems": [
+        "accel_bracer",
+        "attack_weight",
+        "energy_amplifier"
+      ]
+    },
+    {
+      "moves": [
+        "bullet_punch",
+        "double_hit"
+      ],
+      "variant": "",
+      "heldItems": [
+        "accel_bracer",
+        "attack_weight",
+        "energy_amplifier"
+      ]
+    }
+  ],
+  "86": [
+    {
+      "moves": [
+        "dragon_breath",
+        "waterfall"
+      ],
+      "variant": "Hyper offense",
+      "heldItems": [
+        "gyaradosite",
+        "attack_weight",
+        "accel_bracer"
+      ],
+      "heldItemOptional": "energy_amplifier"
+    }
+  ],
+  "87": [
+    {
+      "moves": [
+        "crunch",
+        "waterfall"
+      ],
+      "variant": "",
+      "heldItems": [
+        "razor_claw",
+        "attack_weight",
+        "accel_bracer"
+      ],
+      "heldItemOptional": "charging_charm"
+    }
+  ],
+  "88": [
+    {
+      "moves": [
+        "dual_wingbeat",
+        "double_hit"
+      ],
+      "variant": "",
+      "heldItems": [
+        "accel_bracer",
+        "attack_weight",
+        "energy_amplifier"
+      ],
+      "heldItemOptional": "charging_charm"
+    }
+  ],
+  "92": [
+    {
+      "moves": [
+        "wood_hammer"
+      ],
+      "variant": "",
+      "heldItems": [
+        "focus_band",
+        "resonant_guard",
+        "exp_share"
+      ],
+      "heldItemOptional": "vanguard_bell"
+    },
+    {
+      "moves": [
+        "curse"
+      ],
+      "variant": "Protector",
+      "heldItems": [
+        "focus_band",
+        "resonant_guard",
+        "exp_share"
+      ],
+      "heldItemOptional": "buddy_barrier"
+    },
+    {
+      "moves": [
+        "curse"
+      ],
+      "variant": "Threaten",
+      "heldItems": [
+        "focus_band",
+        "big_root",
+        "curse_bangle"
+      ],
+      "heldItemOptional": "attack_weight"
+    }
+  ],
+  "93": [
+    {
+      "moves": [
+        "dark_void",
+        "bad_dreams"
+      ],
+      "variant": "Opportunity Burst",
+      "heldItems": [
+        "slick_spoon",
+        "drive_lens",
+        "wise_glasses"
+      ],
+      "heldItemOptional": "sp_atk_specs"
+    },
+    {
+      "moves": [
+        "dark_void",
+        "bad_dreams"
+      ],
+      "variant": "CDR",
+      "heldItems": [
+        "drive_lens",
+        "shell_bell",
+        "energy_amplifier"
+      ]
+    },
+    {
+      "moves": [
+        "dark_void",
+        "dark_pulse"
+      ],
+      "variant": "",
+      "heldItems": [
+        "slick_spoon",
+        "wise_glasses",
+        "drive_lens"
+      ],
+      "heldItemOptional": "choice_specs"
+    },
+    {
+      "moves": [
+        "shadow_claw",
+        "dark_pulse"
+      ],
+      "variant": "",
+      "heldItems": [
+        "slick_spoon",
+        "wise_glasses",
+        "drive_lens"
+      ],
+      "heldItemOptional": "choice_specs"
+    }
+  ],
+  "95": [
+    {
+      "moves": [
+        "flower_healing",
+        "grass_knot"
+      ],
+      "variant": "",
+      "heldItems": [
+        "buddy_barrier",
+        "resonant_guard",
+        "exp_share"
+      ],
+      "heldItemOptional": "rescue_hood"
+    },
+    {
+      "moves": [
+        "flower_healing",
+        "magical_leaf"
+      ],
+      "variant": "",
+      "heldItems": [
+        "exp_share",
+        "buddy_barrier",
+        "drive_lens"
+      ],
+      "heldItemOptional": "rescue_hood"
+    },
+    {
+      "moves": [
+        "angels_kiss",
+        "grass_knot"
+      ],
+      "variant": "",
+      "heldItems": [
+        "exp_share",
+        "buddy_barrier",
+        "resonant_guard"
+      ],
+      "heldItemOptional": "rescue_hood"
+    }
+  ],
+  "96": [
+    {
+      "moves": [
+        "metal_claw",
+        "play_rough"
+      ],
+      "variant": "",
+      "heldItems": [
+        "rusted_sword",
+        "muscle_band",
+        "rapid_fire_scarf"
+      ],
+      "heldItemOptional": "charging_charm"
+    },
+    {
+      "moves": [
+        "sacred_sword",
+        "play_rough"
+      ],
+      "variant": "",
+      "heldItems": [
+        "rusted_sword",
+        "muscle_band",
+        "charging_charm"
+      ],
+      "heldItemOptional": "razor_claw"
+    },
+    {
+      "moves": [
+        "metal_claw",
+        "agility"
+      ],
+      "variant": "",
+      "heldItems": [
+        "rusted_sword",
+        "muscle_band",
+        "rapid_fire_scarf"
+      ],
+      "heldItemOptional": "charging_charm"
+    }
+  ],
+  "98": [
+    {
+      "moves": [
+        "smash_down"
+      ],
+      "variant": "",
+      "heldItems": [
+        "attack_weight",
+        "charging_charm"
+      ],
+      "heldItemOptional": "resonant_guard"
+    },
+    {
+      "moves": [
+        "ice_hammer",
+        "smash_down"
+      ],
+      "variant": "",
+      "heldItems": [
+        "attack_weight",
+        "resonant_guard"
+      ],
+      "heldItemOptional": "charging_charm"
+    },
+    {
+      "moves": [
+        "ice_hammer",
+        "giant_hammer"
+      ],
+      "variant": "",
+      "heldItems": [
+        "attack_weight",
+        "razor_claw",
+        "focus_band"
+      ],
+      "heldItemOptional": "resonant_guard"
+    },
+    {
+      "moves": [
+        "giant_hammer"
+      ],
+      "variant": "",
+      "heldItems": [
+        "attack_weight",
+        "focus_band",
+        "aeos_cookie"
+      ],
+      "heldItemOptional": "resonant_guard"
+    }
+  ],
+  "99": [
+    {
+      "moves": [
+        "icicle_spear"
+      ],
+      "variant": "",
+      "heldItems": [
+        "wise_glasses",
+        "curse_incense",
+        "slick_spoon"
+      ],
+      "heldItemOptional": "drive_lens"
+    },
+    {
+      "moves": [
+        "icy_wind",
+        "freeze_dry"
+      ],
+      "variant": "",
+      "heldItems": [
+        "slick_spoon",
+        "drive_lens",
+        "shell_bell"
+      ],
+      "heldItemOptional": "energy_amplifier"
+    }
+  ],
+  "100": [
+    {
+      "moves": [
+        "dragon_pulse",
+        "mist_ball"
+      ],
+      "variant": "",
+      "heldItems": [
+        "shell_bell",
+        "curse_incense",
+        "drive_lens"
+      ],
+      "heldItemOptional": "resonant_guard"
+    },
+    {
+      "moves": [
+        "dragon_breath",
+        "mist_ball"
+      ],
+      "variant": "",
+      "heldItems": [
+        "curse_incense",
+        "shell_bell",
+        "drive_lens"
+      ],
+      "heldItemOptional": "resonant_guard"
+    },
+    {
+      "moves": [
+        "dragon_breath",
+        "dragon_cheer"
+      ],
+      "variant": "",
+      "heldItems": [
+        "shell_bell",
+        "exp_share",
+        "resonant_guard"
+      ],
+      "heldItemOptional": "drive_lens"
+    },
+    {
+      "moves": [
+        "dragon_pulse",
+        "dragon_cheer"
+      ],
+      "variant": "",
+      "heldItems": [
+        "drive_lens",
+        "sp_atk_specs",
+        "resonant_guard"
+      ],
+      "heldItemOptional": "shell_bell"
+    }
+  ],
+  "101": [
+    {
+      "moves": [
+        "flamethrower",
+        "flare_blitz"
+      ],
+      "variant": "",
+      "heldItems": [
+        "scope_lens",
+        "attack_weight",
+        "accel_bracer"
+      ],
+      "heldItemOptional": "energy_amplifier"
+    },
+    {
+      "moves": [
+        "flamethrower",
+        "fire_blast"
+      ],
+      "variant": "",
+      "heldItems": [
+        "scope_lens",
+        "accel_bracer",
+        "attack_weight"
+      ],
+      "heldItemOptional": "energy_amplifier"
+    },
+    {
+      "moves": [
+        "fire_punch",
+        "flare_blitz"
+      ],
+      "variant": "",
+      "heldItems": [
+        "scope_lens",
+        "accel_bracer",
+        "attack_weight"
+      ],
+      "heldItemOptional": "energy_amplifier"
+    }
+  ],
+  "103": [
+    {
+      "moves": [
+        "thunder",
+        "thunderbolt"
+      ],
+      "variant": "",
+      "heldItems": [
+        "energy_amplifier",
+        "curse_incense",
+        "drive_lens"
+      ],
+      "heldItemOptional": "choice_specs"
+    },
+    {
+      "moves": [
+        "electro_ball",
+        "volt_tackle"
+      ],
+      "variant": "",
+      "heldItems": [
+        "energy_amplifier",
+        "slick_spoon",
+        "buddy_barrier"
+      ],
+      "heldItemOptional": "shell_bell"
+    },
+    {
+      "moves": [
+        "thunder",
+        "volt_tackle"
+      ],
+      "variant": "",
+      "heldItems": [
+        "energy_amplifier",
+        "curse_incense",
+        "slick_spoon"
+      ],
+      "heldItemOptional": "buddy_barrier"
+    },
+    {
+      "moves": [
+        "electro_ball",
+        "thunderbolt"
+      ],
+      "variant": "",
+      "heldItems": [
+        "energy_amplifier",
+        "slick_spoon",
+        "shell_bell"
+      ],
+      "heldItemOptional": "drive_lens"
+    }
+  ],
+  "104": [
+    {
+      "moves": [
+        "muddy_water"
+      ],
+      "variant": "",
+      "heldItems": [
+        "slick_spoon",
+        "muscle_band",
+        "resonant_guard"
+      ],
+      "heldItemOptional": "focus_band"
+    },
+    {
+      "moves": [
+        "dragon_pulse"
+      ],
+      "variant": "",
+      "heldItems": [
+        "slick_spoon",
+        "muscle_band",
+        "resonant_guard"
+      ],
+      "heldItemOptional": "big_root"
+    }
+  ],
+  "105": [
+    {
+      "moves": [
+        "sacred_sword",
+        "wide_guard"
+      ],
+      "variant": "",
+      "heldItems": [
+        "attack_weight",
+        "weakness_policy",
+        "charging_charm"
+      ],
+      "heldItemOptional": "accel_bracer"
+    },
+    {
+      "moves": [
+        "shadow_claw",
+        "iron_head"
+      ],
+      "variant": "",
+      "heldItems": [
+        "attack_weight",
+        "razor_claw",
+        "weakness_policy"
+      ],
+      "heldItemOptional": "muscle_band"
+    },
+    {
+      "moves": [
+        "shadow_claw",
+        "wide_guard"
+      ],
+      "variant": "",
+      "heldItems": [
+        "attack_weight",
+        "razor_claw",
+        "weakness_policy"
+      ],
+      "heldItemOptional": "scope_lens"
+    }
+  ],
+  "106": [
+    {
+      "moves": [
+        "flash_cannon",
+        "dragon_tail"
+      ],
+      "variant": "",
+      "heldItems": [
+        "muscle_band",
+        "scope_lens",
+        "rapid_fire_scarf"
+      ],
+      "heldItemOptional": "accel_bracer"
+    },
+    {
+      "moves": [
+        "flash_cannon",
+        "stealth_rock"
+      ],
+      "variant": "",
+      "heldItems": [
+        "muscle_band",
+        "scope_lens",
+        "rapid_fire_scarf"
+      ],
+      "heldItemOptional": "accel_bracer"
+    },
+    {
+      "moves": [
+        "dragon_pulse",
+        "stealth_rock"
+      ],
+      "variant": "",
+      "heldItems": [
+        "muscle_band",
+        "attack_weight",
+        "accel_bracer"
+      ]
+    }
+  ],
+  "107": [
+    {
+      "moves": [
+        "gyro_ball",
+        "magnet_rise"
+      ],
+      "variant": "",
+      "heldItems": [
+        "attack_weight",
+        "accel_bracer",
+        "weakness_policy"
+      ],
+      "heldItemOptional": "razor_claw"
+    },
+    {
+      "moves": [
+        "gyro_ball",
+        "zen_headbutt"
+      ],
+      "variant": "",
+      "heldItems": [
+        "attack_weight",
+        "accel_bracer",
+        "weakness_policy"
+      ],
+      "heldItemOptional": "razor_claw"
+    },
+    {
+      "moves": [
+        "meteor_mash",
+        "zen_headbutt"
+      ],
+      "variant": "",
+      "heldItems": [
+        "attack_weight",
+        "accel_bracer",
+        "weakness_policy"
+      ]
+    }
+  ],
+  "108": [
+    {
+      "moves": [
+        "surging_strikes",
+        "liquidation"
+      ],
+      "variant": "",
+      "heldItems": [
+        "muscle_band",
+        "accel_bracer",
+        "razor_claw"
+      ],
+      "heldItemOptional": "charging_charm"
+    },
+    {
+      "moves": [
+        "wicked_blow",
+        "throat_chop"
+      ],
+      "variant": "",
+      "heldItems": [
+        "muscle_band",
+        "attack_weight",
+        "razor_claw"
+      ],
+      "heldItemOptional": "charging_charm"
+    }
+  ],
+  "109": [
+    {
+      "moves": [
+        "fell_stinger",
+        "snipe_shot"
+      ],
+      "variant": "",
+      "heldItems": [
+        "choice_specs",
+        "wise_glasses",
+        "drive_lens"
+      ],
+      "heldItemOptional": "slick_spoon"
+    },
+    {
+      "moves": [
+        "acrobatics",
+        "liquidation"
+      ],
+      "variant": "",
+      "heldItems": [
+        "slick_spoon",
+        "wise_glasses",
+        "drive_lens"
+      ]
+    },
+    {
+      "moves": [
+        "fell_stinger",
+        "liquidation"
+      ],
+      "variant": "",
+      "heldItems": [
+        "slick_spoon",
+        "wise_glasses",
+        "drive_lens"
+      ]
+    }
+  ],
+  "110": [
+    {
+      "moves": [
+        "flower_trick",
+        "double_team"
+      ],
+      "variant": "",
+      "heldItems": [
+        "razor_claw",
+        "energy_amplifier",
+        "accel_bracer"
+      ],
+      "heldItemOptional": "attack_weight"
+    },
+    {
+      "moves": [
+        "night_slash",
+        "trailblaze"
+      ],
+      "variant": "",
+      "heldItems": [
+        "scope_lens",
+        "razor_claw",
+        "attack_weight"
+      ],
+      "heldItemOptional": "accel_bracer"
+    },
+    {
+      "moves": [
+        "flower_trick",
+        "trailblaze"
+      ],
+      "variant": "",
+      "heldItems": [
+        "attack_weight",
+        "accel_bracer",
+        "energy_amplifier"
+      ],
+      "heldItemOptional": "razor_claw"
+    }
+  ],
+  "111": [
+    {
+      "moves": [
+        "pursuit",
+        "sucker_punch"
+      ],
+      "variant": "",
+      "heldItems": [
+        "razor_claw",
+        "scope_lens",
+        "accel_bracer"
+      ],
+      "heldItemOptional": "charging_charm"
+    },
+    {
+      "moves": [
+        "night_slash",
+        "psycho_cut"
+      ],
+      "variant": "",
+      "heldItems": [
+        "scope_lens",
+        "razor_claw",
+        "accel_bracer"
+      ],
+      "heldItemOptional": "energy_amplifier"
+    },
+    {
+      "moves": [
+        "pursuit",
+        "psycho_cut"
+      ],
+      "variant": "",
+      "heldItems": [
+        "razor_claw",
+        "scope_lens",
+        "accel_bracer"
+      ],
+      "heldItemOptional": "energy_amplifier"
+    },
+    {
+      "moves": [
+        "night_slash",
+        "sucker_punch"
+      ],
+      "variant": "",
+      "heldItems": [
+        "razor_claw",
+        "scope_lens",
+        "accel_bracer"
+      ],
+      "heldItemOptional": "attack_weight"
+    }
+  ],
+  "112": [
+    {
+      "moves": [
+        "decorate",
+        "dazzling_gleam"
+      ],
+      "variant": "",
+      "heldItems": [
+        "exp_share",
+        "buddy_barrier",
+        "wise_glasses"
+      ],
+      "heldItemOptional": "rescue_hood"
+    },
+    {
+      "moves": [
+        "sweet_scent"
+      ],
+      "variant": "",
+      "heldItems": [
+        "exp_share",
+        "buddy_barrier",
+        "rescue_hood"
+      ],
+      "heldItemOptional": "curse_incense"
+    },
+    {
+      "moves": [
+        "decorate",
+        "sweet_scent"
+      ],
+      "variant": "",
+      "heldItems": [
+        "exp_share",
+        "buddy_barrier",
+        "wise_glasses"
+      ],
+      "heldItemOptional": "curse_incense"
+    }
+  ],
+  "113": [
+    {
+      "moves": [
+        "fire_spin",
+        "psyshock"
+      ],
+      "variant": "",
+      "heldItems": [
+        "shell_bell",
+        "curse_incense",
+        "drive_lens"
+      ],
+      "heldItemOptional": "wise_glasses"
+    },
+    {
+      "moves": [
+        "fire_spin",
+        "nitro_charge"
+      ],
+      "variant": "",
+      "heldItems": [
+        "shell_bell",
+        "curse_incense",
+        "drive_lens"
+      ],
+      "heldItemOptional": "wise_glasses"
+    },
+    {
+      "moves": [
+        "armor_cannon",
+        "psyshock"
+      ],
+      "variant": "",
+      "heldItems": [
+        "drive_lens",
+        "wise_glasses",
+        "slick_spoon"
+      ],
+      "heldItemOptional": "choice_specs"
+    }
+  ],
+  "114": [
+    {
+      "moves": [
+        "soft_boiled",
+        "egg_bomb"
+      ],
+      "variant": "",
+      "heldItems": [
+        "exp_share",
+        "buddy_barrier",
+        "energy_amplifier"
+      ],
+      "heldItemOptional": "sp_atk_specs"
+    },
+    {
+      "moves": [
+        "safeguard",
+        "egg_bomb"
+      ],
+      "variant": "",
+      "heldItems": [
+        "exp_share",
+        "buddy_barrier",
+        "energy_amplifier"
+      ],
+      "heldItemOptional": "leftovers"
+    },
+    {
+      "moves": [
+        "safeguard",
+        "helping_hand_blissey"
+      ],
+      "variant": "",
+      "heldItems": [
+        "exp_share",
+        "buddy_barrier",
+        "energy_amplifier"
+      ],
+      "heldItemOptional": "leftovers"
+    }
+  ],
+  "115": [
+    {
+      "moves": [
+        "superpower"
+      ],
+      "variant": "",
+      "heldItems": [
+        "attack_weight",
+        "weakness_policy",
+        "focus_band"
+      ],
+      "heldItemOptional": "resonant_guard"
+    }
+  ],
+  "116": [
+    {
+      "moves": [
+        "rock_tomb",
+        "x_scissor"
+      ],
+      "variant": "",
+      "heldItems": [
+        "resonant_guard",
+        "focus_band",
+        "exp_share"
+      ],
+      "heldItemOptional": "buddy_barrier"
+    },
+    {
+      "moves": [
+        "rock_tomb",
+        "stealth_rock"
+      ],
+      "variant": "",
+      "heldItems": [
+        "resonant_guard",
+        "focus_band",
+        "exp_share"
+      ],
+      "heldItemOptional": "buddy_barrier"
+    },
+    {
+      "moves": [
+        "shell_smash",
+        "x_scissor"
+      ],
+      "variant": "",
+      "heldItems": [
+        "accel_bracer",
+        "rocky_helmet",
+        "razor_claw"
+      ],
+      "heldItemOptional": "focus_band"
+    }
+  ],
+  "117": [
+    {
+      "moves": [
+        "spirit_shackle",
+        "shadow_sneak"
+      ],
+      "variant": "",
+      "heldItems": [
+        "muscle_band",
+        "accel_bracer",
+        "attack_weight"
+      ]
+    },
+    {
+      "moves": [
+        "leaf_storm"
+      ],
+      "variant": "",
+      "heldItems": [
+        "muscle_band",
+        "scope_lens",
+        "rapid_fire_scarf"
+      ]
+    },
+    {
+      "moves": [
+        "spirit_shackle",
+        "leaf_storm"
+      ],
+      "variant": "",
+      "heldItems": [
+        "muscle_band",
+        "accel_bracer",
+        "attack_weight"
+      ]
+    }
+  ],
+  "118": [
+    {
+      "moves": [
+        "mystical_fire",
+        "flame_charge"
+      ],
+      "variant": "",
+      "heldItems": [
+        "energy_amplifier",
+        "drive_lens",
+        "shell_bell"
+      ]
+    },
+    {
+      "moves": [
+        "fire_blast",
+        "fire_spin"
+      ],
+      "variant": "",
+      "heldItems": [
+        "energy_amplifier",
+        "drive_lens",
+        "shell_bell"
+      ],
+      "heldItemOptional": "choice_specs"
+    },
+    {
+      "moves": [
+        "mystical_fire",
+        "fire_spin"
+      ],
+      "variant": "",
+      "heldItems": [
+        "energy_amplifier",
+        "drive_lens",
+        "shell_bell"
+      ]
+    }
+  ],
+  "119": [
+    {
+      "moves": [
+        "tri_attack",
+        "jump_kick"
+      ],
+      "variant": "",
+      "heldItems": [
+        "attack_weight",
+        "razor_claw",
+        "charging_charm"
+      ],
+      "heldItemOptional": "accel_bracer"
+    },
+    {
+      "moves": [
+        "drill_peck",
+        "jump_kick"
+      ],
+      "variant": "",
+      "heldItems": [
+        "attack_weight",
+        "accel_bracer",
+        "charging_charm"
+      ]
+    },
+    {
+      "moves": [
+        "tri_attack",
+        "agility"
+      ],
+      "variant": "",
+      "heldItems": [
+        "attack_weight",
+        "accel_bracer",
+        "razor_claw"
+      ],
+      "heldItemOptional": "charging_charm"
+    }
+  ],
+  "120": [
+    {
+      "moves": [
+        "pollen_puff",
+        "cotton_spore"
+      ],
+      "variant": "",
+      "heldItems": [
+        "buddy_barrier",
+        "resonant_guard",
+        "muscle_band"
+      ],
+      "heldItemOptional": "curse_incense"
+    },
+    {
+      "moves": [
+        "pollen_puff",
+        "cotton_guard"
+      ],
+      "variant": "",
+      "heldItems": [
+        "buddy_barrier",
+        "resonant_guard",
+        "muscle_band"
+      ],
+      "heldItemOptional": "curse_incense"
+    },
+    {
+      "moves": [
+        "cotton_guard"
+      ],
+      "variant": "",
+      "heldItems": [
+        "muscle_band",
+        "curse_incense",
+        "buddy_barrier"
+      ],
+      "heldItemOptional": "resonant_guard"
+    },
+    {
+      "moves": [
+        "cotton_spore"
+      ],
+      "variant": "",
+      "heldItems": [
+        "muscle_band",
+        "curse_incense",
+        "buddy_barrier"
+      ],
+      "heldItemOptional": "resonant_guard"
+    }
+  ],
+  "121": [
+    {
+      "moves": [
+        "aqua_jet",
+        "hydro_cannon"
+      ],
+      "variant": "Heal Cycle",
+      "heldItems": [
+        "shell_bell",
+        "energy_amplifier",
+        "drive_lens"
+      ]
+    }
+  ],
+  "122": [
+    {
+      "moves": [
+        "megahorn",
+        "no_retreat"
+      ],
+      "variant": "",
+      "heldItems": [
+        "attack_weight",
+        "accel_bracer",
+        "weakness_policy"
+      ],
+      "heldItemOptional": "razor_claw"
+    },
+    {
+      "moves": [
+        "iron_head",
+        "no_retreat"
+      ],
+      "variant": "",
+      "heldItems": [
+        "attack_weight",
+        "accel_bracer",
+        "weakness_policy"
+      ],
+      "heldItemOptional": "razor_claw"
+    },
+    {
+      "moves": [
+        "iron_head",
+        "beat_up"
+      ],
+      "variant": "",
+      "heldItems": [
+        "attack_weight",
+        "accel_bracer",
+        "muscle_band"
+      ],
+      "heldItemOptional": "weakness_policy"
+    }
+  ],
+  "123": [
+    {
+      "moves": [
+        "dream_eater",
+        "shadow_ball"
+      ],
+      "variant": "",
+      "heldItems": [
+        "wise_glasses",
+        "drive_lens",
+        "choice_specs"
+      ]
+    },
+    {
+      "moves": [
+        "hex",
+        "sludge_bomb"
+      ],
+      "variant": "",
+      "heldItems": [
+        "drive_lens",
+        "wise_glasses",
+        "sp_atk_specs"
+      ],
+      "heldItemOptional": "shell_bell"
+    }
+  ],
+  "124": [
+    {
+      "moves": [
+        "covet",
+        "belch"
+      ],
+      "variant": "",
+      "heldItems": [
+        "attack_weight",
+        "weakness_policy",
+        "focus_band"
+      ],
+      "heldItemOptional": "resonant_guard"
+    },
+    {
+      "moves": [
+        "stuff_cheeks",
+        "bullet_seed"
+      ],
+      "variant": "",
+      "heldItems": [
+        "attack_weight",
+        "weakness_policy",
+        "focus_band"
+      ],
+      "heldItemOptional": "accel_bracer"
+    }
+  ],
+  "125": [
+    {
+      "moves": [
+        "fire_spin"
+      ],
+      "variant": "",
+      "heldItems": [
+        "resonant_guard",
+        "curse_bangle",
+        "exp_share"
+      ]
+    },
+    {
+      "moves": [
+        "flamethrower",
+        "fire_spin"
+      ],
+      "variant": "",
+      "heldItems": [
+        "resonant_guard",
+        "curse_bangle",
+        "exp_share"
+      ],
+      "heldItemOptional": "rocky_helmet"
+    },
+    {
+      "moves": [
+        "sacred_fire"
+      ],
+      "variant": "",
+      "heldItems": [
+        "attack_weight",
+        "curse_bangle",
+        "weakness_policy"
+      ]
+    },
+    {
+      "moves": [
+        "flamethrower",
+        "sacred_fire"
+      ],
+      "variant": "",
+      "heldItems": [
+        "attack_weight",
+        "curse_bangle",
+        "weakness_policy"
+      ]
+    }
+  ],
+  "126": [
+    {
+      "moves": [
+        "hyperspace_hole"
+      ],
+      "variant": "",
+      "heldItems": [
+        "resonant_guard",
+        "muscle_band",
+        "exp_share"
+      ],
+      "heldItemOptional": "choice_specs"
+    },
+    {
+      "moves": [
+        "trick",
+        "shadow_ball"
+      ],
+      "variant": "",
+      "heldItems": [
+        "muscle_band",
+        "resonant_guard",
+        "exp_share"
+      ],
+      "heldItemOptional": "choice_specs"
+    },
+    {
+      "moves": [
+        "trick"
+      ],
+      "variant": "",
+      "heldItems": [
+        "resonant_guard",
+        "muscle_band",
+        "exp_share"
+      ],
+      "heldItemOptional": "choice_specs"
+    }
+  ],
+  "127": [
+    {
+      "moves": [
+        "water_pulse"
+      ],
+      "variant": "Damage",
+      "heldItems": [
+        "slick_spoon",
+        "curse_incense",
+        "sp_atk_specs"
+      ],
+      "heldItemOptional": "focus_band"
+    },
+    {
+      "moves": [
+        "water_pulse"
+      ],
+      "variant": "Utility",
+      "heldItems": [
+        "curse_incense",
+        "resonant_guard",
+        "focus_band"
+      ],
+      "heldItemOptional": "exp_share"
+    },
+    {
+      "moves": [
+        "perish_song"
+      ],
+      "variant": "Damage",
+      "heldItems": [
+        "sp_atk_specs",
+        "slick_spoon",
+        "drive_lens"
+      ],
+      "heldItemOptional": "wise_glasses"
+    }
+  ],
+  "128": [
+    {
+      "moves": [
+        "aerial_ace_leafeon"
+      ],
+      "variant": "",
+      "heldItems": [
+        "razor_claw",
+        "energy_amplifier",
+        "attack_weight"
+      ],
+      "heldItemOptional": "accel_bracer"
+    },
+    {
+      "moves": [
+        "solar_blade",
+        "leaf_blade"
+      ],
+      "variant": "",
+      "heldItems": [
+        "attack_weight",
+        "energy_amplifier",
+        "accel_bracer"
+      ]
+    }
+  ],
+  "129": [
+    {
+      "moves": [
+        "power_up_punch_lucario",
+        "bone_rush"
+      ],
+      "variant": "",
+      "heldItems": [
+        "attack_weight",
+        "weakness_policy",
+        "razor_claw"
+      ],
+      "heldItemOptional": "accel_bracer"
+    },
+    {
+      "moves": [
+        "extreme_speed",
+        "bone_rush"
+      ],
+      "variant": "",
+      "heldItems": [
+        "attack_weight",
+        "weakness_policy",
+        "razor_claw"
+      ],
+      "heldItemOptional": "muscle_band"
+    },
+    {
+      "moves": [
+        "power_up_punch_lucario",
+        "close_combat_lucario"
+      ],
+      "variant": "",
+      "heldItems": [
+        "attack_weight",
+        "weakness_policy",
+        "accel_bracer"
+      ]
+    }
+  ],
+  "130": [
+    {
+      "moves": [
+        "dynamic_punch",
+        "cross_chop"
+      ],
+      "variant": "",
+      "heldItems": [
+        "razor_claw",
+        "attack_weight",
+        "accel_bracer"
+      ],
+      "heldItemOptional": "scope_lens"
+    },
+    {
+      "moves": [
+        "dynamic_punch",
+        "close_combat"
+      ],
+      "variant": "",
+      "heldItems": [
+        "accel_bracer",
+        "energy_amplifier",
+        "attack_weight"
+      ],
+      "heldItemOptional": "razor_claw"
+    },
+    {
+      "moves": [
+        "submission",
+        "cross_chop"
+      ],
+      "variant": "",
+      "heldItems": [
+        "attack_weight",
+        "razor_claw",
+        "scope_lens"
+      ],
+      "heldItemOptional": "accel_bracer"
+    },
+    {
+      "moves": [
+        "submission",
+        "close_combat"
+      ],
+      "variant": "",
+      "heldItems": [
+        "accel_bracer",
+        "energy_amplifier",
+        "attack_weight"
+      ]
+    }
+  ],
+  "131": [
+    {
+      "moves": [
+        "ice_fang",
+        "earthquake"
+      ],
+      "variant": "",
+      "heldItems": [
+        "focus_band",
+        "resonant_guard",
+        "exp_share"
+      ],
+      "heldItemOptional": "vanguard_bell"
+    },
+    {
+      "moves": [
+        "icicle_crash",
+        "earthquake"
+      ],
+      "variant": "",
+      "heldItems": [
+        "focus_band",
+        "resonant_guard",
+        "exp_share"
+      ],
+      "heldItemOptional": "vanguard_bell"
+    },
+    {
+      "moves": [
+        "icicle_crash",
+        "high_horsepower"
+      ],
+      "variant": "",
+      "heldItems": [
+        "focus_band",
+        "resonant_guard",
+        "exp_share"
+      ],
+      "heldItemOptional": "vanguard_bell"
+    }
+  ],
+  "133": [
+    {
+      "moves": [
+        "charge_beam",
+        "thunder"
+      ],
+      "variant": "",
+      "heldItems": [
+        "curse_incense",
+        "wise_glasses",
+        "drive_lens"
+      ],
+      "heldItemOptional": "energy_amplifier"
+    },
+    {
+      "moves": [
+        "parabolic_charge"
+      ],
+      "variant": "",
+      "heldItems": [
+        "shell_bell",
+        "wise_glasses",
+        "drive_lens"
+      ],
+      "heldItemOptional": "energy_amplifier"
+    }
+  ],
+  "134": [
+    {
+      "moves": [
+        "barrier"
+      ],
+      "variant": "",
+      "heldItems": [
+        "resonant_guard",
+        "focus_band",
+        "exp_share"
+      ],
+      "heldItemOptional": "buddy_barrier"
+    },
+    {
+      "moves": [
+        "psychic_mr_mime",
+        "power_swap"
+      ],
+      "variant": "",
+      "heldItems": [
+        "resonant_guard",
+        "sp_atk_specs",
+        "exp_share"
+      ],
+      "heldItemOptional": "vanguard_bell"
+    },
+    {
+      "moves": [
+        "power_swap"
+      ],
+      "variant": "",
+      "heldItems": [
+        "resonant_guard",
+        "slick_spoon",
+        "exp_share"
+      ],
+      "heldItemOptional": "sp_atk_specs"
+    },
+    {
+      "moves": [
+        "psychic_mr_mime",
+        "barrier"
+      ],
+      "variant": "",
+      "heldItems": [
+        "resonant_guard",
+        "sp_atk_specs",
+        "exp_share"
+      ],
+      "heldItemOptional": "vanguard_bell"
+    }
+  ],
+  "137": [
+    {
+      "moves": [
+        "knock_off",
+        "confuse_ray"
+      ],
+      "variant": "",
+      "heldItems": [
+        "resonant_guard",
+        "exp_share"
+      ],
+      "heldItemOptional": "vanguard_bell"
+    },
+    {
+      "moves": [
+        "shadow_sneak",
+        "confuse_ray"
+      ],
+      "variant": "",
+      "heldItems": [
+        "resonant_guard",
+        "exp_share"
+      ],
+      "heldItemOptional": "vanguard_bell"
+    },
+    {
+      "moves": [
+        "knock_off",
+        "feint_attack"
+      ],
+      "variant": "",
+      "heldItems": [
+        "curse_bangle",
+        "exp_share"
+      ],
+      "heldItemOptional": "vanguard_bell"
+    },
+    {
+      "moves": [
+        "shadow_sneak",
+        "feint_attack"
+      ],
+      "variant": "",
+      "heldItems": [
+        "curse_bangle",
+        "exp_share"
+      ],
+      "heldItemOptional": "vanguard_bell"
+    }
+  ],
+  "138": [
+    {
+      "moves": [
+        "surf",
+        "amnesia_move"
+      ],
+      "variant": "",
+      "heldItems": [
+        "exp_share",
+        "resonant_guard",
+        "focus_band"
+      ],
+      "heldItemOptional": "buddy_barrier"
+    },
+    {
+      "moves": [
+        "surf"
+      ],
+      "variant": "",
+      "heldItems": [
+        "exp_share",
+        "resonant_guard",
+        "focus_band"
+      ],
+      "heldItemOptional": "buddy_barrier"
+    },
+    {
+      "moves": [
+        "scald",
+        "amnesia_move"
+      ],
+      "variant": "",
+      "heldItems": [
+        "exp_share",
+        "resonant_guard",
+        "focus_band"
+      ],
+      "heldItemOptional": "buddy_barrier"
+    }
+  ],
+  "139": [
+    {
+      "moves": [
+        "hyper_voice",
+        "calm_mind"
+      ],
+      "variant": "",
+      "heldItems": [
+        "curse_incense",
+        "shell_bell",
+        "drive_lens"
+      ]
+    },
+    {
+      "moves": [
+        "mystical_fire",
+        "draining_kiss"
+      ],
+      "variant": "",
+      "heldItems": [
+        "shell_bell",
+        "drive_lens",
+        "choice_specs"
+      ],
+      "heldItemOptional": "muscle_band"
+    }
+  ],
+  "140": [
+    {
+      "moves": [
+        "aerial_ace",
+        "brave_bird"
+      ],
+      "variant": "",
+      "heldItems": [
+        "attack_weight",
+        "razor_claw",
+        "charging_charm"
+      ],
+      "heldItemOptional": "accel_bracer"
+    },
+    {
+      "moves": [
+        "flame_charge",
+        "fly"
+      ],
+      "variant": "",
+      "heldItems": [
+        "attack_weight",
+        "charging_charm",
+        "razor_claw"
+      ]
+    }
+  ],
+  "141": [
+    {
+      "moves": [
+        "stomp"
+      ],
+      "variant": "",
+      "heldItems": [
+        "attack_weight",
+        "razor_claw",
+        "weakness_policy"
+      ],
+      "heldItemOptional": "energy_amplifier"
+    },
+    {
+      "moves": [
+        "triple_axel"
+      ],
+      "variant": "",
+      "heldItems": [
+        "attack_weight",
+        "weakness_policy",
+        "accel_bracer"
+      ],
+      "heldItemOptional": "aeos_cookie"
+    }
+  ],
+  "142": [
+    {
+      "moves": [
+        "dark_pulse",
+        "sand_tomb"
+      ],
+      "variant": "",
+      "heldItems": [
+        "attack_weight",
+        "muscle_band",
+        "focus_band"
+      ],
+      "heldItemOptional": "resonant_guard"
+    },
+    {
+      "moves": [
+        "dark_pulse",
+        "ancient_power"
+      ],
+      "variant": "",
+      "heldItems": [
+        "attack_weight",
+        "muscle_band",
+        "weakness_policy"
+      ],
+      "heldItemOptional": "focus_band"
+    },
+    {
+      "moves": [
+        "stone_edge",
+        "sand_tomb"
+      ],
+      "variant": "",
+      "heldItems": [
+        "muscle_band",
+        "razor_claw",
+        "focus_band"
+      ],
+      "heldItemOptional": "resonant_guard"
+    }
+  ],
+  "143": [
+    {
+      "moves": [
+        "howl"
+      ],
+      "variant": "",
+      "heldItems": [
+        "resonant_guard",
+        "focus_band",
+        "buddy_barrier"
+      ],
+      "heldItemOptional": "vanguard_bell"
+    },
+    {
+      "moves": [
+        "mean_look",
+        "wish"
+      ],
+      "variant": "",
+      "heldItems": [
+        "resonant_guard",
+        "buddy_barrier",
+        "attack_weight"
+      ],
+      "heldItemOptional": "focus_band"
+    },
+    {
+      "moves": [
+        "wish"
+      ],
+      "variant": "",
+      "heldItems": [
+        "resonant_guard",
+        "buddy_barrier",
+        "attack_weight"
+      ],
+      "heldItemOptional": "focus_band"
+    },
+    {
+      "moves": [
+        "mean_look",
+        "howl"
+      ],
+      "variant": "",
+      "heldItems": [
+        "resonant_guard",
+        "focus_band",
+        "buddy_barrier"
+      ],
+      "heldItemOptional": "vanguard_bell"
+    }
+  ],
+  "144": [
+    {
+      "moves": [
+        "sing",
+        "dazzling_gleam"
+      ],
+      "variant": "Disruptor",
+      "heldItems": [
+        "focus_band",
+        "resonant_guard",
+        "muscle_band"
+      ],
+      "heldItemOptional": "vanguard_bell"
+    },
+    {
+      "moves": [
+        "sing",
+        "dazzling_gleam"
+      ],
+      "variant": "Protector",
+      "heldItems": [
+        "resonant_guard",
+        "exp_share",
+        "focus_band"
+      ],
+      "heldItemOptional": "buddy_barrier"
+    },
+    {
+      "moves": [
+        "rollout",
+        "double_slap"
+      ],
+      "variant": "",
+      "heldItems": [
+        "resonant_guard",
+        "focus_band",
+        "buddy_barrier"
+      ],
+      "heldItemOptional": "vanguard_bell"
+    }
+  ],
+  "145": [
+    {
+      "moves": [
+        "grass_knot",
+        "petal_blizzard"
+      ],
+      "variant": "",
+      "heldItems": [
+        "buddy_barrier",
+        "sp_atk_specs",
+        "resonant_guard"
+      ],
+      "heldItemOptional": "curse_incense"
+    }
+  ],
+  "146": [
+    {
+      "moves": [
+        "hyper_voice",
+        "snarl"
+      ],
+      "variant": "",
+      "heldItems": [
+        "energy_amplifier",
+        "slick_spoon",
+        "drive_lens"
+      ],
+      "heldItemOptional": "curse_incense"
+    }
+  ],
+  "147": [
+    {
+      "moves": [
+        "low_sweep",
+        "liquidation"
+      ],
+      "variant": "",
+      "heldItems": [
+        "attack_weight",
+        "aeos_cookie",
+        "weakness_policy"
+      ],
+      "heldItemOptional": "razor_claw"
+    }
+  ],
+  "148": [
+    {
+      "moves": [
+        "oblivion_wing",
+        "dark_pulse"
+      ],
+      "variant": "",
+      "heldItems": [
+        "drive_lens",
+        "slick_spoon",
+        "wise_glasses"
+      ],
+      "heldItemOptional": "shell_bell"
+    }
+  ],
+  "149": [
+    {
+      "moves": [
+        "aura_sphere",
+        "dragon_claw"
+      ],
+      "variant": "Damage",
+      "heldItems": [
+        "sp_atk_specs",
+        "wise_glasses",
+        "drive_lens"
+      ],
+      "heldItemOptional": "energy_amplifier"
+    },
+    {
+      "moves": [
+        "aura_sphere",
+        "dragon_claw"
+      ],
+      "variant": "Bulk",
+      "heldItems": [
+        "sp_atk_specs",
+        "rocky_helmet",
+        "buddy_barrier"
+      ],
+      "heldItemOptional": "focus_band"
+    }
+  ],
+  "150": [
+    {
+      "moves": [
+        "dragon_dance",
+        "blue_flare"
+      ],
+      "variant": "",
+      "heldItems": [
+        "slick_spoon",
+        "drive_lens",
+        "energy_amplifier"
+      ],
+      "heldItemOptional": "shell_bell"
+    }
+  ]
+}
