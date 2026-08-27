@@ -1182,6 +1182,17 @@
       ]
     }
   ],
+  "85": [
+    {
+      "moves": [],
+      "variant": "",
+      "heldItems": [
+        "attack_weight",
+        "resonant_guard"
+      ],
+      "heldItemOptional": "weakness_policy"
+    }
+  ],
   "86": [
     {
       "moves": [
@@ -1398,6 +1409,18 @@
         "rapid_fire_scarf"
       ],
       "heldItemOptional": "charging_charm"
+    }
+  ],
+  "97": [
+    {
+      "moves": [],
+      "variant": "",
+      "heldItems": [
+        "attack_weight",
+        "aeos_cookie",
+        "weakness_policy"
+      ],
+      "heldItemOptional": "razor_claw"
     }
   ],
   "98": [
@@ -2069,6 +2092,16 @@
         "focus_band"
       ],
       "heldItemOptional": "resonant_guard"
+    },
+    {
+      "moves": [],
+      "variant": "",
+      "heldItems": [
+        "accel_bracer",
+        "attack_weight",
+        "focus_band"
+      ],
+      "heldItemOptional": "weakness_policy"
     }
   ],
   "116": [
@@ -2676,6 +2709,17 @@
       "heldItemOptional": "vanguard_bell"
     }
   ],
+  "132": [
+    {
+      "moves": [],
+      "variant": "",
+      "heldItems": [
+        "choice_specs",
+        "wise_glasses",
+        "drive_lens"
+      ]
+    }
+  ],
   "133": [
     {
       "moves": [
@@ -2753,6 +2797,18 @@
         "exp_share"
       ],
       "heldItemOptional": "vanguard_bell"
+    }
+  ],
+  "135": [
+    {
+      "moves": [],
+      "variant": "",
+      "heldItems": [
+        "muscle_band",
+        "razor_claw",
+        "weakness_policy"
+      ],
+      "heldItemOptional": "attack_weight"
     }
   ],
   "137": [
