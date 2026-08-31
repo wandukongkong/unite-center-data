@@ -6,9 +6,11 @@
       "en": "Toxtricity",
       "ja": "ストリンダー"
     },
-    "role": "Balance",
+    "role": "Attack",
     "difficulty": "Novice",
-    "spriteId": 849
+    "spriteId": 849,
+    "roleConfirmed": true,
+    "releaseDate": "2026-09-24"
   },
   {
     "id": "cs_morpeko",
@@ -17,8 +19,36 @@
       "en": "Morpeko",
       "ja": "モルペコ"
     },
+    "role": "Speed",
+    "difficulty": "Novice",
+    "spriteId": 877,
+    "roleConfirmed": true,
+    "releaseDate": "2026-09-04"
+  },
+  {
+    "id": "cs_jolteon",
+    "name": {
+      "ko": "쥬피썬더",
+      "en": "Jolteon",
+      "ja": "サンダース"
+    },
+    "role": "Speed",
+    "difficulty": "Novice",
+    "spriteId": 135,
+    "roleConfirmed": true,
+    "releaseDate": "2026-10"
+  },
+  {
+    "id": "cs_flareon",
+    "name": {
+      "ko": "부스터",
+      "en": "Flareon",
+      "ja": "ブースター"
+    },
     "role": "Balance",
     "difficulty": "Novice",
-    "spriteId": 877
+    "spriteId": 136,
+    "roleConfirmed": true,
+    "releaseDate": "2026-10"
   }
 ]
