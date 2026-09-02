@@ -1,5 +1,423 @@
 [
   {
+    "id": "pn-180",
+    "version": "2026.09.03",
+    "date": "2026-09-03",
+    "pokemonId": "116",
+    "type": "buff",
+    "types": [
+      "buff"
+    ],
+    "summary": {
+      "ko": "암팰리스의 바위무덤 이동 속도 저하 지속시간이 늘고, 쇄석선풍루의 필요 에너지가 줄었다.",
+      "en": "Crustle's Rock Tomb slow lasts longer and Rubble Rouser's required energy is reduced.",
+      "ja": "イワパレスのいわおとしの移動速度低下が長く続くようになり、砕石旋風楼の必要エネルギーが減少した。"
+    },
+    "changes": [
+      {
+        "ko": "[바위무덤] 이동 속도 저하 지속시간 2초 → 3초",
+        "en": "[Rock Tomb] Movement speed reduction duration 2s → 3s",
+        "ja": "[いわおとし] 移動速度低下の持続時間 2秒 → 3秒"
+      },
+      {
+        "ko": "[쇄석선풍루] 필요 에너지 120000 → 110000",
+        "en": "[Rubble Rouser] Required energy 120000 → 110000",
+        "ja": "[砕石旋風楼] 必要エネルギー 120000 → 110000"
+      }
+    ]
+  },
+  {
+    "id": "pn-181",
+    "version": "2026.09.03",
+    "date": "2026-09-03",
+    "pokemonId": "115",
+    "type": "buff",
+    "types": [
+      "buff"
+    ],
+    "summary": {
+      "ko": "매시붕의 강화 공격 데미지가 오르고, 엄청난힘의 대기시간이 짧아졌다.",
+      "en": "Buzzwole's boosted attack deals more damage and Superpower's cooldown is shorter.",
+      "ja": "マッシブーンの強化攻撃のダメージが上がり、すてみタックルの待機時間が短くなった。"
+    },
+    "changes": [
+      {
+        "ko": "[일반 공격] 강화 공격 데미지 12.5% 증가",
+        "en": "[Basic Attack] Boosted attack damage +12.5%",
+        "ja": "[通常攻撃] 強化攻撃のダメージ 12.5% 増加"
+      },
+      {
+        "ko": "[엄청난힘] 대기시간 8초 → 7.5초",
+        "en": "[Superpower] Cooldown 8s → 7.5s",
+        "ja": "[すてみタックル] 待機時間 8秒 → 7.5秒"
+      }
+    ]
+  },
+  {
+    "id": "pn-182",
+    "version": "2026.09.03",
+    "date": "2026-09-03",
+    "pokemonId": "83",
+    "type": "buff",
+    "types": [
+      "buff"
+    ],
+    "summary": {
+      "ko": "메가뮤츠Y의 일반 공격 데미지가 증가했으며, 메가진화 중에는 추가로 증가한다.",
+      "en": "Mega Mewtwo Y's basic attack damage is increased, with a further increase during Mega Evolution.",
+      "ja": "メガミュウツーYの通常攻撃のダメージが増加し、メガシンカ中はさらに増加する。"
+    },
+    "changes": [
+      {
+        "ko": "[일반 공격] 데미지 10% 증가, 메가진화 중 데미지 8% 증가",
+        "en": "[Basic Attack] Damage +10%, +8% during Mega Evolution",
+        "ja": "[通常攻撃] ダメージ 10% 増加、メガシンカ中のダメージ 8% 増加"
+      }
+    ]
+  },
+  {
+    "id": "pn-183",
+    "version": "2026.09.03",
+    "date": "2026-09-03",
+    "pokemonId": "119",
+    "type": "buff",
+    "types": [
+      "buff"
+    ],
+    "summary": {
+      "ko": "두트리오의 점프킥 대기시간과 조맹돌진 필요 에너지가 줄고, 회전부리 데미지가 증가했다.",
+      "en": "Dodrio's Jump Kick cooldown and Triple Trample energy are reduced, and Drill Peck deals more damage.",
+      "ja": "ドードリオのとびげりの待機時間とちょうもうとつしんの必要エネルギーが減少し、ドリルくちばしのダメージが増加した。"
+    },
+    "changes": [
+      {
+        "ko": "[점프킥] 대기시간 6.5초 → 6초",
+        "en": "[Jump Kick] Cooldown 6.5s → 6s",
+        "ja": "[とびげり] 待機時間 6.5秒 → 6秒"
+      },
+      {
+        "ko": "[회전부리] 데미지 8% 증가",
+        "en": "[Drill Peck] Damage +8%",
+        "ja": "[ドリルくちばし] ダメージ 8% 増加"
+      },
+      {
+        "ko": "[조맹돌진] 필요 에너지 120000 → 110000",
+        "en": "[Triple Trample] Required energy 120000 → 110000",
+        "ja": "[ちょうもうとつしん] 必要エネルギー 120000 → 110000"
+      }
+    ]
+  },
+  {
+    "id": "pn-184",
+    "version": "2026.09.03",
+    "date": "2026-09-03",
+    "pokemonId": "73",
+    "type": "buff",
+    "types": [
+      "buff"
+    ],
+    "summary": {
+      "ko": "프리져의 냉동빔 이동 속도 감소 효과가 강해지고, 아이스윙블리자드의 데미지와 얼음 내구도가 상승했다.",
+      "en": "Articuno's Ice Beam slows more, and Ice Wing Whiteout's damage and ice durability are increased.",
+      "ja": "フリーザーのれいとうビームの移動速度低下効果が強まり、アイスウィングブリザードのダメージと氷の耐久が上昇した。"
+    },
+    "changes": [
+      {
+        "ko": "[냉동빔] 이동 속도 감소 효과 30% → 40%",
+        "en": "[Ice Beam] Movement speed reduction 30% → 40%",
+        "ja": "[れいとうビーム] 移動速度低下効果 30% → 40%"
+      },
+      {
+        "ko": "[아이스윙블리자드] 데미지 10% 증가, 골 에리어를 감싸는 얼음 파괴에 필요한 데미지 1000 증가",
+        "en": "[Ice Wing Whiteout] Damage +10%, damage required to break the ice covering the goal area +1000",
+        "ja": "[アイスウィングブリザード] ダメージ 10% 増加、ゴールエリアを覆う氷の破壊に必要なダメージ 1000 増加"
+      }
+    ]
+  },
+  {
+    "id": "pn-185",
+    "version": "2026.09.03",
+    "date": "2026-09-03",
+    "pokemonId": "60",
+    "type": "buff",
+    "types": [
+      "buff"
+    ],
+    "summary": {
+      "ko": "파이어의 불새 방어·특수방어 상승량이 늘고, 플레어버드인페르노의 데미지가 증가했다.",
+      "en": "Moltres's Sky Attack grants more Defense/Sp. Def and Firebird Inferno deals more damage.",
+      "ja": "ファイヤーのほのおのまいのぼうぎょ・とくぼう上昇量が増え、ファイヤーフレイムダイブのダメージが増加した。"
+    },
+    "changes": [
+      {
+        "ko": "[불새] 명중한 상대 포켓몬 수에 따른 방어·특수방어 상승량 8% → 10%",
+        "en": "[Sky Attack] Defense/Sp. Def increase per opposing Pokémon hit 8% → 10%",
+        "ja": "[ほのおのまい] 命中した相手のポケモンの数に応じたぼうぎょ・とくぼう上昇量 8% → 10%"
+      },
+      {
+        "ko": "[플레어버드인페르노] 데미지 10% 증가",
+        "en": "[Firebird Inferno] Damage +10%",
+        "ja": "[ファイヤーフレイムダイブ] ダメージ 10% 増加"
+      }
+    ]
+  },
+  {
+    "id": "pn-186",
+    "version": "2026.09.03",
+    "date": "2026-09-03",
+    "pokemonId": "63",
+    "type": "buff",
+    "types": [
+      "buff"
+    ],
+    "summary": {
+      "ko": "알로라나인테일의 강화 공격과 눈사태 데미지가 증가했다.",
+      "en": "Alolan Ninetales's boosted attack and Avalanche deal more damage.",
+      "ja": "アローラキュウコンの強化攻撃となだれのダメージが増加した。"
+    },
+    "changes": [
+      {
+        "ko": "[일반 공격] 강화 공격 데미지 8% 증가",
+        "en": "[Basic Attack] Boosted attack damage +8%",
+        "ja": "[通常攻撃] 強化攻撃のダメージ 8% 増加"
+      },
+      {
+        "ko": "[눈사태] 데미지 10% 증가",
+        "en": "[Avalanche] Damage +10%",
+        "ja": "[なだれ] ダメージ 10% 増加"
+      }
+    ]
+  },
+  {
+    "id": "pn-187",
+    "version": "2026.09.03",
+    "date": "2026-09-03",
+    "pokemonId": "150",
+    "type": "nerf",
+    "types": [
+      "nerf"
+    ],
+    "summary": {
+      "ko": "레시라무의 푸른불꽃과 일반 공격 효과, 열화초뢰의 데미지 및 3회째 강화 효과가 전반적으로 하향됐다.",
+      "en": "Reshiram's Blue Flare, basic attack effect, and Flames That Bring Lightning damage and empowered third use are broadly reduced.",
+      "ja": "レシラムのあおいほのおと通常攻撃の効果、烈火超雷のダメージおよび3回目の強化効果が全体的に下方修正された。"
+    },
+    "changes": [
+      {
+        "ko": "[푸른불꽃] 데미지 10% 감소",
+        "en": "[Blue Flare] Damage -10%",
+        "ja": "[あおいほのお] ダメージ 10% 減少"
+      },
+      {
+        "ko": "[일반 공격] 강화 공격에 의한 유나이트기 대기시간 단축 15% → 10%",
+        "en": "[Basic Attack] Unite Move cooldown reduction from boosted attacks 15% → 10%",
+        "ja": "[通常攻撃] 強化攻撃によるユナイトわざの待機時間短縮 15% → 10%"
+      },
+      {
+        "ko": "[열화초뢰] 데미지 10% 감소",
+        "en": "[Flames That Bring Lightning] Damage -10%",
+        "ja": "[烈火超雷] ダメージ 10% 減少"
+      },
+      {
+        "ko": "[열화초뢰] 3번째 사용 시 획득 실드량 20% → 10%",
+        "en": "[Flames That Bring Lightning] Shield gained on 3rd use 20% → 10%",
+        "ja": "[烈火超雷] 3回目の使用時に得るシールド量 20% → 10%"
+      },
+      {
+        "ko": "[열화초뢰] 3번째 사용 시 이동 속도 상승량 30% → 15%",
+        "en": "[Flames That Bring Lightning] Movement speed boost on 3rd use 30% → 15%",
+        "ja": "[烈火超雷] 3回目の使用時の移動速度上昇量 30% → 15%"
+      },
+      {
+        "ko": "[열화초뢰] 3번째 사용 시 기술 대기시간 단축 효과 30% → 10%",
+        "en": "[Flames That Bring Lightning] Cooldown reduction on 3rd use 30% → 10%",
+        "ja": "[烈火超雷] 3回目の使用時の待機時間短縮効果 30% → 10%"
+      },
+      {
+        "ko": "[열화초뢰] 3번째 사용 시 강화 효과 지속시간 6초 → 4초",
+        "en": "[Flames That Bring Lightning] Empowered effect duration on 3rd use 6s → 4s",
+        "ja": "[烈火超雷] 3回目の使用時の強化効果の持続時間 6秒 → 4秒"
+      }
+    ]
+  },
+  {
+    "id": "pn-188",
+    "version": "2026.09.03",
+    "date": "2026-09-03",
+    "pokemonId": "148",
+    "type": "nerf",
+    "types": [
+      "nerf"
+    ],
+    "summary": {
+      "ko": "이벨타르의 다크오라 데미지 증가 효과와 데스윙 데미지가 하향됐다.",
+      "en": "Yveltal's Dark Aura damage amplification and Oblivion Wing damage are reduced.",
+      "ja": "イベルタルのダークオーラのダメージ増加効果とデスウイングのダメージが下方修正された。"
+    },
+    "changes": [
+      {
+        "ko": "[다크오라] 파괴 카운터 수에 따라 받는 데미지 증가량 3% → 2% (최대 15% → 10%)",
+        "en": "[Dark Aura] Damage taken increase per destruction counter 3% → 2% (max 15% → 10%)",
+        "ja": "[ダークオーラ] 破壊カウンターの数に応じた被ダメージ増加量 3% → 2%（最大 15% → 10%）"
+      },
+      {
+        "ko": "[데스윙] 데미지 5% 감소",
+        "en": "[Oblivion Wing] Damage -5%",
+        "ja": "[デスウイング] ダメージ 5% 減少"
+      }
+    ]
+  },
+  {
+    "id": "pn-189",
+    "version": "2026.09.03",
+    "date": "2026-09-03",
+    "pokemonId": "87",
+    "type": "nerf",
+    "types": [
+      "nerf"
+    ],
+    "summary": {
+      "ko": "장크로다일의 폭포오르기 대기시간·실드량과 깨물어부수기 엄니 데미지가 하향됐다.",
+      "en": "Feraligatr's Waterfall cooldown and shield, and Crunch's fang damage are reduced.",
+      "ja": "オーダイルのたきのぼりの待機時間・シールド量とかみくだくのキバのダメージが下方修正された。"
+    },
+    "changes": [
+      {
+        "ko": "[폭포오르기] 대기시간 6.5초 → 7.5초",
+        "en": "[Waterfall] Cooldown 6.5s → 7.5s",
+        "ja": "[たきのぼり] 待機時間 6.5秒 → 7.5秒"
+      },
+      {
+        "ko": "[폭포오르기] 실드량 15% 감소",
+        "en": "[Waterfall] Shield -15%",
+        "ja": "[たきのぼり] シールド量 15% 減少"
+      },
+      {
+        "ko": "[깨물어부수기] 탐식의 엄니 데미지 10% 감소",
+        "en": "[Crunch] Gluttony Fang damage -10%",
+        "ja": "[かみくだく] 貪食のキバのダメージ 10% 減少"
+      },
+      {
+        "ko": "[깨물어부수기] 집념의 엄니 데미지 10% 감소",
+        "en": "[Crunch] Tenacity Fang damage -10%",
+        "ja": "[かみくだく] 執念のキバのダメージ 10% 減少"
+      }
+    ]
+  },
+  {
+    "id": "pn-190",
+    "version": "2026.09.03",
+    "date": "2026-09-03",
+    "pokemonId": "124",
+    "type": "nerf",
+    "types": [
+      "nerf"
+    ],
+    "summary": {
+      "ko": "요씽리스의 방어·특수방어 능력치가 낮아지고, 나무열매욕심다이브의 필요 에너지가 증가했다.",
+      "en": "Greedent's Defense and Sp. Def are lowered, and Berry Belly Flop's required energy is increased.",
+      "ja": "ヨクバリスの防御・特防が下がり、きのみよくばりダイブの必要エネルギーが増加した。"
+    },
+    "changes": [
+      {
+        "ko": "[능력치] 방어 75~540 → 75~500",
+        "en": "[Stats] Defense 75~540 → 75~500",
+        "ja": "[ステータス] 防御 75~540 → 75~500"
+      },
+      {
+        "ko": "[능력치] 특수방어 60~460 → 60~420",
+        "en": "[Stats] Sp. Def 60~460 → 60~420",
+        "ja": "[ステータス] 特防 60~460 → 60~420"
+      },
+      {
+        "ko": "[나무열매욕심다이브] 필요 에너지 90000 → 100000",
+        "en": "[Berry Belly Flop] Required energy 90000 → 100000",
+        "ja": "[きのみよくばりダイブ] 必要エネルギー 90000 → 100000"
+      }
+    ]
+  },
+  {
+    "id": "pn-191",
+    "version": "2026.09.03",
+    "date": "2026-09-03",
+    "pokemonId": "95",
+    "type": "nerf",
+    "types": [
+      "nerf"
+    ],
+    "summary": {
+      "ko": "큐아링의 천사의키스 대기시간이 늘고, 헤롱헤롱 상태 지속시간이 감소했다.",
+      "en": "Comfey's Angel's Kiss cooldown is longer and its Infatuation duration is reduced.",
+      "ja": "キュワワーのエンジェルキスの待機時間が延び、メロメロ状態の持続時間が減少した。"
+    },
+    "changes": [
+      {
+        "ko": "[천사의키스] 대기시간 6초 → 7초",
+        "en": "[Angel's Kiss] Cooldown 6s → 7s",
+        "ja": "[エンジェルキス] 待機時間 6秒 → 7秒"
+      },
+      {
+        "ko": "[천사의키스] 헤롱헤롱 상태 지속시간 [0.6초 + 소비한 꽃 수 × 0.1초] → [0.2초 + 소비한 꽃 수 × 0.1초]",
+        "en": "[Angel's Kiss] Infatuation duration [0.6s + 0.1s × flowers consumed] → [0.2s + 0.1s × flowers consumed]",
+        "ja": "[エンジェルキス] メロメロ状態の持続時間 [0.6秒 + 消費した花の数 × 0.1秒] → [0.2秒 + 消費した花の数 × 0.1秒]"
+      }
+    ]
+  },
+  {
+    "id": "pn-192",
+    "version": "2026.09.03",
+    "date": "2026-09-03",
+    "pokemonId": "78",
+    "type": "nerf",
+    "types": [
+      "nerf"
+    ],
+    "summary": {
+      "ko": "한카리아스의 드래곤다이브와 드래곤클로 대기시간이 길어졌다.",
+      "en": "Garchomp's Dragon Rush and Dragon Claw cooldowns are increased.",
+      "ja": "ガブリアスのドラゴンダイブとドラゴンクローの待機時間が延びた。"
+    },
+    "changes": [
+      {
+        "ko": "[드래곤다이브] 대기시간 5.5초 → 6초",
+        "en": "[Dragon Rush] Cooldown 5.5s → 6s",
+        "ja": "[ドラゴンダイブ] 待機時間 5.5秒 → 6秒"
+      },
+      {
+        "ko": "[드래곤클로] 대기시간 4초 → 5초",
+        "en": "[Dragon Claw] Cooldown 4s → 5s",
+        "ja": "[ドラゴンクロー] 待機時間 4秒 → 5秒"
+      }
+    ]
+  },
+  {
+    "id": "pn-193",
+    "version": "2026.09.03",
+    "date": "2026-09-03",
+    "pokemonId": "106",
+    "type": "nerf",
+    "types": [
+      "nerf"
+    ],
+    "summary": {
+      "ko": "두랄루돈의 러스터캐논 대기시간과 두랄디재스터 필요 에너지가 증가했다.",
+      "en": "Duraludon's Flash Cannon cooldown and Revolving Ruin required energy are increased.",
+      "ja": "ジュラルドンのラスターカノンの待機時間とジュラルドンディザスターの必要エネルギーが増加した。"
+    },
+    "changes": [
+      {
+        "ko": "[러스터캐논] 대기시간 5초 → 6초",
+        "en": "[Flash Cannon] Cooldown 5s → 6s",
+        "ja": "[ラスターカノン] 待機時間 5秒 → 6秒"
+      },
+      {
+        "ko": "[두랄디재스터] 필요 에너지 100000 → 110000",
+        "en": "[Revolving Ruin] Required energy 100000 → 110000",
+        "ja": "[ジュラルドンディザスター] 必要エネルギー 100000 → 110000"
+      }
+    ]
+  },
+  {
     "id": "pn-167",
     "version": "2026.08.21",
     "date": "2026-08-21",
@@ -769,7 +1187,7 @@
   {
     "id": "pn-122",
     "version": "2026.06.16",
-    "date": "2026-06-16",
+    "date": "2026-06-17",
     "pokemonId": "139",
     "type": "buff",
     "types": [
@@ -806,7 +1224,7 @@
   {
     "id": "pn-123",
     "version": "2026.06.16",
-    "date": "2026-06-16",
+    "date": "2026-06-17",
     "pokemonId": "113",
     "type": "buff",
     "types": [
@@ -843,7 +1261,7 @@
   {
     "id": "pn-124",
     "version": "2026.06.16",
-    "date": "2026-06-16",
+    "date": "2026-06-17",
     "pokemonId": "98",
     "type": "buff",
     "types": [
@@ -875,7 +1293,7 @@
   {
     "id": "pn-125",
     "version": "2026.06.16",
-    "date": "2026-06-16",
+    "date": "2026-06-17",
     "pokemonId": "122",
     "type": "buff",
     "types": [
@@ -907,7 +1325,7 @@
   {
     "id": "pn-126",
     "version": "2026.06.16",
-    "date": "2026-06-16",
+    "date": "2026-06-17",
     "pokemonId": "121",
     "type": "buff",
     "types": [
@@ -939,7 +1357,7 @@
   {
     "id": "pn-127",
     "version": "2026.06.16",
-    "date": "2026-06-16",
+    "date": "2026-06-17",
     "pokemonId": "111",
     "type": "buff",
     "types": [
@@ -971,7 +1389,7 @@
   {
     "id": "pn-128",
     "version": "2026.06.16",
-    "date": "2026-06-16",
+    "date": "2026-06-17",
     "pokemonId": "120",
     "type": "buff",
     "types": [
@@ -1013,7 +1431,7 @@
   {
     "id": "pn-129",
     "version": "2026.06.16",
-    "date": "2026-06-16",
+    "date": "2026-06-17",
     "pokemonId": "127",
     "type": "buff",
     "types": [
@@ -1050,7 +1468,7 @@
   {
     "id": "pn-130",
     "version": "2026.06.16",
-    "date": "2026-06-16",
+    "date": "2026-06-17",
     "pokemonId": "146",
     "type": "buff",
     "types": [
@@ -1077,7 +1495,7 @@
   {
     "id": "pn-131",
     "version": "2026.06.16",
-    "date": "2026-06-16",
+    "date": "2026-06-17",
     "pokemonId": "71",
     "type": "nerf",
     "types": [
@@ -1114,7 +1532,7 @@
   {
     "id": "pn-132",
     "version": "2026.06.16",
-    "date": "2026-06-16",
+    "date": "2026-06-17",
     "pokemonId": "117",
     "type": "nerf",
     "types": [
@@ -1146,7 +1564,7 @@
   {
     "id": "pn-133",
     "version": "2026.06.16",
-    "date": "2026-06-16",
+    "date": "2026-06-17",
     "pokemonId": "60",
     "type": "nerf",
     "types": [
@@ -1173,7 +1591,7 @@
   {
     "id": "pn-134",
     "version": "2026.06.16",
-    "date": "2026-06-16",
+    "date": "2026-06-17",
     "pokemonId": "130",
     "type": "nerf",
     "types": [
@@ -1195,7 +1613,7 @@
   {
     "id": "pn-135",
     "version": "2026.06.16",
-    "date": "2026-06-16",
+    "date": "2026-06-17",
     "pokemonId": "145",
     "type": "nerf",
     "types": [
@@ -1232,7 +1650,7 @@
   {
     "id": "pn-136",
     "version": "2026.06.16",
-    "date": "2026-06-16",
+    "date": "2026-06-17",
     "pokemonId": "73",
     "type": "nerf",
     "types": [
@@ -1370,7 +1788,7 @@
   {
     "id": "pn-081",
     "version": "2026.05.13",
-    "date": "2026-05-13",
+    "date": "2026-05-14",
     "pokemonId": "31",
     "type": "nerf",
     "types": [
@@ -1392,7 +1810,7 @@
   {
     "id": "pn-078",
     "version": "2026.05.13",
-    "date": "2026-05-13",
+    "date": "2026-05-14",
     "pokemonId": "55",
     "type": "nerf",
     "types": [
@@ -1419,7 +1837,7 @@
   {
     "id": "pn-075",
     "version": "2026.05.13",
-    "date": "2026-05-13",
+    "date": "2026-05-14",
     "pokemonId": "56",
     "type": "adjust",
     "types": [
@@ -1457,7 +1875,7 @@
   {
     "id": "pn-079",
     "version": "2026.05.13",
-    "date": "2026-05-13",
+    "date": "2026-05-14",
     "pokemonId": "58",
     "type": "nerf",
     "types": [
@@ -1484,7 +1902,7 @@
   {
     "id": "pn-076",
     "version": "2026.05.13",
-    "date": "2026-05-13",
+    "date": "2026-05-14",
     "pokemonId": "73",
     "type": "nerf",
     "types": [
@@ -1516,7 +1934,7 @@
   {
     "id": "pn-074",
     "version": "2026.05.13",
-    "date": "2026-05-13",
+    "date": "2026-05-14",
     "pokemonId": "74",
     "type": "buff",
     "types": [
@@ -1543,7 +1961,7 @@
   {
     "id": "pn-077",
     "version": "2026.05.13",
-    "date": "2026-05-13",
+    "date": "2026-05-14",
     "pokemonId": "81",
     "type": "nerf",
     "types": [
@@ -1570,7 +1988,7 @@
   {
     "id": "pn-083",
     "version": "2026.05.13",
-    "date": "2026-05-13",
+    "date": "2026-05-14",
     "pokemonId": "101",
     "type": "adjust",
     "types": [
@@ -1597,7 +2015,7 @@
   {
     "id": "pn-068",
     "version": "2026.05.13",
-    "date": "2026-05-13",
+    "date": "2026-05-14",
     "pokemonId": "103",
     "type": "buff",
     "types": [
@@ -1639,7 +2057,7 @@
   {
     "id": "pn-069",
     "version": "2026.05.13",
-    "date": "2026-05-13",
+    "date": "2026-05-14",
     "pokemonId": "104",
     "type": "buff",
     "types": [
@@ -1676,7 +2094,7 @@
   {
     "id": "pn-070",
     "version": "2026.05.13",
-    "date": "2026-05-13",
+    "date": "2026-05-14",
     "pokemonId": "105",
     "type": "buff",
     "types": [
@@ -1708,7 +2126,7 @@
   {
     "id": "pn-071",
     "version": "2026.05.13",
-    "date": "2026-05-13",
+    "date": "2026-05-14",
     "pokemonId": "106",
     "type": "buff",
     "types": [
@@ -1740,7 +2158,7 @@
   {
     "id": "pn-072",
     "version": "2026.05.13",
-    "date": "2026-05-13",
+    "date": "2026-05-14",
     "pokemonId": "107",
     "type": "buff",
     "types": [
@@ -1777,34 +2195,39 @@
   {
     "id": "pn-073",
     "version": "2026.05.13",
-    "date": "2026-05-13",
+    "date": "2026-05-14",
     "pokemonId": "108",
     "type": "buff",
     "types": [
       "buff"
     ],
     "summary": {
-      "ko": "역린 추가 데미지 비율 상향, 유나이트 밀치기 데미지 대폭 강화",
-      "en": "Wicked Blow additional damage ratio increased, Unite Move Ebon Fist shove damage greatly buffed",
-      "ja": "あんこくきょうだのボーナスダメージ率増加、ユナイトわざのはじき飛ばしダメージ大幅増加"
+      "ko": "일격의 태세 암흑강타의 잃은 HP 비례 데미지와 칠흑의 마지막 강타의 충돌 데미지가 상향되었다.",
+      "en": "Wicked Blow's missing-HP-proportional damage and Ebon Fist's collision damage were buffed (Single Strike Style).",
+      "ja": "いちげきのかたのあんこくきょうだの失ったHP比例ダメージと、しっこくのさいごのいちげきの衝突ダメージが強化された。"
     },
     "changes": [
       {
-        "ko": "[역린] 상대 잃은 HP 기준 추가 데미지 5~10% → 7~14%",
-        "en": "[Wicked Blow] Additional damage based on opponent missing HP 5~10% → 7~14%",
-        "ja": "[あんこくきょうだ] 相手の失ったHPへの追加ダメージ 5~10% → 7~14%"
+        "ko": "[암흑강타] 잃은 HP 비례 데미지(차징) 대상 잃은 HP의 5% → 대상 잃은 HP의 7%",
+        "en": "[Wicked Blow] Missing-HP-proportional damage (charged) 5% → 7% of target's missing HP",
+        "ja": "[あんこくきょうだ] 失ったHP比例ダメージ(チャージ) 対象の失ったHPの5% → 対象の失ったHPの7%"
       },
       {
-        "ko": "[유나이트 「이본피스트」] 밀려난 포켓몬 충돌 시 데미지 +50%",
-        "en": "[Unite Move \"Ebon Fist\"] Shove collision damage +50%",
-        "ja": "[ユナイトわざ「エボンフィスト」] はじき飛ばし衝突時ダメージ +50%"
+        "ko": "[암흑강타] 잃은 HP 비례 데미지(차징, 범위 중심) 대상 잃은 HP의 10% → 대상 잃은 HP의 14%",
+        "en": "[Wicked Blow] Missing-HP-proportional damage (charged, area center) 10% → 14% of target's missing HP",
+        "ja": "[あんこくきょうだ] 失ったHP比例ダメージ(チャージ・範囲中心) 対象の失ったHPの10% → 対象の失ったHPの14%"
+      },
+      {
+        "ko": "[칠흑의 마지막 강타] 충돌 데미지 공격의 220% + 9×(레벨-1) + 410 → 공격의 330% + 12×(레벨-1) + 615",
+        "en": "[Ebon Fist] Collision damage ATK 220% + 9×(Lv-1) + 410 → ATK 330% + 12×(Lv-1) + 615",
+        "ja": "[しっこくのさいごのいちげき] 衝突ダメージ 攻撃の220% + 9×(レベル-1) + 410 → 攻撃の330% + 12×(レベル-1) + 615"
       }
     ]
   },
   {
     "id": "pn-080",
     "version": "2026.05.13",
-    "date": "2026-05-13",
+    "date": "2026-05-14",
     "pokemonId": "109",
     "type": "nerf",
     "types": [
@@ -1831,7 +2254,7 @@
   {
     "id": "pn-082",
     "version": "2026.05.13",
-    "date": "2026-05-13",
+    "date": "2026-05-14",
     "pokemonId": "110",
     "type": "adjust",
     "types": [
@@ -3752,6 +4175,43 @@
     "changes": []
   },
   {
+    "id": "pn-179",
+    "version": "2025.08.19",
+    "date": "2025-08-19",
+    "pokemonId": "108",
+    "type": "buff",
+    "types": [
+      "buff"
+    ],
+    "summary": {
+      "ko": "일격의 태세 암흑강타·지옥찌르기와 연격의 태세 수류연타·아쿠아브레이크가 폭넓게 상향되었다.",
+      "en": "Wicked Blow and Throat Chop (Single Strike Style) and Surging Strikes and Liquidation (Rapid Strike Style) received broad buffs.",
+      "ja": "いちげきのかたのあんこくきょうだ・じごくづきと、れんげきのかたのすいりゅうれんだ・アクアブレイクが幅広く強化された。"
+    },
+    "changes": [
+      {
+        "ko": "[암흑강타] 차징 중 본인 이동 속도 감소 이동 속도의 40% → 이동 속도의 30%",
+        "en": "[Wicked Blow] Self movement speed reduction while charging 40% → 30% of movement speed",
+        "ja": "[あんこくきょうだ] チャージ中の自身の移動速度低下 移動速度の40% → 移動速度の30%"
+      },
+      {
+        "ko": "[지옥찌르기] 암흑강타 명중 시 지옥찌르기+ 대기 시간 감소 남은 대기 시간의 30% → 40%",
+        "en": "[Throat Chop] On Wicked Blow hit, Throat Chop+ cooldown reduction 30% → 40% of remaining cooldown",
+        "ja": "[じごくづき] あんこくきょうだ命中時のじごくづき+クールタイム短縮 残りクールタイムの30% → 40%"
+      },
+      {
+        "ko": "[수류연타] 대기 시간 11초 → 10초",
+        "en": "[Surging Strikes] Cooldown 11s → 10s",
+        "ja": "[すいりゅうれんだ] クールタイム 11秒 → 10秒"
+      },
+      {
+        "ko": "[아쿠아브레이크] 실드 공격의 84% + 240 → 공격의 90% + 260",
+        "en": "[Liquidation] Shield ATK 84% + 240 → ATK 90% + 260",
+        "ja": "[アクアブレイク] シールド 攻撃の84% + 240 → 攻撃の90% + 260"
+      }
+    ]
+  },
+  {
     "id": "pn-085",
     "version": "2025.06.12",
     "date": "2025-06-12",
@@ -3782,6 +4242,93 @@
       "ja": "新規リリース"
     },
     "changes": []
+  },
+  {
+    "id": "pn-178",
+    "version": "2025.02.27",
+    "date": "2025-02-27",
+    "pokemonId": "108",
+    "type": "nerf",
+    "types": [
+      "nerf"
+    ],
+    "summary": {
+      "ko": "일격의 태세 암흑강타의 기본 및 최대 충전 데미지가 전반적으로 하향되었다.",
+      "en": "Wicked Blow's base and max-charge damage were reduced across the board (Single Strike Style).",
+      "ja": "いちげきのかたのあんこくきょうだの基本および最大チャージダメージが全体的に弱体化された。"
+    },
+    "changes": [
+      {
+        "ko": "[암흑강타] 데미지(기본) 공격의 119% + 8×(레벨-1) + 190 → 공격의 110% + 7×(레벨-1) + 175",
+        "en": "[Wicked Blow] Damage (base) ATK 119% + 8×(Lv-1) + 190 → ATK 110% + 7×(Lv-1) + 175",
+        "ja": "[あんこくきょうだ] ダメージ(基本) 攻撃の119% + 8×(レベル-1) + 190 → 攻撃の110% + 7×(レベル-1) + 175"
+      },
+      {
+        "ko": "[암흑강타] 데미지(최대 충전) 공격의 190.4% + 13×(레벨-1) + 304 + 대상 잃은 HP의 5% → 공격의 175% + 12×(레벨-1) + 280 + 대상 잃은 HP의 5%",
+        "en": "[Wicked Blow] Damage (max charge) ATK 190.4% + 13×(Lv-1) + 304 + 5% of target's missing HP → ATK 175% + 12×(Lv-1) + 280 + 5% of target's missing HP",
+        "ja": "[あんこくきょうだ] ダメージ(最大チャージ) 攻撃の190.4% + 13×(レベル-1) + 304 + 対象の失ったHPの5% → 攻撃の175% + 12×(レベル-1) + 280 + 対象の失ったHPの5%"
+      },
+      {
+        "ko": "[암흑강타] 데미지(최대 충전, 범위 중심) 공격의 190.4% + 13×(레벨-1) + 304 + 대상 잃은 HP의 10% → 공격의 175% + 12×(레벨-1) + 280 + 대상 잃은 HP의 10%",
+        "en": "[Wicked Blow] Damage (max charge, area center) ATK 190.4% + 13×(Lv-1) + 304 + 10% of target's missing HP → ATK 175% + 12×(Lv-1) + 280 + 10% of target's missing HP",
+        "ja": "[あんこくきょうだ] ダメージ(最大チャージ・範囲中心) 攻撃の190.4% + 13×(レベル-1) + 304 + 対象の失ったHPの10% → 攻撃の175% + 12×(レベル-1) + 280 + 対象の失ったHPの10%"
+      }
+    ]
+  },
+  {
+    "id": "pn-177",
+    "version": "2025.01.16",
+    "date": "2025-01-16",
+    "pokemonId": "108",
+    "type": "buff",
+    "types": [
+      "buff"
+    ],
+    "summary": {
+      "ko": "연격의 태세 수류연타 데미지와 아쿠아브레이크의 방어 감소 지속 시간이 상향되었다.",
+      "en": "Surging Strikes' damage and Liquidation's defense-reduction duration were buffed (Rapid Strike Style).",
+      "ja": "れんげきのかたのすいりゅうれんだのダメージとアクアブレイクの防御減少持続時間が強化された。"
+    },
+    "changes": [
+      {
+        "ko": "[수류연타] 데미지(3회) 공격의 82% + 4×(레벨-1) + 110 → 공격의 90.2% + 4×(레벨-1) + 125",
+        "en": "[Surging Strikes] Damage (3 hits) ATK 82% + 4×(Lv-1) + 110 → ATK 90.2% + 4×(Lv-1) + 125",
+        "ja": "[すいりゅうれんだ] ダメージ(3回) 攻撃の82% + 4×(レベル-1) + 110 → 攻撃の90.2% + 4×(レベル-1) + 125"
+      },
+      {
+        "ko": "[아쿠아브레이크] 방어 감소 지속 시간 2초 → 3초",
+        "en": "[Liquidation] Defense reduction duration 2s → 3s",
+        "ja": "[アクアブレイク] 防御減少の持続時間 2秒 → 3秒"
+      }
+    ]
+  },
+  {
+    "id": "pn-176",
+    "version": "2024.10.17",
+    "date": "2024-10-17",
+    "pokemonId": "108",
+    "type": "adjust",
+    "types": [
+      "nerf",
+      "buff"
+    ],
+    "summary": {
+      "ko": "연격의 태세 강화 공격의 대기 시간 감소 효과는 하향, 수류연타 데미지는 상향되었다.",
+      "en": "Rapid Strike Style's boosted attack cooldown reduction was nerfed, while Surging Strikes' damage was buffed.",
+      "ja": "れんげきのかたの強化攻撃のクールタイム短縮効果は弱体化、すいりゅうれんだのダメージは強化された。"
+    },
+    "changes": [
+      {
+        "ko": "[일반 공격] 연격의 태세 강화 공격 대기 시간 감소 효과 2초 → 1.5초",
+        "en": "[Basic Attack] Rapid Strike Style boosted attack cooldown reduction 2s → 1.5s",
+        "ja": "[通常攻撃] れんげきのかた 強化攻撃のクールタイム短縮効果 2秒 → 1.5秒"
+      },
+      {
+        "ko": "[수류연타] 데미지(3회) 공격의 78% + 4×(레벨-1) + 100 → 공격의 82% + 4×(레벨-1) + 110",
+        "en": "[Surging Strikes] Damage (3 hits) ATK 78% + 4×(Lv-1) + 100 → ATK 82% + 4×(Lv-1) + 110",
+        "ja": "[すいりゅうれんだ] ダメージ(3回) 攻撃の78% + 4×(レベル-1) + 100 → 攻撃の82% + 4×(レベル-1) + 110"
+      }
+    ]
   },
   {
     "id": "pn-086",
@@ -3816,6 +4363,43 @@
     "changes": []
   },
   {
+    "id": "pn-175",
+    "version": "2024.07.16",
+    "date": "2024-07-16",
+    "pokemonId": "108",
+    "type": "buff",
+    "types": [
+      "buff"
+    ],
+    "summary": {
+      "ko": "일격의 태세 지옥찌르기와 연격의 태세 수류연타·아쿠아브레이크가 상향되었다.",
+      "en": "Throat Chop (Single Strike Style) and Surging Strikes and Liquidation (Rapid Strike Style) were buffed.",
+      "ja": "いちげきのかたのじごくづきと、れんげきのかたのすいりゅうれんだ・アクアブレイクが強化された。"
+    },
+    "changes": [
+      {
+        "ko": "[지옥찌르기] 대기 시간 9초 → 7초",
+        "en": "[Throat Chop] Cooldown 9s → 7s",
+        "ja": "[じごくづき] クールタイム 9秒 → 7秒"
+      },
+      {
+        "ko": "[지옥찌르기] 데미지 공격의 149% + 5×(레벨-1) + 280 → 공격의 179% + 6×(레벨-1) + 340",
+        "en": "[Throat Chop] Damage ATK 149% + 5×(Lv-1) + 280 → ATK 179% + 6×(Lv-1) + 340",
+        "ja": "[じごくづき] ダメージ 攻撃の149% + 5×(レベル-1) + 280 → 攻撃の179% + 6×(レベル-1) + 340"
+      },
+      {
+        "ko": "[수류연타] 대기 시간 12.5초 → 11초",
+        "en": "[Surging Strikes] Cooldown 12.5s → 11s",
+        "ja": "[すいりゅうれんだ] クールタイム 12.5秒 → 11秒"
+      },
+      {
+        "ko": "[아쿠아브레이크] 데미지 공격의 65% + 4×(레벨-1) + 110 → 공격의 97.5% + 6×(레벨-1) + 165",
+        "en": "[Liquidation] Damage ATK 65% + 4×(Lv-1) + 110 → ATK 97.5% + 6×(Lv-1) + 165",
+        "ja": "[アクアブレイク] ダメージ 攻撃の65% + 4×(レベル-1) + 110 → 攻撃の97.5% + 6×(レベル-1) + 165"
+      }
+    ]
+  },
+  {
     "id": "pn-095",
     "version": "2024.04.25",
     "date": "2024-04-25",
@@ -3846,6 +4430,92 @@
       "ja": "新規リリース"
     },
     "changes": []
+  },
+  {
+    "id": "pn-174",
+    "version": "2023.12.05",
+    "date": "2023-12-05",
+    "pokemonId": "108",
+    "type": "nerf",
+    "types": [
+      "nerf"
+    ],
+    "summary": {
+      "ko": "연격의 태세의 강화 공격 데미지·HP 회복량과 수류연타 대기 시간이 하향되었다.",
+      "en": "Rapid Strike Style's boosted attack damage and HP recovery, along with Surging Strikes' cooldown, were nerfed.",
+      "ja": "れんげきのかたの強化攻撃ダメージ・HP回復量と、すいりゅうれんだのクールタイムが弱体化された。"
+    },
+    "changes": [
+      {
+        "ko": "[일반 공격] 연격의 태세 강화 공격 데미지(2회) 공격의 75% → 공격의 60%",
+        "en": "[Basic Attack] Rapid Strike Style boosted attack damage (2 hits) ATK 75% → ATK 60%",
+        "ja": "[通常攻撃] れんげきのかた 強化攻撃ダメージ(2回) 攻撃の75% → 攻撃の60%"
+      },
+      {
+        "ko": "[수류연타] 대기 시간 11초 → 12.5초",
+        "en": "[Surging Strikes] Cooldown 11s → 12.5s",
+        "ja": "[すいりゅうれんだ] クールタイム 11秒 → 12.5秒"
+      },
+      {
+        "ko": "[수류연타] 강화 공격 명중 시 HP 회복(2회) 최대 HP의 2.5% → 최대 HP의 2%",
+        "en": "[Surging Strikes] HP recovery on boosted attack hit (2 times) max HP 2.5% → max HP 2%",
+        "ja": "[すいりゅうれんだ] 強化攻撃命中時のHP回復(2回) 最大HPの2.5% → 最大HPの2%"
+      }
+    ]
+  },
+  {
+    "id": "pn-173",
+    "version": "2023.10.18",
+    "date": "2023-10-18",
+    "pokemonId": "108",
+    "type": "nerf",
+    "types": [
+      "nerf"
+    ],
+    "summary": {
+      "ko": "방어 능력치가 전반적으로 낮아지고, 연격의 태세 수류연타의 데미지와 HP 회복량이 하향되었다.",
+      "en": "Defense was reduced across all levels, and Surging Strikes' damage and HP recovery were nerfed (Rapid Strike Style).",
+      "ja": "防御ステータスが全体的に低下し、れんげきのかたのすいりゅうれんだのダメージとHP回復量が弱体化された。"
+    },
+    "changes": [
+      {
+        "ko": "[능력치] 방어 전반적으로 하향 (Lv5 164 → 154, Lv15 480 → 430)",
+        "en": "[Stats] Defense reduced across all levels (Lv5 164 → 154, Lv15 480 → 430)",
+        "ja": "[ステータス] 防御 全体的に減少 (Lv5 164 → 154, Lv15 480 → 430)"
+      },
+      {
+        "ko": "[수류연타] 데미지(3회) 공격의 80% + 4×(레벨-1) + 150 → 공격의 78% + 4×(레벨-1) + 100",
+        "en": "[Surging Strikes] Damage (3 hits) ATK 80% + 4×(Lv-1) + 150 → ATK 78% + 4×(Lv-1) + 100",
+        "ja": "[すいりゅうれんだ] ダメージ(3回) 攻撃の80% + 4×(レベル-1) + 150 → 攻撃の78% + 4×(レベル-1) + 100"
+      },
+      {
+        "ko": "[수류연타] 강화 공격 명중 시 HP 회복(2회) 최대 HP의 3% → 최대 HP의 2.5%",
+        "en": "[Surging Strikes] HP recovery on boosted attack hit (2 times) max HP 3% → max HP 2.5%",
+        "ja": "[すいりゅうれんだ] 強化攻撃命中時のHP回復(2回) 最大HPの3% → 最大HPの2.5%"
+      }
+    ]
+  },
+  {
+    "id": "pn-172",
+    "version": "2023.06.15",
+    "date": "2023-06-15",
+    "pokemonId": "108",
+    "type": "nerf",
+    "types": [
+      "nerf"
+    ],
+    "summary": {
+      "ko": "연격의 태세 수류연타의 데미지가 하향되었다.",
+      "en": "Surging Strikes' damage was nerfed (Rapid Strike Style).",
+      "ja": "れんげきのかたのすいりゅうれんだのダメージが弱体化された。"
+    },
+    "changes": [
+      {
+        "ko": "[수류연타] 데미지(3회) 공격의 89% + 4×(레벨-1) + 170 → 공격의 80% + 4×(레벨-1) + 150",
+        "en": "[Surging Strikes] Damage (3 hits) ATK 89% + 4×(Lv-1) + 170 → ATK 80% + 4×(Lv-1) + 150",
+        "ja": "[すいりゅうれんだ] ダメージ(3回) 攻撃の89% + 4×(レベル-1) + 170 → 攻撃の80% + 4×(レベル-1) + 150"
+      }
+    ]
   },
   {
     "id": "pn-101",
@@ -3892,6 +4562,135 @@
       "ko": "신규 출시",
       "en": "New Release",
       "ja": "新規リリース"
+    },
+    "changes": []
+  },
+  {
+    "id": "pn-171",
+    "version": "2023.02.27",
+    "date": "2023-02-27",
+    "pokemonId": "108",
+    "type": "nerf",
+    "types": [
+      "nerf"
+    ],
+    "summary": {
+      "ko": "연격의 태세 수류연타의 강화 공격 HP 회복량이 하향되었다.",
+      "en": "The HP recovery from Surging Strikes' boosted attack was nerfed (Rapid Strike Style).",
+      "ja": "れんげきのかたのすいりゅうれんだの強化攻撃によるHP回復量が弱体化された。"
+    },
+    "changes": [
+      {
+        "ko": "[수류연타] 강화 공격 명중 시 HP 회복(2회) 최대 HP의 3% + 45 → 최대 HP의 3%",
+        "en": "[Surging Strikes] HP recovery on boosted attack hit (2 times) max HP 3% + 45 → max HP 3%",
+        "ja": "[すいりゅうれんだ] 強化攻撃命中時のHP回復(2回) 最大HPの3% + 45 → 最大HPの3%"
+      }
+    ]
+  },
+  {
+    "id": "pn-170",
+    "version": "2023.01.31",
+    "date": "2023-01-31",
+    "pokemonId": "108",
+    "type": "adjust",
+    "types": [
+      "nerf",
+      "buff"
+    ],
+    "summary": {
+      "ko": "일격의 태세는 암흑강타와 칠흑의 마지막 강타가 하향되고, 연격의 태세는 수류연타·푸른 물의 무도 등이 상향되었다.",
+      "en": "Single Strike Style saw Wicked Blow and Ebon Fist nerfed, while Rapid Strike Style had Surging Strikes and Flowing Fists buffed.",
+      "ja": "いちげきのかたはあんこくきょうだとしっこくのさいごのいちげきが弱体化し、れんげきのかたはすいりゅうれんだ・せいらんのまいなどが強化された。"
+    },
+    "changes": [
+      {
+        "ko": "[암흑강타] 차징 중 받는 데미지 감소 30% → 20%",
+        "en": "[Wicked Blow] Damage reduction while charging 30% → 20%",
+        "ja": "[あんこくきょうだ] チャージ中のダメージ軽減 30% → 20%"
+      },
+      {
+        "ko": "[암흑강타] 업그레이드 후(암흑강타+) 차징 중 받는 데미지 감소 60% → 40%",
+        "en": "[Wicked Blow] Upgraded (Wicked Blow+) damage reduction while charging 60% → 40%",
+        "ja": "[あんこくきょうだ] アップグレード後(あんこくきょうだ+)チャージ中のダメージ軽減 60% → 40%"
+      },
+      {
+        "ko": "[칠흑의 마지막 강타] 데미지 공격의 440% + 17×(레벨-1) + 820 → 공격의 330% + 12×(레벨-1) + 615",
+        "en": "[Ebon Fist] Damage ATK 440% + 17×(Lv-1) + 820 → ATK 330% + 12×(Lv-1) + 615",
+        "ja": "[しっこくのさいごのいちげき] ダメージ 攻撃の440% + 17×(レベル-1) + 820 → 攻撃の330% + 12×(レベル-1) + 615"
+      },
+      {
+        "ko": "[칠흑의 마지막 강타] 방향 미지정 시 지정 대상에게만 에어본 적용 (기존: 범위 대상 → 지정 대상 한정)",
+        "en": "[Ebon Fist] When no direction is set, airborne now applies only to the designated target (previously all targets in area)",
+        "ja": "[しっこくのさいごのいちげき] 方向未指定時、指定した相手にのみ吹き飛ばしを適用（従来: 範囲対象 → 指定対象のみ）"
+      },
+      {
+        "ko": "[일반 공격] 연격의 태세 강화 공격 대기 시간 감소 효과 1.5초 → 2초",
+        "en": "[Basic Attack] Rapid Strike Style boosted attack cooldown reduction 1.5s → 2s",
+        "ja": "[通常攻撃] れんげきのかた 強化攻撃のクールタイム短縮効果 1.5秒 → 2秒"
+      },
+      {
+        "ko": "[수류연타] 대기 시간 13초 → 11초",
+        "en": "[Surging Strikes] Cooldown 13s → 11s",
+        "ja": "[すいりゅうれんだ] クールタイム 13秒 → 11秒"
+      },
+      {
+        "ko": "[푸른 물의 무도] 2단계 연속 공격 횟수를 1회 늘리는 데 필요한 데미지 횟수 3회 → 2회",
+        "en": "[Flowing Fists] Hits needed to add 1 to Phase 2 combo count 3 → 2",
+        "ja": "[せいらんのまい] 第2段階の連続攻撃回数を1回増やすのに必要なダメージ回数 3回 → 2回"
+      }
+    ]
+  },
+  {
+    "id": "pn-169",
+    "version": "2022.12.22",
+    "date": "2022-12-22",
+    "pokemonId": "108",
+    "type": "adjust",
+    "types": [
+      "nerf",
+      "buff"
+    ],
+    "summary": {
+      "ko": "일격의 태세 암흑강타의 야생 포켓몬 대상 데미지에 상한이 생기고, 연격의 태세 아쿠아브레이크의 대기 시간과 실드가 상향되었다.",
+      "en": "A cap was added to Wicked Blow's damage against wild Pokémon (Single Strike Style), while Liquidation's cooldown and shield were buffed (Rapid Strike Style).",
+      "ja": "いちげきのかたのあんこくきょうだの野生ポケモンへのダメージに上限が設けられ、れんげきのかたのアクアブレイクのクールタイムとシールドが強化された。"
+    },
+    "changes": [
+      {
+        "ko": "[암흑강타] 최대 충전 시 잃은 HP 비례 데미지, 야생 포켓몬 대상 상한 신설 → 최대 600",
+        "en": "[Wicked Blow] Missing-HP-proportional damage at max charge now capped vs wild Pokémon → max 600",
+        "ja": "[あんこくきょうだ] 最大チャージ時の失ったHP比例ダメージ、野生ポケモンに対する上限を新設 → 最大600"
+      },
+      {
+        "ko": "[암흑강타] 최대 충전 시 범위 중심 잃은 HP 비례 데미지, 야생 포켓몬 대상 상한 신설 → 최대 1200",
+        "en": "[Wicked Blow] Missing-HP-proportional damage at max charge (area center) now capped vs wild Pokémon → max 1200",
+        "ja": "[あんこくきょうだ] 最大チャージ時の範囲中心の失ったHP比例ダメージ、野生ポケモンに対する上限を新設 → 最大1200"
+      },
+      {
+        "ko": "[아쿠아브레이크] 대기 시간 12초 → 10초",
+        "en": "[Liquidation] Cooldown 12s → 10s",
+        "ja": "[アクアブレイク] クールタイム 12秒 → 10秒"
+      },
+      {
+        "ko": "[아쿠아브레이크] 실드 공격의 70% + 200 → 공격의 84% + 240",
+        "en": "[Liquidation] Shield ATK 70% + 200 → ATK 84% + 240",
+        "ja": "[アクアブレイク] シールド 攻撃の70% + 200 → 攻撃の84% + 240"
+      }
+    ]
+  },
+  {
+    "id": "pn-168",
+    "version": "2022.12.01",
+    "date": "2022-12-01",
+    "pokemonId": "108",
+    "type": "new",
+    "types": [
+      "new"
+    ],
+    "summary": {
+      "ko": "우라오스가 포켓몬 유나이트에 출시되었다.",
+      "en": "Urshifu was released in Pokémon UNITE.",
+      "ja": "ウーラオスがポケモンユナイトに登場した。"
     },
     "changes": []
   },
