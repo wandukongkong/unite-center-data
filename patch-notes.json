@@ -6318,43 +6318,6 @@
     ]
   },
   {
-    "id": "pn-704",
-    "version": "2025.10.23",
-    "date": "2025-10-23",
-    "pokemonId": "123",
-    "type": "buff",
-    "types": [
-      "buff"
-    ],
-    "summary": {
-      "ko": "부유의 이동 속도 증가 효과와 꿈먹기 회복량이 상향되고 오물폭탄의 대기 시간이 단축됐다.",
-      "en": "Levitate's movement speed bonus and Dream Eater's healing were increased, and Sludge Bomb's cooldown was reduced.",
-      "ja": "ふゆうの移動速度増加効果とゆめくいの回復量が上方修正され、ヘドロばくだんの待機時間が短縮された。"
-    },
-    "changes": [
-      {
-        "ko": "[부유] 이동 속도 증가 이동 속도의 10% → 이동 속도의 20%",
-        "en": "[Levitate] Movement speed increase 10% of movement speed → 20% of movement speed",
-        "ja": "[ふゆう] 移動速度増加 移動速度の10% → 移動速度の20%"
-      },
-      {
-        "ko": "[꿈먹기] HP 회복 특수공격의 50% + 8×(레벨-1) + 300 → 특수공격의 60% + 10×(레벨-1) + 360",
-        "en": "[Dream Eater] HP restored 50% of Sp. Atk + 8×(level-1) + 300 → 60% of Sp. Atk + 10×(level-1) + 360",
-        "ja": "[ゆめくい] HP回復 とくこうの50% + 8×(レベル-1) + 300 → とくこうの60% + 10×(レベル-1) + 360"
-      },
-      {
-        "ko": "[꿈먹기+] HP 회복 특수공격의 60% + 10×(레벨-1) + 360 → 특수공격의 67% + 11×(레벨-1) + 404",
-        "en": "[Dream Eater+] HP restored 60% of Sp. Atk + 10×(level-1) + 360 → 67% of Sp. Atk + 11×(level-1) + 404",
-        "ja": "[ゆめくい+] HP回復 とくこうの60% + 10×(レベル-1) + 360 → とくこうの67% + 11×(レベル-1) + 404"
-      },
-      {
-        "ko": "[오물폭탄] 대기 시간 8초 → 7.5초",
-        "en": "[Sludge Bomb] Cooldown 8s → 7.5s",
-        "ja": "[ヘドロばくだん] 待機時間 8秒 → 7.5秒"
-      }
-    ]
-  },
-  {
     "id": "pn-741",
     "version": "2025.10.23",
     "date": "2025-10-23",
@@ -6602,6 +6565,43 @@
         "ko": "[망각술] 대기 시간 9초 → 9.5초",
         "en": "[Amnesia] Cooldown 9s → 9.5s",
         "ja": "[わすれる] クールダウン 9秒 → 9.5秒"
+      }
+    ]
+  },
+  {
+    "id": "pn-962",
+    "version": "2025.10.23",
+    "date": "2025-10-23",
+    "pokemonId": "123",
+    "type": "buff",
+    "types": [
+      "buff"
+    ],
+    "summary": {
+      "ko": "부유의 이동 속도 증가량, 꿈먹기 HP 회복, 오물폭탄 대기 시간이 상향되었다.",
+      "en": "Levitate's movement speed bonus, Dream Eater's HP restore, and Sludge Bomb's cooldown were improved.",
+      "ja": "ふゆうの移動速度上昇量、ゆめくいのHP回復、ヘドロばくだんの待機時間が上方修正された。"
+    },
+    "changes": [
+      {
+        "ko": "[부유] 이동 속도 증가: 이동 속도의 10% → 이동 속도의 20%",
+        "en": "[Levitate] Movement speed increase: 10% of movement speed → 20%",
+        "ja": "[ふゆう] 移動速度増加: 移動速度の10% → 移動速度の20%"
+      },
+      {
+        "ko": "[꿈먹기] HP 회복: 특수공격의 50% + 8×(레벨-1) + 300 → 특수공격의 60% + 10×(레벨-1) + 360",
+        "en": "[Dream Eater] HP restored: 50% Sp. Atk + 8×(Lv-1) + 300 → 60% Sp. Atk + 10×(Lv-1) + 360",
+        "ja": "[ゆめくい] HP回復: とくこうの50% + 8×(レベル-1) + 300 → とくこうの60% + 10×(レベル-1) + 360"
+      },
+      {
+        "ko": "[꿈먹기+] HP 회복: 특수공격의 60% + 10×(레벨-1) + 360 → 특수공격의 67% + 11×(레벨-1) + 404",
+        "en": "[Dream Eater+] HP restored: 60% Sp. Atk + 10×(Lv-1) + 360 → 67% Sp. Atk + 11×(Lv-1) + 404",
+        "ja": "[ゆめくい+] HP回復: とくこうの60% + 10×(レベル-1) + 360 → とくこうの67% + 11×(レベル-1) + 404"
+      },
+      {
+        "ko": "[오물폭탄] 대기 시간: 8초 → 7.5초",
+        "en": "[Sludge Bomb] Cooldown: 8s → 7.5s",
+        "ja": "[ヘドロばくだん] 待機時間: 8秒 → 7.5秒"
       }
     ]
   },
@@ -10474,28 +10474,6 @@
     ]
   },
   {
-    "id": "pn-703",
-    "version": "2025.04.24",
-    "date": "2025-04-24",
-    "pokemonId": "123",
-    "type": "nerf",
-    "types": [
-      "nerf"
-    ],
-    "summary": {
-      "ko": "특수방어 무시 효과가 삭제됐다.",
-      "en": "Sp. Def penetration was removed.",
-      "ja": "特防無視効果が削除された。"
-    },
-    "changes": [
-      {
-        "ko": "[능력치] 특수방어 무시 삭제",
-        "en": "[Stats] Sp. Def penetration removed",
-        "ja": "[能力] 特防無視 削除"
-      }
-    ]
-  },
-  {
     "id": "pn-737",
     "version": "2025.04.24",
     "date": "2025-04-24",
@@ -10573,6 +10551,28 @@
         "ko": "[방어 무시] 삭제",
         "en": "[Defense Penetration] Removed",
         "ja": "[防御貫通] 削除"
+      }
+    ]
+  },
+  {
+    "id": "pn-961",
+    "version": "2025.04.24",
+    "date": "2025-04-24",
+    "pokemonId": "123",
+    "type": "nerf",
+    "types": [
+      "nerf"
+    ],
+    "summary": {
+      "ko": "특수방어 무시가 삭제되었다.",
+      "en": "Sp. Def penetration was removed.",
+      "ja": "特防貫通が削除された。"
+    },
+    "changes": [
+      {
+        "ko": "[능력치] 특수방어 무시 삭제",
+        "en": "[Stats] Sp. Def penetration removed",
+        "ja": "[ステータス] 特防貫通を削除"
       }
     ]
   },
@@ -11016,53 +11016,6 @@
     ]
   },
   {
-    "id": "pn-702",
-    "version": "2025.03.13",
-    "date": "2025-03-13",
-    "pokemonId": "123",
-    "type": "nerf",
-    "types": [
-      "nerf"
-    ],
-    "summary": {
-      "ko": "HP·방어·특수공격·특수방어·공격 속도가 전반적으로 감소했다.",
-      "en": "HP, Defense, Sp. Atk, Sp. Def, and Attack Speed were reduced overall.",
-      "ja": "HP・防御・とくこう・とくぼう・攻撃速度が全般的に減少した。"
-    },
-    "changes": [
-      {
-        "ko": "[능력치] HP 전반적으로 감소",
-        "en": "[Stats] HP reduced overall",
-        "ja": "[能力] HP 全般的に減少"
-      },
-      {
-        "ko": "[능력치] 공격 전반적으로 감소",
-        "en": "[Stats] Attack reduced overall",
-        "ja": "[能力] 攻撃 全般的に減少"
-      },
-      {
-        "ko": "[능력치] 방어 전반적으로 감소",
-        "en": "[Stats] Defense reduced overall",
-        "ja": "[能力] 防御 全般的に減少"
-      },
-      {
-        "ko": "[능력치] 특수공격 전반적으로 감소",
-        "en": "[Stats] Sp. Atk reduced overall",
-        "ja": "[能力] とくこう 全般的に減少"
-      },
-      {
-        "ko": "[능력치] 특수방어 전반적으로 감소",
-        "en": "[Stats] Sp. Def reduced overall",
-        "ja": "[能力] とくぼう 全般的に減少"
-      },
-      {
-        "ko": "[능력치] 공격 속도 전반적으로 감소",
-        "en": "[Stats] Attack Speed reduced overall",
-        "ja": "[能力] 攻撃速度 全般的に減少"
-      }
-    ]
-  },
-  {
     "id": "pn-898",
     "version": "2025.03.13",
     "date": "2025-03-13",
@@ -11106,6 +11059,53 @@
         "ko": "[공격 속도] 전반적으로 감소 (Lv5 18.19%→13.8%, Lv14 37.74%→35.37%)",
         "en": "[Attack Speed] Reduced overall (Lv5 18.19%→13.8%, Lv14 37.74%→35.37%)",
         "ja": "[攻撃速度] 全体的に減少 (Lv5 18.19%→13.8%, Lv14 37.74%→35.37%)"
+      }
+    ]
+  },
+  {
+    "id": "pn-960",
+    "version": "2025.03.13",
+    "date": "2025-03-13",
+    "pokemonId": "123",
+    "type": "nerf",
+    "types": [
+      "nerf"
+    ],
+    "summary": {
+      "ko": "HP·방어·특수공격·특수방어·공격 속도가 전반적으로 하향되었다.",
+      "en": "HP, Defense, Sp. Atk, Sp. Def, and Attack Speed were decreased overall.",
+      "ja": "HP・ぼうぎょ・とくこう・とくぼう・こうげきそくどが全体的に下方修正された。"
+    },
+    "changes": [
+      {
+        "ko": "[능력치] HP 전반적으로 감소 (Lv1 3456→3456, Lv15 7200→7200)",
+        "en": "[Stats] HP decreased overall (Lv1 3456→3456, Lv15 7200→7200)",
+        "ja": "[ステータス] HP 全体的に減少 (Lv1 3456→3456, Lv15 7200→7200)"
+      },
+      {
+        "ko": "[능력치] 공격 전반적으로 감소 (Lv1 20→20, Lv15 115→115)",
+        "en": "[Stats] Attack decreased overall (Lv1 20→20, Lv15 115→115)",
+        "ja": "[ステータス] こうげき 全体的に減少 (Lv1 20→20, Lv15 115→115)"
+      },
+      {
+        "ko": "[능력치] 방어 전반적으로 감소 (Lv1 52→52, Lv15 320→320)",
+        "en": "[Stats] Defense decreased overall (Lv1 52→52, Lv15 320→320)",
+        "ja": "[ステータス] ぼうぎょ 全体的に減少 (Lv1 52→52, Lv15 320→320)"
+      },
+      {
+        "ko": "[능력치] 특수공격 전반적으로 감소 (Lv1 80→80, Lv15 690→690)",
+        "en": "[Stats] Sp. Atk decreased overall (Lv1 80→80, Lv15 690→690)",
+        "ja": "[ステータス] とくこう 全体的に減少 (Lv1 80→80, Lv15 690→690)"
+      },
+      {
+        "ko": "[능력치] 특수방어 전반적으로 감소 (Lv1 38→38, Lv15 210→210)",
+        "en": "[Stats] Sp. Def decreased overall (Lv1 38→38, Lv15 210→210)",
+        "ja": "[ステータス] とくぼう 全体的に減少 (Lv1 38→38, Lv15 210→210)"
+      },
+      {
+        "ko": "[능력치] 공격 속도 전반적으로 감소 (Lv1 10%→10%, Lv15 40%→39.98%)",
+        "en": "[Stats] Attack Speed decreased overall (Lv1 10%→10%, Lv15 40%→39.98%)",
+        "ja": "[ステータス] こうげきそくど 全体的に減少 (Lv1 10%→10%, Lv15 40%→39.98%)"
       }
     ]
   },
@@ -11466,63 +11466,6 @@
     ]
   },
   {
-    "id": "pn-701",
-    "version": "2025.02.27",
-    "date": "2025-02-27",
-    "pokemonId": "123",
-    "type": "buff",
-    "types": [
-      "buff"
-    ],
-    "summary": {
-      "ko": "일반 공격이 특수공격 비례로 바뀌면서 HP·방어·특수공격·특수방어·공격 속도가 증가하고 특수방어 무시가 추가됐다.",
-      "en": "Basic attacks now scale with Sp. Atk, with HP, Defense, Sp. Atk, Sp. Def, and Attack Speed increased and Sp. Def penetration added.",
-      "ja": "通常攻撃がとくこう比例に変更され、HP・防御・とくこう・とくぼう・攻撃速度が増加し、特防無視が追加された。"
-    },
-    "changes": [
-      {
-        "ko": "[능력치] HP 전반적으로 증가",
-        "en": "[Stats] HP increased overall",
-        "ja": "[能力] HP 全般的に増加"
-      },
-      {
-        "ko": "[능력치] 공격 전반적으로 감소",
-        "en": "[Stats] Attack reduced overall",
-        "ja": "[能力] 攻撃 全般的に減少"
-      },
-      {
-        "ko": "[능력치] 방어 전반적으로 증가",
-        "en": "[Stats] Defense increased overall",
-        "ja": "[能力] 防御 全般的に増加"
-      },
-      {
-        "ko": "[능력치] 특수공격 전반적으로 증가",
-        "en": "[Stats] Sp. Atk increased overall",
-        "ja": "[能力] とくこう 全般的に増加"
-      },
-      {
-        "ko": "[능력치] 특수방어 전반적으로 증가",
-        "en": "[Stats] Sp. Def increased overall",
-        "ja": "[能力] とくぼう 全般的に増加"
-      },
-      {
-        "ko": "[능력치] 공격 속도 전반적으로 증가",
-        "en": "[Stats] Attack Speed increased overall",
-        "ja": "[能力] 攻撃速度 全般的に増加"
-      },
-      {
-        "ko": "[능력치] 특수방어 무시 추가",
-        "en": "[Stats] Sp. Def penetration added",
-        "ja": "[能力] 特防無視 追加"
-      },
-      {
-        "ko": "[일반 공격] 데미지 공격의 100% → 특수공격의 40% + 100",
-        "en": "[Basic Attack] Damage 100% of Attack → 40% of Sp. Atk + 100",
-        "ja": "[通常攻撃] ダメージ 攻撃の100% → とくこうの40% + 100"
-      }
-    ]
-  },
-  {
     "id": "pn-786",
     "version": "2025.02.27",
     "date": "2025-02-27",
@@ -11645,6 +11588,63 @@
         "ko": "[트리플악셀+] 데미지(여왕의위엄 적용, 3회): 공격의 104% + 6×(레벨-1) + 132 → 공격의 90% + 6×(레벨-1) + 115",
         "en": "[Triple Axel+] Damage (with Queenly Majesty, 3 hits): 104% of Atk + 6×(Lv-1) + 132 → 90% of Atk + 6×(Lv-1) + 115",
         "ja": "[トリプルアクセル+] ダメージ(じょおうのいげん適用, 3回): 攻撃の104% + 6×(レベル-1) + 132 → 攻撃の90% + 6×(レベル-1) + 115"
+      }
+    ]
+  },
+  {
+    "id": "pn-959",
+    "version": "2025.02.27",
+    "date": "2025-02-27",
+    "pokemonId": "123",
+    "type": "buff",
+    "types": [
+      "buff"
+    ],
+    "summary": {
+      "ko": "일반 공격이 특수공격 기반으로 변경되고 특수방어 무시가 추가되었으며, HP·방어·특수공격·특수방어·공격 속도가 전반적으로 상향되었다(공격 능력치는 무의미한 형태로 감소).",
+      "en": "The basic attack was changed to scale with Sp. Atk and Sp. Def penetration was added, while HP, Defense, Sp. Atk, Sp. Def, and Attack Speed increased overall (the Attack stat was reduced but is now irrelevant).",
+      "ja": "通常攻撃がとくこう依存に変更され、特防貫通が追加され、HP・ぼうぎょ・とくこう・とくぼう・こうげきそくどが全体的に上方修正された(こうげきステータスは意味のない形で減少)。"
+    },
+    "changes": [
+      {
+        "ko": "[능력치] HP 전반적으로 증가 (Lv1 3456→3456, Lv15 7200→7200)",
+        "en": "[Stats] HP increased overall (Lv1 3456→3456, Lv15 7200→7200)",
+        "ja": "[ステータス] HP 全体的に増加 (Lv1 3456→3456, Lv15 7200→7200)"
+      },
+      {
+        "ko": "[능력치] 공격 전반적으로 감소 (Lv1 167→20, Lv15 364→115)",
+        "en": "[Stats] Attack decreased overall (Lv1 167→20, Lv15 364→115)",
+        "ja": "[ステータス] こうげき 全体的に減少 (Lv1 167→20, Lv15 364→115)"
+      },
+      {
+        "ko": "[능력치] 방어 전반적으로 증가 (Lv1 52→52, Lv15 290→320)",
+        "en": "[Stats] Defense increased overall (Lv1 52→52, Lv15 290→320)",
+        "ja": "[ステータス] ぼうぎょ 全体的に増加 (Lv1 52→52, Lv15 290→320)"
+      },
+      {
+        "ko": "[능력치] 특수공격 전반적으로 증가 (Lv1 80→80, Lv15 690→690)",
+        "en": "[Stats] Sp. Atk increased overall (Lv1 80→80, Lv15 690→690)",
+        "ja": "[ステータス] とくこう 全体的に増加 (Lv1 80→80, Lv15 690→690)"
+      },
+      {
+        "ko": "[능력치] 특수방어 전반적으로 증가 (Lv1 38→38, Lv15 210→210)",
+        "en": "[Stats] Sp. Def increased overall (Lv1 38→38, Lv15 210→210)",
+        "ja": "[ステータス] とくぼう 全体的に増加 (Lv1 38→38, Lv15 210→210)"
+      },
+      {
+        "ko": "[능력치] 공격 속도 전반적으로 증가 (Lv1 10%→10%, Lv15 39.98%→40%)",
+        "en": "[Stats] Attack Speed increased overall (Lv1 10%→10%, Lv15 39.98%→40%)",
+        "ja": "[ステータス] こうげきそくど 全体的に増加 (Lv1 10%→10%, Lv15 39.98%→40%)"
+      },
+      {
+        "ko": "[능력치] 특수방어 무시 추가",
+        "en": "[Stats] Sp. Def penetration added",
+        "ja": "[ステータス] 特防貫通を追加"
+      },
+      {
+        "ko": "[일반 공격] 데미지: 공격의 100% → 특수공격의 40% + 100",
+        "en": "[Basic Attack] Damage: 100% Attack → 40% Sp. Atk + 100",
+        "ja": "[通常攻撃] ダメージ: こうげきの100% → とくこうの40% + 100"
       }
     ]
   },
@@ -15367,53 +15367,6 @@
     ]
   },
   {
-    "id": "pn-700",
-    "version": "2024.09.05",
-    "date": "2024-09-05",
-    "pokemonId": "123",
-    "type": "buff",
-    "types": [
-      "buff"
-    ],
-    "summary": {
-      "ko": "꿈먹기의 대기 시간과 회복량, 병상첨병 대기 시간 감소 효과, 인비저블쇼크의 대기 시간이 개선됐다.",
-      "en": "Dream Eater's cooldown and healing, Hex's cooldown reduction, and Phantom Ambush's cooldown were improved.",
-      "ja": "ゆめくいの待機時間と回復量、たたりめの待機時間短縮効果、インビジブルショックの待機時間が改善された。"
-    },
-    "changes": [
-      {
-        "ko": "[꿈먹기] 대기 시간 8초 → 7초",
-        "en": "[Dream Eater] Cooldown 8s → 7s",
-        "ja": "[ゆめくい] 待機時間 8秒 → 7秒"
-      },
-      {
-        "ko": "[꿈먹기] HP 회복 특수공격의 45% + 5×(레벨-1) + 250 → 특수공격의 50% + 8×(레벨-1) + 300",
-        "en": "[Dream Eater] HP restored 45% of Sp. Atk + 5×(level-1) + 250 → 50% of Sp. Atk + 8×(level-1) + 300",
-        "ja": "[ゆめくい] HP回復 とくこうの45% + 5×(レベル-1) + 250 → とくこうの50% + 8×(レベル-1) + 300"
-      },
-      {
-        "ko": "[꿈먹기+] HP 회복 특수공격의 52% + 5×(레벨-1) + 310 → 특수공격의 60% + 10×(레벨-1) + 360",
-        "en": "[Dream Eater+] HP restored 52% of Sp. Atk + 5×(level-1) + 310 → 60% of Sp. Atk + 10×(level-1) + 360",
-        "ja": "[ゆめくい+] HP回復 とくこうの52% + 5×(レベル-1) + 310 → とくこうの60% + 10×(レベル-1) + 360"
-      },
-      {
-        "ko": "[병상첨병] 대기 시간 감소 대기 시간의 85% → 대기 시간의 90%",
-        "en": "[Hex] Cooldown reduction 85% of cooldown → 90% of cooldown",
-        "ja": "[たたりめ] 待機時間短縮 待機時間の85% → 待機時間の90%"
-      },
-      {
-        "ko": "[인비저블쇼크] 대기 시간 134초 → 112초",
-        "en": "[Phantom Ambush] Cooldown 134s → 112s",
-        "ja": "[インビジブルショック] 待機時間 134秒 → 112秒"
-      },
-      {
-        "ko": "[인비저블쇼크] 유나이트 기술 게이지 충전량 120,000 → 100,000",
-        "en": "[Phantom Ambush] Unite Move gauge charge 120,000 → 100,000",
-        "ja": "[インビジブルショック] ユナイトわざゲージ蓄積量 120,000 → 100,000"
-      }
-    ]
-  },
-  {
     "id": "pn-765",
     "version": "2024.09.05",
     "date": "2024-09-05",
@@ -15573,6 +15526,53 @@
         "ko": "[퀸에어리얼] 바인드 판정으로 변경",
         "en": "[Queen Ascendant] Changed to bind classification",
         "ja": "[クイーンエアリアル] バインド判定に変更"
+      }
+    ]
+  },
+  {
+    "id": "pn-958",
+    "version": "2024.09.05",
+    "date": "2024-09-05",
+    "pokemonId": "123",
+    "type": "buff",
+    "types": [
+      "buff"
+    ],
+    "summary": {
+      "ko": "꿈먹기 대기 시간·HP 회복, 병상첨병 대기 시간 감소량, 인비저블쇼크 대기 시간 및 게이지 충전량이 상향되었다.",
+      "en": "Dream Eater's cooldown and HP restore, Hex's cooldown reduction, and Phantom Ambush's cooldown and gauge charge were improved.",
+      "ja": "ゆめくいの待機時間とHP回復、たたりめの待機時間短縮、インビジブルショックの待機時間およびゲージ充填量が上方修正された。"
+    },
+    "changes": [
+      {
+        "ko": "[꿈먹기] 대기 시간: 8초 → 7초",
+        "en": "[Dream Eater] Cooldown: 8s → 7s",
+        "ja": "[ゆめくい] 待機時間: 8秒 → 7秒"
+      },
+      {
+        "ko": "[꿈먹기] HP 회복: 특수공격의 45% + 5×(레벨-1) + 250 → 특수공격의 50% + 8×(레벨-1) + 300",
+        "en": "[Dream Eater] HP restored: 45% Sp. Atk + 5×(Lv-1) + 250 → 50% Sp. Atk + 8×(Lv-1) + 300",
+        "ja": "[ゆめくい] HP回復: とくこうの45% + 5×(レベル-1) + 250 → とくこうの50% + 8×(レベル-1) + 300"
+      },
+      {
+        "ko": "[꿈먹기+] HP 회복: 특수공격의 52% + 5×(레벨-1) + 310 → 특수공격의 60% + 10×(레벨-1) + 360",
+        "en": "[Dream Eater+] HP restored: 52% Sp. Atk + 5×(Lv-1) + 310 → 60% Sp. Atk + 10×(Lv-1) + 360",
+        "ja": "[ゆめくい+] HP回復: とくこうの52% + 5×(レベル-1) + 310 → とくこうの60% + 10×(レベル-1) + 360"
+      },
+      {
+        "ko": "[병상첨병] 대기 시간 감소: 대기 시간의 85% → 대기 시간의 90%",
+        "en": "[Hex] Cooldown reduction: 85% of cooldown → 90%",
+        "ja": "[たたりめ] 待機時間短縮: 待機時間の85% → 待機時間の90%"
+      },
+      {
+        "ko": "[인비저블쇼크] 대기 시간: 134초 → 112초",
+        "en": "[Phantom Ambush] Cooldown: 134s → 112s",
+        "ja": "[インビジブルショック] 待機時間: 134秒 → 112秒"
+      },
+      {
+        "ko": "[인비저블쇼크] 유나이트 기술 게이지 충전량: 120,000 → 100,000",
+        "en": "[Phantom Ambush] Unite Move gauge charge: 120,000 → 100,000",
+        "ja": "[インビジブルショック] ユナイトわざゲージ充填量: 120,000 → 100,000"
       }
     ]
   },
@@ -20637,38 +20637,6 @@
     ]
   },
   {
-    "id": "pn-699",
-    "version": "2023.09.07",
-    "date": "2023-09-07",
-    "pokemonId": "123",
-    "type": "buff",
-    "types": [
-      "buff"
-    ],
-    "summary": {
-      "ko": "방어·특수공격·특수방어가 전반적으로 증가했다.",
-      "en": "Defense, Sp. Atk, and Sp. Def increased overall.",
-      "ja": "防御・とくこう・とくぼうが全般的に増加した。"
-    },
-    "changes": [
-      {
-        "ko": "[능력치] 방어 레벨 4부터 전반적으로 증가",
-        "en": "[Stats] Defense increased overall from level 4",
-        "ja": "[能力] 防御 レベル4から全般的に増加"
-      },
-      {
-        "ko": "[능력치] 특수공격 전반적으로 증가",
-        "en": "[Stats] Sp. Atk increased overall",
-        "ja": "[能力] とくこう 全般的に増加"
-      },
-      {
-        "ko": "[능력치] 특수방어 레벨 4부터 전반적으로 증가",
-        "en": "[Stats] Sp. Def increased overall from level 4",
-        "ja": "[能力] とくぼう レベル4から全般的に増加"
-      }
-    ]
-  },
-  {
     "id": "pn-880",
     "version": "2023.09.07",
     "date": "2023-09-07",
@@ -20865,6 +20833,38 @@
         "ko": "[그래스슬라이더] 여왕의위엄 실드: 공격의 157.5% + 10×(레벨-1) + 300 → 공격의 220% + 15×(레벨-1) + 180",
         "en": "[Grassy Glide] Queenly Majesty shield: 157.5% of Atk + 10×(Lv-1) + 300 → 220% of Atk + 15×(Lv-1) + 180",
         "ja": "[グラススライダー] じょおうのいげんシールド: 攻撃の157.5% + 10×(レベル-1) + 300 → 攻撃の220% + 15×(レベル-1) + 180"
+      }
+    ]
+  },
+  {
+    "id": "pn-957",
+    "version": "2023.09.07",
+    "date": "2023-09-07",
+    "pokemonId": "123",
+    "type": "buff",
+    "types": [
+      "buff"
+    ],
+    "summary": {
+      "ko": "방어·특수공격·특수방어가 전반적으로 상향되었다.",
+      "en": "Defense, Sp. Atk, and Sp. Def were increased overall.",
+      "ja": "ぼうぎょ・とくこう・とくぼうが全体的に上方修正された。"
+    },
+    "changes": [
+      {
+        "ko": "[능력치] 방어 레벨 4부터 전반적으로 증가 (Lv1 52→52, Lv15 260→290)",
+        "en": "[Stats] Defense increased overall from Lv4 (Lv1 52→52, Lv15 260→290)",
+        "ja": "[ステータス] ぼうぎょ レベル4から全体的に増加 (Lv1 52→52, Lv15 260→290)"
+      },
+      {
+        "ko": "[능력치] 특수공격 전반적으로 증가 (Lv1 80→80, Lv15 660→690)",
+        "en": "[Stats] Sp. Atk increased overall (Lv1 80→80, Lv15 660→690)",
+        "ja": "[ステータス] とくこう 全体的に増加 (Lv1 80→80, Lv15 660→690)"
+      },
+      {
+        "ko": "[능력치] 특수방어 레벨 4부터 전반적으로 증가 (Lv1 38→38, Lv15 189→210)",
+        "en": "[Stats] Sp. Def increased overall from Lv4 (Lv1 38→38, Lv15 189→210)",
+        "ja": "[ステータス] とくぼう レベル4から全体的に増加 (Lv1 38→38, Lv15 189→210)"
       }
     ]
   },
@@ -24901,43 +24901,6 @@
     ]
   },
   {
-    "id": "pn-698",
-    "version": "2022.10.27",
-    "date": "2022-10-27",
-    "pokemonId": "123",
-    "type": "nerf",
-    "types": [
-      "nerf"
-    ],
-    "summary": {
-      "ko": "특수공격이 전반적으로 감소하고 꿈먹기·병상첨병·섀도볼의 거리가 감소했다.",
-      "en": "Sp. Atk was reduced overall and the range of Dream Eater, Hex, and Shadow Ball decreased.",
-      "ja": "とくこうが全般的に減少し、ゆめくい・たたりめ・シャドーボールの距離が減少した。"
-    },
-    "changes": [
-      {
-        "ko": "[능력치] 특수공격 전반적으로 감소",
-        "en": "[Stats] Sp. Atk reduced overall",
-        "ja": "[能力] とくこう 全般的に減少"
-      },
-      {
-        "ko": "[꿈먹기] 거리 감소",
-        "en": "[Dream Eater] Range reduced",
-        "ja": "[ゆめくい] 距離減少"
-      },
-      {
-        "ko": "[병상첨병] 거리 감소",
-        "en": "[Hex] Range reduced",
-        "ja": "[たたりめ] 距離減少"
-      },
-      {
-        "ko": "[섀도볼] 거리 감소",
-        "en": "[Shadow Ball] Range reduced",
-        "ja": "[シャドーボール] 距離減少"
-      }
-    ]
-  },
-  {
     "id": "pn-756",
     "version": "2022.10.27",
     "date": "2022-10-27",
@@ -25087,6 +25050,43 @@
         "ko": "[트로피컬킥] 이동 속도 감소: 이동 속도의 50% → 이동 속도의 35%",
         "en": "[Trop Kick] Movement Speed reduction: 50% of Movement Speed → 35% of Movement Speed",
         "ja": "[トロピカルキック] 移動速度減少: 移動速度の50% → 移動速度の35%"
+      }
+    ]
+  },
+  {
+    "id": "pn-956",
+    "version": "2022.10.27",
+    "date": "2022-10-27",
+    "pokemonId": "123",
+    "type": "nerf",
+    "types": [
+      "nerf"
+    ],
+    "summary": {
+      "ko": "특수공격이 전반적으로 감소하고 꿈먹기·병상첨병·섀도볼의 거리가 줄었다.",
+      "en": "Sp. Atk decreased overall and the ranges of Dream Eater, Hex, and Shadow Ball were reduced.",
+      "ja": "とくこうが全体的に減少し、ゆめくい・たたりめ・シャドーボールの距離が縮小した。"
+    },
+    "changes": [
+      {
+        "ko": "[능력치] 특수공격 전반적으로 감소 (Lv1 80→80, Lv15 699→660)",
+        "en": "[Stats] Sp. Atk decreased overall (Lv1 80→80, Lv15 699→660)",
+        "ja": "[ステータス] とくこう 全体的に減少 (Lv1 80→80, Lv15 699→660)"
+      },
+      {
+        "ko": "[꿈먹기] 거리 감소 (수치 자료 없음)",
+        "en": "[Dream Eater] Range reduced (no data)",
+        "ja": "[ゆめくい] 距離減少 (数値データなし)"
+      },
+      {
+        "ko": "[병상첨병] 거리 감소 (수치 자료 없음)",
+        "en": "[Hex] Range reduced (no data)",
+        "ja": "[たたりめ] 距離減少 (数値データなし)"
+      },
+      {
+        "ko": "[섀도볼] 거리 감소 (수치 자료 없음)",
+        "en": "[Shadow Ball] Range reduced (no data)",
+        "ja": "[シャドーボール] 距離減少 (数値データなし)"
       }
     ]
   },
@@ -25772,28 +25772,6 @@
     ]
   },
   {
-    "id": "pn-697",
-    "version": "2022.09.28",
-    "date": "2022-09-28",
-    "pokemonId": "123",
-    "type": "nerf",
-    "types": [
-      "nerf"
-    ],
-    "summary": {
-      "ko": "병상첨병의 거리가 감소했다.",
-      "en": "Hex's range was reduced.",
-      "ja": "たたりめの距離が減少した。"
-    },
-    "changes": [
-      {
-        "ko": "[병상첨병] 거리 감소",
-        "en": "[Hex] Range reduced",
-        "ja": "[たたりめ] 距離減少"
-      }
-    ]
-  },
-  {
     "id": "pn-819",
     "version": "2022.09.28",
     "date": "2022-09-28",
@@ -25965,6 +25943,28 @@
         "ko": "[퀸에어리얼] 방해 내성 상태의 상대에게 사용: 가능 → 불가",
         "en": "[Queen Ascendant] Use on hindrance-resistant opponents: Enabled → Disabled",
         "ja": "[クイーンエアリアル] 妨害耐性状態の相手への使用: 可能 → 不可"
+      }
+    ]
+  },
+  {
+    "id": "pn-955",
+    "version": "2022.09.28",
+    "date": "2022-09-28",
+    "pokemonId": "123",
+    "type": "nerf",
+    "types": [
+      "nerf"
+    ],
+    "summary": {
+      "ko": "병상첨병의 거리가 감소했다.",
+      "en": "Hex's range was reduced.",
+      "ja": "たたりめの距離が減少した。"
+    },
+    "changes": [
+      {
+        "ko": "[병상첨병] 거리 감소 (수치 자료 없음)",
+        "en": "[Hex] Range reduced (no data)",
+        "ja": "[たたりめ] 距離減少 (数値データなし)"
       }
     ]
   },
@@ -28651,33 +28651,6 @@
     ]
   },
   {
-    "id": "pn-696",
-    "version": "2022.03.14",
-    "date": "2022-03-14",
-    "pokemonId": "123",
-    "type": "buff",
-    "types": [
-      "buff"
-    ],
-    "summary": {
-      "ko": "특수공격이 전 구간에서 증가하고 강화 공격 데미지가 상향됐다.",
-      "en": "Sp. Atk increased across all levels and boosted attack damage was raised.",
-      "ja": "とくこうが全区間で増加し、強化攻撃のダメージが上方修正された。"
-    },
-    "changes": [
-      {
-        "ko": "[능력치] 특수공격 전 구간에서 30 증가",
-        "en": "[Stats] Sp. Atk +30 across all levels",
-        "ja": "[能力] とくこう 全区間で30増加"
-      },
-      {
-        "ko": "[일반 공격] 강화 공격 데미지 특수공격의 84% + 5×(레벨-1) + 100 → 특수공격의 84% + 8×(레벨-1) + 160",
-        "en": "[Basic Attack] Boosted attack damage 84% of Sp. Atk + 5×(level-1) + 100 → 84% of Sp. Atk + 8×(level-1) + 160",
-        "ja": "[通常攻撃] 強化攻撃ダメージ とくこうの84% + 5×(レベル-1) + 100 → とくこうの84% + 8×(レベル-1) + 160"
-      }
-    ]
-  },
-  {
     "id": "pn-707",
     "version": "2022.03.14",
     "date": "2022-03-14",
@@ -28977,6 +28950,33 @@
     ]
   },
   {
+    "id": "pn-954",
+    "version": "2022.03.14",
+    "date": "2022-03-14",
+    "pokemonId": "123",
+    "type": "buff",
+    "types": [
+      "buff"
+    ],
+    "summary": {
+      "ko": "특수공격이 전 구간에서 30 증가하고 강화 공격 데미지가 상향되었다.",
+      "en": "Sp. Atk increased by 30 at all levels and boosted attack damage was raised.",
+      "ja": "とくこうが全区間で30増加し、強化攻撃のダメージが上方修正された。"
+    },
+    "changes": [
+      {
+        "ko": "[능력치] 특수공격 전 구간에서 30 증가",
+        "en": "[Stats] Sp. Atk increased by 30 at all levels",
+        "ja": "[ステータス] とくこう 全区間で30増加"
+      },
+      {
+        "ko": "[일반 공격] 강화 공격 데미지: 특수공격의 84% + 5×(레벨-1) + 100 → 특수공격의 84% + 8×(레벨-1) + 160",
+        "en": "[Basic Attack] Boosted attack damage: 84% Sp. Atk + 5×(Lv-1) + 100 → 84% Sp. Atk + 8×(Lv-1) + 160",
+        "ja": "[通常攻撃] 強化攻撃のダメージ: とくこうの84% + 5×(レベル-1) + 100 → とくこうの84% + 8×(レベル-1) + 160"
+      }
+    ]
+  },
+  {
     "id": "pn-099",
     "version": "2022.02.24",
     "date": "2022-02-24",
@@ -29223,78 +29223,6 @@
     ]
   },
   {
-    "id": "pn-695",
-    "version": "2022.01.20",
-    "date": "2022-01-20",
-    "pokemonId": "123",
-    "type": "adjust",
-    "types": [
-      "adjust"
-    ],
-    "summary": {
-      "ko": "꿈먹기와 병상첨병의 습득 레벨이 앞당겨졌으나, 병상첨병 데미지가 감소하고 섀도볼·오물폭탄의 습득 레벨이 늦춰졌다.",
-      "en": "Dream Eater and Hex now unlock earlier, but Hex damage was reduced and Shadow Ball and Sludge Bomb now unlock later.",
-      "ja": "ゆめくいとたたりめの習得レベルが早まったが、たたりめのダメージが減少し、シャドーボールとヘドロばくだんの習得レベルが遅くなった。"
-    },
-    "changes": [
-      {
-        "ko": "[꿈먹기] 습득 레벨 7 → 5",
-        "en": "[Dream Eater] Unlock level 7 → 5",
-        "ja": "[ゆめくい] 習得レベル 7 → 5"
-      },
-      {
-        "ko": "[꿈먹기+] 습득 레벨 13 → 11",
-        "en": "[Dream Eater+] Unlock level 13 → 11",
-        "ja": "[ゆめくい+] 習得レベル 13 → 11"
-      },
-      {
-        "ko": "[꿈먹기] 상대 팀 포켓몬 KO 시 대기 시간 초기화 효과 추가",
-        "en": "[Dream Eater] Added cooldown reset on KOing an opposing Pokemon",
-        "ja": "[ゆめくい] 相手チームのポケモンをKO時に待機時間リセット効果を追加"
-      },
-      {
-        "ko": "[병상첨병] 습득 레벨 7 → 5",
-        "en": "[Hex] Unlock level 7 → 5",
-        "ja": "[たたりめ] 習得レベル 7 → 5"
-      },
-      {
-        "ko": "[병상첨병+] 습득 레벨 13 → 11",
-        "en": "[Hex+] Unlock level 13 → 11",
-        "ja": "[たたりめ+] 習得レベル 13 → 11"
-      },
-      {
-        "ko": "[병상첨병] 데미지 특수공격의 115% + 5×(레벨-1) + 220 → 특수공격의 105% + 3×(레벨-1) + 150",
-        "en": "[Hex] Damage 115% of Sp. Atk + 5×(level-1) + 220 → 105% of Sp. Atk + 3×(level-1) + 150",
-        "ja": "[たたりめ] ダメージ とくこうの115% + 5×(レベル-1) + 220 → とくこうの105% + 3×(レベル-1) + 150"
-      },
-      {
-        "ko": "[병상첨병+] 데미지 특수공격의 124% + 6×(레벨-1) + 260 → 특수공격의 125% + 4×(레벨-1) + 200",
-        "en": "[Hex+] Damage 124% of Sp. Atk + 6×(level-1) + 260 → 125% of Sp. Atk + 4×(level-1) + 200",
-        "ja": "[たたりめ+] ダメージ とくこうの124% + 6×(レベル-1) + 260 → とくこうの125% + 4×(レベル-1) + 200"
-      },
-      {
-        "ko": "[섀도볼] 습득 레벨 5 → 7",
-        "en": "[Shadow Ball] Unlock level 5 → 7",
-        "ja": "[シャドーボール] 習得レベル 5 → 7"
-      },
-      {
-        "ko": "[섀도볼+] 습득 레벨 11 → 13",
-        "en": "[Shadow Ball+] Unlock level 11 → 13",
-        "ja": "[シャドーボール+] 習得レベル 11 → 13"
-      },
-      {
-        "ko": "[오물폭탄] 습득 레벨 5 → 7",
-        "en": "[Sludge Bomb] Unlock level 5 → 7",
-        "ja": "[ヘドロばくだん] 習得レベル 5 → 7"
-      },
-      {
-        "ko": "[오물폭탄+] 습득 레벨 11 → 13",
-        "en": "[Sludge Bomb+] Unlock level 11 → 13",
-        "ja": "[ヘドロばくだん+] 習得レベル 11 → 13"
-      }
-    ]
-  },
-  {
     "id": "pn-706",
     "version": "2022.01.20",
     "date": "2022-01-20",
@@ -29531,6 +29459,78 @@
         "ko": "[그래스슬라이더] 이동 속도 감소 효과: 삭제",
         "en": "[Grassy Glide] Movement Speed reduction: Removed",
         "ja": "[グラススライダー] 移動速度減少効果: 削除"
+      }
+    ]
+  },
+  {
+    "id": "pn-953",
+    "version": "2022.01.20",
+    "date": "2022-01-20",
+    "pokemonId": "123",
+    "type": "adjust",
+    "types": [
+      "adjust"
+    ],
+    "summary": {
+      "ko": "꿈먹기·병상첨병의 습득 레벨이 앞당겨지고 꿈먹기에 KO 시 대기 시간 초기화가 추가되었으나, 병상첨병 데미지와 섀도볼·오물폭탄의 습득 레벨이 하향되었다.",
+      "en": "Dream Eater and Hex unlock earlier and Dream Eater gained a cooldown reset on KO, while Hex damage and the unlock levels of Shadow Ball and Sludge Bomb were pushed back.",
+      "ja": "ゆめくい・たたりめの習得レベルが早まり、ゆめくいにKO時の待機時間リセットが追加されたが、たたりめのダメージとシャドーボール・ヘドロばくだんの習得レベルが下方修正された。"
+    },
+    "changes": [
+      {
+        "ko": "[꿈먹기] 습득 레벨: 7 → 5",
+        "en": "[Dream Eater] Unlock level: 7 → 5",
+        "ja": "[ゆめくい] 習得レベル: 7 → 5"
+      },
+      {
+        "ko": "[꿈먹기+] 습득 레벨: 13 → 11",
+        "en": "[Dream Eater+] Unlock level: 13 → 11",
+        "ja": "[ゆめくい+] 習得レベル: 13 → 11"
+      },
+      {
+        "ko": "[꿈먹기] 상대 팀 포켓몬 KO 시 대기 시간 초기화 효과 추가",
+        "en": "[Dream Eater] Added: cooldown resets when KOing an opposing Pokemon",
+        "ja": "[ゆめくい] 相手チームのポケモンKO時に待機時間リセット効果を追加"
+      },
+      {
+        "ko": "[병상첨병] 습득 레벨: 7 → 5",
+        "en": "[Hex] Unlock level: 7 → 5",
+        "ja": "[たたりめ] 習得レベル: 7 → 5"
+      },
+      {
+        "ko": "[병상첨병+] 습득 레벨: 13 → 11",
+        "en": "[Hex+] Unlock level: 13 → 11",
+        "ja": "[たたりめ+] 習得レベル: 13 → 11"
+      },
+      {
+        "ko": "[병상첨병] 데미지: 특수공격의 115% + 5×(레벨-1) + 220 → 특수공격의 105% + 3×(레벨-1) + 150",
+        "en": "[Hex] Damage: 115% Sp. Atk + 5×(Lv-1) + 220 → 105% Sp. Atk + 3×(Lv-1) + 150",
+        "ja": "[たたりめ] ダメージ: とくこうの115% + 5×(レベル-1) + 220 → とくこうの105% + 3×(レベル-1) + 150"
+      },
+      {
+        "ko": "[병상첨병+] 데미지: 특수공격의 124% + 6×(레벨-1) + 260 → 특수공격의 125% + 4×(레벨-1) + 200",
+        "en": "[Hex+] Damage: 124% Sp. Atk + 6×(Lv-1) + 260 → 125% Sp. Atk + 4×(Lv-1) + 200",
+        "ja": "[たたりめ+] ダメージ: とくこうの124% + 6×(レベル-1) + 260 → とくこうの125% + 4×(レベル-1) + 200"
+      },
+      {
+        "ko": "[섀도볼] 습득 레벨: 5 → 7",
+        "en": "[Shadow Ball] Unlock level: 5 → 7",
+        "ja": "[シャドーボール] 習得レベル: 5 → 7"
+      },
+      {
+        "ko": "[섀도볼+] 습득 레벨: 11 → 13",
+        "en": "[Shadow Ball+] Unlock level: 11 → 13",
+        "ja": "[シャドーボール+] 習得レベル: 11 → 13"
+      },
+      {
+        "ko": "[오물폭탄] 습득 레벨: 5 → 7",
+        "en": "[Sludge Bomb] Unlock level: 5 → 7",
+        "ja": "[ヘドロばくだん] 習得レベル: 5 → 7"
+      },
+      {
+        "ko": "[오물폭탄+] 습득 레벨: 11 → 13",
+        "en": "[Sludge Bomb+] Unlock level: 11 → 13",
+        "ja": "[ヘドロばくだん+] 習得レベル: 11 → 13"
       }
     ]
   },
@@ -30670,28 +30670,6 @@
     ]
   },
   {
-    "id": "pn-694",
-    "version": "2021.10.20",
-    "date": "2021-10-20",
-    "pokemonId": "123",
-    "type": "buff",
-    "types": [
-      "buff"
-    ],
-    "summary": {
-      "ko": "레벨 5부터 기술에 비례하는 HP 회복 효과가 추가됐다.",
-      "en": "Added HP recovery scaling with moves starting at level 5.",
-      "ja": "レベル5から、わざに比例するHP回復効果が追加された。"
-    },
-    "changes": [
-      {
-        "ko": "[능력치] 레벨 5부터 기술 비례 HP 회복 추가 (12.5%)",
-        "en": "[Stats] Added move-scaling HP recovery from level 5 (12.5%)",
-        "ja": "[能力] レベル5からわざ比例のHP回復を追加 (12.5%)"
-      }
-    ]
-  },
-  {
     "id": "pn-720",
     "version": "2021.10.20",
     "date": "2021-10-20",
@@ -30747,6 +30725,28 @@
         "ko": "[망각술] 둔감 HP 회복 모아둔 HP의 12.5% → 모아둔 HP의 22.5%",
         "en": "[Amnesia] Oblivious HP recovery 12.5% of stored HP → 22.5% of stored HP",
         "ja": "[わすれる] どんかんのHP回復 ためたHPの12.5% → ためたHPの22.5%"
+      }
+    ]
+  },
+  {
+    "id": "pn-952",
+    "version": "2021.10.20",
+    "date": "2021-10-20",
+    "pokemonId": "123",
+    "type": "buff",
+    "types": [
+      "buff"
+    ],
+    "summary": {
+      "ko": "레벨 5부터 기술에 비례한 HP 회복 효과가 추가되었다.",
+      "en": "From level 5, an HP-restore effect scaling with moves was added.",
+      "ja": "レベル5から、わざに比例したHP回復効果が追加された。"
+    },
+    "changes": [
+      {
+        "ko": "[능력치] 레벨 5부터 기술 비례 HP 회복 추가 (12.5%)",
+        "en": "[Stats] From Lv5, added HP restore scaling with moves (12.5%)",
+        "ja": "[ステータス] レベル5から、わざ比例のHP回復を追加 (12.5%)"
       }
     ]
   },
@@ -31826,48 +31826,6 @@
     ]
   },
   {
-    "id": "pn-693",
-    "version": "2021.08.04",
-    "date": "2021-08-04",
-    "pokemonId": "123",
-    "type": "adjust",
-    "types": [
-      "adjust"
-    ],
-    "summary": {
-      "ko": "섀도볼 데미지 상승과 꿈먹기 시전 속도 증가 버프를 받았으나, 병상첨병의 무적 시간과 데미지가 감소했다.",
-      "en": "Shadow Ball damage and Dream Eater cast speed were buffed, while Hex's invincibility duration and damage were reduced.",
-      "ja": "シャドーボールのダメージ上昇とゆめくいの発動速度増加の強化を受けたが、たたりめの無敵時間とダメージが減少した。"
-    },
-    "changes": [
-      {
-        "ko": "[섀도볼] 데미지 특수공격의 145% + 11×(레벨-1) + 269 → 특수공격의 115.2% + 32×(레벨-1) + 724",
-        "en": "[Shadow Ball] Damage 145% of Sp. Atk + 11×(level-1) + 269 → 115.2% of Sp. Atk + 32×(level-1) + 724",
-        "ja": "[シャドーボール] ダメージ とくこうの145% + 11×(レベル-1) + 269 → とくこうの115.2% + 32×(レベル-1) + 724"
-      },
-      {
-        "ko": "[꿈먹기] 기술 시전 속도 증가",
-        "en": "[Dream Eater] Cast speed increased",
-        "ja": "[ゆめくい] 発動速度増加"
-      },
-      {
-        "ko": "[병상첨병] 무적 시간 감소",
-        "en": "[Hex] Invincibility duration reduced",
-        "ja": "[たたりめ] 無敵時間減少"
-      },
-      {
-        "ko": "[병상첨병] 데미지 감소",
-        "en": "[Hex] Damage reduced",
-        "ja": "[たたりめ] ダメージ減少"
-      },
-      {
-        "ko": "[병상첨병+] 데미지 감소",
-        "en": "[Hex+] Damage reduced",
-        "ja": "[たたりめ+] ダメージ減少"
-      }
-    ]
-  },
-  {
     "id": "pn-794",
     "version": "2021.08.04",
     "date": "2021-08-04",
@@ -31970,6 +31928,48 @@
         "ko": "[공중날기] 데미지 공격의 199%+19×(레벨-1)+801 → 공격의 255%+24×(레벨-1)+1026",
         "en": "[Fly] Damage 199% of Attack+19×(Lv-1)+801 → 255% of Attack+24×(Lv-1)+1026",
         "ja": "[そらをとぶ] ダメージ 攻撃の199%+19×(レベル-1)+801 → 攻撃の255%+24×(レベル-1)+1026"
+      }
+    ]
+  },
+  {
+    "id": "pn-951",
+    "version": "2021.08.04",
+    "date": "2021-08-04",
+    "pokemonId": "123",
+    "type": "adjust",
+    "types": [
+      "adjust"
+    ],
+    "summary": {
+      "ko": "섀도볼 데미지가 상향되고 꿈먹기 시전 속도가 빨라졌으나, 병상첨병의 무적 시간과 데미지가 하향되었다.",
+      "en": "Shadow Ball damage was increased and Dream Eater's cast became faster, while Hex's invincibility duration and damage were reduced.",
+      "ja": "シャドーボールのダメージが上方修正され、ゆめくいの発動が速くなったが、たたりめの無敵時間とダメージが下方修正された。"
+    },
+    "changes": [
+      {
+        "ko": "[섀도볼] 데미지: 특수공격의 145% + 11×(레벨-1) + 269 → 특수공격의 115.2% + 32×(레벨-1) + 724",
+        "en": "[Shadow Ball] Damage: 145% Sp. Atk + 11×(Lv-1) + 269 → 115.2% Sp. Atk + 32×(Lv-1) + 724",
+        "ja": "[シャドーボール] ダメージ: とくこうの145% + 11×(レベル-1) + 269 → とくこうの115.2% + 32×(レベル-1) + 724"
+      },
+      {
+        "ko": "[꿈먹기] 기술 속도 증가",
+        "en": "[Dream Eater] Cast speed increased",
+        "ja": "[ゆめくい] わざの速度上昇"
+      },
+      {
+        "ko": "[병상첨병] 무적 시간 감소",
+        "en": "[Hex] Invincibility duration reduced",
+        "ja": "[たたりめ] 無敵時間減少"
+      },
+      {
+        "ko": "[병상첨병] 데미지 감소",
+        "en": "[Hex] Damage reduced",
+        "ja": "[たたりめ] ダメージ減少"
+      },
+      {
+        "ko": "[병상첨병+] 데미지 감소",
+        "en": "[Hex+] Damage reduced",
+        "ja": "[たたりめ+] ダメージ減少"
       }
     ]
   },
