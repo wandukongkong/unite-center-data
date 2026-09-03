@@ -18275,6 +18275,56 @@
     "role": "Speed",
     "attackType": "unknown",
     "difficulty": "Intermediate",
-    "imageUrl": "https://placehold.co/80x80/CCCCCC/FFF?text=MOR"
+    "imageUrl": "https://placehold.co/80x80/CCCCCC/FFF?text=MOR",
+    "skills": {
+      "passive": {
+        "name": {
+          "ko": "꼬르륵스위치",
+          "ja": "はらぺこスイッチ",
+          "en": "Hunger Switch"
+        },
+        "description": {
+          "ko": "만복 게이지에 따라 모습이 변하며 기술의 효과도 함께 변한다. 모습이 변하면 기술 대기 시간이 0초가 된다. 또한 나무열매를 먹으면 게이지가 증가한다. [배부른 모양] 이 모습이 되었을 때 자신의 HP를 조금 회복한다. 기술을 사용하거나 시간이 지나면 게이지가 줄고, 0이 되면 성격이 거칠어져서 '배고픈 모양'으로 변한다. [배고픈 모양] 이 모습이 되었을 때 주위에 있는 상대편 포켓몬을 공포 상태로 만들고, 이동 속도가 조금 오른다. 시간이 지나면 게이지가 증가하며, 가득 차면 주머니에 넣어 둔 씨앗을 먹고 '배부른 모양'으로 변한다.",
+          "ja": "まんぷくゲージに応じて姿が変わり、わざの効果も変化する。姿が変わるとわざの待ち時間が0秒になる。また、きのみを食べるとゲージが増加する。【まんぷくもよう】この姿になったとき、自身のHPを少し回復する。わざを使ったり時間が経過したりするとゲージが減り、0になると気が荒くなって「はらぺこもよう」に変わる。【はらぺこもよう】この姿になったとき、周囲にいる相手のポケモンを恐怖状態にし、移動速度が少し上がる。時間が経過するとゲージが増え、満タンになるとポケットに入れておいたタネを食べて「まんぷくもよう」に変わる。",
+          "en": "Morpeko's form changes with its fullness gauge, and its move effects change along with it. When the form changes, its move cooldown becomes 0s. Eating a Berry also increases the gauge. [Full Belly Mode] On entering this form, Morpeko restores a little of its own HP. Using a move or the passage of time drains the gauge; when it reaches 0, Morpeko grows ill-tempered and switches to Hangry Mode. [Hangry Mode] On entering this form, it inflicts fear on nearby opposing Pokémon and its movement speed rises slightly. Over time the gauge refills, and when it is full Morpeko eats the seed stored in its pouch and switches back to Full Belly Mode."
+        }
+      },
+      "moves": [
+        {
+          "id": "spark",
+          "name": {
+            "ko": "스파크",
+            "ja": "スパーク",
+            "en": "Spark"
+          },
+          "category": "active",
+          "unlockedAtLevel": 5
+        },
+        {
+          "id": "assurance",
+          "name": {
+            "ko": "승부굳히기",
+            "ja": "ダメおし",
+            "en": "Assurance"
+          },
+          "category": "active",
+          "unlockedAtLevel": 7
+        }
+      ],
+      "uniteMove": {
+        "id": "aura_wheel",
+        "name": {
+          "ko": "꼬르륵초전기휠",
+          "ja": "オーラぐるま",
+          "en": "Aura Wheel"
+        },
+        "unlockedAtLevel": 9,
+        "description": {
+          "ko": "볼주머니에 모은 에너지를 방출하고 전기로 된 휠을 이용해 지정한 방향으로 돌진하여 공격한다. [배부른 모양 추가 효과] 명중한 상대편 포켓몬에게 데미지를 주고 잠시 동안 마비 상태로 만들어 행동 불가로 만든다. [배고픈 모양 추가 효과] 명중한 상대편 포켓몬에게 더욱 큰 데미지를 주고 전기 마크를 부여하며 잠시 동안 행동 불가로 만든다.",
+          "ja": "ほおぶくろにためたエネルギーを放出し、電気でできたホイールを使って指定した方向に突進して攻撃する。【まんぷくもよう追加効果】命中した相手のポケモンにダメージを与え、しばらくの間まひ状態にして行動不能にする。【はらぺこもよう追加効果】命中した相手のポケモンにさらに大きなダメージを与え、電気マークを付与し、しばらくの間行動不能にする。",
+          "en": "Releases the energy stored in its cheek pouches and charges in a designated direction on a wheel of electricity to attack. [Full Belly Mode bonus] Deals damage to opposing Pokémon hit, paralyzing them and rendering them unable to act for a short time. [Hangry Mode bonus] Deals even greater damage to opposing Pokémon hit, applies an electric mark, and renders them unable to act for a short time."
+        }
+      }
+    }
   }
 ]
