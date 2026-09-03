@@ -9542,49 +9542,49 @@
     },
     "changes": [
       {
-        "ko": "[주눅] 일반 공격 사용 시 노력 게이지 증가 30 → 27",
-        "en": "[Intimidate] Evolution gauge gained on basic attack use 30 → 27",
-        "ja": "[いかく] 通常攻撃使用時のどりょくゲージ増加 30 → 27"
+        "ko": "[자기과신] 일반 공격 사용 시 노력 게이지 증가 30 → 27",
+        "en": "[Moxie] Evolution gauge gained on basic attack use 30 → 27",
+        "ja": "[じしんかじょう] 通常攻撃使用時のどりょくゲージ増加 30 → 27"
       },
       {
-        "ko": "[주눅] 일반 공격 명중 시 노력 게이지 증가 150 → 135",
-        "en": "[Intimidate] Evolution gauge gained on basic attack hit 150 → 135",
-        "ja": "[いかく] 通常攻撃命中時のどりょくゲージ増加 150 → 135"
+        "ko": "[자기과신] 일반 공격 명중 시 노력 게이지 증가 150 → 135",
+        "en": "[Moxie] Evolution gauge gained on basic attack hit 150 → 135",
+        "ja": "[じしんかじょう] 通常攻撃命中時のどりょくゲージ増加 150 → 135"
       },
       {
-        "ko": "[주눅] 튀어오르기 사용 시 노력 게이지 증가 50 → 45",
-        "en": "[Intimidate] Evolution gauge gained on Splash use 50 → 45",
-        "ja": "[いかく] はねる使用時のどりょくゲージ増加 50 → 45"
+        "ko": "[자기과신] 튀어오르기 사용 시 노력 게이지 증가 50 → 45",
+        "en": "[Moxie] Evolution gauge gained on Splash use 50 → 45",
+        "ja": "[じしんかじょう] はねる使用時のどりょくゲージ増加 50 → 45"
       },
       {
-        "ko": "[주눅] 바둥바둥 사용 시 노력 게이지 증가 75 → 68",
-        "en": "[Intimidate] Evolution gauge gained on Flail use 75 → 68",
-        "ja": "[いかく] じたばた使用時のどりょくゲージ増加 75 → 68"
+        "ko": "[자기과신] 바둥바둥 사용 시 노력 게이지 증가 75 → 68",
+        "en": "[Moxie] Evolution gauge gained on Flail use 75 → 68",
+        "ja": "[じしんかじょう] じたばた使用時のどりょくゲージ増加 75 → 68"
       },
       {
-        "ko": "[주눅] 바둥바둥 명중 시 노력 게이지 증가 225 → 202",
-        "en": "[Intimidate] Evolution gauge gained on Flail hit 225 → 202",
-        "ja": "[いかく] じたばた命中時のどりょくゲージ増加 225 → 202"
+        "ko": "[자기과신] 바둥바둥 명중 시 노력 게이지 증가 225 → 202",
+        "en": "[Moxie] Evolution gauge gained on Flail hit 225 → 202",
+        "ja": "[じしんかじょう] じたばた命中時のどりょくゲージ増加 225 → 202"
       },
       {
-        "ko": "[주눅] 10골 미만 득점 시 노력 게이지 증가 400 → 360",
-        "en": "[Intimidate] Evolution gauge gained when scoring fewer than 10 points 400 → 360",
-        "ja": "[いかく] 10ゴール未満得点時のどりょくゲージ増加 400 → 360"
+        "ko": "[자기과신] 10골 미만 득점 시 노력 게이지 증가 400 → 360",
+        "en": "[Moxie] Evolution gauge gained when scoring fewer than 10 points 400 → 360",
+        "ja": "[じしんかじょう] 10ゴール未満得点時のどりょくゲージ増加 400 → 360"
       },
       {
-        "ko": "[주눅] 10골 이상 득점 시 노력 게이지 증가 1,500 → 1,350",
-        "en": "[Intimidate] Evolution gauge gained when scoring 10 or more points 1,500 → 1,350",
-        "ja": "[いかく] 10ゴール以上得点時のどりょくゲージ増加 1,500 → 1,350"
+        "ko": "[자기과신] 10골 이상 득점 시 노력 게이지 증가 1,500 → 1,350",
+        "en": "[Moxie] Evolution gauge gained when scoring 10 or more points 1,500 → 1,350",
+        "ja": "[じしんかじょう] 10ゴール以上得点時のどりょくゲージ増加 1,500 → 1,350"
       },
       {
-        "ko": "[주눅] 어시스트 시 노력 게이지 증가 2,000 → 1,800",
-        "en": "[Intimidate] Evolution gauge gained on assist 2,000 → 1,800",
-        "ja": "[いかく] アシスト時のどりょくゲージ増加 2,000 → 1,800"
+        "ko": "[자기과신] 어시스트 시 노력 게이지 증가 2,000 → 1,800",
+        "en": "[Moxie] Evolution gauge gained on assist 2,000 → 1,800",
+        "ja": "[じしんかじょう] アシスト時のどりょくゲージ増加 2,000 → 1,800"
       },
       {
-        "ko": "[주눅] KO 시 노력 게이지 증가 4,000 → 3,600",
-        "en": "[Intimidate] Evolution gauge gained on KO 4,000 → 3,600",
-        "ja": "[いかく] KO時のどりょくゲージ増加 4,000 → 3,600"
+        "ko": "[자기과신] KO 시 노력 게이지 증가 4,000 → 3,600",
+        "en": "[Moxie] Evolution gauge gained on KO 4,000 → 3,600",
+        "ja": "[じしんかじょう] KO時のどりょくゲージ増加 4,000 → 3,600"
       },
       {
         "ko": "[용의숨결] 데미지 공격의 219% + 25×(레벨-1) + 370 → 공격의 193% + 22×(레벨-1) + 325",
@@ -15071,8 +15071,8 @@
   },
   {
     "id": "pn-098",
-    "version": "2024.07.19",
-    "date": "2024-07-19",
+    "version": "2024.07.16",
+    "date": "2024-07-16",
     "pokemonId": "125",
     "type": "new",
     "types": [
@@ -15498,22 +15498,6 @@
         "ja": "[トライアタック] ダメージ(弾丸、3回): 攻撃の98% + 5×(レベル-1) + 130 → 攻撃の90% + 3×(レベル-1) + 110"
       }
     ]
-  },
-  {
-    "id": "pn-763",
-    "version": "2024.07.16",
-    "date": "2024-07-16",
-    "pokemonId": "125",
-    "type": "new",
-    "types": [
-      "new"
-    ],
-    "summary": {
-      "ko": "신규 출시",
-      "en": "New Release",
-      "ja": "新規リリース"
-    },
-    "changes": []
   },
   {
     "id": "pn-778",
@@ -17429,24 +17413,24 @@
     },
     "changes": [
       {
-        "ko": "[주눅] 일반 공격 사용 시 노력 게이지 증가 20 → 30",
-        "en": "[Intimidate] Evolution gauge gained on basic attack use 20 → 30",
-        "ja": "[いかく] 通常攻撃使用時のどりょくゲージ増加 20 → 30"
+        "ko": "[자기과신] 일반 공격 사용 시 노력 게이지 증가 20 → 30",
+        "en": "[Moxie] Evolution gauge gained on basic attack use 20 → 30",
+        "ja": "[じしんかじょう] 通常攻撃使用時のどりょくゲージ増加 20 → 30"
       },
       {
-        "ko": "[주눅] 일반 공격 명중 시 노력 게이지 증가 100 → 150",
-        "en": "[Intimidate] Evolution gauge gained on basic attack hit 100 → 150",
-        "ja": "[いかく] 通常攻撃命中時のどりょくゲージ増加 100 → 150"
+        "ko": "[자기과신] 일반 공격 명중 시 노력 게이지 증가 100 → 150",
+        "en": "[Moxie] Evolution gauge gained on basic attack hit 100 → 150",
+        "ja": "[じしんかじょう] 通常攻撃命中時のどりょくゲージ増加 100 → 150"
       },
       {
-        "ko": "[주눅] 바둥바둥 사용 시 노력 게이지 증가 50 → 75",
-        "en": "[Intimidate] Evolution gauge gained on Flail use 50 → 75",
-        "ja": "[いかく] じたばた使用時のどりょくゲージ増加 50 → 75"
+        "ko": "[자기과신] 바둥바둥 사용 시 노력 게이지 증가 50 → 75",
+        "en": "[Moxie] Evolution gauge gained on Flail use 50 → 75",
+        "ja": "[じしんかじょう] じたばた使用時のどりょくゲージ増加 50 → 75"
       },
       {
-        "ko": "[주눅] 바둥바둥 명중 시 노력 게이지 증가 150 → 225",
-        "en": "[Intimidate] Evolution gauge gained on Flail hit 150 → 225",
-        "ja": "[いかく] じたばた命中時のどりょくゲージ増加 150 → 225"
+        "ko": "[자기과신] 바둥바둥 명중 시 노력 게이지 증가 150 → 225",
+        "en": "[Moxie] Evolution gauge gained on Flail hit 150 → 225",
+        "ja": "[じしんかじょう] じたばた命中時のどりょくゲージ増加 150 → 225"
       },
       {
         "ko": "[바둥바둥] HP 33% 미만 시 데미지 공격의 243% + 32×(레벨-1) + 420 → 공격의 324% + 42×(레벨-1) + 560",
