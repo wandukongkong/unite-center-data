@@ -5402,6 +5402,130 @@
     ]
   },
   {
+    "id": "pn-909",
+    "version": "2025.12.04",
+    "date": "2025-12-04",
+    "pokemonId": "83",
+    "type": "buff",
+    "types": [
+      "buff"
+    ],
+    "summary": {
+      "ko": "HP·방어·특수공격·특수방어가 전반적으로 증가하고, 프레셔·HP회복·순간이동이 상향됐다.",
+      "en": "HP, Defense, Sp. Atk, and Sp. Def increased overall, and Pressure, Recover, and Teleport were buffed.",
+      "ja": "HP・防御・特攻・特防が全体的に増加し、プレッシャー・じこさいせい・テレポートが強化された。"
+    },
+    "changes": [
+      {
+        "ko": "[능력치] HP 전반적으로 증가 (Lv15 6500 → 6800)",
+        "en": "[Stats] HP increased overall (Lv15 6500 → 6800)",
+        "ja": "[ステータス] HP 全体的に増加 (Lv15 6500 → 6800)"
+      },
+      {
+        "ko": "[능력치] 방어 전반적으로 증가 (Lv1 50 → 84, Lv15 200 → 250)",
+        "en": "[Stats] Defense increased overall (Lv1 50 → 84, Lv15 200 → 250)",
+        "ja": "[ステータス] 防御 全体的に増加 (Lv1 50 → 84, Lv15 200 → 250)"
+      },
+      {
+        "ko": "[능력치] 특수공격 전반적으로 증가 (Lv1 150 → 200, Lv15 780 → 830)",
+        "en": "[Stats] Sp. Atk increased overall (Lv1 150 → 200, Lv15 780 → 830)",
+        "ja": "[ステータス] 特攻 全体的に増加 (Lv1 150 → 200, Lv15 780 → 830)"
+      },
+      {
+        "ko": "[능력치] 특수방어 전반적으로 증가 (Lv1 50 → 82, Lv15 180 → 230)",
+        "en": "[Stats] Sp. Def increased overall (Lv1 50 → 82, Lv15 180 → 230)",
+        "ja": "[ステータス] 特防 全体的に増加 (Lv1 50 → 82, Lv15 180 → 230)"
+      },
+      {
+        "ko": "[프레셔] KO되어도 메가게이지를 잃지 않도록 변경",
+        "en": "[Pressure] Changed so the Mega Gauge is no longer lost upon being KO'd",
+        "ja": "[プレッシャー] KOされてもメガゲージを失わないよう変更"
+      },
+      {
+        "ko": "[HP회복] 대기 시간 11초 → 10초",
+        "en": "[Recover] Cooldown 11s → 10s",
+        "ja": "[じこさいせい] 待ち時間 11秒 → 10秒"
+      },
+      {
+        "ko": "[순간이동] 대기 시간 11초 → 10초",
+        "en": "[Teleport] Cooldown 11s → 10s",
+        "ja": "[テレポート] 待ち時間 11秒 → 10秒"
+      },
+      {
+        "ko": "[순간이동] 이동 속도 증가 이동 속도의 10% → 이동 속도의 30%",
+        "en": "[Teleport] Movement speed increase 10% → 30%",
+        "ja": "[テレポート] 移動速度増加 移動速度の10% → 移動速度の30%"
+      },
+      {
+        "ko": "[순간이동] 데미지 증가 데미지의 10% → 데미지의 20%",
+        "en": "[Teleport] Damage boost 10% of damage → 20% of damage",
+        "ja": "[テレポート] ダメージ増加 ダメージの10% → ダメージの20%"
+      },
+      {
+        "ko": "[순간이동] 강화 시 데미지 증가 데미지의 15% → 데미지의 30%",
+        "en": "[Teleport] Upgraded damage boost 15% of damage → 30% of damage",
+        "ja": "[テレポート] 強化時のダメージ増加 ダメージの15% → ダメージの30%"
+      }
+    ]
+  },
+  {
+    "id": "pn-933",
+    "version": "2025.12.04",
+    "date": "2025-12-04",
+    "pokemonId": "102",
+    "type": "buff",
+    "types": [
+      "buff"
+    ],
+    "summary": {
+      "ko": "HP·공격·방어·특수방어 능력치가 전반적으로 증가하고 프레셔와 순간이동이 상향되었다.",
+      "en": "HP, Attack, Defense, and Sp. Def stats were increased overall, and Pressure and Teleport were buffed.",
+      "ja": "HP・攻撃・防御・特防のステータスが全体的に増加し、プレッシャーとテレポートが上方修正された。"
+    },
+    "changes": [
+      {
+        "ko": "[능력치] HP: 전반적으로 증가 (Lv1 3500 → 3600, Lv15 7800 → 8200)",
+        "en": "[Stats] HP: increased overall (Lv1 3500 → 3600, Lv15 7800 → 8200)",
+        "ja": "[ステータス] HP: 全体的に増加 (Lv1 3500 → 3600, Lv15 7800 → 8200)"
+      },
+      {
+        "ko": "[능력치] 공격: 전 구간에서 40 증가 (Lv1 170 → 210, Lv15 500 → 540)",
+        "en": "[Stats] Attack: +40 across all levels (Lv1 170 → 210, Lv15 500 → 540)",
+        "ja": "[ステータス] 攻撃: 全区間で40増加 (Lv1 170 → 210, Lv15 500 → 540)"
+      },
+      {
+        "ko": "[능력치] 방어: 전반적으로 증가 (Lv1 90 → 110, Lv15 430 → 480)",
+        "en": "[Stats] Defense: increased overall (Lv1 90 → 110, Lv15 430 → 480)",
+        "ja": "[ステータス] 防御: 全体的に増加 (Lv1 90 → 110, Lv15 430 → 480)"
+      },
+      {
+        "ko": "[능력치] 특수방어: 전반적으로 증가 (Lv1 90 → 110, Lv15 340 → 390)",
+        "en": "[Stats] Sp. Def: increased overall (Lv1 90 → 110, Lv15 340 → 390)",
+        "ja": "[ステータス] 特防: 全体的に増加 (Lv1 90 → 110, Lv15 340 → 390)"
+      },
+      {
+        "ko": "[프레셔] KO되어도 메가게이지를 잃지 않도록 변경",
+        "en": "[Pressure] Changed so the Mega gauge is not lost on being KO'd",
+        "ja": "[プレッシャー] KOされてもメガゲージを失わない仕様に変更"
+      },
+      {
+        "ko": "[순간이동] 이동 속도 증가: 이동 속도의 20% → 이동 속도의 30%",
+        "en": "[Teleport] Movement speed boost: 20% of movement speed → 30% of movement speed",
+        "ja": "[テレポート] 移動速度上昇: 移動速度の20% → 移動速度の30%"
+      },
+      {
+        "ko": "[순간이동] 데미지 증가: 데미지의 10% → 데미지의 20%",
+        "en": "[Teleport] Damage boost: 10% of damage → 20% of damage",
+        "ja": "[テレポート] ダメージ増加: ダメージの10% → ダメージの20%"
+      },
+      {
+        "ko": "[순간이동+] 데미지 증가: 데미지의 20% → 데미지의 30%",
+        "en": "[Teleport+] Damage boost: 20% of damage → 30% of damage",
+        "ja": "[テレポート+] ダメージ増加: ダメージの20% → ダメージの30%"
+      }
+    ]
+  },
+  {
     "id": "pn-246",
     "version": "2025.11.25",
     "date": "2025-11-25",
@@ -7564,6 +7688,115 @@
     ]
   },
   {
+    "id": "pn-908",
+    "version": "2025.09.04",
+    "date": "2025-09-04",
+    "pokemonId": "83",
+    "type": "adjust",
+    "types": [
+      "adjust"
+    ],
+    "summary": {
+      "ko": "지닌물건 하나가 뮤츠나이트Y로 고정되고 프레셔의 공격 속도 증가가 고정값으로 변경됐으며, 그 보상으로 미래예지와 HP회복이 상향됐다.",
+      "en": "One held item slot was locked to Mewtwonite Y and Pressure's attack speed increase became a fixed value, while Future Sight and Recover were buffed in return.",
+      "ja": "持ち物の1つがミュウツナイトYに固定され、プレッシャーの攻撃速度増加が固定値に変更される一方、その代償としてみらいよちとじこさいせいが強化された。"
+    },
+    "changes": [
+      {
+        "ko": "지닌물건 하나가 뮤츠나이트Y로 고정되도록 변경",
+        "en": "One held item slot is now locked to Mewtwonite Y",
+        "ja": "持ち物の1つがミュウツナイトYに固定されるよう変更"
+      },
+      {
+        "ko": "[프레셔] 공격 속도 증가 공격 속도의 6%(곱연산) → 고정 3%",
+        "en": "[Pressure] Attack speed increase 6% attack speed (multiplicative) → fixed 3%",
+        "ja": "[プレッシャー] 攻撃速度増加 攻撃速度の6%(乗算) → 固定3%"
+      },
+      {
+        "ko": "[프레셔] 메가진화 공격 속도 증가 공격 속도의 40%(곱연산) → 고정 35%",
+        "en": "[Pressure] Mega Evolution attack speed increase 40% attack speed (multiplicative) → fixed 35%",
+        "ja": "[プレッシャー] メガシンカ攻撃速度増加 攻撃速度の40%(乗算) → 固定35%"
+      },
+      {
+        "ko": "[미래예지] 추가 데미지 뮤츠가 3초 동안 준 데미지의 50% → 대상 포켓몬이 3초 동안 받은 데미지의 50%",
+        "en": "[Future Sight] Bonus damage 50% of the damage Mewtwo dealt over 3s → 50% of the damage the target took over 3s",
+        "ja": "[みらいよち] 追加ダメージ ミュウツーが3秒間に与えたダメージの50% → 対象ポケモンが3秒間に受けたダメージの50%"
+      },
+      {
+        "ko": "[HP회복] 이동 속도 증가 이동 속도의 10% → 이동 속도의 30%",
+        "en": "[Recover] Movement speed increase 10% → 30%",
+        "ja": "[じこさいせい] 移動速度増加 移動速度の10% → 移動速度の30%"
+      },
+      {
+        "ko": "[HP회복] HP 회복 일반 공격 데미지의 30% → 일반 공격 데미지의 40%",
+        "en": "[Recover] HP restoration 30% of basic attack damage → 40% of basic attack damage",
+        "ja": "[じこさいせい] HP回復 通常攻撃ダメージの30% → 通常攻撃ダメージの40%"
+      },
+      {
+        "ko": "[HP회복] 실드 특수공격의 70% + 310 + 최대 HP의 7% → 특수공격의 77% + 340 + 최대 HP의 7.7%",
+        "en": "[Recover] Shield 70% Sp. Atk + 310 + 7% max HP → 77% Sp. Atk + 340 + 7.7% max HP",
+        "ja": "[じこさいせい] シールド 特攻の70% + 310 + 最大HPの7% → 特攻の77% + 340 + 最大HPの7.7%"
+      },
+      {
+        "ko": "[HP회복] 강화 시 HP 회복 일반 공격 데미지의 40% → 일반 공격 데미지의 50%",
+        "en": "[Recover] Upgraded HP restoration 40% of basic attack damage → 50% of basic attack damage",
+        "ja": "[じこさいせい] 強化時のHP回復 通常攻撃ダメージの40% → 通常攻撃ダメージの50%"
+      }
+    ]
+  },
+  {
+    "id": "pn-932",
+    "version": "2025.09.04",
+    "date": "2025-09-04",
+    "pokemonId": "102",
+    "type": "adjust",
+    "types": [
+      "adjust"
+    ],
+    "summary": {
+      "ko": "지닌물건 하나가 뮤츠나이트X로 고정되었으나, 프레셔의 메가진화 보너스와 미래예지·순간이동이 상향되었다.",
+      "en": "One held item slot was fixed to Mewtwonite X, while Pressure's Mega Evolution bonuses, Future Sight, and Teleport were buffed.",
+      "ja": "持ち物の一つがミュウツナイトXに固定されたが、プレッシャーのメガシンカボーナスとみらいよち・テレポートが上方修正された。"
+    },
+    "changes": [
+      {
+        "ko": "[지닌물건] 하나가 뮤츠나이트X로 고정되도록 변경",
+        "en": "[Held Item] One slot is now fixed to Mewtwonite X",
+        "ja": "[持ち物] 一つがミュウツナイトXに固定される仕様に変更"
+      },
+      {
+        "ko": "[프레셔] 메가진화 공격 증가: 공격의 10% → 공격의 18%",
+        "en": "[Pressure] Mega Evolution Attack boost: 10% of Attack → 18% of Attack",
+        "ja": "[プレッシャー] メガシンカ攻撃上昇: 攻撃の10% → 攻撃の18%"
+      },
+      {
+        "ko": "[프레셔] 메가진화 방어 증가: 방어의 10% → 방어의 18%",
+        "en": "[Pressure] Mega Evolution Defense boost: 10% of Defense → 18% of Defense",
+        "ja": "[プレッシャー] メガシンカ防御上昇: 防御の10% → 防御の18%"
+      },
+      {
+        "ko": "[프레셔] 메가진화 특수방어 증가: 특수방어의 10% → 특수방어의 18%",
+        "en": "[Pressure] Mega Evolution Sp. Def boost: 10% of Sp. Def → 18% of Sp. Def",
+        "ja": "[プレッシャー] メガシンカ特防上昇: 特防の10% → 特防の18%"
+      },
+      {
+        "ko": "[미래예지] 추가 데미지: 공격의 60% + 5×(레벨-1) + 120 + 뮤츠가 3초 동안 준 데미지의 50% → 공격의 60% + 5×(레벨-1) + 120 + 대상 포켓몬이 3초 동안 받은 데미지의 50%",
+        "en": "[Future Sight] Additional damage: 60% of Attack + 5×(Lv-1) + 120 + 50% of the damage Mewtwo dealt over 3s → 60% of Attack + 5×(Lv-1) + 120 + 50% of the damage the target took over 3s",
+        "ja": "[みらいよち] 追加ダメージ: 攻撃の60% + 5×(レベル-1) + 120 + ミュウツーが3秒間に与えたダメージの50% → 攻撃の60% + 5×(レベル-1) + 120 + 対象のポケモンが3秒間に受けたダメージの50%"
+      },
+      {
+        "ko": "[순간이동] 이동 속도 증가: 이동 속도의 10% → 이동 속도의 20%",
+        "en": "[Teleport] Movement speed boost: 10% of movement speed → 20% of movement speed",
+        "ja": "[テレポート] 移動速度上昇: 移動速度の10% → 移動速度の20%"
+      },
+      {
+        "ko": "[순간이동+] 데미지 증가: 데미지의 15% → 데미지의 20%",
+        "en": "[Teleport+] Damage boost: 15% of damage → 20% of damage",
+        "ja": "[テレポート+] ダメージ増加: ダメージの15% → ダメージの20%"
+      }
+    ]
+  },
+  {
     "id": "pn-179",
     "version": "2025.08.19",
     "date": "2025-08-19",
@@ -8663,6 +8896,73 @@
     ]
   },
   {
+    "id": "pn-950",
+    "version": "2025.07.18",
+    "date": "2025-07-18",
+    "pokemonId": "141",
+    "type": "adjust",
+    "types": [
+      "adjust"
+    ],
+    "summary": {
+      "ko": "트리플악셀과 퀸에어리얼은 하향됐으나 짓밟기 데미지는 상향됐다.",
+      "en": "Triple Axel and Queen Ascendant were weakened, while Stomp's damage was raised.",
+      "ja": "トリプルアクセルとクイーンエアリアルは下方修正されたが、ふみつけのダメージは上方修正された。"
+    },
+    "changes": [
+      {
+        "ko": "[트리플악셀] 데미지(여왕의위엄 미적용, 3회): 공격의 49% + 3×(레벨-1) + 60 → 공격의 46% + 3×(레벨-1) + 57",
+        "en": "[Triple Axel] Damage (without Queenly Majesty, 3 hits): 49% of Atk + 3×(Lv-1) + 60 → 46% of Atk + 3×(Lv-1) + 57",
+        "ja": "[トリプルアクセル] ダメージ(じょおうのいげん未適用, 3回): 攻撃の49% + 3×(レベル-1) + 60 → 攻撃の46% + 3×(レベル-1) + 57"
+      },
+      {
+        "ko": "[트리플악셀+] 데미지(여왕의위엄 미적용, 3회): 공격의 56% + 4×(레벨-1) + 72 → 공격의 53% + 4×(레벨-1) + 68",
+        "en": "[Triple Axel+] Damage (without Queenly Majesty, 3 hits): 56% of Atk + 4×(Lv-1) + 72 → 53% of Atk + 4×(Lv-1) + 68",
+        "ja": "[トリプルアクセル+] ダメージ(じょおうのいげん未適用, 3回): 攻撃の56% + 4×(レベル-1) + 72 → 攻撃の53% + 4×(レベル-1) + 68"
+      },
+      {
+        "ko": "[트리플악셀] 데미지(여왕의위엄 적용, 3회): 공격의 78% + 5×(레벨-1) + 100 → 공격의 74% + 5×(레벨-1) + 95",
+        "en": "[Triple Axel] Damage (with Queenly Majesty, 3 hits): 78% of Atk + 5×(Lv-1) + 100 → 74% of Atk + 5×(Lv-1) + 95",
+        "ja": "[トリプルアクセル] ダメージ(じょおうのいげん適用, 3回): 攻撃の78% + 5×(レベル-1) + 100 → 攻撃の74% + 5×(レベル-1) + 95"
+      },
+      {
+        "ko": "[트리플악셀+] 데미지(여왕의위엄 적용, 3회): 공격의 90% + 6×(레벨-1) + 115 → 공격의 85% + 6×(레벨-1) + 110",
+        "en": "[Triple Axel+] Damage (with Queenly Majesty, 3 hits): 90% of Atk + 6×(Lv-1) + 115 → 85% of Atk + 6×(Lv-1) + 110",
+        "ja": "[トリプルアクセル+] ダメージ(じょおうのいげん適用, 3回): 攻撃の90% + 6×(レベル-1) + 115 → 攻撃の85% + 6×(レベル-1) + 110"
+      },
+      {
+        "ko": "[짓밟기] 데미지(여왕의위엄 미적용): 공격의 154.30% + 9×(레벨-1) + 190 → 공격의 170% + 10×(레벨-1) + 208",
+        "en": "[Stomp] Damage (without Queenly Majesty): 154.30% of Atk + 9×(Lv-1) + 190 → 170% of Atk + 10×(Lv-1) + 208",
+        "ja": "[ふみつけ] ダメージ(じょおうのいげん未適用): 攻撃の154.30% + 9×(レベル-1) + 190 → 攻撃の170% + 10×(レベル-1) + 208"
+      },
+      {
+        "ko": "[짓밟기+] 데미지(여왕의위엄 미적용): 공격의 180% + 9×(레벨-1) + 218 → 공격의 198% + 10×(레벨-1) + 240",
+        "en": "[Stomp+] Damage (without Queenly Majesty): 180% of Atk + 9×(Lv-1) + 218 → 198% of Atk + 10×(Lv-1) + 240",
+        "ja": "[ふみつけ+] ダメージ(じょおうのいげん未適用): 攻撃の180% + 9×(レベル-1) + 218 → 攻撃の198% + 10×(レベル-1) + 240"
+      },
+      {
+        "ko": "[짓밟기] 데미지(여왕의위엄 적용): 공격의 249.30% + 13×(레벨-1) + 304 → 공격의 274% + 14×(레벨-1) + 334",
+        "en": "[Stomp] Damage (with Queenly Majesty): 249.30% of Atk + 13×(Lv-1) + 304 → 274% of Atk + 14×(Lv-1) + 334",
+        "ja": "[ふみつけ] ダメージ(じょおうのいげん適用): 攻撃の249.30% + 13×(レベル-1) + 304 → 攻撃の274% + 14×(レベル-1) + 334"
+      },
+      {
+        "ko": "[짓밟기+] 데미지(여왕의위엄 적용): 공격의 286.30% + 15×(레벨-1) + 350 → 공격의 314% + 16×(레벨-1) + 385",
+        "en": "[Stomp+] Damage (with Queenly Majesty): 286.30% of Atk + 15×(Lv-1) + 350 → 314% of Atk + 16×(Lv-1) + 385",
+        "ja": "[ふみつけ+] ダメージ(じょおうのいげん適用): 攻撃の286.30% + 15×(レベル-1) + 350 → 攻撃の314% + 16×(レベル-1) + 385"
+      },
+      {
+        "ko": "[퀸에어리얼] 데미지(9회): 공격의 49% + 1×(레벨-1) + 70 → 공격의 45% + 1×(레벨-1) + 64",
+        "en": "[Queen Ascendant] Damage (9 hits): 49% of Atk + 1×(Lv-1) + 70 → 45% of Atk + 1×(Lv-1) + 64",
+        "ja": "[クイーンエアリアル] ダメージ(9回): 攻撃の49% + 1×(レベル-1) + 70 → 攻撃の45% + 1×(レベル-1) + 64"
+      },
+      {
+        "ko": "[퀸에어리얼] 마지막 데미지: 공격의 196% + 4×(레벨-1) + 280 → 공격의 180% + 4×(레벨-1) + 256",
+        "en": "[Queen Ascendant] Final hit damage: 196% of Atk + 4×(Lv-1) + 280 → 180% of Atk + 4×(Lv-1) + 256",
+        "ja": "[クイーンエアリアル] 最後のダメージ: 攻撃の196% + 4×(レベル-1) + 280 → 攻撃の180% + 4×(レベル-1) + 256"
+      }
+    ]
+  },
+  {
     "id": "pn-257",
     "version": "2025.06.27",
     "date": "2025-06-27",
@@ -9434,6 +9734,28 @@
         "ko": "[문라이트세레나데] 발동 시 실드 흡수: 실드의 100% → 실드의 50%",
         "en": "[Moonlight Prance] Shield absorption on activation: 100% of shield → 50% of shield",
         "ja": "[ムーンライトセレナーデ] 発動時シールド吸収: シールドの100% → シールドの50%"
+      }
+    ]
+  },
+  {
+    "id": "pn-931",
+    "version": "2025.06.05",
+    "date": "2025-06-05",
+    "pokemonId": "102",
+    "type": "nerf",
+    "types": [
+      "nerf"
+    ],
+    "summary": {
+      "ko": "사이코브레이크의 날려버리기 시간이 감소했다.",
+      "en": "Psystrike's launch duration was reduced.",
+      "ja": "サイコブレイクの吹き飛ばし時間が減少した。"
+    },
+    "changes": [
+      {
+        "ko": "[사이코브레이크] 날려버리기: 1초 → 0.6초",
+        "en": "[Psystrike] Launch: 1s → 0.6s",
+        "ja": "[サイコブレイク] 吹き飛ばし: 1秒 → 0.6秒"
       }
     ]
   },
@@ -11290,6 +11612,43 @@
     ]
   },
   {
+    "id": "pn-949",
+    "version": "2025.02.27",
+    "date": "2025-02-27",
+    "pokemonId": "141",
+    "type": "nerf",
+    "types": [
+      "nerf"
+    ],
+    "summary": {
+      "ko": "트리플악셀 데미지가 하향됐다.",
+      "en": "Triple Axel's damage was reduced.",
+      "ja": "トリプルアクセルのダメージが下方修正された。"
+    },
+    "changes": [
+      {
+        "ko": "[트리플악셀] 데미지(여왕의위엄 미적용, 3회): 공격의 56.8% + 3×(레벨-1) + 70 → 공격의 49% + 3×(레벨-1) + 60",
+        "en": "[Triple Axel] Damage (without Queenly Majesty, 3 hits): 56.8% of Atk + 3×(Lv-1) + 70 → 49% of Atk + 3×(Lv-1) + 60",
+        "ja": "[トリプルアクセル] ダメージ(じょおうのいげん未適用, 3回): 攻撃の56.8% + 3×(レベル-1) + 70 → 攻撃の49% + 3×(レベル-1) + 60"
+      },
+      {
+        "ko": "[트리플악셀+] 데미지(여왕의위엄 미적용, 3회): 공격의 65% + 4×(레벨-1) + 82 → 공격의 56% + 4×(레벨-1) + 72",
+        "en": "[Triple Axel+] Damage (without Queenly Majesty, 3 hits): 65% of Atk + 4×(Lv-1) + 82 → 56% of Atk + 4×(Lv-1) + 72",
+        "ja": "[トリプルアクセル+] ダメージ(じょおうのいげん未適用, 3回): 攻撃の65% + 4×(レベル-1) + 82 → 攻撃の56% + 4×(レベル-1) + 72"
+      },
+      {
+        "ko": "[트리플악셀] 데미지(여왕의위엄 적용, 3회): 공격의 90% + 5×(레벨-1) + 115 → 공격의 78% + 5×(레벨-1) + 100",
+        "en": "[Triple Axel] Damage (with Queenly Majesty, 3 hits): 90% of Atk + 5×(Lv-1) + 115 → 78% of Atk + 5×(Lv-1) + 100",
+        "ja": "[トリプルアクセル] ダメージ(じょおうのいげん適用, 3回): 攻撃の90% + 5×(レベル-1) + 115 → 攻撃の78% + 5×(レベル-1) + 100"
+      },
+      {
+        "ko": "[트리플악셀+] 데미지(여왕의위엄 적용, 3회): 공격의 104% + 6×(레벨-1) + 132 → 공격의 90% + 6×(레벨-1) + 115",
+        "en": "[Triple Axel+] Damage (with Queenly Majesty, 3 hits): 104% of Atk + 6×(Lv-1) + 132 → 90% of Atk + 6×(Lv-1) + 115",
+        "ja": "[トリプルアクセル+] ダメージ(じょおうのいげん適用, 3回): 攻撃の104% + 6×(レベル-1) + 132 → 攻撃の90% + 6×(レベル-1) + 115"
+      }
+    ]
+  },
+  {
     "id": "pn-434",
     "version": "2025.02.14",
     "date": "2025-02-14",
@@ -11550,6 +11909,70 @@
         "ko": "[회오리불꽃] 실드 최대 HP의 25.5% → 30%",
         "en": "[Fire Spin] Shield 25.5% → 30% of max HP",
         "ja": "[かえんうず] シールド 最大HPの25.5% → 30%"
+      }
+    ]
+  },
+  {
+    "id": "pn-907",
+    "version": "2025.02.06",
+    "date": "2025-02-06",
+    "pokemonId": "83",
+    "type": "nerf",
+    "types": [
+      "nerf"
+    ],
+    "summary": {
+      "ko": "사이코브레이크의 다단 데미지와 마지막 데미지가 하향됐다.",
+      "en": "Psybreak's multi-hit damage and final hit damage were reduced.",
+      "ja": "サイコブレイクの多段ダメージと最後のダメージが下方修正された。"
+    },
+    "changes": [
+      {
+        "ko": "[사이코브레이크] 데미지(5회) 특수공격의 24.3% + 2×(레벨-1) + 78 → 특수공격의 23% + 2×(레벨-1) + 74",
+        "en": "[Psybreak] Damage (5 hits) 24.3% Sp. Atk + 2×(Lv-1) + 78 → 23% Sp. Atk + 2×(Lv-1) + 74",
+        "ja": "[サイコブレイク] ダメージ(5回) 特攻の24.3% + 2×(レベル-1) + 78 → 特攻の23% + 2×(レベル-1) + 74"
+      },
+      {
+        "ko": "[사이코브레이크] 데미지(마지막) 특수공격의 81% + 7×(레벨-1) + 260 → 특수공격의 76% + 7×(레벨-1) + 247",
+        "en": "[Psybreak] Damage (final) 81% Sp. Atk + 7×(Lv-1) + 260 → 76% Sp. Atk + 7×(Lv-1) + 247",
+        "ja": "[サイコブレイク] ダメージ(最後) 特攻の81% + 7×(レベル-1) + 260 → 特攻の76% + 7×(レベル-1) + 247"
+      }
+    ]
+  },
+  {
+    "id": "pn-948",
+    "version": "2025.02.06",
+    "date": "2025-02-06",
+    "pokemonId": "141",
+    "type": "nerf",
+    "types": [
+      "nerf"
+    ],
+    "summary": {
+      "ko": "트리플악셀 데미지가 소폭 하향됐다.",
+      "en": "Triple Axel's damage was slightly reduced.",
+      "ja": "トリプルアクセルのダメージが小幅に下方修正された。"
+    },
+    "changes": [
+      {
+        "ko": "[트리플악셀] 데미지(여왕의위엄 미적용, 3회): 공격의 61.74% + 3×(레벨-1) + 78 → 공격의 56.8% + 3×(레벨-1) + 70",
+        "en": "[Triple Axel] Damage (without Queenly Majesty, 3 hits): 61.74% of Atk + 3×(Lv-1) + 78 → 56.8% of Atk + 3×(Lv-1) + 70",
+        "ja": "[トリプルアクセル] ダメージ(じょおうのいげん未適用, 3回): 攻撃の61.74% + 3×(レベル-1) + 78 → 攻撃の56.8% + 3×(レベル-1) + 70"
+      },
+      {
+        "ko": "[트리플악셀+] 데미지(여왕의위엄 미적용, 3회): 공격의 71% + 4×(레벨-1) + 90 → 공격의 65% + 4×(레벨-1) + 82",
+        "en": "[Triple Axel+] Damage (without Queenly Majesty, 3 hits): 71% of Atk + 4×(Lv-1) + 90 → 65% of Atk + 4×(Lv-1) + 82",
+        "ja": "[トリプルアクセル+] ダメージ(じょおうのいげん未適用, 3回): 攻撃の71% + 4×(レベル-1) + 90 → 攻撃の65% + 4×(レベル-1) + 82"
+      },
+      {
+        "ko": "[트리플악셀] 데미지(여왕의위엄 적용, 3회): 공격의 98.78% + 5×(레벨-1) + 125 → 공격의 90% + 5×(레벨-1) + 115",
+        "en": "[Triple Axel] Damage (with Queenly Majesty, 3 hits): 98.78% of Atk + 5×(Lv-1) + 125 → 90% of Atk + 5×(Lv-1) + 115",
+        "ja": "[トリプルアクセル] ダメージ(じょおうのいげん適用, 3回): 攻撃の98.78% + 5×(レベル-1) + 125 → 攻撃の90% + 5×(レベル-1) + 115"
+      },
+      {
+        "ko": "[트리플악셀+] 데미지(여왕의위엄 적용, 3회): 공격의 113.6% + 6×(레벨-1) + 144 → 공격의 104% + 6×(레벨-1) + 132",
+        "en": "[Triple Axel+] Damage (with Queenly Majesty, 3 hits): 113.6% of Atk + 6×(Lv-1) + 144 → 104% of Atk + 6×(Lv-1) + 132",
+        "ja": "[トリプルアクセル+] ダメージ(じょおうのいげん適用, 3回): 攻撃の113.6% + 6×(レベル-1) + 144 → 攻撃の104% + 6×(レベル-1) + 132"
       }
     ]
   },
@@ -11896,6 +12319,38 @@
         "ko": "[희망사항] 대기 시간: 5.5초 → 6초",
         "en": "[Wish] Cooldown: 5.5s → 6s",
         "ja": "[ねがいごと] クールタイム: 5.5秒 → 6秒"
+      }
+    ]
+  },
+  {
+    "id": "pn-921",
+    "version": "2025.01.16",
+    "date": "2025-01-16",
+    "pokemonId": "63",
+    "type": "nerf",
+    "types": [
+      "nerf"
+    ],
+    "summary": {
+      "ko": "강화 공격 데미지와 눈보라의 장판 데미지가 감소했다.",
+      "en": "Boosted attack damage and Blizzard's zone damage were reduced.",
+      "ja": "強化攻撃ダメージとふぶきの設置ダメージが減少した。"
+    },
+    "changes": [
+      {
+        "ko": "[강화 공격] 데미지 특수공격의 56% + 14×(레벨-1) + 260 → 특수공격의 53.2% + 13×(레벨-1) + 250",
+        "en": "[Boosted Attack] Damage 56% Sp. Atk + 14×(Lv-1) + 260 → 53.2% Sp. Atk + 13×(Lv-1) + 250",
+        "ja": "[強化攻撃] ダメージ とくこうの56% + 14×(レベル-1) + 260 → とくこうの53.2% + 13×(レベル-1) + 250"
+      },
+      {
+        "ko": "[눈보라] 장판 데미지 특수공격의 19.5% + 2×(레벨-1) + 125 → 특수공격의 17% + 2×(레벨-1) + 110",
+        "en": "[Blizzard] Zone damage 19.5% Sp. Atk + 2×(Lv-1) + 125 → 17% Sp. Atk + 2×(Lv-1) + 110",
+        "ja": "[ふぶき] 設置ダメージ とくこうの19.5% + 2×(レベル-1) + 125 → とくこうの17% + 2×(レベル-1) + 110"
+      },
+      {
+        "ko": "[눈보라+] 장판 데미지 특수공격의 20.5% + 3×(레벨-1) + 135 → 특수공격의 18% + 3×(레벨-1) + 115",
+        "en": "[Blizzard+] Zone damage 20.5% Sp. Atk + 3×(Lv-1) + 135 → 18% Sp. Atk + 3×(Lv-1) + 115",
+        "ja": "[ふぶき+] 設置ダメージ とくこうの20.5% + 3×(レベル-1) + 135 → とくこうの18% + 3×(レベル-1) + 115"
       }
     ]
   },
@@ -13318,6 +13773,58 @@
     ]
   },
   {
+    "id": "pn-947",
+    "version": "2024.12.05",
+    "date": "2024-12-05",
+    "pokemonId": "141",
+    "type": "adjust",
+    "types": [
+      "adjust"
+    ],
+    "summary": {
+      "ko": "트리플악셀 업그레이드 데미지와 트로피컬킥·그래스슬라이더 실드는 상향됐으나 짓밟기 데미지는 하향됐다.",
+      "en": "Triple Axel's upgrade damage and Trop Kick and Grassy Glide shields were raised, while Stomp's damage was reduced.",
+      "ja": "トリプルアクセルの強化ダメージとトロピカルキック・グラススライダーのシールドは上方修正されたが、ふみつけのダメージは下方修正された。"
+    },
+    "changes": [
+      {
+        "ko": "[트리플악셀] 데미지 증가(업그레이드): 5% → 8%",
+        "en": "[Triple Axel] Damage increase (upgrade): 5% → 8%",
+        "ja": "[トリプルアクセル] ダメージ増加(強化): 5% → 8%"
+      },
+      {
+        "ko": "[짓밟기] 데미지(여왕의위엄 미적용): 공격의 163.48% + 9×(레벨-1) + 200 → 공격의 154.30% + 9×(레벨-1) + 190",
+        "en": "[Stomp] Damage (without Queenly Majesty): 163.48% of Atk + 9×(Lv-1) + 200 → 154.30% of Atk + 9×(Lv-1) + 190",
+        "ja": "[ふみつけ] ダメージ(じょおうのいげん未適用): 攻撃の163.48% + 9×(レベル-1) + 200 → 攻撃の154.30% + 9×(レベル-1) + 190"
+      },
+      {
+        "ko": "[짓밟기+] 데미지(여왕의위엄 미적용): 공격의 188% + 10×(레벨-1) + 230 → 공격의 180% + 9×(레벨-1) + 218",
+        "en": "[Stomp+] Damage (without Queenly Majesty): 188% of Atk + 10×(Lv-1) + 230 → 180% of Atk + 9×(Lv-1) + 218",
+        "ja": "[ふみつけ+] ダメージ(じょおうのいげん未適用): 攻撃の188% + 10×(レベル-1) + 230 → 攻撃の180% + 9×(レベル-1) + 218"
+      },
+      {
+        "ko": "[짓밟기] 데미지(여왕의위엄 적용): 공격의 261.57% + 14×(레벨-1) + 320 → 공격의 249.30% + 13×(레벨-1) + 304",
+        "en": "[Stomp] Damage (with Queenly Majesty): 261.57% of Atk + 14×(Lv-1) + 320 → 249.30% of Atk + 13×(Lv-1) + 304",
+        "ja": "[ふみつけ] ダメージ(じょおうのいげん適用): 攻撃の261.57% + 14×(レベル-1) + 320 → 攻撃の249.30% + 13×(レベル-1) + 304"
+      },
+      {
+        "ko": "[짓밟기+] 데미지(여왕의위엄 적용): 공격의 300.8% + 16×(레벨-1) + 368 → 공격의 286.30% + 15×(레벨-1) + 350",
+        "en": "[Stomp+] Damage (with Queenly Majesty): 300.8% of Atk + 16×(Lv-1) + 368 → 286.30% of Atk + 15×(Lv-1) + 350",
+        "ja": "[ふみつけ+] ダメージ(じょおうのいげん適用): 攻撃の300.8% + 16×(レベル-1) + 368 → 攻撃の286.30% + 15×(レベル-1) + 350"
+      },
+      {
+        "ko": "[트로피컬킥] 여왕의위엄 실드: 공격의 220% + 15×(레벨-1) + 180 → 공격의 264% + 18×(레벨-1) + 216",
+        "en": "[Trop Kick] Queenly Majesty shield: 220% of Atk + 15×(Lv-1) + 180 → 264% of Atk + 18×(Lv-1) + 216",
+        "ja": "[トロピカルキック] じょおうのいげんシールド: 攻撃の220% + 15×(レベル-1) + 180 → 攻撃の264% + 18×(レベル-1) + 216"
+      },
+      {
+        "ko": "[그래스슬라이더] 여왕의위엄 실드: 공격의 220% + 15×(레벨-1) + 180 → 공격의 264% + 18×(레벨-1) + 216",
+        "en": "[Grassy Glide] Queenly Majesty shield: 220% of Atk + 15×(Lv-1) + 180 → 264% of Atk + 18×(Lv-1) + 216",
+        "ja": "[グラススライダー] じょおうのいげんシールド: 攻撃の220% + 15×(レベル-1) + 180 → 攻撃の264% + 18×(レベル-1) + 216"
+      }
+    ]
+  },
+  {
     "id": "pn-311",
     "version": "2024.11.21",
     "date": "2024-11-21",
@@ -13976,6 +14483,80 @@
     ]
   },
   {
+    "id": "pn-906",
+    "version": "2024.11.01",
+    "date": "2024-11-01",
+    "pokemonId": "83",
+    "type": "buff",
+    "types": [
+      "buff"
+    ],
+    "summary": {
+      "ko": "공격 속도가 전반적으로 증가하고, 미래예지·HP회복·순간이동이 상향됐다.",
+      "en": "Attack speed increased overall, and Future Sight, Recover, and Teleport were buffed.",
+      "ja": "攻撃速度が全体的に増加し、みらいよち・じこさいせい・テレポートが強化された。"
+    },
+    "changes": [
+      {
+        "ko": "[능력치] 공격 속도 전반적으로 증가 (Lv15 40% → 49.99%)",
+        "en": "[Stats] Attack speed increased overall (Lv15 40% → 49.99%)",
+        "ja": "[ステータス] 攻撃速度 全体的に増加 (Lv15 40% → 49.99%)"
+      },
+      {
+        "ko": "[미래예지] 대기 시간 10초 → 8.5초",
+        "en": "[Future Sight] Cooldown 10s → 8.5s",
+        "ja": "[みらいよち] 待ち時間 10秒 → 8.5秒"
+      },
+      {
+        "ko": "[미래예지] 이동 속도 감소 이동 속도의 25% → 이동 속도의 35%",
+        "en": "[Future Sight] Movement speed reduction 25% → 35%",
+        "ja": "[みらいよち] 移動速度減少 移動速度の25% → 移動速度の35%"
+      },
+      {
+        "ko": "[HP회복] 대기 시간 12초 → 11초",
+        "en": "[Recover] Cooldown 12s → 11s",
+        "ja": "[じこさいせい] 待ち時間 12秒 → 11秒"
+      },
+      {
+        "ko": "[HP회복] HP 회복 일반 공격 데미지의 20% → 일반 공격 데미지의 30%",
+        "en": "[Recover] HP restoration 20% of basic attack damage → 30% of basic attack damage",
+        "ja": "[じこさいせい] HP回復 通常攻撃ダメージの20% → 通常攻撃ダメージの30%"
+      },
+      {
+        "ko": "[HP회복] 강화 시 HP 회복 일반 공격 데미지의 30% → 일반 공격 데미지의 40%",
+        "en": "[Recover] Upgraded HP restoration 30% of basic attack damage → 40% of basic attack damage",
+        "ja": "[じこさいせい] 強化時のHP回復 通常攻撃ダメージの30% → 通常攻撃ダメージの40%"
+      },
+      {
+        "ko": "[순간이동] 대기 시간 12초 → 11초",
+        "en": "[Teleport] Cooldown 12s → 11s",
+        "ja": "[テレポート] 待ち時間 12秒 → 11秒"
+      }
+    ]
+  },
+  {
+    "id": "pn-930",
+    "version": "2024.11.01",
+    "date": "2024-11-01",
+    "pokemonId": "102",
+    "type": "nerf",
+    "types": [
+      "nerf"
+    ],
+    "summary": {
+      "ko": "사이코브레이크의 데미지 감소 효과가 하향되었다.",
+      "en": "Psystrike's damage reduction effect was lowered.",
+      "ja": "サイコブレイクのダメージ減少効果が下方修正された。"
+    },
+    "changes": [
+      {
+        "ko": "[사이코브레이크] 데미지 감소: 데미지의 25% → 데미지의 15%",
+        "en": "[Psystrike] Damage reduction: 25% of damage → 15% of damage",
+        "ja": "[サイコブレイク] ダメージ減少: ダメージの25% → ダメージの15%"
+      }
+    ]
+  },
+  {
     "id": "pn-454",
     "version": "2024.10.19",
     "date": "2024-10-19",
@@ -14534,6 +15115,48 @@
     ]
   },
   {
+    "id": "pn-920",
+    "version": "2024.10.17",
+    "date": "2024-10-17",
+    "pokemonId": "63",
+    "type": "buff",
+    "types": [
+      "buff"
+    ],
+    "summary": {
+      "ko": "방어·특수방어 능력치가 전반적으로 증가하고, 눈퍼뜨리기·눈사태·눈보라의 대기 시간이 단축되었다.",
+      "en": "Defense and Sp. Def were increased overall, and the cooldowns of Snow Warning, Avalanche, and Blizzard were shortened.",
+      "ja": "ぼうぎょ・とくぼう能力値が全体的に増加し、ゆきふらし・なだれ・ふぶきの待機時間が短縮された。"
+    },
+    "changes": [
+      {
+        "ko": "[방어] 전반적으로 증가",
+        "en": "[Defense] Increased overall",
+        "ja": "[ぼうぎょ] 全体的に増加"
+      },
+      {
+        "ko": "[특수방어] 전반적으로 증가",
+        "en": "[Sp. Def] Increased overall",
+        "ja": "[とくぼう] 全体的に増加"
+      },
+      {
+        "ko": "[눈퍼뜨리기] 대기 시간 8초 → 4초",
+        "en": "[Snow Warning] Cooldown 8s → 4s",
+        "ja": "[ゆきふらし] 待機時間 8秒 → 4秒"
+      },
+      {
+        "ko": "[눈사태] 대기 시간 8초 → 7.5초",
+        "en": "[Avalanche] Cooldown 8s → 7.5s",
+        "ja": "[なだれ] 待機時間 8秒 → 7.5秒"
+      },
+      {
+        "ko": "[눈보라] 대기 시간 8초 → 7.5초",
+        "en": "[Blizzard] Cooldown 8s → 7.5s",
+        "ja": "[ふぶき] 待機時間 8秒 → 7.5秒"
+      }
+    ]
+  },
+  {
     "id": "pn-086",
     "version": "2024.09.12",
     "date": "2024-09-12",
@@ -14928,6 +15551,28 @@
         "ko": "[드레인키스] 이동 속도 감소 이동 속도의 20% → 이동 속도의 50%",
         "en": "[Draining Kiss] Movement speed reduction 20% of movement speed → 50% of movement speed",
         "ja": "[ドレインキッス] 移動速度低下 移動速度の20% → 移動速度の50%"
+      }
+    ]
+  },
+  {
+    "id": "pn-946",
+    "version": "2024.09.05",
+    "date": "2024-09-05",
+    "pokemonId": "141",
+    "type": "buff",
+    "types": [
+      "buff"
+    ],
+    "summary": {
+      "ko": "퀸에어리얼이 바인드 판정으로 변경됐다.",
+      "en": "Queen Ascendant was changed to a bind classification.",
+      "ja": "クイーンエアリアルがバインド判定に変更された。"
+    },
+    "changes": [
+      {
+        "ko": "[퀸에어리얼] 바인드 판정으로 변경",
+        "en": "[Queen Ascendant] Changed to bind classification",
+        "ja": "[クイーンエアリアル] バインド判定に変更"
       }
     ]
   },
@@ -15624,6 +16269,55 @@
         "ko": "[니트로차지] 데미지 공격의 106%+14×(레벨-1)+340 → 공격의 123%+14×(레벨-1)+374",
         "en": "[Flame Charge] Damage 106% of Attack+14×(Lv-1)+340 → 123% of Attack+14×(Lv-1)+374",
         "ja": "[ニトロチャージ] ダメージ 攻撃の106%+14×(レベル-1)+340 → 攻撃の123%+14×(レベル-1)+374"
+      }
+    ]
+  },
+  {
+    "id": "pn-905",
+    "version": "2024.07.16",
+    "date": "2024-07-16",
+    "pokemonId": "83",
+    "type": "nerf",
+    "types": [
+      "nerf"
+    ],
+    "summary": {
+      "ko": "일반 공격의 사정거리가 메가진화 전후 모두 감소했다.",
+      "en": "Basic attack range was reduced both before and after Mega Evolution.",
+      "ja": "通常攻撃の射程がメガシンカ前後ともに減少した。"
+    },
+    "changes": [
+      {
+        "ko": "[일반 공격] 사정거리 7.0m → 6.5m",
+        "en": "[Basic Attack] Range 7.0m → 6.5m",
+        "ja": "[通常攻撃] 射程 7.0m → 6.5m"
+      },
+      {
+        "ko": "[일반 공격] 사정거리(메가진화) 8.0m → 7.5m",
+        "en": "[Basic Attack] Range (Mega Evolved) 8.0m → 7.5m",
+        "ja": "[通常攻撃] 射程(メガシンカ) 8.0m → 7.5m"
+      }
+    ]
+  },
+  {
+    "id": "pn-929",
+    "version": "2024.07.16",
+    "date": "2024-07-16",
+    "pokemonId": "102",
+    "type": "nerf",
+    "types": [
+      "nerf"
+    ],
+    "summary": {
+      "ko": "사이코브레이크의 대기 시간이 증가했다.",
+      "en": "Psystrike's cooldown was increased.",
+      "ja": "サイコブレイクの待ち時間が増加した。"
+    },
+    "changes": [
+      {
+        "ko": "[사이코브레이크] 대기 시간: 8초 → 9초",
+        "en": "[Psystrike] Cooldown: 8s → 9s",
+        "ja": "[サイコブレイク] 待ち時間: 8秒 → 9秒"
       }
     ]
   },
@@ -17033,6 +17727,53 @@
     ]
   },
   {
+    "id": "pn-904",
+    "version": "2024.04.16",
+    "date": "2024-04-16",
+    "pokemonId": "83",
+    "type": "nerf",
+    "types": [
+      "nerf"
+    ],
+    "summary": {
+      "ko": "특수공격이 전반적으로 감소하고, 순간이동과 인피니티사이코번의 효과가 하향됐다.",
+      "en": "Sp. Atk was reduced overall, and Teleport and Infinite Psyburn effects were nerfed.",
+      "ja": "特攻が全体的に減少し、テレポートとインフィニティサイコバーンの効果が下方修正された。"
+    },
+    "changes": [
+      {
+        "ko": "[능력치] 특수공격 전반적으로 감소 (Lv15 810 → 780)",
+        "en": "[Stats] Sp. Atk reduced overall (Lv15 810 → 780)",
+        "ja": "[ステータス] 特攻 全体的に減少 (Lv15 810 → 780)"
+      },
+      {
+        "ko": "[순간이동] 데미지 증가 데미지의 20% → 데미지의 10%",
+        "en": "[Teleport] Damage boost 20% of damage → 10% of damage",
+        "ja": "[テレポート] ダメージ増加 ダメージの20% → ダメージの10%"
+      },
+      {
+        "ko": "[순간이동] 강화 시 데미지 증가 데미지의 30% → 데미지의 15%",
+        "en": "[Teleport] Upgraded damage boost 30% of damage → 15% of damage",
+        "ja": "[テレポート] 強化時のダメージ増加 ダメージの30% → ダメージの15%"
+      },
+      {
+        "ko": "[순간이동] 기술 재사용 3초 → 2초",
+        "en": "[Teleport] Re-cast window 3s → 2s",
+        "ja": "[テレポート] わざ再使用 3秒 → 2秒"
+      },
+      {
+        "ko": "[인피니티사이코번] 데미지 특수공격의 180% + 12×(레벨-1) + 580 → 특수공격의 140% + 12×(레벨-1) + 470",
+        "en": "[Infinite Psyburn] Damage 180% Sp. Atk + 12×(Lv-1) + 580 → 140% Sp. Atk + 12×(Lv-1) + 470",
+        "ja": "[インフィニティサイコバーン] ダメージ 特攻の180% + 12×(レベル-1) + 580 → 特攻の140% + 12×(レベル-1) + 470"
+      },
+      {
+        "ko": "[인피니티사이코번] 행동 불가 1초 → 0.6초",
+        "en": "[Infinite Psyburn] Unable to act 1s → 0.6s",
+        "ja": "[インフィニティサイコバーン] 行動不能 1秒 → 0.6秒"
+      }
+    ]
+  },
+  {
     "id": "pn-274",
     "version": "2024.03.12",
     "date": "2024-03-12",
@@ -17789,6 +18530,60 @@
         "ko": "[회오리불꽃] 틱당 데미지 특수공격의 12%+2×(레벨-1)+70 → 16%+2×(레벨-1)+90",
         "en": "[Fire Spin] Per-tick damage: Sp. Atk 12%+2×(Lv-1)+70 → 16%+2×(Lv-1)+90",
         "ja": "[かえんうず] ティックごとのダメージ 特攻の12%+2×(レベル-1)+70 → 16%+2×(レベル-1)+90"
+      }
+    ]
+  },
+  {
+    "id": "pn-903",
+    "version": "2024.02.27",
+    "date": "2024-02-27",
+    "pokemonId": "83",
+    "type": "nerf",
+    "types": [
+      "nerf"
+    ],
+    "summary": {
+      "ko": "프레셔의 메가진화 지속 시간이 단축되고, 보유한 이오스 에너지를 소모하도록 메커니즘이 변경됐다.",
+      "en": "Pressure's Mega Evolution duration was shortened and the mechanic changed to consume held Aeos Energy.",
+      "ja": "プレッシャーのメガシンカ持続時間が短縮され、保有するイオスエナジーを消費するようメカニズムが変更された。"
+    },
+    "changes": [
+      {
+        "ko": "[프레셔] 메가진화 15초 → 10초",
+        "en": "[Pressure] Mega Evolution 15s → 10s",
+        "ja": "[プレッシャー] メガシンカ 15秒 → 10秒"
+      },
+      {
+        "ko": "[프레셔] 보유한 이오스 에너지를 소모하도록 메커니즘 변경",
+        "en": "[Pressure] Changed to consume held Aeos Energy",
+        "ja": "[プレッシャー] 保有するイオスエナジーを消費するようメカニズム変更"
+      }
+    ]
+  },
+  {
+    "id": "pn-928",
+    "version": "2024.02.27",
+    "date": "2024-02-27",
+    "pokemonId": "102",
+    "type": "nerf",
+    "types": [
+      "nerf"
+    ],
+    "summary": {
+      "ko": "프레셔의 메가진화 지속 시간이 감소하고 에오스 에너지를 소모하도록 메커니즘이 변경되었다.",
+      "en": "Pressure's Mega Evolution duration was shortened and it was changed to consume Aeos Energy.",
+      "ja": "プレッシャーのメガシンカ持続時間が短縮され、エオスエナジーを消費する仕様に変更された。"
+    },
+    "changes": [
+      {
+        "ko": "[프레셔] 메가진화 지속 시간: 15초 → 10초",
+        "en": "[Pressure] Mega Evolution duration: 15s → 10s",
+        "ja": "[プレッシャー] メガシンカ持続時間: 15秒 → 10秒"
+      },
+      {
+        "ko": "[프레셔] 보유한 에오스 에너지를 소모하도록 메커니즘 변경",
+        "en": "[Pressure] Changed to consume held Aeos Energy",
+        "ja": "[プレッシャー] 保有するエオスエナジーを消費する仕様に変更"
       }
     ]
   },
@@ -18798,6 +19593,70 @@
     ]
   },
   {
+    "id": "pn-919",
+    "version": "2023.12.05",
+    "date": "2023-12-05",
+    "pokemonId": "63",
+    "type": "buff",
+    "types": [
+      "buff"
+    ],
+    "summary": {
+      "ko": "오로라베일의 강화 공격당 회복량과 데미지 감소 효과가 상향되었다.",
+      "en": "Aurora Veil's HP restore per boosted attack and its damage reduction were increased.",
+      "ja": "オーロラベールの強化攻撃ごとの回復量とダメージ軽減効果が上方修正された。"
+    },
+    "changes": [
+      {
+        "ko": "[오로라베일] 강화 공격당 HP 회복 특수공격의 5% + 1×(레벨-1) + 20 → 특수공격의 10% + 2×(레벨-1) + 40",
+        "en": "[Aurora Veil] HP restored per boosted attack 5% Sp. Atk + 1×(Lv-1) + 20 → 10% Sp. Atk + 2×(Lv-1) + 40",
+        "ja": "[オーロラベール] 強化攻撃ごとのHP回復 とくこうの5% + 1×(レベル-1) + 20 → とくこうの10% + 2×(レベル-1) + 40"
+      },
+      {
+        "ko": "[오로라베일] 데미지 감소 효과 30% → 35%",
+        "en": "[Aurora Veil] Damage reduction 30% → 35%",
+        "ja": "[オーロラベール] ダメージ軽減効果 30% → 35%"
+      },
+      {
+        "ko": "[오로라베일+] 데미지 감소 효과 35% → 40%",
+        "en": "[Aurora Veil+] Damage reduction 35% → 40%",
+        "ja": "[オーロラベール+] ダメージ軽減効果 35% → 40%"
+      }
+    ]
+  },
+  {
+    "id": "pn-945",
+    "version": "2023.12.05",
+    "date": "2023-12-05",
+    "pokemonId": "141",
+    "type": "buff",
+    "types": [
+      "buff"
+    ],
+    "summary": {
+      "ko": "방어와 특수방어가 전반적으로 증가하고 트로피컬킥 대기 시간이 단축됐다.",
+      "en": "Defense and Sp. Def increased across the board, and Trop Kick's cooldown was shortened.",
+      "ja": "ぼうぎょととくぼうが全体的に増加し、トロピカルキックのクールタイムが短縮された。"
+    },
+    "changes": [
+      {
+        "ko": "[방어] 전반적으로 증가 (레벨 2 74 → 75, 레벨 15 380 → 410)",
+        "en": "[Defense] Increased across the board (Lv2 74 → 75, Lv15 380 → 410)",
+        "ja": "[ぼうぎょ] 全体的に増加 (レベル2 74 → 75, レベル15 380 → 410)"
+      },
+      {
+        "ko": "[특수방어] 전반적으로 증가 (레벨 3 58 → 59, 레벨 15 310 → 340)",
+        "en": "[Sp. Def] Increased across the board (Lv3 58 → 59, Lv15 310 → 340)",
+        "ja": "[とくぼう] 全体的に増加 (レベル3 58 → 59, レベル15 310 → 340)"
+      },
+      {
+        "ko": "[트로피컬킥] 대기 시간: 8.5초 → 7초",
+        "en": "[Trop Kick] Cooldown: 8.5s → 7s",
+        "ja": "[トロピカルキック] クールタイム: 8.5秒 → 7秒"
+      }
+    ]
+  },
+  {
     "id": "pn-202",
     "version": "2023.11.13",
     "date": "2023-11-13",
@@ -19220,6 +20079,43 @@
     ]
   },
   {
+    "id": "pn-927",
+    "version": "2023.11.13",
+    "date": "2023-11-13",
+    "pokemonId": "102",
+    "type": "nerf",
+    "types": [
+      "nerf"
+    ],
+    "summary": {
+      "ko": "일반 공격 비례 HP 회복과 공격 능력치가 감소하고 사이코브레이크의 데미지가 하향되었다.",
+      "en": "Basic-attack HP recovery and the Attack stat were reduced, and Psystrike's damage was lowered.",
+      "ja": "通常攻撃比例HP回復と攻撃ステータスが減少し、サイコブレイクのダメージが下方修正された。"
+    },
+    "changes": [
+      {
+        "ko": "[일반 공격] 비례 HP 회복: 레벨 5부터 전반적으로 감소",
+        "en": "[Basic Attack] HP recovery ratio: reduced overall from Lv5",
+        "ja": "[通常攻撃] 比例HP回復: レベル5から全体的に減少"
+      },
+      {
+        "ko": "[능력치] 공격: 전반적으로 감소",
+        "en": "[Stats] Attack: reduced overall",
+        "ja": "[ステータス] 攻撃: 全体的に減少"
+      },
+      {
+        "ko": "[사이코브레이크] 데미지(5회): 공격의 48.6% + 3×(레벨-1) + 111 → 공격의 41% + 3×(레벨-1) + 100",
+        "en": "[Psystrike] Damage (5 hits): 48.6% of Attack + 3×(Lv-1) + 111 → 41% of Attack + 3×(Lv-1) + 100",
+        "ja": "[サイコブレイク] ダメージ(5回): 攻撃の48.6% + 3×(レベル-1) + 111 → 攻撃の41% + 3×(レベル-1) + 100"
+      },
+      {
+        "ko": "[사이코브레이크] 데미지(마지막): 공격의 162% + 9×(레벨-1) + 370 → 공격의 146% + 7×(레벨-1) + 319",
+        "en": "[Psystrike] Damage (final): 162% of Attack + 9×(Lv-1) + 370 → 146% of Attack + 7×(Lv-1) + 319",
+        "ja": "[サイコブレイク] ダメージ(最後): 攻撃の162% + 9×(レベル-1) + 370 → 攻撃の146% + 7×(レベル-1) + 319"
+      }
+    ]
+  },
+  {
     "id": "pn-425",
     "version": "2023.10.19",
     "date": "2023-10-19",
@@ -19619,6 +20515,58 @@
     ]
   },
   {
+    "id": "pn-902",
+    "version": "2023.10.18",
+    "date": "2023-10-18",
+    "pokemonId": "83",
+    "type": "nerf",
+    "types": [
+      "nerf"
+    ],
+    "summary": {
+      "ko": "급소율이 전 구간 0%로 조정되고 특수공격이 전반적으로 감소했으며, 미래예지와 HP회복의 효과가 하향됐다.",
+      "en": "Critical-hit rate was set to 0% at all levels, Sp. Atk was reduced overall, and Future Sight and Recover effects were nerfed.",
+      "ja": "急所率が全区間0%に調整され特攻が全体的に減少し、みらいよちとじこさいせいの効果が下方修正された。"
+    },
+    "changes": [
+      {
+        "ko": "[능력치] 급소율 전 구간 0%로 조정",
+        "en": "[Stats] Critical-hit rate set to 0% at all levels",
+        "ja": "[ステータス] 急所率 全区間0%に調整"
+      },
+      {
+        "ko": "[능력치] 특수공격 전반적으로 감소 (Lv15 900 → 810)",
+        "en": "[Stats] Sp. Atk reduced overall (Lv15 900 → 810)",
+        "ja": "[ステータス] 特攻 全体的に減少 (Lv15 900 → 810)"
+      },
+      {
+        "ko": "[미래예지] 데미지 증가 데미지의 20% → 데미지의 10%",
+        "en": "[Future Sight] Damage increase 20% of damage → 10% of damage",
+        "ja": "[みらいよち] ダメージ増加 ダメージの20% → ダメージの10%"
+      },
+      {
+        "ko": "[미래예지] 강화 시 데미지 증가 데미지의 30% → 데미지의 15%",
+        "en": "[Future Sight] Upgraded damage increase 30% of damage → 15% of damage",
+        "ja": "[みらいよち] 強化時のダメージ増加 ダメージの30% → ダメージの15%"
+      },
+      {
+        "ko": "[HP회복] 실드 특수공격의 90% + 400 + 최대 HP의 10% → 특수공격의 70% + 310 + 최대 HP의 7%",
+        "en": "[Recover] Shield 90% Sp. Atk + 400 + 10% max HP → 70% Sp. Atk + 310 + 7% max HP",
+        "ja": "[じこさいせい] シールド 特攻の90% + 400 + 最大HPの10% → 特攻の70% + 310 + 最大HPの7%"
+      },
+      {
+        "ko": "[HP회복] 이동 속도 증가 이동 속도의 20% → 이동 속도의 10%",
+        "en": "[Recover] Movement speed increase 20% → 10%",
+        "ja": "[じこさいせい] 移動速度増加 移動速度の20% → 移動速度の10%"
+      },
+      {
+        "ko": "[HP회복] 메가게이지 증가 50% 감소",
+        "en": "[Recover] Mega Gauge gain reduced by 50%",
+        "ja": "[じこさいせい] メガゲージ増加 50%減少"
+      }
+    ]
+  },
+  {
     "id": "pn-542",
     "version": "2023.09.15",
     "date": "2023-09-15",
@@ -19753,6 +20701,190 @@
     ]
   },
   {
+    "id": "pn-901",
+    "version": "2023.09.07",
+    "date": "2023-09-07",
+    "pokemonId": "83",
+    "type": "nerf",
+    "types": [
+      "nerf"
+    ],
+    "summary": {
+      "ko": "미래예지와 HP회복의 대기 시간이 늘고, 인피니티사이코번의 대기 시간·유나이트 게이지 충전량·데미지가 하향됐다.",
+      "en": "Future Sight and Recover cooldowns increased, and Infinite Psyburn's cooldown, Unite gauge charge, and damage were reduced.",
+      "ja": "みらいよちとじこさいせいの待ち時間が増加し、インフィニティサイコバーンの待ち時間・ユナイトゲージ増加量・ダメージが下方修正された。"
+    },
+    "changes": [
+      {
+        "ko": "[미래예지] 대기 시간 8초 → 10초",
+        "en": "[Future Sight] Cooldown 8s → 10s",
+        "ja": "[みらいよち] 待ち時間 8秒 → 10秒"
+      },
+      {
+        "ko": "[미래예지] 추가 데미지 상한 2000 → 1500",
+        "en": "[Future Sight] Bonus damage cap 2000 → 1500",
+        "ja": "[みらいよち] 追加ダメージ上限 2000 → 1500"
+      },
+      {
+        "ko": "[HP회복] 대기 시간 10초 → 12초",
+        "en": "[Recover] Cooldown 10s → 12s",
+        "ja": "[じこさいせい] 待ち時間 10秒 → 12秒"
+      },
+      {
+        "ko": "[인피니티사이코번] 대기 시간 112초 → 134초",
+        "en": "[Infinite Psyburn] Cooldown 112s → 134s",
+        "ja": "[インフィニティサイコバーン] 待ち時間 112秒 → 134秒"
+      },
+      {
+        "ko": "[인피니티사이코번] 유나이트 기술 게이지 충전량 100,000 → 120,000",
+        "en": "[Infinite Psyburn] Unite move gauge charge 100,000 → 120,000",
+        "ja": "[インフィニティサイコバーン] ユナイトわざゲージ増加量 100,000 → 120,000"
+      },
+      {
+        "ko": "[인피니티사이코번] 데미지 특수공격의 212% + 14×(레벨-1) + 680 → 특수공격의 180% + 12×(레벨-1) + 580",
+        "en": "[Infinite Psyburn] Damage 212% Sp. Atk + 14×(Lv-1) + 680 → 180% Sp. Atk + 12×(Lv-1) + 580",
+        "ja": "[インフィニティサイコバーン] ダメージ 特攻の212% + 14×(レベル-1) + 680 → 特攻の180% + 12×(レベル-1) + 580"
+      }
+    ]
+  },
+  {
+    "id": "pn-918",
+    "version": "2023.09.07",
+    "date": "2023-09-07",
+    "pokemonId": "63",
+    "type": "nerf",
+    "types": [
+      "nerf"
+    ],
+    "summary": {
+      "ko": "눈사태와 눈보라의 대기 시간이 늘어났다.",
+      "en": "Avalanche's and Blizzard's cooldowns were increased.",
+      "ja": "なだれとふぶきの待機時間が増加した。"
+    },
+    "changes": [
+      {
+        "ko": "[눈사태] 대기 시간 7초 → 8초",
+        "en": "[Avalanche] Cooldown 7s → 8s",
+        "ja": "[なだれ] 待機時間 7秒 → 8秒"
+      },
+      {
+        "ko": "[눈보라] 대기 시간 7초 → 8초",
+        "en": "[Blizzard] Cooldown 7s → 8s",
+        "ja": "[ふぶき] 待機時間 7秒 → 8秒"
+      }
+    ]
+  },
+  {
+    "id": "pn-926",
+    "version": "2023.09.07",
+    "date": "2023-09-07",
+    "pokemonId": "102",
+    "type": "nerf",
+    "types": [
+      "nerf"
+    ],
+    "summary": {
+      "ko": "미래예지와 인피니티사이코번이 하향되고 급소율이 전반적으로 감소했다.",
+      "en": "Future Sight and Infinite Psyburn were nerfed, and critical-hit rate was reduced overall.",
+      "ja": "みらいよちとインフィニティサイコバーンが下方修正され、急所率が全体的に減少した。"
+    },
+    "changes": [
+      {
+        "ko": "[미래예지] 대기 시간: 7.5초 → 9초",
+        "en": "[Future Sight] Cooldown: 7.5s → 9s",
+        "ja": "[みらいよち] 待ち時間: 7.5秒 → 9秒"
+      },
+      {
+        "ko": "[미래예지] 행동 불가: 0.75초 → 0.5초",
+        "en": "[Future Sight] Unable to act: 0.75s → 0.5s",
+        "ja": "[みらいよち] 行動不能: 0.75秒 → 0.5秒"
+      },
+      {
+        "ko": "[인피니티사이코번] 대기 시간 감소: 112초 → 134초",
+        "en": "[Infinite Psyburn] Cooldown reduction: 112s → 134s",
+        "ja": "[インフィニティサイコバーン] 待ち時間減少: 112秒 → 134秒"
+      },
+      {
+        "ko": "[인피니티사이코번] 유나이트 기술 게이지 충전량: 100,000 → 120,000",
+        "en": "[Infinite Psyburn] Unite Move gauge charge: 100,000 → 120,000",
+        "ja": "[インフィニティサイコバーン] ユナイトわざゲージ充填量: 100,000 → 120,000"
+      },
+      {
+        "ko": "[인피니티사이코번] 데미지: 공격의 240% + 11×(레벨-1) + 550 → 공격의 190% + 11×(레벨-1) + 500",
+        "en": "[Infinite Psyburn] Damage: 240% of Attack + 11×(Lv-1) + 550 → 190% of Attack + 11×(Lv-1) + 500",
+        "ja": "[インフィニティサイコバーン] ダメージ: 攻撃の240% + 11×(レベル-1) + 550 → 攻撃の190% + 11×(レベル-1) + 500"
+      },
+      {
+        "ko": "[급소율] 전반적으로 감소",
+        "en": "[Critical-Hit Rate] Reduced overall",
+        "ja": "[急所率] 全体的に減少"
+      }
+    ]
+  },
+  {
+    "id": "pn-944",
+    "version": "2023.09.07",
+    "date": "2023-09-07",
+    "pokemonId": "141",
+    "type": "buff",
+    "types": [
+      "buff"
+    ],
+    "summary": {
+      "ko": "방어와 특수방어가 늘고 1기술 회복량과 2기술 실드량이 상향돼 내구력이 회복됐다.",
+      "en": "Defense and Sp. Def increased, and the first move's recovery and second move's shield were raised, restoring durability.",
+      "ja": "ぼうぎょととくぼうが増え、1わざの回復量と2わざのシールド量が上方修正され、耐久力が回復した。"
+    },
+    "changes": [
+      {
+        "ko": "[방어] 레벨 4부터 전반적으로 증가 (레벨 4 99 → 101, 레벨 15 350 → 380)",
+        "en": "[Defense] Increased from Lv4 (Lv4 99 → 101, Lv15 350 → 380)",
+        "ja": "[ぼうぎょ] レベル4から全体的に増加 (レベル4 99 → 101, レベル15 350 → 380)"
+      },
+      {
+        "ko": "[특수방어] 레벨 2부터 전반적으로 증가 (레벨 2 53 → 54, 레벨 15 285 → 310)",
+        "en": "[Sp. Def] Increased from Lv2 (Lv2 53 → 54, Lv15 285 → 310)",
+        "ja": "[とくぼう] レベル2から全体的に増加 (レベル2 53 → 54, レベル15 285 → 310)"
+      },
+      {
+        "ko": "[트리플악셀] 여왕의위엄 HP 회복(킥 명중 시): 공격의 30% + 2×(레벨-1) + 30 → 공격의 40% + 3×(레벨-1) + 20",
+        "en": "[Triple Axel] Queenly Majesty HP recovery (per kick hit): 30% of Atk + 2×(Lv-1) + 30 → 40% of Atk + 3×(Lv-1) + 20",
+        "ja": "[トリプルアクセル] じょおうのいげんHP回復(キック命中ごと): 攻撃の30% + 2×(レベル-1) + 30 → 攻撃の40% + 3×(レベル-1) + 20"
+      },
+      {
+        "ko": "[짓밟기] 여왕의위엄 HP 회복(명중 시): 공격의 60% + 4×(레벨-1) + 60 → 공격의 80% + 6×(레벨-1) + 40",
+        "en": "[Stomp] Queenly Majesty HP recovery (on hit): 60% of Atk + 4×(Lv-1) + 60 → 80% of Atk + 6×(Lv-1) + 40",
+        "ja": "[ふみつけ] じょおうのいげんHP回復(命中時): 攻撃の60% + 4×(レベル-1) + 60 → 攻撃の80% + 6×(レベル-1) + 40"
+      },
+      {
+        "ko": "[트로피컬킥] 여왕의위엄 실드: 공격의 157.5% + 10×(레벨-1) + 300 → 공격의 220% + 15×(레벨-1) + 180",
+        "en": "[Trop Kick] Queenly Majesty shield: 157.5% of Atk + 10×(Lv-1) + 300 → 220% of Atk + 15×(Lv-1) + 180",
+        "ja": "[トロピカルキック] じょおうのいげんシールド: 攻撃の157.5% + 10×(レベル-1) + 300 → 攻撃の220% + 15×(レベル-1) + 180"
+      },
+      {
+        "ko": "[그래스슬라이더] 여왕의위엄 실드: 공격의 157.5% + 10×(레벨-1) + 300 → 공격의 220% + 15×(레벨-1) + 180",
+        "en": "[Grassy Glide] Queenly Majesty shield: 157.5% of Atk + 10×(Lv-1) + 300 → 220% of Atk + 15×(Lv-1) + 180",
+        "ja": "[グラススライダー] じょおうのいげんシールド: 攻撃の157.5% + 10×(レベル-1) + 300 → 攻撃の220% + 15×(レベル-1) + 180"
+      }
+    ]
+  },
+  {
+    "id": "pn-900",
+    "version": "2023.08.17",
+    "date": "2023-08-17",
+    "pokemonId": "83",
+    "type": "new",
+    "types": [
+      "new"
+    ],
+    "summary": {
+      "ko": "메가뮤츠Y가 포켓몬 유나이트에 신규 출시됐다.",
+      "en": "Mega Mewtwo Y was newly released in Pokémon UNITE.",
+      "ja": "メガミュウツーYがポケモンユナイトに新規リリースされた。"
+    },
+    "changes": []
+  },
+  {
     "id": "pn-404",
     "version": "2023.08.15",
     "date": "2023-08-15",
@@ -19874,6 +21006,138 @@
         "ja": "[ブレイブバード] ダメージ 攻撃の230%+18×(レベル-1)+800 → 攻撃の253%+20×(レベル-1)+880"
       }
     ]
+  },
+  {
+    "id": "pn-925",
+    "version": "2023.08.15",
+    "date": "2023-08-15",
+    "pokemonId": "102",
+    "type": "nerf",
+    "types": [
+      "nerf"
+    ],
+    "summary": {
+      "ko": "미래예지의 예지 데미지 산정 방식이 조정되었다.",
+      "en": "Future Sight's foreseen damage calculation was adjusted.",
+      "ja": "みらいよちの予知ダメージの算定方式が調整された。"
+    },
+    "changes": [
+      {
+        "ko": "[미래예지] 예지 데미지: 상대편 포켓몬이 3초 동안 받은 데미지의 50% (산정 방식 조정)",
+        "en": "[Future Sight] Foreseen damage: 50% of the damage the opposing Pokémon took over 3s (calculation adjusted)",
+        "ja": "[みらいよち] 予知ダメージ: 相手のポケモンが3秒間に受けたダメージの50%（算定方式を調整）"
+      }
+    ]
+  },
+  {
+    "id": "pn-924",
+    "version": "2023.08.07",
+    "date": "2023-08-07",
+    "pokemonId": "102",
+    "type": "nerf",
+    "types": [
+      "nerf"
+    ],
+    "summary": {
+      "ko": "순간이동의 이동 속도 및 데미지 증가 효과가 하향되었다.",
+      "en": "Teleport's movement speed and damage boost effects were reduced.",
+      "ja": "テレポートの移動速度およびダメージ増加効果が下方修正された。"
+    },
+    "changes": [
+      {
+        "ko": "[순간이동] 이동 속도 증가: 이동 속도의 30% → 이동 속도의 10%",
+        "en": "[Teleport] Movement speed boost: 30% of movement speed → 10% of movement speed",
+        "ja": "[テレポート] 移動速度上昇: 移動速度の30% → 移動速度の10%"
+      },
+      {
+        "ko": "[순간이동] 데미지 증가: 데미지의 20% → 데미지의 10%",
+        "en": "[Teleport] Damage boost: 20% of damage → 10% of damage",
+        "ja": "[テレポート] ダメージ増加: ダメージの20% → ダメージの10%"
+      },
+      {
+        "ko": "[순간이동+] 데미지 증가: 데미지의 30% → 데미지의 15%",
+        "en": "[Teleport+] Damage boost: 30% of damage → 15% of damage",
+        "ja": "[テレポート+] ダメージ増加: ダメージの30% → ダメージの15%"
+      }
+    ]
+  },
+  {
+    "id": "pn-923",
+    "version": "2023.07.22",
+    "date": "2023-07-22",
+    "pokemonId": "102",
+    "type": "nerf",
+    "types": [
+      "nerf"
+    ],
+    "summary": {
+      "ko": "프레셔의 능력치 상승량과 메가진화 보너스, 사이코브레이크·HP회복·순간이동의 대기 시간이 하향 조정되었다.",
+      "en": "Pressure's stat gains and Mega Evolution bonuses were reduced, and the cooldowns of Psystrike, Recover, and Teleport were increased.",
+      "ja": "プレッシャーのステータス上昇量とメガシンカボーナス、サイコブレイク・じこさいせい・テレポートの待ち時間が下方修正された。"
+    },
+    "changes": [
+      {
+        "ko": "[프레셔] 방어 증가(최대 10회): 방어의 4% → 방어의 2%",
+        "en": "[Pressure] Defense boost (up to 10x): 4% of Defense → 2% of Defense",
+        "ja": "[プレッシャー] 防御上昇(最大10回): 防御の4% → 防御の2%"
+      },
+      {
+        "ko": "[프레셔] 특수방어 증가(최대 10회): 특수방어의 4% → 특수방어의 2%",
+        "en": "[Pressure] Sp. Def boost (up to 10x): 4% of Sp. Def → 2% of Sp. Def",
+        "ja": "[プレッシャー] 特防上昇(最大10回): 特防の4% → 特防の2%"
+      },
+      {
+        "ko": "[프레셔] 메가진화 공격 증가: 공격의 20% → 공격의 10%",
+        "en": "[Pressure] Mega Evolution Attack boost: 20% of Attack → 10% of Attack",
+        "ja": "[プレッシャー] メガシンカ攻撃上昇: 攻撃の20% → 攻撃の10%"
+      },
+      {
+        "ko": "[프레셔] 메가진화 방어 증가: 방어의 30% → 방어의 10%",
+        "en": "[Pressure] Mega Evolution Defense boost: 30% of Defense → 10% of Defense",
+        "ja": "[プレッシャー] メガシンカ防御上昇: 防御の30% → 防御の10%"
+      },
+      {
+        "ko": "[프레셔] 메가진화 특수방어 증가: 특수방어의 30% → 특수방어의 10%",
+        "en": "[Pressure] Mega Evolution Sp. Def boost: 30% of Sp. Def → 10% of Sp. Def",
+        "ja": "[プレッシャー] メガシンカ特防上昇: 特防の30% → 特防の10%"
+      },
+      {
+        "ko": "[프레셔] 메가진화 최대 HP 증가: 최대 HP의 20% → 최대 HP의 10%",
+        "en": "[Pressure] Mega Evolution max HP boost: 20% of max HP → 10% of max HP",
+        "ja": "[プレッシャー] メガシンカ最大HP上昇: 最大HPの20% → 最大HPの10%"
+      },
+      {
+        "ko": "[사이코브레이크] 대기 시간: 6초 → 8초",
+        "en": "[Psystrike] Cooldown: 6s → 8s",
+        "ja": "[サイコブレイク] 待ち時間: 6秒 → 8秒"
+      },
+      {
+        "ko": "[HP회복] 대기 시간: 8초 → 10초",
+        "en": "[Recover] Cooldown: 8s → 10s",
+        "ja": "[じこさいせい] 待ち時間: 8秒 → 10秒"
+      },
+      {
+        "ko": "[순간이동] 대기 시간: 6초 → 10초",
+        "en": "[Teleport] Cooldown: 6s → 10s",
+        "ja": "[テレポート] 待ち時間: 6秒 → 10秒"
+      }
+    ]
+  },
+  {
+    "id": "pn-922",
+    "version": "2023.07.21",
+    "date": "2023-07-21",
+    "pokemonId": "102",
+    "type": "new",
+    "types": [
+      "new"
+    ],
+    "summary": {
+      "ko": "신규 출시",
+      "en": "New Release",
+      "ja": "新規リリース"
+    },
+    "changes": []
   },
   {
     "id": "pn-201",
@@ -21032,6 +22296,43 @@
         "ko": "[물의파동] 이후 파동 데미지: 특수공격의 58.5% + 8×(레벨-1) + 170 → 특수공격의 50% + 7×(레벨-1) + 145",
         "en": "[Water Pulse] Subsequent wave damage: 58.5% Sp. Atk + 8×(Lv-1) + 170 → 50% Sp. Atk + 7×(Lv-1) + 145",
         "ja": "[みずのはどう] それ以降の波動ダメージ: 特攻の58.5% + 8×(レベル-1) + 170 → 特攻の50% + 7×(レベル-1) + 145"
+      }
+    ]
+  },
+  {
+    "id": "pn-917",
+    "version": "2023.05.11",
+    "date": "2023-05-11",
+    "pokemonId": "63",
+    "type": "buff",
+    "types": [
+      "buff"
+    ],
+    "summary": {
+      "ko": "눈보라의 대기 시간과 이동 속도 감소가 강화되고, 서클네주의 대기 시간과 게이지 요구량이 낮아졌다.",
+      "en": "Blizzard's cooldown and slow were improved, and Snow Globe's cooldown and gauge requirement were lowered.",
+      "ja": "ふぶきの待機時間と移動速度低下が強化され、ナインテールスノーダンスの待機時間とゲージ要求量が低下した。"
+    },
+    "changes": [
+      {
+        "ko": "[눈보라] 대기 시간 9초 → 7초",
+        "en": "[Blizzard] Cooldown 9s → 7s",
+        "ja": "[ふぶき] 待機時間 9秒 → 7秒"
+      },
+      {
+        "ko": "[눈보라] 이동 속도 감소 이동 속도의 20% → 이동 속도의 35%",
+        "en": "[Blizzard] Movement speed reduction 20% of movement speed → 35% of movement speed",
+        "ja": "[ふぶき] 移動速度低下 移動速度の20% → 移動速度の35%"
+      },
+      {
+        "ko": "[서클네주] 대기 시간 134초 → 112초",
+        "en": "[Snow Globe] Cooldown 134s → 112s",
+        "ja": "[ナインテールスノーダンス] 待機時間 134秒 → 112秒"
+      },
+      {
+        "ko": "[서클네주] 유나이트 기술 게이지 충전량 120,000 → 100,000",
+        "en": "[Snow Globe] Unite gauge charge requirement 120,000 → 100,000",
+        "ja": "[ナインテールスノーダンス] ユナイト技ゲージ蓄積量 120,000 → 100,000"
       }
     ]
   },
@@ -22714,6 +24015,43 @@
     ]
   },
   {
+    "id": "pn-943",
+    "version": "2022.12.01",
+    "date": "2022-12-01",
+    "pokemonId": "141",
+    "type": "nerf",
+    "types": [
+      "nerf"
+    ],
+    "summary": {
+      "ko": "방어와 특수방어가 전반적으로 감소하고 짓밟기 대기 시간과 그래스슬라이더 실드가 하향됐다.",
+      "en": "Defense and Sp. Def were reduced across the board, and Stomp's cooldown and Grassy Glide's shield were weakened.",
+      "ja": "ぼうぎょととくぼうが全体的に減少し、ふみつけのクールタイムとグラススライダーのシールドが下方修正された。"
+    },
+    "changes": [
+      {
+        "ko": "[방어] 전반적으로 감소 (레벨 1 80 → 70, 레벨 15 400 → 350)",
+        "en": "[Defense] Reduced across the board (Lv1 80 → 70, Lv15 400 → 350)",
+        "ja": "[ぼうぎょ] 全体的に減少 (レベル1 80 → 70, レベル15 400 → 350)"
+      },
+      {
+        "ko": "[특수방어] 전반적으로 감소 (레벨 1 65 → 50, 레벨 15 323 → 285)",
+        "en": "[Sp. Def] Reduced across the board (Lv1 65 → 50, Lv15 323 → 285)",
+        "ja": "[とくぼう] 全体的に減少 (レベル1 65 → 50, レベル15 323 → 285)"
+      },
+      {
+        "ko": "[짓밟기] 대기 시간: 6초 → 7초",
+        "en": "[Stomp] Cooldown: 6s → 7s",
+        "ja": "[ふみつけ] クールタイム: 6秒 → 7秒"
+      },
+      {
+        "ko": "[그래스슬라이더] 여왕의위엄 실드: 공격의 225% + 15×(레벨-1) + 450 · 3초 → 공격의 157.5% + 10×(레벨-1) + 350 · 3초",
+        "en": "[Grassy Glide] Queenly Majesty shield: 225% of Atk + 15×(Lv-1) + 450 · 3s → 157.5% of Atk + 10×(Lv-1) + 350 · 3s",
+        "ja": "[グラススライダー] じょおうのいげんシールド: 攻撃の225% + 15×(レベル-1) + 450 · 3秒 → 攻撃の157.5% + 10×(レベル-1) + 350 · 3秒"
+      }
+    ]
+  },
+  {
     "id": "pn-110",
     "version": "2022.11.16",
     "date": "2022-11-16",
@@ -23726,6 +25064,33 @@
     ]
   },
   {
+    "id": "pn-942",
+    "version": "2022.10.27",
+    "date": "2022-10-27",
+    "pokemonId": "141",
+    "type": "nerf",
+    "types": [
+      "nerf"
+    ],
+    "summary": {
+      "ko": "트로피컬킥의 여왕의위엄 실드와 이동 속도 감소 효과가 하향됐다.",
+      "en": "Trop Kick's Queenly Majesty shield and Movement Speed reduction were weakened.",
+      "ja": "トロピカルキックのじょおうのいげんシールドと移動速度減少効果が下方修正された。"
+    },
+    "changes": [
+      {
+        "ko": "[트로피컬킥] 여왕의위엄 실드: 공격의 225% + 15×(레벨-1) + 450 → 공격의 157.5% + 10×(레벨-1) + 300",
+        "en": "[Trop Kick] Queenly Majesty shield: 225% of Atk + 15×(Lv-1) + 450 → 157.5% of Atk + 10×(Lv-1) + 300",
+        "ja": "[トロピカルキック] じょおうのいげんシールド: 攻撃の225% + 15×(レベル-1) + 450 → 攻撃の157.5% + 10×(レベル-1) + 300"
+      },
+      {
+        "ko": "[트로피컬킥] 이동 속도 감소: 이동 속도의 50% → 이동 속도의 35%",
+        "en": "[Trop Kick] Movement Speed reduction: 50% of Movement Speed → 35% of Movement Speed",
+        "ja": "[トロピカルキック] 移動速度減少: 移動速度の50% → 移動速度の35%"
+      }
+    ]
+  },
+  {
     "id": "pn-269",
     "version": "2022.10.13",
     "date": "2022-10-13",
@@ -24008,6 +25373,28 @@
         "ko": "[지옥의바퀴] 방해 내성 상태인 상대편 포켓몬에게 사용할 수 있도록 변경",
         "en": "[Submission] Can now be used on opposing Pokémon that are hindrance-resistant",
         "ja": "[じごくぐるま] 妨害耐性状態の相手のポケモンにも使用できるように変更"
+      }
+    ]
+  },
+  {
+    "id": "pn-941",
+    "version": "2022.10.13",
+    "date": "2022-10-13",
+    "pokemonId": "141",
+    "type": "buff",
+    "types": [
+      "buff"
+    ],
+    "summary": {
+      "ko": "퀸에어리얼을 방해 내성 상태의 상대에게 다시 사용할 수 있게 됐다.",
+      "en": "Queen Ascendant can be used on hindrance-resistant opponents again.",
+      "ja": "クイーンエアリアルを妨害耐性状態の相手に再び使用できるようになった。"
+    },
+    "changes": [
+      {
+        "ko": "[퀸에어리얼] 방해 내성 상태의 상대에게 사용: 불가 → 가능",
+        "en": "[Queen Ascendant] Use on hindrance-resistant opponents: Disabled → Enabled",
+        "ja": "[クイーンエアリアル] 妨害耐性状態の相手への使用: 不可 → 可能"
       }
     ]
   },
@@ -24560,6 +25947,28 @@
     ]
   },
   {
+    "id": "pn-940",
+    "version": "2022.09.28",
+    "date": "2022-09-28",
+    "pokemonId": "141",
+    "type": "nerf",
+    "types": [
+      "nerf"
+    ],
+    "summary": {
+      "ko": "퀸에어리얼을 방해 내성 상태의 상대에게 사용할 수 없게 됐다.",
+      "en": "Queen Ascendant can no longer be used on hindrance-resistant opponents.",
+      "ja": "クイーンエアリアルを妨害耐性状態の相手に使用できなくなった。"
+    },
+    "changes": [
+      {
+        "ko": "[퀸에어리얼] 방해 내성 상태의 상대에게 사용: 가능 → 불가",
+        "en": "[Queen Ascendant] Use on hindrance-resistant opponents: Enabled → Disabled",
+        "ja": "[クイーンエアリアル] 妨害耐性状態の相手への使用: 可能 → 不可"
+      }
+    ]
+  },
+  {
     "id": "pn-092",
     "version": "2022.09.15",
     "date": "2022-09-15",
@@ -25098,6 +26507,48 @@
     ]
   },
   {
+    "id": "pn-939",
+    "version": "2022.09.02",
+    "date": "2022-09-02",
+    "pokemonId": "141",
+    "type": "nerf",
+    "types": [
+      "nerf"
+    ],
+    "summary": {
+      "ko": "짓밟기의 대기 시간이 늘고 데미지가 하향됐다.",
+      "en": "Stomp's cooldown increased and its damage was reduced.",
+      "ja": "ふみつけのクールタイムが延び、ダメージが下方修正された。"
+    },
+    "changes": [
+      {
+        "ko": "[짓밟기] 대기 시간: 5.5초 → 6초",
+        "en": "[Stomp] Cooldown: 5.5s → 6s",
+        "ja": "[ふみつけ] クールタイム: 5.5秒 → 6秒"
+      },
+      {
+        "ko": "[짓밟기] 데미지(여왕의위엄 미적용): 공격의 180.87% + 10×(레벨-1) + 226 → 공격의 163.48% + 9×(레벨-1) + 200",
+        "en": "[Stomp] Damage (without Queenly Majesty): 180.87% of Atk + 10×(Lv-1) + 226 → 163.48% of Atk + 9×(Lv-1) + 200",
+        "ja": "[ふみつけ] ダメージ(じょおうのいげん未適用): 攻撃の180.87% + 10×(レベル-1) + 226 → 攻撃の163.48% + 9×(レベル-1) + 200"
+      },
+      {
+        "ko": "[짓밟기+] 데미지(여왕의위엄 미적용): 공격의 208% + 11×(레벨-1) + 260 → 공격의 188% + 10×(레벨-1) + 230",
+        "en": "[Stomp+] Damage (without Queenly Majesty): 208% of Atk + 11×(Lv-1) + 260 → 188% of Atk + 10×(Lv-1) + 230",
+        "ja": "[ふみつけ+] ダメージ(じょおうのいげん未適用): 攻撃の208% + 11×(レベル-1) + 260 → 攻撃の188% + 10×(レベル-1) + 230"
+      },
+      {
+        "ko": "[짓밟기] 데미지(여왕의위엄 적용): 공격의 289.39% + 16×(레벨-1) + 362 → 공격의 261.57% + 14×(레벨-1) + 320",
+        "en": "[Stomp] Damage (with Queenly Majesty): 289.39% of Atk + 16×(Lv-1) + 362 → 261.57% of Atk + 14×(Lv-1) + 320",
+        "ja": "[ふみつけ] ダメージ(じょおうのいげん適用): 攻撃の289.39% + 16×(レベル-1) + 362 → 攻撃の261.57% + 14×(レベル-1) + 320"
+      },
+      {
+        "ko": "[짓밟기+] 데미지(여왕의위엄 적용): 공격의 332.8% + 18×(레벨-1) + 416 → 공격의 300.8% + 16×(레벨-1) + 368",
+        "en": "[Stomp+] Damage (with Queenly Majesty): 332.8% of Atk + 18×(Lv-1) + 416 → 300.8% of Atk + 16×(Lv-1) + 368",
+        "ja": "[ふみつけ+] ダメージ(じょおうのいげん適用): 攻撃の332.8% + 18×(レベル-1) + 416 → 攻撃の300.8% + 16×(レベル-1) + 368"
+      }
+    ]
+  },
+  {
     "id": "pn-115",
     "version": "2022.08.16",
     "date": "2022-08-16",
@@ -25489,6 +26940,38 @@
     ]
   },
   {
+    "id": "pn-916",
+    "version": "2022.07.21",
+    "date": "2022-07-21",
+    "pokemonId": "63",
+    "type": "adjust",
+    "types": [
+      "adjust"
+    ],
+    "summary": {
+      "ko": "눈보라에 장판 이동 속도 감소 효과가 추가되었으나, 강화형 눈보라의 1타·장판 데미지는 감소했다.",
+      "en": "Blizzard gained a zone movement-speed reduction, but the upgraded Blizzard's first-hit and zone damage were reduced.",
+      "ja": "ふぶきに設置範囲の移動速度低下効果が追加されたが、強化版ふぶきの1撃目・設置ダメージは減少した。"
+    },
+    "changes": [
+      {
+        "ko": "[눈보라] 장판 이동 속도 감소 효과 추가",
+        "en": "[Blizzard] Added zone movement-speed reduction",
+        "ja": "[ふぶき] 設置範囲の移動速度低下効果を追加"
+      },
+      {
+        "ko": "[눈보라+] 1타 데미지 특수공격의 42.8% + 4×(레벨-1) + 280 → 특수공격의 41% + 6×(레벨-1) + 270",
+        "en": "[Blizzard+] First-hit damage 42.8% Sp. Atk + 4×(Lv-1) + 280 → 41% Sp. Atk + 6×(Lv-1) + 270",
+        "ja": "[ふぶき+] 1撃目ダメージ とくこうの42.8% + 4×(レベル-1) + 280 → とくこうの41% + 6×(レベル-1) + 270"
+      },
+      {
+        "ko": "[눈보라+] 장판 데미지 특수공격의 21.4% + 2×(레벨-1) + 140 → 특수공격의 20.5% + 3×(레벨-1) + 135",
+        "en": "[Blizzard+] Zone damage 21.4% Sp. Atk + 2×(Lv-1) + 140 → 20.5% Sp. Atk + 3×(Lv-1) + 135",
+        "ja": "[ふぶき+] 設置ダメージ とくこうの21.4% + 2×(レベル-1) + 140 → とくこうの20.5% + 3×(レベル-1) + 135"
+      }
+    ]
+  },
+  {
     "id": "pn-262",
     "version": "2022.06.20",
     "date": "2022-06-20",
@@ -25739,6 +27222,43 @@
         "ko": "[쾅쾅프레스] 유나이트 기술 게이지 충전량 120,000 → 110,000",
         "en": "[Mammoth Mash] Unite Move gauge charge amount 120,000 → 110,000",
         "ja": "[ドカドカプレス] ユナイトわざゲージの必要量 120,000 → 110,000"
+      }
+    ]
+  },
+  {
+    "id": "pn-938",
+    "version": "2022.06.20",
+    "date": "2022-06-20",
+    "pokemonId": "141",
+    "type": "nerf",
+    "types": [
+      "nerf"
+    ],
+    "summary": {
+      "ko": "짓밟기 데미지가 하향됐다.",
+      "en": "Stomp's damage was reduced.",
+      "ja": "ふみつけのダメージが下方修正された。"
+    },
+    "changes": [
+      {
+        "ko": "[짓밟기] 데미지(여왕의위엄 미적용): 공격의 196.52% + 10×(레벨-1) + 243 → 공격의 180.87% + 10×(레벨-1) + 226",
+        "en": "[Stomp] Damage (without Queenly Majesty): 196.52% of Atk + 10×(Lv-1) + 243 → 180.87% of Atk + 10×(Lv-1) + 226",
+        "ja": "[ふみつけ] ダメージ(じょおうのいげん未適用): 攻撃の196.52% + 10×(レベル-1) + 243 → 攻撃の180.87% + 10×(レベル-1) + 226"
+      },
+      {
+        "ko": "[짓밟기+] 데미지(여왕의위엄 미적용): 공격의 226% + 12×(레벨-1) + 280 → 공격의 208% + 11×(레벨-1) + 260",
+        "en": "[Stomp+] Damage (without Queenly Majesty): 226% of Atk + 12×(Lv-1) + 280 → 208% of Atk + 11×(Lv-1) + 260",
+        "ja": "[ふみつけ+] ダメージ(じょおうのいげん未適用): 攻撃の226% + 12×(レベル-1) + 280 → 攻撃の208% + 11×(レベル-1) + 260"
+      },
+      {
+        "ko": "[짓밟기] 데미지(여왕의위엄 적용): 공격의 314.43% + 17×(레벨-1) + 390 → 공격의 289.39% + 16×(레벨-1) + 362",
+        "en": "[Stomp] Damage (with Queenly Majesty): 314.43% of Atk + 17×(Lv-1) + 390 → 289.39% of Atk + 16×(Lv-1) + 362",
+        "ja": "[ふみつけ] ダメージ(じょおうのいげん適用): 攻撃の314.43% + 17×(レベル-1) + 390 → 攻撃の289.39% + 16×(レベル-1) + 362"
+      },
+      {
+        "ko": "[짓밟기+] 데미지(여왕의위엄 적용): 공격의 361% + 19×(레벨-1) + 448 → 공격의 332.8% + 18×(레벨-1) + 416",
+        "en": "[Stomp+] Damage (with Queenly Majesty): 361% of Atk + 19×(Lv-1) + 448 → 332.8% of Atk + 18×(Lv-1) + 416",
+        "ja": "[ふみつけ+] ダメージ(じょおうのいげん適用): 攻撃の361% + 19×(レベル-1) + 448 → 攻撃の332.8% + 18×(レベル-1) + 416"
       }
     ]
   },
@@ -26229,6 +27749,28 @@
     ]
   },
   {
+    "id": "pn-937",
+    "version": "2022.05.30",
+    "date": "2022-05-30",
+    "pokemonId": "141",
+    "type": "buff",
+    "types": [
+      "buff"
+    ],
+    "summary": {
+      "ko": "기본 공격 능력치가 전반적으로 상승했다.",
+      "en": "Base Attack was increased across the board.",
+      "ja": "基本こうげきが全体的に上昇した。"
+    },
+    "changes": [
+      {
+        "ko": "[공격] 전반적으로 증가 (레벨 1 152 → 155, 레벨 15 440 → 460)",
+        "en": "[Attack] Increased across the board (Lv1 152 → 155, Lv15 440 → 460)",
+        "ja": "[こうげき] 全体的に増加 (レベル1 152 → 155, レベル15 440 → 460)"
+      }
+    ]
+  },
+  {
     "id": "pn-315",
     "version": "2022.05.16",
     "date": "2022-05-16",
@@ -26608,6 +28150,53 @@
     ]
   },
   {
+    "id": "pn-915",
+    "version": "2022.04.28",
+    "date": "2022-04-28",
+    "pokemonId": "63",
+    "type": "adjust",
+    "types": [
+      "adjust"
+    ],
+    "summary": {
+      "ko": "오로라베일의 회복·이동 속도 효과가 하향되고, 눈보라의 장판 범위·지속 시간·넉백이 강화되었다.",
+      "en": "Aurora Veil's healing and movement speed effects were reduced, while Blizzard's zone size, duration, and knockback were strengthened.",
+      "ja": "オーロラベールの回復・移動速度効果が下方修正され、ふぶきの設置範囲・持続時間・ノックバックが強化された。"
+    },
+    "changes": [
+      {
+        "ko": "[오로라베일] 강화 공격당 HP 회복 특수공격의 10% + 3×(레벨-1) + 50 → 특수공격의 5% + 1×(레벨-1) + 20",
+        "en": "[Aurora Veil] HP restored per boosted attack 10% Sp. Atk + 3×(Lv-1) + 50 → 5% Sp. Atk + 1×(Lv-1) + 20",
+        "ja": "[オーロラベール] 強化攻撃ごとのHP回復 とくこうの10% + 3×(レベル-1) + 50 → とくこうの5% + 1×(レベル-1) + 20"
+      },
+      {
+        "ko": "[오로라베일] 이동 속도 증가 효과 20% → 10%",
+        "en": "[Aurora Veil] Movement speed boost 20% → 10%",
+        "ja": "[オーロラベール] 移動速度上昇効果 20% → 10%"
+      },
+      {
+        "ko": "[오로라베일] 일반 공격 속도 증가 효과 2×(레벨-1) + 12% → 15%",
+        "en": "[Aurora Veil] Basic attack speed boost 2×(Lv-1) + 12% → 15%",
+        "ja": "[オーロラベール] 通常攻撃速度上昇効果 2×(レベル-1) + 12% → 15%"
+      },
+      {
+        "ko": "[눈보라] 장판 범위 증가",
+        "en": "[Blizzard] Zone size increased",
+        "ja": "[ふぶき] 設置範囲が増加"
+      },
+      {
+        "ko": "[눈보라] 넉백 지속 시간 증가 (수치 미상)",
+        "en": "[Blizzard] Knockback duration increased (value not specified)",
+        "ja": "[ふぶき] ノックバック持続時間が増加（数値不明）"
+      },
+      {
+        "ko": "[눈보라] 장판 지속 시간 3초 → 4초",
+        "en": "[Blizzard] Zone duration 3s → 4s",
+        "ja": "[ふぶき] 設置持続時間 3秒 → 4秒"
+      }
+    ]
+  },
+  {
     "id": "pn-307",
     "version": "2022.04.27",
     "date": "2022-04-27",
@@ -26845,6 +28434,28 @@
         "ko": "[용의파동] 데미지(링, 최대 충전) 공격의 77.76% + 2×(레벨-1) + 86 + 상대편 잃은 HP의 3.5% → 공격의 72% + 1×(레벨-1) + 86 + 상대편 잃은 HP의 2%",
         "en": "[Dragon Pulse] Damage (ring, max charge) 77.76% of Attack + 2×(Lv-1) + 86 + 3.5% of target's lost HP → 72% of Attack + 1×(Lv-1) + 86 + 2% of target's lost HP",
         "ja": "[りゅうのはどう] ダメージ(リング, 最大チャージ) 攻撃の77.76% + 2×(レベル-1) + 86 + 対象の失ったHPの3.5% → 攻撃の72% + 1×(レベル-1) + 86 + 対象の失ったHPの2%"
+      }
+    ]
+  },
+  {
+    "id": "pn-914",
+    "version": "2022.03.28",
+    "date": "2022-03-28",
+    "pokemonId": "63",
+    "type": "nerf",
+    "types": [
+      "nerf"
+    ],
+    "summary": {
+      "ko": "오로라베일의 공격 속도 상승 효과가 감소했다.",
+      "en": "Aurora Veil's attack speed boost was reduced.",
+      "ja": "オーロラベールの攻撃速度上昇効果が減少した。"
+    },
+    "changes": [
+      {
+        "ko": "[오로라베일] 공격 속도 상승 효과 감소 (수치 미상)",
+        "en": "[Aurora Veil] Attack speed boost reduced (value not specified)",
+        "ja": "[オーロラベール] 攻撃速度上昇効果が減少（数値不明）"
       }
     ]
   },
@@ -27273,6 +28884,95 @@
         "ko": "[가드스왑] HP 회복 주기: 1초마다 → 0.5초마다",
         "en": "[Guard Swap] HP recovery tick: every 1s → every 0.5s",
         "ja": "[ガードスワップ] HP回復間隔: 1秒ごと → 0.5秒ごと"
+      }
+    ]
+  },
+  {
+    "id": "pn-913",
+    "version": "2022.03.14",
+    "date": "2022-03-14",
+    "pokemonId": "63",
+    "type": "adjust",
+    "types": [
+      "adjust"
+    ],
+    "summary": {
+      "ko": "오로라베일이 지정한 장소로 뛰어들어 주변에 오로라를 만드는 방식으로 개편되고, 오로라 범위 안 강화 공격에 체력 회복 효과가 추가되었다.",
+      "en": "Aurora Veil was reworked to leap to a target location and create an aurora around it, and boosted attacks used within the aurora gained an HP restore effect.",
+      "ja": "オーロラベールが指定した場所へ飛び込み周囲にオーロラを作る方式に改編され、オーロラ範囲内の強化攻撃に体力回復効果が追加された。"
+    },
+    "changes": [
+      {
+        "ko": "[오로라베일] 지정한 장소로 뛰어들어 주변에 오로라를 만드는 방식으로 변경, 오로라 범위 안 강화 공격에 체력 회복 효과 추가",
+        "en": "[Aurora Veil] Reworked to leap to a target location and create an aurora, and boosted attacks within the aurora now restore HP",
+        "ja": "[オーロラベール] 指定した場所へ飛び込み周囲にオーロラを作る方式に変更、オーロラ範囲内の強化攻撃に体力回復効果を追加"
+      }
+    ]
+  },
+  {
+    "id": "pn-936",
+    "version": "2022.03.14",
+    "date": "2022-03-14",
+    "pokemonId": "141",
+    "type": "buff",
+    "types": [
+      "buff"
+    ],
+    "summary": {
+      "ko": "일반 공격 비례 HP 회복이 늘고 트로피컬킥과 짓밟기가 상향됐다.",
+      "en": "Basic-attack lifesteal increased and Trop Kick and Stomp were buffed.",
+      "ja": "通常攻撃の割合HP回復が増え、トロピカルキックとふみつけが上方修正された。"
+    },
+    "changes": [
+      {
+        "ko": "[일반 공격] 비례 HP 회복(레벨 7~15): 증가 (레벨 7 5% → 10%, 레벨 15 15% → 20%)",
+        "en": "[Basic Attack] Lifesteal (Lv 7-15): Increased (Lv7 5% → 10%, Lv15 15% → 20%)",
+        "ja": "[通常攻撃] 割合HP回復(レベル7~15): 増加 (レベル7 5% → 10%, レベル15 15% → 20%)"
+      },
+      {
+        "ko": "[트로피컬킥] 대기 시간: 10초 → 8.5초",
+        "en": "[Trop Kick] Cooldown: 10s → 8.5s",
+        "ja": "[トロピカルキック] クールタイム: 10秒 → 8.5秒"
+      },
+      {
+        "ko": "[트로피컬킥] 지속 데미지(7회, 여왕의위엄 미적용): 공격의 7.57% + 1×(레벨-1) + 11 → 공격의 11.3% + 1×(레벨-1) + 17",
+        "en": "[Trop Kick] DoT damage (7 hits, without Queenly Majesty): 7.57% of Atk + 1×(Lv-1) + 11 → 11.3% of Atk + 1×(Lv-1) + 17",
+        "ja": "[トロピカルキック] 持続ダメージ(7回, じょおうのいげん未適用): 攻撃の7.57% + 1×(レベル-1) + 11 → 攻撃の11.3% + 1×(レベル-1) + 17"
+      },
+      {
+        "ko": "[트로피컬킥+] 지속 데미지(7회, 여왕의위엄 미적용): 공격의 8.7% + 1×(레벨-1) + 13 → 공격의 13% + 1×(레벨-1) + 20",
+        "en": "[Trop Kick+] DoT damage (7 hits, without Queenly Majesty): 8.7% of Atk + 1×(Lv-1) + 13 → 13% of Atk + 1×(Lv-1) + 20",
+        "ja": "[トロピカルキック+] 持続ダメージ(7回, じょおうのいげん未適用): 攻撃の8.7% + 1×(レベル-1) + 13 → 攻撃の13% + 1×(レベル-1) + 20"
+      },
+      {
+        "ko": "[트로피컬킥] 지속 데미지(7회, 여왕의위엄 적용): 공격의 12.1% + 1×(레벨-1) + 18 → 공격의 18.09% + 1×(레벨-1) + 28",
+        "en": "[Trop Kick] DoT damage (7 hits, with Queenly Majesty): 12.1% of Atk + 1×(Lv-1) + 18 → 18.09% of Atk + 1×(Lv-1) + 28",
+        "ja": "[トロピカルキック] 持続ダメージ(7回, じょおうのいげん適用): 攻撃の12.1% + 1×(レベル-1) + 18 → 攻撃の18.09% + 1×(レベル-1) + 28"
+      },
+      {
+        "ko": "[트로피컬킥+] 지속 데미지(7회, 여왕의위엄 적용): 공격의 13.9% + 1×(레벨-1) + 21 → 공격의 20.8% + 1×(레벨-1) + 32",
+        "en": "[Trop Kick+] DoT damage (7 hits, with Queenly Majesty): 13.9% of Atk + 1×(Lv-1) + 21 → 20.8% of Atk + 1×(Lv-1) + 32",
+        "ja": "[トロピカルキック+] 持続ダメージ(7回, じょおうのいげん適用): 攻撃の13.9% + 1×(レベル-1) + 21 → 攻撃の20.8% + 1×(レベル-1) + 32"
+      },
+      {
+        "ko": "[짓밟기] 데미지(여왕의위엄 미적용): 공격의 185.22% + 10×(레벨-1) + 243 → 공격의 196.52% + 10×(레벨-1) + 243",
+        "en": "[Stomp] Damage (without Queenly Majesty): 185.22% of Atk + 10×(Lv-1) + 243 → 196.52% of Atk + 10×(Lv-1) + 243",
+        "ja": "[ふみつけ] ダメージ(じょおうのいげん未適用): 攻撃の185.22% + 10×(レベル-1) + 243 → 攻撃の196.52% + 10×(レベル-1) + 243"
+      },
+      {
+        "ko": "[짓밟기+] 데미지(여왕의위엄 미적용): 공격의 213% + 12×(레벨-1) + 280 → 공격의 226% + 12×(레벨-1) + 280",
+        "en": "[Stomp+] Damage (without Queenly Majesty): 213% of Atk + 12×(Lv-1) + 280 → 226% of Atk + 12×(Lv-1) + 280",
+        "ja": "[ふみつけ+] ダメージ(じょおうのいげん未適用): 攻撃の213% + 12×(レベル-1) + 280 → 攻撃の226% + 12×(レベル-1) + 280"
+      },
+      {
+        "ko": "[짓밟기] 데미지(여왕의위엄 적용): 공격의 296.35% + 17×(레벨-1) + 390 → 공격의 314.43% + 17×(레벨-1) + 390",
+        "en": "[Stomp] Damage (with Queenly Majesty): 296.35% of Atk + 17×(Lv-1) + 390 → 314.43% of Atk + 17×(Lv-1) + 390",
+        "ja": "[ふみつけ] ダメージ(じょおうのいげん適用): 攻撃の296.35% + 17×(レベル-1) + 390 → 攻撃の314.43% + 17×(レベル-1) + 390"
+      },
+      {
+        "ko": "[짓밟기+] 데미지(여왕의위엄 적용): 공격의 340.8% + 19×(레벨-1) + 448 → 공격의 361% + 19×(레벨-1) + 448",
+        "en": "[Stomp+] Damage (with Queenly Majesty): 340.8% of Atk + 19×(Lv-1) + 448 → 361% of Atk + 19×(Lv-1) + 448",
+        "ja": "[ふみつけ+] ダメージ(じょおうのいげん適用): 攻撃の340.8% + 19×(レベル-1) + 448 → 攻撃の361% + 19×(レベル-1) + 448"
       }
     ]
   },
@@ -27773,6 +29473,68 @@
     ]
   },
   {
+    "id": "pn-935",
+    "version": "2022.01.20",
+    "date": "2022-01-20",
+    "pokemonId": "141",
+    "type": "adjust",
+    "types": [
+      "adjust"
+    ],
+    "summary": {
+      "ko": "공격 속도 능력치는 상승했으나 트리플악셀과 그래스슬라이더는 하향되고 짓밟기의 회복량은 상향됐다.",
+      "en": "Attack Speed increased while Triple Axel and Grassy Glide were weakened and Stomp's recovery was raised.",
+      "ja": "こうげきそくどは上昇したが、トリプルアクセルとグラススライダーは下方修正され、ふみつけの回復量は上方修正された。"
+    },
+    "changes": [
+      {
+        "ko": "[공격 속도] 증가",
+        "en": "[Attack Speed] Increased",
+        "ja": "[こうげきそくど] 増加"
+      },
+      {
+        "ko": "[트리플악셀] 공격 속도 증가 효과: 감소",
+        "en": "[Triple Axel] Attack speed boost: Reduced",
+        "ja": "[トリプルアクセル] こうげきそくど増加効果: 減少"
+      },
+      {
+        "ko": "[트리플악셀] 데미지(여왕의위엄 미적용, 3회): 공격의 71.3% + 4×(레벨-1) + 96 → 공격의 61.74% + 3×(레벨-1) + 78",
+        "en": "[Triple Axel] Damage (without Queenly Majesty, 3 hits): 71.3% of Atk + 4×(Lv-1) + 96 → 61.74% of Atk + 3×(Lv-1) + 78",
+        "ja": "[トリプルアクセル] ダメージ(じょおうのいげん未適用, 3回): 攻撃の71.3% + 4×(レベル-1) + 96 → 攻撃の61.74% + 3×(レベル-1) + 78"
+      },
+      {
+        "ko": "[트리플악셀+] 데미지(여왕의위엄 미적용, 3회): 공격의 82% + 5×(레벨-1) + 110 → 공격의 71% + 4×(레벨-1) + 90",
+        "en": "[Triple Axel+] Damage (without Queenly Majesty, 3 hits): 82% of Atk + 5×(Lv-1) + 110 → 71% of Atk + 4×(Lv-1) + 90",
+        "ja": "[トリプルアクセル+] ダメージ(じょおうのいげん未適用, 3回): 攻撃の82% + 5×(レベル-1) + 110 → 攻撃の71% + 4×(レベル-1) + 90"
+      },
+      {
+        "ko": "[트리플악셀] 데미지(여왕의위엄 적용, 3회): 공격의 114.09% + 7×(레벨-1) + 153 → 공격의 98.78% + 5×(레벨-1) + 125",
+        "en": "[Triple Axel] Damage (with Queenly Majesty, 3 hits): 114.09% of Atk + 7×(Lv-1) + 153 → 98.78% of Atk + 5×(Lv-1) + 125",
+        "ja": "[トリプルアクセル] ダメージ(じょおうのいげん適用, 3回): 攻撃の114.09% + 7×(レベル-1) + 153 → 攻撃の98.78% + 5×(レベル-1) + 125"
+      },
+      {
+        "ko": "[트리플악셀+] 데미지(여왕의위엄 적용, 3회): 공격의 131.2% + 7×(레벨-1) + 176 → 공격의 113.6% + 6×(레벨-1) + 144",
+        "en": "[Triple Axel+] Damage (with Queenly Majesty, 3 hits): 131.2% of Atk + 7×(Lv-1) + 176 → 113.6% of Atk + 6×(Lv-1) + 144",
+        "ja": "[トリプルアクセル+] ダメージ(じょおうのいげん適用, 3回): 攻撃の131.2% + 7×(レベル-1) + 176 → 攻撃の113.6% + 6×(レベル-1) + 144"
+      },
+      {
+        "ko": "[짓밟기] 여왕의위엄 HP 회복: 공격의 37.5% + 2×(레벨-1) + 75 → 공격의 60% + 4×(레벨-1) + 60",
+        "en": "[Stomp] Queenly Majesty HP recovery: 37.5% of Atk + 2×(Lv-1) + 75 → 60% of Atk + 4×(Lv-1) + 60",
+        "ja": "[ふみつけ] じょおうのいげんHP回復: 攻撃の37.5% + 2×(レベル-1) + 75 → 攻撃の60% + 4×(レベル-1) + 60"
+      },
+      {
+        "ko": "[그래스슬라이더] 대기 시간: 6.5초 → 8초",
+        "en": "[Grassy Glide] Cooldown: 6.5s → 8s",
+        "ja": "[グラススライダー] クールタイム: 6.5秒 → 8秒"
+      },
+      {
+        "ko": "[그래스슬라이더] 이동 속도 감소 효과: 삭제",
+        "en": "[Grassy Glide] Movement Speed reduction: Removed",
+        "ja": "[グラススライダー] 移動速度減少効果: 削除"
+      }
+    ]
+  },
+  {
     "id": "pn-305",
     "version": "2021.12.21",
     "date": "2021-12-21",
@@ -28150,6 +29912,28 @@
         "ko": "[스타☆리사이틀] 지속 시간: 4초 → 3초",
         "en": "[Starlight Recital] Duration: 4s → 3s",
         "ja": "[スター☆リサイタル] 持続時間: 4秒 → 3秒"
+      }
+    ]
+  },
+  {
+    "id": "pn-934",
+    "version": "2021.12.20",
+    "date": "2021-12-20",
+    "pokemonId": "141",
+    "type": "nerf",
+    "types": [
+      "nerf"
+    ],
+    "summary": {
+      "ko": "트리플악셀의 여왕의위엄 HP 회복량이 하향됐다.",
+      "en": "Triple Axel's Queenly Majesty HP recovery was reduced.",
+      "ja": "トリプルアクセルのじょおうのいげんHP回復量が下方修正された。"
+    },
+    "changes": [
+      {
+        "ko": "[트리플악셀] 여왕의위엄 HP 회복: 공격의 37.5% + 2×(레벨-1) + 75 → 공격의 30% + 2×(레벨-1) + 30",
+        "en": "[Triple Axel] Queenly Majesty HP recovery: 37.5% of Atk + 2×(Lv-1) + 75 → 30% of Atk + 2×(Lv-1) + 30",
+        "ja": "[トリプルアクセル] じょおうのいげんHP回復: 攻撃の37.5% + 2×(レベル-1) + 75 → 攻撃の30% + 2×(レベル-1) + 30"
       }
     ]
   },
@@ -28681,6 +30465,53 @@
         "ko": "[트림] 강화 후 데미지: 공격의 233% + 38×(레벨-1) + 890 → 공격의 196% + 35×(레벨-1) + 750",
         "en": "[Belch Gas] Upgraded damage: 233% of Attack + 38×(Lv-1) + 890 → 196% of Attack + 35×(Lv-1) + 750",
         "ja": "[ガス放出] 強化後ダメージ: 攻撃の233% + 38×(Lv-1) + 890 → 攻撃の196% + 35×(Lv-1) + 750"
+      }
+    ]
+  },
+  {
+    "id": "pn-912",
+    "version": "2021.11.10",
+    "date": "2021-11-10",
+    "pokemonId": "63",
+    "type": "adjust",
+    "types": [
+      "adjust"
+    ],
+    "summary": {
+      "ko": "눈보라의 대기 시간이 짧아지고 1타 데미지가 상승했으나 장판 데미지는 감소했다. 특수공격 능력치는 레벨 구간별로 조정되었다.",
+      "en": "Blizzard's cooldown was reduced and its first-hit damage increased, while its zone damage decreased. Sp. Atk was adjusted across levels.",
+      "ja": "ふぶきの待機時間が短縮され1撃目ダメージが上昇したが、設置ダメージは減少した。とくこう能力値はレベル帯ごとに調整された。"
+    },
+    "changes": [
+      {
+        "ko": "[특수공격] 레벨 9까지 전반적으로 감소, 레벨 10부터 전반적으로 증가",
+        "en": "[Sp. Atk] Overall decrease through Lv.9, overall increase from Lv.10",
+        "ja": "[とくこう] レベル9まで全体的に減少、レベル10から全体的に増加"
+      },
+      {
+        "ko": "[눈보라] 대기 시간 11초 → 9초",
+        "en": "[Blizzard] Cooldown 11s → 9s",
+        "ja": "[ふぶき] 待機時間 11秒 → 9秒"
+      },
+      {
+        "ko": "[눈보라] 1타 데미지 특수공격의 22.5% + 3×(레벨-1) + 150 → 특수공격의 39% + 4×(레벨-1) + 250",
+        "en": "[Blizzard] First-hit damage 22.5% Sp. Atk + 3×(Lv-1) + 150 → 39% Sp. Atk + 4×(Lv-1) + 250",
+        "ja": "[ふぶき] 1撃目ダメージ とくこうの22.5% + 3×(レベル-1) + 150 → とくこうの39% + 4×(レベル-1) + 250"
+      },
+      {
+        "ko": "[눈보라] 장판 데미지 특수공격의 22.5% + 3×(레벨-1) + 150 → 특수공격의 19.5% + 2×(레벨-1) + 125",
+        "en": "[Blizzard] Zone damage 22.5% Sp. Atk + 3×(Lv-1) + 150 → 19.5% Sp. Atk + 2×(Lv-1) + 125",
+        "ja": "[ふぶき] 設置ダメージ とくこうの22.5% + 3×(レベル-1) + 150 → とくこうの19.5% + 2×(レベル-1) + 125"
+      },
+      {
+        "ko": "[눈보라+] 1타 데미지 특수공격의 25% + 4×(레벨-1) + 170 → 특수공격의 42.8% + 4×(레벨-1) + 280",
+        "en": "[Blizzard+] First-hit damage 25% Sp. Atk + 4×(Lv-1) + 170 → 42.8% Sp. Atk + 4×(Lv-1) + 280",
+        "ja": "[ふぶき+] 1撃目ダメージ とくこうの25% + 4×(レベル-1) + 170 → とくこうの42.8% + 4×(レベル-1) + 280"
+      },
+      {
+        "ko": "[눈보라+] 장판 데미지 특수공격의 25% + 4×(레벨-1) + 170 → 특수공격의 21.4% + 2×(레벨-1) + 140",
+        "en": "[Blizzard+] Zone damage 25% Sp. Atk + 4×(Lv-1) + 170 → 21.4% Sp. Atk + 2×(Lv-1) + 140",
+        "ja": "[ふぶき+] 設置ダメージ とくこうの25% + 4×(レベル-1) + 170 → とくこうの21.4% + 2×(レベル-1) + 140"
       }
     ]
   },
@@ -29424,6 +31255,28 @@
         "ko": "[플레어스위퍼] 유나이트 기술 게이지 충전량 감소",
         "en": "[Flame Sweep] Unite gauge charge reduced",
         "ja": "[フレアスイーパー] ユナイト技ゲージチャージ量減少"
+      }
+    ]
+  },
+  {
+    "id": "pn-911",
+    "version": "2021.09.22",
+    "date": "2021-09-22",
+    "pokemonId": "63",
+    "type": "adjust",
+    "types": [
+      "adjust"
+    ],
+    "summary": {
+      "ko": "눈보라가 장애물에 닿은 뒤 데미지를 주는 방식이 변경되었다.",
+      "en": "The way Blizzard deals damage after hitting an obstacle was changed.",
+      "ja": "ふぶきが障害物に触れた後にダメージを与える方式が変更された。"
+    },
+    "changes": [
+      {
+        "ko": "[눈보라] 장애물에 닿은 뒤 데미지를 주는 방식 변경",
+        "en": "[Blizzard] Changed how damage is dealt after hitting an obstacle",
+        "ja": "[ふぶき] 障害物に触れた後にダメージを与える方式が変更"
       }
     ]
   },
@@ -30389,6 +32242,22 @@
       "ko": "포켓몬 유나이트 출시와 함께 신규 출시.",
       "en": "New release alongside the launch of Pokémon UNITE.",
       "ja": "ポケモンユナイトのリリースと同時に新規登場。"
+    },
+    "changes": []
+  },
+  {
+    "id": "pn-910",
+    "version": "2021.07.21",
+    "date": "2021-07-21",
+    "pokemonId": "63",
+    "type": "new",
+    "types": [
+      "new"
+    ],
+    "summary": {
+      "ko": "신규 출시. 포켓몬 유나이트 출시와 동시에 참전했다.",
+      "en": "New Release. Joined at the launch of Pokémon UNITE.",
+      "ja": "新規リリース。ポケモンユナイトの配信開始と同時に参戦した。"
     },
     "changes": []
   }
