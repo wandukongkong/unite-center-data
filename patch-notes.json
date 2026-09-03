@@ -5360,6 +5360,48 @@
     ]
   },
   {
+    "id": "pn-868",
+    "version": "2025.12.04",
+    "date": "2025-12-04",
+    "pokemonId": "142",
+    "type": "adjust",
+    "types": [
+      "adjust"
+    ],
+    "summary": {
+      "ko": "악의파동 추가 데미지가 상향되고 원시의힘 실드 수치가 조정되었다.",
+      "en": "Dark Pulse's bonus damage was buffed while Ancient Power's shield values were adjusted.",
+      "ja": "あくのはどうの追加ダメージが上方修正され、げんしのちからのシールド値が調整された。"
+    },
+    "changes": [
+      {
+        "ko": "[악의파동] 추가 데미지: 공격의 49.2% + 4×(레벨-1) + 99 → 공격의 67% + 5×(레벨-1) + 134",
+        "en": "[Dark Pulse] Bonus damage: 49.2% of Attack + 4×(Lv-1) + 99 → 67% of Attack + 5×(Lv-1) + 134",
+        "ja": "[あくのはどう] 追加ダメージ: 攻撃の49.2% + 4×(レベル-1) + 99 → 攻撃の67% + 5×(レベル-1) + 134"
+      },
+      {
+        "ko": "[원시의힘] 실드(1타): 공격의 75% + 300 → 공격의 90% + 360",
+        "en": "[Ancient Power] Shield (1st hit): 75% of Attack + 300 → 90% of Attack + 360",
+        "ja": "[げんしのちから] シールド(1発目): 攻撃の75% + 300 → 攻撃の90% + 360"
+      },
+      {
+        "ko": "[원시의힘] 실드(2타): 공격의 100% + 400 → 공격의 90% + 360",
+        "en": "[Ancient Power] Shield (2nd hit): 100% of Attack + 400 → 90% of Attack + 360",
+        "ja": "[げんしのちから] シールド(2発目): 攻撃の100% + 400 → 攻撃の90% + 360"
+      },
+      {
+        "ko": "[원시의힘+] 실드(1타): 공격의 90% + 360 → 공격의 108% + 432",
+        "en": "[Ancient Power+] Shield (1st hit): 90% of Attack + 360 → 108% of Attack + 432",
+        "ja": "[げんしのちから+] シールド(1発目): 攻撃の90% + 360 → 攻撃の108% + 432"
+      },
+      {
+        "ko": "[원시의힘+] 실드(2타): 공격의 120% + 480 → 공격의 108% + 432",
+        "en": "[Ancient Power+] Shield (2nd hit): 120% of Attack + 480 → 108% of Attack + 432",
+        "ja": "[げんしのちから+] シールド(2発目): 攻撃の120% + 480 → 攻撃の108% + 432"
+      }
+    ]
+  },
+  {
     "id": "pn-246",
     "version": "2025.11.25",
     "date": "2025-11-25",
@@ -6868,6 +6910,33 @@
         "ko": "[찌릿찌릿전개!스파킹!!] 격투 모드 중 준 데미지의 30%를 회복하도록 변경",
         "en": "[Zip Zap Full-Charge Spark] Now recovers 30% of the damage dealt during Fighting Mode",
         "ja": "[ビリビリてんかい！スパーキング！！] かくとうモード中に与えたダメージの30%を回復するように変更"
+      }
+    ]
+  },
+  {
+    "id": "pn-886",
+    "version": "2025.09.25",
+    "date": "2025-09-25",
+    "pokemonId": "143",
+    "type": "nerf",
+    "types": [
+      "nerf"
+    ],
+    "summary": {
+      "ko": "속임수 2단계 행동 불가 시간과 대기 시간이 너프되었다.",
+      "en": "Feint Attack's second-stage immobilization duration and cooldown were nerfed.",
+      "ja": "だましうちの第2段階行動不能時間とクールタイムが弱体化した。"
+    },
+    "changes": [
+      {
+        "ko": "[속임수] 2단계 행동 불가: 1초 → 0.6초",
+        "en": "[Feint Attack] 2nd-stage Immobilization: 1s → 0.6s",
+        "ja": "[だましうち] 第2段階行動不能: 1秒 → 0.6秒"
+      },
+      {
+        "ko": "[속임수] 대기 시간: 7초 → 7.5초",
+        "en": "[Feint Attack] Cooldown: 7s → 7.5s",
+        "ja": "[だましうち] クールタイム: 7秒 → 7.5秒"
       }
     ]
   },
@@ -9327,6 +9396,48 @@
     ]
   },
   {
+    "id": "pn-885",
+    "version": "2025.06.05",
+    "date": "2025-06-05",
+    "pokemonId": "143",
+    "type": "adjust",
+    "types": [
+      "adjust"
+    ],
+    "summary": {
+      "ko": "방어·특수방어 능력치가 전반적으로 증가한 대신 속임수와 문라이트세레나데가 너프되었다.",
+      "en": "Defense and Sp. Def stats were increased overall, while Feint Attack and Moonlight Prance were nerfed.",
+      "ja": "防御・特防が全体的に増加した一方、だましうちとムーンライトセレナーデが弱体化した。"
+    },
+    "changes": [
+      {
+        "ko": "[능력치] 방어: 전반적으로 증가 (Lv15 500 → 560)",
+        "en": "[Stats] Defense: overall increase (Lv15 500 → 560)",
+        "ja": "[能力値] 防御: 全体的に増加 (Lv15 500 → 560)"
+      },
+      {
+        "ko": "[능력치] 특수방어: 전반적으로 증가 (Lv15 400 → 450)",
+        "en": "[Stats] Sp. Def: overall increase (Lv15 400 → 450)",
+        "ja": "[能力値] 特防: 全体的に増加 (Lv15 400 → 450)"
+      },
+      {
+        "ko": "[속임수] 1단계 데미지: 공격의 64% + 7×(레벨-1) + 160 → 공격의 58% + 6×(레벨-1) + 145",
+        "en": "[Feint Attack] 1st-stage Damage: 64% of Attack + 7×(Lv-1) + 160 → 58% of Attack + 6×(Lv-1) + 145",
+        "ja": "[だましうち] 第1段階ダメージ: 攻撃の64% + 7×(レベル-1) + 160 → 攻撃の58% + 6×(レベル-1) + 145"
+      },
+      {
+        "ko": "[속임수] 2단계 데미지: 대상 공격의 264% → 대상 공격의 237.6%",
+        "en": "[Feint Attack] 2nd-stage Damage: 264% of target's Attack → 237.6% of target's Attack",
+        "ja": "[だましうち] 第2段階ダメージ: 対象の攻撃の264% → 対象の攻撃の237.6%"
+      },
+      {
+        "ko": "[문라이트세레나데] 발동 시 실드 흡수: 실드의 100% → 실드의 50%",
+        "en": "[Moonlight Prance] Shield absorption on activation: 100% of shield → 50% of shield",
+        "ja": "[ムーンライトセレナーデ] 発動時シールド吸収: シールドの100% → シールドの50%"
+      }
+    ]
+  },
+  {
     "id": "pn-277",
     "version": "2025.05.15",
     "date": "2025-05-15",
@@ -10122,6 +10233,28 @@
     ]
   },
   {
+    "id": "pn-899",
+    "version": "2025.04.24",
+    "date": "2025-04-24",
+    "pokemonId": "140",
+    "type": "nerf",
+    "types": [
+      "nerf"
+    ],
+    "summary": {
+      "ko": "방어 무시가 삭제됐다.",
+      "en": "Defense Penetration was removed.",
+      "ja": "防御貫通が削除された。"
+    },
+    "changes": [
+      {
+        "ko": "[방어 무시] 삭제",
+        "en": "[Defense Penetration] Removed",
+        "ja": "[防御貫通] 削除"
+      }
+    ]
+  },
+  {
     "id": "pn-109",
     "version": "2025.04.17",
     "date": "2025-04-17",
@@ -10608,6 +10741,53 @@
     ]
   },
   {
+    "id": "pn-898",
+    "version": "2025.03.13",
+    "date": "2025-03-13",
+    "pokemonId": "140",
+    "type": "nerf",
+    "types": [
+      "nerf"
+    ],
+    "summary": {
+      "ko": "HP·공격·방어·특수방어·공격 속도 능력치가 전반적으로 감소했다.",
+      "en": "HP, Attack, Defense, Sp. Def, and Attack Speed were reduced across levels.",
+      "ja": "HP・攻撃・防御・特防・攻撃速度が全体的に減少した。"
+    },
+    "changes": [
+      {
+        "ko": "[HP] 전반적으로 감소 (Lv5 3904→3453, Lv14 6129→5881)",
+        "en": "[HP] Reduced overall (Lv5 3904→3453, Lv14 6129→5881)",
+        "ja": "[HP] 全体的に減少 (Lv5 3904→3453, Lv14 6129→5881)"
+      },
+      {
+        "ko": "[공격] 전반적으로 감소 (Lv5 327→265, Lv10 509→428)",
+        "en": "[Attack] Reduced overall (Lv5 327→265, Lv10 509→428)",
+        "ja": "[攻撃] 全体的に減少 (Lv5 327→265, Lv10 509→428)"
+      },
+      {
+        "ko": "[방어] 전반적으로 감소 (Lv5 136→91, Lv14 303→279)",
+        "en": "[Defense] Reduced overall (Lv5 136→91, Lv14 303→279)",
+        "ja": "[防御] 全体的に減少 (Lv5 136→91, Lv14 303→279)"
+      },
+      {
+        "ko": "[특수공격] 전반적으로 감소 (Lv5 46→32, Lv14 110→102)",
+        "en": "[Sp. Atk] Reduced overall (Lv5 46→32, Lv14 110→102)",
+        "ja": "[特攻] 全体的に減少 (Lv5 46→32, Lv14 110→102)"
+      },
+      {
+        "ko": "[특수방어] 전반적으로 감소 (Lv5 92→63, Lv14 203→190)",
+        "en": "[Sp. Def] Reduced overall (Lv5 92→63, Lv14 203→190)",
+        "ja": "[特防] 全体的に減少 (Lv5 92→63, Lv14 203→190)"
+      },
+      {
+        "ko": "[공격 속도] 전반적으로 감소 (Lv5 18.19%→13.8%, Lv14 37.74%→35.37%)",
+        "en": "[Attack Speed] Reduced overall (Lv5 18.19%→13.8%, Lv14 37.74%→35.37%)",
+        "ja": "[攻撃速度] 全体的に減少 (Lv5 18.19%→13.8%, Lv14 37.74%→35.37%)"
+      }
+    ]
+  },
+  {
     "id": "pn-213",
     "version": "2025.03.01",
     "date": "2025-03-01",
@@ -11049,6 +11229,63 @@
         "ko": "[라이트닝드라이브] 강화 데미지(상대 HP 50% 미만): 특수공격의 228% + 22×(레벨-1) + 864 → 특수공격의 199% + 20×(레벨-1) + 755",
         "en": "[Lightning Rod] Boosted damage (target below 50% HP): 228% Sp. Atk + 22×(Lv-1) + 864 → 199% Sp. Atk + 20×(Lv-1) + 755",
         "ja": "[ライトニングドライブ] 強化ダメージ(相手HP50%未満): 特攻の228% + 22×(レベル-1) + 864 → 特攻の199% + 20×(レベル-1) + 755"
+      }
+    ]
+  },
+  {
+    "id": "pn-897",
+    "version": "2025.02.27",
+    "date": "2025-02-27",
+    "pokemonId": "140",
+    "type": "buff",
+    "types": [
+      "buff"
+    ],
+    "summary": {
+      "ko": "HP·공격·방어·특수방어·공격 속도 능력치가 전반적으로 증가하고 방어 무시가 추가됐으며, 니트로차지의 이동 속도 증가 지속 시간이 늘어났다.",
+      "en": "HP, Attack, Defense, Sp. Def, and Attack Speed were increased across levels, Defense Penetration was added, and Flame Charge's movement speed increase duration was extended.",
+      "ja": "HP・攻撃・防御・特防・攻撃速度が全体的に増加し、防御貫通が追加され、ニトロチャージの移動速度上昇の持続時間が延長された。"
+    },
+    "changes": [
+      {
+        "ko": "[HP] 전반적으로 증가 (Lv5 3440→3904, Lv15 6300→6400)",
+        "en": "[HP] Increased overall (Lv5 3440→3904, Lv15 6300→6400)",
+        "ja": "[HP] 全体的に増加 (Lv5 3440→3904, Lv15 6300→6400)"
+      },
+      {
+        "ko": "[공격] 전반적으로 증가 (Lv5 265→327, Lv10 429→509)",
+        "en": "[Attack] Increased overall (Lv5 265→327, Lv10 429→509)",
+        "ja": "[攻撃] 全体的に増加 (Lv5 265→327, Lv10 429→509)"
+      },
+      {
+        "ko": "[방어] 전반적으로 증가 (Lv5 87→136, Lv15 290→320)",
+        "en": "[Defense] Increased overall (Lv5 87→136, Lv15 290→320)",
+        "ja": "[防御] 全体的に増加 (Lv5 87→136, Lv15 290→320)"
+      },
+      {
+        "ko": "[특수공격] 전반적으로 증가 (Lv5 32→46, Lv15 117→117)",
+        "en": "[Sp. Atk] Increased overall (Lv5 32→46, Lv15 117→117)",
+        "ja": "[特攻] 全体的に増加 (Lv5 32→46, Lv15 117→117)"
+      },
+      {
+        "ko": "[특수방어] 전반적으로 증가 (Lv5 60→92, Lv15 200→215)",
+        "en": "[Sp. Def] Increased overall (Lv5 60→92, Lv15 200→215)",
+        "ja": "[特防] 全体的に増加 (Lv5 60→92, Lv15 200→215)"
+      },
+      {
+        "ko": "[공격 속도] 전반적으로 증가 (Lv5 13.8%→18.19%, Lv15 39.98%→40%)",
+        "en": "[Attack Speed] Increased overall (Lv5 13.8%→18.19%, Lv15 39.98%→40%)",
+        "ja": "[攻撃速度] 全体的に増加 (Lv5 13.8%→18.19%, Lv15 39.98%→40%)"
+      },
+      {
+        "ko": "[방어 무시] 추가",
+        "en": "[Defense Penetration] Added",
+        "ja": "[防御貫通] 追加"
+      },
+      {
+        "ko": "[니트로차지] 이동 속도 증가 지속 시간 1.5초 → 2.5초",
+        "en": "[Flame Charge] Movement speed increase duration 1.5s → 2.5s",
+        "ja": "[ニトロチャージ] 移動速度上昇の持続時間 1.5秒 → 2.5秒"
       }
     ]
   },
@@ -11590,6 +11827,75 @@
         "ko": "[트림] 강화 후 데미지: 공격의 220% + 39×(레벨-1) + 838 → 공격의 207% + 36×(레벨-1) + 786",
         "en": "[Belch Gas] Upgraded damage: 220% of Attack + 39×(Lv-1) + 838 → 207% of Attack + 36×(Lv-1) + 786",
         "ja": "[ガス放出] 強化後ダメージ: 攻撃の220% + 39×(Lv-1) + 838 → 攻撃の207% + 36×(Lv-1) + 786"
+      }
+    ]
+  },
+  {
+    "id": "pn-878",
+    "version": "2025.01.16",
+    "date": "2025-01-16",
+    "pokemonId": "144",
+    "type": "adjust",
+    "types": [
+      "adjust"
+    ],
+    "summary": {
+      "ko": "연속뺨치기와 매지컬샤인 데미지가 하향된 반면, 스타☆리사이틀의 실드량과 지속 시간이 상향되었다.",
+      "en": "Double Slap and Dazzling Gleam damage were reduced, while Starlight Recital's shield amount and duration were increased.",
+      "ja": "れんぞくビンタとマジカルシャインのダメージが下方修正された一方、スター☆リサイタルのシールド量と持続時間が上方修正された。"
+    },
+    "changes": [
+      {
+        "ko": "[연속뺨치기] 타격당 데미지: 특수공격의 21% + 11×(레벨-1) + 240 → 특수공격의 20% + 10×(레벨-1) + 230",
+        "en": "[Double Slap] Damage per hit: Sp. Atk 21% + 11×(Lv-1) + 240 → Sp. Atk 20% + 10×(Lv-1) + 230",
+        "ja": "[れんぞくビンタ] 1ヒットダメージ: 特攻の21% + 11×(レベル-1) + 240 → 特攻の20% + 10×(レベル-1) + 230"
+      },
+      {
+        "ko": "[매지컬샤인] 1단계 데미지: 특수공격의 23.2% + 6×(레벨-1) + 142 → 특수공격의 22% + 6×(레벨-1) + 130",
+        "en": "[Dazzling Gleam] 1st hit damage: Sp. Atk 23.2% + 6×(Lv-1) + 142 → Sp. Atk 22% + 6×(Lv-1) + 130",
+        "ja": "[マジカルシャイン] 1段階ダメージ: 特攻の23.2% + 6×(レベル-1) + 142 → 特攻の22% + 6×(レベル-1) + 130"
+      },
+      {
+        "ko": "[매지컬샤인] 2단계 데미지: 특수공격의 118% + 33×(레벨-1) + 705 → 특수공격의 112.5% + 31×(레벨-1) + 670",
+        "en": "[Dazzling Gleam] 2nd hit damage: Sp. Atk 118% + 33×(Lv-1) + 705 → Sp. Atk 112.5% + 31×(Lv-1) + 670",
+        "ja": "[マジカルシャイン] 2段階ダメージ: 特攻の118% + 33×(レベル-1) + 705 → 特攻の112.5% + 31×(レベル-1) + 670"
+      },
+      {
+        "ko": "[스타☆리사이틀] 실드: 특수공격의 112.5% + 600 · 2.5초 → 특수공격의 151.9% + 810 · 3.5초",
+        "en": "[Starlight Recital] Shield: Sp. Atk 112.5% + 600 for 2.5s → Sp. Atk 151.9% + 810 for 3.5s",
+        "ja": "[スター☆リサイタル] シールド: 特攻の112.5% + 600・2.5秒 → 特攻の151.9% + 810・3.5秒"
+      }
+    ]
+  },
+  {
+    "id": "pn-884",
+    "version": "2025.01.16",
+    "date": "2025-01-16",
+    "pokemonId": "143",
+    "type": "adjust",
+    "types": [
+      "adjust"
+    ],
+    "summary": {
+      "ko": "속임수 1단계 데미지와 희망사항 대기 시간이 너프되고 속임수 2단계 데미지가 상향되었다.",
+      "en": "Feint Attack's first-stage damage and Wish's cooldown were nerfed while its second-stage damage was increased.",
+      "ja": "だましうちの第1段階ダメージとねがいごとのクールタイムが弱体化し、だましうちの第2段階ダメージが上方修正された。"
+    },
+    "changes": [
+      {
+        "ko": "[속임수] 1단계 데미지: 공격의 80% + 9×(레벨-1) + 200 → 공격의 64% + 7×(레벨-1) + 160",
+        "en": "[Feint Attack] 1st-stage Damage: 80% of Attack + 9×(Lv-1) + 200 → 64% of Attack + 7×(Lv-1) + 160",
+        "ja": "[だましうち] 第1段階ダメージ: 攻撃の80% + 9×(レベル-1) + 200 → 攻撃の64% + 7×(レベル-1) + 160"
+      },
+      {
+        "ko": "[속임수] 2단계 데미지: 대상 공격의 240% → 대상 공격의 264%",
+        "en": "[Feint Attack] 2nd-stage Damage: 240% of target's Attack → 264% of target's Attack",
+        "ja": "[だましうち] 第2段階ダメージ: 対象の攻撃の240% → 対象の攻撃の264%"
+      },
+      {
+        "ko": "[희망사항] 대기 시간: 5.5초 → 6초",
+        "en": "[Wish] Cooldown: 5.5s → 6s",
+        "ja": "[ねがいごと] クールタイム: 5.5秒 → 6秒"
       }
     ]
   },
@@ -12895,6 +13201,119 @@
         "ko": "[명상] 대기 시간 10초 → 9.5초",
         "en": "[Calm Mind] Cooldown 10s → 9.5s",
         "ja": "[めいそう] 待ち時間 10秒 → 9.5秒"
+      }
+    ]
+  },
+  {
+    "id": "pn-867",
+    "version": "2024.12.05",
+    "date": "2024-12-05",
+    "pokemonId": "142",
+    "type": "nerf",
+    "types": [
+      "nerf"
+    ],
+    "summary": {
+      "ko": "악의파동과 스톤에지가 하향 조정되었다.",
+      "en": "Dark Pulse and Stone Edge were nerfed.",
+      "ja": "あくのはどう・ストーンエッジが下方修正された。"
+    },
+    "changes": [
+      {
+        "ko": "[악의파동] 대기 시간: 5초 → 5.5초",
+        "en": "[Dark Pulse] Cooldown: 5s → 5.5s",
+        "ja": "[あくのはどう] CT: 5秒 → 5.5秒"
+      },
+      {
+        "ko": "[스톤에지] 근거리 데미지: 공격의 130% + 8×(레벨-1) + 300 → 공격의 118% + 7×(레벨-1) + 270",
+        "en": "[Stone Edge] Close-range damage: 130% of Attack + 8×(Lv-1) + 300 → 118% of Attack + 7×(Lv-1) + 270",
+        "ja": "[ストーンエッジ] 近距離ダメージ: 攻撃の130% + 8×(レベル-1) + 300 → 攻撃の118% + 7×(レベル-1) + 270"
+      },
+      {
+        "ko": "[스톤에지] 원거리 데미지: 공격의 100% + 6×(레벨-1) + 230 → 공격의 91% + 5×(레벨-1) + 208",
+        "en": "[Stone Edge] Long-range damage: 100% of Attack + 6×(Lv-1) + 230 → 91% of Attack + 5×(Lv-1) + 208",
+        "ja": "[ストーンエッジ] 遠距離ダメージ: 攻撃の100% + 6×(レベル-1) + 230 → 攻撃の91% + 5×(レベル-1) + 208"
+      },
+      {
+        "ko": "[스톤에지+] 근거리 데미지: 공격의 140% + 10×(레벨-1) + 330 → 공격의 126% + 9×(레벨-1) + 297",
+        "en": "[Stone Edge+] Close-range damage: 140% of Attack + 10×(Lv-1) + 330 → 126% of Attack + 9×(Lv-1) + 297",
+        "ja": "[ストーンエッジ+] 近距離ダメージ: 攻撃の140% + 10×(レベル-1) + 330 → 攻撃の126% + 9×(レベル-1) + 297"
+      },
+      {
+        "ko": "[스톤에지+] 원거리 데미지: 공격의 108% + 7×(레벨-1) + 260 → 공격의 98% + 6×(레벨-1) + 235",
+        "en": "[Stone Edge+] Long-range damage: 108% of Attack + 7×(Lv-1) + 260 → 98% of Attack + 6×(Lv-1) + 235",
+        "ja": "[ストーンエッジ+] 遠距離ダメージ: 攻撃の108% + 7×(レベル-1) + 260 → 攻撃の98% + 6×(レベル-1) + 235"
+      }
+    ]
+  },
+  {
+    "id": "pn-877",
+    "version": "2024.12.05",
+    "date": "2024-12-05",
+    "pokemonId": "144",
+    "type": "nerf",
+    "types": [
+      "nerf"
+    ],
+    "summary": {
+      "ko": "노래하기의 방어·특수방어 감소 효과와 연속뺨치기 대기 시간이 하향되었다.",
+      "en": "Sing's Defense/Sp. Def reduction and Double Slap's cooldown were nerfed.",
+      "ja": "うたうの防御・特防低下効果とれんぞくビンタのCTが下方修正された。"
+    },
+    "changes": [
+      {
+        "ko": "[노래하기] 방어·특수방어 감소: 35% → 25%",
+        "en": "[Sing] Defense/Sp. Def reduction: 35% → 25%",
+        "ja": "[うたう] 防御・特防低下: 35% → 25%"
+      },
+      {
+        "ko": "[연속뺨치기] 대기 시간: 4.5초 → 5초",
+        "en": "[Double Slap] Cooldown: 4.5s → 5s",
+        "ja": "[れんぞくビンタ] CT: 4.5秒 → 5秒"
+      }
+    ]
+  },
+  {
+    "id": "pn-883",
+    "version": "2024.12.05",
+    "date": "2024-12-05",
+    "pokemonId": "143",
+    "type": "nerf",
+    "types": [
+      "nerf"
+    ],
+    "summary": {
+      "ko": "속임수 1타의 이동 속도 감소량이 줄었다.",
+      "en": "Feint Attack's first-hit movement speed reduction was lowered.",
+      "ja": "だましうち1撃目の移動速度減少量が下がった。"
+    },
+    "changes": [
+      {
+        "ko": "[속임수] 이동 속도 감소(1타): 이동 속도의 30% → 이동 속도의 15%",
+        "en": "[Feint Attack] Movement speed reduction (1st hit): 30% movement speed → 15% movement speed",
+        "ja": "[だましうち] 移動速度減少(1撃目): 移動速度の30% → 移動速度の15%"
+      }
+    ]
+  },
+  {
+    "id": "pn-896",
+    "version": "2024.12.05",
+    "date": "2024-12-05",
+    "pokemonId": "140",
+    "type": "buff",
+    "types": [
+      "buff"
+    ],
+    "summary": {
+      "ko": "브레이브버드+의 반동 데미지 감소 효과가 상향됐다.",
+      "en": "Brave Bird+'s recoil damage reduction was increased.",
+      "ja": "ブレイブバード+の反動ダメージ減少効果が上方修正された。"
+    },
+    "changes": [
+      {
+        "ko": "[브레이브버드+] 데미지 감소 데미지의 15% → 데미지의 25%",
+        "en": "[Brave Bird+] Damage reduction 15% of damage → 25% of damage",
+        "ja": "[ブレイブバード+] ダメージ減少 ダメージの15% → ダメージの25%"
       }
     ]
   },
@@ -15198,6 +15617,33 @@
     ]
   },
   {
+    "id": "pn-895",
+    "version": "2024.07.16",
+    "date": "2024-07-16",
+    "pokemonId": "140",
+    "type": "buff",
+    "types": [
+      "buff"
+    ],
+    "summary": {
+      "ko": "질풍날개의 이동 속도 증가량과 니트로차지의 데미지가 상향됐다.",
+      "en": "Gale Wings' movement speed bonus and Flame Charge's damage were increased.",
+      "ja": "はやてのつばさの移動速度上昇量とニトロチャージのダメージが上方修正された。"
+    },
+    "changes": [
+      {
+        "ko": "[질풍날개] 이동 속도 증가 이동 속도의 10% → 이동 속도의 15%",
+        "en": "[Gale Wings] Movement speed increase 10% of movement speed → 15% of movement speed",
+        "ja": "[はやてのつばさ] 移動速度上昇 移動速度の10% → 移動速度の15%"
+      },
+      {
+        "ko": "[니트로차지] 데미지 공격의 106%+14×(레벨-1)+340 → 공격의 123%+14×(레벨-1)+374",
+        "en": "[Flame Charge] Damage 106% of Attack+14×(Lv-1)+340 → 123% of Attack+14×(Lv-1)+374",
+        "ja": "[ニトロチャージ] ダメージ 攻撃の106%+14×(レベル-1)+340 → 攻撃の123%+14×(レベル-1)+374"
+      }
+    ]
+  },
+  {
     "id": "pn-240",
     "version": "2024.06.19",
     "date": "2024-06-19",
@@ -15718,6 +16164,58 @@
     ]
   },
   {
+    "id": "pn-866",
+    "version": "2024.06.19",
+    "date": "2024-06-19",
+    "pokemonId": "142",
+    "type": "nerf",
+    "types": [
+      "nerf"
+    ],
+    "summary": {
+      "ko": "공격이 전반적으로 하향되고 스톤에지·모래지옥·리슬램페이지가 하향 조정되었다.",
+      "en": "Attack was decreased overall, and Stone Edge, Sand Tomb, and Tyrannical Rampage were nerfed.",
+      "ja": "攻撃が全体的に減少し、ストーンエッジ・すなじごく・バンギラスラムページが下方修正された。"
+    },
+    "changes": [
+      {
+        "ko": "[공격] 전반적으로 감소 (Lv15 기준 485 → 450)",
+        "en": "[Attack] Decreased overall (485 → 450 at Lv15)",
+        "ja": "[攻撃] 全体的に減少 (Lv15基準 485 → 450)"
+      },
+      {
+        "ko": "[스톤에지] 근거리 데미지: 공격의 146.9% + 8×(레벨-1) + 338 → 공격의 130% + 8×(레벨-1) + 300",
+        "en": "[Stone Edge] Close-range damage: 146.9% of Attack + 8×(Lv-1) + 338 → 130% of Attack + 8×(Lv-1) + 300",
+        "ja": "[ストーンエッジ] 近距離ダメージ: 攻撃の146.9% + 8×(レベル-1) + 338 → 攻撃の130% + 8×(レベル-1) + 300"
+      },
+      {
+        "ko": "[스톤에지] 원거리 데미지: 공격의 113% + 6×(레벨-1) + 260 → 공격의 100% + 6×(레벨-1) + 230",
+        "en": "[Stone Edge] Long-range damage: 113% of Attack + 6×(Lv-1) + 260 → 100% of Attack + 6×(Lv-1) + 230",
+        "ja": "[ストーンエッジ] 遠距離ダメージ: 攻撃の113% + 6×(レベル-1) + 260 → 攻撃の100% + 6×(レベル-1) + 230"
+      },
+      {
+        "ko": "[스톤에지+] 근거리 데미지: 공격의 161.6% + 9×(레벨-1) + 372 → 공격의 140% + 10×(레벨-1) + 330",
+        "en": "[Stone Edge+] Close-range damage: 161.6% of Attack + 9×(Lv-1) + 372 → 140% of Attack + 10×(Lv-1) + 330",
+        "ja": "[ストーンエッジ+] 近距離ダメージ: 攻撃の161.6% + 9×(レベル-1) + 372 → 攻撃の140% + 10×(レベル-1) + 330"
+      },
+      {
+        "ko": "[스톤에지+] 원거리 데미지: 공격의 124.3% + 7×(레벨-1) + 286 → 공격의 108% + 7×(레벨-1) + 260",
+        "en": "[Stone Edge+] Long-range damage: 124.3% of Attack + 7×(Lv-1) + 286 → 108% of Attack + 7×(Lv-1) + 260",
+        "ja": "[ストーンエッジ+] 遠距離ダメージ: 攻撃の124.3% + 7×(レベル-1) + 286 → 攻撃の108% + 7×(レベル-1) + 260"
+      },
+      {
+        "ko": "[모래지옥] 데미지 감소: 데미지의 25% → 데미지의 15%",
+        "en": "[Sand Tomb] Damage reduction: 25% of damage → 15% of damage",
+        "ja": "[すなじごく] ダメージ減少: ダメージの25% → ダメージの15%"
+      },
+      {
+        "ko": "[리슬램페이지] 일반 공격 데미지: 공격의 166% + 6×(레벨-1) + 310 → 공격의 130% + 6×(레벨-1) + 240",
+        "en": "[Tyrannical Rampage] Basic attack damage: 166% of Attack + 6×(Lv-1) + 310 → 130% of Attack + 6×(Lv-1) + 240",
+        "ja": "[バンギラスラムページ] ノーマルアタックダメージ: 攻撃の166% + 6×(レベル-1) + 310 → 攻撃の130% + 6×(レベル-1) + 240"
+      }
+    ]
+  },
+  {
     "id": "pn-252",
     "version": "2024.06.13",
     "date": "2024-06-13",
@@ -16073,6 +16571,58 @@
         "ko": "[미스틱미라지] 데미지 특수공격의 140% + 10×(레벨-1) + 375 → 특수공격의 120% + 10×(레벨-1) + 340",
         "en": "[Mystical Mirage] Damage 140% of Sp. Atk + 10×(Level-1) + 375 → 120% of Sp. Atk + 10×(Level-1) + 340",
         "ja": "[ミスティックミラージュ] ダメージ とくこうの140% + 10×(レベル-1) + 375 → とくこうの120% + 10×(レベル-1) + 340"
+      }
+    ]
+  },
+  {
+    "id": "pn-865",
+    "version": "2024.05.13",
+    "date": "2024-05-13",
+    "pokemonId": "142",
+    "type": "buff",
+    "types": [
+      "buff"
+    ],
+    "summary": {
+      "ko": "HP·방어·특수방어가 전반적으로 상향되고 스톤에지와 모래지옥이 강화되었다.",
+      "en": "HP, Defense, and Sp. Def were increased overall, and Stone Edge and Sand Tomb were strengthened.",
+      "ja": "HP・防御・特防が全体的に増加し、ストーンエッジとすなじごくが強化された。"
+    },
+    "changes": [
+      {
+        "ko": "[HP] 전반적으로 증가 (Lv15 기준 8800 → 8950)",
+        "en": "[HP] Increased overall (8800 → 8950 at Lv15)",
+        "ja": "[HP] 全体的に増加 (Lv15基準 8800 → 8950)"
+      },
+      {
+        "ko": "[방어] 전반적으로 증가 (Lv15 기준 500 → 520)",
+        "en": "[Defense] Increased overall (500 → 520 at Lv15)",
+        "ja": "[防御] 全体的に増加 (Lv15基準 500 → 520)"
+      },
+      {
+        "ko": "[특수방어] 전반적으로 증가 (Lv15 기준 375 → 395)",
+        "en": "[Sp. Def] Increased overall (375 → 395 at Lv15)",
+        "ja": "[特防] 全体的に増加 (Lv15基準 375 → 395)"
+      },
+      {
+        "ko": "[스톤에지] 첫번째, 두번째 기술 모션 속도 증가",
+        "en": "[Stone Edge] First and second cast motion speed increased",
+        "ja": "[ストーンエッジ] 1回目・2回目のわざモーション速度が増加"
+      },
+      {
+        "ko": "[모래지옥] 점프 후딜레이 감소",
+        "en": "[Sand Tomb] Post-jump recovery delay reduced",
+        "ja": "[すなじごく] ジャンプ後の硬直が減少"
+      },
+      {
+        "ko": "[모래지옥] 행동 불가: 1초 → 1.5초",
+        "en": "[Sand Tomb] Immobilize duration: 1s → 1.5s",
+        "ja": "[すなじごく] 行動不能: 1秒 → 1.5秒"
+      },
+      {
+        "ko": "[모래지옥] 이동 속도 감소: 이동 속도의 25% → 이동 속도의 35%",
+        "en": "[Sand Tomb] Slow: 25% of Movement Speed → 35% of Movement Speed",
+        "ja": "[すなじごく] 移動速度低下: 移動速度の25% → 移動速度の35%"
       }
     ]
   },
@@ -16452,6 +17002,53 @@
     ]
   },
   {
+    "id": "pn-882",
+    "version": "2024.04.16",
+    "date": "2024-04-16",
+    "pokemonId": "143",
+    "type": "adjust",
+    "types": [
+      "adjust"
+    ],
+    "summary": {
+      "ko": "방어·특수방어 능력치가 전반적으로 감소한 대신 속임수와 희망사항이 강화되었다.",
+      "en": "Defense and Sp. Def stats were reduced overall, while Feint Attack and Wish were buffed.",
+      "ja": "防御・特防が全体的に減少した一方、だましうちとねがいごとが強化された。"
+    },
+    "changes": [
+      {
+        "ko": "[능력치] 방어: 전반적으로 감소 (Lv1 95 → 85)",
+        "en": "[Stats] Defense: overall decrease (Lv1 95 → 85)",
+        "ja": "[能力値] 防御: 全体的に減少 (Lv1 95 → 85)"
+      },
+      {
+        "ko": "[능력치] 특수방어: 전반적으로 감소 (Lv1 70 → 60)",
+        "en": "[Stats] Sp. Def: overall decrease (Lv1 70 → 60)",
+        "ja": "[能力値] 特防: 全体的に減少 (Lv1 70 → 60)"
+      },
+      {
+        "ko": "[속임수] 2단계 데미지: 대상 공격의 200% → 대상 공격의 240%",
+        "en": "[Feint Attack] 2nd-stage Damage: 200% of target's Attack → 240% of target's Attack",
+        "ja": "[だましうち] 第2段階ダメージ: 対象の攻撃の200% → 対象の攻撃の240%"
+      },
+      {
+        "ko": "[속임수] 이동 속도 감소: 이동 속도의 25% · 2초 → 이동 속도의 30% · 2.5초",
+        "en": "[Feint Attack] Movement speed reduction: 25% movement speed · 2s → 30% movement speed · 2.5s",
+        "ja": "[だましうち] 移動速度減少: 移動速度の25%・2秒 → 移動速度の30%・2.5秒"
+      },
+      {
+        "ko": "[희망사항] HP 회복: 공격의 250% + 15×(레벨-1) + 500 → 공격의 300% + 18×(레벨-1) + 600",
+        "en": "[Wish] HP Recovery: 250% of Attack + 15×(Lv-1) + 500 → 300% of Attack + 18×(Lv-1) + 600",
+        "ja": "[ねがいごと] HP回復: 攻撃の250% + 15×(レベル-1) + 500 → 攻撃の300% + 18×(レベル-1) + 600"
+      },
+      {
+        "ko": "[희망사항] 희망사항+ HP 회복: 공격의 300% + 15×(레벨-1) + 600 → 공격의 380% + 18×(레벨-1) + 700",
+        "en": "[Wish] Wish+ HP Recovery: 300% of Attack + 15×(Lv-1) + 600 → 380% of Attack + 18×(Lv-1) + 700",
+        "ja": "[ねがいごと] ねがいごと+ HP回復: 攻撃の300% + 15×(レベル-1) + 600 → 攻撃の380% + 18×(レベル-1) + 700"
+      }
+    ]
+  },
+  {
     "id": "pn-274",
     "version": "2024.03.12",
     "date": "2024-03-12",
@@ -16711,6 +17308,43 @@
         "ko": "[번개] 강화 이동 속도 감소: 이동 속도의 50% → 이동 속도의 20%",
         "en": "[Thunder] Boosted movement speed reduction: 50% of movement speed → 20%",
         "ja": "[かみなり] 強化移動速度低下: 移動速度の50% → 移動速度の20%"
+      }
+    ]
+  },
+  {
+    "id": "pn-881",
+    "version": "2024.03.12",
+    "date": "2024-03-12",
+    "pokemonId": "143",
+    "type": "nerf",
+    "types": [
+      "nerf"
+    ],
+    "summary": {
+      "ko": "검은눈빛과 바크아웃이 너프되었다.",
+      "en": "Mean Look and Snarl were nerfed.",
+      "ja": "くろいまなざしとバークアウトが弱体化した。"
+    },
+    "changes": [
+      {
+        "ko": "[검은눈빛] 거리: 5m → 4m",
+        "en": "[Mean Look] Range: 5m → 4m",
+        "ja": "[くろいまなざし] 距離: 5m → 4m"
+      },
+      {
+        "ko": "[검은눈빛] 대기 시간: 8초 → 9초",
+        "en": "[Mean Look] Cooldown: 8s → 9s",
+        "ja": "[くろいまなざし] クールタイム: 8秒 → 9秒"
+      },
+      {
+        "ko": "[바크아웃] 공격/특수공격 감소(최대 6회): 공격/특수공격의 4% → 공격/특수공격의 3%",
+        "en": "[Snarl] Attack/Sp. Atk reduction (max 6 stacks): 4% of Attack/Sp. Atk → 3% of Attack/Sp. Atk",
+        "ja": "[バークアウト] 攻撃・特攻減少(最大6回): 攻撃・特攻の4% → 攻撃・特攻の3%"
+      },
+      {
+        "ko": "[바크아웃] 공격/특수공격 감소(마지막): 공격/특수공격의 20% → 공격/특수공격의 15%",
+        "en": "[Snarl] Attack/Sp. Atk reduction (final): 20% of Attack/Sp. Atk → 15% of Attack/Sp. Atk",
+        "ja": "[バークアウト] 攻撃・特攻減少(最後): 攻撃・特攻の20% → 攻撃・特攻の15%"
       }
     ]
   },
@@ -17615,6 +18249,48 @@
         "ko": "[페어리하모니] 데미지 특수공격의 104% + 13×(레벨-1) + 620 → 특수공격의 130% + 13×(레벨-1) + 750",
         "en": "[Fairy Frolic] Damage 104% Sp. Atk + 13×(Lv-1) + 620 → 130% Sp. Atk + 13×(Lv-1) + 750",
         "ja": "[フェアリーハーモニー] ダメージ 特攻の104% + 13×(レベル-1) + 620 → 特攻の130% + 13×(レベル-1) + 750"
+      }
+    ]
+  },
+  {
+    "id": "pn-876",
+    "version": "2024.01.09",
+    "date": "2024-01-09",
+    "pokemonId": "144",
+    "type": "buff",
+    "types": [
+      "buff"
+    ],
+    "summary": {
+      "ko": "노래하기의 이동 속도·방어·특수방어 감소 효과가 강화되고 매지컬샤인의 1·2단계 데미지가 상향되었다.",
+      "en": "Sing's movement speed, Defense, and Sp. Def reduction effects were strengthened and Dazzling Gleam's 1st and 2nd hit damage were increased.",
+      "ja": "うたうの移動速度・防御・特防低下効果が強化され、マジカルシャインの1・2段階ダメージが上方修正された。"
+    },
+    "changes": [
+      {
+        "ko": "[노래하기] 이동 속도 감소: 이동 속도의 10% → 15%",
+        "en": "[Sing] Movement speed reduction: 10% → 15%",
+        "ja": "[うたう] 移動速度低下: 移動速度の10% → 15%"
+      },
+      {
+        "ko": "[노래하기] 방어·특수방어 감소: 25% · 1.25초 → 35% · 1.5초",
+        "en": "[Sing] Defense/Sp. Def reduction: 25% for 1.25s → 35% for 1.5s",
+        "ja": "[うたう] 防御・特防低下: 25%・1.25秒 → 35%・1.5秒"
+      },
+      {
+        "ko": "[노래하기] (강화) 방어·특수방어 감소: 25% · 1.5초 → 35% · 1.75초",
+        "en": "[Sing] (Upgraded) Defense/Sp. Def reduction: 25% for 1.5s → 35% for 1.75s",
+        "ja": "[うたう]（強化）防御・特防低下: 25%・1.5秒 → 35%・1.75秒"
+      },
+      {
+        "ko": "[매지컬샤인] 1단계 데미지: 특수공격의 13% + 6×(레벨-1) + 144 → 특수공격의 23.2% + 6×(레벨-1) + 142",
+        "en": "[Dazzling Gleam] 1st hit damage: Sp. Atk 13% + 6×(Lv-1) + 144 → Sp. Atk 23.2% + 6×(Lv-1) + 142",
+        "ja": "[マジカルシャイン] 1段階ダメージ: 特攻の13% + 6×(レベル-1) + 144 → 特攻の23.2% + 6×(レベル-1) + 142"
+      },
+      {
+        "ko": "[매지컬샤인] 2단계 데미지: 특수공격의 65% + 33×(레벨-1) + 720 → 특수공격의 118% + 33×(레벨-1) + 705",
+        "en": "[Dazzling Gleam] 2nd hit damage: Sp. Atk 65% + 33×(Lv-1) + 720 → Sp. Atk 118% + 33×(Lv-1) + 705",
+        "ja": "[マジカルシャイン] 2段階ダメージ: 特攻の65% + 33×(レベル-1) + 720 → 特攻の118% + 33×(レベル-1) + 705"
       }
     ]
   },
@@ -18528,6 +19204,38 @@
     ]
   },
   {
+    "id": "pn-894",
+    "version": "2023.11.13",
+    "date": "2023-11-13",
+    "pokemonId": "140",
+    "type": "buff",
+    "types": [
+      "buff"
+    ],
+    "summary": {
+      "ko": "공격 능력치가 전반적으로 증가하고 제비반환의 데미지가 상향됐다.",
+      "en": "Attack was increased across levels and Aerial Ace's damage was raised.",
+      "ja": "攻撃が全体的に増加し、つばめがえしのダメージが上方修正された。"
+    },
+    "changes": [
+      {
+        "ko": "[공격] 전반적으로 증가 (Lv7 340→349, Lv15 681→710)",
+        "en": "[Attack] Increased overall (Lv7 340→349, Lv15 681→710)",
+        "ja": "[攻撃] 全体的に増加 (Lv7 340→349, Lv15 681→710)"
+      },
+      {
+        "ko": "[제비반환] 데미지 공격의 95%+14×(레벨-1)+350 → 공격의 110%+14×(레벨-1)+400",
+        "en": "[Aerial Ace] Damage 95% of Attack+14×(Lv-1)+350 → 110% of Attack+14×(Lv-1)+400",
+        "ja": "[つばめがえし] ダメージ 攻撃の95%+14×(レベル-1)+350 → 攻撃の110%+14×(レベル-1)+400"
+      },
+      {
+        "ko": "[제비반환+] 데미지 공격의 103%+16×(레벨-1)+370 → 공격의 125%+16×(레벨-1)+420",
+        "en": "[Aerial Ace+] Damage 103% of Attack+16×(Lv-1)+370 → 125% of Attack+16×(Lv-1)+420",
+        "ja": "[つばめがえし+] ダメージ 攻撃の103%+16×(レベル-1)+370 → 攻撃の125%+16×(レベル-1)+420"
+      }
+    ]
+  },
+  {
     "id": "pn-425",
     "version": "2023.10.19",
     "date": "2023-10-19",
@@ -18905,6 +19613,28 @@
     ]
   },
   {
+    "id": "pn-864",
+    "version": "2023.10.18",
+    "date": "2023-10-18",
+    "pokemonId": "142",
+    "type": "buff",
+    "types": [
+      "buff"
+    ],
+    "summary": {
+      "ko": "트루 데미지 시 일반 공격 비례 HP 회복이 고정값에서 스탯 비례로 변경되었다.",
+      "en": "Basic-attack HP recovery on true damage was changed from a fixed value to scaling with the recovery stat.",
+      "ja": "トゥルーダメージ時のノーマルアタックHP回復が固定値からステータス追従に変更された。"
+    },
+    "changes": [
+      {
+        "ko": "[능력치] 일반 공격 비례 HP 회복(트루 데미지를 가할 때): 5% 고정 → 마기라스의 일반 공격 비례 HP 회복 스탯을 따라감",
+        "en": "[Stats] Basic-attack HP recovery (when dealing true damage): fixed 5% → scales with Tyranitar's basic-attack HP recovery stat",
+        "ja": "[ステータス] ノーマルアタックHP回復(トゥルーダメージを与えるとき): 5%固定 → バンギラスのノーマルアタックHP回復ステータスに追従"
+      }
+    ]
+  },
+  {
     "id": "pn-542",
     "version": "2023.09.15",
     "date": "2023-09-15",
@@ -19007,6 +19737,38 @@
     ]
   },
   {
+    "id": "pn-880",
+    "version": "2023.09.07",
+    "date": "2023-09-07",
+    "pokemonId": "143",
+    "type": "nerf",
+    "types": [
+      "nerf"
+    ],
+    "summary": {
+      "ko": "바크아웃의 대기 시간이 늘고 공격/특수공격 감소량이 줄었다.",
+      "en": "Snarl's cooldown was increased and its Attack/Sp. Atk reduction was lowered.",
+      "ja": "バークアウトのクールタイムが延び、攻撃・特攻減少量が下がった。"
+    },
+    "changes": [
+      {
+        "ko": "[바크아웃] 대기 시간: 9초 → 10초",
+        "en": "[Snarl] Cooldown: 9s → 10s",
+        "ja": "[バークアウト] クールタイム: 9秒 → 10秒"
+      },
+      {
+        "ko": "[바크아웃] 공격 감소(최대 6회): 공격의 6% → 공격의 4%",
+        "en": "[Snarl] Attack reduction (max 6 stacks): 6% of Attack → 4% of Attack",
+        "ja": "[バークアウト] 攻撃減少(最大6回): 攻撃の6% → 攻撃の4%"
+      },
+      {
+        "ko": "[바크아웃] 특수공격 감소(최대 6회): 특수공격의 6% → 특수공격의 4%",
+        "en": "[Snarl] Sp. Atk reduction (max 6 stacks): 6% of Sp. Atk → 4% of Sp. Atk",
+        "ja": "[バークアウト] 特攻減少(最大6回): 特攻の6% → 特攻の4%"
+      }
+    ]
+  },
+  {
     "id": "pn-404",
     "version": "2023.08.15",
     "date": "2023-08-15",
@@ -19072,6 +19834,60 @@
         "ko": "[쇄석선풍루] 데미지(반격): 공격의 120% + 10×(레벨-1) + 270 → 공격의 160% + 12×(레벨-1) + 360",
         "en": "[Rubble Rouser] Damage (counter): 120% of Attack + 10×(Lv-1) + 270 → 160% of Attack + 12×(Lv-1) + 360",
         "ja": "[砕石旋風楼] ダメージ（反撃）: 攻撃の120% + 10×(レベル-1) + 270 → 攻撃の160% + 12×(レベル-1) + 360"
+      }
+    ]
+  },
+  {
+    "id": "pn-863",
+    "version": "2023.08.15",
+    "date": "2023-08-15",
+    "pokemonId": "142",
+    "type": "buff",
+    "types": [
+      "buff"
+    ],
+    "summary": {
+      "ko": "HP가 전반적으로 상향되고 리슬램페이지의 대기 시간과 게이지 충전량이 개선되었다.",
+      "en": "HP was increased overall, and Tyrannical Rampage's cooldown and charge requirement were improved.",
+      "ja": "HPが全体的に増加し、バンギラスラムページのCTとゲージ蓄積量が改善された。"
+    },
+    "changes": [
+      {
+        "ko": "[HP] 전반적으로 증가 (Lv15 기준 8350 → 8800)",
+        "en": "[HP] Increased overall (8350 → 8800 at Lv15)",
+        "ja": "[HP] 全体的に増加 (Lv15基準 8350 → 8800)"
+      },
+      {
+        "ko": "[리슬램페이지] 대기 시간: 134초 → 112초",
+        "en": "[Tyrannical Rampage] Cooldown: 134s → 112s",
+        "ja": "[バンギラスラムページ] CT: 134秒 → 112秒"
+      },
+      {
+        "ko": "[리슬램페이지] 유나이트 기술 게이지 충전량: 120,000 → 100,000",
+        "en": "[Tyrannical Rampage] Unite Move gauge charge amount: 120,000 → 100,000",
+        "ja": "[バンギラスラムページ] ユナイトわざゲージ蓄積量: 120,000 → 100,000"
+      }
+    ]
+  },
+  {
+    "id": "pn-893",
+    "version": "2023.08.15",
+    "date": "2023-08-15",
+    "pokemonId": "140",
+    "type": "buff",
+    "types": [
+      "buff"
+    ],
+    "summary": {
+      "ko": "브레이브버드의 데미지가 증가했다.",
+      "en": "Brave Bird's damage was increased.",
+      "ja": "ブレイブバードのダメージが増加した。"
+    },
+    "changes": [
+      {
+        "ko": "[브레이브버드] 데미지 공격의 230%+18×(레벨-1)+800 → 공격의 253%+20×(레벨-1)+880",
+        "en": "[Brave Bird] Damage 230% of Attack+18×(Lv-1)+800 → 253% of Attack+20×(Lv-1)+880",
+        "ja": "[ブレイブバード] ダメージ 攻撃の230%+18×(レベル-1)+800 → 攻撃の253%+20×(レベル-1)+880"
       }
     ]
   },
@@ -19512,6 +20328,95 @@
         "ko": "[쾅쾅프레스] 유나이트 기술 게이지 충전량 110,000 → 100,000",
         "en": "[Mammoth Mash] Unite Move gauge charge amount 110,000 → 100,000",
         "ja": "[ドカドカプレス] ユナイトわざゲージの必要量 110,000 → 100,000"
+      }
+    ]
+  },
+  {
+    "id": "pn-875",
+    "version": "2023.07.18",
+    "date": "2023-07-18",
+    "pokemonId": "144",
+    "type": "buff",
+    "types": [
+      "buff"
+    ],
+    "summary": {
+      "ko": "노래하기의 대기 시간이 줄고 스타☆리사이틀에 실드 종료 후 HP 회복 효과가 추가되었다.",
+      "en": "Sing's cooldown was reduced and Starlight Recital gained an HP recovery effect after the shield expires.",
+      "ja": "うたうのCTが短縮され、スター☆リサイタルにシールド終了後のHP回復効果が追加された。"
+    },
+    "changes": [
+      {
+        "ko": "[노래하기] 대기 시간: 10초 → 8초",
+        "en": "[Sing] Cooldown: 10s → 8s",
+        "ja": "[うたう] CT: 10秒 → 8秒"
+      },
+      {
+        "ko": "[스타☆리사이틀] HP 회복: 실드 지속 시간이 끝난 뒤 남은 실드의 50% 회복 추가",
+        "en": "[Starlight Recital] HP restore: added recovery of 50% of the remaining shield after the shield expires",
+        "ja": "[スター☆リサイタル] HP回復: シールド持続終了後、残りシールドの50%を回復するよう追加"
+      }
+    ]
+  },
+  {
+    "id": "pn-879",
+    "version": "2023.07.18",
+    "date": "2023-07-18",
+    "pokemonId": "143",
+    "type": "adjust",
+    "types": [
+      "adjust"
+    ],
+    "summary": {
+      "ko": "속임수·바크아웃·일반 공격이 너프되고 희망사항 대기 시간이 단축되었다.",
+      "en": "Feint Attack, Snarl, and the basic attack were nerfed while Wish's cooldown was shortened.",
+      "ja": "だましうち・バークアウト・ノーマルアタックが弱体化し、ねがいごとのクールタイムが短縮された。"
+    },
+    "changes": [
+      {
+        "ko": "[일반 공격] HP 회복: 잃은 HP의 12% → 잃은 HP의 10%",
+        "en": "[Basic Attack] HP Recovery: 12% of missing HP → 10% of missing HP",
+        "ja": "[ノーマルアタック] HP回復: 失ったHPの12% → 失ったHPの10%"
+      },
+      {
+        "ko": "[속임수] 대기 시간: 5초 → 7초",
+        "en": "[Feint Attack] Cooldown: 5s → 7s",
+        "ja": "[だましうち] クールタイム: 5秒 → 7秒"
+      },
+      {
+        "ko": "[속임수] 1단계 데미지: 공격의 100% + 11×(레벨-1) + 250 → 공격의 80% + 9×(레벨-1) + 200",
+        "en": "[Feint Attack] 1st-stage Damage: 100% of Attack + 11×(Lv-1) + 250 → 80% of Attack + 9×(Lv-1) + 200",
+        "ja": "[だましうち] 第1段階ダメージ: 攻撃の100% + 11×(レベル-1) + 250 → 攻撃の80% + 9×(レベル-1) + 200"
+      },
+      {
+        "ko": "[속임수] 2단계 데미지: 대상 공격의 250% → 대상 공격의 200%",
+        "en": "[Feint Attack] 2nd-stage Damage: 250% of target's Attack → 200% of target's Attack",
+        "ja": "[だましうち] 第2段階ダメージ: 対象の攻撃の250% → 対象の攻撃の200%"
+      },
+      {
+        "ko": "[희망사항] 대기 시간: 6.5초 → 5.5초",
+        "en": "[Wish] Cooldown: 6.5s → 5.5s",
+        "ja": "[ねがいごと] クールタイム: 6.5秒 → 5.5秒"
+      },
+      {
+        "ko": "[바크아웃] 행동 불가: 1초 → 0.7초",
+        "en": "[Snarl] Immobilization: 1s → 0.7s",
+        "ja": "[バークアウト] 行動不能: 1秒 → 0.7秒"
+      },
+      {
+        "ko": "[바크아웃] 바크아웃+ 행동 불가: 1.5초 → 1초",
+        "en": "[Snarl] Snarl+ Immobilization: 1.5s → 1s",
+        "ja": "[バークアウト] バークアウト+ 行動不能: 1.5秒 → 1秒"
+      },
+      {
+        "ko": "[바크아웃] 공격 감소(최대 6회): 공격의 8% → 공격의 6%",
+        "en": "[Snarl] Attack reduction (max 6 stacks): 8% of Attack → 6% of Attack",
+        "ja": "[バークアウト] 攻撃減少(最大6回): 攻撃の8% → 攻撃の6%"
+      },
+      {
+        "ko": "[바크아웃] 특수공격 감소(최대 6회): 특수공격의 8% → 특수공격의 6%",
+        "en": "[Snarl] Sp. Atk reduction (max 6 stacks): 8% of Sp. Atk → 6% of Sp. Atk",
+        "ja": "[バークアウト] 特攻減少(最大6回): 特攻の8% → 特攻の6%"
       }
     ]
   },
@@ -20750,6 +21655,112 @@
         "ko": "[파워스왑+] 데미지 감소: 데미지의 20% → 데미지의 12%",
         "en": "[Power Swap+] Damage reduction: 20% of damage → 12% of damage",
         "ja": "[パワースワップ+] ダメージ減少: ダメージの20% → ダメージの12%"
+      }
+    ]
+  },
+  {
+    "id": "pn-862",
+    "version": "2023.02.27",
+    "date": "2023-02-27",
+    "pokemonId": "142",
+    "type": "adjust",
+    "types": [
+      "adjust"
+    ],
+    "summary": {
+      "ko": "악의파동과 원시의힘이 하향되고 스톤에지가 상향되었다.",
+      "en": "Dark Pulse and Ancient Power were nerfed while Stone Edge was buffed.",
+      "ja": "あくのはどう・げんしのちからが下方修正され、ストーンエッジが上方修正された。"
+    },
+    "changes": [
+      {
+        "ko": "[악의파동] 데미지: 공격의 182% + 15×(레벨-1) + 360 → 공격의 164% + 13×(레벨-1) + 330",
+        "en": "[Dark Pulse] Damage: 182% of Attack + 15×(Lv-1) + 360 → 164% of Attack + 13×(Lv-1) + 330",
+        "ja": "[あくのはどう] ダメージ: 攻撃の182% + 15×(レベル-1) + 360 → 攻撃の164% + 13×(レベル-1) + 330"
+      },
+      {
+        "ko": "[악의파동] 추가 데미지: 공격의 54.6% + 5×(레벨-1) + 108 → 공격의 49.2% + 4×(레벨-1) + 99",
+        "en": "[Dark Pulse] Bonus damage: 54.6% of Attack + 5×(Lv-1) + 108 → 49.2% of Attack + 4×(Lv-1) + 99",
+        "ja": "[あくのはどう] 追加ダメージ: 攻撃の54.6% + 5×(レベル-1) + 108 → 攻撃の49.2% + 4×(レベル-1) + 99"
+      },
+      {
+        "ko": "[스톤에지] 근거리 데미지: 공격의 133.9% + 8×(레벨-1) + 299 → 공격의 146.9% + 8×(레벨-1) + 338",
+        "en": "[Stone Edge] Close-range damage: 133.9% of Attack + 8×(Lv-1) + 299 → 146.9% of Attack + 8×(Lv-1) + 338",
+        "ja": "[ストーンエッジ] 近距離ダメージ: 攻撃の133.9% + 8×(レベル-1) + 299 → 攻撃の146.9% + 8×(レベル-1) + 338"
+      },
+      {
+        "ko": "[스톤에지] 원거리 데미지: 공격의 103.9% + 6×(레벨-1) + 230 → 공격의 113% + 6×(레벨-1) + 260",
+        "en": "[Stone Edge] Long-range damage: 103.9% of Attack + 6×(Lv-1) + 230 → 113% of Attack + 6×(Lv-1) + 260",
+        "ja": "[ストーンエッジ] 遠距離ダメージ: 攻撃の103.9% + 6×(レベル-1) + 230 → 攻撃の113% + 6×(レベル-1) + 260"
+      },
+      {
+        "ko": "[스톤에지+] 근거리 데미지: 공격의 147.29% + 9×(레벨-1) + 329 → 공격의 161.6% + 9×(레벨-1) + 372",
+        "en": "[Stone Edge+] Close-range damage: 147.29% of Attack + 9×(Lv-1) + 329 → 161.6% of Attack + 9×(Lv-1) + 372",
+        "ja": "[ストーンエッジ+] 近距離ダメージ: 攻撃の147.29% + 9×(レベル-1) + 329 → 攻撃の161.6% + 9×(レベル-1) + 372"
+      },
+      {
+        "ko": "[스톤에지+] 원거리 데미지: 공격의 113.3% + 7×(레벨-1) + 253 → 공격의 124.3% + 7×(레벨-1) + 286",
+        "en": "[Stone Edge+] Long-range damage: 113.3% of Attack + 7×(Lv-1) + 253 → 124.3% of Attack + 7×(Lv-1) + 286",
+        "ja": "[ストーンエッジ+] 遠距離ダメージ: 攻撃の113.3% + 7×(レベル-1) + 253 → 攻撃の124.3% + 7×(レベル-1) + 286"
+      },
+      {
+        "ko": "[원시의힘] 대기 시간: 10초 → 11초",
+        "en": "[Ancient Power] Cooldown: 10s → 11s",
+        "ja": "[げんしのちから] CT: 10秒 → 11秒"
+      }
+    ]
+  },
+  {
+    "id": "pn-874",
+    "version": "2023.02.27",
+    "date": "2023-02-27",
+    "pokemonId": "144",
+    "type": "buff",
+    "types": [
+      "buff"
+    ],
+    "summary": {
+      "ko": "구르기의 실드 지속 시간이 늘고 스타☆리사이틀의 대기 시간과 유나이트 게이지 요구량이 완화되었다.",
+      "en": "Rollout's shield duration was extended and Starlight Recital's cooldown and Unite gauge requirement were reduced.",
+      "ja": "ころがるのシールド持続時間が延び、スター☆リサイタルのCTとユナイトゲージ必要量が緩和された。"
+    },
+    "changes": [
+      {
+        "ko": "[구르기] 실드: 1초 → 2.5초",
+        "en": "[Rollout] Shield: 1s → 2.5s",
+        "ja": "[ころがる] シールド: 1秒 → 2.5秒"
+      },
+      {
+        "ko": "[스타☆리사이틀] 대기 시간: 112초 → 89초",
+        "en": "[Starlight Recital] Cooldown: 112s → 89s",
+        "ja": "[スター☆リサイタル] CT: 112秒 → 89秒"
+      },
+      {
+        "ko": "[스타☆리사이틀] 유나이트 기술 게이지 충전량: 100,000 → 80,000",
+        "en": "[Starlight Recital] Unite gauge charge required: 100,000 → 80,000",
+        "ja": "[スター☆リサイタル] ユナイトわざゲージ蓄積量: 100,000 → 80,000"
+      }
+    ]
+  },
+  {
+    "id": "pn-892",
+    "version": "2023.02.27",
+    "date": "2023-02-27",
+    "pokemonId": "140",
+    "type": "buff",
+    "types": [
+      "buff"
+    ],
+    "summary": {
+      "ko": "브레이브버드의 대기 시간이 단축됐다.",
+      "en": "Brave Bird's cooldown was shortened.",
+      "ja": "ブレイブバードのCTが短縮された。"
+    },
+    "changes": [
+      {
+        "ko": "[브레이브버드] 대기 시간 10초 → 8.5초",
+        "en": "[Brave Bird] Cooldown 10s → 8.5s",
+        "ja": "[ブレイブバード] CT 10秒 → 8.5秒"
       }
     ]
   },
@@ -23528,6 +24539,43 @@
     ]
   },
   {
+    "id": "pn-873",
+    "version": "2022.09.28",
+    "date": "2022-09-28",
+    "pokemonId": "144",
+    "type": "buff",
+    "types": [
+      "buff"
+    ],
+    "summary": {
+      "ko": "막치기 데미지가 상향되고 매지컬샤인·스타☆리사이틀의 대기 시간 및 유나이트 게이지 요구량이 완화되었다.",
+      "en": "Pound damage was increased, and cooldowns for Dazzling Gleam and Starlight Recital plus its Unite gauge requirement were reduced.",
+      "ja": "はたくのダメージが上方修正され、マジカルシャイン・スター☆リサイタルのCTとユナイトゲージ必要量が緩和された。"
+    },
+    "changes": [
+      {
+        "ko": "[막치기] 타격당 데미지: 특수공격의 31% + 18×(레벨-1) + 340 → 특수공격의 35% + 21×(레벨-1) + 390",
+        "en": "[Pound] Damage per hit: Sp. Atk 31% + 18×(Lv-1) + 340 → Sp. Atk 35% + 21×(Lv-1) + 390",
+        "ja": "[はたく] 1ヒットダメージ: 特攻の31% + 18×(レベル-1) + 340 → 特攻の35% + 21×(レベル-1) + 390"
+      },
+      {
+        "ko": "[매지컬샤인] 대기 시간: 4.5초 → 4초",
+        "en": "[Dazzling Gleam] Cooldown: 4.5s → 4s",
+        "ja": "[マジカルシャイン] CT: 4.5秒 → 4秒"
+      },
+      {
+        "ko": "[스타☆리사이틀] 대기 시간: 134초 → 112초",
+        "en": "[Starlight Recital] Cooldown: 134s → 112s",
+        "ja": "[スター☆リサイタル] CT: 134秒 → 112秒"
+      },
+      {
+        "ko": "[스타☆리사이틀] 유나이트 기술 게이지 충전량: 120,000 → 100,000",
+        "en": "[Starlight Recital] Unite gauge charge required: 120,000 → 100,000",
+        "ja": "[スター☆リサイタル] ユナイトわざゲージ蓄積量: 120,000 → 100,000"
+      }
+    ]
+  },
+  {
     "id": "pn-092",
     "version": "2022.09.15",
     "date": "2022-09-15",
@@ -23978,6 +25026,90 @@
         "ko": "[파워스왑] 신규 추가: 명중한 포켓몬과 자신을 연결한다. 같은 편과 연결 시 이동 속도·데미지 증가와 HP 회복, 상대편과 연결 시 이동 속도·데미지 감소와 지속 데미지를 준다.",
         "en": "[Power Swap] New move: links the user to the Pokémon hit. Linking with an ally raises movement speed and damage and restores HP; linking with an opponent lowers movement speed and damage and deals damage over time.",
         "ja": "[パワースワップ] 新規追加: 命中したポケモンと自身を接続する。味方と接続すると移動速度・ダメージ上昇とHP回復、相手と接続すると移動速度・ダメージ減少と継続ダメージを与える。"
+      }
+    ]
+  },
+  {
+    "id": "pn-861",
+    "version": "2022.09.02",
+    "date": "2022-09-02",
+    "pokemonId": "142",
+    "type": "nerf",
+    "types": [
+      "nerf"
+    ],
+    "summary": {
+      "ko": "악의파동과 원시의힘, 리슬램페이지가 하향 조정되었다.",
+      "en": "Dark Pulse, Ancient Power, and Tyrannical Rampage were nerfed.",
+      "ja": "あくのはどう・げんしのちから・バンギラスラムページが下方修正された。"
+    },
+    "changes": [
+      {
+        "ko": "[악의파동] 데미지: 공격의 196% + 16×(레벨-1) + 390 → 공격의 182% + 15×(레벨-1) + 360",
+        "en": "[Dark Pulse] Damage: 196% of Attack + 16×(Lv-1) + 390 → 182% of Attack + 15×(Lv-1) + 360",
+        "ja": "[あくのはどう] ダメージ: 攻撃の196% + 16×(レベル-1) + 390 → 攻撃の182% + 15×(レベル-1) + 360"
+      },
+      {
+        "ko": "[악의파동] 추가 데미지: 공격의 58.8% + 5×(레벨-1) + 117 → 공격의 54.6% + 5×(레벨-1) + 108",
+        "en": "[Dark Pulse] Bonus damage: 58.8% of Attack + 5×(Lv-1) + 117 → 54.6% of Attack + 5×(Lv-1) + 108",
+        "ja": "[あくのはどう] 追加ダメージ: 攻撃の58.8% + 5×(レベル-1) + 117 → 攻撃の54.6% + 5×(レベル-1) + 108"
+      },
+      {
+        "ko": "[원시의힘] 실드(최대 3회): 공격의 100% + 400 → 공격의 75% + 300",
+        "en": "[Ancient Power] Shield (up to 3 times): 100% of Attack + 400 → 75% of Attack + 300",
+        "ja": "[げんしのちから] シールド(最大3回): 攻撃の100% + 400 → 攻撃の75% + 300"
+      },
+      {
+        "ko": "[원시의힘] 이동 속도 증가(최대 3회): 이동 속도의 30% → 이동 속도의 20%",
+        "en": "[Ancient Power] Movement speed increase (up to 3 times): 30% of Movement Speed → 20% of Movement Speed",
+        "ja": "[げんしのちから] 移動速度増加(最大3回): 移動速度の30% → 移動速度の20%"
+      },
+      {
+        "ko": "[리슬램페이지] 사용하는 동안 일반 공격이 급소에 명중하지 않도록 변경",
+        "en": "[Tyrannical Rampage] Basic attacks can no longer land critical hits while active",
+        "ja": "[バンギラスラムページ] 使用中はノーマルアタックが急所に命中しないように変更"
+      }
+    ]
+  },
+  {
+    "id": "pn-872",
+    "version": "2022.09.02",
+    "date": "2022-09-02",
+    "pokemonId": "144",
+    "type": "adjust",
+    "types": [
+      "adjust"
+    ],
+    "summary": {
+      "ko": "모든 기술의 급소율이 삭제되고 일반 공격이 물리 데미지로 변경된 반면, 구르기와 연속뺨치기는 상향되었다.",
+      "en": "Critical-hit rate was removed from all moves and Basic Attack was changed to physical damage, while Rollout and Double Slap were buffed.",
+      "ja": "全わざの急所率が削除され通常攻撃が物理ダメージに変更された一方、ころがるとれんぞくビンタは上方修正された。"
+    },
+    "changes": [
+      {
+        "ko": "[능력치] 모든 기술의 급소율 삭제",
+        "en": "[Stats] Critical-hit rate removed from all moves",
+        "ja": "[能力値] 全わざの急所率を削除"
+      },
+      {
+        "ko": "[일반 공격] 물리 데미지를 입히도록 변경 (강화 공격은 특수 데미지 유지)",
+        "en": "[Basic Attack] Changed to deal physical damage (enhanced attack still deals special damage)",
+        "ja": "[通常攻撃] 物理ダメージを与えるよう変更（強化アタックは特殊ダメージのまま）"
+      },
+      {
+        "ko": "[구르기] 구르고 튕겨나가기까지의 위치가 표시됨",
+        "en": "[Rollout] Now displays the bounce-off position",
+        "ja": "[ころがる] 転がって跳ね返るまでの位置が表示されるようになった"
+      },
+      {
+        "ko": "[연속뺨치기] 대기 시간: 5초 → 4.5초",
+        "en": "[Double Slap] Cooldown: 5s → 4.5s",
+        "ja": "[れんぞくビンタ] CT: 5秒 → 4.5秒"
+      },
+      {
+        "ko": "[연속뺨치기] 타격당 데미지: 특수공격의 18% + 9×(레벨-1) + 200 → 특수공격의 21% + 11×(레벨-1) + 240",
+        "en": "[Double Slap] Damage per hit: Sp. Atk 18% + 9×(Lv-1) + 200 → Sp. Atk 21% + 11×(Lv-1) + 240",
+        "ja": "[れんぞくビンタ] 1ヒットダメージ: 特攻の18% + 9×(レベル-1) + 200 → 特攻の21% + 11×(レベル-1) + 240"
       }
     ]
   },
@@ -25450,6 +26582,48 @@
     ]
   },
   {
+    "id": "pn-891",
+    "version": "2022.04.28",
+    "date": "2022-04-28",
+    "pokemonId": "140",
+    "type": "nerf",
+    "types": [
+      "nerf"
+    ],
+    "summary": {
+      "ko": "브레이브버드의 범위와 데미지가 감소하고, 플레어스위퍼의 대기 시간과 게이지 충전량, 데미지가 하향됐다.",
+      "en": "Brave Bird's range and damage were reduced, and Flame Sweep's cooldown, gauge charge, and damage were lowered.",
+      "ja": "ブレイブバードの範囲とダメージが減少し、フレアスイーパーのCT・ゲージチャージ量・ダメージが下方修正された。"
+    },
+    "changes": [
+      {
+        "ko": "[브레이브버드] 원형 범위 크기 감소",
+        "en": "[Brave Bird] Circular area size reduced",
+        "ja": "[ブレイブバード] 円形範囲の大きさ減少"
+      },
+      {
+        "ko": "[브레이브버드] 데미지 공격의 230%+21×(레벨-1)+940 → 공격의 230%+18×(레벨-1)+800",
+        "en": "[Brave Bird] Damage 230% of Attack+21×(Lv-1)+940 → 230% of Attack+18×(Lv-1)+800",
+        "ja": "[ブレイブバード] ダメージ 攻撃の230%+21×(レベル-1)+940 → 攻撃の230%+18×(レベル-1)+800"
+      },
+      {
+        "ko": "[플레어스위퍼] 대기 시간 89초 → 100초",
+        "en": "[Flame Sweep] Cooldown 89s → 100s",
+        "ja": "[フレアスイーパー] CT 89秒 → 100秒"
+      },
+      {
+        "ko": "[플레어스위퍼] 유나이트 기술 게이지 충전량 80,000 → 90,000",
+        "en": "[Flame Sweep] Unite gauge charge 80,000 → 90,000",
+        "ja": "[フレアスイーパー] ユナイト技ゲージチャージ量 80,000 → 90,000"
+      },
+      {
+        "ko": "[플레어스위퍼] 데미지 공격의 146%+12×(레벨-1)+600 → 공격의 124%+11×(레벨-1)+510",
+        "en": "[Flame Sweep] Damage 146% of Attack+12×(Lv-1)+600 → 124% of Attack+11×(Lv-1)+510",
+        "ja": "[フレアスイーパー] ダメージ 攻撃の146%+12×(レベル-1)+600 → 攻撃の124%+11×(レベル-1)+510"
+      }
+    ]
+  },
+  {
     "id": "pn-307",
     "version": "2022.04.27",
     "date": "2022-04-27",
@@ -26578,6 +27752,43 @@
     ]
   },
   {
+    "id": "pn-890",
+    "version": "2022.01.20",
+    "date": "2022-01-20",
+    "pokemonId": "140",
+    "type": "adjust",
+    "types": [
+      "adjust"
+    ],
+    "summary": {
+      "ko": "제비반환에 HP 회복 효과가, 공중날기에 명중 시 대기 시간 감소 효과가 추가됐으나, 공중날기의 데미지가 감소하고 대기 시간이 늘어났다.",
+      "en": "Aerial Ace gained an HP recovery effect and Fly gained cooldown reduction on hit, but Fly's damage was reduced and its cooldown increased.",
+      "ja": "つばめがえしにHP回復効果、そらをとぶに命中時のCT減少効果が追加されたが、そらをとぶのダメージが減少しCTが増加した。"
+    },
+    "changes": [
+      {
+        "ko": "[제비반환] HP 회복 효과 추가",
+        "en": "[Aerial Ace] Added HP recovery effect",
+        "ja": "[つばめがえし] HP回復効果を追加"
+      },
+      {
+        "ko": "[공중날기] 데미지 공격의 255%+24×(레벨-1)+1050 → 공격의 221%+21×(레벨-1)+910",
+        "en": "[Fly] Damage 255% of Attack+24×(Lv-1)+1050 → 221% of Attack+21×(Lv-1)+910",
+        "ja": "[そらをとぶ] ダメージ 攻撃の255%+24×(レベル-1)+1050 → 攻撃の221%+21×(レベル-1)+910"
+      },
+      {
+        "ko": "[공중날기] 대기 시간 9초 → 12초",
+        "en": "[Fly] Cooldown 9s → 12s",
+        "ja": "[そらをとぶ] CT 9秒 → 12秒"
+      },
+      {
+        "ko": "[공중날기] 상대 팀 포켓몬에게 명중 시 대기 시간 감소 효과 추가",
+        "en": "[Fly] Added cooldown reduction when hitting an opposing Pokémon",
+        "ja": "[そらをとぶ] 相手チームのポケモンに命中時のCT減少効果を追加"
+      }
+    ]
+  },
+  {
     "id": "pn-305",
     "version": "2021.12.21",
     "date": "2021-12-21",
@@ -26928,6 +28139,33 @@
         "ko": "[망각술] 망각술+ 특수공격 증가 효과 → 특수방어 증가 효과 대체",
         "en": "[Amnesia] Amnesia+'s Sp. Atk increase effect replaced with a Sp. Def increase effect",
         "ja": "[わすれる] わすれる+ の特攻上昇効果が特防上昇効果に置き換え"
+      }
+    ]
+  },
+  {
+    "id": "pn-871",
+    "version": "2021.12.20",
+    "date": "2021-12-20",
+    "pokemonId": "144",
+    "type": "nerf",
+    "types": [
+      "nerf"
+    ],
+    "summary": {
+      "ko": "스타☆리사이틀의 실드량과 지속 시간이 하향되었다.",
+      "en": "Starlight Recital's shield amount and duration were reduced.",
+      "ja": "スター☆リサイタルのシールド量と持続時間が下方修正された。"
+    },
+    "changes": [
+      {
+        "ko": "[스타☆리사이틀] 실드: 약 33% 감소",
+        "en": "[Starlight Recital] Shield: reduced by about 33%",
+        "ja": "[スター☆リサイタル] シールド: 約33%減少"
+      },
+      {
+        "ko": "[스타☆리사이틀] 지속 시간: 4초 → 3초",
+        "en": "[Starlight Recital] Duration: 4s → 3s",
+        "ja": "[スター☆リサイタル] 持続時間: 4秒 → 3秒"
       }
     ]
   },
@@ -27327,6 +28565,33 @@
         "ko": "[쾅쾅프레스] 습득 레벨 10 → 9",
         "en": "[Mammoth Mash] Unlock level 10 → 9",
         "ja": "[ドカドカプレス] 習得レベル 10 → 9"
+      }
+    ]
+  },
+  {
+    "id": "pn-889",
+    "version": "2021.12.09",
+    "date": "2021-12-09",
+    "pokemonId": "140",
+    "type": "adjust",
+    "types": [
+      "adjust"
+    ],
+    "summary": {
+      "ko": "제비반환의 대기 시간이 단축됐으나 공중날기의 이동 속도 증가 효과가 하향됐다.",
+      "en": "Aerial Ace's cooldown was shortened, but Fly's movement speed increase was lowered.",
+      "ja": "つばめがえしのCTが短縮されたが、そらをとぶの移動速度上昇が下方修正された。"
+    },
+    "changes": [
+      {
+        "ko": "[제비반환] 대기 시간 6초 → 5초",
+        "en": "[Aerial Ace] Cooldown 6s → 5s",
+        "ja": "[つばめがえし] CT 6秒 → 5秒"
+      },
+      {
+        "ko": "[공중날기] 이동 속도 증가: 감소",
+        "en": "[Fly] Movement speed increase: decreased",
+        "ja": "[そらをとぶ] 移動速度上昇: 減少"
       }
     ]
   },
@@ -28095,6 +29360,90 @@
     ]
   },
   {
+    "id": "pn-870",
+    "version": "2021.09.22",
+    "date": "2021-09-22",
+    "pokemonId": "144",
+    "type": "nerf",
+    "types": [
+      "nerf"
+    ],
+    "summary": {
+      "ko": "특수공격이 전반적으로 감소하고 막치기·매지컬샤인 데미지와 헤롱헤롱바디가 하향되었다.",
+      "en": "Sp. Atk was reduced overall, and Pound, Dazzling Gleam damage, and Cute Charm were nerfed.",
+      "ja": "特攻が全体的に減少し、はたく・マジカルシャインのダメージとメロメロボディが下方修正された。"
+    },
+    "changes": [
+      {
+        "ko": "[특수공격] 전반적으로 감소",
+        "en": "[Sp. Atk] Reduced overall",
+        "ja": "[特攻] 全体的に減少"
+      },
+      {
+        "ko": "[막치기] 타격당 데미지: 특수공격의 36% + 22×(레벨-1) + 400 → 특수공격의 31% + 18×(레벨-1) + 340",
+        "en": "[Pound] Damage per hit: Sp. Atk 36% + 22×(Lv-1) + 400 → Sp. Atk 31% + 18×(Lv-1) + 340",
+        "ja": "[はたく] 1ヒットダメージ: 特攻の36% + 22×(レベル-1) + 400 → 特攻の31% + 18×(レベル-1) + 340"
+      },
+      {
+        "ko": "[매지컬샤인] 1단계 데미지: 특수공격의 15% + 7×(레벨-1) + 166 → 특수공격의 13% + 6×(레벨-1) + 144",
+        "en": "[Dazzling Gleam] 1st hit damage: Sp. Atk 15% + 7×(Lv-1) + 166 → Sp. Atk 13% + 6×(Lv-1) + 144",
+        "ja": "[マジカルシャイン] 1段階ダメージ: 特攻の15% + 7×(レベル-1) + 166 → 特攻の13% + 6×(レベル-1) + 144"
+      },
+      {
+        "ko": "[매지컬샤인] 2단계 데미지: 특수공격의 75% + 38×(레벨-1) + 830 → 특수공격의 65% + 33×(레벨-1) + 720",
+        "en": "[Dazzling Gleam] 2nd hit damage: Sp. Atk 75% + 38×(Lv-1) + 830 → Sp. Atk 65% + 33×(Lv-1) + 720",
+        "ja": "[マジカルシャイン] 2段階ダメージ: 特攻の75% + 38×(レベル-1) + 830 → 特攻の65% + 33×(レベル-1) + 720"
+      },
+      {
+        "ko": "[헤롱헤롱바디] 대기 시간: 10초로 변경, 대기 시간 감소 효과 삭제",
+        "en": "[Cute Charm] Cooldown: set to 10s, cooldown reduction effect removed",
+        "ja": "[メロメロボディ] CT: 10秒に変更、CT減少効果を削除"
+      }
+    ]
+  },
+  {
+    "id": "pn-888",
+    "version": "2021.09.22",
+    "date": "2021-09-22",
+    "pokemonId": "140",
+    "type": "adjust",
+    "types": [
+      "adjust"
+    ],
+    "summary": {
+      "ko": "공격 능력치가 전반적으로 증가하고 공중날기 대기 시간이 단축됐다. 플레어스위퍼의 대기 시간과 유나이트 기술 게이지 충전량이 감소한 반면 공중날기의 이동 속도 증가는 하향됐다.",
+      "en": "Attack was increased across levels and Fly's cooldown was shortened. Flame Sweep's cooldown and Unite gauge charge were reduced, while Fly's movement speed increase was lowered.",
+      "ja": "攻撃が全体的に増加し、そらをとぶのCTが短縮された。フレアスイーパーのCTとユナイト技ゲージチャージ量が減少した一方、そらをとぶの移動速度上昇は下方修正された。"
+    },
+    "changes": [
+      {
+        "ko": "[공격] 전반적으로 증가 (Lv1 170→200, Lv15 623→681)",
+        "en": "[Attack] Increased overall (Lv1 170→200, Lv15 623→681)",
+        "ja": "[攻撃] 全体的に増加 (Lv1 170→200, Lv15 623→681)"
+      },
+      {
+        "ko": "[공중날기] 대기 시간 11초 → 9초",
+        "en": "[Fly] Cooldown 11s → 9s",
+        "ja": "[そらをとぶ] CT 11秒 → 9秒"
+      },
+      {
+        "ko": "[공중날기] 이동 속도 증가: 증가",
+        "en": "[Fly] Movement speed increase: increased",
+        "ja": "[そらをとぶ] 移動速度上昇: 増加"
+      },
+      {
+        "ko": "[플레어스위퍼] 대기 시간 감소",
+        "en": "[Flame Sweep] Cooldown reduced",
+        "ja": "[フレアスイーパー] CT減少"
+      },
+      {
+        "ko": "[플레어스위퍼] 유나이트 기술 게이지 충전량 감소",
+        "en": "[Flame Sweep] Unite gauge charge reduced",
+        "ja": "[フレアスイーパー] ユナイト技ゲージチャージ量減少"
+      }
+    ]
+  },
+  {
     "id": "pn-660",
     "version": "2021.09.08",
     "date": "2021-09-08",
@@ -28710,6 +30059,80 @@
         "ko": "[크로스촙] 데미지 공격의 152.5% + 352 → 공격의 98% + 13×(레벨-1) + 277",
         "en": "[Cross Chop] Damage 152.5% Attack + 352 → 98% Attack + 13×(Lv-1) + 277",
         "ja": "[クロスチョップ] ダメージ こうげきの152.5% + 352 → こうげきの98% + 13×(レベル-1) + 277"
+      }
+    ]
+  },
+  {
+    "id": "pn-869",
+    "version": "2021.08.04",
+    "date": "2021-08-04",
+    "pokemonId": "144",
+    "type": "buff",
+    "types": [
+      "buff"
+    ],
+    "summary": {
+      "ko": "방어·특수방어·HP 능력치가 상향되고, 연속뺨치기 데미지와 노래하기 잠듦 지속 시간이 늘어났다.",
+      "en": "Defense, Sp. Def, and HP were increased, along with Double Slap damage and Sing's sleep duration.",
+      "ja": "防御・特防・HPが上方修正され、れんぞくビンタのダメージとうたうのねむり時間が増加した。"
+    },
+    "changes": [
+      {
+        "ko": "[방어] 200 → 539",
+        "en": "[Defense] 200 → 539",
+        "ja": "[防御] 200 → 539"
+      },
+      {
+        "ko": "[특수방어] 149 → 482",
+        "en": "[Sp. Def] 149 → 482",
+        "ja": "[特防] 149 → 482"
+      },
+      {
+        "ko": "[HP] 8002 → 9452",
+        "en": "[HP] 8002 → 9452",
+        "ja": "[HP] 8002 → 9452"
+      },
+      {
+        "ko": "[연속뺨치기] 타격당 데미지: 특수공격의 15% + 7×(레벨-1) + 160 → 특수공격의 18% + 9×(레벨-1) + 200",
+        "en": "[Double Slap] Damage per hit: Sp. Atk 15% + 7×(Lv-1) + 160 → Sp. Atk 18% + 9×(Lv-1) + 200",
+        "ja": "[れんぞくビンタ] 1ヒットダメージ: 特攻の15% + 7×(レベル-1) + 160 → 特攻の18% + 9×(レベル-1) + 200"
+      },
+      {
+        "ko": "[노래하기] 잠듦 상태 지속: 1초 → 1.5초",
+        "en": "[Sing] Sleep duration: 1s → 1.5s",
+        "ja": "[うたう] ねむり状態: 1秒 → 1.5秒"
+      }
+    ]
+  },
+  {
+    "id": "pn-887",
+    "version": "2021.08.04",
+    "date": "2021-08-04",
+    "pokemonId": "140",
+    "type": "buff",
+    "types": [
+      "buff"
+    ],
+    "summary": {
+      "ko": "애크러뱃, 제비반환, 공중날기의 데미지가 증가했다.",
+      "en": "Acrobatics, Aerial Ace, and Fly deal increased damage.",
+      "ja": "アクロバット、つばめがえし、そらをとぶのダメージが増加した。"
+    },
+    "changes": [
+      {
+        "ko": "[애크러뱃] 데미지 공격의 %+11×(레벨-1)+249 → 공격의 %+14×(레벨-1)+336",
+        "en": "[Acrobatics] Damage %+11×(Lv-1)+249 of Attack → %+14×(Lv-1)+336 of Attack",
+        "ja": "[アクロバット] ダメージ 攻撃の%+11×(レベル-1)+249 → 攻撃の%+14×(レベル-1)+336"
+      },
+      {
+        "ko": "[제비반환] 데미지 공격의 57%+3×(레벨-1)+97 → 공격의 75%+6×(레벨-1)+194",
+        "en": "[Aerial Ace] Damage 57% of Attack+3×(Lv-1)+97 → 75% of Attack+6×(Lv-1)+194",
+        "ja": "[つばめがえし] ダメージ 攻撃の57%+3×(レベル-1)+97 → 攻撃の75%+6×(レベル-1)+194"
+      },
+      {
+        "ko": "[공중날기] 데미지 공격의 199%+19×(레벨-1)+801 → 공격의 255%+24×(레벨-1)+1026",
+        "en": "[Fly] Damage 199% of Attack+19×(Lv-1)+801 → 255% of Attack+24×(Lv-1)+1026",
+        "ja": "[そらをとぶ] ダメージ 攻撃の199%+19×(レベル-1)+801 → 攻撃の255%+24×(レベル-1)+1026"
       }
     ]
   },
