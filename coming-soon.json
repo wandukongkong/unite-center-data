@@ -13,19 +13,6 @@
     "releaseDate": "2026-09-24"
   },
   {
-    "id": "cs_morpeko",
-    "name": {
-      "ko": "모르페코",
-      "en": "Morpeko",
-      "ja": "モルペコ"
-    },
-    "role": "Speed",
-    "difficulty": "Novice",
-    "spriteId": 877,
-    "roleConfirmed": true,
-    "releaseDate": "2026-09-04"
-  },
-  {
     "id": "cs_jolteon",
     "name": {
       "ko": "쥬피썬더",
