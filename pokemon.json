@@ -18273,10 +18273,17 @@
       "ja": "モルペコ"
     },
     "role": "Speed",
-    "attackType": "unknown",
+    "attackType": "physical",
     "difficulty": "Intermediate",
     "imageUrl": "https://placehold.co/80x80/CCCCCC/FFF?text=MOR",
     "skills": {
+      "basicAttack": {
+        "description": {
+          "ko": "3번째 일반 공격은 강화 공격이 되어 상대편 포켓몬을 주먹으로 공격한다. 강화 공격이 명중하면 이동 속도가 2초 동안 50% 오르며, 0.5초마다 10%씩 감소한다.",
+          "ja": "3回目の通常攻撃は強化攻撃になり、相手のポケモンをこぶしで攻撃する。強化攻撃が命中すると移動速度が2秒間50%上がり、0.5秒ごとに10%ずつ減少する。",
+          "en": "The user punches at opposing Pokémon, with every third attack becoming a boosted attack. When the boosted attack lands, the user's movement speed increases by 50% for 2s, decaying by 10% every 0.5s."
+        }
+      },
       "passive": {
         "name": {
           "ko": "꼬르륵스위치",
@@ -18284,12 +18291,48 @@
           "en": "Hunger Switch"
         },
         "description": {
-          "ko": "만복 게이지에 따라 모습이 변하며 기술의 효과도 함께 변한다. 모습이 변하면 기술 대기 시간이 0초가 된다. 또한 나무열매를 먹으면 게이지가 증가한다. [배부른 모양] 이 모습이 되었을 때 자신의 HP를 조금 회복한다. 기술을 사용하거나 시간이 지나면 게이지가 줄고, 0이 되면 성격이 거칠어져서 '배고픈 모양'으로 변한다. [배고픈 모양] 이 모습이 되었을 때 주위에 있는 상대편 포켓몬을 공포 상태로 만들고, 이동 속도가 조금 오른다. 시간이 지나면 게이지가 증가하며, 가득 차면 주머니에 넣어 둔 씨앗을 먹고 '배부른 모양'으로 변한다.",
-          "ja": "まんぷくゲージに応じて姿が変わり、わざの効果も変化する。姿が変わるとわざの待ち時間が0秒になる。また、きのみを食べるとゲージが増加する。【まんぷくもよう】この姿になったとき、自身のHPを少し回復する。わざを使ったり時間が経過したりするとゲージが減り、0になると気が荒くなって「はらぺこもよう」に変わる。【はらぺこもよう】この姿になったとき、周囲にいる相手のポケモンを恐怖状態にし、移動速度が少し上がる。時間が経過するとゲージが増え、満タンになるとポケットに入れておいたタネを食べて「まんぷくもよう」に変わる。",
-          "en": "Morpeko's form changes with its fullness gauge, and its move effects change along with it. When the form changes, its move cooldown becomes 0s. Eating a Berry also increases the gauge. [Full Belly Mode] On entering this form, Morpeko restores a little of its own HP. Using a move or the passage of time drains the gauge; when it reaches 0, Morpeko grows ill-tempered and switches to Hangry Mode. [Hangry Mode] On entering this form, it inflicts fear on nearby opposing Pokémon and its movement speed rises slightly. Over time the gauge refills, and when it is full Morpeko eats the seed stored in its pouch and switches back to Full Belly Mode."
+          "ko": "만복 게이지에 따라 모습이 변하며 기술의 효과도 함께 변한다. 모습이 변하면 해당 모양의 기술 대기 시간이 0초가 된다. 나무열매를 먹으면 게이지가 1 증가한다. [배부른 모양] 이 모습이 될 때 자신의 HP를 조금 회복한다. 기술을 사용하거나 12초가 지날 때마다 게이지가 줄고, 0이 되면 성격이 거칠어져 '배고픈 모양'으로 변한다. [배고픈 모양] 이 모습이 될 때 주위에 있는 상대편 포켓몬을 1초 동안 공포 상태로 만들고, 이동 속도가 20% 오른다. 3초마다 게이지가 증가하며, 가득 차면 주머니에 넣어 둔 씨앗을 먹고 '배부른 모양'으로 변한다.",
+          "ja": "まんぷくゲージに応じて姿が変わり、わざの効果も変化する。姿が変わるとその姿のわざの待ち時間が0秒になる。きのみを食べるとゲージが1増加する。【まんぷくもよう】この姿になったとき、自身のHPを少し回復する。わざを使ったり12秒経過するごとにゲージが減り、0になると気が荒くなって「はらぺこもよう」に変わる。【はらぺこもよう】この姿になったとき、周囲にいる相手のポケモンを1秒間恐怖状態にし、移動速度が20%上がる。3秒ごとにゲージが増え、満タンになるとポケットに入れておいたタネを食べて「まんぷくもよう」に変わる。",
+          "en": "Morpeko's form changes with its fullness gauge, and its move effects change along with it. Changing form resets the cooldowns of that form's moves to 0s. Eating a Berry increases the gauge by 1. [Full Belly Mode] On entering this form, Morpeko restores a little of its own HP. Using a move or every 12s drains the gauge; when it reaches 0, Morpeko grows ill-tempered and switches to Hangry Mode. [Hangry Mode] On entering this form, it inflicts fear on nearby opposing Pokémon for 1s and its movement speed rises by 20%. The gauge refills every 3s, and when full Morpeko eats the seed stored in its pouch and switches back to Full Belly Mode."
         }
       },
       "moves": [
+        {
+          "id": "thunder_shock",
+          "name": {
+            "ko": "전기쇼크",
+            "ja": "でんきショック",
+            "en": "Thunder Shock"
+          },
+          "category": "active",
+          "cooldown": 6,
+          "unlockedAtLevel": 1,
+          "upgradedAtLevel": null,
+          "description": {
+            "ko": "지정한 대상에게 전기 충격을 날려 좁은 범위에 데미지를 주고 1초 동안 마비시킨다. 마비 상태에서는 이동 속도가 30%, 공격 속도가 10% 감소한다.",
+            "ja": "指定した対象に電気の衝撃を放ち、狭い範囲にダメージを与えて1秒間まひさせる。まひ中は移動速度が30%、攻撃速度が10%低下する。",
+            "en": "The user attacks the designated target with a jolt of electricity, dealing damage in a small area and paralyzing opponents for 1s. This paralysis lowers movement speed by 30% and attack speed by a flat 10%."
+          },
+          "upgradeDescription": null
+        },
+        {
+          "id": "power_trip",
+          "name": {
+            "ko": "우쭐대기",
+            "ja": "つけあがる",
+            "en": "Power Trip"
+          },
+          "category": "active",
+          "cooldown": 5,
+          "unlockedAtLevel": 3,
+          "upgradedAtLevel": null,
+          "description": {
+            "ko": "지정한 방향으로 돌진하여 데미지를 주고 강화 공격을 준비한다.",
+            "ja": "指定した方向に突進してダメージを与え、強化攻撃を準備する。",
+            "en": "The user charges in the designated direction, dealing damage and readying a boosted attack."
+          },
+          "upgradeDescription": null
+        },
         {
           "id": "spark",
           "name": {
@@ -18298,7 +18341,19 @@
             "en": "Spark"
           },
           "category": "active",
-          "unlockedAtLevel": 5
+          "cooldown": 7,
+          "unlockedAtLevel": 5,
+          "upgradedAtLevel": 11,
+          "description": {
+            "ko": "지정한 대상에게 스파크를 날려 5초 동안 전기 마크를 부여하고, 좁은 범위에 데미지를 주며 4초 동안 마비시킨다(이동 속도 30%·공격 속도 10% 감소). [배부른 모양] 기술 대기 시간이 최대치의 50%만큼 줄고 2.5초 동안 재사용이 가능해지며, 재사용 시 마크된 대상에게 돌진하여 범위에 증가한 데미지를 준다. [배고픈 모양] 데미지를 받은 모든 상대편 포켓몬에게도 전기 마크를 부여한다.",
+            "ja": "指定した対象にスパークを放ち、5秒間電気マークを付与し、狭い範囲にダメージを与えて4秒間まひさせる（移動速度30%・攻撃速度10%低下）。【まんぷくもよう】わざの待ち時間が最大値の50%分短くなり、2.5秒間再使用が可能になる。再使用するとマークした対象に突進して範囲に増加したダメージを与える。【はらぺこもよう】ダメージを受けたすべての相手ポケモンにも電気マークを付与する。",
+            "en": "The user attacks the designated target with a spark, marking it with a bolt mark for 5s, dealing damage in a small area, and paralyzing opponents for 4s (movement speed -30%, attack speed -10%). [Full Belly Mode] The cooldown is lowered by 50% of its max and a recast becomes available for 2.5s; on recast the user charges to the marked Pokémon and deals increased area damage. [Hangry Mode] All opposing Pokémon that were damaged are also marked."
+          },
+          "upgradeDescription": {
+            "ko": "업그레이드 후에는 재사용 시 6초 동안 최대 HP의 20%에 해당하는 실드를 얻는다.",
+            "ja": "強化後は再使用時、6秒間最大HPの20%にあたるシールドを得る。",
+            "en": "Upgrade: When the recast is used, the user gains a shield equal to 20% of Max HP for 6s."
+          }
         },
         {
           "id": "assurance",
@@ -18308,22 +18363,46 @@
             "en": "Assurance"
           },
           "category": "active",
-          "unlockedAtLevel": 7
+          "cooldown": 5,
+          "unlockedAtLevel": 7,
+          "upgradedAtLevel": 13,
+          "description": {
+            "ko": "지정한 방향으로 돌진하여 데미지를 준다. 자신이 마비시킨 대상에게는 추가 데미지를 준다. [배고픈 모양] 전기 마크가 부여된 상대편 포켓몬에게 명중하면 기술 대기 시간이 초기화되고 마크를 소모한다.",
+            "ja": "指定した方向に突進してダメージを与える。自分がまひさせた対象には追加ダメージを与える。【はらぺこもよう】電気マークが付与された相手ポケモンに命中すると、わざの待ち時間がリセットされマークを消費する。",
+            "en": "The user charges in the designated direction, dealing damage. Additional damage is dealt if the target was paralyzed by the user. [Hangry Mode] If this move hits a Pokémon with a bolt mark, the cooldown is reset and the mark is consumed."
+          },
+          "upgradeDescription": {
+            "ko": "업그레이드 후에는 기술을 사용하면 반드시 급소에 맞는 강화 공격을 준비한다.",
+            "ja": "強化後はわざを使うと、必ず急所に当たる強化攻撃を準備する。",
+            "en": "Upgrade: When this move is used, the user readies a guaranteed critical-hit boosted attack."
+          }
         }
       ],
       "uniteMove": {
-        "id": "aura_wheel",
+        "id": "hungry_supercharge_wheel",
         "name": {
           "ko": "꼬르륵초전기휠",
-          "ja": "オーラぐるま",
-          "en": "Aura Wheel"
+          "ja": "ハラペコ超電ホイール",
+          "en": "Hungry Supercharge Wheel"
         },
+        "cooldown": 100,
         "unlockedAtLevel": 9,
         "description": {
-          "ko": "볼주머니에 모은 에너지를 방출하고 전기로 된 휠을 이용해 지정한 방향으로 돌진하여 공격한다. [배부른 모양 추가 효과] 명중한 상대편 포켓몬에게 데미지를 주고 잠시 동안 마비 상태로 만들어 행동 불가로 만든다. [배고픈 모양 추가 효과] 명중한 상대편 포켓몬에게 더욱 큰 데미지를 주고 전기 마크를 부여하며 잠시 동안 행동 불가로 만든다.",
-          "ja": "ほおぶくろにためたエネルギーを放出し、電気でできたホイールを使って指定した方向に突進して攻撃する。【まんぷくもよう追加効果】命中した相手のポケモンにダメージを与え、しばらくの間まひ状態にして行動不能にする。【はらぺこもよう追加効果】命中した相手のポケモンにさらに大きなダメージを与え、電気マークを付与し、しばらくの間行動不能にする。",
-          "en": "Releases the energy stored in its cheek pouches and charges in a designated direction on a wheel of electricity to attack. [Full Belly Mode bonus] Deals damage to opposing Pokémon hit, paralyzing them and rendering them unable to act for a short time. [Hangry Mode bonus] Deals even greater damage to opposing Pokémon hit, applies an electric mark, and renders them unable to act for a short time."
+          "ko": "저항 불가 상태가 되어 전기로 된 휠을 타고 지정한 방향으로 돌진하며 공격한다. 명중한 상대편 포켓몬에게 데미지를 주고 1초 동안 기절시킨다. [배부른 모양] 추가로 4초 동안 마비시킨다(이동 속도 30%·공격 속도 10% 감소). [배고픈 모양] 더 큰 데미지를 주고 5초 동안 전기 마크를 부여한다.",
+          "ja": "こうげきを受けてもひるまない状態になり、電気でできたホイールに乗って指定した方向に突進して攻撃する。命中した相手のポケモンにダメージを与え、1秒間気絶させる。【まんぷくもよう】さらに4秒間まひさせる（移動速度30%・攻撃速度10%低下）。【はらぺこもよう】より大きなダメージを与え、5秒間電気マークを付与する。",
+          "en": "The user becomes unstoppable and charges in the designated direction on a wheel of electricity, dealing damage to opposing Pokémon hit and stunning them for 1s. [Full Belly Mode] Also paralyzes them for 4s (movement speed -30%, attack speed -10%). [Hangry Mode] Deals increased damage and applies a bolt mark for 5s."
+        },
+        "buffs": {
+          "movementSpeedPct": 80,
+          "shieldPct": 20,
+          "durationMs": 6000,
+          "raw": "80% Movement Speed, 20% Max HP Shield"
         }
+      },
+      "passiveCondition": {
+        "type": "not-applicable",
+        "reason": "꼬르륵스위치=만복 게이지 기반 폼 토글(배부른↔배고픈). 폼 전환은 기술 쿨 초기화+부가효과(공포·전기마크·배고픈 이속+20%) 변화이며 스킬 딜 계수는 폼 무관으로 동일 → 자가 딜% 버프 아님. 유나이트기만 배고픈 모양에서 데미지 증가(U base 1040→1200).",
+        "isNew": true
       }
     }
   }

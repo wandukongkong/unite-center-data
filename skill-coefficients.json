@@ -7685,5 +7685,64 @@
       "base": "660",
       "slider": "0"
     }
+  },
+  "152": {
+    "_name": "모르페코 (Morpeko)",
+    "B": {
+      "ratio": "100",
+      "base": "0",
+      "slider": "0"
+    },
+    "X": {
+      "ratio": "125",
+      "base": "0",
+      "slider": "0"
+    },
+    "R": {
+      "ratio": "95",
+      "base": "380",
+      "slider": "0"
+    },
+    "R2": {
+      "ratio": "170",
+      "base": "360",
+      "slider": "0",
+      "addons": [
+        {
+          "ratio": "171",
+          "base": "684",
+          "slider": "0"
+        }
+      ]
+    },
+    "ZR": {
+      "ratio": "110",
+      "base": "440",
+      "slider": "0"
+    },
+    "ZR2": {
+      "ratio": "180",
+      "base": "720",
+      "slider": "0",
+      "addons": [
+        {
+          "ratio": "60",
+          "base": "240",
+          "slider": "0"
+        }
+      ]
+    },
+    "U": {
+      "ratio": "260",
+      "base": "1040",
+      "slider": "0",
+      "addons": [
+        {
+          "ratio": "260",
+          "base": "1200",
+          "slider": "0"
+        }
+      ]
+    }
   }
 }
