@@ -680,13 +680,13 @@
       "slider": "0"
     },
     "ZR": {
-      "ratio": "102",
-      "base": "153",
+      "ratio": "92",
+      "base": "138",
       "slider": "0"
     },
     "ZR2": {
-      "ratio": "269",
-      "base": "404",
+      "ratio": "224",
+      "base": "336",
       "slider": "0",
       "addons": [
         {
@@ -1036,9 +1036,9 @@
       "slider": "13"
     },
     "R1": {
-      "ratio": "40",
-      "base": "208",
-      "slider": "9"
+      "ratio": "44",
+      "base": "229",
+      "slider": "10"
     },
     "R2": {
       "ratio": "66",
@@ -1636,9 +1636,9 @@
       "slider": "7"
     },
     "R1": {
-      "ratio": "135",
-      "base": "210",
-      "slider": "8",
+      "ratio": "122",
+      "base": "189",
+      "slider": "7",
       "addons": [
         {
           "ratio": "15",
@@ -4049,9 +4049,9 @@
       ]
     },
     "R1": {
-      "ratio": "80",
-      "base": "420",
-      "slider": "24",
+      "ratio": "84",
+      "base": "441",
+      "slider": "25",
       "addons": [
         {
           "ratio": "",
@@ -4071,19 +4071,19 @@
       "slider": "11"
     },
     "ZR1": {
-      "ratio": "15",
-      "base": "150",
+      "ratio": "16",
+      "base": "162",
       "slider": "3"
     },
     "ZR2": {
-      "ratio": "50",
-      "base": "500",
-      "slider": "12"
+      "ratio": "55",
+      "base": "550",
+      "slider": "13"
     },
     "U": {
-      "ratio": "45.1",
-      "base": "450",
-      "slider": "9"
+      "ratio": "49",
+      "base": "486",
+      "slider": "10"
     }
   },
   "104": {
