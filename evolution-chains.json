@@ -1196,5 +1196,26 @@
         "evolutionLevel": 7
       }
     ]
+  },
+  {
+    "pokemonId": "99",
+    "evolutionChain": [
+      {
+        "stage": 1,
+        "dexNumber": 133,
+        "nameJa": "イーブイ",
+        "nameEn": "Eevee",
+        "nameKo": "이브이",
+        "evolutionLevel": null
+      },
+      {
+        "stage": 2,
+        "dexNumber": 471,
+        "nameJa": "グレイシア",
+        "nameEn": "Glaceon",
+        "nameKo": "글레이시아",
+        "evolutionLevel": 4
+      }
+    ]
   }
 ]

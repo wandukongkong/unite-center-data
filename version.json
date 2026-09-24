@@ -4,7 +4,7 @@
   "patchNotes": "1.0.35",
   "heldItems": "1.0.2",
   "stats": "1.0.15",
-  "evolutionChains": "1.0.9",
+  "evolutionChains": "1.0.10",
   "skillCoefficients": "1.0.22",
   "builds": "1.0.3",
   "counts": {
@@ -13,7 +13,7 @@
     "patchNotes": 945,
     "heldItems": 40,
     "stats": 100,
-    "evolutionChains": 54,
+    "evolutionChains": 55,
     "skillCoefficients": 100
   }
 }
