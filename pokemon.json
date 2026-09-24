@@ -18405,5 +18405,19 @@
         "isNew": true
       }
     }
+  },
+  {
+    "id": "153",
+    "spriteId": 849,
+    "name": {
+      "ko": "스트린더",
+      "en": "Toxtricity",
+      "ja": "ストリンダー"
+    },
+    "role": "Attack",
+    "attackType": "unknown",
+    "difficulty": "unknown",
+    "imageUrl": "https://placehold.co/80x80/CCCCCC/FFF?text=TOX",
+    "releasedAt": "2026-09-24"
   }
 ]

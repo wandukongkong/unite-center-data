@@ -1,18 +1,5 @@
 [
   {
-    "id": "cs_toxtricity",
-    "name": {
-      "ko": "스트린더",
-      "en": "Toxtricity",
-      "ja": "ストリンダー"
-    },
-    "role": "Attack",
-    "difficulty": "Novice",
-    "spriteId": 849,
-    "roleConfirmed": true,
-    "releaseDate": "2026-09-24"
-  },
-  {
     "id": "cs_jolteon",
     "name": {
       "ko": "쥬피썬더",
