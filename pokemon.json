@@ -5967,7 +5967,7 @@
             "en": "Astonish"
           },
           "category": "active",
-          "cooldown": 6,
+          "cooldown": 7,
           "unlockedAtLevel": 1,
           "upgradedAtLevel": null,
           "description": {
@@ -6003,7 +6003,7 @@
             "en": "Play Rough"
           },
           "category": "active",
-          "cooldown": 8,
+          "cooldown": 7.5,
           "unlockedAtLevel": 5,
           "upgradedAtLevel": 11,
           "description": {
@@ -6047,7 +6047,7 @@
             "en": "Shadow Sneak"
           },
           "category": "active",
-          "cooldown": 10,
+          "cooldown": 9.5,
           "unlockedAtLevel": 7,
           "upgradedAtLevel": 13,
           "description": {
@@ -6191,7 +6191,7 @@
             "en": "Future Sight"
           },
           "category": "active",
-          "cooldown": 8,
+          "cooldown": 8.5,
           "unlockedAtLevel": 5,
           "upgradedAtLevel": 11,
           "description": {
@@ -6257,7 +6257,7 @@
             "en": "Teleport"
           },
           "category": "active",
-          "cooldown": 10,
+          "cooldown": 12,
           "unlockedAtLevel": 7,
           "upgradedAtLevel": 13,
           "description": {
