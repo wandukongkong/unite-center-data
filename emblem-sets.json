@@ -1,0 +1,323 @@
+{
+  "sets": [
+    {
+      "color": "Green",
+      "name": {
+        "ko": "그린",
+        "ja": "グリーン",
+        "en": "Green"
+      },
+      "stat": "spAttack",
+      "isPercent": true,
+      "stepList": [
+        {
+          "count": 2,
+          "bonus": 1
+        },
+        {
+          "count": 4,
+          "bonus": 2
+        },
+        {
+          "count": 6,
+          "bonus": 4
+        }
+      ],
+      "description": {
+        "ko": "특수공격 증가",
+        "ja": "とくこう上昇",
+        "en": "Sp. Atk up"
+      }
+    },
+    {
+      "color": "Yellow",
+      "name": {
+        "ko": "옐로",
+        "ja": "イエロー",
+        "en": "Yellow"
+      },
+      "stat": "moveSpeed",
+      "isPercent": true,
+      "stepList": [
+        {
+          "count": 3,
+          "bonus": 4
+        },
+        {
+          "count": 5,
+          "bonus": 6
+        },
+        {
+          "count": 7,
+          "bonus": 12
+        }
+      ],
+      "description": {
+        "ko": "비전투 5초 후 이동 속도 증가",
+        "ja": "戦闘外5秒後に移動速度上昇",
+        "en": "Movement Speed up after 5s out of combat"
+      }
+    },
+    {
+      "color": "Red",
+      "name": {
+        "ko": "레드",
+        "ja": "レッド",
+        "en": "Red"
+      },
+      "stat": "attackSpeed",
+      "isPercent": true,
+      "stepList": [
+        {
+          "count": 3,
+          "bonus": 2
+        },
+        {
+          "count": 5,
+          "bonus": 4
+        },
+        {
+          "count": 7,
+          "bonus": 8
+        }
+      ],
+      "description": {
+        "ko": "공격 속도 증가",
+        "ja": "攻撃速度上昇",
+        "en": "Basic Attack Speed up"
+      }
+    },
+    {
+      "color": "Blue",
+      "name": {
+        "ko": "블루",
+        "ja": "ブルー",
+        "en": "Blue"
+      },
+      "stat": "defense",
+      "isPercent": true,
+      "stepList": [
+        {
+          "count": 2,
+          "bonus": 2
+        },
+        {
+          "count": 4,
+          "bonus": 4
+        },
+        {
+          "count": 6,
+          "bonus": 8
+        }
+      ],
+      "description": {
+        "ko": "방어 증가",
+        "ja": "ぼうぎょ上昇",
+        "en": "Defense up"
+      }
+    },
+    {
+      "color": "White",
+      "name": {
+        "ko": "화이트",
+        "ja": "ホワイト",
+        "en": "White"
+      },
+      "stat": "hp",
+      "isPercent": true,
+      "stepList": [
+        {
+          "count": 2,
+          "bonus": 1
+        },
+        {
+          "count": 4,
+          "bonus": 2
+        },
+        {
+          "count": 6,
+          "bonus": 4
+        }
+      ],
+      "description": {
+        "ko": "최대 HP 증가",
+        "ja": "最大HP上昇",
+        "en": "Max HP up"
+      }
+    },
+    {
+      "color": "Black",
+      "name": {
+        "ko": "블랙",
+        "ja": "ブラック",
+        "en": "Black"
+      },
+      "stat": "cdr",
+      "isPercent": true,
+      "stepList": [
+        {
+          "count": 3,
+          "bonus": 1
+        },
+        {
+          "count": 5,
+          "bonus": 2
+        },
+        {
+          "count": 7,
+          "bonus": 4
+        }
+      ],
+      "description": {
+        "ko": "기술 쿨타임 감소",
+        "ja": "わざのクールダウン短縮",
+        "en": "Move Cooldown Reduction"
+      }
+    },
+    {
+      "color": "Brown",
+      "name": {
+        "ko": "브라운",
+        "ja": "ブラウン",
+        "en": "Brown"
+      },
+      "stat": "attack",
+      "isPercent": true,
+      "stepList": [
+        {
+          "count": 2,
+          "bonus": 1
+        },
+        {
+          "count": 4,
+          "bonus": 2
+        },
+        {
+          "count": 6,
+          "bonus": 4
+        }
+      ],
+      "description": {
+        "ko": "공격 증가",
+        "ja": "こうげき上昇",
+        "en": "Attack up"
+      }
+    },
+    {
+      "color": "Purple",
+      "name": {
+        "ko": "퍼플",
+        "ja": "パープル",
+        "en": "Purple"
+      },
+      "stat": "spDefense",
+      "isPercent": true,
+      "stepList": [
+        {
+          "count": 2,
+          "bonus": 2
+        },
+        {
+          "count": 4,
+          "bonus": 4
+        },
+        {
+          "count": 6,
+          "bonus": 8
+        }
+      ],
+      "description": {
+        "ko": "특수방어 증가",
+        "ja": "とくぼう上昇",
+        "en": "Sp. Def up"
+      }
+    },
+    {
+      "color": "Pink",
+      "name": {
+        "ko": "핑크",
+        "ja": "ピンク",
+        "en": "Pink"
+      },
+      "stat": "hindranceDuration",
+      "isPercent": true,
+      "stepList": [
+        {
+          "count": 3,
+          "bonus": 4
+        },
+        {
+          "count": 5,
+          "bonus": 8
+        },
+        {
+          "count": 7,
+          "bonus": 16
+        }
+      ],
+      "description": {
+        "ko": "방해 효과 지속시간 감소",
+        "ja": "妨害効果の持続時間短縮",
+        "en": "Hindrance duration down"
+      }
+    },
+    {
+      "color": "Navy",
+      "name": {
+        "ko": "네이비",
+        "ja": "ネイビー",
+        "en": "Navy"
+      },
+      "stat": "uniteCharge",
+      "isPercent": true,
+      "stepList": [
+        {
+          "count": 3,
+          "bonus": 1
+        },
+        {
+          "count": 5,
+          "bonus": 2
+        },
+        {
+          "count": 7,
+          "bonus": 4
+        }
+      ],
+      "description": {
+        "ko": "유나이트 기술 충전 속도 증가",
+        "ja": "ユナイトわざのチャージ速度上昇",
+        "en": "Unite Move charge rate up"
+      }
+    },
+    {
+      "color": "Gray",
+      "name": {
+        "ko": "그레이",
+        "ja": "グレー",
+        "en": "Gray"
+      },
+      "stat": "damageTaken",
+      "isPercent": false,
+      "stepList": [
+        {
+          "count": 3,
+          "bonus": 3
+        },
+        {
+          "count": 5,
+          "bonus": 6
+        },
+        {
+          "count": 7,
+          "bonus": 12
+        }
+      ],
+      "description": {
+        "ko": "받는 데미지 감소(고정값)",
+        "ja": "受けるダメージ減少(固定値)",
+        "en": "Damage taken down (flat)"
+      }
+    }
+  ]
+}

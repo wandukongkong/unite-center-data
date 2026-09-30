@@ -7,6 +7,8 @@
   "evolutionChains": "1.0.10",
   "skillCoefficients": "1.0.24",
   "builds": "1.0.3",
+  "emblems": "1.0.0",
+  "emblemSets": "1.0.0",
   "counts": {
     "pokemon": 104,
     "comingSoon": 2,
@@ -14,6 +16,8 @@
     "heldItems": 40,
     "stats": 100,
     "evolutionChains": 55,
-    "skillCoefficients": 100
+    "skillCoefficients": 100,
+    "emblems": 762,
+    "emblemSets": 11
   }
 }
