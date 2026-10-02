@@ -7744,5 +7744,45 @@
         }
       ]
     }
+  },
+  "153": {
+    "_name": "스트린더 (Toxtricity)",
+    "B": {
+      "ratio": "40",
+      "base": "100",
+      "slider": "0"
+    },
+    "X": {
+      "ratio": "70",
+      "base": "175",
+      "slider": "0"
+    },
+    "R": {
+      "ratio": "86",
+      "base": "215",
+      "slider": "0"
+    },
+    "ZR": {
+      "ratio": "90",
+      "base": "225",
+      "slider": "0"
+    },
+    "ZR2": {
+      "ratio": "40",
+      "base": "120",
+      "slider": "0",
+      "addons": [
+        {
+          "ratio": "180",
+          "base": "540",
+          "slider": "0"
+        }
+      ]
+    },
+    "U": {
+      "ratio": "100",
+      "base": "300",
+      "slider": "0"
+    }
   }
 }

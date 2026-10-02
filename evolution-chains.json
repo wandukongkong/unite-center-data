@@ -1217,5 +1217,18 @@
         "evolutionLevel": 4
       }
     ]
+  },
+  {
+    "pokemonId": "153",
+    "evolutionChain": [
+      {
+        "stage": 1,
+        "dexNumber": 849,
+        "nameJa": "ストリンダー",
+        "nameEn": "Toxtricity",
+        "nameKo": "스트린더",
+        "evolutionLevel": null
+      }
+    ]
   }
 ]

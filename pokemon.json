@@ -18415,9 +18415,139 @@
       "ja": "ストリンダー"
     },
     "role": "Attack",
-    "attackType": "unknown",
-    "difficulty": "unknown",
+    "attackType": "special",
+    "difficulty": "Intermediate",
     "imageUrl": "https://placehold.co/80x80/CCCCCC/FFF?text=TOX",
-    "releasedAt": "2026-09-24"
+    "releasedAt": "2026-09-24",
+    "skills": {
+      "basicAttack": {
+        "description": {
+          "ko": "독과 전기의 2가지 음색을 지녔다. '기어체인지'를 배우면 전기의 음색으로 전환할 수 있다. 3번째 일반 공격은 강화 공격이 된다. [독의 음색] 일반 공격이 명중하면 상대편 포켓몬을 2.5초 동안 독 상태로 만든다(최대 5중첩, 부여 시점과 0.5초마다 대상 최대 HP의 0.6%만큼 특수방어·실드를 무시하는 트루 데미지). 강화 공격은 추가 데미지를 준다. [전기의 음색] 일반 공격의 사정거리가 길어진다. 강화 공격은 자신의 HP를 회복하고 상대의 이동 속도를 1초 동안 25% 떨어뜨린다.",
+          "ja": "どくとでんきの2つの音色をもつ。「ギアチェンジ」を覚えるとでんきの音色に切り替えられるようになる。3回目の通常攻撃は強化攻撃となる。【どくの音色】通常攻撃が命中すると相手のポケモンを2.5秒間どく状態にする（最大5回まで重ねがけ可能。付与時と0.5秒ごとに対象の最大HPの0.6%の、とくぼう・シールドを無視する固定ダメージ）。強化攻撃は追加ダメージを与える。【でんきの音色】通常攻撃の射程が長くなる。強化攻撃は自分のHPを回復し、相手の移動速度を1秒間25%下げる。",
+          "en": "Toxtricity has two timbres: Poison and Electric. Learning Shift Gear lets it switch to the Electric Timbre. Every third attack becomes a boosted attack. [Poison Timbre] Basic attacks poison the target for 2.5s (stacks up to 5 times; on application and every 0.5s deals true damage equal to 0.6% of the target's max HP, ignoring Sp. Def and shields). Boosted attacks deal additional damage. [Electric Timbre] Basic attacks have increased range. Boosted attacks restore the user's HP and slow the target by 25% for 1s."
+        }
+      },
+      "passive": {
+        "name": {
+          "ko": "펑크록",
+          "ja": "パンクロック",
+          "en": "Punk Rock"
+        },
+        "description": {
+          "ko": "일반 공격이 상대편 포켓몬에게 명중할 때마다 5초 동안 공격 속도가 8% 오른다. 이 효과는 최대 5번까지 중첩할 수 있다. 이동 속도가 떨어져 있는 상대편 포켓몬에게 일반 공격을 명중시키면 HP를 조금 회복한다(야생 포켓몬에게는 발동하지 않음).",
+          "ja": "通常攻撃が相手のポケモンに命中するたびに5秒間攻撃速度が8%上がる。この効果は最大5回まで重ねがけできる。移動速度が下がっている相手のポケモンに通常攻撃を命中させると、HPを少し回復する（野生のポケモンには発動しない）。",
+          "en": "Each time a basic attack hits an opposing Pokémon, the user's attack speed increases by 8% for 5s, stacking up to 5 times. Landing a basic attack on an opposing Pokémon whose movement speed is lowered restores a small amount of HP (does not work against wild Pokémon)."
+        }
+      },
+      "moves": [
+        {
+          "id": "charge",
+          "name": {
+            "ko": "충전",
+            "ja": "じゅうでん",
+            "en": "Charge"
+          },
+          "category": "active",
+          "cooldown": 5,
+          "unlockedAtLevel": 1,
+          "upgradedAtLevel": null,
+          "description": {
+            "ko": "전기를 모아 2초 동안 이동 속도가 50% 오르고(매 초 10%씩 줄어 최소 40%), 4초 안에 하는 다음 일반 공격의 데미지가 증가한다. 이 일반 공격이 명중하면 상대편 포켓몬의 이동 속도를 2초 동안 20% 떨어뜨린다.",
+            "ja": "電気を蓄えて2秒間移動速度が50%上がり（1秒ごとに10%ずつ減少、最低40%）、4秒以内の次の通常攻撃のダメージが増加する。この通常攻撃が命中すると、相手のポケモンの移動速度を2秒間20%下げる。",
+            "en": "The user charges up, increasing its movement speed by 50% for 2s (decaying by 10% every second to a minimum of 40%), and its next basic attack within 4s deals additional damage. If that attack hits, the target's movement speed is lowered by 20% for 2s."
+          },
+          "upgradeDescription": null
+        },
+        {
+          "id": "growl",
+          "name": {
+            "ko": "울음소리",
+            "ja": "なきごえ",
+            "en": "Growl"
+          },
+          "category": "active",
+          "cooldown": 7,
+          "unlockedAtLevel": 3,
+          "upgradedAtLevel": null,
+          "description": {
+            "ko": "지정한 상대편 포켓몬을 울음소리로 공격하여 데미지를 주고 2초 동안 이동 속도를 20% 떨어뜨린다.",
+            "ja": "指定した相手のポケモンをなきごえで攻撃し、ダメージを与えて2秒間移動速度を20%下げる。",
+            "en": "The user growls at the designated opposing Pokémon, dealing damage and lowering its movement speed by 20% for 2s."
+          },
+          "upgradeDescription": null
+        },
+        {
+          "id": "shift_gear",
+          "name": {
+            "ko": "기어체인지",
+            "ja": "ギアチェンジ",
+            "en": "Shift Gear"
+          },
+          "category": "active",
+          "cooldown": 3,
+          "unlockedAtLevel": 5,
+          "upgradedAtLevel": 11,
+          "description": {
+            "ko": "이 기술을 사용할 때마다 음색이 전환되며 전환된 뒤의 음색에 따라 추가 효과를 발동한다. [독의 음색] 4초 동안 또는 일반 공격 5번까지 공격 속도가 25% 오른다. [전기의 음색] 3초 동안 이동 속도가 60% 오르고, 매 초 10%씩 줄어 30%까지 떨어진다.",
+            "ja": "このわざを使用するたびに音色が切り替わり、切り替わったあとの音色に応じて追加の効果が発動する。【どくの音色】4秒間、または通常攻撃5回まで攻撃速度が25%上がる。【でんきの音色】3秒間移動速度が60%上がり、1秒ごとに10%ずつ下がって30%まで減少する。",
+            "en": "Each use switches the user's timbre, triggering an additional effect based on the new timbre. [Poison Timbre] Attack speed increases by 25% for 4s or for the next 5 basic attacks. [Electric Timbre] Movement speed increases by 60% for 3s, decaying by 10% every second to a minimum of 30%."
+          },
+          "upgradeDescription": {
+            "ko": "업그레이드 후에는 이 기술을 사용한 뒤 다음 일반 공격이 강화 공격이 된다.",
+            "ja": "強化後は、このわざを使ったあとの次の通常攻撃が強化攻撃になる。",
+            "en": "Upgrade: After using this move, the user's next basic attack becomes a boosted attack."
+          }
+        },
+        {
+          "id": "overdrive",
+          "name": {
+            "ko": "오버드라이브",
+            "ja": "オーバードライブ",
+            "en": "Overdrive"
+          },
+          "category": "active",
+          "cooldown": 9,
+          "unlockedAtLevel": 7,
+          "upgradedAtLevel": 13,
+          "description": {
+            "ko": "기타 같은 소리를 내서 주변에 있는 상대편 포켓몬에게 데미지를 주고 현재 음색에 맞춰 추가 효과를 발동한다. 독의 음색과 전기의 음색은 대기 시간이 따로 적용된다. [독의 음색] 지정한 방향으로 폭발하는 독을 쏘아 가장 처음 명중한 상대편 포켓몬에게 데미지를 주고, 그 주변에는 감소한 데미지를 주며 독 상태로 만든다(독 1중첩). [전기의 음색] 일반 공격이나 기술(오버드라이브의 음파 제외)로 데미지를 받은 상대편 포켓몬은 4초 동안 전기를 띤다. 이 기술이 전기를 띤 상대에게 명중하면 0.5초 동안 행동 불가로 만들고, 4초 동안 주변 상대편 포켓몬과 전류로 잇는다. 이어진 상대편 포켓몬에게 일반 공격이나 폭발하는 독을 맞히면 전기가 연쇄해 이어진 모든 상대에게 추가 데미지를 1번 준다.",
+            "ja": "ギターのような音を響かせて周囲の相手のポケモンにダメージを与え、現在の音色に応じて追加の効果が発動する。どくの音色とでんきの音色は待ち時間が別々に設定されている。【どくの音色】指定した方向に爆発するどくを放ち、最初に命中した相手のポケモンにダメージを与え、その周囲には減少したダメージを与えてどく状態にする（どく1回分）。【でんきの音色】通常攻撃やわざ（オーバードライブの音波を除く）でダメージを受けた相手のポケモンは4秒間電気をまとう。このわざが電気をまとった相手に命中すると0.5秒間行動不能にし、4秒間周囲の相手のポケモンと電流でつなぐ。つながった相手のポケモンに通常攻撃や爆発するどくを当てると電気が連鎖し、つながったすべての相手に追加ダメージを1回与える。",
+            "en": "The user plays guitar-like sounds, dealing damage to nearby opposing Pokémon and triggering an additional effect based on its current timbre. The Poison and Electric Timbre versions have separate cooldowns. [Poison Timbre] Also launches a ball of exploding poison in the designated direction that damages the first opposing Pokémon hit, deals reduced damage around it, and poisons them (1 stack). [Electric Timbre] Opposing Pokémon damaged by basic attacks or moves (except the Overdrive wave itself) are electrified for 4s. When this move hits an electrified target, it is stunned for 0.5s and linked to nearby opposing Pokémon by an electric current for 4s. Hitting a linked Pokémon with a basic attack or the exploding poison makes the current feed back, dealing additional damage once to all linked Pokémon."
+          },
+          "upgradeDescription": {
+            "ko": "업그레이드 후에는 이 기술이 명중했을 때 대상당 '펑크록' 효과를 1중첩 얻는다. 폭발하는 독을 맞히면 2중첩을 추가로 얻고, 폭발 범위 안의 대상당 1중첩씩 더 얻는다.",
+            "ja": "強化後は、このわざが命中すると対象1体につき「パンクロック」の効果を1回分得る。爆発するどくを当てるとさらに2回分、爆発範囲内の対象1体につき1回分ずつ追加で得る。",
+            "en": "Upgrade: When this move hits, the user gains one stack of Punk Rock per target. Hitting with the exploding poison grants 2 more stacks, plus 1 additional stack for each target in the explosion area."
+          }
+        }
+      ],
+      "uniteMove": {
+        "id": "venom_distortion",
+        "name": {
+          "ko": "베놈디스토션",
+          "ja": "ベノムディストーション",
+          "en": "Venom Distortion"
+        },
+        "cooldown": 112,
+        "unlockedAtLevel": 9,
+        "description": {
+          "ko": "방해 내성 상태가 되어 5초 동안 연주 상태가 된다. 연주 중에는 일반 공격을 할 수 없지만 기술은 사용할 수 있으며, '기어체인지'의 대기 시간이 0.1초로 짧아진다. 매 초마다 커다란 소리의 왜곡을 발생시켜 주변에 있는 상대편 포켓몬에게 데미지를 준다(총 5회). [독의 음색] 명중한 상대편 포켓몬에게 독을 1중첩 부여한다. [전기의 음색] 명중한 상대편 포켓몬의 이동 속도를 1초 동안 25% 떨어뜨린다.",
+          "ja": "妨害を受けにくい状態になり、5秒間演奏状態になる。演奏状態のあいだは通常攻撃ができなくなるが、わざは使用できる。演奏中は「ギアチェンジ」の待ち時間が0.1秒に短くなる。1秒ごとに大きな音の歪みを放ち、周囲の相手のポケモンにダメージを与える（計5回）。【どくの音色】命中した相手のポケモンにどくを1回分付与する。【でんきの音色】命中した相手のポケモンの移動速度を1秒間25%下げる。",
+          "en": "The user becomes hindrance resistant and performs for 5s. During the performance it cannot basic attack but can still use moves, and Shift Gear's cooldown is reduced to 0.1s. Every second it unleashes a powerful sound distortion that damages nearby opposing Pokémon (5 hits total). [Poison Timbre] Inflicts 1 stack of poison on targets hit. [Electric Timbre] Lowers the movement speed of targets hit by 25% for 1s."
+        },
+        "buffs": {
+          "movementSpeedPct": 30,
+          "attackSpeedPct": 35,
+          "shieldPct": 20,
+          "durationMs": 6000,
+          "raw": "30% Movement Speed, 35% Attack Speed, 20% Max HP Shield"
+        }
+      },
+      "passiveCondition": {
+        "type": "not-applicable",
+        "reason": "공속 스택(8%×5, 5초) — 엔진 공속 스택 미지원. 펑크록은 평타 명중마다 공격 속도 +8%(5초, 최대 5중첩)로 딜% 버프(dmgBonusPct)가 아니며, stack-permanent 등 기존 타입은 공속 스택을 표현할 필드가 없음. 둔화 대상 평타 시 HP 회복(특공 10%+45)은 딜 무관.",
+        "isNew": true
+      }
+    }
   }
 ]
