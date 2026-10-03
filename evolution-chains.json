@@ -1230,5 +1230,26 @@
         "evolutionLevel": null
       }
     ]
+  },
+  {
+    "pokemonId": "113",
+    "evolutionChain": [
+      {
+        "stage": 1,
+        "dexNumber": 935,
+        "nameJa": "カルボウ",
+        "nameEn": "Charcadet",
+        "nameKo": "카르본",
+        "evolutionLevel": null
+      },
+      {
+        "stage": 2,
+        "dexNumber": 936,
+        "nameJa": "グレンアルマ",
+        "nameEn": "Armarouge",
+        "nameKo": "카디나르마",
+        "evolutionLevel": 5
+      }
+    ]
   }
 ]

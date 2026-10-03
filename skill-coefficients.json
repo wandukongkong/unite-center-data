@@ -4909,20 +4909,20 @@
       "slider": "2",
       "addons": [
         {
-          "ratio": "18",
-          "base": "22",
+          "ratio": "20",
+          "base": "24",
           "slider": "0"
         }
       ]
     },
     "R2": {
-      "ratio": "246",
-      "base": "466",
-      "slider": "15",
+      "ratio": "266",
+      "base": "503",
+      "slider": "16",
       "addons": [
         {
-          "ratio": "74",
-          "base": "172",
+          "ratio": "80",
+          "base": "151",
           "slider": "5"
         }
       ]
@@ -4940,13 +4940,13 @@
       ]
     },
     "ZR1": {
-      "ratio": "65",
-      "base": "300",
-      "slider": "8",
+      "ratio": "85",
+      "base": "390",
+      "slider": "10",
       "addons": [
         {
-          "ratio": "138",
-          "base": "172",
+          "ratio": "152",
+          "base": "189",
           "slider": "0"
         }
       ]
@@ -4957,9 +4957,9 @@
       "slider": "8"
     },
     "U": {
-      "ratio": "250",
-      "base": "600",
-      "slider": "16"
+      "ratio": "270",
+      "base": "648",
+      "slider": "17"
     }
   },
   "114": {

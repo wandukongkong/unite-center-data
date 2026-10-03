@@ -1264,7 +1264,7 @@
     ],
     "summary": {
       "ko": "카디나르마 상향 — 아머캐논·회오리불꽃·니트로차지·사이코익스플로전 강화",
-      "en": "Armarouge buff — Armor Cannon, Fire Spin, Nitro Charge, and Psykaboom strengthened",
+      "en": "Armarouge buff — Armor Cannon, Fire Spin, Flame Charge, and Psykaboom strengthened",
       "ja": "グレンアルマ強化 — アーマーキャノン・ほのおのうず・ニトロチャージ・サイコエクスプロージョンが強化"
     },
     "changes": [
@@ -1280,7 +1280,7 @@
       },
       {
         "ko": "[니트로차지] 데미지 +30%, 실드량 +10%",
-        "en": "[Nitro Charge] Damage +30%, Shield amount +10%",
+        "en": "[Flame Charge] Damage +30%, Shield amount +10%",
         "ja": "[ニトロチャージ] ダメージ +30%、シールド量 +10%"
       },
       {
@@ -7623,7 +7623,7 @@
     ],
     "summary": {
       "ko": "아머캐논의 데미지와 니트로차지의 실드가 상향되었다.",
-      "en": "Armor Cannon's damage and Nitro Charge's shield were increased.",
+      "en": "Armor Cannon's damage and Flame Charge's shield were increased.",
       "ja": "アーマーキャノンのダメージとニトロチャージのシールドが上方修正された。"
     },
     "changes": [
@@ -7639,7 +7639,7 @@
       },
       {
         "ko": "[니트로차지] 실드 특수공격의 120% + 150 → 특수공격의 138% + 172",
-        "en": "[Nitro Charge] Shield 120% Sp. Atk + 150 → 138% Sp. Atk + 172",
+        "en": "[Flame Charge] Shield 120% Sp. Atk + 150 → 138% Sp. Atk + 172",
         "ja": "[ニトロチャージ] シールド 特攻の120% + 150 → 特攻の138% + 172"
       }
     ]
@@ -14961,7 +14961,7 @@
     ],
     "summary": {
       "ko": "회오리불꽃의 방어/특수방어·이동 속도 증가 효과가 삭제되고 실드·이동 속도 증가 효과가 추가되었다. 아머캐논·니트로차지 수치가 하향되고 사이코쇼크 대기 시간이 단축되었다.",
-      "en": "Fire Spin's Defense/Sp. Def and Movement Speed increases were removed while Shield and Movement Speed increase effects were added. Armor Cannon and Nitro Charge values were reduced and Psyshock's cooldown was shortened.",
+      "en": "Fire Spin's Defense/Sp. Def and Movement Speed increases were removed while Shield and Movement Speed increase effects were added. Armor Cannon and Flame Charge values were reduced and Psyshock's cooldown was shortened.",
       "ja": "ほのおのうずの防御・特防および移動速度増加効果が削除され、シールド・移動速度増加効果が追加された。アーマーキャノン・ニトロチャージの数値が下方修正され、サイコショックの待ち時間が短縮された。"
     },
     "changes": [
@@ -14992,7 +14992,7 @@
       },
       {
         "ko": "[니트로차지] 실드 특수공격의 240% + 300 → 특수공격의 120% + 150",
-        "en": "[Nitro Charge] Shield 240% Sp. Atk + 300 → 120% Sp. Atk + 150",
+        "en": "[Flame Charge] Shield 240% Sp. Atk + 300 → 120% Sp. Atk + 150",
         "ja": "[ニトロチャージ] シールド 特攻の240% + 300 → 特攻の120% + 150"
       },
       {

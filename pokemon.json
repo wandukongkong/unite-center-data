@@ -11252,7 +11252,7 @@
       "basicAttack": {
         "description": {
           "ko": "모든 일반 공격과 기술이 특수공격 수치를 기반으로 한다. 카르본 시절에는 3번째 일반 공격이 강화 공격이 된다. 카디나르마로 진화 후에는 일반 공격을 명중시킬 때마다 캐논 게이지가 증가하며, 게이지가 가득 차면 다음 일반 공격이 강화 공격(범위 공격)이 된다. 일반 공격을 명중시키면 상대에게 카디널 마크를 붙이며, 마크 3중첩 상태에서 회오리불꽃이나 아머캐논을 명중시키면 추가 데미지를 준다.",
-          "ja": "すべてのノーマルアタックとわざは特攻数値を基にする。マグマッギ時代は3回目のノーマルアタックが強化アタックになる。アーマーガアに進化後はノーマルアタックが命中するたびにキャノンゲージが増加し、ゲージが満タンになると次のノーマルアタックが強化アタック（範囲攻撃）になる。ノーマルアタックを命中させると相手にカーディナルマークを付け、マーク3重ね状態でほのおのうずかアーマーキャノンを命中させると追加ダメージを与える。",
+          "ja": "すべてのノーマルアタックとわざは特攻数値を基にする。カルボウ時代は3回目のノーマルアタックが強化アタックになる。グレンアルマに進化後はノーマルアタックが命中するたびにキャノンゲージが増加し、ゲージが満タンになると次のノーマルアタックが強化アタック（範囲攻撃）になる。ノーマルアタックを命中させると相手にカーディナルマークを付け、マーク3重ね状態でほのおのうずかアーマーキャノンを命中させると追加ダメージを与える。",
           "en": "All basic attacks and moves are based on the Sp. Atk stat. As Charcadet, every 3rd basic attack becomes an enhanced attack. After evolving into Armarouge, the Cannon Gauge fills with each hit, and when full, the next basic attack becomes an enhanced attack (area). Basic attacks also apply a Cardinal Mark to opponents; when 3 stacks are applied, Fire Spin or Armor Cannon deals bonus damage."
         }
       },
@@ -11273,7 +11273,7 @@
           "id": "incinerate",
           "name": {
             "ko": "불태우기",
-            "ja": "かえんほうしゃ",
+            "ja": "はじけるほのお",
             "en": "Incinerate"
           },
           "category": "active",
@@ -11292,11 +11292,11 @@
           "name": {
             "ko": "도깨비불",
             "ja": "おにび",
-            "en": "Will-O-Wisp"
+            "en": "Will-o-Wisp"
           },
           "category": "active",
           "cooldown": 9,
-          "unlockedAtLevel": 1,
+          "unlockedAtLevel": 3,
           "upgradedAtLevel": null,
           "description": {
             "ko": "지정한 방향으로 불꽃을 발사해 명중한 상대편 포켓몬에게 데미지를 주고 화상 상태로 만들며 이동 속도를 2초 동안 20% 떨어뜨린다. 사용 후 다음 일반 공격이 강화 공격이 된다.",
@@ -11313,7 +11313,7 @@
             "en": "Fire Spin"
           },
           "category": "active",
-          "cooldown": 8,
+          "cooldown": 7,
           "unlockedAtLevel": 5,
           "upgradedAtLevel": 11,
           "description": {
@@ -11350,11 +11350,11 @@
           }
         },
         {
-          "id": "nitro_charge",
+          "id": "flame_charge",
           "name": {
             "ko": "니트로차지",
             "ja": "ニトロチャージ",
-            "en": "Nitro Charge"
+            "en": "Flame Charge"
           },
           "category": "active",
           "cooldown": 8,
@@ -11395,7 +11395,7 @@
         }
       ],
       "uniteMove": {
-        "id": "psycho_explosion",
+        "id": "psykaboom",
         "name": {
           "ko": "사이코익스플로전",
           "ja": "サイコエクスプロージョン",
