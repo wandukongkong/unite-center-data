@@ -10,7 +10,7 @@
     "difficulty": "Novice",
     "spriteId": 135,
     "roleConfirmed": true,
-    "releaseDate": "2026-10"
+    "releaseDate": "2026-10-13"
   },
   {
     "id": "cs_flareon",
@@ -23,6 +23,6 @@
     "difficulty": "Novice",
     "spriteId": 136,
     "roleConfirmed": true,
-    "releaseDate": "2026-10"
+    "releaseDate": "2026-10-13"
   }
 ]
