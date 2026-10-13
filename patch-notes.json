@@ -1,5 +1,342 @@
 [
   {
+    "id": "pn-964",
+    "version": "2026.10.13",
+    "date": "2026-10-13",
+    "pokemonId": "154",
+    "type": "new",
+    "types": [
+      "new"
+    ],
+    "summary": {
+      "ko": "신규 출시",
+      "en": "New Release",
+      "ja": "新規リリース"
+    },
+    "changes": []
+  },
+  {
+    "id": "pn-965",
+    "version": "2026.10.13",
+    "date": "2026-10-13",
+    "pokemonId": "155",
+    "type": "new",
+    "types": [
+      "new"
+    ],
+    "summary": {
+      "ko": "신규 출시",
+      "en": "New Release",
+      "ja": "新規リリース"
+    },
+    "changes": []
+  },
+  {
+    "id": "pn-966",
+    "version": "2026.10.13",
+    "date": "2026-10-13",
+    "pokemonId": "151",
+    "type": "buff",
+    "types": [
+      "buff"
+    ],
+    "summary": {
+      "ko": "솔가레오의 아이언헤드 대기시간이 짧아지고 2단 개방 시간이 늘었으며, 사이코쇼크가 방해 효과에 중단되지 않게 되고 이동 속도 상승량이 올랐다. 샤이닝메테오크러셔 후 라이징 페이즈가 길어졌다.",
+      "en": "Solgaleo's Iron Head has a shorter cooldown and longer follow-up window, Psyshock is no longer interrupted by hindrances and grants more movement speed, and the Rising Phase after Shining Meteor Crusher lasts longer.",
+      "ja": "ソルガレオのアイアンヘッドの待ち時間が短縮され2段目の猶予が延長、サイコショックが妨害効果で中断されなくなり移動速度上昇量が増加。シャイニングメテオクラッシャー後のライジングフェーズが延長された。"
+    },
+    "changes": [
+      {
+        "ko": "[아이언헤드] 대기시간 6.5초 → 6초",
+        "en": "[Iron Head] Cooldown 6.5s → 6s",
+        "ja": "[アイアンヘッド] 待ち時間 6.5秒 → 6秒"
+      },
+      {
+        "ko": "[아이언헤드] 1단 명중 후 2단 사용 가능 시간 2초 → 3초",
+        "en": "[Iron Head] Window to use the second stage after the first hits 2s → 3s",
+        "ja": "[アイアンヘッド] 1段目命中後に2段目のわざが使用可能になる猶予時間 2秒 → 3秒"
+      },
+      {
+        "ko": "[사이코쇼크] 이동 속도 상승량 13% → 18%",
+        "en": "[Psyshock] Movement speed increase 13% → 18%",
+        "ja": "[サイコショック] 移動速度の上昇量 13% → 18%"
+      },
+      {
+        "ko": "[사이코쇼크] 사양 변경: 기술 발동 중 방해 효과를 받아도 발동이 중단되지 않도록 변경",
+        "en": "[Psyshock] Spec change: the move is no longer interrupted by hindrances while being used",
+        "ja": "[サイコショック] 仕様変更：わざの発動中に妨害効果を受けてもわざの発動が中断されないよう変更"
+      },
+      {
+        "ko": "[샤이닝메테오크러셔] 라이징 페이즈 지속시간 10초 → 15초",
+        "en": "[Shining Meteor Crusher] Rising Phase duration 10s → 15s",
+        "ja": "[ユナイトわざ：シャイニングメテオクラッシャー] ライジングフェーズの持続時間 10秒 → 15秒"
+      }
+    ]
+  },
+  {
+    "id": "pn-967",
+    "version": "2026.10.13",
+    "date": "2026-10-13",
+    "pokemonId": "138",
+    "type": "buff",
+    "types": [
+      "buff"
+    ],
+    "summary": {
+      "ko": "야도란의 방어·특수방어가 오르고, 열탕의 화상 지속시간이 늘었으며 파도타기의 대기시간이 짧아졌다.",
+      "en": "Slowbro's Defense and Sp. Def are increased, Scald's burn lasts longer, and Surf's cooldown is shorter.",
+      "ja": "ヤドランの防御・特防が上昇し、ねっとうのやけど持続時間が延長、なみのりの待ち時間が短縮された。"
+    },
+    "changes": [
+      {
+        "ko": "[능력치] 방어 70~480 → 70~540 (Lv1~15)",
+        "en": "[Stats] Defense 70–480 → 70–540 (Lv. 1–15)",
+        "ja": "[ステータス] 防御 70 ~ 480 → 70 ~ 540"
+      },
+      {
+        "ko": "[능력치] 특수방어 60~420 → 60~480 (Lv1~15)",
+        "en": "[Stats] Sp. Def 60–420 → 60–480 (Lv. 1–15)",
+        "ja": "[ステータス] 特防 60 ~ 420 → 60 ~ 480"
+      },
+      {
+        "ko": "[열탕] 화상 상태 지속시간 3초 → 4초",
+        "en": "[Scald] Burn duration 3s → 4s",
+        "ja": "[ねっとう] やけど状態の持続時間 3秒 → 4秒"
+      },
+      {
+        "ko": "[파도타기] 대기시간 7초 → 6.5초",
+        "en": "[Surf] Cooldown 7s → 6.5s",
+        "ja": "[なみのり] 待ち時間 7秒 → 6.5秒"
+      }
+    ]
+  },
+  {
+    "id": "pn-968",
+    "version": "2026.10.13",
+    "date": "2026-10-13",
+    "pokemonId": "125",
+    "type": "buff",
+    "types": [
+      "buff"
+    ],
+    "summary": {
+      "ko": "칠색조의 성스러운불꽃 행동 불가 시간과 화상의 공격 감소 효과가 커지고, 화염방사의 데미지가 올랐다.",
+      "en": "Ho-Oh's Sacred Fire leaves foes unable to act longer and its burn lowers Attack more, and Flamethrower deals more damage.",
+      "ja": "ホウオウのせいなるほのおの行動不能時間とやけどによる攻撃低下効果が強化され、かえんほうしゃのダメージが増加した。"
+    },
+    "changes": [
+      {
+        "ko": "[성스러운불꽃] 행동 불가 시간 0.6초 → 0.8초",
+        "en": "[Sacred Fire] Unable-to-act duration 0.6s → 0.8s",
+        "ja": "[せいなるほのお] 行動不能時間 0.6秒 → 0.8秒"
+      },
+      {
+        "ko": "[성스러운불꽃] 화상 상태로 공격을 떨어뜨리는 효과 10% 감소 → 30% 감소",
+        "en": "[Sacred Fire] Attack reduction from the burn 10% → 30%",
+        "ja": "[せいなるほのお] やけど状態により攻撃を下げる効果 10%減少 → 30%減少"
+      },
+      {
+        "ko": "[성스러운불꽃+] 화상 상태로 공격을 떨어뜨리는 효과 20% 감소 → 40% 감소",
+        "en": "[Sacred Fire+] Attack reduction from the burn 20% → 40%",
+        "ja": "[せいなるほのお+] やけど状態により攻撃を下げる効果 20%減少 → 40%減少"
+      },
+      {
+        "ko": "[화염방사] 데미지 5% 증가",
+        "en": "[Flamethrower] Damage +5%",
+        "ja": "[かえんほうしゃ] ダメージ 5% 増加"
+      }
+    ]
+  },
+  {
+    "id": "pn-969",
+    "version": "2026.10.13",
+    "date": "2026-10-13",
+    "pokemonId": "109",
+    "type": "buff",
+    "types": [
+      "buff"
+    ],
+    "summary": {
+      "ko": "인텔리레온의 노려맞히기 데미지가 오르고, 아주르스파이비전의 필요 에너지가 줄었다.",
+      "en": "Inteleon's Snipe Shot deals more damage and Azure Spy Vision's required energy is reduced.",
+      "ja": "インテレオンのねらいうちのダメージが増加し、アズールスパイビジョンの必要エネルギー量が減少した。"
+    },
+    "changes": [
+      {
+        "ko": "[노려맞히기] 데미지 10% 증가",
+        "en": "[Snipe Shot] Damage +10%",
+        "ja": "[ねらいうち] ダメージ 10% 増加"
+      },
+      {
+        "ko": "[아주르스파이비전] 필요 에너지 100000 → 90000",
+        "en": "[Azure Spy Vision] Required energy 100000 → 90000",
+        "ja": "[ユナイトわざ：アズールスパイビジョン] 必要なエネルギー量 100000 → 90000"
+      }
+    ]
+  },
+  {
+    "id": "pn-970",
+    "version": "2026.10.13",
+    "date": "2026-10-13",
+    "pokemonId": "133",
+    "type": "buff",
+    "types": [
+      "buff"
+    ],
+    "summary": {
+      "ko": "미라이돈의 번개·파라볼라차지 대기시간이 짧아지고, 라이트닝드라이브의 데미지가 올랐다.",
+      "en": "Miraidon's Thunder and Parabolic Charge have shorter cooldowns, and Electro Drift deals more damage.",
+      "ja": "ミライドンのかみなり・パラボラチャージの待ち時間が短縮され、イナズマドライブのダメージが増加した。"
+    },
+    "changes": [
+      {
+        "ko": "[번개] 대기시간 10초 → 9초",
+        "en": "[Thunder] Cooldown 10s → 9s",
+        "ja": "[かみなり] 待ち時間 10秒 → 9秒"
+      },
+      {
+        "ko": "[파라볼라차지] 대기시간 11초 → 10초",
+        "en": "[Parabolic Charge] Cooldown 11s → 10s",
+        "ja": "[パラボラチャージ] 待ち時間 11秒 → 10秒"
+      },
+      {
+        "ko": "[라이트닝드라이브] 데미지 10% 증가",
+        "en": "[Electro Drift] Damage +10%",
+        "ja": "[イナズマドライブ] ダメージ 10% 増加"
+      }
+    ]
+  },
+  {
+    "id": "pn-971",
+    "version": "2026.10.13",
+    "date": "2026-10-13",
+    "pokemonId": "152",
+    "type": "nerf",
+    "types": [
+      "nerf"
+    ],
+    "summary": {
+      "ko": "모르페코의 배부른 모양 스파크 2단 공격 데미지·실드량이 줄고 대기시간 시작 시점이 바뀌었으며, 승부굳히기의 데미지가 줄었다.",
+      "en": "Morpeko's Full Belly Mode Spark second attack deals less damage and grants a smaller shield with its cooldown starting later, and Assurance deals less damage.",
+      "ja": "モルペコのまんぷくもよう時のスパーク2段目のダメージ・シールド量が減少し待ち時間の開始タイミングが変更、ダメおしのダメージが減少した。"
+    },
+    "changes": [
+      {
+        "ko": "[스파크] 배부른 모양일 때 2단 공격 데미지 28%~18% 감소 (레벨에 따라 변동)",
+        "en": "[Spark] Second attack damage in Full Belly Mode −28% to −18% (varies by level)",
+        "ja": "[スパーク] まんぷくもよう時の2段目の攻撃のダメージ 28% ~ 18% 減少"
+      },
+      {
+        "ko": "[스파크] 배부른 모양일 때 2단 공격으로 얻는 실드량 최대 HP의 20% → 15%",
+        "en": "[Spark] Shield from the second attack in Full Belly Mode 20% → 15% of max HP",
+        "ja": "[スパーク] まんぷくもよう時の2段目の攻撃で獲得するシールド量 最大HPの20% → 最大HPの15%"
+      },
+      {
+        "ko": "[스파크] 사양 변경: 배부른 모양일 때 대기시간 카운트 시작 시점 1단 공격 사용 시 → 2단 공격 사용 시 또는 2단 공격을 사용할 수 없게 된 시점",
+        "en": "[Spark] Spec change: in Full Belly Mode the cooldown now starts when the second attack is used or becomes unavailable, instead of when the first attack is used",
+        "ja": "[スパーク] 仕様変更：まんぷくもよう時の1段目の攻撃を使うと待ち時間のカウントが始まる → 2段目の攻撃を使うか2段目の攻撃が使えなくなると待ち時間のカウントが始まる"
+      },
+      {
+        "ko": "[승부굳히기] 데미지 15% 감소 (마비 상태 상대에 대한 추가 데미지 제외)",
+        "en": "[Assurance] Damage −15% (excluding the additional damage to paralyzed targets)",
+        "ja": "[ダメおし] ダメージ（まひ状態の相手のポケモンへの追加ダメージは含まない） 15% 減少"
+      }
+    ]
+  },
+  {
+    "id": "pn-972",
+    "version": "2026.10.13",
+    "date": "2026-10-13",
+    "pokemonId": "76",
+    "type": "nerf",
+    "types": [
+      "nerf"
+    ],
+    "summary": {
+      "ko": "에이스번의 블레이즈킥+ 공격 속도 상승량이 줄고, 페인트의 대기시간이 길어졌다.",
+      "en": "Cinderace's Blaze Kick+ grants less attack speed and Feint's cooldown is longer.",
+      "ja": "エースバーンのブレイズキック+による攻撃速度上昇量が減少し、フェイントの待ち時間が延長された。"
+    },
+    "changes": [
+      {
+        "ko": "[블레이즈킥+] 공격 속도 상승량 45% → 30%",
+        "en": "[Blaze Kick+] Attack speed increase 45% → 30%",
+        "ja": "[ブレイズキック+] 攻撃速度上昇量 45% → 30%"
+      },
+      {
+        "ko": "[페인트] 대기시간 9초 → 9.5초",
+        "en": "[Feint] Cooldown 9s → 9.5s",
+        "ja": "[フェイント] 待ち時間 9秒 → 9.5秒"
+      }
+    ]
+  },
+  {
+    "id": "pn-973",
+    "version": "2026.10.13",
+    "date": "2026-10-13",
+    "pokemonId": "31",
+    "type": "nerf",
+    "types": [
+      "nerf"
+    ],
+    "summary": {
+      "ko": "드래펄트의 용의춤+ 사용 중 일반 공격으로 회복하는 HP량이 줄었다.",
+      "en": "Dragapult's Dragon Dance+ restores less HP from basic attacks while in use.",
+      "ja": "ドラパルトのりゅうのまい+使用中の通常攻撃によるHP回復量が減少した。"
+    },
+    "changes": [
+      {
+        "ko": "[용의춤+] 회복량 일반 공격 데미지의 25% → 15%",
+        "en": "[Dragon Dance+] HP restored 25% → 15% of basic attack damage",
+        "ja": "[りゅうのまい+] 回復量 通常攻撃ダメージの25% → 15%"
+      }
+    ]
+  },
+  {
+    "id": "pn-974",
+    "version": "2026.10.13",
+    "date": "2026-10-13",
+    "pokemonId": "77",
+    "type": "nerf",
+    "types": [
+      "nerf"
+    ],
+    "summary": {
+      "ko": "라티오스의 텔레키네시스 대기시간이 길어졌다.",
+      "en": "Latios's Telekinesis cooldown is longer.",
+      "ja": "ラティオスのテレキネシスの待ち時間が延長された。"
+    },
+    "changes": [
+      {
+        "ko": "[텔레키네시스] 대기시간 7.5초 → 9초",
+        "en": "[Telekinesis] Cooldown 7.5s → 9s",
+        "ja": "[テレキネシス] 待ち時間 7.5秒 → 9秒"
+      }
+    ]
+  },
+  {
+    "id": "pn-975",
+    "version": "2026.10.13",
+    "date": "2026-10-13",
+    "pokemonId": "100",
+    "type": "nerf",
+    "types": [
+      "nerf"
+    ],
+    "summary": {
+      "ko": "라티아스의 용의숨결이 무한의 힘 1당 늘리는 데미지 증가량이 줄었다.",
+      "en": "Latias's Dragon Breath gains less damage per point of Infinite Power.",
+      "ja": "ラティアスのりゅうのいぶきのむげんのちから1増加毎のダメージ増加量が減少した。"
+    },
+    "changes": [
+      {
+        "ko": "[용의숨결] 무한의 힘 1당 데미지 증가량 0.5% → 0.4%",
+        "en": "[Dragon Breath] Damage increase per point of Infinite Power 0.5% → 0.4%",
+        "ja": "[りゅうのいぶき] むげんのちからが1増加する毎のダメージ増加量 0.5% → 0.4%"
+      }
+    ]
+  },
+  {
     "id": "pn-963",
     "version": "2026.09.24",
     "date": "2026-09-24",
@@ -4683,13 +5020,13 @@
     "summary": {
       "ko": "미래를비추는유성의 데미지가 하향됐다.",
       "en": "Bright Future Meteor Storm's damage was reduced.",
-      "ja": "みらいをてらすりゅうせいのダメージが下方修正された。"
+      "ja": "未来照らす流星のダメージが下方修正された。"
     },
     "changes": [
       {
         "ko": "[미래를비추는유성] 데미지: 특수공격의 70% + 5×(레벨-1) + 500 → 특수공격의 70% + 5×(레벨-1) + 400",
         "en": "[Bright Future Meteor Storm] Damage: 70% Sp. Atk + 5×(Lv-1) + 500 → 70% Sp. Atk + 5×(Lv-1) + 400",
-        "ja": "[みらいをてらすりゅうせい] ダメージ: 特攻の70% + 5×(レベル-1) + 500 → 特攻の70% + 5×(レベル-1) + 400"
+        "ja": "[未来照らす流星] ダメージ: 特攻の70% + 5×(レベル-1) + 500 → 特攻の70% + 5×(レベル-1) + 400"
       }
     ]
   },
@@ -11492,24 +11829,24 @@
     ],
     "summary": {
       "ko": "라이트닝드라이브의 기본·강화 데미지가 다시 하향됐다.",
-      "en": "Lightning Rod's base and boosted damage were reduced again.",
-      "ja": "ライトニングドライブの通常・強化ダメージが再び下方修正された。"
+      "en": "Electro Drift's base and boosted damage were reduced again.",
+      "ja": "イナズマドライブの通常・強化ダメージが再び下方修正された。"
     },
     "changes": [
       {
         "ko": "[라이트닝드라이브] 데미지: 특수공격의 120% + 9×(레벨-1) + 520 → 특수공격의 113% + 9×(레벨-1) + 494",
-        "en": "[Lightning Rod] Damage: 120% Sp. Atk + 9×(Lv-1) + 520 → 113% Sp. Atk + 9×(Lv-1) + 494",
-        "ja": "[ライトニングドライブ] ダメージ: 特攻の120% + 9×(レベル-1) + 520 → 特攻の113% + 9×(レベル-1) + 494"
+        "en": "[Electro Drift] Damage: 120% Sp. Atk + 9×(Lv-1) + 520 → 113% Sp. Atk + 9×(Lv-1) + 494",
+        "ja": "[イナズマドライブ] ダメージ: 特攻の120% + 9×(レベル-1) + 520 → 特攻の113% + 9×(レベル-1) + 494"
       },
       {
         "ko": "[라이트닝드라이브] 강화 데미지: 특수공격의 174.8% + 17×(레벨-1) + 662 → 특수공격의 166% + 16×(레벨-1) + 630",
-        "en": "[Lightning Rod] Boosted damage: 174.8% Sp. Atk + 17×(Lv-1) + 662 → 166% Sp. Atk + 16×(Lv-1) + 630",
-        "ja": "[ライトニングドライブ] 強化ダメージ: 特攻の174.8% + 17×(レベル-1) + 662 → 特攻の166% + 16×(レベル-1) + 630"
+        "en": "[Electro Drift] Boosted damage: 174.8% Sp. Atk + 17×(Lv-1) + 662 → 166% Sp. Atk + 16×(Lv-1) + 630",
+        "ja": "[イナズマドライブ] 強化ダメージ: 特攻の174.8% + 17×(レベル-1) + 662 → 特攻の166% + 16×(レベル-1) + 630"
       },
       {
         "ko": "[라이트닝드라이브] 강화 데미지(상대 HP 50% 미만): 특수공격의 228% + 22×(레벨-1) + 864 → 특수공격의 199% + 20×(레벨-1) + 755",
-        "en": "[Lightning Rod] Boosted damage (target below 50% HP): 228% Sp. Atk + 22×(Lv-1) + 864 → 199% Sp. Atk + 20×(Lv-1) + 755",
-        "ja": "[ライトニングドライブ] 強化ダメージ(相手HP50%未満): 特攻の228% + 22×(レベル-1) + 864 → 特攻の199% + 20×(レベル-1) + 755"
+        "en": "[Electro Drift] Boosted damage (target below 50% HP): 228% Sp. Atk + 22×(Lv-1) + 864 → 199% Sp. Atk + 20×(Lv-1) + 755",
+        "ja": "[イナズマドライブ] 強化ダメージ(相手HP50%未満): 特攻の228% + 22×(レベル-1) + 864 → 特攻の199% + 20×(レベル-1) + 755"
       }
     ]
   },
@@ -14477,8 +14814,8 @@
     ],
     "summary": {
       "ko": "차지빔과 라이트닝드라이브의 강화 데미지, 파라볼라차지 대기 시간이 하향됐다.",
-      "en": "Charge Beam and Lightning Rod boosted damage and Parabolic Charge cooldown were reduced.",
-      "ja": "チャージビームとライトニングドライブの強化ダメージ、パラボラチャージの待ち時間が下方修正された。"
+      "en": "Charge Beam and Electro Drift boosted damage and Parabolic Charge cooldown were reduced.",
+      "ja": "チャージビームとイナズマドライブの強化ダメージ、パラボラチャージの待ち時間が下方修正された。"
     },
     "changes": [
       {
@@ -14488,8 +14825,8 @@
       },
       {
         "ko": "[라이트닝드라이브] 강화 데미지: 특수공격의 190% + 18×(레벨-1) + 720 → 특수공격의 174.8% + 17×(레벨-1) + 662",
-        "en": "[Lightning Rod] Boosted damage: 190% Sp. Atk + 18×(Lv-1) + 720 → 174.8% Sp. Atk + 17×(Lv-1) + 662",
-        "ja": "[ライトニングドライブ] 強化ダメージ: 特攻の190% + 18×(レベル-1) + 720 → 特攻の174.8% + 17×(レベル-1) + 662"
+        "en": "[Electro Drift] Boosted damage: 190% Sp. Atk + 18×(Lv-1) + 720 → 174.8% Sp. Atk + 17×(Lv-1) + 662",
+        "ja": "[イナズマドライブ] 強化ダメージ: 特攻の190% + 18×(レベル-1) + 720 → 特攻の174.8% + 17×(レベル-1) + 662"
       },
       {
         "ko": "[파라볼라차지] 대기 시간: 10초 → 11초",
@@ -15478,8 +15815,8 @@
     "changes": [
       {
         "ko": "[초롱초롱눈동자] 기술 분류 원거리 → 필중",
-        "en": "[Charm] Skill category Ranged → Sure Hit",
-        "ja": "[なきごえ] 技分類 遠距離 → 必中"
+        "en": "[Baby-Doll Eyes] Skill category Ranged → Sure Hit",
+        "ja": "[つぶらなひとみ] 技分類 遠距離 → 必中"
       },
       {
         "ko": "[하이퍼보이스] 대기 시간 6초 → 5.5초",
@@ -16172,7 +16509,7 @@
     "summary": {
       "ko": "맹화의 데미지가 상향되고, 불대문자와 회오리불꽃의 대기 시간이 감소했다.",
       "en": "Blaze's damage was increased, and the cooldowns of Fire Blast and Fire Spin were reduced.",
-      "ja": "もうかのダメージが上方修正され、だいもんじとかえんうずの待機時間が短縮された。"
+      "ja": "もうかのダメージが上方修正され、だいもんじとほのおのうずの待機時間が短縮された。"
     },
     "changes": [
       {
@@ -16188,7 +16525,7 @@
       {
         "ko": "[회오리불꽃] 대기 시간 7.5초 → 6.5초",
         "en": "[Fire Spin] Cooldown: 7.5s → 6.5s",
-        "ja": "[かえんうず] 待機時間 7.5秒 → 6.5秒"
+        "ja": "[ほのおのうず] 待機時間 7.5秒 → 6.5秒"
       }
     ]
   },
@@ -16203,8 +16540,8 @@
     ],
     "summary": {
       "ko": "기술 대기 시간 감소 능력치와 차지빔 데미지, 라이트닝드라이브 대기 시간이 하향됐다.",
-      "en": "The cooldown reduction stat, Charge Beam damage, and Lightning Rod cooldown were reduced.",
-      "ja": "技の待ち時間短縮の能力値とチャージビームのダメージ、ライトニングドライブの待ち時間が下方修正された。"
+      "en": "The cooldown reduction stat, Charge Beam damage, and Electro Drift cooldown were reduced.",
+      "ja": "技の待ち時間短縮の能力値とチャージビームのダメージ、イナズマドライブの待ち時間が下方修正された。"
     },
     "changes": [
       {
@@ -16224,13 +16561,13 @@
       },
       {
         "ko": "[라이트닝드라이브] 대기 시간: 11초 → 12초",
-        "en": "[Lightning Rod] Cooldown: 11s → 12s",
-        "ja": "[ライトニングドライブ] 待ち時間: 11秒 → 12秒"
+        "en": "[Electro Drift] Cooldown: 11s → 12s",
+        "ja": "[イナズマドライブ] 待ち時間: 11秒 → 12秒"
       },
       {
         "ko": "[라이트닝드라이브] 강화 대기 시간: 7초 → 8초",
-        "en": "[Lightning Rod] Boosted cooldown: 7s → 8s",
-        "ja": "[ライトニングドライブ] 強化待ち時間: 7秒 → 8秒"
+        "en": "[Electro Drift] Boosted cooldown: 7s → 8s",
+        "ja": "[イナズマドライブ] 強化待ち時間: 7秒 → 8秒"
       }
     ]
   },
@@ -16777,24 +17114,24 @@
     ],
     "summary": {
       "ko": "라이트닝드라이브의 기본·강화 데미지가 전반적으로 하향됐다.",
-      "en": "Lightning Rod's base and boosted damage were reduced across the board.",
-      "ja": "ライトニングドライブの通常・強化ダメージが全体的に下方修正された。"
+      "en": "Electro Drift's base and boosted damage were reduced across the board.",
+      "ja": "イナズマドライブの通常・強化ダメージが全体的に下方修正された。"
     },
     "changes": [
       {
         "ko": "[라이트닝드라이브] 데미지: 특수공격의 130% + 7×(레벨-1) + 550 → 특수공격의 120% + 9×(레벨-1) + 520",
-        "en": "[Lightning Rod] Damage: 130% Sp. Atk + 7×(Lv-1) + 550 → 120% Sp. Atk + 9×(Lv-1) + 520",
-        "ja": "[ライトニングドライブ] ダメージ: 特攻の130% + 7×(レベル-1) + 550 → 特攻の120% + 9×(レベル-1) + 520"
+        "en": "[Electro Drift] Damage: 130% Sp. Atk + 7×(Lv-1) + 550 → 120% Sp. Atk + 9×(Lv-1) + 520",
+        "ja": "[イナズマドライブ] ダメージ: 特攻の130% + 7×(レベル-1) + 550 → 特攻の120% + 9×(レベル-1) + 520"
       },
       {
         "ko": "[라이트닝드라이브] 강화 데미지: 특수공격의 210% + 21×(레벨-1) + 800 → 특수공격의 190% + 18×(레벨-1) + 720",
-        "en": "[Lightning Rod] Boosted damage: 210% Sp. Atk + 21×(Lv-1) + 800 → 190% Sp. Atk + 18×(Lv-1) + 720",
-        "ja": "[ライトニングドライブ] 強化ダメージ: 特攻の210% + 21×(レベル-1) + 800 → 特攻の190% + 18×(レベル-1) + 720"
+        "en": "[Electro Drift] Boosted damage: 210% Sp. Atk + 21×(Lv-1) + 800 → 190% Sp. Atk + 18×(Lv-1) + 720",
+        "ja": "[イナズマドライブ] 強化ダメージ: 特攻の210% + 21×(レベル-1) + 800 → 特攻の190% + 18×(レベル-1) + 720"
       },
       {
         "ko": "[라이트닝드라이브] 강화 데미지(상대 HP 50% 미만): 특수공격의 252% + 23×(레벨-1) + 960 → 특수공격의 228% + 22×(레벨-1) + 864",
-        "en": "[Lightning Rod] Boosted damage (target below 50% HP): 252% Sp. Atk + 23×(Lv-1) + 960 → 228% Sp. Atk + 22×(Lv-1) + 864",
-        "ja": "[ライトニングドライブ] 強化ダメージ(相手HP50%未満): 特攻の252% + 23×(レベル-1) + 960 → 特攻の228% + 22×(レベル-1) + 864"
+        "en": "[Electro Drift] Boosted damage (target below 50% HP): 252% Sp. Atk + 23×(Lv-1) + 960 → 228% Sp. Atk + 22×(Lv-1) + 864",
+        "ja": "[イナズマドライブ] 強化ダメージ(相手HP50%未満): 特攻の252% + 23×(レベル-1) + 960 → 特攻の228% + 22×(レベル-1) + 864"
       }
     ]
   },
@@ -17153,34 +17490,34 @@
     ],
     "summary": {
       "ko": "잎날가르기와 리프스톰이 강화되었으나 리프스톰의 대기 시간이 늘어났다.",
-      "en": "Leaf Storm and Leaf Blade were buffed, but Leaf Blade's cooldown was increased.",
-      "ja": "リーフストームとリーフブレードが強化されたが、リーフブレードの待機時間が延びた。"
+      "en": "Razor Leaf and Leaf Storm were buffed, but Leaf Storm's cooldown was increased.",
+      "ja": "はっぱカッターとリーフストームが強化されたが、リーフストームの待機時間が延びた。"
     },
     "changes": [
       {
         "ko": "[잎날가르기] 대기 시간: 10초 → 8초",
-        "en": "[Leaf Storm] Cooldown: 10s → 8s",
-        "ja": "[リーフストーム] 待機時間: 10秒 → 8秒"
+        "en": "[Razor Leaf] Cooldown: 10s → 8s",
+        "ja": "[はっぱカッター] 待機時間: 10秒 → 8秒"
       },
       {
         "ko": "[리프스톰] 데미지: 공격의 108% + 6×(레벨-1) + 170 → 공격의 148% + 6×(레벨-1) + 215",
-        "en": "[Leaf Blade] Damage: 108% Atk + 6×(Lv-1) + 170 → 148% Atk + 6×(Lv-1) + 215",
-        "ja": "[リーフブレード] ダメージ: 攻撃の108% + 6×(レベル-1) + 170 → 攻撃の148% + 6×(レベル-1) + 215"
+        "en": "[Leaf Storm] Damage: 108% Atk + 6×(Lv-1) + 170 → 148% Atk + 6×(Lv-1) + 215",
+        "ja": "[リーフストーム] ダメージ: 攻撃の108% + 6×(レベル-1) + 170 → 攻撃の148% + 6×(レベル-1) + 215"
       },
       {
         "ko": "[리프스톰] 대기 시간: 6초 → 8초",
-        "en": "[Leaf Blade] Cooldown: 6s → 8s",
-        "ja": "[リーフブレード] 待機時間: 6秒 → 8秒"
+        "en": "[Leaf Storm] Cooldown: 6s → 8s",
+        "ja": "[リーフストーム] 待機時間: 6秒 → 8秒"
       },
       {
         "ko": "[리프스톰] 이동 속도 감소: 이동 속도의 45% · 2초 → 이동 속도의 60% · 2.5초 (0.5초마다 10% 증가, 최대 4회)",
-        "en": "[Leaf Blade] Movement speed reduction: 45% Move Speed · 2s → 60% Move Speed · 2.5s (increases 10% every 0.5s, up to 4 times)",
-        "ja": "[リーフブレード] 移動速度低下: 移動速度の45% · 2秒 → 移動速度の60% · 2.5秒 (0.5秒ごとに10%増加、最大4回)"
+        "en": "[Leaf Storm] Movement speed reduction: 45% Move Speed · 2s → 60% Move Speed · 2.5s (increases 10% every 0.5s, up to 4 times)",
+        "ja": "[リーフストーム] 移動速度低下: 移動速度の45% · 2秒 → 移動速度の60% · 2.5秒 (0.5秒ごとに10%増加、最大4回)"
       },
       {
         "ko": "[리프스톰] 강화 시 이동 속도 감소: 이동 속도의 45% · 3초 → 이동 속도의 60% · 3.5초 (0.5초마다 10% 증가, 최대 4회)",
-        "en": "[Leaf Blade] Upgraded movement speed reduction: 45% Move Speed · 3s → 60% Move Speed · 3.5s (increases 10% every 0.5s, up to 4 times)",
-        "ja": "[リーフブレード] 強化時の移動速度低下: 移動速度の45% · 3秒 → 移動速度の60% · 3.5秒 (0.5秒ごとに10%増加、最大4回)"
+        "en": "[Leaf Storm] Upgraded movement speed reduction: 45% Move Speed · 3s → 60% Move Speed · 3.5s (increases 10% every 0.5s, up to 4 times)",
+        "ja": "[リーフストーム] 強化時の移動速度低下: 移動速度の45% · 3秒 → 移動速度の60% · 3.5秒 (0.5秒ごとに10%増加、最大4回)"
       }
     ]
   },
@@ -17196,7 +17533,7 @@
     "summary": {
       "ko": "불대문자의 대기 시간이 증가하고 1타·폭발 데미지가 하향되었으며, 회오리불꽃의 대기 시간과 추적 시간이 하향되었다.",
       "en": "Fire Blast's cooldown was increased and its first-hit and explosion damage decreased; Fire Spin's cooldown and pursuit duration were also reduced.",
-      "ja": "だいもんじの待機時間が延び、1撃目・爆発ダメージが下方修正され、かえんうずの待機時間と追跡時間も下方修正された。"
+      "ja": "だいもんじの待機時間が延び、1撃目・爆発ダメージが下方修正され、ほのおのうずの待機時間と追跡時間も下方修正された。"
     },
     "changes": [
       {
@@ -17227,12 +17564,12 @@
       {
         "ko": "[회오리불꽃] 대기 시간 7초 → 7.5초",
         "en": "[Fire Spin] Cooldown: 7s → 7.5s",
-        "ja": "[かえんうず] 待機時間 7秒 → 7.5秒"
+        "ja": "[ほのおのうず] 待機時間 7秒 → 7.5秒"
       },
       {
         "ko": "[회오리불꽃] 추적 시간 5초 → 4초",
         "en": "[Fire Spin] Pursuit duration: 5s → 4s",
-        "ja": "[かえんうず] 追跡時間 5秒 → 4秒"
+        "ja": "[ほのおのうず] 追跡時間 5秒 → 4秒"
       }
     ]
   },
@@ -17248,7 +17585,7 @@
     "summary": {
       "ko": "특수공격 스탯과 강화 공격, 미스틱미라지 데미지가 하향됐다.",
       "en": "Sp. Atk stat, boosted attack, and Mystical Mirage damage were reduced.",
-      "ja": "とくこうステータスと強化攻撃、ミスティックミラージュのダメージが下方修正された。"
+      "ja": "とくこうステータスと強化攻撃、ミスティークミラージュのダメージが下方修正された。"
     },
     "changes": [
       {
@@ -17264,7 +17601,7 @@
       {
         "ko": "[미스틱미라지] 데미지 특수공격의 140% + 10×(레벨-1) + 375 → 특수공격의 120% + 10×(레벨-1) + 340",
         "en": "[Mystical Mirage] Damage 140% of Sp. Atk + 10×(Level-1) + 375 → 120% of Sp. Atk + 10×(Level-1) + 340",
-        "ja": "[ミスティックミラージュ] ダメージ とくこうの140% + 10×(レベル-1) + 375 → とくこうの120% + 10×(レベル-1) + 340"
+        "ja": "[ミスティークミラージュ] ダメージ とくこうの140% + 10×(レベル-1) + 375 → とくこうの120% + 10×(レベル-1) + 340"
       }
     ]
   },
@@ -18534,18 +18871,18 @@
     "summary": {
       "ko": "회오리불꽃의 대기 시간이 감소하고 틱당 데미지가 상향되었다.",
       "en": "Fire Spin's cooldown was reduced and its per-tick damage increased.",
-      "ja": "かえんうずの待機時間が短縮され、ティックごとのダメージが上方修正された。"
+      "ja": "ほのおのうずの待機時間が短縮され、ティックごとのダメージが上方修正された。"
     },
     "changes": [
       {
         "ko": "[회오리불꽃] 대기 시간 8초 → 7초",
         "en": "[Fire Spin] Cooldown: 8s → 7s",
-        "ja": "[かえんうず] 待機時間 8秒 → 7秒"
+        "ja": "[ほのおのうず] 待機時間 8秒 → 7秒"
       },
       {
         "ko": "[회오리불꽃] 틱당 데미지 특수공격의 12%+2×(레벨-1)+70 → 16%+2×(레벨-1)+90",
         "en": "[Fire Spin] Per-tick damage: Sp. Atk 12%+2×(Lv-1)+70 → 16%+2×(Lv-1)+90",
-        "ja": "[かえんうず] ティックごとのダメージ 特攻の12%+2×(レベル-1)+70 → 16%+2×(レベル-1)+90"
+        "ja": "[ほのおのうず] ティックごとのダメージ 特攻の12%+2×(レベル-1)+70 → 16%+2×(レベル-1)+90"
       }
     ]
   },
@@ -19588,7 +19925,7 @@
     "summary": {
       "ko": "솔라빔과 유나이트 기술 미스틱미라지의 데미지가 하향됐다.",
       "en": "Solar Beam and the Unite Move Mystical Mirage had their damage reduced.",
-      "ja": "ソーラービームとユナイトわざミスティックミラージュのダメージが下方修正された。"
+      "ja": "ソーラービームとユナイトわざミスティークミラージュのダメージが下方修正された。"
     },
     "changes": [
       {
@@ -19604,7 +19941,7 @@
       {
         "ko": "[미스틱미라지] 데미지 특수공격의 180% + 10×(레벨-1) + 470 → 특수공격의 140% + 10×(레벨-1) + 375",
         "en": "[Mystical Mirage] Damage 180% of Sp. Atk + 10×(Level-1) + 470 → 140% of Sp. Atk + 10×(Level-1) + 375",
-        "ja": "[ミスティックミラージュ] ダメージ とくこうの180% + 10×(レベル-1) + 470 → とくこうの140% + 10×(レベル-1) + 375"
+        "ja": "[ミスティークミラージュ] ダメージ とくこうの180% + 10×(レベル-1) + 470 → とくこうの140% + 10×(レベル-1) + 375"
       }
     ]
   },
@@ -20361,24 +20698,24 @@
     ],
     "summary": {
       "ko": "잎날가르기의 공격 속도 증가폭이 커지고, 화살깃연속속사의 대기 시간과 게이지 충전량이 개선되었다.",
-      "en": "Leaf Storm's attack speed boost was increased, and Nock Nock's cooldown and Unite gauge charge requirement were improved.",
-      "ja": "リーフストームの攻撃速度上昇量が増え、やじり連続速射の待機時間とゲージ蓄積量が改善された。"
+      "en": "Razor Leaf's attack speed boost was increased, and Nock Nock's cooldown and Unite gauge charge requirement were improved.",
+      "ja": "はっぱカッターの攻撃速度上昇量が増え、矢継早連撃の待機時間とゲージ蓄積量が改善された。"
     },
     "changes": [
       {
         "ko": "[잎날가르기] 공격 속도 증가: 1%×(레벨-1) + 21% → 1%×(레벨-1) + 40%",
-        "en": "[Leaf Storm] Attack speed increase: 1%×(Lv-1) + 21% → 1%×(Lv-1) + 40%",
-        "ja": "[リーフストーム] 攻撃速度増加: 1%×(レベル-1) + 21% → 1%×(レベル-1) + 40%"
+        "en": "[Razor Leaf] Attack speed increase: 1%×(Lv-1) + 21% → 1%×(Lv-1) + 40%",
+        "ja": "[はっぱカッター] 攻撃速度増加: 1%×(レベル-1) + 21% → 1%×(レベル-1) + 40%"
       },
       {
         "ko": "[화살깃연속속사] 대기 시간: 150초 → 112초",
         "en": "[Nock Nock] Cooldown: 150s → 112s",
-        "ja": "[やじり連続速射] 待機時間: 150秒 → 112秒"
+        "ja": "[矢継早連撃] 待機時間: 150秒 → 112秒"
       },
       {
         "ko": "[화살깃연속속사] 유나이트 기술 게이지 충전량: 135,000 → 100,000",
         "en": "[Nock Nock] Unite gauge charge requirement: 135,000 → 100,000",
-        "ja": "[やじり連続速射] ユナイトわざゲージ蓄積量: 135,000 → 100,000"
+        "ja": "[矢継早連撃] ユナイトわざゲージ蓄積量: 135,000 → 100,000"
       }
     ]
   },
@@ -25038,7 +25375,7 @@
       {
         "ko": "[미스틱미라지] 데미지 특수공격의 211% + 12×(레벨-1) + 550 → 특수공격의 180% + 10×(레벨-1) + 470",
         "en": "[Mystical Mirage] Damage 211% of Sp. Atk + 12×(Level-1) + 550 → 180% of Sp. Atk + 10×(Level-1) + 470",
-        "ja": "[ミスティックミラージュ] ダメージ とくこうの211% + 12×(レベル-1) + 550 → とくこうの180% + 10×(レベル-1) + 470"
+        "ja": "[ミスティークミラージュ] ダメージ とくこうの211% + 12×(レベル-1) + 550 → とくこうの180% + 10×(レベル-1) + 470"
       }
     ]
   },
@@ -26910,7 +27247,7 @@
     "summary": {
       "ko": "불대문자의 1타·폭발 데미지가 상향되었고, 회오리불꽃의 추적 지속 시간과 틱당 데미지가 하향되었다. 니트로차지의 강화 효과와 불꽃 추적 거리가 강화되었다.",
       "en": "Fire Blast's first-hit and explosion damage were increased, while Fire Spin's pursuit duration and per-tick damage were decreased. Flame Charge's upgrade effect and flame pursuit range were enhanced.",
-      "ja": "だいもんじの1撃目・爆発ダメージが上方修正され、かえんうずの追跡持続時間とティックごとのダメージが下方修正された。ニトロチャージの強化効果と炎の追跡距離が強化された。"
+      "ja": "だいもんじの1撃目・爆発ダメージが上方修正され、ほのおのうずの追跡持続時間とティックごとのダメージが下方修正された。ニトロチャージの強化効果と炎の追跡距離が強化された。"
     },
     "changes": [
       {
@@ -26936,12 +27273,12 @@
       {
         "ko": "[회오리불꽃] 추적 지속 시간 6초 → 4.5초",
         "en": "[Fire Spin] Pursuit duration: 6s → 4.5s",
-        "ja": "[かえんうず] 追跡持続時間 6秒 → 4.5秒"
+        "ja": "[ほのおのうず] 追跡持続時間 6秒 → 4.5秒"
       },
       {
         "ko": "[회오리불꽃] 틱당 데미지 특수공격의 13%+2×(레벨-1)+80 → 12%+2×(레벨-1)+70",
         "en": "[Fire Spin] Per-tick damage: Sp. Atk 13%+2×(Lv-1)+80 → 12%+2×(Lv-1)+70",
-        "ja": "[かえんうず] ティックごとのダメージ 特攻の13%+2×(レベル-1)+80 → 12%+2×(レベル-1)+70"
+        "ja": "[ほのおのうず] ティックごとのダメージ 特攻の13%+2×(レベル-1)+80 → 12%+2×(レベル-1)+70"
       },
       {
         "ko": "[니트로차지] 강화 이동 속도 증가 효과 지속 시간 증가",
@@ -28678,7 +29015,7 @@
     "summary": {
       "ko": "그림자꿰매기와 화살깃연속속사의 데미지가 전반적으로 상향되었다.",
       "en": "Spirit Shackle and Nock Nock received across-the-board damage buffs.",
-      "ja": "かげぬいとやじり連続速射のダメージが全体的に強化された。"
+      "ja": "かげぬいと矢継早連撃のダメージが全体的に強化された。"
     },
     "changes": [
       {
@@ -28704,12 +29041,12 @@
       {
         "ko": "[화살깃연속속사] 데미지(30회): 공격의 62% + 2×(레벨-1) + 90 → 공격의 70% + 2×(레벨-1) + 100",
         "en": "[Nock Nock] Damage (30 hits): 62% Atk + 2×(Lv-1) + 90 → 70% Atk + 2×(Lv-1) + 100",
-        "ja": "[やじり連続速射] ダメージ(30回): 攻撃の62% + 2×(レベル-1) + 90 → 攻撃の70% + 2×(レベル-1) + 100"
+        "ja": "[矢継早連撃] ダメージ(30回): 攻撃の62% + 2×(レベル-1) + 90 → 攻撃の70% + 2×(レベル-1) + 100"
       },
       {
         "ko": "[화살깃연속속사] 데미지(마지막): 공격의 248% + 8×(레벨-1) + 360 → 공격의 280% + 8×(레벨-1) + 400",
         "en": "[Nock Nock] Damage (final): 248% Atk + 8×(Lv-1) + 360 → 280% Atk + 8×(Lv-1) + 400",
-        "ja": "[やじり連続速射] ダメージ(最後): 攻撃の248% + 8×(レベル-1) + 360 → 攻撃の280% + 8×(レベル-1) + 400"
+        "ja": "[矢継早連撃] ダメージ(最後): 攻撃の248% + 8×(レベル-1) + 360 → 攻撃の280% + 8×(レベル-1) + 400"
       }
     ]
   },
@@ -29249,8 +29586,8 @@
     ],
     "summary": {
       "ko": "일반 공격과 능력치가 강화되고, 그림자꿰매기·리프스톰·화살깃연속속사가 조정되었다.",
-      "en": "Basic attacks and stats were buffed, while Spirit Shackle, Leaf Blade, and Nock Nock received adjustments.",
-      "ja": "通常攻撃と能力値が強化され、かげぬい・リーフブレード・やじり連続速射が調整された。"
+      "en": "Basic attacks and stats were buffed, while Spirit Shackle, Leaf Storm, and Nock Nock received adjustments.",
+      "ja": "通常攻撃と能力値が強化され、かげぬい・リーフストーム・矢継早連撃が調整された。"
     },
     "changes": [
       {
@@ -29280,23 +29617,23 @@
       },
       {
         "ko": "[리프스톰] 기술 범위 증가",
-        "en": "[Leaf Blade] Increased skill area",
-        "ja": "[リーフブレード] わざの範囲増加"
+        "en": "[Leaf Storm] Increased skill area",
+        "ja": "[リーフストーム] わざの範囲増加"
       },
       {
         "ko": "[리프스톰] 상대편 포켓몬에게 주는 효과 증가",
-        "en": "[Leaf Blade] Increased effect on opposing Pokémon",
-        "ja": "[リーフブレード] 相手のポケモンへの効果増加"
+        "en": "[Leaf Storm] Increased effect on opposing Pokémon",
+        "ja": "[リーフストーム] 相手のポケモンへの効果増加"
       },
       {
         "ko": "[리프스톰] 조작 조정",
-        "en": "[Leaf Blade] Controls adjusted",
-        "ja": "[リーフブレード] 操作調整"
+        "en": "[Leaf Storm] Controls adjusted",
+        "ja": "[リーフストーム] 操作調整"
       },
       {
         "ko": "[화살깃연속속사] 조작 조정",
         "en": "[Nock Nock] Controls adjusted",
-        "ja": "[やじり連続速射] 操作調整"
+        "ja": "[矢継早連撃] 操作調整"
       }
     ]
   },
@@ -29820,33 +30157,33 @@
       "buff"
     ],
     "summary": {
-      "ko": "나뭇잎날리기, 잎날가르기, 그림자꿰매기의 데미지와 대기 시간 등이 상향되었다.",
+      "ko": "나뭇잎, 리프스톰, 그림자꿰매기의 데미지와 대기 시간 등이 상향되었다.",
       "en": "Leafage, Leaf Storm, and Spirit Shackle received buffs to damage and cooldowns.",
-      "ja": "はっぱ、リーフストーム、かげぬいのダメージや待機時間が強化された。"
+      "ja": "このは、リーフストーム、かげぬいのダメージや待機時間が強化された。"
     },
     "changes": [
       {
-        "ko": "[나뭇잎날리기] 데미지: 공격의 108% + 6×(레벨-1) + 200 → 공격의 124% + 7×(레벨-1) + 230",
+        "ko": "[나뭇잎] 데미지: 공격의 108% + 6×(레벨-1) + 200 → 공격의 124% + 7×(레벨-1) + 230",
         "en": "[Leafage] Damage: 108% Atk + 6×(Lv-1) + 200 → 124% Atk + 7×(Lv-1) + 230",
-        "ja": "[はっぱ] ダメージ: 攻撃の108% + 6×(レベル-1) + 200 → 攻撃の124% + 7×(レベル-1) + 230"
+        "ja": "[このは] ダメージ: 攻撃の108% + 6×(レベル-1) + 200 → 攻撃の124% + 7×(レベル-1) + 230"
       },
       {
-        "ko": "[잎날가르기] 데미지: 공격의 94% + 3×(레벨-1) + 140 → 공격의 108% + 6×(레벨-1) + 170",
+        "ko": "[리프스톰] 데미지: 공격의 94% + 3×(레벨-1) + 140 → 공격의 108% + 6×(레벨-1) + 170",
         "en": "[Leaf Storm] Damage: 94% Atk + 3×(Lv-1) + 140 → 108% Atk + 6×(Lv-1) + 170",
         "ja": "[リーフストーム] ダメージ: 攻撃の94% + 3×(レベル-1) + 140 → 攻撃の108% + 6×(レベル-1) + 170"
       },
       {
-        "ko": "[잎날가르기] 대기 시간: 8초 → 6초",
+        "ko": "[리프스톰] 대기 시간: 8초 → 6초",
         "en": "[Leaf Storm] Cooldown: 8s → 6s",
         "ja": "[リーフストーム] 待機時間: 8秒 → 6秒"
       },
       {
-        "ko": "[잎날가르기] 거리 증가",
+        "ko": "[리프스톰] 거리 증가",
         "en": "[Leaf Storm] Increased range",
         "ja": "[リーフストーム] 距離増加"
       },
       {
-        "ko": "[잎날가르기] 밀쳐내기 효과 증가",
+        "ko": "[리프스톰] 밀쳐내기 효과 증가",
         "en": "[Leaf Storm] Increased knockback effect",
         "ja": "[リーフストーム] 吹き飛ばし効果増加"
       },

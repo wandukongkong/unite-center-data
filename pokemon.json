@@ -4946,7 +4946,7 @@
             "en": "Feint"
           },
           "category": "active",
-          "cooldown": 9,
+          "cooldown": 9.5,
           "unlockedAtLevel": 8,
           "upgradedAtLevel": 13,
           "description": {
@@ -5134,7 +5134,7 @@
             "en": "Telekinesis"
           },
           "category": "active",
-          "cooldown": 7.5,
+          "cooldown": 9,
           "unlockedAtLevel": 7,
           "upgradedAtLevel": 13,
           "description": {
@@ -12000,29 +12000,29 @@
     "skills": {
       "basicAttack": {
         "description": {
-          "ko": "모든 일반 공격과 기술이 물리 공격 수치를 기반으로 한다. 일반 공격이 명중할 때마다 공격 속도가 오른다(최대 4중첩). 3번 명중 후부터 일반 공격이 강화 공격이 되어 화살깃을 3개 동시에 발사하지만 화살깃 1개의 데미지는 감소한다.",
-          "ja": "すべてのノーマルアタックとわざは物理攻撃数値を基にする。ノーマルアタックが命中するたびに攻撃速度が上がる（最大4重ね）。3回命中後からノーマルアタックが強化アタックになり、矢じりを3本同時に発射するが1本あたりのダメージは減少する。",
-          "en": "All basic attacks and moves are based on the Attack stat. Attack speed increases with each basic attack hit (up to 4 stacks). After 3 hits, basic attacks become enhanced attacks that fire 3 quills simultaneously, though each quill deals reduced damage."
+          "ko": "모든 일반 공격과 기술이 공격 수치를 기반으로 한다. 일반 공격이 명중하면 2.5초 동안 공격 속도가 3% 오른다(최대 4중첩). 이 효과가 3번 발동할 때마다 잠시 동안 일반 공격이 강화 공격이 된다. 강화 공격은 화살깃을 더 많이 날리지만 화살깃 1개의 데미지는 감소한다.",
+          "ja": "すべての通常攻撃とわざは攻撃の数値を基にする。通常攻撃が命中すると2.5秒間、攻撃速度が3%上がる（最大4回重複）。この効果が3回発動するたびに、少しのあいだ通常攻撃が強化攻撃になる。強化攻撃は飛ばせる矢羽根の数が増えるが、矢羽根1本あたりのダメージは軽くなる。",
+          "en": "All basic attacks and moves scale with Attack. When a basic attack hits, attack speed increases by 3% for 2.5s (stacks up to 4 times). Every third activation of this effect turns basic attacks into boosted attacks for a short time. Boosted attacks fire more quills, but each quill deals less damage."
         }
       },
       "passive": {
         "name": {
           "ko": "원격",
-          "ja": "スナイパー",
+          "ja": "えんかく",
           "en": "Long Reach"
         },
         "description": {
-          "ko": "멀리 있는 상대에게 주는 데미지가 20% 증가한다.",
-          "ja": "遠くにいる相手に与えるダメージが20%増加する。",
-          "en": "Increases damage dealt to distant opponents by 20%."
+          "ko": "멀리 있는 상대편 포켓몬에게 주는 일반 공격과 기술의 데미지가 20% 증가한다.",
+          "ja": "遠くにいる相手のポケモンに与える通常攻撃とわざのダメージが20%増加する。",
+          "en": "Increases basic attack and move damage dealt to distant opposing Pokémon by 20%."
         }
       },
       "moves": [
         {
           "id": "leafage",
           "name": {
-            "ko": "나뭇잎날리기",
-            "ja": "はっぱ",
+            "ko": "나뭇잎",
+            "ja": "このは",
             "en": "Leafage"
           },
           "category": "active",
@@ -12030,8 +12030,8 @@
           "unlockedAtLevel": 1,
           "upgradedAtLevel": null,
           "description": {
-            "ko": "지정한 방향 부채꼴로 나뭇잎을 던져 명중한 상대편 포켓몬에게 데미지를 준다. 사용 후 잠시 자신의 공격이 10% 증가하고(나뭇잎날리기에도 적용) 일반 공격 속도가 3초 동안 25% 증가한다.",
-            "ja": "指定した方向の扇状に葉を投げ、当たった相手のポケモンにダメージを与える。使用後しばらく自分の攻撃が10%増加し（はっぱにも適用）、通常攻撃の速度が3秒間25%増加する。",
+            "ko": "지정한 방향 부채꼴로 나뭇잎을 던져 명중한 상대편 포켓몬에게 데미지를 준다. 사용 후 잠시 자신의 공격이 10% 증가하고(나뭇잎에도 적용) 일반 공격 속도가 3초 동안 25% 증가한다.",
+            "ja": "指定した方向の扇状に葉を投げ、当たった相手のポケモンにダメージを与える。使用後しばらく自分の攻撃が10%増加し（このはにも適用）、通常攻撃の速度が3秒間25%増加する。",
             "en": "Hurls leaves in a cone in the designated direction, dealing damage to opposing Pokémon hit. For a short time after use, the user's Attack increases by 10% (also affecting Leafage) and basic attack speed by 25% for 3s."
           },
           "upgradeDescription": null
@@ -12045,7 +12045,7 @@
           },
           "category": "active",
           "cooldown": 8,
-          "unlockedAtLevel": 1,
+          "unlockedAtLevel": 3,
           "upgradedAtLevel": null,
           "description": {
             "ko": "상대편 포켓몬에게 데미지를 주고 이동 속도를 잠시 80% 떨어뜨린다.",
@@ -12055,25 +12055,25 @@
           "upgradeDescription": null
         },
         {
-          "id": "leaf_storm",
+          "id": "razor_leaf",
           "name": {
             "ko": "잎날가르기",
-            "ja": "リーフストーム",
-            "en": "Leaf Storm"
+            "ja": "はっぱカッター",
+            "en": "Razor Leaf"
           },
           "category": "active",
           "cooldown": 8,
           "unlockedAtLevel": 7,
           "upgradedAtLevel": 11,
           "description": {
-            "ko": "날카로운 잎사귀 폭풍을 일으켜 명중한 상대편 포켓몬에게 데미지를 주고 이동 속도를 2.5초 동안 60% 떨어뜨린다(0.5초마다 10%씩 감소, 최대 4회). 아주 가까운 거리에서는 상대편 포켓몬을 밀쳐내며 1초 동안 기절시킨다.",
-            "ja": "鋭い葉の嵐を起こし、当たった相手のポケモンにダメージを与え、移動速度を2.5秒間60%下げる（0.5秒ごとに10%ずつ減少、最大4回）。至近距離では相手のポケモンを押しやり、1秒間気絶させる。",
-            "en": "Creates a tempest of sharp leaves, dealing damage to opposing Pokémon hit and decreasing their movement speed by 60% for 2.5s (decaying by 10% every 0.5s, up to 4 times). At point-blank range, it also shoves and stuns opposing Pokémon for 1s."
+            "ko": "잎사귀를 몸에 두르고 있는 5.5초 동안 공격이 10% 오르고 일반 공격이 빨라진다. 그동안 일반 공격이 범위 안의 상대편 포켓몬을 최대 2마리 추가로 공격한다(추가 대상에게 주는 데미지는 감소).",
+            "ja": "はっぱを身にまとっている5.5秒間、攻撃が10%上がり、通常攻撃も速くなる。そのあいだ通常攻撃が範囲内の相手のポケモンを最大2匹まで追加で攻撃する（追加対象へのダメージは減少）。",
+            "en": "Summons whirling razor leaves. For 5.5s, Attack increases by 10% and basic attack speed increases, and basic attacks also hit up to 2 additional opposing Pokémon in range (dealing reduced damage to the additional targets)."
           },
           "upgradeDescription": {
-            "ko": "업그레이드 후에는 이동 속도 감소 지속 시간이 늘어난다.",
-            "ja": "強化後は移動速度低下の持続時間が延びる。",
-            "en": "Upgrade: Extends the duration of the movement speed reduction."
+            "ko": "업그레이드 후에는 상대편 포켓몬의 남은 HP가 많을수록 일반 공격의 데미지가 증가한다(주 대상 남은 HP의 2%, 추가 대상 1%, 최대 240/120).",
+            "ja": "強化後は相手のポケモンの残りHPが多いほど、通常攻撃で与えるダメージが増加する（メインターゲットは残りHPの2%、追加対象は1%、上限240/120）。",
+            "en": "Upgrade: Basic attacks deal additional damage based on the target's remaining HP (2% for the main target, 1% for additional targets, capped at 240/120)."
           }
         },
         {
@@ -12084,7 +12084,7 @@
             "en": "Spirit Shackle"
           },
           "category": "active",
-          "cooldown": 8,
+          "cooldown": 9,
           "unlockedAtLevel": 7,
           "upgradedAtLevel": 11,
           "description": {
@@ -12100,25 +12100,25 @@
           "chargeCount": 3
         },
         {
-          "id": "leaf_blade",
+          "id": "leaf_storm",
           "name": {
             "ko": "리프스톰",
-            "ja": "リーフブレード",
-            "en": "Leaf Blade"
+            "ja": "リーフストーム",
+            "en": "Leaf Storm"
           },
           "category": "active",
           "cooldown": 8,
           "unlockedAtLevel": 8,
           "upgradedAtLevel": 13,
           "description": {
-            "ko": "뾰족한 잎사귀로 돌풍을 일으켜 공격한다. 명중 시 상대에게 데미지를 주고 이동 속도를 잠시 동안 떨어뜨린다. 지근거리에서 명중시키면 상대를 밀쳐내는 효과가 추가된다.",
-            "ja": "鋭い葉っぱで突風を起こして攻撃する。命中時に相手にダメージを与え、移動速度をしばらくの間下げる。至近距離で命中させると相手を吹き飛ばす効果が追加される。",
-            "en": "Attacks with a gust of sharp leaves. On hit, deals damage and briefly reduces opponents' movement speed. Hitting at close range adds a knockback effect."
+            "ko": "날카로운 잎사귀 폭풍을 일으켜 명중한 상대편 포켓몬에게 데미지를 주고 이동 속도를 2.5초 동안 60% 떨어뜨린다(0.5초마다 10%씩 감소, 최대 4회). 아주 가까운 거리에서는 상대편 포켓몬을 밀쳐내며 1초 동안 기절시킨다.",
+            "ja": "鋭い葉の嵐を起こし、当たった相手のポケモンにダメージを与え、移動速度を2.5秒間60%下げる（0.5秒ごとに10%ずつ減少、最大4回）。至近距離では相手のポケモンを押しやり、1秒間気絶させる。",
+            "en": "Creates a tempest of sharp leaves, dealing damage to opposing Pokémon hit and decreasing their movement speed by 60% for 2.5s (decaying by 10% every 0.5s, up to 4 times). At point-blank range, it also shoves and stuns opposing Pokémon for 1s."
           },
           "upgradeDescription": {
-            "ko": "상대의 이동 속도가 떨어지는 시간이 길어진다.",
-            "ja": "相手の移動速度が下がる時間が長くなる。",
-            "en": "Extends the duration of the movement speed reduction."
+            "ko": "업그레이드 후에는 이동 속도 감소 지속 시간이 3.5초로 늘어난다.",
+            "ja": "強化後は移動速度低下の持続時間が3.5秒に延びる。",
+            "en": "Upgrade: The movement speed decrease now lasts 3.5s."
           }
         },
         {
@@ -12138,9 +12138,9 @@
             "en": "Creates a shadow that lasts up to 5s, increasing the user's movement speed by 70% for 2s (decaying by 20% every 0.5s) and revealing nearby opposing Pokémon. The shadow then automatically targets a visible opposing Pokémon, dealing damage, decreasing its movement speed by 30% for 1s, and decreasing its Defense by 40% for 1.5s."
           },
           "upgradeDescription": {
-            "ko": "업그레이드 후에는 상대편 포켓몬의 방어를 더욱 떨어뜨린다.",
-            "ja": "強化後は相手のポケモンの防御をさらに下げる。",
-            "en": "Upgrade: Further decreases the opposing Pokémon's Defense."
+            "ko": "업그레이드 후에는 상대편 포켓몬의 방어 감소량이 60%로 늘어난다.",
+            "ja": "強化後は相手のポケモンの防御低下量が60%に増加する。",
+            "en": "Upgrade: The Defense reduction is increased to 60%."
           }
         }
       ],
@@ -12148,7 +12148,7 @@
         "id": "nock_nock",
         "name": {
           "ko": "화살깃연속속사",
-          "ja": "やじり連続速射",
+          "ja": "矢継早連撃",
           "en": "Nock Nock"
         },
         "cooldown": 112,
@@ -12206,11 +12206,11 @@
       },
       "moves": [
         {
-          "id": "mystical_fire",
+          "id": "ember",
           "name": {
             "ko": "불꽃세례",
-            "ja": "マジカルフレイム",
-            "en": "Mystical Fire"
+            "ja": "ひのこ",
+            "en": "Ember"
           },
           "type": "active",
           "category": "ranged",
@@ -12219,7 +12219,7 @@
           "description": {
             "ko": "전방으로 작은 불꽃을 발사하여 맞은 상대편 포켓몬에게 데미지를 준다.",
             "ja": "前方に小さなほのおを発射し、当たった相手のポケモンにダメージを与える。",
-            "en": "Shoots a small flame forward, dealing damage to opposing Pokemon it hits."
+            "en": "Shoots a small flame forward, dealing damage to opposing Pokémon hit."
           },
           "unlockedAtLevel": 1
         },
@@ -12228,7 +12228,7 @@
           "name": {
             "ko": "도깨비불",
             "ja": "おにび",
-            "en": "Will-O-Wisp"
+            "en": "Will-o-Wisp"
           },
           "type": "active",
           "category": "ranged",
@@ -12253,35 +12253,45 @@
           "cooldown": 6.5,
           "upgradedAtLevel": 11,
           "description": {
-            "ko": "전방으로 큰대자의 불꽃을 쏘아 맞은 상대편 포켓몬에게 데미지를 준다. 큰대자가 지나간 곳은 불꽃 공간이 되어 시간차 폭발이 일어나며 범위 안의 상대편 포켓몬에게 추가 데미지를 준다. 업그레이드 후에는 주는 데미지가 증가한다.",
-            "ja": "前方に大文字のほのおを放ち、当たった相手のポケモンにダメージを与える。大文字が通過した場所はほのおの空間となり、時間差で爆発が起き、範囲内の相手のポケモンに追加ダメージを与える。強化後はダメージが増加する。",
-            "en": "Fires a Fire Blast forward, dealing damage to opposing Pokemon it hits. The area it passes through becomes a flame zone that explodes after a short delay, dealing additional damage to opposing Pokemon in range. Upgrade increases damage dealt."
+            "ko": "전방으로 큰대자의 불꽃을 쏘아 맞은 상대편 포켓몬에게 데미지를 준다. 큰대자가 지나간 곳은 불꽃 공간이 되어 시간차 폭발이 일어나며 범위 안의 상대편 포켓몬에게 추가 데미지를 준다.",
+            "ja": "前方に大文字のほのおを放ち、当たった相手のポケモンにダメージを与える。大文字が通過した場所はほのおの空間となり、時間差で爆発が起き、範囲内の相手のポケモンに追加ダメージを与える。",
+            "en": "Launches an intense, all-consuming fire forward, dealing damage to opposing Pokémon hit. As the fire travels, it leaves behind a zone of flames in which a delayed explosion occurs, dealing additional damage to opposing Pokémon in the area."
           },
-          "unlockedAtLevel": 5
+          "unlockedAtLevel": 6,
+          "upgradeDescription": {
+            "ko": "업그레이드 후에는 주는 데미지가 증가한다.",
+            "ja": "強化後は与えるダメージが増加する。",
+            "en": "Upgrade: Increases damage dealt."
+          }
         },
         {
-          "id": "flame_charge",
+          "id": "mystical_fire",
           "name": {
             "ko": "매지컬플레임",
-            "ja": "ニトロチャージ",
-            "en": "Flame Charge"
+            "ja": "マジカルフレイム",
+            "en": "Mystical Fire"
           },
           "type": "active",
           "category": "ranged",
           "cooldown": 4.5,
           "upgradedAtLevel": 11,
           "description": {
-            "ko": "전방으로 이상한 불꽃을 발사한다. 상대편 포켓몬에게 맞으면 폭발을 일으키고 범위 안에 있는 상대편 포켓몬에게 데미지를 준다. 업그레이드 후에는 명중했을 때 모든 기술의 대기 시간이 짧아진다. 상대 팀 포켓몬에게 명중한 경우 더욱 짧아진다.",
-            "ja": "前方に不思議なほのおを発射する。相手のポケモンに当たると爆発を起こし、範囲内の相手のポケモンにダメージを与える。強化後は命中時にすべてのわざの待機時間が短くなる。相手チームのポケモンに命中した場合はさらに短くなる。",
-            "en": "Fires a strange flame forward. If it hits an opposing Pokemon, it explodes and deals damage to nearby opposing Pokemon. Upgrade: hitting an opposing Pokemon reduces all move cooldowns; hitting an enemy Pokemon reduces them even further."
+            "ko": "전방으로 특별한 뜨거운 불꽃 구슬을 발사한다. 상대편 포켓몬에게 맞으면 폭발을 일으켜 범위 안에 있는 상대편 포켓몬에게 데미지를 준다.",
+            "ja": "前方に特別な熱いほのおの玉を放つ。相手のポケモンに当たると爆発を起こし、範囲内の相手のポケモンにダメージを与える。",
+            "en": "Unleashes a special, hot ball of fire forward. If it hits an opposing Pokémon, the fire explodes, dealing damage to opposing Pokémon in the area of effect."
           },
-          "unlockedAtLevel": 5
+          "unlockedAtLevel": 6,
+          "upgradeDescription": {
+            "ko": "업그레이드 후에는 이 기술이 명중하면 모든 기술의 대기 시간이 1초 짧아진다. 상대 팀 포켓몬에게 명중한 경우 1.5초로 더욱 짧아진다.",
+            "ja": "強化後はこの技が命中するとすべての技の待ち時間が1秒短くなる。相手チームのポケモンに命中した場合は1.5秒とさらに短くなる。",
+            "en": "Upgrade: When this move hits, the cooldowns of all moves are reduced by 1s. If it hits an opposing team Pokémon, they are reduced even further (1.5s)."
+          }
         },
         {
           "id": "fire_spin",
           "name": {
             "ko": "회오리불꽃",
-            "ja": "かえんうず",
+            "ja": "ほのおのうず",
             "en": "Fire Spin"
           },
           "type": "active",
@@ -12312,15 +12322,15 @@
           "cooldown": 4.5,
           "upgradedAtLevel": 13,
           "description": {
-            "ko": "지정한 방향으로 돌진한다. 돌진이 끝날 때 일반 공격 사정거리 안에 상대편 포켓몬이 있으면 불꽃 3개를 소환해 데미지를 주고 이동 속도를 2초 동안 30% 떨어뜨린다. 이후 명중하는 불꽃은 70% 감소한 데미지를 준다. 이 기술은 불대문자나 불꽃세례를 사용하는 중에도 쓸 수 있다.",
+            "ko": "지정한 방향으로 돌진한다. 돌진이 끝날 때 일반 공격 사정거리 안에 상대편 포켓몬이 있으면 불꽃 3개를 소환해 데미지를 주고 이동 속도를 2초 동안 30% 떨어뜨린다. 이후 명중하는 불꽃은 70% 감소한 데미지를 준다. 이 기술은 불대문자나 매지컬플레임을 사용하는 중에도 쓸 수 있다.",
             "ja": "指定した方向に突進する。突進が終わったとき通常攻撃の射程内に相手のポケモンがいると、炎を3つ召喚してダメージを与え、移動速度を2秒間30%下げる。以降当たる炎は70%減少したダメージになる。この技はだいもんじやマジカルフレイムを使用中にも使える。",
             "en": "Charges forward in the designated direction. If any opposing Pokémon are within basic attack range when the charge ends, summons 3 flames that deal damage and decrease movement speed by 30% for 2s. Each subsequent flame that hits deals 70% less damage. This move can be used while Fire Blast or Mystical Fire is active."
           },
           "unlockedAtLevel": 7,
           "upgradeDescription": {
-            "ko": "업그레이드 후에는 이 기술을 사용하면 잠시 자신의 이동 속도가 증가한다.",
-            "ja": "強化後はこの技を使うと、しばらく自分の移動速度が増加する。",
-            "en": "Upgrade: Increases the user's movement speed for a short time when this move is used."
+            "ko": "업그레이드 후에는 이 기술을 사용하면 자신의 이동 속도가 2초 동안 30% 증가한다.",
+            "ja": "強化後はこの技を使うと自分の移動速度が2秒間30%増加する。",
+            "en": "Upgrade: Increases the user's movement speed by 30% for 2s when this move is used."
           }
         }
       ],
@@ -14810,14 +14820,18 @@
           },
           "category": "active",
           "cooldown": 5,
-          "unlockedAtLevel": 4,
-          "upgradedAtLevel": 4,
+          "unlockedAtLevel": 1,
+          "upgradedAtLevel": 10,
           "description": {
             "ko": "범위 안의 상대편 포켓몬에게 전기 구슬을 던져 데미지를 주고 2초 동안 마비시킨다(이동 속도 40%, 공격 속도 10% 감소). 대상의 남은 HP가 적을수록 더 큰 데미지를 준다. 빛의장막을 통과하면 데미지와 범위가 증가한다.",
             "ja": "範囲内の相手のポケモンに電気の球を投げてダメージを与え、2秒間まひさせる（移動速度40%・攻撃速度10%減少）。対象の残りHPが少ないほど大きなダメージを与える。ひかりのかべを通ると、ダメージと範囲が増加する。",
             "en": "Throws an electric orb at opposing Pokémon in the area, dealing damage and paralyzing them for 2s (40% slow, 10% attack speed reduction). Deals more damage the lower the target's remaining HP. If it passes through Light Screen, its damage and area of effect increase."
           },
-          "upgradeDescription": null
+          "upgradeDescription": {
+            "ko": "업그레이드 후에는 마비 효과가 강화되어 이동 속도를 60%, 공격 속도를 30% 떨어뜨린다.",
+            "ja": "強化後はまひの効果が強まり、移動速度を60%、攻撃速度を30%下げる。",
+            "en": "Upgrade: Strengthens the paralysis to a 60% movement speed reduction and a 30% attack speed reduction."
+          }
         },
         {
           "id": "solar_beam",
@@ -14828,14 +14842,18 @@
           },
           "category": "active",
           "cooldown": 9,
-          "unlockedAtLevel": 4,
-          "upgradedAtLevel": 4,
+          "unlockedAtLevel": 1,
+          "upgradedAtLevel": 10,
           "description": {
             "ko": "강력한 빛의 광선을 발사해 범위 안의 상대편 포켓몬에게 데미지를 3회 준다. 상대편 포켓몬에게 명중하면 부스트 카운트를 1 추가로 얻는다. 빛의장막을 통과하면 데미지와 범위가 증가한다.",
             "ja": "強力な光のビームを放ち、範囲内の相手のポケモンに3回ダメージを与える。相手のポケモンに当たるとブーストカウントを1追加で得る。ひかりのかべを通ると、ダメージと範囲が増加する。",
             "en": "Fires a powerful beam of light, dealing damage 3 times to opposing Pokémon in the area. If it hits an opposing Pokémon, the user gains 1 additional boost counter. If it passes through Light Screen, its damage and area of effect increase."
           },
-          "upgradeDescription": null
+          "upgradeDescription": {
+            "ko": "업그레이드 후에는 명중한 상대편 포켓몬 1마리당 이 기술의 재사용 대기시간이 0.5초 감소한다.",
+            "ja": "強化後は命中した相手のポケモン1匹につき、この技の待ち時間が0.5秒短くなる。",
+            "en": "Upgrade: Reduces this move's cooldown by 0.5s for each opposing Pokémon hit."
+          }
         },
         {
           "id": "surf",
@@ -14846,14 +14864,18 @@
           },
           "category": "active",
           "cooldown": 12,
-          "unlockedAtLevel": 4,
-          "upgradedAtLevel": 4,
+          "unlockedAtLevel": 1,
+          "upgradedAtLevel": 10,
           "description": {
             "ko": "파도를 타고 앞으로 나아가 상대편 포켓몬을 0.5초 동안 밀쳐내고 0.5초 동안 행동할 수 없게 한다. 사용하는 동안 자신은 3초 동안 실드를 얻고 방해에 면역이 되며, 끝에 지정한 방향으로 점프할 수 있다(잠시 방해 면역). 상대편 포켓몬에게 명중하면 부스트 카운트를 1 추가로 얻는다. 빛의장막을 통과하면 파도가 더 멀리 나아가고 빛의장막이 자신에게 부착된다.",
             "ja": "波に乗って前方に進み、相手のポケモンを0.5秒間押しやり、0.5秒間行動できなくする。使用中は3秒間シールドを得て妨害に免疫になり、最後に指定した方向へジャンプできる（しばらく妨害免疫）。相手のポケモンに当たるとブーストカウントを1追加で得る。ひかりのかべを通ると波がより遠くまで進み、ひかりのかべが自分に付く。",
             "en": "Rides a wave forward, shoving opposing Pokémon for 0.5s and leaving them unable to act for 0.5s. The user gains a shield for 3s and becomes immune to hindrances while using this move, and can jump in a designated direction at the end (immune to hindrances briefly). If it hits an opposing Pokémon, the user gains 1 additional boost counter. If it passes through Light Screen, the wave travels farther and Light Screen attaches to the user."
           },
-          "upgradeDescription": null
+          "upgradeDescription": {
+            "ko": "업그레이드 후에는 실드 효과가 강화된다.",
+            "ja": "強化後はシールド効果が強化される。",
+            "en": "Upgrade: Strengthens the shield effect of this move."
+          }
         },
         {
           "id": "coaching",
@@ -14864,14 +14886,18 @@
           },
           "category": "active",
           "cooldown": 7,
-          "unlockedAtLevel": 6,
-          "upgradedAtLevel": 6,
+          "unlockedAtLevel": 3,
+          "upgradedAtLevel": 12,
           "description": {
             "ko": "아군 포켓몬에게 순간이동해 3초 동안 실드를 주고 일반 공격 속도를 2초 동안 40% 높인다. 최근 7초 안에 코칭하지 않은 아군에게 사용하면 이 기술의 재사용 대기시간이 90% 감소하고, 최근에 코칭한 아군에게 사용하면 정식 재사용 대기시간에 들어간다. 사용할 때마다 일렉트릭볼·솔라빔·파도타기의 재사용 대기시간이 각각 1초 감소한다.",
             "ja": "味方のポケモンにテレポートし、3秒間シールドを与えて通常攻撃の速度を2秒間40%上げる。直近7秒以内にコーチングしていない味方に使うとこの技の待ち時間が90%減少し、最近コーチングした味方に使うと本来の待ち時間に入る。使うたびにエレキボール・ソーラービーム・なみのりの待ち時間がそれぞれ1秒短くなる。",
             "en": "Teleports to an allied Pokémon, granting it a shield for 3s and increasing its basic attack speed by 40% for 2s. If used on an ally not coached within the last 7s, this move's cooldown is reduced by 90%; if used on a recently coached ally, it goes on full cooldown. Each use reduces the cooldown of Electro Ball, Solar Beam, and Surf by 1s."
           },
-          "upgradeDescription": null
+          "upgradeDescription": {
+            "ko": "업그레이드 후에는 재사용 대기시간이 1초 감소하고, 최근에 코칭한 것으로 판정되는 시간이 6초로 짧아진다.",
+            "ja": "強化後は待ち時間が1秒短くなり、最近コーチングしたと判定される時間が6秒に短くなる。",
+            "en": "Upgrade: Reduces this move's cooldown by 1s and shortens the recently-coached timer on allies to 6s."
+          }
         },
         {
           "id": "light_screen",
@@ -14882,14 +14908,18 @@
           },
           "category": "active",
           "cooldown": 9,
-          "unlockedAtLevel": 6,
-          "upgradedAtLevel": 6,
+          "unlockedAtLevel": 3,
+          "upgradedAtLevel": 12,
           "description": {
             "ko": "지정한 위치에 4초 동안 반투명 벽을 만든다. 상대편 포켓몬은 벽을 지나갈 수 없고 닿으면 0.5초 동안 밀쳐진다. 자신의 일렉트릭볼·솔라빔·파도타기가 벽을 통과하면 그 기술의 효과가 강화된다(데미지·사정거리·범위 증가). 4초 안에 다시 사용하면 벽이 자신에게 끌려와 4초 동안 따라다니며, 이동하는 동안 벽을 통과하는 상대의 공격은 25% 감소한 데미지를 주지만 더 이상 막거나 밀쳐내지 않는다.",
             "ja": "指定した位置に4秒間、半透明の壁を作る。相手のポケモンは壁を通れず、触れると0.5秒間押しやられる。自分のエレキボール・ソーラービーム・なみのりが壁を通ると、その技の効果が強化される（ダメージ・射程・範囲が増加）。4秒以内にもう一度使うと壁が自分に引き寄せられ、4秒間ついてくる。移動中は壁を通る相手の攻撃が25%減少したダメージになるが、もう防いだり押しやったりはしない。",
             "en": "Creates a translucent wall at the designated location for 4s that opposing Pokémon cannot pass and are shoved 0.5s on contact. When the user's Electro Ball, Solar Beam, or Surf passes through the wall, that move's effects are enhanced (increased damage, range, and area). Using this move again within 4s pulls the wall toward the user, and it follows them for another 4s; while moving, opposing attacks that pass through the wall deal 25% reduced damage but are no longer blocked or shoved."
           },
-          "upgradeDescription": null
+          "upgradeDescription": {
+            "ko": "업그레이드 후에는 벽의 크기가 커진다.",
+            "ja": "強化後は壁の大きさが大きくなる。",
+            "en": "Upgrade: Increases the size of the wall."
+          }
         },
         {
           "id": "agility",
@@ -14900,21 +14930,25 @@
           },
           "category": "active",
           "cooldown": 10,
-          "unlockedAtLevel": 6,
-          "upgradedAtLevel": 6,
+          "unlockedAtLevel": 3,
+          "upgradedAtLevel": 12,
           "description": {
             "ko": "지정한 방향으로 빠르게 이동하며 이동 속도를 2초 동안 5% 높인다. 최대 2회까지 충전할 수 있고 사용 간 2초의 대기시간이 있다.",
             "ja": "指定した方向へ素早く移動し、移動速度を2秒間5%上げる。最大2回までためられ、使用間隔は2秒。",
             "en": "Quickly moves in the designated direction, increasing movement speed by 5% for 2s. Can be kept in reserve up to 2 times, with a 2s cooldown between uses."
           },
-          "upgradeDescription": null
+          "upgradeDescription": {
+            "ko": "업그레이드 후에는 이동하는 거리가 길어진다.",
+            "ja": "強化後は移動する距離が長くなる。",
+            "en": "Upgrade: Increases the distance Mew moves in the designated direction."
+          }
         }
       ],
       "uniteMove": {
-        "id": "mystic_mirage",
+        "id": "mystical_mirage",
         "name": {
           "ko": "미스틱미라지",
-          "ja": "ミスティックミラージュ",
+          "ja": "ミスティークミラージュ",
           "en": "Mystical Mirage"
         },
         "cooldown": 123,
@@ -15025,32 +15059,32 @@
             "en": "Charges power, then fires a beam of electricity in the designated direction. If it hits an opposing Pokémon, Sp. Atk increases by 10% for 6s and stores electric power (up to 2 stacks). Storing power twice in quick succession lets the user fire a Boosted Charge Beam, which can be held for up to 10s to continuously fire a beam that damages all opposing Pokémon in the area and grants hindrance resistance. Can be kept in reserve up to 2 times, with a 1s cooldown between uses."
           },
           "upgradeDescription": {
-            "ko": "업그레이드 후에는 충전 회복 시간이 감소한다.",
-            "ja": "強化後はチャージの回復時間が短くなる。",
-            "en": "Upgrade: The time it takes to recover charges decreases."
+            "ko": "업그레이드 후에는 충전 회복 시간이 0.5초 짧아진다.",
+            "ja": "強化後はチャージの回復時間が0.5秒短くなる。",
+            "en": "Upgrade: Reduces the charge recovery time by 0.5s."
           },
           "chargeCount": 2
         },
         {
-          "id": "lightning_rod",
+          "id": "electro_drift",
           "name": {
             "ko": "라이트닝드라이브",
-            "ja": "ライトニングドライブ",
-            "en": "Lightning Rod"
+            "ja": "イナズマドライブ",
+            "en": "Electro Drift"
           },
           "category": "active",
           "cooldown": 12,
           "unlockedAtLevel": 5,
           "upgradedAtLevel": 11,
           "description": {
-            "ko": "지정한 방향으로 회전하며 달려 나가 지나가는 길에 있는 상대편 포켓몬에게 데미지를 주고 전기를 모은다. 짧은 순간에 2번 전기를 모으면 강화된 라이트닝드라이브를 사용할 수 있게 되어 지정한 상대편 포켓몬을 향해 회전하며 돌격하여 데미지를 준다. 상대편 포켓몬의 남은 HP가 적으면 주는 데미지가 증가한다. 기술은 최대 2번까지 충전할 수 있다.",
-            "ja": "指定した方向に回転しながら走り出し、通る道にいる相手のポケモンにダメージを与えて電気を蓄える。短い間に2回電気を蓄えると強化されたライトニングドライブを使えるようになり、指定した相手のポケモンに向かって回転しながら突撃してダメージを与える。相手のポケモンの残りHPが少ないとダメージが増加する。わざは最大2回まで充電できる。",
-            "en": "Spins and dashes in the designated direction, dealing damage to opposing Pokémon along the path and storing electricity. If electricity is stored twice in quick succession, an enhanced Lightning Rod can be used to spin and charge toward the designated opposing Pokémon, dealing damage. Damage increases the lower the target's remaining HP. This move can be charged up to 2 times."
+            "ko": "회전하며 지정한 방향으로 달려 나가 경로에 있는 상대편 포켓몬에게 데미지를 주고, 명중하면 전기를 저장한다. 짧은 시간에 2번 저장하면 강화된 라이트닝드라이브를 사용할 수 있으며, 최대 10초 동안 유지한 뒤 지정한 상대편 포켓몬을 향해 회전하며 돌격해 명중한 상대편 포켓몬에게 데미지를 준다. 남은 HP가 50% 미만인 대상에게는 데미지가 증가한다. 이 기술을 사용하는 동안 방해 저항을 얻는다. 최대 2회까지 충전할 수 있고 사용 간 1초의 대기시간이 있다.",
+            "ja": "回転しながら指定した方向に走り出し、通り道にいる相手のポケモンにダメージを与え、命中すると電気を蓄える。短い間に2回蓄えると強化されたイナズマドライブを使えるようになり、最大10秒間維持したあと指定した相手のポケモンに向かって回転しながら突撃し、当たった相手のポケモンにダメージを与える。残りHPが50%未満の相手にはダメージが増加する。この技を使っている間は妨害耐性を得る。最大2回までためられ、使用間隔は1秒。",
+            "en": "Races forward while spinning, dealing damage to opposing Pokémon in the path and storing electric power on hit. If power is stored twice in quick succession, Electro Drift becomes Boosted: it can be held for up to 10s and homes in on a designated opposing Pokémon with the spinning attack, dealing damage to any opposing Pokémon hit. Deals increased damage to targets below 50% remaining HP. The user is hindrance resistant during this move. Can be kept in reserve up to 2 times, with a 1s cooldown between uses."
           },
           "upgradeDescription": {
-            "ko": "업그레이드 후에는 기술을 충전할 수 있는 횟수가 회복되는 시간이 짧아진다.",
-            "ja": "強化後はわざを充電できる回数が回復する時間が短くなる。",
-            "en": "Upgrade: The time it takes to recover charges decreases."
+            "ko": "업그레이드 후에는 충전 회복 시간이 4초 짧아진다.",
+            "ja": "強化後はチャージの回復時間が4秒短くなる。",
+            "en": "Upgrade: Reduces the charge recovery time by 4s."
           }
         },
         {
@@ -15061,7 +15095,7 @@
             "en": "Thunder"
           },
           "category": "active",
-          "cooldown": 10,
+          "cooldown": 9,
           "unlockedAtLevel": 7,
           "upgradedAtLevel": 13,
           "description": {
@@ -15083,26 +15117,26 @@
             "en": "Parabolic Charge"
           },
           "category": "active",
-          "cooldown": 11,
+          "cooldown": 10,
           "unlockedAtLevel": 7,
           "upgradedAtLevel": 13,
           "description": {
-            "ko": "자신 주위를 전기로 뒤덮어 데미지를 주고 이동 속도를 2초 동안 50% 떨어뜨린다. 상대편 포켓몬에게 명중하면 HP를 회복하고 차지빔 또는 라이트닝드라이브의 충전을 1 회복하며, 맞은 상대편 포켓몬이 많을수록 더 많은 HP를 회복한다.",
-            "ja": "自分の周囲を電気で覆い、ダメージを与えて移動速度を2秒間50%下げる。相手のポケモンに当たるとHPを回復し、チャージビームまたはライトニングドライブのチャージを1回復する。当たった相手のポケモンが多いほど多くのHPを回復する。",
-            "en": "Floods the area around the user with electricity, dealing damage and decreasing movement speed by 50% for 2s. If it hits an opposing Pokémon, the user recovers HP and regains 1 stored use of Charge Beam or Lightning Rod; the more opposing Pokémon hit, the more HP recovered."
+            "ko": "자신 주위를 전기로 뒤덮어 데미지를 주고 이동 속도를 2초 동안 50% 떨어뜨린다. 상대편 포켓몬에게 명중하면 최대 HP의 6%만큼 HP를 회복하고(추가 대상 1마리당 3% 추가) 차지빔 또는 라이트닝드라이브의 충전을 1 회복한다.",
+            "ja": "自分の周囲を電気で覆い、ダメージを与えて移動速度を2秒間50%下げる。相手のポケモンに当たると最大HPの6%分HPを回復し（追加の対象1匹につき3%追加）、チャージビームまたはイナズマドライブのチャージを1回復する。",
+            "en": "Floods the area around the user with electricity, dealing damage and decreasing movement speed by 50% for 2s. If it hits an opposing Pokémon, the user recovers 6% of max HP (plus 3% per additional target) and regains 1 stored use of Charge Beam or Electro Drift."
           },
           "upgradeDescription": {
-            "ko": "업그레이드 후에는 이 기술을 사용하면 실드를 얻는다.",
-            "ja": "強化後はこの技を使うとシールドを得る。",
-            "en": "Upgrade: Grants a shield when this move is used."
+            "ko": "업그레이드 후에는 이 기술을 사용하면 실드를 얻는다(추가로 최대 HP의 10%).",
+            "ja": "強化後はこの技を使うとシールドを得る（さらに最大HPの10%）。",
+            "en": "Upgrade: Grants a shield when this move is used (plus an additional 10% of max HP)."
           }
         }
       ],
       "uniteMove": {
-        "id": "future_meteor_shower",
+        "id": "bright_future_meteor_storm",
         "name": {
           "ko": "미래를비추는유성",
-          "ja": "みらいをてらすりゅうせい",
+          "ja": "未来照らす流星",
           "en": "Bright Future Meteor Storm"
         },
         "cooldown": 112,
@@ -15560,20 +15594,20 @@
       },
       "moves": [
         {
-          "id": "electroweb",
+          "id": "thunder_shock",
           "name": {
             "ko": "전기쇼크",
-            "ja": "エレキネット",
-            "en": "Electroweb"
+            "ja": "でんきショック",
+            "en": "Thunder Shock"
           },
           "category": "active",
           "cooldown": 5,
           "unlockedAtLevel": 1,
           "upgradedAtLevel": null,
           "description": {
-            "ko": "지정한 상대편 포켓몬에게 전기를 흘려 범위 안에 있는 상대편 포켓몬에게 데미지를 준다. 또한 상대편 포켓몬을 잠시 동안 마비 상태로 만든다.",
-            "ja": "指定した相手のポケモンに電気を流して、範囲内にいる相手のポケモンにダメージを与える。また、相手のポケモンをしばらくのあいだまひ状態にする。",
-            "en": "Electrifies the designated opposing Pokémon, dealing damage to nearby opposing Pokémon. Also paralyzes opposing Pokémon briefly."
+            "ko": "지정한 상대편 포켓몬에게 전기를 흘려 범위 안에 있는 상대편 포켓몬에게 데미지를 주고 마비 상태로 만든다(이동 속도 30%·공격 속도 10% 감소, 2초).",
+            "ja": "指定した相手のポケモンに電気を流し、範囲内の相手のポケモンにダメージを与えてまひ状態にする（移動速度30%・攻撃速度10%減少、2秒間）。",
+            "en": "Releases electricity at the designated opposing Pokémon, damaging opposing Pokémon in the area of effect and paralyzing those hit (30% movement speed and 10% attack speed reduction for 2s)."
           },
           "upgradeDescription": null
         },
@@ -15589,14 +15623,14 @@
           "unlockedAtLevel": 3,
           "upgradedAtLevel": null,
           "description": {
-            "ko": "지정한 방향으로 약한 전격을 쏘아 상대편 포켓몬에게 데미지를 주고 잠시 동안 마비 상태로 만든다.",
-            "ja": "指定した方向に弱い電撃を放って、相手のポケモンにダメージを与えてしばらくのあいだまひ状態にする。",
-            "en": "Fires a weak jolt of electricity in the designated direction, dealing damage to opposing Pokémon and paralyzing them briefly."
+            "ko": "지정한 방향으로 약한 전격을 쏘아 상대편 포켓몬에게 데미지를 주고 마비 상태로 만든다(이동 속도 30%·공격 속도 10% 감소, 2초).",
+            "ja": "指定した方向に弱い電撃を放ち、相手のポケモンにダメージを与えてまひ状態にする（移動速度30%・攻撃速度10%減少、2秒間）。",
+            "en": "Discharges a weak jolt of electricity in the designated direction, damaging nearby opposing Pokémon and paralyzing those hit (30% movement speed and 10% attack speed reduction for 2s)."
           },
           "upgradeDescription": null
         },
         {
-          "id": "assist_power",
+          "id": "stored_power",
           "name": {
             "ko": "어시스트파워",
             "ja": "アシストパワー",
@@ -15607,14 +15641,14 @@
           "unlockedAtLevel": 5,
           "upgradedAtLevel": 11,
           "description": {
-            "ko": "잠시 동안 공격 속도가 오른다. 다음 6번의 일반 공격으로 별 모양의 전격을 날려 추가 데미지를 준다.",
-            "ja": "しばらくのあいだ攻撃速度が上がる。次の6回の通常攻撃で星型の電撃を放って追加ダメージを与える。",
-            "en": "Temporarily increases Attack Speed. The next 6 basic attacks fire a star-shaped bolt dealing additional damage."
+            "ko": "5초 동안 공격 속도가 45% 오르고 다음 6번의 일반 공격이 강화되어 별 모양의 전격을 날려 추가 데미지를 준다. 전격 6개를 모두 발사하거나 5초가 지나면 대기 시간에 들어간다.",
+            "ja": "5秒間攻撃速度が45%上がり、次の6回の通常攻撃が強化されて星形の電撃を放ち、追加ダメージを与える。電撃を6回すべて放つか5秒経つと待ち時間に入る。",
+            "en": "Increases attack speed by 45% and empowers the next 6 basic attacks for 5s. Each empowered basic attack also launches a star-shaped electric blast at the target, dealing additional damage. This move goes on cooldown after all 6 blasts have been launched or after 5s."
           },
           "upgradeDescription": {
-            "ko": "업그레이드 후에는 전격이 상대편 포켓몬의 특수방어를 떨어뜨린다. 이 효과는 3번까지 중첩할 수 있다.",
-            "ja": "強化後は電撃が相手のポケモンの特防を下げる。この効果は3回まで重ねることができる。",
-            "en": "Upgrade: The bolts also lower the opposing Pokémon's Sp. Def. This effect can stack up to 3 times."
+            "ko": "업그레이드 후에는 전격이 상대편 포켓몬의 특수방어를 3초 동안 8% 떨어뜨린다(최대 3회 중첩, 24%).",
+            "ja": "強化後は電撃が相手のポケモンの特防を3秒間8%下げる（最大3回重複、24%）。",
+            "en": "Upgrade: The electric blasts also decrease the target's Sp. Def by 8% for 3s (stacking up to 3 times, maximum 24%)."
           }
         },
         {
@@ -15629,14 +15663,14 @@
           "unlockedAtLevel": 5,
           "upgradedAtLevel": 11,
           "description": {
-            "ko": "지정한 장소로 전기 덩어리를 쏜다. 전기 덩어리는 잠시 그 자리에 머무른다. 전기 덩어리가 상대편 포켓몬에게 닿으면 방전하며 주변에 있는 상대편 포켓몬에게 데미지를 준다. 기술은 최대 2번까지 충전할 수 있다.",
-            "ja": "指定した場所に電気の塊を撃ち出す。電気の塊はしばらくその場にとどまる。電気の塊が相手のポケモンに触れると放電して、周囲にいる相手のポケモンにダメージを与える。技は最大2回まで充電できる。",
-            "en": "Fires an electric orb at a designated location. The orb remains in place briefly. When it contacts an opposing Pokémon, it discharges, dealing damage to nearby opposing Pokémon. Can be charged up to 2 times."
+            "ko": "지정한 장소로 전기 덩어리를 쏜다. 전기 덩어리는 도중에 상대편 포켓몬에게 닿지 않으면 최대 30초 동안 그 자리에 머무르며, 상대편 포켓몬에게 닿으면 방전하여 주변에 있는 상대편 포켓몬에게 데미지를 준다. 최대 2회까지 충전할 수 있고 사용 간 0.5초의 대기시간이 있다(맵에 동시에 존재할 수 있는 전기 덩어리는 최대 3개).",
+            "ja": "指定した場所に電気の塊を放つ。電気の塊は途中で相手のポケモンに触れなければ最大30秒間その場にとどまり、相手のポケモンに触れると放電して周囲の相手のポケモンにダメージを与える。最大2回までためられ、使用間隔は0.5秒（マップ上に同時に存在できる電気の塊は最大3つ）。",
+            "en": "Hurls an electric orb toward the designated location, where it remains for up to 30s if it doesn't hit an opposing Pokémon on the way. When the orb touches an opposing Pokémon, it releases its electricity and damages nearby opposing Pokémon. Can be kept in reserve up to 2 times, with a 0.5s cooldown between uses (up to 3 orbs can exist at once)."
           },
           "upgradeDescription": {
-            "ko": "업그레이드 후에는 이 기술이 명중한 상대편 포켓몬에게 지속 데미지를 준다.",
-            "ja": "強化後はこの技が命中した相手のポケモンに継続ダメージを与える。",
-            "en": "Upgrade: Deals damage over time to opposing Pokémon hit by this move."
+            "ko": "업그레이드 후에는 이 기술이 명중한 상대편 포켓몬에게 3.5초 동안 0.5초마다(8회) 지속 데미지를 준다.",
+            "ja": "強化後はこの技が命中した相手のポケモンに3.5秒間、0.5秒ごと（8回）に継続ダメージを与える。",
+            "en": "Upgrade: Deals damage every 0.5s over 3.5s (8 times) to opposing Pokémon hit by this move."
           }
         },
         {
@@ -15651,41 +15685,41 @@
           "unlockedAtLevel": 7,
           "upgradedAtLevel": 13,
           "description": {
-            "ko": "지정한 방향에 강한 전격을 쏘아 상대편 포켓몬에게 데미지를 주고 마비 상태로 만든다. 일렉트릭볼로 만들어진 전기 덩어리에 이 기술이 명중하면 전기 덩어리가 방전하며 주변에 있는 상대편 포켓몬에게 데미지를 준다.",
-            "ja": "指定した方向に強い電撃を放って、相手のポケモンにダメージを与えてまひ状態にする。エレキボールで作った電気の塊にこの技が命中すると、電気の塊が放電して周囲にいる相手のポケモンにダメージを与える。",
-            "en": "Fires a powerful bolt of electricity in the designated direction, dealing damage to and paralyzing opposing Pokémon. If it hits an electric orb created by Electro Ball, the orb discharges, dealing damage to nearby opposing Pokémon."
+            "ko": "0.5초 동안 힘을 모은 뒤 지정한 방향으로 강한 전격을 쏘아 범위 안의 상대편 포켓몬에게 데미지를 주고 마비 상태로 만든다(이동 속도 30%·공격 속도 10% 감소, 2초). 일렉트릭볼로 만들어진 전기 덩어리에 이 기술이 명중하면 전기 덩어리가 방전하며 주변에 있는 상대편 포켓몬에게 증가한 데미지를 준다.",
+            "ja": "0.5秒間力をためたあと、指定した方向に強い電撃を放ち、範囲内の相手のポケモンにダメージを与えてまひ状態にする（移動速度30%・攻撃速度10%減少、2秒間）。エレキボールで作った電気の塊にこの技が命中すると、電気の塊が放電して周囲の相手のポケモンに増加したダメージを与える。",
+            "en": "Channels for 0.5s, then releases a strong electric blast in the designated direction, damaging opposing Pokémon in the area of effect and paralyzing them (30% movement speed and 10% attack speed reduction for 2s). If it hits an electric orb created by Electro Ball, the orb releases its electricity, dealing increased damage to nearby opposing Pokémon."
           },
           "upgradeDescription": {
-            "ko": "업그레이드 후에는 마비 상태가 아닌 이동 불가 효과를 준다.",
-            "ja": "強化後はまひ状態ではなく、移動不可効果を与える。",
-            "en": "Upgrade: Inflicts an immobilization effect instead of paralysis."
+            "ko": "업그레이드 후에는 명중한 상대편 포켓몬을 마비 상태 대신 1초 동안 이동 불가 상태로 만든다.",
+            "ja": "強化後は命中した相手のポケモンをまひ状態の代わりに1秒間移動できなくする。",
+            "en": "Upgrade: Immobilizes opposing Pokémon hit for 1s instead of paralyzing them."
           }
         },
         {
-          "id": "psychic_raichu",
+          "id": "psychic",
           "name": {
             "ko": "사이코키네시스",
             "ja": "サイコキネシス",
             "en": "Psychic"
           },
           "category": "active",
-          "cooldown": 9,
+          "cooldown": 8,
           "unlockedAtLevel": 7,
           "upgradedAtLevel": 13,
           "description": {
-            "ko": "지정한 범위에 강한 염동력을 쏘아 상대편 포켓몬에게 데미지와 감속 효과를 준다. 이 감속 효과를 받고 있는 상대편 포켓몬에게 일반 공격을 명중시키면 추가로 데미지를 준다. 일렉트릭볼로 만들어진 전기 덩어리에 이 기술이 명중하면 이 기술 범위의 중심에 전기 덩어리를 끌어온다.",
-            "ja": "指定した範囲に強い念力を放って、相手のポケモンにダメージと減速効果を与える。この減速効果を受けている相手のポケモンに通常攻撃を命中させると、追加でダメージを与える。エレキボールで作った電気の塊にこの技が命中すると、この技の範囲の中心に電気の塊を引き寄せる。",
-            "en": "Unleashes a powerful psychic force in the designated area, dealing damage to and slowing opposing Pokémon. Basic attacks against slowed opposing Pokémon deal additional damage. If it hits an electric orb created by Electro Ball, the orb is pulled to the center of this move's area."
+            "ko": "지정한 범위에 강한 염동력을 쏘아 상대편 포켓몬에게 데미지를 주고 이동 속도를 3초 동안 23% 떨어뜨린다. 이 감속 효과를 받고 있는 상대편 포켓몬에게 일반 공격을 명중시키면 추가 데미지를 준다. 일렉트릭볼로 만들어진 전기 덩어리에 이 기술이 명중하면 전기 덩어리를 이 기술 범위의 중심으로 끌어온다.",
+            "ja": "指定した範囲に強い念動力を放ち、相手のポケモンにダメージを与えて移動速度を3秒間23%下げる。この減速効果を受けている相手のポケモンに通常攻撃を命中させると追加ダメージを与える。エレキボールで作った電気の塊にこの技が命中すると、電気の塊をこの技の範囲の中心に引き寄せる。",
+            "en": "Releases a strong telekinetic force in the designated area, damaging opposing Pokémon and decreasing their movement speed by 23% for 3s. Basic attacks that hit slowed opposing Pokémon deal additional damage. If it hits an electric orb created by Electro Ball, the orb is pulled to the center of this move's area of effect."
           },
           "upgradeDescription": {
-            "ko": "업그레이드 후에는 지정한 범위에 잠시 동안 지속 데미지를 준다.",
-            "ja": "強化後は指定した範囲にしばらくのあいだ継続ダメージを与える。",
-            "en": "Upgrade: Deals damage over time in the designated area briefly."
+            "ko": "업그레이드 후에는 지정한 범위에 2초 동안 0.5초마다(최대 5회) 지속 데미지를 주는 공간을 만든다.",
+            "ja": "強化後は指定した範囲に2秒間、0.5秒ごと（最大5回）に継続ダメージを与える空間を作る。",
+            "en": "Upgrade: Creates a damage-over-time area, damaging opposing Pokémon inside every 0.5s over 2s (up to 5 times)."
           }
         }
       ],
       "uniteMove": {
-        "id": "full_volt_aerial",
+        "id": "thunderstorm_aerial",
         "name": {
           "ko": "풀볼트에어리얼",
           "ja": "フルボルトエアリアル",
@@ -15694,9 +15728,9 @@
         "cooldown": 112,
         "unlockedAtLevel": 9,
         "description": {
-          "ko": "지정한 범위에 전기로 별 모양 공간을 만들고 상대편 포켓몬에게 데미지와 감속 효과를 준다. 공간은 잠시 그 장소에 남으며 지속 데미지와 감속 효과를 준다. 공간 안에 있는 상대편 포켓몬에게 일반 공격을 명중시키면 다음 일반 공격이 강화 공격이 된다.",
-          "ja": "指定した範囲に電気で星型の空間を作って、相手のポケモンにダメージと減速効果を与える。空間はしばらくその場所に残り、継続ダメージと減速効果を与える。空間内にいる相手のポケモンに通常攻撃を命中させると、次の通常攻撃が強化攻撃になる。",
-          "en": "Creates a star-shaped electric zone in the designated area, dealing damage to and slowing opposing Pokémon. The zone remains briefly, continuing to deal damage and slow. Basic attacks hitting opposing Pokémon inside the zone make the next basic attack a boosted attack."
+          "ko": "지정한 범위에 4초 동안 전기로 별 모양 공간을 만들어 생성 시 범위 안의 상대편 포켓몬에게 데미지를 주고, 이후 공간 안의 상대편 포켓몬에게 지속 데미지(최대 5회)를 주며 이동 속도를 60% 떨어뜨린다. 공간 안에 있는 상대편 포켓몬에게 일반 공격을 명중시키면 다음 일반 공격이 강화 공격이 된다. 이 유나이트 기술을 사용한 뒤 6초 동안 이동 속도·공격 속도 증가와 실드를 얻는다.",
+          "ja": "指定した範囲に4秒間、電気で星形の空間を作り、生成時に範囲内の相手のポケモンにダメージを与え、その後空間内の相手のポケモンに継続ダメージ（最大5回）を与えて移動速度を60%下げる。空間内の相手のポケモンに通常攻撃を命中させると、次の通常攻撃が強化攻撃になる。このユナイト技を使った後、6秒間、移動速度・攻撃速度の増加とシールドを得る。",
+          "en": "Creates a star-shaped zone of electricity in the designated area for 4s, damaging opposing Pokémon in the area when created, then damaging opposing Pokémon over time (up to 5 times) and decreasing their movement speed by 60% while inside. Hitting an opposing Pokémon in the zone with a basic attack makes the next basic attack a boosted attack. After using this Unite Move, the user gains increased movement speed, increased attack speed, and a shield for 6s."
         },
         "buffs": {
           "movementSpeedPct": 30,
@@ -16005,7 +16039,7 @@
             "en": "Surf"
           },
           "category": "active",
-          "cooldown": 7,
+          "cooldown": 6.5,
           "unlockedAtLevel": 4,
           "upgradedAtLevel": 11,
           "description": {
@@ -16156,20 +16190,20 @@
           "upgradeDescription": null
         },
         {
-          "id": "charm",
+          "id": "baby_doll_eyes",
           "name": {
             "ko": "초롱초롱눈동자",
-            "ja": "なきごえ",
-            "en": "Charm"
+            "ja": "つぶらなひとみ",
+            "en": "Baby-Doll Eyes"
           },
           "category": "active",
           "cooldown": 5,
           "unlockedAtLevel": 2,
           "upgradedAtLevel": null,
           "description": {
-            "ko": "초롱초롱눈동자로 상대편 포켓몬을 바라본다. 기술이 명중했을 때 데미지를 주고 상대편 포켓몬의 공격과 이동 속도를 잠시 동안 떨어뜨린다.",
-            "ja": "つぶらな瞳で相手のポケモンを見つめる。技が命中したとき、ダメージを与えて相手のポケモンの攻撃と移動速度をしばらくのあいだ下げる。",
-            "en": "Gazes at the opposing Pokémon with big eyes. On hit, deals damage and reduces the opposing Pokémon's Attack and movement speed briefly."
+            "ko": "초롱초롱눈동자로 상대편 포켓몬을 바라본다. 기술이 명중하면 데미지를 주고 상대편 포켓몬의 공격을 1초 동안 15%, 이동 속도를 1초 동안 60% 떨어뜨린다.",
+            "ja": "つぶらなひとみで相手のポケモンを見つめる。技が命中するとダメージを与え、相手のポケモンの攻撃を1秒間15%、移動速度を1秒間60%下げる。",
+            "en": "Stares at an opposing Pokémon with baby-doll eyes. On hit, deals damage and decreases the target's Attack by 15% for 1s and movement speed by 60% for 1s."
           },
           "upgradeDescription": null
         },
@@ -16212,9 +16246,9 @@
             "en": "Fires multiple sound waves, dealing damage on hit; the farther the target, the more damage. Each sound wave decreases the target's Sp. Def by 20% for 1.5s (up to 80%)."
           },
           "upgradeDescription": {
-            "ko": "업그레이드 후에는 음파가 1개 늘어난다.",
-            "ja": "強化後は音波が1つ増える。",
-            "en": "Upgrade: Increases the number of sound waves by 1."
+            "ko": "업그레이드 후에는 명중한 상대편 포켓몬의 이동 속도를 30% 떨어뜨린다.",
+            "ja": "強化後は命中した相手のポケモンの移動速度を30%下げる。",
+            "en": "Upgrade: Opposing Pokémon hit are slowed by 30%."
           }
         },
         {
@@ -16247,7 +16281,7 @@
             "en": "Calm Mind"
           },
           "category": "active",
-          "cooldown": 9,
+          "cooldown": 8,
           "unlockedAtLevel": 6,
           "upgradedAtLevel": 12,
           "description": {
@@ -16256,14 +16290,14 @@
             "en": "Quietly focuses the mind, increasing the user's movement speed by 30%, Sp. Atk by 40%, and Sp. Def by 10% for 3s."
           },
           "upgradeDescription": {
-            "ko": "업그레이드 후에는 이 기술을 사용하는 동안 한 번, 상대의 기술에 맞으면 데미지가 완전히 무효화되고 실드를 얻는다.",
-            "ja": "強化後はこの技を使っている間に一度だけ、相手の技に当たるとダメージが完全に無効化され、シールドを得る。",
-            "en": "Upgrade: Once while using this move, if the user is hit by an opposing move, the damage is completely nullified and the user is granted a shield."
+            "ko": "업그레이드 후에는 명상을 사용한 뒤 최대 3초 동안 한 번, 상대의 기술(일반 공격 제외)에 맞으면 그 데미지를 완전히 무효화하고 3초 동안 실드를 얻는다. 방해·상태 효과는 그대로 적용된다.",
+            "ja": "強化後はめいそうを使った後、最大3秒間に1回、相手の技（通常攻撃を除く）を受けるとそのダメージを完全に無効化し、3秒間シールドを得る。妨害・状態効果はそのまま適用される。",
+            "en": "Upgrade: For up to 3s after using Calm Mind, Sylveon can block one move (basic attacks are not blocked), negating the first instance of damage and granting a shield for 3s. Hindrances and status effects are still applied."
           }
         }
       ],
       "uniteMove": {
-        "id": "fairy_harmony",
+        "id": "fairy_frolic",
         "name": {
           "ko": "페어리하모니",
           "ja": "フェアリーハーモニー",
@@ -18203,7 +18237,7 @@
             "en": "Iron Head"
           },
           "category": "active",
-          "cooldown": 6.5,
+          "cooldown": 6,
           "unlockedAtLevel": 7,
           "upgradedAtLevel": 9,
           "description": {
@@ -18549,5 +18583,33 @@
         "isNew": true
       }
     }
+  },
+  {
+    "id": "154",
+    "spriteId": 135,
+    "name": {
+      "ko": "쥬피썬더",
+      "en": "Jolteon",
+      "ja": "サンダース"
+    },
+    "role": "Speed",
+    "attackType": "unknown",
+    "difficulty": "unknown",
+    "imageUrl": "https://placehold.co/80x80/CCCCCC/FFF?text=JOL",
+    "releasedAt": "2026-10-13"
+  },
+  {
+    "id": "155",
+    "spriteId": 136,
+    "name": {
+      "ko": "부스터",
+      "en": "Flareon",
+      "ja": "ブースター"
+    },
+    "role": "Balance",
+    "attackType": "unknown",
+    "difficulty": "unknown",
+    "imageUrl": "https://placehold.co/80x80/CCCCCC/FFF?text=FLA",
+    "releasedAt": "2026-10-13"
   }
 ]

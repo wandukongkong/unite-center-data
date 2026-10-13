@@ -2932,8 +2932,8 @@
     },
     {
       "moves": [
-        "assist_power",
-        "psychic_raichu"
+        "stored_power",
+        "psychic"
       ],
       "variant": "",
       "heldItems": [
@@ -2945,7 +2945,7 @@
     },
     {
       "moves": [
-        "assist_power",
+        "stored_power",
         "thunderbolt"
       ],
       "variant": "",
