@@ -2334,7 +2334,7 @@
       "ja": "アローラキュウコン"
     },
     "role": "Attack",
-    "difficulty": "Intermediate",
+    "difficulty": "Novice",
     "imageUrl": "",
     "skills": {
       "basicAttack": {
@@ -2351,8 +2351,8 @@
           "en": "Snow Warning"
         },
         "description": {
-          "ko": "4초마다 근처 상대편 포켓몬에게 자동으로 눈을 내려 데미지를 주고 이동 속도를 0.75초 동안 30% 떨어뜨린다. 강화 공격, 눈설레, 오로라베일을 제외한 모든 기술이 상대편 포켓몬에게 눈을 흩뿌리며, 같은 대상에게 눈을 4번 맞히면 1초 동안 얼린다.",
-          "ja": "4秒ごとに近くの相手のポケモンに自動で雪を降らせ、ダメージを与えて移動速度を0.75秒間30%下げる。強化攻撃、ゆきふらし、オーロラベールを除くすべての技が相手のポケモンに雪を飛ばし、同じ相手に雪を4回当てると1秒間こおらせる。",
+          "ko": "4초마다 근처 상대편 포켓몬에게 자동으로 눈을 내려 데미지를 주고 이동 속도를 0.75초 동안 30% 떨어뜨린다. 강화 공격·눈퍼뜨리기와 오로라베일을 제외한 모든 기술이 상대편 포켓몬에게 눈을 흩뿌리며, 같은 대상에게 눈을 4번 맞히면 1초 동안 얼린다.",
+          "ja": "4秒ごとに近くの相手のポケモンに自動で雪を降らせ、ダメージを与えて移動速度を0.75秒間30%下げる。強化攻撃・ゆきふらしと、オーロラベールを除くすべての技が相手のポケモンに雪を飛ばし、同じ相手に雪を4回当てると1秒間こおらせる。",
           "en": "Every 4s, automatically drops snow on a nearby opposing Pokémon, dealing damage and decreasing their movement speed by 30% for 0.75s. Boosted attacks, Snow Warning, and all moves except Aurora Veil sling snow; hitting the same target with snow 4 times freezes them for 1s."
         }
       },
@@ -2449,9 +2449,9 @@
           "unlockedAtLevel": 6,
           "upgradedAtLevel": 13,
           "description": {
-            "ko": "앞으로 매서운 눈보라를 두 번 발사한다. 첫 번째 눈보라는 벽을 관통하며 데미지를 주고 이동 속도를 떨어뜨린다. 두 번째 눈보라는 2배의 데미지를 주고 상대편 포켓몬을 밀쳐내며, 벽에 맞으면 착탄 지점에 4초 동안 얼음 지대를 만들어 0.5초마다 데미지를 주고 매번 이동 속도를 1초 동안 35% 떨어뜨린다.",
-            "ja": "前方に激しい吹雪を2回放つ。1回目の吹雪は壁を貫通し、ダメージを与えて移動速度を下げる。2回目の吹雪は2倍のダメージを与えて相手のポケモンを押し戻し、壁に当たると着弾地点に4秒間氷のエリアを作り、0.5秒ごとにダメージを与え、そのたびに移動速度を1秒間35%下げる。",
-            "en": "Blasts fierce blizzards forward twice. The first blast passes through walls, dealing damage and decreasing movement speed. The second blast deals double damage and shoves opposing Pokémon back; if it hits a wall, it creates a frost area at the impact point for 4s, dealing damage every 0.5s and decreasing movement speed by 35% for 1s with each hit."
+            "ko": "앞으로 매서운 눈보라를 두 번 발사한다. 첫 번째 눈보라는 벽을 관통하며 데미지를 주고 이동 속도를 1초 동안 35% 떨어뜨린다. 두 번째 눈보라는 2배의 데미지를 주고 상대편 포켓몬을 밀쳐내며, 벽에 맞으면 착탄 지점에 4초 동안 얼음 지대를 만들어 0.5초마다 데미지를 주고 매번 이동 속도를 1초 동안 35% 떨어뜨린다.",
+            "ja": "前方に激しい吹雪を2回放つ。1回目の吹雪は壁を貫通し、ダメージを与えて移動速度を1秒間35%下げる。2回目の吹雪は2倍のダメージを与えて相手のポケモンを押し戻し、壁に当たると着弾地点に4秒間氷のエリアを作り、0.5秒ごとにダメージを与え、そのたびに移動速度を1秒間35%下げる。",
+            "en": "Blasts fierce blizzards forward twice. The first blast passes through walls, dealing damage and decreasing movement speed by 35% for 1s. The second blast deals double damage and shoves opposing Pokémon back; if it hits a wall, it creates a frost area at the impact point for 4s, dealing damage every 0.5s and decreasing movement speed by 35% for 1s with each hit."
           },
           "upgradeDescription": {
             "ko": "업그레이드 후에는 이 기술의 데미지가 증가한다.",
@@ -2476,9 +2476,9 @@
             "en": "Dashes a short distance and creates an aurora centered on the user's position for 5s, reducing damage taken by the user and nearby allies by 35% and increasing attack speed by 15%. Each boosted attack restores the user's HP. While inside the aurora, the user's movement speed increases by 10% and all basic attacks become boosted attacks."
           },
           "upgradeDescription": {
-            "ko": "업그레이드 후에는 아군 포켓몬이 받는 데미지를 더욱 줄인다.",
-            "ja": "強化後は味方のポケモンが受けるダメージをさらに減らす。",
-            "en": "Upgrade: Further reduces the damage taken by allied Pokémon."
+            "ko": "업그레이드 후에는 아군 포켓몬이 받는 데미지를 더욱 줄이고(40%) 이 기술의 대기 시간이 2초 짧아진다.",
+            "ja": "強化後は味方のポケモンが受けるダメージをさらに減らし（40%）、この技の待ち時間が2秒短くなる。",
+            "en": "Upgrade: Further reduces the damage taken by allied Pokémon (40%) and reduces this move's cooldown by 2s."
           }
         }
       ],
@@ -2486,7 +2486,7 @@
         "id": "snow_globe",
         "name": {
           "ko": "서클네주",
-          "ja": "ナインテールスノーダンス",
+          "ja": "サークルネージュ",
           "en": "Snow Globe"
         },
         "cooldown": 112,
@@ -2709,7 +2709,7 @@
       "ja": "エーフィ"
     },
     "role": "Attack",
-    "difficulty": "Expert",
+    "difficulty": "Intermediate",
     "imageUrl": "",
     "skills": {
       "basicAttack": {
@@ -2820,9 +2820,9 @@
             "en": "Fires stored psychic blasts at random opposing Pokémon in the area, dealing damage and decreasing movement speed by 10% per hit for 2s (up to 50%). Using this move increases the user's movement speed by 70% for 1.2s. A blast is stored every 2s or each time a boosted attack hits (up to 5 stored). When the same target is hit by multiple blasts, each after the first deals 70% less damage."
           },
           "upgradeDescription": {
-            "ko": "업그레이드 후에는 남은 HP 비율이 낮은 상대편 포켓몬에게 추가 데미지를 준다.",
-            "ja": "強化後は残りHPの割合が低い相手のポケモンに追加ダメージを与える。",
-            "en": "Upgrade: Deals additional damage to opposing Pokémon with a lower percentage of remaining HP."
+            "ko": "업그레이드 후에는 남은 HP가 50% 이하인 상대편 포켓몬에게 추가 데미지를 준다.",
+            "ja": "強化後は残りHPが50%以下の相手のポケモンに追加ダメージを与える。",
+            "en": "Upgrade: Deals additional damage to opposing Pokémon at or below 50% max HP."
           }
         },
         {
@@ -2859,7 +2859,7 @@
           "unlockedAtLevel": 6,
           "upgradedAtLevel": 12,
           "description": {
-            "ko": "상대편 포켓몬 1명을 지정한다. 2초 뒤 대상을 중심으로 한 범위의 상대편 포켓몬에게 데미지를 주며, 대상의 남은 HP가 적을수록 데미지가 커진다. 지정 중에는 에브이의 다른 기술이 대상을 우선 공격하고, 대상에게 데미지를 줄 때마다 이 기술의 재사용 대기시간이 0.8초 감소한다. 지정한 대상을 쓰러뜨리면 잠시 강화된 사이코쇼크 또는 저장하기를 한 번 사용할 수 있다.",
+            "ko": "상대편 포켓몬 1명을 지정한다. 2초 뒤 대상을 중심으로 한 범위의 상대편 포켓몬에게 데미지를 주며, 대상의 남은 HP가 적을수록 데미지가 커진다. 지정 중에는 에브이의 다른 기술이 대상을 우선 공격하고, 대상에게 데미지를 줄 때마다 이 기술의 재사용 대기시간이 0.8초 감소한다. 지정한 대상을 쓰러뜨리면 잠시 강화된 사이코쇼크 또는 어시스트파워를 한 번 사용할 수 있다.",
             "ja": "相手のポケモン1体をロックオンする。2秒後、対象を中心とした範囲の相手のポケモンにダメージを与え、対象の残りHPが少ないほどダメージが大きくなる。ロックオン中はエーフィの他の技が対象を優先して攻撃し、対象にダメージを与えるたびにこの技の待ち時間が0.8秒短くなる。ロックオンした対象を倒すと、しばらく強化されたサイコショックまたはストアードパワーを1回使える。",
             "en": "Locks onto a single opposing Pokémon. After 2s, deals damage to opposing Pokémon in the area centered on the target; the less HP the target has, the more damage is dealt. While locked on, Espeon's other moves prioritize the target, and this move's cooldown is reduced by 0.8s each time damage is dealt to the target. If the locked-on target is KO'd, a single powered-up use of Psyshock or Stored Power becomes available for a short time."
           },
