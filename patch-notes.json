@@ -26939,6 +26939,33 @@
     "changes": []
   },
   {
+    "id": "pn-976",
+    "version": "2022.07.27",
+    "date": "2022-07-27",
+    "pokemonId": "117",
+    "type": "adjust",
+    "types": [
+      "adjust"
+    ],
+    "summary": {
+      "ko": "직전 패치에서 바뀐 그림자꿰매기의 최대 스택과 스택 대기 시간이 오류 수정으로 7월 21일 패치 이전 사양으로 롤백되었다.",
+      "en": "Spirit Shackle's max stacks and stack cooldown changed in the previous patch were rolled back to the pre-July 21 specs as a bug fix.",
+      "ja": "直前パッチで変更されたかげぬいの最大スタックとスタック待機時間が、不具合修正として7月21日パッチ以前の仕様にロールバックされた。"
+    },
+    "changes": [
+      {
+        "ko": "[그림자꿰매기] 최대 스택: 2 → 3",
+        "en": "[Spirit Shackle] Max stacks: 2 → 3",
+        "ja": "[かげぬい] 最大スタック: 2 → 3"
+      },
+      {
+        "ko": "[그림자꿰매기] 스택 대기 시간: 6초 → 8.5초",
+        "en": "[Spirit Shackle] Stack cooldown: 6s → 8.5s",
+        "ja": "[かげぬい] スタック待機時間: 6秒 → 8.5秒"
+      }
+    ]
+  },
+  {
     "id": "pn-284",
     "version": "2022.07.21",
     "date": "2022-07-21",
@@ -29590,9 +29617,9 @@
       "adjust"
     ],
     "summary": {
-      "ko": "일반 공격과 능력치가 강화되고, 그림자꿰매기·리프스톰·화살깃연속속사가 조정되었다.",
-      "en": "Basic attacks and stats were buffed, while Spirit Shackle, Leaf Storm, and Nock Nock received adjustments.",
-      "ja": "通常攻撃と能力値が強化され、かげぬい・リーフストーム・矢継早連撃が調整された。"
+      "ko": "잎날가르기의 일반 공격과 능력치가 강화되고, 그림자꿰매기·리프스톰·화살깃연속속사가 조정되었다.",
+      "en": "Razor Leaf's basic attacks and stats were buffed, while Spirit Shackle, Leaf Storm, and Nock Nock received adjustments.",
+      "ja": "はっぱカッターの通常攻撃と能力値が強化され、かげぬい・リーフストーム・矢継早連撃が調整された。"
     },
     "changes": [
       {
@@ -29601,14 +29628,14 @@
         "ja": "[能力値] 通常攻撃時HP回復: レベル7から増加 (Lv7 5% → 10%, Lv15 20% → 25%)"
       },
       {
-        "ko": "[일반 공격] 데미지: 공격의 70% + 3×(레벨-1) + 100 → 공격의 80% + 3×(레벨-1) + 120",
-        "en": "[Basic Attack] Damage: 70% Atk + 3×(Lv-1) + 100 → 80% Atk + 3×(Lv-1) + 120",
-        "ja": "[通常攻撃] ダメージ: 攻撃の70% + 3×(レベル-1) + 100 → 攻撃の80% + 3×(レベル-1) + 120"
+        "ko": "[잎날가르기] 일반 공격 데미지: 공격의 70% + 3×(레벨-1) + 100 → 공격의 80% + 3×(레벨-1) + 120",
+        "en": "[Razor Leaf] Basic attack damage: 70% Atk + 3×(Lv-1) + 100 → 80% Atk + 3×(Lv-1) + 120",
+        "ja": "[はっぱカッター] 通常攻撃ダメージ: 攻撃の70% + 3×(レベル-1) + 100 → 攻撃の80% + 3×(レベル-1) + 120"
       },
       {
-        "ko": "[일반 공격] 강화 공격 데미지(3회): 공격의 26.6% + 1×(레벨-1) + 38 → 공격의 30.4% + 1×(레벨-1) + 46",
-        "en": "[Basic Attack] Boosted attack damage (3 hits): 26.6% Atk + 1×(Lv-1) + 38 → 30.4% Atk + 1×(Lv-1) + 46",
-        "ja": "[通常攻撃] 強化攻撃ダメージ(3回): 攻撃の26.6% + 1×(レベル-1) + 38 → 攻撃の30.4% + 1×(レベル-1) + 46"
+        "ko": "[잎날가르기] 강화 공격 데미지(3회): 공격의 26.6% + 1×(레벨-1) + 38 → 공격의 30.4% + 1×(레벨-1) + 46",
+        "en": "[Razor Leaf] Boosted attack damage (3 hits): 26.6% Atk + 1×(Lv-1) + 38 → 30.4% Atk + 1×(Lv-1) + 46",
+        "ja": "[はっぱカッター] 強化攻撃ダメージ(3回): 攻撃の26.6% + 1×(レベル-1) + 38 → 攻撃の30.4% + 1×(レベル-1) + 46"
       },
       {
         "ko": "[그림자꿰매기] 사거리: 8m → 10m",

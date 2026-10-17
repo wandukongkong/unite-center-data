@@ -1,10 +1,10 @@
 {
   "pokemon": "1.0.99",
   "comingSoon": "1.0.11",
-  "patchNotes": "1.0.45",
+  "patchNotes": "1.0.46",
   "heldItems": "1.0.2",
   "stats": "1.0.17",
-  "evolutionChains": "1.0.12",
+  "evolutionChains": "1.0.13",
   "skillCoefficients": "1.0.31",
   "builds": "1.0.6",
   "emblems": "1.0.0",
@@ -12,10 +12,10 @@
   "counts": {
     "pokemon": 106,
     "comingSoon": 0,
-    "patchNotes": 958,
+    "patchNotes": 959,
     "heldItems": 40,
     "stats": 101,
-    "evolutionChains": 57,
+    "evolutionChains": 58,
     "skillCoefficients": 101,
     "emblems": 762,
     "emblemSets": 11
