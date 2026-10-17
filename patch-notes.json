@@ -3663,20 +3663,25 @@
       "buff"
     ],
     "summary": {
-      "ko": "유성군 2발째 이후 운석 데미지 대폭 증가, 유나이트 기술 필요 에너지 감소",
-      "en": "Draco Meteor 2nd meteor onward damage significantly buffed, Unite Move energy cost reduced",
-      "ja": "りゅうせいぐん 2発目以降の隕石ダメージ大幅増加、ユナイトわざの必要エネルギー減少"
+      "ko": "용성군 2발째 이후 운석 데미지 대폭 증가, 유나이트 기술 필요 에너지·대기시간 감소",
+      "en": "Draco Meteor 2nd meteor onward damage significantly buffed, Unite Move energy cost and cooldown reduced",
+      "ja": "りゅうせいぐん 2発目以降の隕石ダメージ大幅増加、ユナイトわざの必要エネルギー・待ち時間減少"
     },
     "changes": [
       {
-        "ko": "[유성군] 2발째 이후 운석 데미지 30% → 50%",
+        "ko": "[용성군] 2발째 이후 운석 데미지 30% → 50%",
         "en": "[Draco Meteor] 2nd meteor onward damage: 30% → 50%",
         "ja": "[りゅうせいぐん] 2発目以降の隕石ダメージ 30% → 50%"
       },
       {
-        "ko": "[유나이트 기술 인피니트 스트라이크] 필요 에너지 100000 → 90000",
-        "en": "[Unite Move: Infinite Strike] Energy required: 100000 → 90000",
-        "ja": "[ユナイトわざ インフィニットストライク] 必要エネルギー 100000 → 90000"
+        "ko": "[유나이트 기술 인피니티스트라이크] 필요 에너지 100000 → 90000",
+        "en": "[Unite Move: Eon Blast] Energy required: 100000 → 90000",
+        "ja": "[ユナイトわざ インフィニティストライク] 必要エネルギー 100000 → 90000"
+      },
+      {
+        "ko": "[유나이트 기술 인피니티스트라이크] 대기시간 112초 → 100초",
+        "en": "[Unite Move: Eon Blast] Cooldown 112s → 100s",
+        "ja": "[ユナイトわざ インフィニティストライク] 待ち時間 112秒 → 100秒"
       }
     ]
   },

@@ -5025,11 +5025,11 @@
       },
       "moves": [
         {
-          "id": "psycho_cut",
+          "id": "confusion",
           "name": {
             "ko": "염동력",
-            "ja": "サイコカッター",
-            "en": "Psycho Cut"
+            "ja": "ねんりき",
+            "en": "Confusion"
           },
           "category": "active",
           "cooldown": 8,
@@ -5072,14 +5072,14 @@
           "unlockedAtLevel": 5,
           "upgradedAtLevel": 11,
           "description": {
-            "ko": "이 기술을 배우면 이온 파워를 얻는다: 야생 포켓몬 처치 시 2, 이 기술의 강화 공격에 맞은 상대편 포켓몬당 3. 사용하면 앞으로 대시하며 5초 안의 다음 일반 공격을 강화해 일직선으로 발사하여 데미지를 준다. 이온 파워가 쌓일수록 강화 공격이 추가 사이코 구슬을 발사한다(이온 파워 100에서 최대 6개). 같은 대상에 대한 이후 구슬은 15%씩, 최대 75%까지 감소한 데미지를 준다.",
-            "ja": "この技を覚えるとエオンパワーを得る：野生ポケモンを倒すと2、この技の強化攻撃が当たった相手のポケモンごとに3。使うと前方にダッシュし、5秒以内の次の通常攻撃を強化してまっすぐ発射し、ダメージを与える。エオンパワーがたまるほど強化攻撃が追加のサイコの球を発射する（エオンパワー100で最大6つ）。同じ相手への以降の球は15%ずつ、最大75%まで減少したダメージになる。",
-            "en": "Learning this move lets Latios gain Eon power: 2 for KOing a wild Pokémon, or 3 per opposing Pokémon hit by this move's boosted attack. When used, Latios dashes forward and empowers the next basic attack (within 5s) to fire in a straight line, dealing damage. As Eon power grows, the boosted attack fires additional psychic projectiles (up to 6 at 100 Eon power); subsequent projectiles on the same target deal 15% less damage each, up to 75% less."
+            "ko": "이 기술을 배우면 이온 파워를 얻는다: 야생 포켓몬 처치 시 2, 이 기술의 강화 공격에 맞은 상대편 포켓몬당 3. 사용하면 앞으로 대시하며 5초 안의 다음 일반 공격을 강화해 일직선으로 발사하여 데미지를 준다. 이온 파워가 쌓일수록 강화 공격이 추가 사이코 구슬을 발사한다(이온 파워 100에서 최대 6개). 같은 대상에 대한 이후 구슬은 15%씩, 최대 75%까지 감소한 데미지를 준다. 이온 파워가 100을 넘으면 1당 사이코 구슬 데미지가 0.5% 증가한다(이온 파워 상한 1099).",
+            "ja": "この技を覚えるとエオンパワーを得る：野生ポケモンを倒すと2、この技の強化攻撃が当たった相手のポケモンごとに3。使うと前方にダッシュし、5秒以内の次の通常攻撃を強化してまっすぐ発射し、ダメージを与える。エオンパワーがたまるほど強化攻撃が追加のサイコの球を発射する（エオンパワー100で最大6つ）。同じ相手への以降の球は15%ずつ、最大75%まで減少したダメージになる。エオンパワーが100を超えると、1につきサイコの球のダメージが0.5%増加する（エオンパワー上限1099）。",
+            "en": "Learning this move lets Latios gain Eon power: 2 for KOing a wild Pokémon, or 3 per opposing Pokémon hit by this move's boosted attack. When used, Latios dashes forward and empowers the next basic attack (within 5s) to fire in a straight line, dealing damage. As Eon power grows, the boosted attack fires additional psychic projectiles (up to 6 at 100 Eon power); subsequent projectiles on the same target deal 15% less damage each, up to 75% less. For every 1 Eon power beyond 100, projectile damage increases by 0.5% (Eon power caps at 1099)."
           },
           "upgradeDescription": {
-            "ko": "업그레이드 후에는 사이코 구슬이 상대편 포켓몬의 잃은 HP에 비례한 추가 데미지를 준다.",
-            "ja": "強化後はサイコの球が相手のポケモンの失ったHPに応じた追加ダメージを与える。",
-            "en": "Upgrade: Psychic orbs deal bonus damage based on the opposing Pokémon's lost HP."
+            "ko": "업그레이드 후에는 사이코 구슬이 상대편 포켓몬에게 잃은 HP의 3%만큼 추가 데미지를 준다(구슬 1발당 최대 300).",
+            "ja": "強化後はサイコの球が相手のポケモンに失ったHPの3%の追加ダメージを与える（球1発につき最大300）。",
+            "en": "Upgrade: Psychic projectiles deal additional damage equal to 3% of the target's missing HP (capped at 300 per projectile)."
           }
         },
         {
@@ -5094,14 +5094,14 @@
           "unlockedAtLevel": 5,
           "upgradedAtLevel": 11,
           "description": {
-            "ko": "이 기술을 배우면 이온 파워를 얻는다(야생 처치 시 2, 이 기술에 맞은 상대편 포켓몬당 3). 사용하면 지정한 지역에 유성 2개가 떨어져 상대편 포켓몬에게 데미지를 준다. 이온 파워 25마다 유성이 1개씩 늘어난다(100에서 최대 6개). 같은 대상에 대한 두 번째 이후 유성은 50% 감소한 데미지를 준다.",
-            "ja": "この技を覚えるとエオンパワーを得る（野生を倒すと2、この技が当たった相手のポケモンごとに3）。使うと指定した地点に流星が2つ落ち、相手のポケモンにダメージを与える。エオンパワー25ごとに流星が1つ増える（100で最大6つ）。同じ相手への2つ目以降の流星は50%減少したダメージになる。",
-            "en": "Learning this move lets Latios gain Eon power (2 for a wild KO, or 3 per opposing Pokémon hit by this move). When used, 2 comets crash onto the designated area, dealing damage to opposing Pokémon. The move gains 1 additional comet per 25 Eon power (up to 6 comets at 100). Comets after the first on the same target deal 50% less damage."
+            "ko": "이 기술을 배우면 이온 파워를 얻는다(야생 처치 시 2, 이 기술에 맞은 상대편 포켓몬당 3). 사용하면 지정한 지역에 유성 2개가 떨어져 상대편 포켓몬에게 데미지를 준다. 이온 파워 25마다 유성이 1개씩 늘어난다(100에서 최대 6개). 같은 대상에 대한 두 번째 이후 유성은 50% 감소한 데미지를 준다. 이온 파워가 100을 넘으면 1당 유성 데미지가 0.5% 증가한다(이온 파워 상한 1099).",
+            "ja": "この技を覚えるとエオンパワーを得る（野生を倒すと2、この技が当たった相手のポケモンごとに3）。使うと指定した地点に流星が2つ落ち、相手のポケモンにダメージを与える。エオンパワー25ごとに流星が1つ増える（100で最大6つ）。同じ相手への2つ目以降の流星は50%減少したダメージになる。エオンパワーが100を超えると、1につき流星のダメージが0.5%増加する（エオンパワー上限1099）。",
+            "en": "Learning this move lets Latios gain Eon power (2 for a wild KO, or 3 per opposing Pokémon hit by this move). When used, 2 comets crash onto the designated area, dealing damage to opposing Pokémon. The move gains 1 additional comet per 25 Eon power (up to 6 comets at 100). Comets after the first on the same target deal 50% less damage. For every 1 Eon power beyond 100, comet damage increases by 0.5% (Eon power caps at 1099)."
           },
           "upgradeDescription": {
-            "ko": "업그레이드 후에는 상대편 포켓몬의 잃은 HP에 비례한 추가 데미지를 준다.",
-            "ja": "強化後は相手のポケモンの失ったHPに応じた追加ダメージを与える。",
-            "en": "Upgrade: Deals bonus damage based on the opposing Pokémon's lost HP."
+            "ko": "업그레이드 후에는 유성이 명중한 상대편 포켓몬에게 잃은 HP의 3%만큼 추가 데미지를 준다(유성 1개당 최대 300).",
+            "ja": "強化後は流星が当たった相手のポケモンに失ったHPの3%の追加ダメージを与える（流星1つにつき最大300）。",
+            "en": "Upgrade: Comets deal additional damage equal to 3% of the opposing Pokémon's missing HP (capped at 300 per comet)."
           }
         },
         {
@@ -5143,9 +5143,9 @@
             "en": "Fires psychic power in the designated direction, dealing damage to the first opposing Pokémon hit, decreasing its movement speed by 30% for 2s, and marking it for 4s. Can be used again afterward: reusing on the marked target (or if the first hit missed) stuns it for 1s and consumes the mark; targeting a different unmarked opposing Pokémon pulls the two together over 0.7s, stunning both for 1s, and throws them apart if they collide."
           },
           "upgradeDescription": {
-            "ko": "업그레이드 후에는 이동 속도 감소 효과가 강해진다.",
-            "ja": "強化後は移動速度を下げる効果が強くなる。",
-            "en": "Upgrade: Strengthens the movement speed reduction effect."
+            "ko": "업그레이드 후에는 이동 속도 감소 지속 시간이 2초에서 3초로 늘어난다.",
+            "ja": "強化後は移動速度低下の持続時間が2秒から3秒に延びる。",
+            "en": "Upgrade: Increases the movement speed decrease duration from 2s to 3s."
           }
         }
       ],
