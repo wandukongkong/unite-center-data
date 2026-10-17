@@ -3626,13 +3626,13 @@
       "buff"
     ],
     "summary": {
-      "ko": "특성 맹불·강화 공격·불꽃세례·로우킥 전반 상향",
-      "en": "Ability Blaze, Boosted Attack, Ember, and Low Kick all buffed",
+      "ko": "특성 맹화·강화 공격·불꽃세례·로킥 전반 상향",
+      "en": "Ability Blaze, Boosted Attack, Ember, and Low Sweep all buffed",
       "ja": "特性 もうか・強化攻撃・ひのこ・ローキック全体強化"
     },
     "changes": [
       {
-        "ko": "[특성 맹불] 데미지 17% 증가",
+        "ko": "[특성 맹화] 데미지 17% 증가",
         "en": "[Ability: Blaze] Damage increased by 17%",
         "ja": "[特性 もうか] ダメージ 17% 増加"
       },
@@ -3647,8 +3647,8 @@
         "ja": "[ひのこ] ダメージ 15% 増加"
       },
       {
-        "ko": "[로우킥] 쿨타임 7.5초 → 7초",
-        "en": "[Low Kick] Cooldown: 7.5s → 7s",
+        "ko": "[로킥] 쿨타임 7.5초 → 7초",
+        "en": "[Low Sweep] Cooldown: 7.5s → 7s",
         "ja": "[ローキック] クールタイム 7.5秒 → 7秒"
       }
     ]
@@ -7091,23 +7091,23 @@
     ],
     "summary": {
       "ko": "화염볼의 대기 시간과 관련 효과, 기술 발동 속도가 개선되었다.",
-      "en": "Fire Blast's cooldown, related effects, and activation speed were improved.",
+      "en": "Pyro Ball's cooldown, related effects, and activation speed were improved.",
       "ja": "かえんボールの待ち時間や関連効果、技の発動速度が改善された。"
     },
     "changes": [
       {
         "ko": "[화염볼] 대기 시간: 5초 → 4.5초",
-        "en": "[Fire Blast] Cooldown: 5s → 4.5s",
+        "en": "[Pyro Ball] Cooldown: 5s → 4.5s",
         "ja": "[かえんボール] 待ち時間: 5秒 → 4.5秒"
       },
       {
         "ko": "[화염볼] 강화 화염볼 명중 시 8레벨 기술 대기 시간 감소: 3.5초 → 4초",
-        "en": "[Fire Blast] Lv.8 move cooldown reduction on upgraded Fire Blast hit: 3.5s → 4s",
+        "en": "[Pyro Ball] Lv.8 move cooldown reduction on upgraded Pyro Ball hit: 3.5s → 4s",
         "ja": "[かえんボール] 強化かえんボール命中時のレベル8技の待ち時間短縮: 3.5秒 → 4秒"
       },
       {
         "ko": "[화염볼] 기술 발동까지의 시간 감소",
-        "en": "[Fire Blast] Time until activation reduced",
+        "en": "[Pyro Ball] Time until activation reduced",
         "ja": "[かえんボール] 技発動までの時間短縮"
       }
     ]
@@ -9729,7 +9729,7 @@
     ],
     "summary": {
       "ko": "HP 능력치가 상향되고 화염볼의 공격 모션이 단축되었다.",
-      "en": "The HP stat was increased and Fire Blast's attack motion was shortened.",
+      "en": "The HP stat was increased and Pyro Ball's attack motion was shortened.",
       "ja": "HPが上方修正され、かえんボールの攻撃モーションが短縮された。"
     },
     "changes": [
@@ -9740,7 +9740,7 @@
       },
       {
         "ko": "[화염볼] 공격 모션 단축",
-        "en": "[Fire Blast] Attack motion shortened",
+        "en": "[Pyro Ball] Attack motion shortened",
         "ja": "[かえんボール] 攻撃モーション短縮"
       }
     ]
@@ -19067,7 +19067,7 @@
       },
       {
         "ko": "[화염볼] 화상 데미지(3회): 공격의 10% → 공격의 20%",
-        "en": "[Fire Blast] Burn damage (3 times): 10% of Attack → 20% of Attack",
+        "en": "[Pyro Ball] Burn damage (3 times): 10% of Attack → 20% of Attack",
         "ja": "[かえんボール] やけどダメージ(3回): 攻撃の10% → 攻撃の20%"
       },
       {
@@ -22409,13 +22409,13 @@
     ],
     "summary": {
       "ko": "화염볼과 페인트, 블레이즈스트라이크가 전반적으로 상향되었다.",
-      "en": "Fire Blast, Feint, and Blazing Bicycle Kick were buffed overall.",
+      "en": "Pyro Ball, Feint, and Blazing Bicycle Kick were buffed overall.",
       "ja": "かえんボール、フェイント、ブレイズストライクが全体的に上方修正された。"
     },
     "changes": [
       {
         "ko": "[화염볼] 데미지: 공격의 273% + 26×(레벨-1) + 660 → 공격의 345% + 32×(레벨-1) + 820",
-        "en": "[Fire Blast] Damage: 273% of Attack + 26×(Lv-1) + 660 → 345% of Attack + 32×(Lv-1) + 820",
+        "en": "[Pyro Ball] Damage: 273% of Attack + 26×(Lv-1) + 660 → 345% of Attack + 32×(Lv-1) + 820",
         "ja": "[かえんボール] ダメージ: 攻撃の273% + 26×(レベル-1) + 660 → 攻撃の345% + 32×(レベル-1) + 820"
       },
       {
@@ -23944,13 +23944,13 @@
     ],
     "summary": {
       "ko": "화염볼의 데미지가 상승했다.",
-      "en": "Fire Blast damage was increased.",
+      "en": "Pyro Ball damage was increased.",
       "ja": "かえんボールのダメージが増加した。"
     },
     "changes": [
       {
         "ko": "[화염볼] 데미지: 공격의 253% + 24×(레벨-1) + 610 → 공격의 273% + 26×(레벨-1) + 660",
-        "en": "[Fire Blast] Damage: 253% of Attack + 24×(Lv-1) + 610 → 273% of Attack + 26×(Lv-1) + 660",
+        "en": "[Pyro Ball] Damage: 253% of Attack + 24×(Lv-1) + 610 → 273% of Attack + 26×(Lv-1) + 660",
         "ja": "[かえんボール] ダメージ: 攻撃の253% + 24×(レベル-1) + 610 → 攻撃の273% + 26×(レベル-1) + 660"
       }
     ]
@@ -27770,13 +27770,13 @@
     ],
     "summary": {
       "ko": "화염볼과 페인트가 상향되고 블레이즈킥 데미지가 하향되었다.",
-      "en": "Fire Blast and Feint were buffed while Blaze Kick damage was nerfed.",
+      "en": "Pyro Ball and Feint were buffed while Blaze Kick damage was nerfed.",
       "ja": "かえんボールとフェイントが上方修正され、ブレイズキックのダメージが下方修正された。"
     },
     "changes": [
       {
         "ko": "[화염볼] 강화 화염볼 명중 시 대기 시간 감소: 2초 → 3.5초",
-        "en": "[Fire Blast] Cooldown reduction on upgraded Fire Blast hit: 2s → 3.5s",
+        "en": "[Pyro Ball] Cooldown reduction on upgraded Pyro Ball hit: 2s → 3.5s",
         "ja": "[かえんボール] 強化かえんボール命中時の待ち時間短縮: 2秒 → 3.5秒"
       },
       {
@@ -31247,18 +31247,18 @@
     ],
     "summary": {
       "ko": "화염볼의 데미지가 상승하고 화염볼과 니트로차지의 대기 시간이 단축되었다.",
-      "en": "Fire Blast damage was increased and the cooldowns of Fire Blast and Flame Charge were reduced.",
+      "en": "Pyro Ball damage was increased and the cooldowns of Pyro Ball and Flame Charge were reduced.",
       "ja": "かえんボールのダメージが増加し、かえんボールとニトロチャージの待ち時間が短縮された。"
     },
     "changes": [
       {
         "ko": "[화염볼] 데미지: 공격의 200% + 18×(레벨-1) + 475 → 공격의 253% + 24×(레벨-1) + 610",
-        "en": "[Fire Blast] Damage: 200% of Attack + 18×(Lv-1) + 475 → 253% of Attack + 24×(Lv-1) + 610",
+        "en": "[Pyro Ball] Damage: 200% of Attack + 18×(Lv-1) + 475 → 253% of Attack + 24×(Lv-1) + 610",
         "ja": "[かえんボール] ダメージ: 攻撃の200% + 18×(レベル-1) + 475 → 攻撃の253% + 24×(レベル-1) + 610"
       },
       {
         "ko": "[화염볼] 대기 시간: 7초 → 5초",
-        "en": "[Fire Blast] Cooldown: 7s → 5s",
+        "en": "[Pyro Ball] Cooldown: 7s → 5s",
         "ja": "[かえんボール] 待ち時間: 7秒 → 5秒"
       },
       {
@@ -31999,7 +31999,7 @@
     ],
     "summary": {
       "ko": "공격 능력치와 블레이즈킥, 페인트가 하향되고 화염볼 데미지가 상향되었다.",
-      "en": "The Attack stat, Blaze Kick, and Feint were nerfed while Fire Blast damage was increased.",
+      "en": "The Attack stat, Blaze Kick, and Feint were nerfed while Pyro Ball damage was increased.",
       "ja": "攻撃能力とブレイズキック、フェイントが下方修正され、かえんボールのダメージが上方修正された。"
     },
     "changes": [
@@ -32010,7 +32010,7 @@
       },
       {
         "ko": "[화염볼] 데미지: 공격의 ???% + ???×(레벨-1) + ??? → 공격의 200% + 18×(레벨-1) + 457",
-        "en": "[Fire Blast] Damage: ??? → 200% of Attack + 18×(Lv-1) + 457",
+        "en": "[Pyro Ball] Damage: ??? → 200% of Attack + 18×(Lv-1) + 457",
         "ja": "[かえんボール] ダメージ: ??? → 攻撃の200% + 18×(レベル-1) + 457"
       },
       {

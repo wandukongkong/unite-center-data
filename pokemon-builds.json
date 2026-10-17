@@ -919,6 +919,7 @@
     },
     {
       "moves": [
+        "pyro_ball",
         "feint"
       ],
       "variant": "",
@@ -943,6 +944,7 @@
     },
     {
       "moves": [
+        "pyro_ball",
         "flame_charge"
       ],
       "variant": "",

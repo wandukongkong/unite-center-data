@@ -4863,7 +4863,7 @@
           },
           "category": "active",
           "cooldown": 7,
-          "unlockedAtLevel": 1,
+          "unlockedAtLevel": 3,
           "upgradedAtLevel": null,
           "description": {
             "ko": "낮게 쓸며 앞으로 대시하여 경로의 상대편 포켓몬에게 데미지를 준다.",
@@ -4873,20 +4873,20 @@
           "upgradeDescription": null
         },
         {
-          "id": "fire_blast",
+          "id": "pyro_ball",
           "name": {
             "ko": "화염볼",
             "ja": "かえんボール",
-            "en": "Fire Blast"
+            "en": "Pyro Ball"
           },
           "category": "active",
           "cooldown": 4.5,
           "unlockedAtLevel": 7,
           "upgradedAtLevel": 11,
           "description": {
-            "ko": "지정한 방향으로 불꽃 공을 차서 명중한 상대에게 데미지를 주고 화상 상태로 만든다.",
-            "ja": "指定した方向に炎のボールを蹴って命中した相手ポケモンにダメージを与え、やけど状態にする。",
-            "en": "Kicks a ball of fire in the designated direction, dealing damage to opposing Pokémon it hits and burning them."
+            "ko": "돌을 차올려 불을 붙인 뒤 지정한 방향으로 불꽃 공을 차서 명중한 상대편 포켓몬에게 데미지를 주고 3초 동안 화상 상태로 만든다(데미지 3회). 화상 상태의 대상은 공격과 특수공격이 2초 동안 5% 감소한다.",
+            "ja": "石を蹴り上げて火をつけ、指定した方向に炎のボールを蹴って命中した相手のポケモンにダメージを与え、3秒間やけど状態にする（ダメージ3回）。やけど状態の対象は攻撃と特攻が2秒間5%下がる。",
+            "en": "Kicks up a stone and ignites it, then kicks the ball of flame in the designated direction, dealing damage to opposing Pokémon it hits and burning them for 3s (damage 3 times). The burned targets' Attack and Sp. Atk are decreased by 5% for 2s."
           },
           "upgradeDescription": {
             "ko": "기술이 명중했을 때 니트로차지 또는 페인트의 대기 시간이 4초 짧아진다.",
@@ -4911,9 +4911,9 @@
             "en": "Becomes unstoppable and performs a fiery flying kick toward the designated opposing Pokémon, dealing a guaranteed critical hit, shoving them for 0.5s, and burning them for 3s (damage 3 times); then jumps back a set distance. The burned target's Attack and Sp. Atk are decreased by 5% for 2s."
           },
           "upgradeDescription": {
-            "ko": "업그레이드 후에는 이 기술이 명중하면 잠시 일반 공격 속도가 증가한다.",
-            "ja": "強化後はこの技が当たると、しばらく通常攻撃の速度が増加する。",
-            "en": "Upgrade: After this move hits, temporarily increases basic attack speed."
+            "ko": "업그레이드 후에는 이 기술이 명중하면 3초 동안 일반 공격 속도가 30% 증가한다.",
+            "ja": "強化後はこの技が当たると、3秒間通常攻撃の速度が30%増加する。",
+            "en": "Upgrade: When this move hits, increases basic attack speed by 30% for 3s."
           }
         },
         {
@@ -4933,9 +4933,9 @@
             "en": "Charges forward cloaked in flames, dealing damage to opposing Pokémon in its path."
           },
           "upgradeDescription": {
-            "ko": "업그레이드 후에는 이 기술이 끝난 뒤 다음 강화 공격이 명중하면 잠시 상대편 포켓몬의 이동 속도를 떨어뜨린다.",
-            "ja": "強化後はこの技が終わった後、次の強化攻撃が当たると、しばらく相手のポケモンの移動速度を下げる。",
-            "en": "Upgrade: After this move ends, if the next boosted attack hits, temporarily decreases the opposing Pokémon's movement speed."
+            "ko": "업그레이드 후에는 이 기술이 끝난 뒤 다음 강화 공격이 명중하면 상대편 포켓몬의 이동 속도를 2초 동안 30% 떨어뜨린다.",
+            "ja": "強化後はこの技が終わった後、次の強化攻撃が当たると、相手のポケモンの移動速度を2秒間30%下げる。",
+            "en": "Upgrade: After this move ends, if the next boosted attack hits, decreases the opposing Pokémon's movement speed by 30% for 2s."
           }
         },
         {
@@ -4955,9 +4955,9 @@
             "en": "Becomes invincible for 0.73s while dodging, cleansing any slows and increasing movement speed by 40% for 2s. While protected, no damage or effects can be received."
           },
           "upgradeDescription": {
-            "ko": "업그레이드 후에는 이 기술 사용 후 명중한 일반 공격이 HP를 회복시킨다(최대 3회).",
-            "ja": "強化後はこの技を使った後、当たった通常攻撃がHPを回復する（最大3回）。",
-            "en": "Upgrade: After using this move, basic attacks that hit restore HP (up to 3 times)."
+            "ko": "업그레이드 후에는 회피 후 다음 일반 공격 3회가 준 데미지의 30%만큼 HP를 회복한다. 이 3회의 일반 공격은 급소가 발생하지 않는다.",
+            "ja": "強化後は回避した後、次の通常攻撃3回が与えたダメージの30%分HPを回復する。この3回の通常攻撃は急所に当たらない。",
+            "en": "Upgrade: The next 3 basic attacks after dodging restore HP equal to 30% of the damage dealt. These 3 basic attacks cannot be critical hits."
           }
         }
       ],
