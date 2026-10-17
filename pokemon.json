@@ -5389,11 +5389,11 @@
       "passive": {
         "name": {
           "ko": "그대로꿀꺽미사일",
-          "ja": "ほおぶくろミサイル",
+          "ja": "うのミサイル",
           "en": "Gulp Missile"
         },
         "description": {
-          "ko": "소용돌이·파도타기·다이빙으로 이동하는 동안 입에 먹이를 문다. 데미지를 받으면 먹이를 뱉어 반격해 데미지를 주고 근처 다른 상대편 포켓몬 1명에게 튕겨 나간다. HP가 50% 초과면 왈밥을 물어 대상의 방어를 20%, 특수방어를 5% 3초 동안 떨어뜨리고, 50% 미만이면 피카츄를 물어 이동 속도를 50%, 공격 속도를 10% 1초 동안 떨어뜨린다.",
+          "ko": "바다회오리·파도타기·다이빙으로 이동하는 동안 입에 먹이를 문다. 데미지를 받으면 먹이를 뱉어 반격해 데미지를 주고 근처 다른 상대편 포켓몬 1명에게 튕겨 나간다. HP가 50% 초과면 찌로꼬치을 물어 대상의 방어를 20%, 특수방어를 5% 3초 동안 떨어뜨리고, 50% 미만이면 피카츄를 물어 이동 속도를 50%, 공격 속도를 10% 1초 동안 떨어뜨린다.",
           "ja": "うずしお・なみのり・ダイビングで移動している間、口に獲物をくわえる。ダメージを受けると獲物を吐いて反撃し、ダメージを与えて近くの別の相手のポケモン1体に跳ねる。HPが50%超ならサシカマスをくわえ、対象の防御を20%・特防を5%を3秒間下げ、50%未満ならピカチュウをくわえ、移動速度を50%・攻撃速度を10%を1秒間下げる。",
           "en": "The user catches prey in its mouth while moving through Whirlpool, Surf, or Dive. When hit, it counterattacks by spitting the prey, dealing damage and bouncing to 1 other nearby opposing Pokémon. Above 50% HP, it catches Arrokuda (decreasing the target's Defense by 20% and Sp. Def by 5% for 3s); below 50% HP, it catches Pikachu (decreasing movement speed by 50% and attack speed by 10% for 1s)."
         }
@@ -5421,7 +5421,7 @@
           "id": "feather_dance",
           "name": {
             "ko": "깃털댄스",
-            "ja": "はねやすめ",
+            "ja": "フェザーダンス",
             "en": "Feather Dance"
           },
           "category": "active",
@@ -5529,13 +5529,13 @@
         "id": "gatling_gulp_missile",
         "name": {
           "ko": "거센파도미사일",
-          "ja": "はもんミサイル",
+          "ja": "どとうのミサイル",
           "en": "Gatling Gulp Missile"
         },
         "cooldown": 123,
         "unlockedAtLevel": 9,
         "description": {
-          "ko": "최대 6.5초 동안 방해받지 않는 상태가 되어 가장 가까운 상대편 포켓몬이나 야생 포켓몬에게 먹이를 잡아 계속 뱉는다(최대 10회). 사용 중에는 이동하거나 다른 기술을 쓸 수 없으며, 유나이트 기술을 다시 사용해 도중에 취소할 수 있다. HP가 50% 초과면 왈밥을, 50% 미만이면 피카츄를 발사한다.",
+          "ko": "최대 6.5초 동안 방해받지 않는 상태가 되어 가장 가까운 상대편 포켓몬이나 야생 포켓몬에게 먹이를 잡아 계속 뱉는다(최대 10회). 사용 중에는 이동하거나 다른 기술을 쓸 수 없으며, 유나이트 기술을 다시 사용해 도중에 취소할 수 있다. HP가 50% 초과면 찌로꼬치을, 50% 미만이면 피카츄를 발사한다.",
           "ja": "最大6.5秒間妨害されない状態になり、最も近い相手のポケモンや野生ポケモンに獲物を捕らえて吐き続ける（最大10回）。使用中は移動や他の技が使えず、ユナイト技をもう一度使って途中でキャンセルできる。HPが50%超ならサシカマスを、50%未満ならピカチュウを発射する。",
           "en": "Becomes unstoppable for up to 6.5s and continuously catches and spits prey at the nearest opposing Pokémon or wild Pokémon, up to 10 times. The user cannot move or use other moves while active, and can use this Unite Move again to cancel it early. Fires Arrokuda when HP is above 50% and Pikachu when below 50%."
         },
