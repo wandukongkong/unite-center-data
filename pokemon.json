@@ -17734,7 +17734,7 @@
         "description": {
           "ko": "3번째 일반 공격은 강화 공격이 되며, 명중 시 주변에 있는 상대 포켓몬에게 데미지를 주고 파괴 카운터를 부여한다.",
           "ja": "3回目の通常攻撃が強化攻撃になり、命中すると周囲にいる相手のポケモンにダメージを与え、破壊カウンターを付与する。",
-          "en": "Every third basic attack becomes a boosted attack that, on hit, deals damage to nearby opposing Pokemon and applies a destruction counter to them."
+          "en": "Every third basic attack becomes a boosted attack that, on hit, deals damage to nearby opposing Pokemon and applies a mark of destruction to them."
         }
       },
       "passive": {
@@ -17744,9 +17744,9 @@
           "en": "Dark Aura"
         },
         "description": {
-          "ko": "강화 공격·기술·유나이트 기술로 상대편 포켓몬에게 데미지를 주면 파괴의 표식을 남긴다. 표식은 3초 동안 지속되고 최대 5회까지 중첩되며, 중첩당 그 대상에게 주는 데미지가 3% 증가한다. 표식 5개인 상대편 포켓몬이 자신의 기술이나 강화 공격에 맞은 뒤 최대 HP의 10% 미만이 되면 즉시 쓰러진다(최대 HP의 40%만큼 고정 데미지). 즉시 쓰러뜨리면 자신의 HP를 회복하고, 최대 HP를 넘는 회복량은 50% 비율로 3초 동안 실드로 전환된다.",
-          "ja": "強化攻撃・技・ユナイト技で相手のポケモンにダメージを与えると、破壊のマーカーを付ける。マーカーは3秒間持続し、最大5回まで重なり、重なりごとにその対象へ与えるダメージが3%増加する。マーカーが5つの相手のポケモンが自分の技や強化攻撃を受けた後、最大HPの10%未満になると即座に倒れる（最大HPの40%分の固定ダメージ）。即座に倒すと自分のHPを回復し、最大HPを超える回復量は50%の割合で3秒間シールドに変換される。",
-          "en": "When the user deals damage with a boosted attack, a move, or its Unite Move, it applies a mark of destruction to the opposing Pokémon. The mark lasts 3s and stacks up to 5 times, increasing the user's damage to that target by 3% per stack. If an opposing Pokémon with 5 marks is below 10% max HP after taking damage from one of the user's moves or boosted attacks, it is instantly KO'd (dealing 40% of its max HP as true damage). Instantly KOing a Pokémon restores the user's HP, and any healing beyond its max HP is converted into a shield at a 50% rate for 3s."
+          "ko": "강화 공격·기술·유나이트 기술로 상대편 포켓몬에게 데미지를 주면 파괴 카운터를 부여한다. 파괴 카운터는 3초 동안 지속되고 최대 5회까지 중첩되며, 중첩당 그 대상에게 주는 데미지가 2% 증가한다. 파괴 카운터가 5개인 상대편 포켓몬이 자신의 기술이나 강화 공격에 맞은 뒤 최대 HP의 10% 미만이 되면 즉시 쓰러진다(최대 HP의 40%만큼 고정 데미지). 즉시 쓰러뜨리면 자신의 HP를 회복하고, 최대 HP를 넘는 회복량은 50% 비율로 3초 동안 실드로 전환된다.",
+          "ja": "強化攻撃・技・ユナイト技で相手のポケモンにダメージを与えると、破壊カウンターを付与する。破壊カウンターは3秒間持続し、最大5回まで重なり、重なりごとにその対象へ与えるダメージが2%増加する。破壊カウンターが5つの相手のポケモンが自分の技や強化攻撃を受けた後、最大HPの10%未満になると即座に倒れる（最大HPの40%分の固定ダメージ）。即座に倒すと自分のHPを回復し、最大HPを超える回復量は50%の割合で3秒間シールドに変換される。",
+          "en": "When the user deals damage with a boosted attack, a move, or its Unite Move, it applies a mark of destruction to the opposing Pokémon. The mark lasts 3s and stacks up to 5 times, increasing the user's damage to that target by 2% per stack. If an opposing Pokémon with 5 marks is below 10% max HP after taking damage from one of the user's moves or boosted attacks, it is instantly KO'd (dealing 40% of its max HP as true damage). Instantly KOing a Pokémon restores the user's HP, and any healing beyond its max HP is converted into a shield at a 50% rate for 3s."
         }
       },
       "moves": [
@@ -17855,9 +17855,9 @@
       },
       "passiveCondition": {
         "type": "stack-permanent",
-        "dmgBonusPctPerStack": 3,
+        "dmgBonusPctPerStack": 2,
         "maxStacks": 5,
-        "reason": "다크오라: 표식 대상 스택당 +3% 딜, 최대 5스택(+15%), 3초 지속 재적용",
+        "reason": "다크오라: 파괴 카운터 대상 스택당 +2% 딜, 최대 5스택(+10%), 3초 지속 재적용",
         "isNew": true
       }
     }
