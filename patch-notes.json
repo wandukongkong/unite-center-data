@@ -15382,8 +15382,8 @@
     ],
     "summary": {
       "ko": "불대문자의 1타 데미지와 매지컬플레임의 데미지가 하향되었다.",
-      "en": "Fire Blast's first-hit damage and Flame Charge's damage were decreased.",
-      "ja": "だいもんじの1撃目ダメージとニトロチャージのダメージが下方修正された。"
+      "en": "Fire Blast's first-hit damage and Mystical Fire's damage were decreased.",
+      "ja": "だいもんじの1撃目ダメージとマジカルフレイムのダメージが下方修正された。"
     },
     "changes": [
       {
@@ -15398,8 +15398,8 @@
       },
       {
         "ko": "[매지컬플레임] 데미지 특수공격의 117%+25×(레벨-1)+680 → 110%+20×(레벨-1)+630",
-        "en": "[Flame Charge] Damage: Sp. Atk 117%+25×(Lv-1)+680 → 110%+20×(Lv-1)+630",
-        "ja": "[ニトロチャージ] ダメージ 特攻の117%+25×(レベル-1)+680 → 110%+20×(レベル-1)+630"
+        "en": "[Mystical Fire] Damage: Sp. Atk 117%+25×(Lv-1)+680 → 110%+20×(Lv-1)+630",
+        "ja": "[マジカルフレイム] ダメージ 特攻の117%+25×(レベル-1)+680 → 110%+20×(レベル-1)+630"
       }
     ]
   },
@@ -23253,14 +23253,14 @@
     ],
     "summary": {
       "ko": "매지컬플레임의 데미지와 니트로차지의 강화 이동 속도 증가 수치가 하향되었고, 불대문자의 폭발 데미지가 상향되었다.",
-      "en": "Flame Charge's damage and its upgraded movement speed boost were decreased, while Fire Blast's explosion damage was increased.",
-      "ja": "ニトロチャージのダメージと強化時の移動速度増加が下方修正され、だいもんじの爆発ダメージが上方修正された。"
+      "en": "Mystical Fire's damage and Flame Charge's upgraded movement speed boost were decreased, while Fire Blast's explosion damage was increased.",
+      "ja": "マジカルフレイムのダメージとニトロチャージの強化時の移動速度増加が下方修正され、だいもんじの爆発ダメージが上方修正された。"
     },
     "changes": [
       {
         "ko": "[매지컬플레임] 데미지 특수공격의 130%+28×(레벨-1)+760 → 117%+25×(레벨-1)+680",
-        "en": "[Flame Charge] Damage: Sp. Atk 130%+28×(Lv-1)+760 → 117%+25×(Lv-1)+680",
-        "ja": "[ニトロチャージ] ダメージ 特攻の130%+28×(レベル-1)+760 → 117%+25×(レベル-1)+680"
+        "en": "[Mystical Fire] Damage: Sp. Atk 130%+28×(Lv-1)+760 → 117%+25×(Lv-1)+680",
+        "ja": "[マジカルフレイム] ダメージ 特攻の130%+28×(レベル-1)+760 → 117%+25×(レベル-1)+680"
       },
       {
         "ko": "[불대문자] 폭발 데미지 특수공격의 70.2%+14×(레벨-1)+360 → 94.8%+19×(레벨-1)+486",

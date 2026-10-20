@@ -1280,5 +1280,34 @@
         "evolutionLevel": 7
       }
     ]
+  },
+  {
+    "pokemonId": "118",
+    "evolutionChain": [
+      {
+        "stage": 1,
+        "dexNumber": 653,
+        "nameJa": "フォッコ",
+        "nameEn": "Fennekin",
+        "nameKo": "푸호꼬",
+        "evolutionLevel": null
+      },
+      {
+        "stage": 2,
+        "dexNumber": 654,
+        "nameJa": "テールナー",
+        "nameEn": "Braixen",
+        "nameKo": "테르나",
+        "evolutionLevel": 4
+      },
+      {
+        "stage": 3,
+        "dexNumber": 655,
+        "nameJa": "マフォクシー",
+        "nameEn": "Delphox",
+        "nameKo": "마폭시",
+        "evolutionLevel": 6
+      }
+    ]
   }
 ]
