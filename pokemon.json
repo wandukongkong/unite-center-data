@@ -1484,7 +1484,7 @@
       "ja": "サンダー"
     },
     "role": "Attack",
-    "difficulty": "Expert",
+    "difficulty": "Novice",
     "imageUrl": "https://placehold.co/80x80/F8D030/000?text=ZPD",
     "skills": {
       "basicAttack": {
@@ -1596,7 +1596,7 @@
           "ja": "オーバーボルテックスシージ",
           "en": "High-Voltage Siege"
         },
-        "cooldown": 89,
+        "cooldown": 100,
         "unlockedAtLevel": 9,
         "description": {
           "ko": "지정한 범위에 번개를 계속 떨어뜨린다. 번개가 떨어진 장소에는 전류 공간이 만들어진다. 번개가 상대편 포켓몬에게 명중하면 데미지를 주고 마비 상태로 만든다. 번개가 같은 상대편 포켓몬에게 3번 명중하면 그 포켓몬을 행동 불가로 만든다. 또한 번개가 상대 팀의 골 에리어에 5번 명중하면 골을 손상시켜 즉시 1번 같은 편이 골을 넣을 수 있게 만든다.",

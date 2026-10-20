@@ -2251,20 +2251,25 @@
       "nerf"
     ],
     "summary": {
-      "ko": "방전 데미지 감소, 유나이트 에너지 비용 증가",
-      "en": "Discharge damage reduced, Unite Move energy cost increased",
-      "ja": "ほうでんのダメージ減少、ユナイトわざのエネルギーコスト増加"
+      "ko": "방전 데미지 감소, 유나이트 기술 대기시간·에너지 비용 증가",
+      "en": "Discharge damage reduced, Unite Move cooldown and energy cost increased",
+      "ja": "ほうでんのダメージ減少、ユナイトわざの待ち時間・エネルギーコスト増加"
     },
     "changes": [
       {
-        "ko": "[방전] 데미지 −10%",
-        "en": "[Discharge] Damage −10%",
-        "ja": "[ほうでん] ダメージ −10%"
+        "ko": "[방전] 데미지 특수공격의 102% + 153 → 특수공격의 92% + 138",
+        "en": "[Discharge] Damage 102% Sp. Atk + 153 → 92% Sp. Atk + 138",
+        "ja": "[ほうでん] ダメージ 特攻の102% + 153 → 特攻の92% + 138"
       },
       {
-        "ko": "[유나이트 「하이볼티지시지」] 에너지 비용 80000 → 90000",
-        "en": "[Unite Move \"High-Voltage Siege\"] Energy cost 80000 → 90000",
-        "ja": "[ユナイトわざ「ハイボルテージシージ」] エネルギーコスト 80000 → 90000"
+        "ko": "[유나이트 기술 오버보텍스시지] 대기시간 89초 → 100초",
+        "en": "[Unite Move: High-Voltage Siege] Cooldown 89s → 100s",
+        "ja": "[ユナイトわざ オーバーボルテックスシージ] 待ち時間 89秒 → 100秒"
+      },
+      {
+        "ko": "[유나이트 기술 오버보텍스시지] 에너지 비용 80000 → 90000",
+        "en": "[Unite Move: High-Voltage Siege] Energy cost 80000 → 90000",
+        "ja": "[ユナイトわざ オーバーボルテックスシージ] エネルギーコスト 80000 → 90000"
       }
     ]
   },
@@ -3370,14 +3375,14 @@
     },
     "changes": [
       {
-        "ko": "[전자포] 데미지 12% 감소",
-        "en": "[Zap Cannon] Damage decreased by 12%",
-        "ja": "[でんじほう] ダメージ 12% 減少"
+        "ko": "[전자포] 데미지 특수공격의 255% + 382 → 특수공격의 224% + 336, 전류 공간 통과 시 데미지 특수공격의 306% + 460 → 특수공격의 269% + 404",
+        "en": "[Zap Cannon] Damage 255% Sp. Atk + 382 → 224% Sp. Atk + 336, Damage (through electric field) 306% Sp. Atk + 460 → 269% Sp. Atk + 404",
+        "ja": "[でんじほう] ダメージ 特攻の255% + 382 → 特攻の224% + 336、電流空間通過時のダメージ 特攻の306% + 460 → 特攻の269% + 404"
       },
       {
-        "ko": "[방전] 데미지 15% 감소",
-        "en": "[Discharge] Damage decreased by 15%",
-        "ja": "[ほうでん] ダメージ 15% 減少"
+        "ko": "[방전] 데미지 특수공격의 120% + 180 → 특수공격의 102% + 153",
+        "en": "[Discharge] Damage 120% Sp. Atk + 180 → 102% Sp. Atk + 153",
+        "ja": "[ほうでん] ダメージ 特攻の120% + 180 → 特攻の102% + 153"
       }
     ]
   },
@@ -3514,8 +3519,8 @@
     },
     "changes": [
       {
-        "ko": "[유나이트 기술 오버볼텍스 시지] 낙뢰 10회 → 7회, 간격 0.5초 → 1초, 1회 데미지 120% 증가",
-        "en": "[Unite Move: Thunderstorm Siege] Lightning strikes: 10 → 7, Interval: 0.5s → 1s, Damage per strike increased by 120%",
+        "ko": "[유나이트 기술 오버보텍스시지] 낙뢰 10회 → 7회, 간격 0.5초 → 1초, 1회 데미지 120% 증가",
+        "en": "[Unite Move: High-Voltage Siege] Lightning strikes: 10 → 7, Interval: 0.5s → 1s, Damage per strike increased by 120%",
         "ja": "[ユナイトわざ オーバーボルテックスシージ] 落雷 10回 → 7回、間隔 0.5秒 → 1秒、1回ダメージ 120% 増加"
       }
     ]
