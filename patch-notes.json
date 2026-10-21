@@ -2164,15 +2164,15 @@
       "nerf"
     ],
     "summary": {
-      "ko": "유나이트 「드립앤드스트로이」 데미지 감소",
+      "ko": "유나이트 「드라군샷」 데미지 감소",
       "en": "Unite Move \"Dreep and Destroy\" damage reduced",
-      "ja": "ユナイトわざ「ドリープアンドデストロイ」のダメージ減少"
+      "ja": "ユナイトわざ「ドラグーンショット」のダメージ減少"
     },
     "changes": [
       {
-        "ko": "[유나이트 「드립앤드스트로이」] 데미지 −8%",
+        "ko": "[유나이트 「드라군샷」] 데미지 −8%",
         "en": "[Unite Move \"Dreep and Destroy\"] Damage −8%",
-        "ja": "[ユナイトわざ「ドリープアンドデストロイ」] ダメージ −8%"
+        "ja": "[ユナイトわざ「ドラグーンショット」] ダメージ −8%"
       }
     ]
   },
@@ -3198,7 +3198,7 @@
       },
       {
         "ko": "[유나이트 기술 드라군샷] 데미지 8% 증가",
-        "en": "[Unite Move: Dragonite Dive] Damage increased by 8%",
+        "en": "[Unite Move: Dreep and Destroy] Damage increased by 8%",
         "ja": "[ユナイトわざ ドラグーンショット] ダメージ 8% 増加"
       }
     ]
