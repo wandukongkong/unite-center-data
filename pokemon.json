@@ -4541,7 +4541,7 @@
             "en": "Flame Wheel"
           },
           "category": "active",
-          "cooldown": 7,
+          "cooldown": 8.5,
           "unlockedAtLevel": 5,
           "upgradedAtLevel": 11,
           "description": {
@@ -4560,7 +4560,7 @@
           "id": "eruption",
           "name": {
             "ko": "분화",
-            "ja": "だいもんじ",
+            "ja": "ふんか",
             "en": "Eruption"
           },
           "category": "active",

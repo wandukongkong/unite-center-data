@@ -1855,8 +1855,8 @@
       "slider": "10",
       "addons": [
         {
-          "ratio": "100",
-          "base": "350",
+          "ratio": "90",
+          "base": "315",
           "slider": "0"
         }
       ]
