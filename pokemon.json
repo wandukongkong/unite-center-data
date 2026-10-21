@@ -4652,8 +4652,8 @@
           "id": "psychic",
           "name": {
             "ko": "염동력",
-            "ja": "サイコキネシス",
-            "en": "Psychic"
+            "ja": "ねんりき",
+            "en": "Confusion"
           },
           "category": "active",
           "cooldown": 4.5,
@@ -4675,12 +4675,12 @@
           },
           "category": "active",
           "cooldown": 9,
-          "unlockedAtLevel": 1,
+          "unlockedAtLevel": 3,
           "upgradedAtLevel": null,
           "description": {
-            "ko": "이 기술을 배우면 배틀이 끝날 때까지 싱크로·일반 공격·사이코키네시스의 데미지가 15% 증가한다. 사용하면 강화 공격을 준비하고 지정한 위치로 순간이동한다.",
-            "ja": "この技を覚えるとバトル終了までシンクロ・通常攻撃・サイコキネシスのダメージが15%増加する。使うと強化攻撃を準備し、指定した位置へテレポートする。",
-            "en": "Learning this move permanently increases the damage of Synchronize, basic attacks, and Psychic by 15% for the rest of the battle. When used, the user readies a boosted attack and warps to the designated location."
+            "ko": "이 기술을 배우면 이 기술을 다른 기술로 바꾸기 전까지 싱크로·일반 공격·염동력의 데미지가 15% 증가한다. 사용하면 강화 공격을 준비하고 지정한 위치로 순간이동한다.",
+            "ja": "この技を覚えると、この技を別の技に入れ替えるまでシンクロ・通常攻撃・ねんりきのダメージが15%増加する。使うと強化攻撃を準備し、指定した位置へテレポートする。",
+            "en": "Learning this move increases the damage of Synchronize, basic attacks, and Confusion by 15% until this move is replaced by another move. When used, the user readies a boosted attack and warps to the designated location."
           },
           "upgradeDescription": null
         },
@@ -4732,7 +4732,7 @@
           "id": "psychic_kinesis",
           "name": {
             "ko": "사이코키네시스",
-            "ja": "テレキネシス",
+            "ja": "サイコキネシス",
             "en": "Psychic"
           },
           "category": "active",
