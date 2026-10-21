@@ -2501,13 +2501,13 @@
   "83": {
     "_name": "메가뮤츠Y (Mega Mewtwo Y)",
     "B": {
-      "ratio": "43",
-      "base": "80",
+      "ratio": "47.3",
+      "base": "88",
       "slider": "4"
     },
     "X": {
-      "ratio": "49",
-      "base": "90",
+      "ratio": "52.92",
+      "base": "98",
       "slider": "5"
     },
     "R": {

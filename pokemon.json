@@ -6124,7 +6124,7 @@
       "ja": "メガミュウツーY"
     },
     "role": "Attack",
-    "difficulty": "Expert",
+    "difficulty": "Novice",
     "imageUrl": "",
     "skills": {
       "basicAttack": {
@@ -6279,7 +6279,7 @@
           "ja": "インフィニティサイコバーン",
           "en": "Infinite Psyburn"
         },
-        "cooldown": 120,
+        "cooldown": 134,
         "unlockedAtLevel": 9,
         "description": {
           "ko": "방해받지 않는 상태가 되어 상대편 포켓몬을 드러내고 1초 동안 집중한 뒤, 그들의 원래 위치에 강력한 사이코 광선을 내리꽂는다. 각 착탄 지점 주위의 상대편 포켓몬에게 데미지를 주고 0.6초 동안 행동할 수 없게 하며 특수방어를 3초 동안 15% 떨어뜨린다. 각 포켓몬은 광선 하나에만 맞는다.",
