@@ -1892,7 +1892,7 @@
         "ja": "[なみのり] 回復量 −10%"
       },
       {
-        "ko": "[유나이트 「극대 물수리검」] 필요 에너지량 90000 → 100000",
+        "ko": "[유나이트 「거대물수리검」] 필요 에너지량 90000 → 100000",
         "en": "[Unite Move \"Waterburst Shuriken\"] Energy required 90000 → 100000",
         "ja": "[ユナイトわざ「極大水手裏剣」] 必要エネルギー量 90000 → 100000"
       }
@@ -15951,7 +15951,7 @@
     "summary": {
       "ko": "공격 능력치가 상승하고 연막의 강화 공격 데미지, 거대물수리검의 대기 시간과 게이지 충전량이 개선되었다.",
       "en": "The Attack stat was increased, and Smokescreen's boosted-attack damage as well as Waterburst Shuriken's cooldown and gauge charge were improved.",
-      "ja": "攻撃の能力値が上昇し、えんまくの強化攻撃ダメージ、巨大みずしゅりけんの待ち時間とゲージ充電量が改善された。"
+      "ja": "攻撃の能力値が上昇し、えんまくの強化攻撃ダメージ、極大水手裏剣の待ち時間とゲージ充電量が改善された。"
     },
     "changes": [
       {
@@ -15972,12 +15972,12 @@
       {
         "ko": "[거대물수리검] 대기 시간: 134초 → 100초",
         "en": "[Waterburst Shuriken] Cooldown: 134s → 100s",
-        "ja": "[巨大みずしゅりけん] 待ち時間: 134秒 → 100秒"
+        "ja": "[極大水手裏剣] 待ち時間: 134秒 → 100秒"
       },
       {
         "ko": "[거대물수리검] 유나이트 기술 게이지 충전량: 120,000 → 90,000",
         "en": "[Waterburst Shuriken] Unite Move gauge charge: 120,000 → 90,000",
-        "ja": "[巨大みずしゅりけん] ユナイト技ゲージ充電量: 120,000 → 90,000"
+        "ja": "[極大水手裏剣] ユナイト技ゲージ充電量: 120,000 → 90,000"
       }
     ]
   },
@@ -28257,18 +28257,18 @@
     "summary": {
       "ko": "거대물수리검의 대기 시간과 유나이트 기술 게이지 충전량이 낮아져 발동이 빨라졌다.",
       "en": "Waterburst Shuriken's cooldown and Unite Move gauge charge requirement were reduced, letting it activate faster.",
-      "ja": "巨大みずしゅりけんの待ち時間とユナイト技ゲージ充電量が下がり、発動が速くなった。"
+      "ja": "極大水手裏剣の待ち時間とユナイト技ゲージ充電量が下がり、発動が速くなった。"
     },
     "changes": [
       {
         "ko": "[거대물수리검] 대기 시간: 164초 → 134초",
         "en": "[Waterburst Shuriken] Cooldown: 164s → 134s",
-        "ja": "[巨大みずしゅりけん] 待ち時間: 164秒 → 134秒"
+        "ja": "[極大水手裏剣] 待ち時間: 164秒 → 134秒"
       },
       {
         "ko": "[거대물수리검] 유나이트 기술 게이지 충전량: 145,000 → 120,000",
         "en": "[Waterburst Shuriken] Unite Move gauge charge: 145,000 → 120,000",
-        "ja": "[巨大みずしゅりけん] ユナイト技ゲージ充電量: 145,000 → 120,000"
+        "ja": "[極大水手裏剣] ユナイト技ゲージ充電量: 145,000 → 120,000"
       }
     ]
   },
@@ -31359,7 +31359,7 @@
     "summary": {
       "ko": "HP와 공격 능력치, 급류의 공격 상승 효과가 하향된 반면, 그림자분신의 분신 동작과 거대물수리검의 발동 속도가 개선되었다.",
       "en": "HP and Attack stats and Torrent's Attack bonus were lowered, while Double Team's copy behavior and Waterburst Shuriken's activation speed were improved.",
-      "ja": "HPと攻撃の能力値、げきりゅうの攻撃上昇効果が下方修正された一方、かげぶんしんの分身の動作と巨大みずしゅりけんの発動速度が改善された。"
+      "ja": "HPと攻撃の能力値、げきりゅうの攻撃上昇効果が下方修正された一方、かげぶんしんの分身の動作と極大水手裏剣の発動速度が改善された。"
     },
     "changes": [
       {
@@ -31385,7 +31385,7 @@
       {
         "ko": "[거대물수리검] 빠르게 발동되도록 조정",
         "en": "[Waterburst Shuriken] Adjusted to activate faster",
-        "ja": "[巨大みずしゅりけん] 発動が速くなるよう調整"
+        "ja": "[極大水手裏剣] 発動が速くなるよう調整"
       }
     ]
   },

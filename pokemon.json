@@ -3960,7 +3960,7 @@
     "skills": {
       "basicAttack": {
         "description": {
-          "ko": "일반 공격은 거리에 따라 달라지며, 3번째마다 강화 공격이 되어 증가한 데미지를 준다. 원거리 일반 공격은 명중 시 물거품·물수리검·파도타기의 재사용 대기시간을 0.5초 줄이고, 원거리 강화 공격은 대상의 이동 속도를 0.5초 동안 25% 추가로 떨어뜨린다. 근거리 일반 공격은 대상의 잃은 HP의 5%를 추가 데미지로 주고, 근거리 강화 공격은 대상을 관통하며 잃은 HP의 10%를 추가 데미지로 준다.",
+          "ko": "일반 공격은 거리에 따라 달라지며, 3번째마다 강화 공격이 되어 증가한 데미지를 준다. 원거리 일반 공격은 명중 시 거품·물수리검·파도타기의 재사용 대기시간을 0.5초 줄이고, 원거리 강화 공격은 대상의 이동 속도를 0.5초 동안 25% 추가로 떨어뜨린다. 근거리 일반 공격은 대상의 잃은 HP의 5%를 추가 데미지로 주고, 근거리 강화 공격은 대상을 관통하며 잃은 HP의 10%를 추가 데미지로 준다.",
           "ja": "通常攻撃は距離によって変わり、3回目ごとに強化攻撃になって増加したダメージを与える。遠距離の通常攻撃は当たると「あわ」「みずしゅりけん」「なみのり」の待ち時間を0.5秒縮め、遠距離の強化攻撃は対象の移動速度を0.5秒間さらに25%下げる。近距離の通常攻撃は対象の失ったHPの5%を追加ダメージとして与え、近距離の強化攻撃は対象を貫通して失ったHPの10%を追加ダメージとして与える。",
           "en": "Basic attacks differ by range, and every 3rd is a boosted attack that deals increased damage. Long-range basic attacks reduce the cooldown of Bubble, Water Shuriken, or Surf by 0.5s on hit; long-range boosted attacks also decrease the target's movement speed by 25% for 0.5s. Close-range basic attacks deal a bonus 5% of the target's missing HP, and close-range boosted attacks dash through the target for a bonus 10% missing HP damage."
         }
@@ -3982,7 +3982,7 @@
           "id": "bubble",
           "name": {
             "ko": "거품",
-            "ja": "バブルこうせん",
+            "ja": "あわ",
             "en": "Bubble"
           },
           "category": "active",
@@ -4022,7 +4022,7 @@
             "en": "Double Team"
           },
           "category": "active",
-          "cooldown": 8,
+          "cooldown": 9,
           "unlockedAtLevel": 5,
           "upgradedAtLevel": 13,
           "description": {
@@ -4107,10 +4107,10 @@
         "id": "waterburst_shuriken",
         "name": {
           "ko": "거대물수리검",
-          "ja": "巨大みずしゅりけん",
+          "ja": "極大水手裏剣",
           "en": "Waterburst Shuriken"
         },
-        "cooldown": 100,
+        "cooldown": 112,
         "unlockedAtLevel": 9,
         "description": {
           "ko": "방해받지 않는 상태가 되어 도약해 지정한 위치로 거대한 물수리검을 던져 경로의 상대편 포켓몬에게 데미지를 주고 이동 속도를 2초 동안 50% 떨어뜨린다. 이후 자신이 수리검 위에 나타나며 수리검이 터져 범위 안의 상대편 포켓몬에게 다시 데미지를 주고 날려버린다. 마지막에 지정한 방향으로 점프할 수 있다.",
