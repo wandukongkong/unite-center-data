@@ -3213,15 +3213,15 @@
       "buff"
     ],
     "summary": {
-      "ko": "특성 관통 효과 상향, 화염방사 데미지 증가, 봉인 쿨타임 단축",
-      "en": "Ability Flamethrower damage increased, Overheat cooldown reduced, Inferno penetration buff",
-      "ja": "特性の貫通効果強化、かえんほうしゃのダメージ増加、ふうじるのクールタイム短縮"
+      "ko": "틈새포착 효과 상향, 화염방사 데미지 증가, 봉인 쿨타임 단축",
+      "en": "Infiltrator buffed, Flamethrower damage increased, Imprison cooldown reduced",
+      "ja": "すきまをつくの効果強化、かえんほうしゃのダメージ増加、ふういんのクールタイム短縮"
     },
     "changes": [
       {
-        "ko": "[특성 관통] 적중 시 특방 무시 효과 2.5%(최대 8중첩) → 5%(최대 6중첩)",
+        "ko": "[틈새포착] 적중 시 특방 무시 효과 2.5%(최대 8중첩) → 5%(최대 6중첩)",
         "en": "[Ability: Infiltrator] Special Defense ignore effect on hit: 2.5% (max 8 stacks) → 5% (max 6 stacks)",
-        "ja": "[特性 すりぬけ] 命中時の特防無視効果 2.5%（最大8回重複）→ 5%（最大6回重複）"
+        "ja": "[特性 すきまをつく] 命中時の特防無視効果 2.5%（最大8回重複）→ 5%（最大6回重複）"
       },
       {
         "ko": "[화염방사] 적중 시 데미지 8% 증가",
@@ -3230,8 +3230,8 @@
       },
       {
         "ko": "[봉인] 쿨타임 9.5초 → 8.5초",
-        "en": "[Embargo] Cooldown: 9.5s → 8.5s",
-        "ja": "[ふうじる] クールタイム 9.5秒 → 8.5秒"
+        "en": "[Imprison] Cooldown: 9.5s → 8.5s",
+        "ja": "[ふういん] クールタイム 9.5秒 → 8.5秒"
       }
     ]
   },

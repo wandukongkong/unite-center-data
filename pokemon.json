@@ -540,7 +540,7 @@
       "ja": "シャンデラ"
     },
     "role": "Attack",
-    "difficulty": "Expert",
+    "difficulty": "Novice",
     "imageUrl": "https://placehold.co/80x80/7B68EE/FFF?text=CHN",
     "skills": {
       "basicAttack": {
@@ -571,7 +571,7 @@
             "en": "Ember"
           },
           "category": "active",
-          "cooldown": 8,
+          "cooldown": 7.5,
           "unlockedAtLevel": 1,
           "upgradedAtLevel": null,
           "description": {
@@ -589,7 +589,7 @@
             "en": "Night Shade"
           },
           "category": "active",
-          "cooldown": 8,
+          "cooldown": 7.5,
           "unlockedAtLevel": 3,
           "upgradedAtLevel": null,
           "description": {
@@ -629,7 +629,7 @@
             "en": "Overheat"
           },
           "category": "active",
-          "cooldown": 8,
+          "cooldown": 7.5,
           "unlockedAtLevel": 5,
           "upgradedAtLevel": 11,
           "description": {
@@ -651,7 +651,7 @@
             "en": "Poltergeist"
           },
           "category": "active",
-          "cooldown": 8,
+          "cooldown": 7.5,
           "unlockedAtLevel": 7,
           "upgradedAtLevel": 13,
           "description": {
@@ -673,7 +673,7 @@
             "en": "Imprison"
           },
           "category": "active",
-          "cooldown": 9,
+          "cooldown": 8.5,
           "unlockedAtLevel": 7,
           "upgradedAtLevel": 13,
           "description": {
